@@ -1,5 +1,1 @@
-theme: jekyll-theme-cayman
-
-# Build settings
-markdown: kramdown
 permalink: /:year/:month/:day/:title:output_ext
