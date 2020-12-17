@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
