@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+  
+# Site settings
+title: Tim Smale
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://tdsmale.github.io" # the base hostname & protocol for your site
+twitter_username: tdsmale
+github_username:  tdsmale
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title:output_ext
