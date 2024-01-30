@@ -17,23 +17,6 @@ Super-Id Block: Private, Strong and Not Valued.
 Repressed: Attitude most repressed.
 Trivializing: Attitude most taken for granted.
 
-Antagonistic
-Ego Block: Conscious, Strong and Valued.
-Familiar: ??
-Parental: ??
-
-Super-Ego Block: Conscious, Weak and Not Valued.
-Beneficial: ??
-Disruptive: ??
-
-Id Block: Unconscious, Weak and Valued.
-Fascinating: ??
-Cancelling: ??
-
-Super-Id Block: Unconscious, Strong and Not Valued.
-Naive: ??
-Blind Spot: ??
-
 INFORMATION ELEMENT PROPERTIES
 ------------------------------
 Position
@@ -169,12 +152,12 @@ Ti + Ne: Incongruent. Implies that potential is found in equitable structure.
 Fi + Ne: Seelie. Implies that potential is found in positive relations.
 
 Je + Se: Capture.
-Fe + Se: Insurmountable. Implies that power is captured by creating wilful personas.
+Fe + Se: Insurmountable. Implies that power is captured by creating personas.
 Te + Se: Vigorous. Implies that power is captured from the expenditure of resources.
 
 Je + Ne: Exploration.
-Te + Ne: Experimental. Implies that new possibilities are explored by being pragmatic and resourceful.
-Fe + Ne: Sociable. Implies that new possibilities are explored by creating social personas.
+Te + Ne: Experimental. Implies that possibilities are explored pragmatically.
+Fe + Ne: Sociable. Implies that possibilities are explored by creating personas.
 
 Je + Si: Safekeeping.
 Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
@@ -193,8 +176,8 @@ Ti + Ni: Unifying. Implies that to have foresight, you must first be observant o
 Fi + Ni: Isolating. Implies that to have foresight, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
-Ti + Si: Settled. Implies that what is considered "true" is that which no longer requires further litigation or discussion.
-Ti + Ni: Unifying. Implies that what is considered "true" will ultimately yield to a higher unifying truth, one way or another.
+Ti + Si: Settled. Implies that what is "true" is that which no longer requires further litigation or discussion.
+Ti + Ni: Unifying. Implies that what is "true" will ultimately yield to a higher unifying truth, one way or another.
 
 Ti + Pe: Structure.
 Ti + Ne: Incongruent. Implies that inherent structure is best represented by its opening of possibilities.
@@ -205,8 +188,8 @@ Fi + Ni: Isolating. Implies that individuation best occurs via a kind of harsh, 
 Fi + Si: Affirming. Implies that individuation best occurs via an affirming & accepting attitude, one that creates a base for possibilities.
 
 Fi + Pe: Relations.
-Fi + Ne: Seelie. Implies that relations are best represented by their opening of possibilities.
-Fi + Se: Privileging. Implies that relations are best represented by their possessiveness & unyielding manner.
+Fi + Ne: Seelie. Implies that inherent relations are best represented by their opening of possibilities.
+Fi + Se: Privileging. Implies that inherent relations are best represented by their possessiveness & unyielding manner.
 
 Te + Pi: Efficiency.
 Te + Si: Reliable. Implies that the most efficient resources are those that work as expected for the longest.
@@ -252,7 +235,7 @@ Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Symptomatic: Unflappable (Control + Structure). Representing the unyielding possessiveness of divided structures.
 Observant: Unifying (Truth + Foresight). Observing a higher unifying truth for things to yield to, one way or another.
-Promoting: Galvanising (Audience + Timing). Promoting the timely injection of energy into emotions.
+Promoting: Galvanising (Audience + Timing). Promoting the timely energizing of emotions.
 Integral: Insurmountable (Capture + Hosting). Creating personas for wilfully capturing audiences.
 
 Solipsistic.
@@ -277,7 +260,7 @@ Grounded, high-minded & driven to potentiate the best in how things are.
 Symptomatic: Seelie (Potential + Relations). Representing the potential for positive relations.
 Observant: Affirming (Individuation + Acceptance). Observing the good, the bad and the ugly in things.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
-Integral: Experimental (Exploration + Pragmatism). Creating experimental use of resources.
+Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation of resources.
 
 TYPES
 -----
@@ -327,14 +310,14 @@ Program: Unflappable. Naturally represents the unyielding possessiveness of divi
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Seelie. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
-Suggestive: Galvanizing. Wishes they were better at promoting the timely injection of energy into emotions.
+Suggestive: Galvanizing. Wishes they were better at promoting the timely energizing of emotions.
 Activating: Unifying. Can over-indulge observing a higher unifying truth for things to yield to, one way or another.
 Repressed: Reliable. Represses promoting the maintainance of reliable resources.
 Trivializing: Affirming. Trivializes observing the good, the bad and the ugly in things.
 
 The Fanatic. (IEI)
 Program: Unifying. Naturally observes a higher unifying truth for things to yield to, one way or another.
-Constructive: Galvanizing. Finds it constructive to promote the timely injection of energy into emotions.
+Constructive: Galvanizing. Finds it constructive to promote the timely energizing of emotions.
 Reluctant: Affirming. Reluctant to observe the good, the bad and the ugly in things.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
@@ -343,7 +326,7 @@ Repressed: Experimental. Represses creating pragmatic experimentation out of res
 Trivializing: Seelie. Trivializes representing the potential for positive relations.
 
 The Cultist. (EIE)
-Program: Galvanizing. Naturally promotes the timely injection of energy into emotions.
+Program: Galvanizing. Naturally promotes the timely energizing of emotions.
 Constructive: Unifying. Finds it constructive to observe a higher unifying truth for things to yield to, one way or another.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
@@ -358,7 +341,7 @@ Constructive: Unflappable. Finds it constructive to represent the unyielding pos
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Seelie. Finds it unnatural to represent the potential for positive relations.
 Suggestive: Unifying. Wishes they were better at observing a higher unifying truth for things to yield to, one way or another.
-Activating: Galvanizing. Can over-indulge promoting the timely injection of energy into emotions.
+Activating: Galvanizing. Can over-indulge promoting the timely energizing of emotions.
 Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
 Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
 
@@ -409,14 +392,14 @@ Reluctant: Unflappable. Reluctant to represent the unyielding possessiveness of 
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good, the bad and the ugly in things.
-Repressed: Galvanizing. Represses promoting the timely injection of energy into emotions.
+Repressed: Galvanizing. Represses promoting the timely energizing of emotions.
 Trivializing: Unifying. Trivializes observing a higher unifying truth for things to yield to, one way or another.
 
 The Stabilizer. (SLI)
 Program: Affirming. Naturally observes the good, the bad and the ugly in things.
 Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
 Reluctant: Unifying. Reluctant to observe a higher unifying truth for things to yield to, one way or another.
-Vulnerable: Galvanizing. Finds it unnatural to promote the timely injection of energy into emotions.
+Vulnerable: Galvanizing. Finds it unnatural to promote the timely energizing of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Seelie. Can over-indulge representing the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
@@ -425,7 +408,7 @@ Trivializing: Unflappable. Trivializes representing the unyielding possessivenes
 The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
-Reluctant: Galvanizing. Reluctant of promoting the timely injection of energy into emotions.
+Reluctant: Galvanizing. Reluctant of promoting the timely energizing of emotions.
 Vulnerable: Unifying. Finds it unnatural to observe a higher unifying truth for things to yield to, one way or another.
 Suggestive: Seelie. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
@@ -440,4 +423,4 @@ Vulnerable: Unflappable. Finds it unnatural to represent the unyielding possessi
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
 Repressed: Unifying. Represses observing a higher unifying truth for things to yield to, one way or another.
-Trivializing: Galvanizing. Trivializes promoting the timely injection of energy into emotions.
+Trivializing: Galvanizing. Trivializes promoting the timely energizing of emotions.
