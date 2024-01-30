@@ -165,16 +165,16 @@ Ti + Se: Unflappable. Implies that control is found in divided structures.
 Fi + Se: Privileging. Implies that control is found in negative relations.
 
 Ji + Ne: Potential.
-Ti + Ne: Incongruent. Implies that the best potential is found in equitable structure.
-Fi + Ne: Seelie. Implies that the best potential is found in potential relations.
+Ti + Ne: Incongruent. Implies that potential is found in equitable structure.
+Fi + Ne: Seelie. Implies that potential is found in positive relations.
 
 Je + Se: Capture.
-Fe + Se: Insurmountable. Implies that to be powerful, you must capture others to that power.
-Te + Se: Vigorous. Implies that to be powerful, you must capture resources to that power.
+Fe + Se: Insurmountable. Implies that power is captured by creating wilful personas.
+Te + Se: Vigorous. Implies that power is captured from the expenditure of resources.
 
 Je + Ne: Exploration.
 Te + Ne: Experimental. Implies that new possibilities are explored by being pragmatic and resourceful.
-Fe + Ne: Sociable. Implies that new possibilities are explored by hosting others to them.
+Fe + Ne: Sociable. Implies that new possibilities are explored by creating social personas.
 
 Je + Si: Safekeeping.
 Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
@@ -185,15 +185,15 @@ Te + Ni: Enterprising. Implies that to make the most of a moment, you must be ef
 Fe + Ni: Galvanising. Implies that to make the most of a moment, you must tend to an audience or atmosphere.
 
 Ji + Si: Acceptance.
-Ti + Si: Settled. Implies that to be accepting, you must be observant of inherent structures or logic.
-Fi + Si: Affirming. Implies that to be accepting, you must be observant of inherent personal relations.
+Ti + Si: Settled. Implies that to be accepting, you must first be observant of inherent structure.
+Fi + Si: Affirming. Implies that to be accepting, you must first be observant of inherent relations.
 
 Ji + Ni: Foresight.
-Ti + Ni: Unifying. Implies that to have foresight, you must be observant of inherent divided structure.
-Fi + Ni: Isolating. Implies that to have foresight, you must be observant of inherent negative relations.
+Ti + Ni: Unifying. Implies that to have foresight, you must first be observant of inherent structure.
+Fi + Ni: Isolating. Implies that to have foresight, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
-Ti + Si: Settled. Implies that what is considered "true" no longer requires further litigation or discussion.
+Ti + Si: Settled. Implies that what is considered "true" is that which no longer requires further litigation or discussion.
 Ti + Ni: Unifying. Implies that what is considered "true" will ultimately yield to a higher unifying truth, one way or another.
 
 Ti + Pe: Structure.
@@ -213,7 +213,7 @@ Te + Si: Reliable. Implies that the most efficient resources are those that work
 Te + Ni: Enterprising. Implies that the most efficient resources are those that provide the best yield at the right moment.
 
 Te + Pe: Pragmatism.
-Te + Se: Vigorous. Implies that the most pragmatic resources are those that have the biggest expenditure.
+Te + Se: Vigorous. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
 Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
 
 Fe + Pi: Emotions.
@@ -222,7 +222,7 @@ Fe + Ni: Galvanising. Implies that the best way to tend to emotions is to inject
 
 Fe + Pe: Personas.
 Fe + Ne: Sociable. Implies that the best personas create new possibilities.
-Fe + Se: Insurmountable. Imples that best personas capture others. King of the jungle attitude.
+Fe + Se: Insurmountable. Implies that best personas capture others. King of the jungle attitude.
 
 QUADRA PROPERTIES
 -----------------
@@ -238,7 +238,7 @@ Collectivist.
 Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
-Symptomatic: Incongruent (Ideation + Structure). Representing the equitable potential of structures.
+Symptomatic: Incongruent (Potential + Structure). Representing the equitable potential of structures.
 Observant: Settled (Truth + Acceptance). Observing the settled truth between things.
 Promoting: Hospitable (Audience + Safekeeping). Promoting the needs of others.
 Integral: Sociable (Exploration + Hosting). Creating personas for exploring possibilities with others.
@@ -274,7 +274,7 @@ Hierarchal.
 Economical.
 Affirmation of quality enhances pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
-Symptomatic: Seelie (Ideation + Relations). Representing the potential for positive relations.
+Symptomatic: Seelie (Potential + Relations). Representing the potential for positive relations.
 Observant: Affirming (Individuation + Acceptance). Observing the good, the bad and the ugly in things.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
 Integral: Experimental (Exploration + Pragmatism). Creating experimental use of resources.
