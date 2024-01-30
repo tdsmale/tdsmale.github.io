@@ -144,12 +144,12 @@ Seeks to be integral to external processes.
 Makes the most of positive situations.
 
 Ji + Se: Possession.
-Ti + Se: Unflappable. Implies that to be most in-control, you must possess an unyielding structure.
-Fi + Se: Privileging. Implies that to be most in-control, you must possess an unyielding character.
+Ti + Se: Unflappable. Implies that to be most in-control, you must possess unyielding structures.
+Fi + Se: Privileging. Implies that to be most in-control, you must possess unyielding relations.
 
 Ji + Ne: Potential.
 Ti + Ne: Incongruent. Implies that the best potential is found in structure.
-Fi + Ne: Seelie. Implies that the best potential is found in character.
+Fi + Ne: Seelie. Implies that the best potential is found in personal relations.
 
 Je + Se: Capture.
 Fe + Se: Insurmountable. Implies that to be powerful, you must capture others to that power.
@@ -168,12 +168,12 @@ Te + Ni: Enterprising. Implies that to make the most of a moment, you must be ef
 Fe + Ni: Galvanising. Implies that to make the most of a moment, you must tend to an audience or atmosphere.
 
 Ji + Si: Acceptance.
-Ti + Si: Settled. Implies that to be accepting, you must be observant of an inherent structure or logic.
-Fi + Si: Affirming. Implies that to be accepting, you must be observant of an inherent character.
+Ti + Si: Settled. Implies that to be accepting, you must be observant of inherent structures or logic.
+Fi + Si: Affirming. Implies that to be accepting, you must be observant of inherent personal relations.
 
 Ji + Ni: Foresight.
-Ti + Ni: Heretical. Implies that to have foresight, you must be observant of an inherent structure or logic.
-Fi + Ni: Isolating. Implies that to have foresight, you must be observant of an inherent character.
+Ti + Ni: Heretical. Implies that to have foresight, you must be observant of inherent structures or logics.
+Fi + Ni: Isolating. Implies that to have foresight, you must be observant of inherent personal relations.
 
 Ti + Pi: Truth.
 Ti + Si: Settled. Implies that what is considered "true" no longer requires further litigation or discussion.
@@ -257,7 +257,7 @@ Hierarchal.
 Economical.
 Affirmation of quality enhances pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
-Symptomatic: Seelie (Ideation + Character). Representing the potential for inner character.
+Symptomatic: Seelie (Ideation + Character). Representing the potential for personal relations.
 Observant: Affirming (Individuation + Acceptance). Observing the good, the bad and the ugly in things.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
 Integral: Experimental (Exploration + Pragmatism). Creating experimental use of resources.
@@ -308,7 +308,7 @@ Demonstrative: Enterprising. Looks down on promoting the timely profit of resour
 The Soldier. (LSI)
 Program: Unflappable. Naturally represents the unyielding possessiveness of structures.
 Creative: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
-Role: Seelie. Typically neglects representing the potential of inner character.
+Role: Seelie. Typically neglects representing the potential for personal relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely injection of energy into emotions.
 Activating: Heretical. Can over-indulge observing a higher truth for things to yield to.
@@ -323,7 +323,7 @@ Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable 
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
 Activating: Unflappable. Can over-indulge representing the unyielding possessiveness of structures.
 Ignoring: Experimental. Ignores creating pragmatic experimentation of resources.
-Demonstrative: Seelie. Looks down on representing the potential of inner character.
+Demonstrative: Seelie. Looks down on representing the potential for personal relations.
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely injection of energy into emotions.
@@ -332,14 +332,14 @@ Role: Reliable. Typically neglects promoting the maintenance of reliable resourc
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
 Suggestive: Unflappable. Wishes they were better at representing the unyielding possessiveness of structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
-Ignoring: Seelie. Ignores representing the potential of inner character.
+Ignoring: Seelie. Ignores representing the potential for personal relations.
 Demonstrative: Experimental. Looks down on creating pragmatic experimentation of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally good at creating personas for wilfully capturing audiences.
 Creative: Unflappable. Finds it constructive to represent the unyielding possessiveness of structures.
 Role: Experimental. Typically neglects creating pragmatic experimentation of resources.
-Vulnerable: Seelie. Finds it unnatural to represent the potential of inner character.
+Vulnerable: Seelie. Finds it unnatural to represent the potential for personal relations.
 Suggestive: Heretical. Wishes they were better at observing a higher truth for things to yield to.
 Activating: Galvanizing. Can over-indulge promoting the timely injection of energy into emotions.
 Ignoring: Affirming. Ignores observing the good, the bad and the ugly in things.
@@ -386,7 +386,7 @@ Ignoring: Settled. Ignores observing a settled, equitable truth between things.
 Demonstrative: Hospitable. Looks down on promoting the needs of others.
 
 The Receptive. (EII)
-Program: Seelie. Naturally represents the potential for inner character.
+Program: Seelie. Naturally represents the potential for personal relations.
 Creative: Experimental. Finds it constructive to create pragmatic experimentation of resources.
 Role: Unflappable. Typically neglects representing the unyielding possessiveness of structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
@@ -401,7 +401,7 @@ Creative: Reliable. Finds it constructive to promote the reliable maintenance of
 Role: Heretical. Typically neglects observing a higher truth for things to yield to.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely injection of energy into emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation of resources.
-Activating: Seelie. Can over-indulge representing the potential of inner character.
+Activating: Seelie. Can over-indulge representing the potential for personal relations.
 Ignoring: Insurmountable. Ignores creating personas for wilfully capturing audiences.
 Demonstrative: Unflappable. Looks down on representing the unyielding possessiveness of structures.
 
@@ -410,14 +410,14 @@ Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Creative: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
 Role: Galvanizing. Typically neglects the timely injection of energy into emotions.
 Vulnerable: Heretical. Finds it unnatural to observe a higher truth for things to yield to.
-Suggestive: Seelie. Wishes they were better at representing the inner potential of relations.
+Suggestive: Seelie. Wishes they were better at representing the potential for personal relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation of resources.
 Ignoring: Unflappable. Ignores representing the unyielding possessiveness of structures.
 Demonstrative: Insurmountable. Looks down on creating personas for wilfully capturing audiences.
 
 The Hierophant (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation of resources.
-Creative: Seelie. Finds it constructive to represent the potential of inner character.
+Creative: Seelie. Finds it constructive to represent the potential for personal relations.
 Role: Insurmountable. Typically neglects the timely injection of energy into emotions.
 Vulnerable: Unflappable. Finds it unnatural to represent the unyielding possessiveness of structures.
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
