@@ -171,12 +171,12 @@ Ti + Si: Settled. Implies that to be accepting of the present, you must first be
 Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
 
 Ji + Ni: Foresight.
-Ti + Ni: Unifying. Implies that to have foresight, you must first be observant of inherent structure.
+Ti + Ni: Heretical. Implies that to have foresight, you must first be observant of inherent structure.
 Fi + Ni: Isolating. Implies that to have foresight, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
 Ti + Si: Settled. Implies that what is "true" is that which no longer requires further litigation or discussion.
-Ti + Ni: Unifying. Implies that what is "true" will ultimately yield to a higher unifying truth, one way or another.
+Ti + Ni: Heretical. Implies that what is "true" will ultimately yield to a greater truth, one way or another.
 
 Ti + Pe: Structure.
 Ti + Ne: Incongruent. Implies that inherent structure is best represented by its opening of possibilities.
@@ -233,7 +233,7 @@ Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Symptomatic: Unflappable (Control + Structure). Representing the possessiveness of divided structures.
-Observant: Unifying (Truth + Foresight). Observing a unifying, inevitable truth.
+Observant: Heretical (Truth + Foresight). Observing a greater, inevitable truth.
 Promoting: Galvanising (Audience + Timing). Promoting the timely energizing of emotions.
 Integral: Insurmountable (Capture + Personas). Creating personas for wilfully capturing audiences.
 
@@ -310,12 +310,12 @@ Constructive: Insurmountable. Finds it constructive to create personas for wilfu
 Reluctant: Faithful. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely energizing of emotions.
-Activating: Unifying. Can over-indulge observing a unifying, inevitable truth.
+Activating: Heretical. Can over-indulge observing a greater, inevitable truth.
 Repressed: Reliable. Represses promoting the maintainance of reliable resources.
 Trivializing: Affirming. Trivializes observing the good, the bad and the ugly in things.
 
 The Fanatic. (IEI)
-Program: Unifying. Naturally observes a unifying, inevitable truth.
+Program: Heretical. Naturally observes a greater, inevitable truth.
 Constructive: Galvanizing. Finds it constructive to promote the timely energizing of emotions.
 Reluctant: Affirming. Reluctant to observe the good, the bad and the ugly in things.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
@@ -326,7 +326,7 @@ Trivializing: Faithful. Trivializes representing the potential for positive rela
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely energizing of emotions.
-Constructive: Unifying. Finds it constructive to observe a unifying, inevitable truth.
+Constructive: Heretical. Finds it constructive to observe a greater, inevitable truth.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
 Suggestive: Unflappable. Wishes they were better at representing the possessiveness of divided structures.
@@ -339,7 +339,7 @@ Program: Insurmountable. Naturally creates personas for wilfully capturing audie
 Constructive: Unflappable. Finds it constructive to represent the possessiveness of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Faithful. Finds it unnatural to represent the potential for positive relations.
-Suggestive: Unifying. Wishes they were better at observing a unifying, inevitable truth.
+Suggestive: Heretical. Wishes they were better at observing a greater, inevitable truth.
 Activating: Galvanizing. Can over-indulge promoting the timely energizing of emotions.
 Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
 Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
@@ -392,12 +392,12 @@ Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully c
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good, the bad and the ugly in things.
 Repressed: Galvanizing. Represses promoting the timely energizing of emotions.
-Trivializing: Unifying. Trivializes observing a unifying, inevitable truth.
+Trivializing: Heretical. Trivializes observing a greater, inevitable truth.
 
 The Stabilizer. (SLI)
 Program: Affirming. Naturally observes the good, the bad and the ugly in things.
 Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
-Reluctant: Unifying. Reluctant to observe a unifying, inevitable truth.
+Reluctant: Heretical. Reluctant to observe a greater, inevitable truth.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely energizing of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Faithful. Can over-indulge representing the potential for positive relations.
@@ -408,7 +408,7 @@ The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
 Reluctant: Galvanizing. Reluctant of promoting the timely energizing of emotions.
-Vulnerable: Unifying. Finds it unnatural to observe a unifying, inevitable truth.
+Vulnerable: Heretical. Finds it unnatural to observe a greater, inevitable truth.
 Suggestive: Faithful. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
 Repressed: Unflappable. Represses representing the possessiveness of divided structures.
@@ -421,5 +421,5 @@ Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing a
 Vulnerable: Unflappable. Finds it unnatural to represent the possessiveness of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
-Repressed: Unifying. Represses observing a unifying, inevitable truth.
+Repressed: Heretical. Represses observing a greater, inevitable truth.
 Trivializing: Galvanizing. Trivializes promoting the timely energizing of emotions.
