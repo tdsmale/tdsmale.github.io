@@ -1,18 +1,18 @@
 FUNCTIONS
 ---------
-Ego Block: Strong and Valued.
+Ego Block: Conscious, Strong and Valued.
 Program: Default "always-on" attitude.
 Creative: Attitude felt as constructive.
 
-Super-Ego Block: Weak and Not Valued.
+Super-Ego Block: Conscious, Weak and Not Valued.
 Role: Attitude felt as neglected.
 Vulnerable: Attitude felt as unnatural.
 
-Id Block: Weak and Valued.
+Id Block: Unconscious, Weak and Valued.
 Suggestive: Attitude one wishes to be better at.
 Activating: Attitude felt as over-indulged in.
 
-Super-Id Block: Strong and Not Valued.
+Super-Id Block: Unconscious, Strong and Not Valued.
 Ignoring: Attitude most ignored.
 Demonstrative: Attitude most looked down on.
 
