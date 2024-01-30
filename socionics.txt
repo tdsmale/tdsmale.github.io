@@ -312,7 +312,7 @@ Role: Seelie. Typically neglects representing the potential for personal relatio
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely injection of energy into emotions.
 Activating: Heretical. Can over-indulge observing a higher truth for things to yield to.
-Ignoring: Reliable. Ignores maintaining reliable resources, but only to represent the unyielding possessiveness of structures.
+Ignoring: Reliable. Ignores promoting the maintainance reliable resources.
 Demonstrative: Affirming. Looks down on observing the good, the bad and the ugly in things.
 
 The Apostate. (IEI)
