@@ -160,13 +160,13 @@ Je + Pe: Creating.
 Seeks to be a part of external processes.
 Makes the most of positive situations.
 
-Ji + Se: Possession.
-Ti + Se: Unflappable. Implies that to be most in-control, you must possess unyielding structures.
-Fi + Se: Privileging. Implies that to be most in-control, you must possess unyielding relations.
+Ji + Se: Control.
+Ti + Se: Unflappable. Implies that control is found in divided structures.
+Fi + Se: Privileging. Implies that control is found in negative relations.
 
 Ji + Ne: Potential.
-Ti + Ne: Incongruent. Implies that the best potential is found in structure.
-Fi + Ne: Seelie. Implies that the best potential is found in personal relations.
+Ti + Ne: Incongruent. Implies that the best potential is found in equitable structure.
+Fi + Ne: Seelie. Implies that the best potential is found in potential relations.
 
 Je + Se: Capture.
 Fe + Se: Insurmountable. Implies that to be powerful, you must capture others to that power.
@@ -189,12 +189,12 @@ Ti + Si: Settled. Implies that to be accepting, you must be observant of inheren
 Fi + Si: Affirming. Implies that to be accepting, you must be observant of inherent personal relations.
 
 Ji + Ni: Foresight.
-Ti + Ni: Heretical. Implies that to have foresight, you must be observant of inherent structures or logics.
-Fi + Ni: Isolating. Implies that to have foresight, you must be observant of inherent personal relations.
+Ti + Ni: Unifying. Implies that to have foresight, you must be observant of inherent divided structure.
+Fi + Ni: Isolating. Implies that to have foresight, you must be observant of inherent negative relations.
 
 Ti + Pi: Truth.
 Ti + Si: Settled. Implies that what is considered "true" no longer requires further litigation or discussion.
-Ti + Ni: Heretical. Implies that what is considered "true" will ultimately yield to a higher, greater truth.
+Ti + Ni: Unifying. Implies that what is considered "true" will ultimately yield to a higher unifying truth, one way or another.
 
 Ti + Pe: Structure.
 Ti + Ne: Incongruent. Implies that inherent structure is best represented by its opening of possibilities.
@@ -250,8 +250,8 @@ Hierarchal.
 Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
-Symptomatic: Unflappable (Possession + Structure). Representing the unyielding possessiveness of divided structures.
-Observant: Heretical (Truth + Foresight). Observing a greater truth for things to yield to.
+Symptomatic: Unflappable (Control + Structure). Representing the unyielding possessiveness of divided structures.
+Observant: Unifying (Truth + Foresight). Observing a higher unifying truth for things to yield to, one way or another.
 Promoting: Galvanising (Audience + Timing). Promoting the timely injection of energy into emotions.
 Integral: Insurmountable (Capture + Hosting). Creating personas for wilfully capturing audiences.
 
@@ -262,7 +262,7 @@ Collectivist.
 Economical.
 Psychological isolation collapses into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
-Symptomatic: Privileging (Possession + Relations). Representing the unyielding possessiveness of negative relations.
+Symptomatic: Privileging (Control + Relations). Representing the unyielding possessiveness of negative relations.
 Observant: Isolating (Individuation + Foresight). Observing the psychological distance between things.
 Promoting: Enterprising (Efficiency + Timing). Promoting the timely profit of resources.
 Integral: Vigorous (Capture + Pragmatism). Creating pragmatic expenditure of resources.
@@ -322,18 +322,18 @@ Activating: Hospitable. Can over-indulge promoting the needs of others.
 Repressed: Isolating. Represses observing the psychological distance between things.
 Trivializing: Enterprising. Trivializes promoting the timely profit of resources.
 
-The Soldier. (LSI)
+The Apostate. (LSI)
 Program: Unflappable. Naturally represents the unyielding possessiveness of divided structures.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Seelie. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely injection of energy into emotions.
-Activating: Heretical. Can over-indulge observing a higher truth for things to yield to.
+Activating: Unifying. Can over-indulge observing a higher unifying truth for things to yield to, one way or another.
 Repressed: Reliable. Represses promoting the maintainance of reliable resources.
 Trivializing: Affirming. Trivializes observing the good, the bad and the ugly in things.
 
-The Apostate. (IEI)
-Program: Heretical. Naturally observes a higher truth for things to yield to.
+The Fanatic. (IEI)
+Program: Unifying. Naturally observes a higher unifying truth for things to yield to, one way or another.
 Constructive: Galvanizing. Finds it constructive to promote the timely injection of energy into emotions.
 Reluctant: Affirming. Reluctant to observe the good, the bad and the ugly in things.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
@@ -344,7 +344,7 @@ Trivializing: Seelie. Trivializes representing the potential for positive relati
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely injection of energy into emotions.
-Constructive: Heretical. Finds it constructive to observe a higher truth for things to yield to.
+Constructive: Unifying. Finds it constructive to observe a higher unifying truth for things to yield to, one way or another.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
 Suggestive: Unflappable. Wishes they were better at representing the unyielding possessiveness of divided structures.
@@ -357,7 +357,7 @@ Program: Insurmountable. Naturally creates personas for wilfully capturing audie
 Constructive: Unflappable. Finds it constructive to represent the unyielding possessiveness of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Seelie. Finds it unnatural to represent the potential for positive relations.
-Suggestive: Heretical. Wishes they were better at observing a higher truth for things to yield to.
+Suggestive: Unifying. Wishes they were better at observing a higher unifying truth for things to yield to, one way or another.
 Activating: Galvanizing. Can over-indulge promoting the timely injection of energy into emotions.
 Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
 Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
@@ -410,12 +410,12 @@ Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully c
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good, the bad and the ugly in things.
 Repressed: Galvanizing. Represses promoting the timely injection of energy into emotions.
-Trivializing: Heretical. Trivializes observing a higher truth for things to yield to.
+Trivializing: Unifying. Trivializes observing a higher unifying truth for things to yield to, one way or another.
 
 The Stabilizer. (SLI)
 Program: Affirming. Naturally observes the good, the bad and the ugly in things.
 Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
-Reluctant: Heretical. Reluctant to observe a higher truth for things to yield to.
+Reluctant: Unifying. Reluctant to observe a higher unifying truth for things to yield to, one way or another.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely injection of energy into emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Seelie. Can over-indulge representing the potential for positive relations.
@@ -426,7 +426,7 @@ The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
 Reluctant: Galvanizing. Reluctant of promoting the timely injection of energy into emotions.
-Vulnerable: Heretical. Finds it unnatural to observe a higher truth for things to yield to.
+Vulnerable: Unifying. Finds it unnatural to observe a higher unifying truth for things to yield to, one way or another.
 Suggestive: Seelie. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
 Repressed: Unflappable. Represses representing the unyielding possessiveness of divided structures.
@@ -439,5 +439,5 @@ Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing a
 Vulnerable: Unflappable. Finds it unnatural to represent the unyielding possessiveness of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
-Repressed: Heretical. Represses observing a higher truth for things to yield to.
+Repressed: Unifying. Represses observing a higher unifying truth for things to yield to, one way or another.
 Trivializing: Galvanizing. Trivializes promoting the timely injection of energy into emotions.
