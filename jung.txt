@@ -346,7 +346,7 @@ Trivializing: Reliable. Trivializes promoting the reliable maintenance of resour
 
 The Puritan. (ESI)
 Program: Privileging. Naturally represents the possessiveness of negative relations.
-Constructive: Vigorous. Finds it constructive to create a a pragmatic expenditure of resources.
+Constructive: Vigorous. Finds it constructive to create a pragmatic expenditure of resources.
 Reluctant: Incongruent. Reluctant to represent the equitable possibilities of structures.
 Vulnerable: Sociable. Finds it unnatural to create personas for exploring possibilities with others.
 Suggestive: Enterprising. Wishes they were better at promoting the timely profit of resources.
@@ -359,7 +359,7 @@ Program: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Enterprising. Finds it constructive to promote the timely profit of resources.
 Reluctant: Settled. Reluctant to observe a settled, equitable truth.
 Vulnerable: Hospitable. Finds it unnatural to promote the needs of others.
-Suggestive: Vigorous. Wishes they were better at creating a a pragmatic expenditure of resources.
+Suggestive: Vigorous. Wishes they were better at creating a pragmatic expenditure of resources.
 Activating: Privileging. Can over-indulge representing the possessiveness of negative relations.
 Repressed: Sociable. Represses creating personas for exploring possibilities.
 Trivializing: Incongruent. Trivializes representing the equitable possibilities of structures.
@@ -370,7 +370,7 @@ Constructive: Isolating. Finds it constructive to observe an assured, inequitabl
 Reluctant: Hospitable. Reluctant to promote the needs of others.
 Vulnerable: Settled. Finds it unnatural to observe a settled, equitable truth.
 Suggestive: Privileging. Wishes they were better at representing the possessiveness of negative relations.
-Activating: Vigorous. Can over-indulge creating a a pragmatic expenditure of resources.
+Activating: Vigorous. Can over-indulge creating a pragmatic expenditure of resources.
 Repressed: Incongruent. Represses representing the equitable possibilities of structures.
 Trivializing: Sociable. Trivializes creating personas for exploring possibilities with others.
 
