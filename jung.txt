@@ -272,12 +272,12 @@ Vulnerable: Vigorous. Finds it unnatural to create a pragmatic expenditure of re
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
 Activating: Settled. Can over-indulge observing a settled, equitable truth.
 Repressed: Enterprising. Represses promoting the timely profit of resources.
-Trivializing: Isolating. Trivializes observing an assured inequitable distance.
+Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
 The Traditionalist. (SEI)
 Program: Settled. Naturally observes a settled, equitable truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
-Reluctant: Isolating. Reluctant to observe an assured inequitable distance.
+Reluctant: Isolating. Reluctant to observe an assured, inequitable distance.
 Vulnerable: Enterprising. Finds it unnatural to promote the timely profit of resources.
 Suggestive: Sociable. Wishes they were better at creating personas for exploring possibilities with others.
 Activating: Incongruent. Can over-indulge representing the equitable possibilities of structures.
@@ -301,7 +301,7 @@ Reluctant: Vigorous. Reluctant to create a pragmatic expenditure of resources.
 Vulnerable: Privileging. Finds it unnatural to represent the possessiveness of negative relations.
 Suggestive: Settled. Wishes they were better at observing a settled, equitable truth.
 Activating: Hospitable. Can over-indulge promoting the needs of others.
-Repressed: Isolating. Represses observing an assured inequitable distance.
+Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Enterprising. Trivializes promoting the timely profit of resources.
 
 The Apostate. (LSI)
@@ -350,12 +350,12 @@ Constructive: Vigorous. Finds it constructive to create a a pragmatic expenditur
 Reluctant: Incongruent. Reluctant to represent the equitable possibilities of structures.
 Vulnerable: Sociable. Finds it unnatural to create personas for exploring possibilities with others.
 Suggestive: Enterprising. Wishes they were better at promoting the timely profit of resources.
-Activating: Isolating. Can over-indulge observing an assured inequitable distance.
+Activating: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
 Trivializing: Settled. Trivializes observing a settled, equitable truth.
 
 The Critic. (ILI)
-Program: Isolating. Naturally observes an assured inequitable distance.
+Program: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Enterprising. Finds it constructive to promote the timely profit of resources.
 Reluctant: Settled. Reluctant to observe a settled, equitable truth.
 Vulnerable: Hospitable. Finds it unnatural to promote the needs of others.
@@ -366,7 +366,7 @@ Trivializing: Incongruent. Trivializes representing the equitable possibilities 
 
 The Profiteer. (LIE)
 Program: Enterprising. Naturally promotes the timely profit of resources.
-Constructive: Isolating. Finds it constructive to observe an assured inequitable distance.
+Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Reluctant: Hospitable. Reluctant to promote the needs of others.
 Vulnerable: Settled. Finds it unnatural to observe a settled, equitable truth.
 Suggestive: Privileging. Wishes they were better at representing the possessiveness of negative relations.
@@ -379,7 +379,7 @@ Program: Vigorous. Naturally creates a pragmatic expenditure of resources.
 Constructive: Privileging. Finds it constructive to represent the possessiveness of negative relations.
 Reluctant: Sociable. Reluctant to create personas for exploring possibilities with others.
 Vulnerable: Incongruent. Finds it unnatural to represent the equitable possibilities of structures.
-Suggestive: Isolating. Wishes they were better at observing an assured inequitable distance.
+Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Activating: Enterprising. Can over-indulge promoting the timely profit of resources.
 Repressed: Settled. Represses observing a settled, equitable truth.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
