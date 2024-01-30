@@ -1,6 +1,5 @@
 FUNCTIONS
 ---------
-Identifiable
 Ego Block: Public, Strong and Valued.
 Program: Default "always-on" attitude.
 Constructive: Attitude felt as constructive.
@@ -168,8 +167,8 @@ Te + Ni: Enterprising. Implies that to make the most of a moment, you must be ef
 Fe + Ni: Galvanising. Implies that to make the most of a moment, you must tend to an audience or atmosphere.
 
 Ji + Si: Acceptance.
-Ti + Si: Settled. Implies that to be accepting, you must first be observant of inherent structure.
-Fi + Si: Affirming. Implies that to be accepting, you must first be observant of inherent relations.
+Ti + Si: Settled. Implies that to be accepting of the present, you must first be observant of inherent structure.
+Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
 
 Ji + Ni: Foresight.
 Ti + Ni: Unifying. Implies that to have foresight, you must first be observant of inherent structure.
@@ -184,8 +183,8 @@ Ti + Ne: Incongruent. Implies that inherent structure is best represented by its
 Ti + Se: Unflappable. Implies that inherent structure is best represented by its possessiveness & unyielding manner. "The law of the land".
 
 Fi + Pi: Individuation.
-Fi + Ni: Isolating. Implies that individuation best occurs via a kind of harsh, psychological isolation. The inverse of "no man's an island".
-Fi + Si: Affirming. Implies that individuation best occurs via an affirming & accepting attitude, one that creates a base for possibilities.
+Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
+Fi + Si: Affirming. Implies that individuation best occurs by observing the good, the bad and the ugly.
 
 Fi + Pe: Relations.
 Fi + Ne: Faithful. Implies that inherent relations are best represented by their opening of possibilities.
@@ -199,9 +198,9 @@ Te + Pe: Pragmatism.
 Te + Se: Vigorous. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
 Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
 
-Fe + Pi: Emotions.
-Fe + Si: Hospitable. Implies that the best way to tend to emotions is to anticipate their needs.
-Fe + Ni: Galvanising. Implies that the best way to tend to emotions is to inject energy into them.
+Fe + Pi: Audience.
+Fe + Si: Hospitable. Implies that the best way to tend to an audience is to anticipate their needs.
+Fe + Ni: Galvanising. Implies that the best way to tend to an audience is to inject energy into them.
 
 Fe + Pe: Personas.
 Fe + Ne: Sociable. Implies that the best personas create new possibilities.
@@ -222,9 +221,9 @@ Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Symptomatic: Incongruent (Potential + Structure). Representing the equitable potential of structures.
-Observant: Settled (Truth + Acceptance). Observing the settled truth between things.
+Observant: Settled (Truth + Acceptance). Observing a settled, equitable truth.
 Promoting: Hospitable (Audience + Safekeeping). Promoting the needs of others.
-Integral: Sociable (Exploration + Hosting). Creating personas for exploring possibilities with others.
+Integral: Sociable (Exploration + Personas). Creating personas for exploring possibilities with others.
 
 Schismatic.
 Beta.
@@ -233,10 +232,10 @@ Hierarchal.
 Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
-Symptomatic: Unflappable (Control + Structure). Representing the unyielding possessiveness of divided structures.
-Observant: Unifying (Truth + Foresight). Observing a higher unifying truth for things to yield to, one way or another.
+Symptomatic: Unflappable (Control + Structure). Representing the possessiveness of divided structures.
+Observant: Unifying (Truth + Foresight). Observing a unifying, inevitable truth.
 Promoting: Galvanising (Audience + Timing). Promoting the timely energizing of emotions.
-Integral: Insurmountable (Capture + Hosting). Creating personas for wilfully capturing audiences.
+Integral: Insurmountable (Capture + Personas). Creating personas for wilfully capturing audiences.
 
 Solipsistic.
 Gamma.
@@ -245,10 +244,10 @@ Collectivist.
 Economical.
 Psychological isolation collapses into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
-Symptomatic: Privileging (Control + Relations). Representing the unyielding possessiveness of negative relations.
-Observant: Isolating (Individuation + Foresight). Observing the psychological distance between things.
+Symptomatic: Privileging (Control + Relations). Representing the possessiveness of negative relations.
+Observant: Isolating (Individuation + Foresight). Observing an assured, inequitable distance.
 Promoting: Enterprising (Efficiency + Timing). Promoting the timely profit of resources.
-Integral: Vigorous (Capture + Pragmatism). Creating pragmatic expenditure of resources.
+Integral: Vigorous (Capture + Pragmatism). Creating a pragmatic expenditure of resources.
 
 Homeostatic.
 Delta.
@@ -268,159 +267,159 @@ TYPES
 The Sophist. (LII)
 Program: Incongruent. Naturally represents the equitable possibilities of structures.
 Constructive: Sociable. Finds it constructive to create personas for exploring possibilities with others.
-Reluctant: Privileging. Reluctant to represent the unyielding possessiveness of negative relations.
-Vulnerable: Vigorous. Finds it unnatural to create pragmatic expenditure out of resources.
+Reluctant: Privileging. Reluctant to represent the possessiveness of negative relations.
+Vulnerable: Vigorous. Finds it unnatural to create a pragmatic expenditure of resources.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
-Activating: Settled. Can over-indulge observing a settled, equitable truth between things.
+Activating: Settled. Can over-indulge observing a settled, equitable truth.
 Repressed: Enterprising. Represses promoting the timely profit of resources.
-Trivializing: Isolating. Trivializes observing the psychological distance between things.
+Trivializing: Isolating. Trivializes observing an assured inequitable distance.
 
 The Traditionalist. (SEI)
-Program: Settled. Naturally observes a settled, equitable truth between things.
+Program: Settled. Naturally observes a settled, equitable truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
-Reluctant: Isolating. Reluctant to observe the psychological distance between things.
+Reluctant: Isolating. Reluctant to observe an assured inequitable distance.
 Vulnerable: Enterprising. Finds it unnatural to promote the timely profit of resources.
 Suggestive: Sociable. Wishes they were better at creating personas for exploring possibilities with others.
 Activating: Incongruent. Can over-indulge representing the equitable possibilities of structures.
-Repressed: Vigorous. Represses creating pragmatic expenditure out of resources.
-Trivializing: Privileging. Trivializes representing the unyielding possessiveness of negative relations.
+Repressed: Vigorous. Represses creating a pragmatic expenditure of resources.
+Trivializing: Privileging. Trivializes representing the possessiveness of negative relations.
 
 The Nurse. (ESE)
 Program: Hospitable. Naturally promoting of the needs of others.
-Constructive: Settled. Finds it constructive to observe a settled, equitable truth between things.
+Constructive: Settled. Finds it constructive to observe a settled, equitable truth.
 Reluctant: Enterprising. Reluctant to promote the timely profit of resources.
-Vulnerable: Isolating. Finds it unnatural to observe the psychological distance between people.
+Vulnerable: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Suggestive: Incongruent. Wishes they were better at representing the equitable possibilities of structures.
 Activating: Sociable. Can over-indulge creating personas for exploring possibilities with others.
-Repressed: Privileging. Represses representing the unyielding possessiveness of negative relations.
-Trivializing: Vigorous. Trivializes creating pragmatic expenditure out of resources.
+Repressed: Privileging. Represses representing the possessiveness of negative relations.
+Trivializing: Vigorous. Trivializes creating a pragmatic expenditure of resources.
 
 The Fool. (ILE)
 Program: Sociable. Naturally creates personas for exploring possibilities with others.
 Constructive: Incongruent. Finds it constructive to represent the equitable possibilities of structures.
-Reluctant: Vigorous. Reluctant to create pragmatic expenditure out of resources.
-Vulnerable: Privileging. Finds it unnatural to represent the unyielding possessiveness of negative relations.
-Suggestive: Settled. Wishes they were better at observing a settled, equitable truth between things.
+Reluctant: Vigorous. Reluctant to create a pragmatic expenditure of resources.
+Vulnerable: Privileging. Finds it unnatural to represent the possessiveness of negative relations.
+Suggestive: Settled. Wishes they were better at observing a settled, equitable truth.
 Activating: Hospitable. Can over-indulge promoting the needs of others.
-Repressed: Isolating. Represses observing the psychological distance between things.
+Repressed: Isolating. Represses observing an assured inequitable distance.
 Trivializing: Enterprising. Trivializes promoting the timely profit of resources.
 
 The Apostate. (LSI)
-Program: Unflappable. Naturally represents the unyielding possessiveness of divided structures.
+Program: Unflappable. Naturally represents the possessiveness of divided structures.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Faithful. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely energizing of emotions.
-Activating: Unifying. Can over-indulge observing a higher unifying truth for things to yield to, one way or another.
+Activating: Unifying. Can over-indulge observing a unifying, inevitable truth.
 Repressed: Reliable. Represses promoting the maintainance of reliable resources.
 Trivializing: Affirming. Trivializes observing the good, the bad and the ugly in things.
 
 The Fanatic. (IEI)
-Program: Unifying. Naturally observes a higher unifying truth for things to yield to, one way or another.
+Program: Unifying. Naturally observes a unifying, inevitable truth.
 Constructive: Galvanizing. Finds it constructive to promote the timely energizing of emotions.
 Reluctant: Affirming. Reluctant to observe the good, the bad and the ugly in things.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
-Activating: Unflappable. Can over-indulge representing the unyielding possessiveness of divided structures.
+Activating: Unflappable. Can over-indulge representing the possessiveness of divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
 Trivializing: Faithful. Trivializes representing the potential for positive relations.
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely energizing of emotions.
-Constructive: Unifying. Finds it constructive to observe a higher unifying truth for things to yield to, one way or another.
+Constructive: Unifying. Finds it constructive to observe a unifying, inevitable truth.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
-Suggestive: Unflappable. Wishes they were better at representing the unyielding possessiveness of divided structures.
+Suggestive: Unflappable. Wishes they were better at representing the possessiveness of divided structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
 Repressed: Faithful. Represses representing the potential for positive relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally creates personas for wilfully capturing audiences.
-Constructive: Unflappable. Finds it constructive to represent the unyielding possessiveness of divided structures.
+Constructive: Unflappable. Finds it constructive to represent the possessiveness of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Faithful. Finds it unnatural to represent the potential for positive relations.
-Suggestive: Unifying. Wishes they were better at observing a higher unifying truth for things to yield to, one way or another.
+Suggestive: Unifying. Wishes they were better at observing a unifying, inevitable truth.
 Activating: Galvanizing. Can over-indulge promoting the timely energizing of emotions.
 Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
 Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
 
 The Puritan. (ESI)
-Program: Privileging. Naturally represents the unyielding possessiveness of negative relations.
-Constructive: Vigorous. Finds it constructive to create a pragmatic expenditure out of resources.
+Program: Privileging. Naturally represents the possessiveness of negative relations.
+Constructive: Vigorous. Finds it constructive to create a a pragmatic expenditure of resources.
 Reluctant: Incongruent. Reluctant to represent the equitable possibilities of structures.
 Vulnerable: Sociable. Finds it unnatural to create personas for exploring possibilities with others.
 Suggestive: Enterprising. Wishes they were better at promoting the timely profit of resources.
-Activating: Isolating. Can over-indulge observing the psychological distance between things.
+Activating: Isolating. Can over-indulge observing an assured inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
-Trivializing: Settled. Trivializes observing a settled, equitable truth between things.
+Trivializing: Settled. Trivializes observing a settled, equitable truth.
 
 The Critic. (ILI)
-Program: Isolating. Naturally observes the psychological distance between things.
+Program: Isolating. Naturally observes an assured inequitable distance.
 Constructive: Enterprising. Finds it constructive to promote the timely profit of resources.
-Reluctant: Settled. Reluctant to observe a settled, equitable truth between things.
+Reluctant: Settled. Reluctant to observe a settled, equitable truth.
 Vulnerable: Hospitable. Finds it unnatural to promote the needs of others.
-Suggestive: Vigorous. Wishes they were better at creating a pragmatic expenditure out of resources.
-Activating: Privileging. Can over-indulge representing the unyielding possessiveness of negative relations.
+Suggestive: Vigorous. Wishes they were better at creating a a pragmatic expenditure of resources.
+Activating: Privileging. Can over-indulge representing the possessiveness of negative relations.
 Repressed: Sociable. Represses creating personas for exploring possibilities.
 Trivializing: Incongruent. Trivializes representing the equitable possibilities of structures.
 
 The Profiteer. (LIE)
 Program: Enterprising. Naturally promotes the timely profit of resources.
-Constructive: Isolating. Finds it constructive to observe the psychological distance between things.
+Constructive: Isolating. Finds it constructive to observe an assured inequitable distance.
 Reluctant: Hospitable. Reluctant to promote the needs of others.
-Vulnerable: Settled. Finds it unnatural to observe a settled, equitable truth between things.
-Suggestive: Privileging. Wishes they were better at representing the unyielding possessiveness of negative relations.
-Activating: Vigorous. Can over-indulge creating a pragmatic expenditure out of resources.
+Vulnerable: Settled. Finds it unnatural to observe a settled, equitable truth.
+Suggestive: Privileging. Wishes they were better at representing the possessiveness of negative relations.
+Activating: Vigorous. Can over-indulge creating a a pragmatic expenditure of resources.
 Repressed: Incongruent. Represses representing the equitable possibilities of structures.
 Trivializing: Sociable. Trivializes creating personas for exploring possibilities with others.
 
 The Prodigal. (SEE)
-Program: Vigorous. Naturally creates pragmatic expenditure out of resources.
-Constructive: Privileging. Finds it constructive to represent the unyielding possessiveness of negative relations.
+Program: Vigorous. Naturally creates a pragmatic expenditure of resources.
+Constructive: Privileging. Finds it constructive to represent the possessiveness of negative relations.
 Reluctant: Sociable. Reluctant to create personas for exploring possibilities with others.
 Vulnerable: Incongruent. Finds it unnatural to represent the equitable possibilities of structures.
-Suggestive: Isolating. Wishes they were better at observing the psychological distance between things.
+Suggestive: Isolating. Wishes they were better at observing an assured inequitable distance.
 Activating: Enterprising. Can over-indulge promoting the timely profit of resources.
-Repressed: Settled. Represses observing a settled, equitable truth between things.
+Repressed: Settled. Represses observing a settled, equitable truth.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
 
 The Seelie. (EII)
 Program: Faithful. Naturally represents the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
-Reluctant: Unflappable. Reluctant to represent the unyielding possessiveness of divided structures.
+Reluctant: Unflappable. Reluctant to represent the possessiveness of divided structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good, the bad and the ugly in things.
 Repressed: Galvanizing. Represses promoting the timely energizing of emotions.
-Trivializing: Unifying. Trivializes observing a higher unifying truth for things to yield to, one way or another.
+Trivializing: Unifying. Trivializes observing a unifying, inevitable truth.
 
 The Stabilizer. (SLI)
 Program: Affirming. Naturally observes the good, the bad and the ugly in things.
 Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
-Reluctant: Unifying. Reluctant to observe a higher unifying truth for things to yield to, one way or another.
+Reluctant: Unifying. Reluctant to observe a unifying, inevitable truth.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely energizing of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Faithful. Can over-indulge representing the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
-Trivializing: Unflappable. Trivializes representing the unyielding possessiveness of divided structures.
+Trivializing: Unflappable. Trivializes representing the possessiveness of divided structures.
 
 The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
 Reluctant: Galvanizing. Reluctant of promoting the timely energizing of emotions.
-Vulnerable: Unifying. Finds it unnatural to observe a higher unifying truth for things to yield to, one way or another.
+Vulnerable: Unifying. Finds it unnatural to observe a unifying, inevitable truth.
 Suggestive: Faithful. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
-Repressed: Unflappable. Represses representing the unyielding possessiveness of divided structures.
+Repressed: Unflappable. Represses representing the possessiveness of divided structures.
 Trivializing: Insurmountable. Trivializes creating personas for wilfully capturing audiences.
 
 The Hierophant. (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation out of resources.
 Constructive: Faithful. Finds it constructive to represent the potential for positive relations.
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
-Vulnerable: Unflappable. Finds it unnatural to represent the unyielding possessiveness of divided structures.
+Vulnerable: Unflappable. Finds it unnatural to represent the possessiveness of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
-Repressed: Unifying. Represses observing a higher unifying truth for things to yield to, one way or another.
+Repressed: Unifying. Represses observing a unifying, inevitable truth.
 Trivializing: Galvanizing. Trivializes promoting the timely energizing of emotions.
