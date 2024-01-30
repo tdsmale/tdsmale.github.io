@@ -149,7 +149,7 @@ Fi + Se: Privileging. Implies that control is found in negative relations.
 
 Ji + Ne: Potential.
 Ti + Ne: Incongruent. Implies that potential is found in equitable structure.
-Fi + Ne: Seelie. Implies that potential is found in positive relations.
+Fi + Ne: Faithful. Implies that potential is found in positive relations.
 
 Je + Se: Capture.
 Fe + Se: Insurmountable. Implies that power is captured by creating personas.
@@ -188,7 +188,7 @@ Fi + Ni: Isolating. Implies that individuation best occurs via a kind of harsh, 
 Fi + Si: Affirming. Implies that individuation best occurs via an affirming & accepting attitude, one that creates a base for possibilities.
 
 Fi + Pe: Relations.
-Fi + Ne: Seelie. Implies that inherent relations are best represented by their opening of possibilities.
+Fi + Ne: Faithful. Implies that inherent relations are best represented by their opening of possibilities.
 Fi + Se: Privileging. Implies that inherent relations are best represented by their possessiveness & unyielding manner.
 
 Te + Pi: Efficiency.
@@ -257,7 +257,7 @@ Hierarchal.
 Economical.
 Affirmation of quality enhances pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
-Symptomatic: Seelie (Potential + Relations). Representing the potential for positive relations.
+Symptomatic: Faithful (Potential + Relations). Representing the potential for positive relations.
 Observant: Affirming (Individuation + Acceptance). Observing the good, the bad and the ugly in things.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
 Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation of resources.
@@ -308,7 +308,7 @@ Trivializing: Enterprising. Trivializes promoting the timely profit of resources
 The Apostate. (LSI)
 Program: Unflappable. Naturally represents the unyielding possessiveness of divided structures.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
-Reluctant: Seelie. Reluctant to represent the potential for positive relations.
+Reluctant: Faithful. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely energizing of emotions.
 Activating: Unifying. Can over-indulge observing a higher unifying truth for things to yield to, one way or another.
@@ -323,7 +323,7 @@ Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable 
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
 Activating: Unflappable. Can over-indulge representing the unyielding possessiveness of divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
-Trivializing: Seelie. Trivializes representing the potential for positive relations.
+Trivializing: Faithful. Trivializes representing the potential for positive relations.
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely energizing of emotions.
@@ -332,14 +332,14 @@ Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
 Suggestive: Unflappable. Wishes they were better at representing the unyielding possessiveness of divided structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
-Repressed: Seelie. Represses representing the potential for positive relations.
+Repressed: Faithful. Represses representing the potential for positive relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally creates personas for wilfully capturing audiences.
 Constructive: Unflappable. Finds it constructive to represent the unyielding possessiveness of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
-Vulnerable: Seelie. Finds it unnatural to represent the potential for positive relations.
+Vulnerable: Faithful. Finds it unnatural to represent the potential for positive relations.
 Suggestive: Unifying. Wishes they were better at observing a higher unifying truth for things to yield to, one way or another.
 Activating: Galvanizing. Can over-indulge promoting the timely energizing of emotions.
 Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
@@ -385,8 +385,8 @@ Activating: Enterprising. Can over-indulge promoting the timely profit of resour
 Repressed: Settled. Represses observing a settled, equitable truth between things.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
 
-The Receptive. (EII)
-Program: Seelie. Naturally represents the potential for positive relations.
+The Seelie. (EII)
+Program: Faithful. Naturally represents the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
 Reluctant: Unflappable. Reluctant to represent the unyielding possessiveness of divided structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
@@ -401,7 +401,7 @@ Constructive: Reliable. Finds it constructive to promote the reliable maintenanc
 Reluctant: Unifying. Reluctant to observe a higher unifying truth for things to yield to, one way or another.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely energizing of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
-Activating: Seelie. Can over-indulge representing the potential for positive relations.
+Activating: Faithful. Can over-indulge representing the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
 Trivializing: Unflappable. Trivializes representing the unyielding possessiveness of divided structures.
 
@@ -410,14 +410,14 @@ Program: Reliable. Naturally promotes the maintenance of reliable resources.
 Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
 Reluctant: Galvanizing. Reluctant of promoting the timely energizing of emotions.
 Vulnerable: Unifying. Finds it unnatural to observe a higher unifying truth for things to yield to, one way or another.
-Suggestive: Seelie. Wishes they were better at representing the potential for positive relations.
+Suggestive: Faithful. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
 Repressed: Unflappable. Represses representing the unyielding possessiveness of divided structures.
 Trivializing: Insurmountable. Trivializes creating personas for wilfully capturing audiences.
 
-The Hierophant (IEE).
+The Hierophant. (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation out of resources.
-Constructive: Seelie. Finds it constructive to represent the potential for positive relations.
+Constructive: Faithful. Finds it constructive to represent the potential for positive relations.
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
 Vulnerable: Unflappable. Finds it unnatural to represent the unyielding possessiveness of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
