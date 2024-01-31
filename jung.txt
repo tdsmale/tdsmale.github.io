@@ -221,7 +221,7 @@ Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Symptomatic: Incongruent (Potential + Structure). Representing the equitable potential of structures.
-Observant: Settled (Truth + Acceptance). Observing a settled, equitable truth.
+Observant: Settled (Truth + Acceptance). Observing an equitably settled truth.
 Promoting: Hospitable (Audience + Safekeeping). Promoting the needs of others.
 Integral: Sociable (Exploration + Personas). Creating personas for exploring possibilities with others.
 
@@ -270,12 +270,12 @@ Constructive: Sociable. Finds it constructive to create personas for exploring p
 Reluctant: Privileging. Reluctant to represent the control of negative relations.
 Vulnerable: Vigorous. Finds it unnatural to create a pragmatic expenditure of resources.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
-Activating: Settled. Can over-indulge observing a settled, equitable truth.
+Activating: Settled. Can over-indulge observing an equitably settled truth.
 Repressed: Enterprising. Represses promoting a timely yield from resources.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
 The Traditionalist. (SEI) 
-Program: Settled. Naturally observes a settled, equitable truth.
+Program: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Reluctant: Isolating. Reluctant to observe an assured, inequitable distance.
 Vulnerable: Enterprising. Finds it unnatural to promote a timely yield from resources.
@@ -286,7 +286,7 @@ Trivializing: Privileging. Trivializes representing the control of negative rela
 
 The Nurse. (ESE) 
 Program: Hospitable. Naturally promoting of the needs of others.
-Constructive: Settled. Finds it constructive to observe a settled, equitable truth.
+Constructive: Settled. Finds it constructive to observe an equitably settled truth.
 Reluctant: Enterprising. Reluctant to promote a timely yield from resources.
 Vulnerable: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Suggestive: Incongruent. Wishes they were better at representing the equitable possibilities of structures.
@@ -299,7 +299,7 @@ Program: Sociable. Naturally creates personas for exploring possibilities with o
 Constructive: Incongruent. Finds it constructive to represent the equitable possibilities of structures.
 Reluctant: Vigorous. Reluctant to create a pragmatic expenditure of resources.
 Vulnerable: Privileging. Finds it unnatural to represent the control of negative relations.
-Suggestive: Settled. Wishes they were better at observing a settled, equitable truth.
+Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
 Activating: Hospitable. Can over-indulge promoting the needs of others.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Enterprising. Trivializes promoting a timely yield from resources.
@@ -352,12 +352,12 @@ Vulnerable: Sociable. Finds it unnatural to create personas for exploring possib
 Suggestive: Enterprising. Wishes they were better at promoting a timely yield from resources.
 Activating: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
-Trivializing: Settled. Trivializes observing a settled, equitable truth.
+Trivializing: Settled. Trivializes observing an equitably settled truth.
 
 The Critic. (ILI)
 Program: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Enterprising. Finds it constructive to promote a timely yield from resources.
-Reluctant: Settled. Reluctant to observe a settled, equitable truth.
+Reluctant: Settled. Reluctant to observe an equitably settled truth.
 Vulnerable: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Vigorous. Wishes they were better at creating a pragmatic expenditure of resources.
 Activating: Privileging. Can over-indulge representing the control of negative relations.
@@ -368,7 +368,7 @@ The Profiteer. (LIE)
 Program: Enterprising. Naturally promotes a timely yield from resources.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Reluctant: Hospitable. Reluctant to promote the needs of others.
-Vulnerable: Settled. Finds it unnatural to observe a settled, equitable truth.
+Vulnerable: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Privileging. Wishes they were better at representing the control of negative relations.
 Activating: Vigorous. Can over-indulge creating a pragmatic expenditure of resources.
 Repressed: Incongruent. Represses representing the equitable possibilities of structures.
@@ -381,7 +381,7 @@ Reluctant: Sociable. Reluctant to create personas for exploring possibilities wi
 Vulnerable: Incongruent. Finds it unnatural to represent the equitable possibilities of structures.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Activating: Enterprising. Can over-indulge promoting a timely yield from resources.
-Repressed: Settled. Represses observing a settled, equitable truth.
+Repressed: Settled. Represses observing an equitably settled truth.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
 
 The Seelie. (EII)
