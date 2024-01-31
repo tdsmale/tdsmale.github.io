@@ -138,8 +138,8 @@ Je + Pi: Promoting.
 Seeks to promote external processes.
 Turns negative situations into positive ones.
 
-Je + Pe: Creating.
-Seeks to be a part of external processes.
+Je + Pe: Integral.
+Seeks to create and be a part of external processes.
 Makes the most of positive situations.
 
 Ji + Se: Control.
@@ -258,7 +258,7 @@ Affirmation of quality enhances pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Symptomatic: Faithful (Potential + Relations). Representing the potential for positive relations.
 Observant: Affirming (Individuation + Acceptance). Observing the good alongside the bad.
-Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
+Promoting: Reliable (Efficiency + Safekeeping). Promoting the maintenance of resources.
 Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation of resources.
 
 TYPES
@@ -311,14 +311,14 @@ Reluctant: Faithful. Reluctant to represent the potential for positive relations
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting a timely yield from emotions.
 Activating: Unflappable. Can over-indulge observing a powerful, unyielding truth.
-Repressed: Reliable. Represses promoting the maintainance of reliable resources.
+Repressed: Reliable. Represses promoting the maintainance of resources.
 Trivializing: Affirming. Trivializes observing the good alongside the bad.
 
 The Fanatic. (IEI)
 Program: Unflappable. Naturally observes a powerful, unyielding truth.
 Constructive: Galvanizing. Finds it constructive to promote the timely yield of emotions.
 Reluctant: Affirming. Reluctant to observe the good alongside the bad.
-Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
+Vulnerable: Reliable. Finds it unnatural to promote the maintenance of resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
 Activating: Dividing. Can over-indulge representing the control of divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
@@ -327,7 +327,7 @@ Trivializing: Faithful. Trivializes representing the potential for positive rela
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely yield of emotions.
 Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
-Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
+Reluctant: Reliable. Reluctant to promote the maintenance of resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good alongside the bad.
 Suggestive: Dividing. Wishes they were better at representing the control of divided structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
@@ -342,7 +342,7 @@ Vulnerable: Faithful. Finds it unnatural to represent the potential for positive
 Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
 Activating: Galvanizing. Can over-indulge promoting a timely yield from emotions.
 Repressed: Affirming. Represses observing the good alongside the bad.
-Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
+Trivializing: Reliable. Trivializes promoting the maintenance of resources.
 
 The Puritan. (ESI)
 Program: Privileging. Naturally represents the control of negative relations.
@@ -389,14 +389,14 @@ Program: Faithful. Naturally represents the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
 Reluctant: Dividing. Reluctant to represent the control of divided structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
-Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
+Suggestive: Reliable. Wishes they were better at promoting the maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good alongside the bad.
 Repressed: Galvanizing. Represses promoting a timely yield from emotions.
 Trivializing: Unflappable. Trivializes observing a powerful, unyielding truth.
 
 The Stabilizer. (SLI)
 Program: Affirming. Naturally observes the good alongside the bad.
-Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
+Constructive: Reliable. Finds it constructive to promote the maintenance of resources.
 Reluctant: Unflappable. Reluctant to observe a powerful, unyielding truth.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely yield of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
@@ -405,7 +405,7 @@ Repressed: Insurmountable. Represses creating personas for wilfully capturing au
 Trivializing: Dividing. Trivializes representing the control of divided structures.
 
 The Conscientious. (LSE)
-Program: Reliable. Naturally promotes the maintenance of reliable resources.
+Program: Reliable. Naturally promotes the maintenance of resources.
 Constructive: Affirming. Finds it constructive to observe the good alongside the bad.
 Reluctant: Galvanizing. Reluctant of promoting a timely yield from emotions.
 Vulnerable: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
@@ -420,6 +420,6 @@ Constructive: Faithful. Finds it constructive to represent the potential for pos
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
 Vulnerable: Dividing. Finds it unnatural to represent the control of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good alongside the bad.
-Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
+Activating: Reliable. Can over-indulge promoting the maintenance of resources.
 Repressed: Unflappable. Represses observing a powerful, unyielding truth.
 Trivializing: Galvanizing. Trivializes promoting a timely yield from emotions.
