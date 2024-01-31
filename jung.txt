@@ -143,7 +143,7 @@ Seeks to be a part of external processes.
 Makes the most of positive situations.
 
 Ji + Se: Control.
-Ti + Se: Heretical. Implies that control is found in divided structures.
+Ti + Se: Dividing. Implies that control is found in divided structures.
 Fi + Se: Privileging. Implies that control is found in negative relations.
 
 Ji + Ne: Potential.
@@ -180,7 +180,7 @@ Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a mor
 
 Ti + Pe: Structure.
 Ti + Ne: Incongruent. Implies that inherent structure is best reinforced by its opening of possibilities.
-Ti + Se: Heretical. Implies that inherent structure is best reinforced by its controlling manner. "The law of the land".
+Ti + Se: Dividing. Implies that inherent structure is best reinforced by its controlling manner. "The law of the land".
 
 Fi + Pi: Individuation.
 Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
@@ -232,7 +232,7 @@ Hierarchal.
 Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
-Symptomatic: Heretical (Control + Structure). Reinforcing the control of divided structures.
+Symptomatic: Dividing (Control + Structure). Reinforcing the control of divided structures.
 Observant: Unflappable (Truth + Foresight). Observing a powerful, unyielding truth.
 Promoting: Galvanising (Audience + Timing). Promoting a timely yield from emotions.
 Integral: Insurmountable (Capture + Personas). Creating personas for wilfully capturing audiences.
@@ -305,7 +305,7 @@ Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Enterprising. Trivializes promoting a timely yield from resources.
 
 The Apostate. (LSI) 
-Program: Heretical. Naturally reinforces the control of divided structures.
+Program: Dividing. Naturally reinforces the control of divided structures.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Faithful. Reluctant to reinforce the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
@@ -320,7 +320,7 @@ Constructive: Galvanizing. Finds it constructive to promote the timely yield of 
 Reluctant: Affirming. Reluctant to observe the good alongside the bad.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
-Activating: Heretical. Can over-indulge reinforcing the control of divided structures.
+Activating: Dividing. Can over-indulge reinforcing the control of divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
 Trivializing: Faithful. Trivializes reinforcing the potential for positive relations.
 
@@ -329,14 +329,14 @@ Program: Galvanizing. Naturally promotes the timely yield of emotions.
 Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good alongside the bad.
-Suggestive: Heretical. Wishes they were better at reinforcing the control of divided structures.
+Suggestive: Dividing. Wishes they were better at reinforcing the control of divided structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
 Repressed: Faithful. Represses reinforcing the potential for positive relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally creates personas for wilfully capturing audiences.
-Constructive: Heretical. Finds it constructive to reinforce the control of divided structures.
+Constructive: Dividing. Finds it constructive to reinforce the control of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Faithful. Finds it unnatural to reinforce the potential for positive relations.
 Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
@@ -387,7 +387,7 @@ Trivializing: Hospitable. Trivializes promoting the needs of others.
 The Seelie. (EII)
 Program: Faithful. Naturally reinforces the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
-Reluctant: Heretical. Reluctant to reinforce the control of divided structures.
+Reluctant: Dividing. Reluctant to reinforce the control of divided structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good alongside the bad.
@@ -402,7 +402,7 @@ Vulnerable: Galvanizing. Finds it unnatural to promote the timely yield of emoti
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Faithful. Can over-indulge reinforcing the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
-Trivializing: Heretical. Trivializes reinforcing the control of divided structures.
+Trivializing: Dividing. Trivializes reinforcing the control of divided structures.
 
 The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
@@ -411,14 +411,14 @@ Reluctant: Galvanizing. Reluctant of promoting a timely yield from emotions.
 Vulnerable: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
 Suggestive: Faithful. Wishes they were better at reinforcing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
-Repressed: Heretical. Represses reinforcing the control of divided structures.
+Repressed: Dividing. Represses reinforcing the control of divided structures.
 Trivializing: Insurmountable. Trivializes creating personas for wilfully capturing audiences.
 
 The Hierophant. (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation out of resources.
 Constructive: Faithful. Finds it constructive to reinforce the potential for positive relations.
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
-Vulnerable: Heretical. Finds it unnatural to reinforce the control of divided structures.
+Vulnerable: Dividing. Finds it unnatural to reinforce the control of divided structures.
 Suggestive: Affirming. Wishes they were better at observing the good alongside the bad.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
 Repressed: Unflappable. Represses observing a powerful, unyielding truth.
