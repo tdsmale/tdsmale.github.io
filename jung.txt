@@ -143,8 +143,8 @@ Seeks to be a part of external processes.
 Makes the most of positive situations.
 
 Ji + Se: Control.
-Ti + Se: Unflappable. Implies that control is found in divided structures.
-Fi + Se: Privileging. Implies that control is found in negative relations.
+Ti + Se: Heretical. Implies that control is found in possessing divided structures.
+Fi + Se: Privileging. Implies that control is found in possessing negative relations.
 
 Ji + Ne: Potential.
 Ti + Ne: Incongruent. Implies that potential is found in equitable structure.
@@ -171,20 +171,20 @@ Ti + Si: Settled. Implies that to be accepting of the present, you must first be
 Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
 
 Ji + Ni: Foresight.
-Ti + Ni: Heretical. Implies that to have foresight, you must first be observant of inherent structure.
+Ti + Ni: Unflappable. Implies that to have foresight, you must first be observant of inherent structure.
 Fi + Ni: Isolating. Implies that to have foresight, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
 Ti + Si: Settled. Implies that what is "true" is that which no longer requires further litigation or discussion.
-Ti + Ni: Heretical. Implies that what is "true" will ultimately yield to a greater truth, one way or another.
+Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a more powerful one, one way or another.
 
 Ti + Pe: Structure.
 Ti + Ne: Incongruent. Implies that inherent structure is best represented by its opening of possibilities.
-Ti + Se: Unflappable. Implies that inherent structure is best represented by its possessiveness & unyielding manner. "The law of the land".
+Ti + Se: Heretical. Implies that inherent structure is best represented by its possessiveness & unyielding manner. "The law of the land".
 
 Fi + Pi: Individuation.
 Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
-Fi + Si: Affirming. Implies that individuation best occurs by observing the good, the bad and the ugly.
+Fi + Si: Affirming. Implies that individuation best occurs by observing the good alonside the bad.
 
 Fi + Pe: Relations.
 Fi + Ne: Faithful. Implies that inherent relations are best represented by their opening of possibilities.
@@ -232,8 +232,8 @@ Hierarchal.
 Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
-Symptomatic: Unflappable (Control + Structure). Representing the possessiveness of divided structures.
-Observant: Heretical (Truth + Foresight). Observing a greater, inevitable truth.
+Symptomatic: Heretical (Control + Structure). Representing the possessiveness of divided structures.
+Observant: Unflappable (Truth + Foresight). Observing a powerful, unyielding truth.
 Promoting: Galvanising (Audience + Timing). Promoting the timely energizing of emotions.
 Integral: Insurmountable (Capture + Personas). Creating personas for wilfully capturing audiences.
 
@@ -257,7 +257,7 @@ Economical.
 Affirmation of quality enhances pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Symptomatic: Faithful (Potential + Relations). Representing the potential for positive relations.
-Observant: Affirming (Individuation + Acceptance). Observing the good, the bad and the ugly in things.
+Observant: Affirming (Individuation + Acceptance). Observing the good alongside the bad.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting the reliable maintenance of resources.
 Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation of resources.
 
@@ -305,43 +305,43 @@ Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Enterprising. Trivializes promoting the timely profit of resources.
 
 The Apostate. (LSI)
-Program: Unflappable. Naturally represents the possessiveness of divided structures.
+Program: Heretical. Naturally represents the possessiveness of divided structures.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Faithful. Reluctant to represent the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting the timely energizing of emotions.
-Activating: Heretical. Can over-indulge observing a greater, inevitable truth.
+Activating: Unflappable. Can over-indulge observing a powerful, unyielding truth.
 Repressed: Reliable. Represses promoting the maintainance of reliable resources.
-Trivializing: Affirming. Trivializes observing the good, the bad and the ugly in things.
+Trivializing: Affirming. Trivializes observing the good alongside the bad.
 
 The Fanatic. (IEI)
-Program: Heretical. Naturally observes a greater, inevitable truth.
+Program: Unflappable. Naturally observes a powerful, unyielding truth.
 Constructive: Galvanizing. Finds it constructive to promote the timely energizing of emotions.
-Reluctant: Affirming. Reluctant to observe the good, the bad and the ugly in things.
+Reluctant: Affirming. Reluctant to observe the good alongside the bad.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of reliable resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
-Activating: Unflappable. Can over-indulge representing the possessiveness of divided structures.
+Activating: Heretical. Can over-indulge representing the possessiveness of divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
 Trivializing: Faithful. Trivializes representing the potential for positive relations.
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely energizing of emotions.
-Constructive: Heretical. Finds it constructive to observe a greater, inevitable truth.
+Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
 Reluctant: Reliable. Reluctant to promote the maintenance of reliable resources.
-Vulnerable: Affirming. Finds it unnatural to observe the good, the bad and the ugly in things.
-Suggestive: Unflappable. Wishes they were better at representing the possessiveness of divided structures.
+Vulnerable: Affirming. Finds it unnatural to observe the good alongside the bad.
+Suggestive: Heretical. Wishes they were better at representing the possessiveness of divided structures.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
 Repressed: Faithful. Represses representing the potential for positive relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally creates personas for wilfully capturing audiences.
-Constructive: Unflappable. Finds it constructive to represent the possessiveness of divided structures.
+Constructive: Heretical. Finds it constructive to represent the possessiveness of divided structures.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Faithful. Finds it unnatural to represent the potential for positive relations.
-Suggestive: Heretical. Wishes they were better at observing a greater, inevitable truth.
+Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
 Activating: Galvanizing. Can over-indulge promoting the timely energizing of emotions.
-Repressed: Affirming. Represses observing the good, the bad and the ugly in things.
+Repressed: Affirming. Represses observing the good alongside the bad.
 Trivializing: Reliable. Trivializes promoting the reliable maintenance of resources.
 
 The Puritan. (ESI)
@@ -387,39 +387,39 @@ Trivializing: Hospitable. Trivializes promoting the needs of others.
 The Seelie. (EII)
 Program: Faithful. Naturally represents the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
-Reluctant: Unflappable. Reluctant to represent the possessiveness of divided structures.
+Reluctant: Heretical. Reluctant to represent the possessiveness of divided structures.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the reliable maintenance of resources.
-Activating: Affirming. Can over-indulge observing the good, the bad and the ugly in things.
+Activating: Affirming. Can over-indulge observing the good alongside the bad.
 Repressed: Galvanizing. Represses promoting the timely energizing of emotions.
-Trivializing: Heretical. Trivializes observing a greater, inevitable truth.
+Trivializing: Unflappable. Trivializes observing a powerful, unyielding truth.
 
 The Stabilizer. (SLI)
-Program: Affirming. Naturally observes the good, the bad and the ugly in things.
+Program: Affirming. Naturally observes the good alongside the bad.
 Constructive: Reliable. Finds it constructive to promote the reliable maintenance of resources.
-Reluctant: Heretical. Reluctant to observe a greater, inevitable truth.
+Reluctant: Unflappable. Reluctant to observe a powerful, unyielding truth.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely energizing of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Activating: Faithful. Can over-indulge representing the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
-Trivializing: Unflappable. Trivializes representing the possessiveness of divided structures.
+Trivializing: Heretical. Trivializes representing the possessiveness of divided structures.
 
 The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of reliable resources.
-Constructive: Affirming. Finds it constructive to observe the good, the bad and the ugly in things.
+Constructive: Affirming. Finds it constructive to observe the good alongside the bad.
 Reluctant: Galvanizing. Reluctant of promoting the timely energizing of emotions.
-Vulnerable: Heretical. Finds it unnatural to observe a greater, inevitable truth.
+Vulnerable: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
 Suggestive: Faithful. Wishes they were better at representing the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
-Repressed: Unflappable. Represses representing the possessiveness of divided structures.
+Repressed: Heretical. Represses representing the possessiveness of divided structures.
 Trivializing: Insurmountable. Trivializes creating personas for wilfully capturing audiences.
 
 The Hierophant. (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation out of resources.
 Constructive: Faithful. Finds it constructive to represent the potential for positive relations.
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
-Vulnerable: Unflappable. Finds it unnatural to represent the possessiveness of divided structures.
-Suggestive: Affirming. Wishes they were better at observing the good, the bad and the ugly in things.
+Vulnerable: Heretical. Finds it unnatural to represent the possessiveness of divided structures.
+Suggestive: Affirming. Wishes they were better at observing the good alongside the bad.
 Activating: Reliable. Can over-indulge promoting the reliable maintenance of resources.
-Repressed: Heretical. Represses observing a greater, inevitable truth.
+Repressed: Unflappable. Represses observing a powerful, unyielding truth.
 Trivializing: Galvanizing. Trivializes promoting the timely energizing of emotions.
