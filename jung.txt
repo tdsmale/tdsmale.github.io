@@ -5,7 +5,7 @@ Natural: Default "always-on" attitude.
 Constructive: Attitude felt as constructive.
 
 Super-Ego Block: Public, Weak and Not Valued.
-Reluctant: Attitude felt as neccessary evil.
+Obligation: Attitude felt as neccessary evil.
 Unnatural: Attitude felt as unnatural.
 
 Id Block: Private, Weak and Valued.
@@ -267,7 +267,7 @@ TYPES
 The Sophist. (LII) 
 Natural: Incongruent. Naturally emphasises equitable, structural possibilities.
 Constructive: Sociable. Finds it constructive to create personas for broadening possibilities.
-Reluctant: Distancing. Obligated to emphasise negative relations as a measure of control.
+Obligation: Distancing. Obligated to emphasise negative relations as a measure of control.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure of resources.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
 Indulgant: Settled. Can over-indulge observing an equitably settled truth.
@@ -277,7 +277,7 @@ Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 The Traditionalist. (SEI) 
 Natural: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
-Reluctant: Isolating. Obligated to observe an assured, inequitable distance.
+Obligation: Isolating. Obligated to observe an assured, inequitable distance.
 Unnatural: Enterprising. Finds it unnatural to promote a timely yield from resources.
 Suggestive: Sociable. Wishes they were better at creating personas for broadening possibilities.
 Indulgant: Incongruent. Can over-indulge emphasising equitable, structural possibilities.
@@ -287,7 +287,7 @@ Trivializing: Distancing. Trivializes emphasising negative relations as a measur
 The Nurse. (ESE) 
 Natural: Hospitable. Naturally promoting of the needs of others.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
-Reluctant: Enterprising. Obligated to promote a timely yield from resources.
+Obligation: Enterprising. Obligated to promote a timely yield from resources.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Suggestive: Incongruent. Wishes they were better at emphasising equitable, structural possibilities.
 Indulgant: Sociable. Can over-indulge creating personas for broadening possibilities.
@@ -297,7 +297,7 @@ Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resou
 The Fool. (ILE) 
 Natural: Sociable. Naturally creates personas for broadening possibilities.
 Constructive: Incongruent. Finds it constructive to emphasise equitable, structural possibilities.
-Reluctant: Expenditure. Obligated to create a pragmatic expenditure of resources.
+Obligation: Expenditure. Obligated to create a pragmatic expenditure of resources.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations as a measure of control.
 Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
 Indulgant: Hospitable. Can over-indulge promoting the needs of others.
@@ -307,7 +307,7 @@ Trivializing: Enterprising. Trivializes promoting a timely yield from resources.
 The Soldier. (LSI) 
 Natural: Dividing. Naturally emphasises divided structures as a measure of control.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
-Reluctant: Faithful. Obligated to emphasise the potential for positive relations.
+Obligation: Faithful. Obligated to emphasise the potential for positive relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
 Suggestive: Galvanizing. Wishes they were better at promoting a timely yield from emotions.
 Indulgant: Unflappable. Can over-indulge observing a powerful, unyielding truth.
@@ -317,7 +317,7 @@ Trivializing: Affirming. Trivializes observing the good alongside the bad.
 The Fanatic. (IEI)
 Natural: Unflappable. Naturally observes a powerful, unyielding truth.
 Constructive: Galvanizing. Finds it constructive to promote the timely yield of emotions.
-Reluctant: Affirming. Obligated to observe the good alongside the bad.
+Obligation: Affirming. Obligated to observe the good alongside the bad.
 Unnatural: Reliable. Finds it unnatural to promote the maintenance of resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
 Indulgant: Dividing. Can over-indulge emphasising divided structures as a measure of control.
@@ -327,7 +327,7 @@ Trivializing: Faithful. Trivializes emphasising the potential for positive relat
 The Cultist. (EIE)
 Natural: Galvanizing. Naturally promotes the timely yield of emotions.
 Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
-Reluctant: Reliable. Obligated to promote the maintenance of resources.
+Obligation: Reliable. Obligated to promote the maintenance of resources.
 Unnatural: Affirming. Finds it unnatural to observe the good alongside the bad.
 Suggestive: Dividing. Wishes they were better at emphasising divided structures as a measure of control.
 Indulgant: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
@@ -337,7 +337,7 @@ Trivializing: Experimental. Trivializes creating pragmatic experimentation out o
 The Marshal. (SLE)
 Natural: Insurmountable. Naturally creates personas for wilfully capturing audiences.
 Constructive: Dividing. Finds it constructive to emphasise divided structures as a measure of control.
-Reluctant: Experimental. Obligated to create pragmatic experimentation out of resources.
+Obligation: Experimental. Obligated to create pragmatic experimentation out of resources.
 Unnatural: Faithful. Finds it unnatural to emphasise the potential for positive relations.
 Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
 Indulgant: Galvanizing. Can over-indulge promoting a timely yield from emotions.
@@ -347,7 +347,7 @@ Trivializing: Reliable. Trivializes promoting the maintenance of resources.
 The Puritan. (ESI)
 Natural: Distancing. Naturally emphasises negative relations as a measure of control.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure of resources.
-Reluctant: Incongruent. Obligated to emphasise equitable, structural possibilities.
+Obligation: Incongruent. Obligated to emphasise equitable, structural possibilities.
 Unnatural: Sociable. Finds it unnatural to create personas for broadening possibilities.
 Suggestive: Enterprising. Wishes they were better at promoting a timely yield from resources.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
@@ -357,7 +357,7 @@ Trivializing: Settled. Trivializes observing an equitably settled truth.
 The Critic. (ILI)
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Enterprising. Finds it constructive to promote a timely yield from resources.
-Reluctant: Settled. Obligated to observe an equitably settled truth.
+Obligation: Settled. Obligated to observe an equitably settled truth.
 Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure of resources.
 Indulgant: Distancing. Can over-indulge emphasising negative relations as a measure of control.
@@ -367,7 +367,7 @@ Trivializing: Incongruent. Trivializes emphasising equitable, structural possibi
 The Profiteer. (LIE)
 Natural: Enterprising. Naturally promotes a timely yield from resources.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
-Reluctant: Hospitable. Obligated to promote the needs of others.
+Obligation: Hospitable. Obligated to promote the needs of others.
 Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Distancing. Wishes they were better at emphasising negative relations as a measure of control.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure of resources.
@@ -377,7 +377,7 @@ Trivializing: Sociable. Trivializes creating personas for broadening possibiliti
 The Prodigal. (SEE)
 Natural: Expenditure. Naturally creates a pragmatic expenditure of resources.
 Constructive: Distancing. Finds it constructive to emphasise negative relations as a measure of control.
-Reluctant: Sociable. Obligated to create personas for broadening possibilities.
+Obligation: Sociable. Obligated to create personas for broadening possibilities.
 Unnatural: Incongruent. Finds it unnatural to emphasise equitable, structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Indulgant: Enterprising. Can over-indulge promoting a timely yield from resources.
@@ -387,7 +387,7 @@ Trivializing: Hospitable. Trivializes promoting the needs of others.
 The Seelie. (EII)
 Natural: Faithful. Naturally emphasises the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
-Reluctant: Dividing. Obligated to emphasise divided structures as a measure of control.
+Obligation: Dividing. Obligated to emphasise divided structures as a measure of control.
 Unnatural: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the maintenance of resources.
 Indulgant: Affirming. Can over-indulge observing the good alongside the bad.
@@ -397,7 +397,7 @@ Trivializing: Unflappable. Trivializes observing a powerful, unyielding truth.
 The Stabilizer. (SLI)
 Natural: Affirming. Naturally observes the good alongside the bad.
 Constructive: Reliable. Finds it constructive to promote the maintenance of resources.
-Reluctant: Unflappable. Obligated to observe a powerful, unyielding truth.
+Obligation: Unflappable. Obligated to observe a powerful, unyielding truth.
 Unnatural: Galvanizing. Finds it unnatural to promote the timely yield of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
 Indulgant: Faithful. Can over-indulge emphasising the potential for positive relations.
@@ -407,7 +407,7 @@ Trivializing: Dividing. Trivializes emphasising divided structures as a measure 
 The Conscientious. (LSE)
 Natural: Reliable. Naturally promotes the maintenance of resources.
 Constructive: Affirming. Finds it constructive to observe the good alongside the bad.
-Reluctant: Galvanizing. Obligated to promoting a timely yield from emotions.
+Obligation: Galvanizing. Obligated to promoting a timely yield from emotions.
 Unnatural: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
 Suggestive: Faithful. Wishes they were better at emphasising the potential for positive relations.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
@@ -417,7 +417,7 @@ Trivializing: Insurmountable. Trivializes creating personas for wilfully capturi
 The Hierophant. (IEE).
 Natural: Experimental. Naturally creates pragmatic experimentation out of resources.
 Constructive: Faithful. Finds it constructive to emphasise the potential for positive relations.
-Reluctant: Insurmountable. Obligated to create personas for wilfully capturing audiences.
+Obligation: Insurmountable. Obligated to create personas for wilfully capturing audiences.
 Unnatural: Dividing. Finds it unnatural to emphasise divided structures as a measure of control.
 Suggestive: Affirming. Wishes they were better at observing the good alongside the bad.
 Indulgant: Reliable. Can over-indulge promoting the maintenance of resources.
