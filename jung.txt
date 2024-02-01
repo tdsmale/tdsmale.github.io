@@ -232,7 +232,7 @@ Hierarchal.
 Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
-Symptomatic: Dividing (Control + Structure). Emphasising the control of divided structures.
+Symptomatic: Dividing (Control + Structure). Emphasising divided structures as a measure of control.
 Observant: Unflappable (Truth + Foresight). Observing a powerful, unyielding truth.
 Promoting: Galvanising (Emotions + Timing). Promoting a timely yield from emotions.
 Integral: Insurmountable (Capture + Personas). Creating personas for wilfully capturing audiences.
@@ -244,7 +244,7 @@ Collectivist.
 Economical.
 Psychological isolation collapses into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
-Symptomatic: Privileging (Control + Relations). Emphasising the control of negative relations.
+Symptomatic: Privileging (Control + Relations). Emphasising negative relations as a measure of control.
 Observant: Isolating (Individuation + Foresight). Observing an assured, inequitable distance.
 Promoting: Enterprising (Efficiency + Timing). Promoting a timely yield from resources.
 Integral: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure of resources.
@@ -267,7 +267,7 @@ TYPES
 The Sophist. (LII) 
 Program: Incongruent. Naturally emphasises equitable, structural possibilities.
 Constructive: Sociable. Finds it constructive to create personas for broadening possibilities.
-Reluctant: Privileging. Reluctant to emphasise the control of negative relations.
+Reluctant: Privileging. Reluctant to emphasise negative relations as a measure of control.
 Vulnerable: Expenditure. Finds it unnatural to create a pragmatic expenditure of resources.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
 Activating: Settled. Can over-indulge observing an equitably settled truth.
@@ -280,32 +280,32 @@ Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Reluctant: Isolating. Reluctant to observe an assured, inequitable distance.
 Vulnerable: Enterprising. Finds it unnatural to promote a timely yield from resources.
 Suggestive: Sociable. Wishes they were better at creating personas for broadening possibilities.
-Activating: Incongruent. Can over-indulge Emphasising equitable, structural possibilities.
+Activating: Incongruent. Can over-indulge emphasising equitable, structural possibilities.
 Repressed: Expenditure. Represses creating a pragmatic expenditure of resources.
-Trivializing: Privileging. Trivializes Emphasising the control of negative relations.
+Trivializing: Privileging. Trivializes emphasising negative relations as a measure of control.
 
 The Nurse. (ESE) 
 Program: Hospitable. Naturally promoting of the needs of others.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
 Reluctant: Enterprising. Reluctant to promote a timely yield from resources.
 Vulnerable: Isolating. Finds it unnatural to observe an assured, inequitable distance.
-Suggestive: Incongruent. Wishes they were better at Emphasising equitable, structural possibilities.
+Suggestive: Incongruent. Wishes they were better at emphasising equitable, structural possibilities.
 Activating: Sociable. Can over-indulge creating personas for broadening possibilities.
-Repressed: Privileging. Represses Emphasising the control of negative relations.
+Repressed: Privileging. Represses emphasising negative relations as a measure of control.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resources.
 
 The Fool. (ILE) 
 Program: Sociable. Naturally creates personas for broadening possibilities.
 Constructive: Incongruent. Finds it constructive to emphasise equitable, structural possibilities.
 Reluctant: Expenditure. Reluctant to create a pragmatic expenditure of resources.
-Vulnerable: Privileging. Finds it unnatural to emphasise the control of negative relations.
+Vulnerable: Privileging. Finds it unnatural to emphasise negative relations as a measure of control.
 Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
 Activating: Hospitable. Can over-indulge promoting the needs of others.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Enterprising. Trivializes promoting a timely yield from resources.
 
 The Soldier. (LSI) 
-Program: Dividing. Naturally emphasises the control of divided structures.
+Program: Dividing. Naturally emphasises divided structures as a measure of control.
 Constructive: Insurmountable. Finds it constructive to create personas for wilfully capturing audiences.
 Reluctant: Faithful. Reluctant to emphasise the potential for positive relations.
 Vulnerable: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
@@ -320,23 +320,23 @@ Constructive: Galvanizing. Finds it constructive to promote the timely yield of 
 Reluctant: Affirming. Reluctant to observe the good alongside the bad.
 Vulnerable: Reliable. Finds it unnatural to promote the maintenance of resources.
 Suggestive: Insurmountable. Wishes they were better at creating personas for wilfully capturing audiences.
-Activating: Dividing. Can over-indulge Emphasising the control of divided structures.
+Activating: Dividing. Can over-indulge emphasising divided structures as a measure of control.
 Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
-Trivializing: Faithful. Trivializes Emphasising the potential for positive relations.
+Trivializing: Faithful. Trivializes emphasising the potential for positive relations.
 
 The Cultist. (EIE)
 Program: Galvanizing. Naturally promotes the timely yield of emotions.
 Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
 Reluctant: Reliable. Reluctant to promote the maintenance of resources.
 Vulnerable: Affirming. Finds it unnatural to observe the good alongside the bad.
-Suggestive: Dividing. Wishes they were better at Emphasising the control of divided structures.
+Suggestive: Dividing. Wishes they were better at emphasising divided structures as a measure of control.
 Activating: Insurmountable. Can over-indulge creating personas for wilfully capturing audiences.
-Repressed: Faithful. Represses Emphasising the potential for positive relations.
+Repressed: Faithful. Represses emphasising the potential for positive relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
 
 The Marshal. (SLE)
 Program: Insurmountable. Naturally creates personas for wilfully capturing audiences.
-Constructive: Dividing. Finds it constructive to emphasise the control of divided structures.
+Constructive: Dividing. Finds it constructive to emphasise divided structures as a measure of control.
 Reluctant: Experimental. Reluctant to create pragmatic experimentation out of resources.
 Vulnerable: Faithful. Finds it unnatural to emphasise the potential for positive relations.
 Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
@@ -345,7 +345,7 @@ Repressed: Affirming. Represses observing the good alongside the bad.
 Trivializing: Reliable. Trivializes promoting the maintenance of resources.
 
 The Puritan. (ESI)
-Program: Privileging. Naturally emphasises the control of negative relations.
+Program: Privileging. Naturally emphasises negative relations as a measure of control.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure of resources.
 Reluctant: Incongruent. Reluctant to emphasise equitable, structural possibilities.
 Vulnerable: Sociable. Finds it unnatural to create personas for broadening possibilities.
@@ -360,23 +360,23 @@ Constructive: Enterprising. Finds it constructive to promote a timely yield from
 Reluctant: Settled. Reluctant to observe an equitably settled truth.
 Vulnerable: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure of resources.
-Activating: Privileging. Can over-indulge Emphasising the control of negative relations.
+Activating: Privileging. Can over-indulge emphasising negative relations as a measure of control.
 Repressed: Sociable. Represses creating personas for broadening possibilities.
-Trivializing: Incongruent. Trivializes Emphasising equitable, structural possibilities.
+Trivializing: Incongruent. Trivializes emphasising equitable, structural possibilities.
 
 The Profiteer. (LIE)
 Program: Enterprising. Naturally promotes a timely yield from resources.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Reluctant: Hospitable. Reluctant to promote the needs of others.
 Vulnerable: Settled. Finds it unnatural to observe an equitably settled truth.
-Suggestive: Privileging. Wishes they were better at Emphasising the control of negative relations.
+Suggestive: Privileging. Wishes they were better at emphasising negative relations as a measure of control.
 Activating: Expenditure. Can over-indulge creating a pragmatic expenditure of resources.
-Repressed: Incongruent. Represses Emphasising equitable, structural possibilities.
+Repressed: Incongruent. Represses emphasising equitable, structural possibilities.
 Trivializing: Sociable. Trivializes creating personas for broadening possibilities.
 
 The Prodigal. (SEE)
 Program: Expenditure. Naturally creates a pragmatic expenditure of resources.
-Constructive: Privileging. Finds it constructive to emphasise the control of negative relations.
+Constructive: Privileging. Finds it constructive to emphasise negative relations as a measure of control.
 Reluctant: Sociable. Reluctant to create personas for broadening possibilities.
 Vulnerable: Incongruent. Finds it unnatural to emphasise equitable, structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
@@ -387,7 +387,7 @@ Trivializing: Hospitable. Trivializes promoting the needs of others.
 The Seelie. (EII)
 Program: Faithful. Naturally emphasises the potential for positive relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
-Reluctant: Dividing. Reluctant to emphasise the control of divided structures.
+Reluctant: Dividing. Reluctant to emphasise divided structures as a measure of control.
 Vulnerable: Insurmountable. Finds it unnatural to create personas for wilfully capturing audiences.
 Suggestive: Reliable. Wishes they were better at promoting the maintenance of resources.
 Activating: Affirming. Can over-indulge observing the good alongside the bad.
@@ -400,25 +400,25 @@ Constructive: Reliable. Finds it constructive to promote the maintenance of reso
 Reluctant: Unflappable. Reluctant to observe a powerful, unyielding truth.
 Vulnerable: Galvanizing. Finds it unnatural to promote the timely yield of emotions.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
-Activating: Faithful. Can over-indulge Emphasising the potential for positive relations.
+Activating: Faithful. Can over-indulge emphasising the potential for positive relations.
 Repressed: Insurmountable. Represses creating personas for wilfully capturing audiences.
-Trivializing: Dividing. Trivializes Emphasising the control of divided structures.
+Trivializing: Dividing. Trivializes emphasising divided structures as a measure of control.
 
 The Conscientious. (LSE)
 Program: Reliable. Naturally promotes the maintenance of resources.
 Constructive: Affirming. Finds it constructive to observe the good alongside the bad.
 Reluctant: Galvanizing. Reluctant of promoting a timely yield from emotions.
 Vulnerable: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
-Suggestive: Faithful. Wishes they were better at Emphasising the potential for positive relations.
+Suggestive: Faithful. Wishes they were better at emphasising the potential for positive relations.
 Activating: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
-Repressed: Dividing. Represses Emphasising the control of divided structures.
+Repressed: Dividing. Represses emphasising divided structures as a measure of control.
 Trivializing: Insurmountable. Trivializes creating personas for wilfully capturing audiences.
 
 The Hierophant. (IEE).
 Program: Experimental. Naturally creates pragmatic experimentation out of resources.
 Constructive: Faithful. Finds it constructive to emphasise the potential for positive relations.
 Reluctant: Insurmountable. Reluctant to create personas for wilfully capturing audiences.
-Vulnerable: Dividing. Finds it unnatural to emphasise the control of divided structures.
+Vulnerable: Dividing. Finds it unnatural to emphasise divided structures as a measure of control.
 Suggestive: Affirming. Wishes they were better at observing the good alongside the bad.
 Activating: Reliable. Can over-indulge promoting the maintenance of resources.
 Repressed: Unflappable. Represses observing a powerful, unyielding truth.
