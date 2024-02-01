@@ -5,7 +5,7 @@ Natural: Default "always-on" attitude.
 Constructive: Attitude felt as constructive.
 
 Super-Ego Block: Public, Weak and Not Valued.
-Obligation: Attitude felt as neccessary evil.
+Obligation: Attitude felt as a means to an end.
 Unnatural: Attitude felt as unnatural.
 
 Id Block: Private, Weak and Valued.
