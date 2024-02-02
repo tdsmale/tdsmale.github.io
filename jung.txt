@@ -48,13 +48,13 @@ Internal structure.
 Introverted Sensing (Si).
 Reactive.
 Dynamic.
-Reflection on the Present.
+Reflecting on the Present.
 Comfort & familiarity.
 
 Introverted Intuition (Ni).
 Reactive.
 Dynamic.
-Reflection on the Future.
+Reflecting on the Future.
 Yielding over time.
 
 Extroverted Feeling (Fe).
