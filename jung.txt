@@ -264,7 +264,7 @@ Trivializing: Attitude most taken for granted.
 TYPES
 -----
 LII
-Natural: Sophistry. Naturally emphasises equitable, structural possibilities.
+Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Foolish. Finds it constructive to create personas for broadening possibilities.
 Obligation: Distancing. Feels obligated to emphasise negative relations as a measure of control.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure of resources.
@@ -279,7 +279,7 @@ Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a timely yield from resources.
 Suggestive: Foolish. Wishes they were better at creating personas for broadening possibilities.
-Indulgant: Sophistry. Can over-indulge emphasising equitable, structural possibilities.
+Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
 Repressed: Expenditure. Represses creating a pragmatic expenditure of resources.
 Trivializing: Distancing. Trivializes emphasising negative relations as a measure of control.
 
@@ -288,14 +288,14 @@ Natural: Hospitable. Naturally promoting of the needs of others.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
 Obligation: Profiteering. Feels obligated to promote a timely yield from resources.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
-Suggestive: Sophistry. Wishes they were better at emphasising equitable, structural possibilities.
+Suggestive: Sophistry. Wishes they were better at emphasising structural possibilities.
 Indulgant: Foolish. Can over-indulge creating personas for broadening possibilities.
 Repressed: Distancing. Represses emphasising negative relations as a measure of control.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resources.
 
 ILE
 Natural: Foolish. Naturally creates personas for broadening possibilities.
-Constructive: Sophistry. Finds it constructive to emphasise equitable, structural possibilities.
+Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure of resources.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations as a measure of control.
 Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
@@ -346,7 +346,7 @@ Trivializing: Reliable. Trivializes promoting the maintenance of resources.
 ESI
 Natural: Distancing. Naturally emphasises negative relations as a measure of control.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure of resources.
-Obligation: Sophistry. Feels obligated to emphasise equitable, structural possibilities.
+Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Foolish. Finds it unnatural to create personas for broadening possibilities.
 Suggestive: Profiteering. Wishes they were better at promoting a timely yield from resources.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
@@ -361,7 +361,7 @@ Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure of resources.
 Indulgant: Distancing. Can over-indulge emphasising negative relations as a measure of control.
 Repressed: Foolish. Represses creating personas for broadening possibilities.
-Trivializing: Sophistry. Trivializes emphasising equitable, structural possibilities.
+Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 
 LIE
 Natural: Profiteering. Naturally promotes a timely yield from resources.
@@ -370,14 +370,14 @@ Obligation: Hospitable. Feels obligated to promote the needs of others.
 Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Distancing. Wishes they were better at emphasising negative relations as a measure of control.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure of resources.
-Repressed: Sophistry. Represses emphasising equitable, structural possibilities.
+Repressed: Sophistry. Represses emphasising structural possibilities.
 Trivializing: Foolish. Trivializes creating personas for broadening possibilities.
 
 SEE
 Natural: Expenditure. Naturally creates a pragmatic expenditure of resources.
 Constructive: Distancing. Finds it constructive to emphasise negative relations as a measure of control.
 Obligation: Foolish. Feels obligated to create personas for broadening possibilities.
-Unnatural: Sophistry. Finds it unnatural to emphasise equitable, structural possibilities.
+Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a timely yield from resources.
 Repressed: Settled. Represses observing an equitably settled truth.
