@@ -247,7 +247,7 @@ Privileged relations collapse into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Symptomatic: Distancing (Control + Relations). Privileged relations. Emphasising negative relations.
-Observant: Isolating (Individuation + Timing). Emotional foresight. Observing an assured, inequitable distance.
+Observant: Isolating (Individuation + Timing). Isolation of Character. Observing an assured, inequitable distance.
 Promoting: Profiteering (Efficiency + Foresight). Pragmatic yield. Promoting a timely yield from resources.
 Integral: Expenditure (Capture + Pragmatism). Pragmatic expenditure. Creating a pragmatic expenditure of resources.
 
@@ -375,7 +375,7 @@ Indulgant: Isolating. Can over-indulge observing an assured, inequitable distanc
 Repressed: Hospitable. Represses promoting the needs of others.
 Trivializing: Settled. Trivializes observing an equitably settled truth.
 
-ILI - Emotional foresight, reinforced by privilged relations, leads to pragmatic yield.
+ILI - Isolation of character, reinforced by privilged relations, leads to pragmatic yield.
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a timely yield from resources.
 Obligation: Settled. Feels obligated to observe an equitably settled truth.
@@ -385,7 +385,7 @@ Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Repressed: Silly. Represses creating personas that broaden possibilities.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 
-LIE - Pragmatic yield, reinforced by pragmatic expenditure, leads to emotional foresight.
+LIE - Pragmatic yield, reinforced by pragmatic expenditure, leads to isolation of character.
 Natural: Profiteering. Naturally promotes a timely yield from resources.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote the needs of others.
