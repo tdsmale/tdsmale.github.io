@@ -51,34 +51,42 @@ INFORMATION ELEMENTS
 Introverted Feeling (Fi).
 Subjective Orientation.
 Personal relations.
+Obeying feelings.
 
 Introverted Thinking (Ti).
 Objective Orientation.
 Internal structure.
+Obeying rules.
 
 Introverted Sensing (Si).
 Reflective Present.
-Comfort & familiarity.
+Familiarity of senses.
+Avoidance of discomfort.
 
 Introverted Intuition (Ni).
 Reflective Future.
 Yielding over time.
+Avoidance of impact.
 
 Extroverted Feeling (Fe).
 Subjective Navigation.
 Influencing emotions.
+Emotional information.
 
 Extroverted Thinking (Te).
 Objective Navigation.
 Pragmatisation.
+Productive information.
 
 Extroverted Sensing (Se).
 Activated Present.
 Unyielding in-the-moment.
+Taking up space.
 
 Extroverted Intuition (Ne).
 Activated Future.
 Broadening of possibilities.
+Taking up ideas.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
 Fi vs Fe: Relating vs Expressing Feelings.
