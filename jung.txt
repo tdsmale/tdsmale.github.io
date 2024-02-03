@@ -161,7 +161,7 @@ Je + Si: Safekeeping.
 Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
 Fe + Si: Hospitable. Implies that to be safekeeping of the present, you must tend to an audience or atmosphere.
 
-Je + Ni: Timing.
+Je + Ni: Foresight.
 Te + Ni: Profiteering. Implies that to yield the most from a moment, you must be efficient and resourceful.
 Fe + Ni: Galvanizing. Implies that to yield the most from a moment, you must tend to an audience or atmosphere.
 
@@ -169,9 +169,9 @@ Ji + Si: Acceptance.
 Ti + Si: Settled. Implies that to be accepting of the present, you must first be observant of inherent structure.
 Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
 
-Ji + Ni: Foresight.
-Ti + Ni: Unflappable. Implies that to have foresight, you must first be observant of inherent structure.
-Fi + Ni: Isolating. Implies that to have foresight, you must first be observant of inherent relations.
+Ji + Ni: Timing.
+Ti + Ni: Unflappable. Implies that to have timing, you must first be observant of inherent structure.
+Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
 Ti + Si: Settled. Implies that what is "true" is that which no longer requires further litigation or discussion.
@@ -234,8 +234,8 @@ Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
 Symptomatic: Dividing (Control + Structure). Emphasising divided structures.
-Observant: Unflappable (Truth + Foresight). Observing a powerful, unyielding truth.
-Promoting: Galvanizing (Emotions + Timing). Promoting a timely release of emotions.
+Observant: Unflappable (Truth + Timing). Observing a powerful, unyielding truth.
+Promoting: Galvanizing (Emotions + Foresight). Promoting a timely release of emotions.
 Integral: Insurmountable (Capture + Personas). Creating personas that capture audiences.
 
 Solipsistic.
@@ -247,8 +247,8 @@ Psychological isolation collapses into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
-Observant: Isolating (Individuation + Foresight). Observing an assured, inequitable distance.
-Promoting: Profiteering (Efficiency + Timing). Promoting a timely yield from resources.
+Observant: Isolating (Individuation + Timing). Observing an assured, inequitable distance.
+Promoting: Profiteering (Efficiency + Foresight). Promoting a timely yield from resources.
 Integral: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure of resources.
 
 Homeostatic.
