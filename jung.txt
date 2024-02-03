@@ -26,59 +26,58 @@ Rationality
 Objective: Detached & External. Apprehending what is logically true or accurate.
 Subjective: Involved & Internal. Apprehending what is emotionally true or accurate.
 
-Reflection: Dynamic Temporality (Pi).
-Activation: Static Temporality (Pe).
-Orientation: Static Rationality (Ji).
-Navigation: Dynamic Rationality (Je).
+Reflection (Pi).
+Reactive.
+Dynamic.
+Temporality.
+
+Activation (Pe).
+Active.
+Static.
+Temporality.
+
+Orientation (Ji).
+Reactive.
+Static.
+Rationality.
+
+Navigation (Je).
+Active.
+Dynamic.
+Rationality.
 
 INFORMATION ELEMENTS
 --------------------
 Introverted Feeling (Fi).
-Reactive.
-Static.
 Subjective Orientation.
 Personal relations.
 
 Introverted Thinking (Ti).
-Reactive.
-Static.
 Objective Orientation.
 Internal structure.
 
 Introverted Sensing (Si).
-Reactive.
-Dynamic.
-Reflecting on the Present.
+Reflective Present.
 Comfort & familiarity.
 
 Introverted Intuition (Ni).
-Reactive.
-Dynamic.
-Reflecting on the Future.
+Reflective Future.
 Yielding over time.
 
 Extroverted Feeling (Fe).
-Active.
-Dynamic.
 Subjective Navigation.
 Influencing emotions.
 
 Extroverted Thinking (Te).
-Active.
-Dynamic.
 Objective Navigation.
 Pragmatisation.
 
 Extroverted Sensing (Se).
-Active.
-Static.
-Activating the Present.
+Activated Present.
 Unyielding in-the-moment.
 
 Extroverted Intuition (Ne).
-Active.
-Static.
-Activating the Future.
+Activated Future.
 Broadening of possibilities.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
