@@ -220,9 +220,9 @@ Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
-Symptomatic: Sophistry (Potential + Structure). Sophistry. Emphasising structural possibilities.
+Symptomatic: Sophistry (Potential + Structure). Structural possibilities. Emphasising structural possibilities.
 Observant: Settled (Truth + Acceptance). Settled truth. Observing an equitably settled truth.
-Promoting: Hospitable (Emotions + Safekeeping). Hospitality. Promoting the needs of others.
+Promoting: Hospitable (Emotions + Safekeeping). Needs of others. Promoting the needs of others.
 Integral: Silly (Ideation + Personas). Silly persona. Creating personas that broaden possibilities.
 
 Schismatic.
@@ -285,7 +285,7 @@ Trivializing: Attitude most taken for granted.
 TYPES
 -----
 
-LII - Sophistry, reinforced by settled truth, leads to silly persona.
+LII - Structural possibilities, reinforced by settled truth, leads to silly persona.
 Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create personas that broaden possibilities.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
@@ -295,7 +295,7 @@ Indulgant: Settled. Can over-indulge observing an equitably settled truth.
 Repressed: Profiteering. Represses promoting a timely yield from resources.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
-SEI - Settled truth, reinforced by sophistry, leads to hospitality.
+SEI - Settled truth, reinforced by structural possibilities, leads to hospitality.
 Natural: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
@@ -315,7 +315,7 @@ Indulgant: Silly. Can over-indulge creating personas that broaden possibilities.
 Repressed: Distancing. Represses emphasising negative relations.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resources.
 
-ILE - Silly persona, reinforced by hospitality, leads to sophistry.
+ILE - Silly persona, reinforced by hospitality, leads to structural possibilities.
 Natural: Silly. Naturally creates personas that broaden possibilities.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure of resources.
