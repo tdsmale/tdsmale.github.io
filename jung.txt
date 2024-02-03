@@ -51,12 +51,12 @@ INFORMATION ELEMENTS
 Introverted Feeling (Fi).
 Subjective Orientation.
 Personal relations.
-Obeying feelings.
+Obeying internalised feelings.
 
 Introverted Thinking (Ti).
 Objective Orientation.
 Internal structure.
-Obeying rules.
+Obeying internalised rules.
 
 Introverted Sensing (Si).
 Reflective Present.
