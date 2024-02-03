@@ -109,7 +109,7 @@ Guided by imaginative guesswork.
 Akin to explorers at risk of becoming "untethered".
 
 Ji + Pe: Symptomatic.
-Seeks to represent the result of external processes.
+Seeks to represent external processes.
 Makes the most of negative situations.
 
 Ji + Pi: Observant.
@@ -138,7 +138,7 @@ Te + Se: Expenditure. Implies that power is captured from the expenditure of res
 
 Je + Ne: Ideation.
 Te + Ne: Experimental. Implies that possibilities are broadened pragmatically.
-Fe + Ne: Foolish. Implies that possibilities are broadened through personas.
+Fe + Ne: Silly. Implies that possibilities are broadened through personas.
 
 Je + Si: Safekeeping.
 Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
@@ -185,7 +185,7 @@ Fe + Si: Hospitable. Implies that the best way to tend to emotions is to anticip
 Fe + Ni: Galvanizing. Implies that the best way to tend to emotions is to inject energy into them.
 
 Fe + Pe: Personas.
-Fe + Ne: Foolish. Implies that the best personas explore new possibilities.
+Fe + Ne: Silly. Implies that the best personas explore new possibilities.
 Fe + Se: Insurmountable. Implies that best personas capture others. King of the jungle attitude.
 
 QUADRA PROPERTIES
@@ -205,7 +205,7 @@ Welcoming company that doesn't take anything too seriously.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
 Observant: Settled (Truth + Acceptance). Observing an equitably settled truth.
 Promoting: Hospitable (Emotions + Safekeeping). Promoting the needs of others.
-Integral: Foolish (Ideation + Personas). Creating personas that broaden possibilities.
+Integral: Silly (Ideation + Personas). Creating personas that broaden possibilities.
 
 Schismatic.
 Beta.
@@ -265,7 +265,7 @@ TYPES
 -----
 LII
 Natural: Sophistry. Naturally emphasises structural possibilities.
-Constructive: Foolish. Finds it constructive to create personas that broaden possibilities.
+Constructive: Silly. Finds it constructive to create personas that broaden possibilities.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure of resources.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
@@ -278,7 +278,7 @@ Natural: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a timely yield from resources.
-Suggestive: Foolish. Wishes they were better at creating personas that broaden possibilities.
+Suggestive: Silly. Wishes they were better at creating personas that broaden possibilities.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
 Repressed: Expenditure. Represses creating a pragmatic expenditure of resources.
 Trivializing: Distancing. Trivializes emphasising negative relations.
@@ -289,12 +289,12 @@ Constructive: Settled. Finds it constructive to observe an equitably settled tru
 Obligation: Profiteering. Feels obligated to promote a timely yield from resources.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Suggestive: Sophistry. Wishes they were better at emphasising structural possibilities.
-Indulgant: Foolish. Can over-indulge creating personas that broaden possibilities.
+Indulgant: Silly. Can over-indulge creating personas that broaden possibilities.
 Repressed: Distancing. Represses emphasising negative relations.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resources.
 
 ILE
-Natural: Foolish. Naturally creates personas that broaden possibilities.
+Natural: Silly. Naturally creates personas that broaden possibilities.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure of resources.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
@@ -347,7 +347,7 @@ ESI
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure of resources.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
-Unnatural: Foolish. Finds it unnatural to create personas that broaden possibilities.
+Unnatural: Silly. Finds it unnatural to create personas that broaden possibilities.
 Suggestive: Profiteering. Wishes they were better at promoting a timely yield from resources.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
@@ -360,7 +360,7 @@ Obligation: Settled. Feels obligated to observe an equitably settled truth.
 Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure of resources.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
-Repressed: Foolish. Represses creating personas that broaden possibilities.
+Repressed: Silly. Represses creating personas that broaden possibilities.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 
 LIE
@@ -371,12 +371,12 @@ Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Distancing. Wishes they were better at emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure of resources.
 Repressed: Sophistry. Represses emphasising structural possibilities.
-Trivializing: Foolish. Trivializes creating personas that broaden possibilities.
+Trivializing: Silly. Trivializes creating personas that broaden possibilities.
 
 SEE
 Natural: Expenditure. Naturally creates a pragmatic expenditure of resources.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
-Obligation: Foolish. Feels obligated to create personas that broaden possibilities.
+Obligation: Silly. Feels obligated to create personas that broaden possibilities.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a timely yield from resources.
