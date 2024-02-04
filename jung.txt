@@ -197,13 +197,13 @@ Te + Pe: Pragmatism.
 Te + Se: Expenditure. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
 Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
 
-Fe + Pi: Emotions.
+Fe + Pi: Expression.
 Fe + Si: Hospitable. Implies that the best way to tend to emotions is to anticipate their needs.
 Fe + Ni: Galvanizing. Implies that the best way to tend to emotions is to inject energy into them.
 
 Fe + Pe: Personas.
 Fe + Ne: Silly. Implies that the best personas explore new possibilities.
-Fe + Se: Insurmountable. Implies that best personas capture others. King of the jungle attitude.
+Fe + Se: Insurmountable. Implies that the best personas capture powerful emotions.
 
 QUADRA PROPERTIES
 -----------------
@@ -220,10 +220,10 @@ Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
-Symptomatic: Sophistry (Potential + Structure). Structural possibilities. Emphasising structural possibilities.
-Observant: Settled (Truth + Acceptance). Settled truth. Observing an equitably settled truth.
-Promoting: Hospitable (Emotions + Safekeeping). Needs of others. Promoting the needs of others.
-Integral: Silly (Ideation + Personas). Silly persona. Creating personas that broaden possibilities.
+Symptomatic: Sophistry (Potential + Structure). Structural possibilities. Emphasising structural possibilities through public experimentation, discussion and debate.
+Observant: Settled (Truth + Acceptance). Equitably settled truth. Observing an equitably settled & comfortably familiar truth, no longer subject to further debate or litigation.
+Promoting: Hospitable (Expression + Safekeeping). Needs of others. Promoting and affirming the needs of others.
+Integral: Silly (Ideation + Personas). Silly persona. Creating sociable personas that broaden possibilities, encouraging childish & playful thought and behaviour.
 
 Schismatic.
 Beta.
@@ -233,10 +233,10 @@ Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
-Symptomatic: Dividing (Control + Structure). Divided structure. Emphasising divided structures.
-Observant: Unflappable (Truth + Timing). Unyielding truth. Observing a powerful, unyielding truth.
-Promoting: Galvanizing (Emotions + Foresight). Emotional release. Promoting a timely release of emotions.
-Integral: Insurmountable (Capture + Personas). Insurmountable persona. Creating personas that capture audiences.
+Symptomatic: Dividing (Control + Structure). Divided structure. Emphasising the division in structures as a measure of control, recognising fault-lines and weaknesses.
+Observant: Unflappable (Truth + Timing). Unyielding truth. Observing a powerful, unyielding truth to submit to, tracking its inevitable trajectory over time.
+Promoting: Galvanizing (Expression + Foresight). Emotional release. Promoting a timely understanding of emotions, recognising & benefiting from their inevitable release (or yield).
+Integral: Insurmountable (Capture + Personas). Insurmountable persona. Creating powerful personas that capture audiences to their presence in-the-moment.
 
 Solipsistic.
 Gamma.
@@ -246,10 +246,10 @@ Economical.
 Privileged relations collapse into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
-Symptomatic: Distancing (Control + Relations). Privileged relations. Emphasising negative relations.
-Observant: Isolating (Individuation + Timing). Isolation of character. Observing an assured, inequitable distance.
-Promoting: Profiteering (Efficiency + Foresight). Pragmatic yield. Promoting a timely yield from resources.
-Integral: Expenditure (Capture + Pragmatism). Pragmatic expenditure. Creating a pragmatic expenditure of resources.
+Symptomatic: Distancing (Control + Relations). Privileged relations. Emphasising the relative negativity of relations, privileging (and therefore distancing) the chosen few away from the many.
+Observant: Isolating (Individuation + Timing). Isolation of character. Observing the trajectory of inner character over time, tracking an assured, inequitable distance between things.
+Promoting: Profiteering (Efficiency + Foresight). Pragmatic yield. Promoting a timely understanding of resources, recognising & profiting from whatever yield they may inevitably offer.
+Integral: Expenditure (Capture + Pragmatism). Pragmatic expenditure. Creating a pragmatic expenditure of captured resources, fully utilizing their strengths in-the-moment.
 
 Homeostatic.
 Delta.
@@ -259,9 +259,9 @@ Economical.
 Potential relations enhance pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
-Symptomatic: Faithful (Potential + Relations). Potential relations. Emphasising relational possibilities.
-Observant: Affirming (Individuation + Acceptance). Affirmation of Quality. Observing the inherent good and bad.
-Promoting: Reliable (Efficiency + Safekeeping). Reliable maintenance. Promoting the maintenance of resources.
+Symptomatic: Faithful (Potential + Relations). Good-faith relations. Emphasising the possibility for positive relations, creating an understanding of good-faith.
+Observant: Affirming (Individuation + Acceptance). Affirmation of Quality. Observing & accepting the inherent good and bad in character, creating a recognition of quality in things.
+Promoting: Reliable (Efficiency + Safekeeping). Reliable maintenance. Promoting the maintenance of resources, understanding what props them up and keeps them from falling over without intervention.
 Integral: Experimental (Exploration + Pragmatism). Experimental pragmatism. Creating pragmatic experimentation of resources.
 
 FUNCTIONS
