@@ -220,10 +220,10 @@ Narrational.
 Abstract structure enhances emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
-Symptomatic: Sophistry (Potential + Structure). Structural possibilities. Emphasising structural possibilities through public experimentation, discussion and debate.
-Observant: Settled (Truth + Acceptance). Equitably settled truth. Observing an equitably settled & comfortably familiar truth, no longer subject to further debate or litigation.
-Promoting: Hospitable (Expression + Safekeeping). Needs of others. Promoting and affirming the needs of others.
-Integral: Silly (Ideation + Personas). Silly persona. Creating sociable personas that broaden possibilities, encouraging childish & playful thought and behaviour.
+Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
+Observant: Settled (Truth + Acceptance). Observing an equitably settled truth.
+Promoting: Hospitable (Expression + Safekeeping). Promoting the needs of others.
+Integral: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
 Beta.
@@ -233,10 +233,10 @@ Narrational.
 Divided structure collapses into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
-Symptomatic: Dividing (Control + Structure). Divided structure. Emphasising the division in structures as a measure of control, recognising fault-lines and weaknesses.
-Observant: Unflappable (Truth + Timing). Unyielding truth. Observing a powerful, unyielding truth to submit to, tracking its inevitable trajectory over time.
-Promoting: Galvanizing (Expression + Foresight). Emotional release. Promoting a timely understanding of emotions, recognising & benefiting from their inevitable release (or yield).
-Integral: Insurmountable (Capture + Personas). Insurmountable persona. Creating powerful personas that capture audiences to their presence in-the-moment.
+Symptomatic: Dividing (Control + Structure). Emphassising divided structure.
+Observant: Unflappable (Truth + Timing). Observing an unyielding truth.
+Promoting: Galvanizing (Expression + Foresight). Promoting emotional release.
+Integral: Insurmountable (Capture + Personas). Creating powerful personas.
 
 Solipsistic.
 Gamma.
@@ -246,10 +246,10 @@ Economical.
 Privileged relations collapse into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
-Symptomatic: Distancing (Control + Relations). Privileged relations. Emphasising the relative negativity of relations, privileging (and therefore distancing) the chosen few away from the many.
-Observant: Isolating (Individuation + Timing). Isolation of character. Observing the trajectory of inner character over time, tracking an assured, inequitable distance between things.
-Promoting: Profiteering (Efficiency + Foresight). Pragmatic yield. Promoting a timely understanding of resources, recognising & profiting from whatever yield they may inevitably offer.
-Integral: Expenditure (Capture + Pragmatism). Pragmatic expenditure. Creating a pragmatic expenditure of captured resources, fully utilizing their strengths in-the-moment.
+Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
+Observant: Isolating (Individuation + Timing). Observing an assured, inequitable distance.
+Promoting: Profiteering (Efficiency + Foresight). Promoting a pragmatic yield.
+Integral: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure.
 
 Homeostatic.
 Delta.
@@ -259,10 +259,10 @@ Economical.
 Potential relations enhance pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
-Symptomatic: Faithful (Potential + Relations). Good-faith relations. Emphasising the possibility for positive relations, creating an understanding of good-faith.
-Observant: Affirming (Individuation + Acceptance). Affirmation of Quality. Observing & accepting the inherent good and bad in character, creating a recognition of quality in things.
-Promoting: Reliable (Efficiency + Safekeeping). Reliable maintenance. Promoting the maintenance of resources, understanding what props them up and keeps them from falling over without intervention.
-Integral: Experimental (Exploration + Pragmatism). Experimental pragmatism. Creating pragmatic experimentation of resources.
+Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
+Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
+Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic maintenance.
+Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation.
 
 FUNCTIONS
 ---------
@@ -285,162 +285,162 @@ Trivializing: Attitude most taken for granted.
 TYPES
 -----
 
-LII - Structural possibilities, reinforced by settled truth, leads to silly persona.
+LII
 Natural: Sophistry. Naturally emphasises structural possibilities.
-Constructive: Silly. Finds it constructive to create personas that broaden possibilities.
+Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
-Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure of resources.
+Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
 Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
 Indulgant: Settled. Can over-indulge observing an equitably settled truth.
-Repressed: Profiteering. Represses promoting a timely yield from resources.
+Repressed: Profiteering. Represses promoting a pragmatic yield.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
-SEI - Settled truth, reinforced by structural possibilities, leads to hospitality.
+SEI
 Natural: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
-Unnatural: Profiteering. Finds it unnatural to promote a timely yield from resources.
-Suggestive: Silly. Wishes they were better at creating personas that broaden possibilities.
+Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
+Suggestive: Silly. Wishes they were better at creating silly personas.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
-Repressed: Expenditure. Represses creating a pragmatic expenditure of resources.
+Repressed: Expenditure. Represses creating a pragmatic expenditure.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 
-ESE - Hospitality, reinforced by silly persona, leads to settled truth.
+ESE
 Natural: Hospitable. Naturally promoting of the needs of others.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
-Obligation: Profiteering. Feels obligated to promote a timely yield from resources.
+Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Suggestive: Sophistry. Wishes they were better at emphasising structural possibilities.
-Indulgant: Silly. Can over-indulge creating personas that broaden possibilities.
+Indulgant: Silly. Can over-indulge creating silly personas.
 Repressed: Distancing. Represses emphasising negative relations.
-Trivializing: Expenditure. Trivializes creating a pragmatic expenditure of resources.
+Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 
-ILE - Silly persona, reinforced by hospitality, leads to structural possibilities.
+ILE
 Natural: Silly. Naturally creates personas that broaden possibilities.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
-Obligation: Expenditure. Feels obligated to create a pragmatic expenditure of resources.
+Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
 Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
 Indulgant: Hospitable. Can over-indulge promoting the needs of others.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
-Trivializing: Profiteering. Trivializes promoting a timely yield from resources.
+Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 
-LSI - Divided structure, reinforced by unyielding truth, leads to insurmountable persona.
+LSI
 Natural: Dividing. Naturally emphasises divided structures.
-Constructive: Insurmountable. Finds it constructive to create personas that capture audiences.
-Obligation: Faithful. Feels obligated to emphasise relational possibilities.
-Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation out of resources.
-Suggestive: Galvanizing. Wishes they were better at promoting a timely release of emotions.
-Indulgant: Unflappable. Can over-indulge observing a powerful, unyielding truth.
-Repressed: Reliable. Represses promoting the maintainance of resources.
-Trivializing: Affirming. Trivializes observing the inherent good and bad.
+Constructive: Insurmountable. Finds it constructive to create powerful personas.
+Obligation: Faithful. Feels obligated to emphasise good-faith relations.
+Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
+Suggestive: Galvanizing. Wishes they were better at promoting an emotional release.
+Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
+Repressed: Reliable. Represses promoting pragmatic maintenance.
+Trivializing: Affirming. Trivializes observing inherent quality.
 
-IEI - Unyielding truth, reinforced by divided structure, leads to emotional release.
-Natural: Unflappable. Naturally observes a powerful, unyielding truth.
-Constructive: Galvanizing. Finds it constructive to promote the timely release of emotions.
-Obligation: Affirming. Feels obligated to observe the inherent good and bad.
-Unnatural: Reliable. Finds it unnatural to promote the maintenance of resources.
-Suggestive: Insurmountable. Wishes they were better at creating personas that capture audiences.
+IEI
+Natural: Unflappable. Naturally observes an unyielding truth.
+Constructive: Galvanizing. Finds it constructive to promote an emotional release.
+Obligation: Affirming. Feels obligated to observe inherent quality.
+Unnatural: Reliable. Finds it unnatural to promote pragmatic maintenance.
+Suggestive: Insurmountable. Wishes they were better at creating powerful personas.
 Indulgant: Dividing. Can over-indulge emphasising divided structures.
-Repressed: Experimental. Represses creating pragmatic experimentation out of resources.
-Trivializing: Faithful. Trivializes emphasising relational possibilities.
+Repressed: Experimental. Represses creating pragmatic experimentation.
+Trivializing: Faithful. Trivializes emphasising good-faith relations.
 
-EIE - Emotional release, reinforced by insurmountable persona, leads to unyielding truth.
-Natural: Galvanizing. Naturally promotes the timely release of emotions.
-Constructive: Unflappable. Finds it constructive to observe a powerful, unyielding truth.
-Obligation: Reliable. Feels obligated to promote the maintenance of resources.
-Unnatural: Affirming. Finds it unnatural to observe the inherent good and bad.
+EIE
+Natural: Galvanizing. Naturally promotes an emotional release.
+Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
+Obligation: Reliable. Feels obligated to promote pragmatic maintenance.
+Unnatural: Affirming. Finds it unnatural to observe inherent quality.
 Suggestive: Dividing. Wishes they were better at emphasising divided structures.
-Indulgant: Insurmountable. Can over-indulge creating personas that capture audiences.
-Repressed: Faithful. Represses emphasising relational possibilities.
-Trivializing: Experimental. Trivializes creating pragmatic experimentation out of resources.
+Indulgant: Insurmountable. Can over-indulge creating powerful personas.
+Repressed: Faithful. Represses emphasising good-faith relations.
+Trivializing: Experimental. Trivializes creating pragmatic experimentation.
 
-SLE - Insurmountable persona, reinforced by emotional release, leads to divided structure.
-Natural: Insurmountable. Naturally creates personas that capture audiences.
+SLE
+Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise divided structures.
-Obligation: Experimental. Feels obligated to create pragmatic experimentation out of resources.
-Unnatural: Faithful. Finds it unnatural to emphasise relational possibilities.
-Suggestive: Unflappable. Wishes they were better at observing a powerful, unyielding truth.
-Indulgant: Galvanizing. Can over-indulge promoting a timely release of emotions.
-Repressed: Affirming. Represses observing the inherent good and bad.
-Trivializing: Reliable. Trivializes promoting the maintenance of resources.
+Obligation: Experimental. Feels obligated to create pragmatic experimentation.
+Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
+Suggestive: Unflappable. Wishes they were better at observing an unyielding truth.
+Indulgant: Galvanizing. Can over-indulge promoting an emotional release.
+Repressed: Affirming. Represses observing inherent quality.
+Trivializing: Reliable. Trivializes promoting pragmatic maintenance.
 
-ESI - Privileged relations, reinforced by emotional foresight, leads to pragmatic expenditure.
+ESI
 Natural: Distancing. Naturally emphasises negative relations.
-Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure of resources.
+Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create personas that broaden possibilities.
-Suggestive: Profiteering. Wishes they were better at promoting a timely yield from resources.
+Suggestive: Profiteering. Wishes they were better at promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
 Trivializing: Settled. Trivializes observing an equitably settled truth.
 
-ILI - Isolation of character, reinforced by privilged relations, leads to pragmatic yield.
+ILI
 Natural: Isolating. Naturally observes an assured, inequitable distance.
-Constructive: Profiteering. Finds it constructive to promote a timely yield from resources.
+Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Settled. Feels obligated to observe an equitably settled truth.
 Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
-Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure of resources.
+Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Repressed: Silly. Represses creating personas that broaden possibilities.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 
-LIE - Pragmatic yield, reinforced by pragmatic expenditure, leads to isolation of character.
-Natural: Profiteering. Naturally promotes a timely yield from resources.
+LIE
+Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote the needs of others.
 Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Distancing. Wishes they were better at emphasising negative relations.
-Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure of resources.
+Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Repressed: Sophistry. Represses emphasising structural possibilities.
 Trivializing: Silly. Trivializes creating personas that broaden possibilities.
 
-SEE - Pragmatic expenditure, reinforced by pragmatic yield, leads to privileged relations.
-Natural: Expenditure. Naturally creates a pragmatic expenditure of resources.
+SEE
+Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create personas that broaden possibilities.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
-Indulgant: Profiteering. Can over-indulge promoting a timely yield from resources.
+Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Repressed: Settled. Represses observing an equitably settled truth.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
 
-EII - Potential relations, reinforce by affirmation of quality, leads to pragmatic experimentation.
-Natural: Faithful. Naturally emphasises relational possibilities.
-Constructive: Experimental. Finds it constructive to create pragmatic experimentation out of resources.
+EII
+Natural: Faithful. Naturally emphasises good-faith relations.
+Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
-Unnatural: Insurmountable. Finds it unnatural to create personas that capture audiences.
-Suggestive: Reliable. Wishes they were better at promoting the maintenance of resources.
-Indulgant: Affirming. Can over-indulge observing the inherent good and bad.
-Repressed: Galvanizing. Represses promoting a timely release of emotions.
-Trivializing: Unflappable. Trivializes observing a powerful, unyielding truth.
+Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
+Suggestive: Reliable. Wishes they were better at promoting pragmatic maintenance.
+Indulgant: Affirming. Can over-indulge observing inherent quality.
+Repressed: Galvanizing. Represses promoting an emotional release.
+Trivializing: Unflappable. Trivializes observing an unyielding truth.
 
-SLI - Affirmation of quality, reinforced by potential relations, leads to reliable maintenance.
-Natural: Affirming. Naturally observes the inherent good and bad.
-Constructive: Reliable. Finds it constructive to promote the maintenance of resources.
-Obligation: Unflappable. Feels obligated to observe a powerful, unyielding truth.
-Unnatural: Galvanizing. Finds it unnatural to promote the timely release of emotions.
-Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation out of resources.
-Indulgant: Faithful. Can over-indulge emphasising relational possibilities.
-Repressed: Insurmountable. Represses creating personas that capture audiences.
+SLI
+Natural: Affirming. Naturally observes inherent quality.
+Constructive: Reliable. Finds it constructive to promote pragmatic maintenance.
+Obligation: Unflappable. Feels obligated to observe an unyielding truth.
+Unnatural: Galvanizing. Finds it unnatural to promote an emotional release.
+Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation.
+Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
+Repressed: Insurmountable. Represses creating powerful personas.
 Trivializing: Dividing. Trivializes emphasising divided structures.
 
-LSE - Reliable maintenance, reinforced by pragmatic experimentation, leads to affirmation of quality.
-Natural: Reliable. Naturally promotes the maintenance of resources.
-Constructive: Affirming. Finds it constructive to observe the inherent good and bad.
-Obligation: Galvanizing. Feels obligated to promoting a timely release of emotions.
-Unnatural: Unflappable. Finds it unnatural to observe a powerful, unyielding truth.
-Suggestive: Faithful. Wishes they were better at emphasising relational possibilities.
-Indulgant: Experimental. Can over-indulge creating pragmatic experimentation out of resources.
+LSE
+Natural: Reliable. Naturally promotes pragmatic maintenance.
+Constructive: Affirming. Finds it constructive to observe inherent quality.
+Obligation: Galvanizing. Feels obligated to promoting an emotional release.
+Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
+Suggestive: Faithful. Wishes they were better at emphasising good-faith relations.
+Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
 Repressed: Dividing. Represses emphasising divided structures.
-Trivializing: Insurmountable. Trivializes creating personas that capture audiences.
+Trivializing: Insurmountable. Trivializes creating powerful personas.
 
-IEE - Pragmatic experimentation, reinforced by reliable maintenance, leads to potential relations.
-Natural: Experimental. Naturally creates pragmatic experimentation out of resources.
-Constructive: Faithful. Finds it constructive to emphasise relational possibilities.
-Obligation: Insurmountable. Feels obligated to create personas that capture audiences.
+IEE
+Natural: Experimental. Naturally creates pragmatic experimentation.
+Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
+Obligation: Insurmountable. Feels obligated to create powerful personas.
 Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
-Suggestive: Affirming. Wishes they were better at observing the inherent good and bad.
-Indulgant: Reliable. Can over-indulge promoting the maintenance of resources.
-Repressed: Unflappable. Represses observing a powerful, unyielding truth.
-Trivializing: Galvanizing. Trivializes promoting a timely release of emotions.
+Suggestive: Affirming. Wishes they were better at observing inherent quality.
+Indulgant: Reliable. Can over-indulge promoting pragmatic maintenance.
+Repressed: Unflappable. Represses observing an unyielding truth.
+Trivializing: Galvanizing. Trivializes promoting an emotional release.
