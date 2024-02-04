@@ -330,14 +330,14 @@ Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
-Suggestive: Galvanizing. Wishes they were better at promoting an emotional release.
+Suggestive: Galvanizing. Wishes they were better at promoting emotional release.
 Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
 Repressed: Reliable. Represses promoting pragmatic maintenance.
 Trivializing: Affirming. Trivializes observing inherent quality.
 
 IEI
 Natural: Unflappable. Naturally observes an unyielding truth.
-Constructive: Galvanizing. Finds it constructive to promote an emotional release.
+Constructive: Galvanizing. Finds it constructive to promote emotional release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic maintenance.
 Suggestive: Insurmountable. Wishes they were better at creating powerful personas.
@@ -346,7 +346,7 @@ Repressed: Experimental. Represses creating pragmatic experimentation.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
 
 EIE
-Natural: Galvanizing. Naturally promotes an emotional release.
+Natural: Galvanizing. Naturally promotes emotional release.
 Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic maintenance.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
@@ -361,7 +361,7 @@ Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
 Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
 Suggestive: Unflappable. Wishes they were better at observing an unyielding truth.
-Indulgant: Galvanizing. Can over-indulge promoting an emotional release.
+Indulgant: Galvanizing. Can over-indulge promoting emotional release.
 Repressed: Affirming. Represses observing inherent quality.
 Trivializing: Reliable. Trivializes promoting pragmatic maintenance.
 
@@ -412,14 +412,14 @@ Obligation: Dividing. Feels obligated to emphasise divided structures.
 Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
 Suggestive: Reliable. Wishes they were better at promoting pragmatic maintenance.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
-Repressed: Galvanizing. Represses promoting an emotional release.
+Repressed: Galvanizing. Represses promoting emotional release.
 Trivializing: Unflappable. Trivializes observing an unyielding truth.
 
 SLI
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic maintenance.
 Obligation: Unflappable. Feels obligated to observe an unyielding truth.
-Unnatural: Galvanizing. Finds it unnatural to promote an emotional release.
+Unnatural: Galvanizing. Finds it unnatural to promote emotional release.
 Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation.
 Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
 Repressed: Insurmountable. Represses creating powerful personas.
@@ -428,7 +428,7 @@ Trivializing: Dividing. Trivializes emphasising divided structures.
 LSE
 Natural: Reliable. Naturally promotes pragmatic maintenance.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
-Obligation: Galvanizing. Feels obligated to promoting an emotional release.
+Obligation: Galvanizing. Feels obligated to promoting emotional release.
 Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
 Suggestive: Faithful. Wishes they were better at emphasising good-faith relations.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
@@ -443,4 +443,4 @@ Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
 Suggestive: Affirming. Wishes they were better at observing inherent quality.
 Indulgant: Reliable. Can over-indulge promoting pragmatic maintenance.
 Repressed: Unflappable. Represses observing an unyielding truth.
-Trivializing: Galvanizing. Trivializes promoting an emotional release.
+Trivializing: Galvanizing. Trivializes promoting emotional release.
