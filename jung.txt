@@ -316,7 +316,7 @@ Repressed: Distancing. Represses emphasising negative relations.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 
 ILE
-Natural: Silly. Naturally creates personas that broaden possibilities.
+Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
@@ -369,7 +369,7 @@ ESI
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
-Unnatural: Silly. Finds it unnatural to create personas that broaden possibilities.
+Unnatural: Silly. Finds it unnatural to create silly personas.
 Suggestive: Profiteering. Wishes they were better at promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
@@ -382,7 +382,7 @@ Obligation: Settled. Feels obligated to observe an equitably settled truth.
 Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
 Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
-Repressed: Silly. Represses creating personas that broaden possibilities.
+Repressed: Silly. Represses creating silly personas.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 
 LIE
@@ -393,12 +393,12 @@ Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Suggestive: Distancing. Wishes they were better at emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Repressed: Sophistry. Represses emphasising structural possibilities.
-Trivializing: Silly. Trivializes creating personas that broaden possibilities.
+Trivializing: Silly. Trivializes creating silly personas.
 
 SEE
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
-Obligation: Silly. Feels obligated to create personas that broaden possibilities.
+Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
