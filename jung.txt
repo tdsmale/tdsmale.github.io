@@ -36,7 +36,7 @@ Active.
 Static.
 Temporality.
 
-Orientation (Ji).
+Conditioning (Ji).
 Reactive.
 Static.
 Rationality.
@@ -49,13 +49,13 @@ Rationality.
 INFORMATION ELEMENTS
 --------------------
 Introverted Feeling (Fi).
-Subjective Orientation.
+Subjective Conditioning.
 Personal relations.
 Relational & privileging.
 Obeying internalised feelings.
 
 Introverted Thinking (Ti).
-Objective Orientation.
+Objective Conditioning.
 Internal structure.
 Truth & impartiality.
 Obeying internalised rules.
@@ -68,7 +68,7 @@ Lessening of discomfort.
 
 Introverted Intuition (Ni).
 Reflective Future.
-Yielding over time.
+Introverted over time.
 Anticipating what will happen.
 Lessening of impact.
 
@@ -137,7 +137,7 @@ Je + Pi: Promoting.
 Seeks to promote external processes.
 Turns negative situations into positive ones.
 
-Je + Pe: Integral.
+Je + Pe: Creating.
 Seeks to create and be a part of external processes.
 Makes the most of positive situations.
 
@@ -223,7 +223,7 @@ Typically has problems with being too impractical or childish.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
 Observant: Settled (Truth + Acceptance). Observing an equitably settled truth.
 Promoting: Hospitable (Expression + Safekeeping). Promoting the needs of others.
-Integral: Silly (Ideation + Personas). Creating silly personas.
+Creating: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
 Beta.
@@ -236,7 +236,7 @@ Typically has problems with being too passionate or tyrannical.
 Symptomatic: Dividing (Control + Structure). Emphasising divided structure.
 Observant: Unflappable (Truth + Timing). Observing an unyielding truth.
 Promoting: Galvanizing (Expression + Foresight). Promoting emotional release.
-Integral: Insurmountable (Capture + Personas). Creating powerful personas.
+Creating: Insurmountable (Capture + Personas). Creating powerful personas.
 
 Solipsistic.
 Gamma.
@@ -249,7 +249,7 @@ Typically has problems with being too cold or distant.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
 Observant: Isolating (Individuation + Timing). Observing an assured, inequitable distance.
 Promoting: Profiteering (Efficiency + Foresight). Promoting a pragmatic yield.
-Integral: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure.
+Creating: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure.
 
 Homeostatic.
 Delta.
@@ -262,7 +262,246 @@ Typically has problems with being too accepting or understanding.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic maintenance.
-Integral: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation.
+Creating: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation.
+
+ATTITUDES
+---------
+4-letter code for each type:
+O/S - Objective/Subjective
+C/N - Conditioning/Nagivating
+P/F - Present/Future
+R/A - Reflecting/Activating
+
+ATTITUDE DICHOTOMIES
+--------------------
+
+Subjective vs Objective.
+Subjective attitudes apprehend what is logically true or accurate.
+Objective attitudes apprehend what is emotionally true or accurate.
+
+FiNe FiNi FiSe FiSi FeNe FeNi FeSe FeSi
+SCFA SCFR SCPA SCPR SNFA SNFR SNPA SNPR
+INFP INTJ ISFP ISTJ ENTP ENFJ ESTP ESFJ
+EII  ILI  ESI  SLI  ILE  EIE  SLE  ESE
+
+TiNe TiNi TiSe TiSi TeNe TeNi TeSe TeSi
+OCFA OCFR OCPA OCPR ONFA ONFR ONPA ONPR
+INTP INFJ ISTP ISFJ ENFP ENTJ ESFP ESTJ
+LII  IEI  LSI  SEI  IEE  LIE  SEE  LSE
+
+Sxxx (Fi/Fe + Ni/Si/Ne/Se)
+Oxxx (Ti/Te + Ni/Si/Ne/Se)
+
+---
+
+Conditioning vs Navigating.
+Conditioning attitudes internalise understandings.
+Navigating attitudes externalise understandings.
+
+FiNe FiNi FiSe FiSi TiNe TiNi TiSe TiSi
+SCFA SCFR SCPA SCPR OCFA OCFR OCPA OCPR
+INFP INTJ ISFP ISTJ INTP INFJ ISTP ISFJ
+EII  ILI  ESI  SLI  LII  IEI  LSI  SEI
+
+FeNe FeNi FeSe FeSi TeNe TeNi TeSe TeSi
+SNFA SNFR SNPA SNPR ONFA ONFR ONPA ONPR
+ENTP ENFJ ESTP ESFJ ENFP ENTJ ESFP ESTJ
+ILE  EIE  SLE  ESE  IEE  LIE  SEE  LSE
+
+xCxx (Fi/Ti + Ni/Si/Ne/Se)
+xNxx (Fe/Te + Ni/Si/Ne/Se)
+
+---
+
+Future vs Present.
+Future attitudes apprehend what could be.
+Present attitudes apprehend what is.
+
+FiNe FiNi FeNe FeNi TiNe TiNi TeNe TeNi
+SCFA SCFR SNFA SNFR OCFA OCFR ONFA ONFR
+INFP INTJ ENTP ENFJ INTP INFJ ENFP ENTJ
+EII  ILI  ILE  EIE  LII  IEI  IEE  LIE
+
+FiSe FiSi FeSe FeSi TiSe TiSi TeSe TeSi
+SCPA SCPR SNPA SNPR OCPA OCPR ONPA ONPR
+ISFP ISTJ ESTP ESFJ ISTP ISFJ ESFP ESTJ
+ESI  SLI  SLE  ESE  LSI  SEI  SEE  LSE
+
+xxFx (Fi/Ti/Fe/Te + Ni/Ne)
+xxPx (Fi/Ti/Fe/Te + Si/Se)
+
+---
+
+Reflecting vs Activating.
+Reflecting attitudes detach from external processes.
+Activating attitudes engage with external processes.
+
+FiNi FeNi TiNi TeNi FiSi FeSi TiSi TeSi
+SCFR SNFR OCFR ONFR SCPR SNPR OCPR ONPR
+INTJ ENFJ INFJ ENTJ ISTJ ESFJ ISFJ ESTJ
+ILI  EIE  IEI  LIE  SLI  ESE  SEI  LSE
+
+FiNe FeNe TiNe TeNe FiSe FeSe TiSe TeSe
+SCFA SNFA OCFA ONFA SCPA SNPA OCPA ONPA
+INFP ENTP INTP ENFP ISFP ESTP ISTP ESFP
+EII  ILE  LII  IEE  ESI  SLE  LSI  SEE
+
+xxxR (Fi/Ti/Fe/Te + Si/Ni)
+xxxA (Fi/Ti/Fe/Te + Se/Ne)
+
+---
+
+Introverted vs Extroverted.
+Introverted attitudes freely give up external processes to protect interests.
+Extroverted attitudes freely give up interests to protect external processes.
+
+FiNi TeSe FeSi TiNe FiSi TeNe FeNi TiSe 
+SCFR ONPA SNPR OCFA SCPR ONFA SNFR OCPA 
+INTJ ESFP ESFJ INTP ISTJ ENFP ENFJ ISTP 
+ILI  SEE  ESE  LII  SLI  IEE  EIE  LSI
+
+FiNe TeSi FeSe TiNi FiSe TeNi FeNe TiSi
+SCFA ONPR SNPA OCFR SCPA ONFR SNFA OCPR
+INFP ESTJ ESTP INFJ ISFP ENTJ ENFP ISFJ
+
+SxxR + OxxA (Fi/Fe + Ni/Si) + (Ti/Te + Ne/Se) (Subjective + Reflective) + (Objective + Activating)
+SxxA + OxxR (Fi/Fe + Ne/Se) + (Ti/Te + Ni/Si) (Objective + Reflective) + (Subjective + Activating)
+
+---
+
+Farsighted & Judicious.
+Farsighted attitudes anticipate further external processes.
+Judicious attitudes tend to existing external processes.
+
+SCFR ONPA SCFA OCFA ONPR SNPA OCFR SNPR
+SCPA SCPR ONFA SNFR OCPA ONFR SNFA OCPR
+xCFx + xNPx (Fi/Ti + Ne/Ni) + (Fe/Te + Se/Si) (Future Conditioning) + (Present Navigating)
+xCPx + xNFx	(Fi/Ti + Se/Si) + (Fe/Te + Ne/Ni) (Present Conditioning) + (Future Navigating)
+
+---
+
+Economical vs Narrational.
+Economical attitudes use resources in persoanlly-valuable ways.
+Narrational attitudes guide audiences to a central truth.
+
+SCFR ONPA SCFA ONFA ONPR SCPR ONFR SCPA
+SNPR SNPA OCFA SNFR OCPA OCFR SNFA OCPR
+SCxx + ONxx (Fi + Ni/Ne/Si/Se) + (Te + Ni/Ne/Si/Se) (Subjective Conditioning) + (Objective Navigation)
+SNxx + OCxx	(Fe + Ni/Ne/Si/Se) + (Ti + Ni/Ne/Si/Se) (Subjective Navigation) + (Objective Conditioning)
+
+---
+
+Collapsing vs Enhancing.
+Collapsing attitudes minimise the negative in external processes.
+Enhancing attitudes maximise the positive in external processes.
+
+SCFR ONPA SNFR OCPA OCFR SNPA ONFR SCPA
+SNPR SCPR OCFA SCFA ONFA ONPR SNFA OCPR
+xxFR + xxPA (Fi/Fe/Ti/Te + Ni) + (Fi/Fe/Ti/Te + Se) (Future Reflecting) + (Present Activating)
+xxFA + xxPR	(Fi/Fe/Ti/Te + Si) + (Fi/Fe/Ti/Te + Ne) (Present Reflecting) + (Future Activating)
+
+---
+
+Continuous vs Periodic.
+Continuous attitudes "enter into" or "move out of" external processes.
+Periodic attitudes explicitly start or finish external processes.
+
+FiNi TeSe FiSi TeNe TiNi FeSe TiSi FeNe
+SCFR ONPA SCPR ONFA OCFR SNPA OCPR SNFA
+
+FeSi FeNi TiNe FiNe TiSe TeSi FiSe TeNi
+SNPR SNFR OCFA SCFA OCPA ONPR SCPA ONFR
+
+xCxR + xNxA (Fi/Ti + Ni/Si) + (Fe/Te + Se/Ne) (Reflective Conditioning (Observant)) + (Activating Navigation (Creating))
+xNxR + xCxA	(Fe/Te + Ni/Si) + (Fi/Ti + Ne/Se) (Reflective Navigation (Promoting)) + (Conditioned Activation (Symptomatic))
+
+---
+
+Hierarchal vs Collectivist.
+Hierarchal types relate to others in terms of social categorisation.
+Collectivist types relate to others in terms of qualities relative to a whole.
+
+SCFR ONPA SNFR OCPA ONPR SCFA OCPR SNFA
+SNPR SCPR OCFA SNPA ONFA OCFR SCPA ONFR
+
+SxFx + OxPx (Fi/Fe + Ni/Ne) + (Ti/Te + Si/Se) (Subjective Future) + (Objective Present)
+SxPx + OxFx	(Fi/Fe + Si/Se) + (Ti/Te + Ni/Ne) (Objective Future) + (Subjective Present)
+
+---
+
+Dialogue vs Monologue.
+Dialogue attitudes tend to invite further dialogue.
+Monologue attitudes tend to shut down further dialogue.
+
+LII, ILE, EIE, IEI, ESI, SEE, LSE, SLI
+INTP ENTP ENFJ INFJ ISFP ESFP ESTJ ISTJ
+
+ESE, SEI, LSI, SLE, LIE, ILI, EII, IEE
+ESFJ ISFJ ISTP ESTP ENTJ INTJ INFP ENFP
+
+SCFx ONFx SNPx OCPx (Fi + Ni/Ni) + (Te + Ni/Ne) + (Fe + Si/Se) + (Ti + Si/Se) (Economical & Farsighted) + (Narrational & Carefree)
+ONPx SCPx OCFx SNFx (Te + Si/Se) + (Fi + Si/Se) + (Ti + Ni/Ne) + (Fe + Ni/Ne) (Narrational & Farsighted) + (Economical & Carefree)
+
+---
+
+Logical vs Emotional.
+Logical attitudes promote more logical external processes.
+Emotional attitudes promote more emotional external processes.
+
+INTJ ISTJ INTP ISTP ENTP ESTP ENTJ ESTJ
+ESFP ENFP ENFJ ESFJ INFJ ISFJ ISFP INFP
+
+SCxR OCxA SNxA ONxR (Fi + Ni/Si) + (Ti + Ne/Se) + (Fe + Ne/Se) + (Te + Ni/Si) (Economical & Extroverted) + (Narrational & Introverted)
+ONxA SNxR OCxR SCxA (Te + Se/Ne) + (Fe + Ni/Si) + (Ti + Ni/Si) + (Fi + Se/Ne) (Economical & Introverted) + (Narrational & Extroverted)
+
+---
+
+Positive vs Negative.
+Positive attitudes fixate on the positive.
+Negative attitudes fixate on the negative.
+
+ILE, ESE, LSI, IEI, SEE, LIE, EII, SLI
+ENTP ESFJ ISTP INFJ ESFP ENTJ INFP ISTJ
+
+SEI, LII, EIE, SLE, ILI, ESI, LSE, IEE
+ISFJ INTP ENFJ ESTP INTJ ISFP ESTJ ENFP
+
+OxPA SxFA OxFR SxPR (Ti/Te + Se) + (Fi/Fe + Ne) + (Ti/Te + Ni) + (Fi/Fe + Si) (Collapsing & Extroverted) + (Enhancing & Introverted) 
+SxFR OxPR SxPA OxFA (Fi/Fe + Ni) + (Ti/Te + Si) + (Fi/Fe + Se) + (Ti/Te + Ne) (Enhancing & Introverted) + (Collapsing & Extroverted)
+
+---
+
+Tactical vs Strategic.
+Tactical attitudes fit goals to suit methods.
+Strategic attitudes fit methods to suit goals.
+
+ILE, ESE, LSI, IEI, ILI, ESI, LSE, IEE
+ENTP ESFJ ISTP INFJ INTJ ISFP ESTJ ENFP 
+
+SEI, LII, EIE, SLE, SEE, LIE, EII, SLI
+ISFJ INTP ENFJ ESTP ESFP ENTJ INFP ISTJ
+
+xNFA xCFR xCPA xNPR 
+xCPR xNPA xNFR xCFA 
+(Te/Fe + Ne) + (Ti/Fi + Ni) + (Ti/Fi + Se) + (Te/Fe + Si) (Continuous & Collapsing) vs (Periodic & Enhancing)
+(Ti/Fi + Si) + (Te/Fe + Se) + (Te/Fe + Ni) + (Ti/Fi + Ne) (Continuous & Enhancing) vs (Periodic & Collapsing)
+
+---
+
+Linear vs Parallel.
+Linear attitudes typically deal with external processes one at a time.
+Parallel attitudes typically deal with multiple external processes at once.
+
+TiNe FeSe FeNi TiSi TeSe FiSe FiNi TeSi
+INTP ESTP ENFJ ISFJ ESFP ISFP INTJ ESTJ 
+OCFA SNPA SNFR OCPR ONFA SCPA SCFR ONPR 
+
+FeSi TiNi TiSe FeNe FiSi TeNi TeSe FiNe
+ESFJ INFJ ISTP ENTP ISTJ ENTJ ESFP INFP
+SNPR OCFR OCPA SNFA SCPR ONFR ONPA SCFA
+
+(Carefree & Periodic) vs (Farsighted & Continuous)
+(Farsighted & Periodic) vs (Carefree & Continuous)
 
 FUNCTIONS
 ---------
@@ -275,7 +514,7 @@ Obligation: Attitude felt as a means to an end.
 Unnatural: Attitude felt as unnatural.
 
 Id Block: Private, Weak and Valued.
-Suggestive: Attitude one wishes to be better at.
+Neglected: Attitude felt as neglected.
 Indulgant: Attitude felt as over-indulged in.
 
 Super-Id Block: Private, Strong and Not Valued.
@@ -290,7 +529,7 @@ Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
-Suggestive: Hospitable. Wishes they were better at promoting the needs of others.
+Neglected: Hospitable. Tends to neglect promoting the needs of others.
 Indulgant: Settled. Can over-indulge observing an equitably settled truth.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
@@ -300,7 +539,7 @@ Natural: Settled. Naturally observes an equitably settled truth.
 Constructive: Hospitable. Finds it constructive to promote the needs of others.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
-Suggestive: Silly. Wishes they were better at creating silly personas.
+Neglected: Silly. Tends to neglect creating silly personas.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 Trivializing: Distancing. Trivializes emphasising negative relations.
@@ -310,7 +549,7 @@ Natural: Hospitable. Naturally promoting of the needs of others.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
-Suggestive: Sophistry. Wishes they were better at emphasising structural possibilities.
+Neglected: Sophistry. Tends to neglect emphasising structural possibilities.
 Indulgant: Silly. Can over-indulge creating silly personas.
 Repressed: Distancing. Represses emphasising negative relations.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
@@ -320,7 +559,7 @@ Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
-Suggestive: Settled. Wishes they were better at observing an equitably settled truth.
+Neglected: Settled. Tends to neglect observing an equitably settled truth.
 Indulgant: Hospitable. Can over-indulge promoting the needs of others.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
@@ -330,7 +569,7 @@ Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
-Suggestive: Galvanizing. Wishes they were better at promoting emotional release.
+Neglected: Galvanizing. Tends to neglect promoting emotional release.
 Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
 Repressed: Reliable. Represses promoting pragmatic maintenance.
 Trivializing: Affirming. Trivializes observing inherent quality.
@@ -340,7 +579,7 @@ Natural: Unflappable. Naturally observes an unyielding truth.
 Constructive: Galvanizing. Finds it constructive to promote emotional release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic maintenance.
-Suggestive: Insurmountable. Wishes they were better at creating powerful personas.
+Neglected: Insurmountable. Tends to neglect creating powerful personas.
 Indulgant: Dividing. Can over-indulge emphasising divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
@@ -350,7 +589,7 @@ Natural: Galvanizing. Naturally promotes emotional release.
 Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic maintenance.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
-Suggestive: Dividing. Wishes they were better at emphasising divided structures.
+Neglected: Dividing. Tends to neglect emphasising divided structures.
 Indulgant: Insurmountable. Can over-indulge creating powerful personas.
 Repressed: Faithful. Represses emphasising good-faith relations.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation.
@@ -360,7 +599,7 @@ Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
 Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
-Suggestive: Unflappable. Wishes they were better at observing an unyielding truth.
+Neglected: Unflappable. Tends to neglect observing an unyielding truth.
 Indulgant: Galvanizing. Can over-indulge promoting emotional release.
 Repressed: Affirming. Represses observing inherent quality.
 Trivializing: Reliable. Trivializes promoting pragmatic maintenance.
@@ -370,7 +609,7 @@ Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create silly personas.
-Suggestive: Profiteering. Wishes they were better at promoting a pragmatic yield.
+Neglected: Profiteering. Tends to neglect promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting the needs of others.
 Trivializing: Settled. Trivializes observing an equitably settled truth.
@@ -380,7 +619,7 @@ Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Settled. Feels obligated to observe an equitably settled truth.
 Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
-Suggestive: Expenditure. Wishes they were better at creating a pragmatic expenditure.
+Neglected: Expenditure. Tends to neglect creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Repressed: Silly. Represses creating silly personas.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
@@ -390,7 +629,7 @@ Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote the needs of others.
 Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
-Suggestive: Distancing. Wishes they were better at emphasising negative relations.
+Neglected: Distancing. Tends to neglect emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Repressed: Sophistry. Represses emphasising structural possibilities.
 Trivializing: Silly. Trivializes creating silly personas.
@@ -400,7 +639,7 @@ Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
-Suggestive: Isolating. Wishes they were better at observing an assured, inequitable distance.
+Neglected: Isolating. Tends to neglect observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Repressed: Settled. Represses observing an equitably settled truth.
 Trivializing: Hospitable. Trivializes promoting the needs of others.
@@ -410,7 +649,7 @@ Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
 Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
-Suggestive: Reliable. Wishes they were better at promoting pragmatic maintenance.
+Neglected: Reliable. Tends to neglect promoting pragmatic maintenance.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
 Repressed: Galvanizing. Represses promoting emotional release.
 Trivializing: Unflappable. Trivializes observing an unyielding truth.
@@ -420,7 +659,7 @@ Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic maintenance.
 Obligation: Unflappable. Feels obligated to observe an unyielding truth.
 Unnatural: Galvanizing. Finds it unnatural to promote emotional release.
-Suggestive: Experimental. Wishes they were better at creating pragmatic experimentation.
+Neglected: Experimental. Tends to neglect creating pragmatic experimentation.
 Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
 Repressed: Insurmountable. Represses creating powerful personas.
 Trivializing: Dividing. Trivializes emphasising divided structures.
@@ -430,7 +669,7 @@ Natural: Reliable. Naturally promotes pragmatic maintenance.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Galvanizing. Feels obligated to promoting emotional release.
 Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
-Suggestive: Faithful. Wishes they were better at emphasising good-faith relations.
+Neglected: Faithful. Tends to neglect emphasising good-faith relations.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
 Repressed: Dividing. Represses emphasising divided structures.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
@@ -440,7 +679,7 @@ Natural: Experimental. Naturally creates pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
 Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
-Suggestive: Affirming. Wishes they were better at observing inherent quality.
+Neglected: Affirming. Tends to neglect observing inherent quality.
 Indulgant: Reliable. Can over-indulge promoting pragmatic maintenance.
 Repressed: Unflappable. Represses observing an unyielding truth.
 Trivializing: Galvanizing. Trivializes promoting emotional release.
