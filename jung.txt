@@ -19,82 +19,31 @@ Active: Apprehended as something that starts or is inherent to an external proce
 COMPOSITE INFORMATION ELEMENT PROPERTIES
 ----------------------------------------
 Temporality
-Future: Detached & Internal. Apprehending what could be.
-Present: Involved & External. Apprehending what is right now.
+Future (N): Detached & Internal. Apprehending what could be.
+Present (S): Involved & External. Apprehending what is right now.
 
 Rationality
-Objective: Detached & External. Apprehending what is logically true or accurate.
-Subjective: Involved & Internal. Apprehending what is emotionally true or accurate.
+Objective (T): Detached & External. Apprehending what is logically true or accurate.
+Subjective (F): Involved & Internal. Apprehending what is emotionally true or accurate.
 
-Reflection (Pi).
-Reactive.
-Dynamic.
-Temporality.
+Perception
+Reflection (Pi): Reactive & Dynamic. Detaching from external processes.
+Activating (Pe): Active & Static. Engaging with external processes.
 
-Activation (Pe).
-Active.
-Static.
-Temporality.
-
-Conditioning (Ji).
-Reactive.
-Static.
-Rationality.
-
-Navigation (Je).
-Active.
-Dynamic.
-Rationality.
+Judging
+Conditioning (Ji): Reactive & Static. Guiding external processes.
+Navigation (Je): Active & Dynamic. Changing external processes.
 
 INFORMATION ELEMENTS
 --------------------
-Introverted Feeling (Fi).
-Subjective Conditioning.
-Personal relations.
-Relational & privileging.
-Obeying internalised feelings.
-
-Introverted Thinking (Ti).
-Objective Conditioning.
-Internal structure.
-Truth & impartiality.
-Obeying internalised rules.
-
-Introverted Sensing (Si).
-Reflective Present.
-Familiarity of senses.
-Enhancing the current moment.
-Lessening of discomfort.
-
-Introverted Intuition (Ni).
-Reflective Future.
-Introverted over time.
-Anticipating what will happen.
-Lessening of impact.
-
-Extroverted Feeling (Fe).
-Subjective Navigation.
-Influencing emotions.
-Authentic externalisation.
-Emotional information.
-
-Extroverted Thinking (Te).
-Objective Navigation.
-Pragmatisation.
-Productive externalisation.
-Factual information.
-
-Extroverted Sensing (Se).
-Activated Present.
-Unyielding in-the-moment.
-Taking up space.
-Capture & possession.
-
-Extroverted Intuition (Ne).
-Activated Future.
-Broadening of possibilities.
-Taking up ideas.
-Thinking outside the box.
+Subjective Conditioning (Fi): Personal relations. Relational & privileging. Obeying internalised feelings.
+Objective Conditioning (Ti): Internal structure. Truth & impartiality. Obeying internalised rules.
+Reflective Present (Si): Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
+Reflective Future (Ni): Yielding over time. Anticipating what will happen. Lessening of impact.
+Subjective Navigation (Fe): Influencing emotions. Authentic externalisation. Emotional information.
+Objective Navigation (Te): Pragmatisation. Productive externalisation. Factual information.
+Present Activation (Se): Unyielding in-the-moment. Taking up space. Capture & possession.
+Future Activation (Ne): Broadening of possibilities. Taking up ideas. Thinking outside the box.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
 Fi vs Fe: Relating vs Expressing Feelings.
@@ -217,7 +166,7 @@ Alpha.
 Enhancing.
 Collectivist.
 Narrational.
-Abstract structure enhances emotional atmosphere.
+Settled truth & abstract structure enhance emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
@@ -230,7 +179,7 @@ Beta.
 Collapsing.
 Hierarchal.
 Narrational.
-Divided structure collapses into dramatic upheaval.
+Unyielding truth & divided structure collapse into dramatic upheaval.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
 Symptomatic: Dividing (Control + Structure). Emphasising divided structure.
@@ -243,7 +192,7 @@ Gamma.
 Collapsing.
 Collectivist.
 Economical.
-Privileged relations collapse into harsh pragmatism.
+Psychological isolation & negative relations collapse into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
@@ -256,7 +205,7 @@ Delta.
 Enhancing.
 Hierarchal.
 Economical.
-Potential relations enhance pragmatic possibilities.
+Affirmation of quality & good-faith relations enhance pragmatic possibilities.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
