@@ -157,14 +157,14 @@ Fe + Se: Insurmountable. Implies that the best personas capture powerful emotion
 QUADRA PROPERTIES
 -----------------
 Hierarchal: Relating to others in terms of the social categories they are part of.
-Collectivist: Relating to others in terms of individual qualities relative to a whole.
+Atomistic: Relating to others in terms of individual qualities relative to a whole.
 
 QUADRAS
 -------
 Equitable.
 Alpha.
 Enhancing.
-Collectivist.
+Atomistic.
 Narrational.
 Settled truth & abstract structure enhance emotional atmosphere.
 Welcoming company that doesn't take anything too seriously.
@@ -190,7 +190,7 @@ Creating: Insurmountable (Capture + Personas). Creating powerful personas.
 Solipsistic.
 Gamma.
 Collapsing.
-Collectivist.
+Atomistic.
 Economical.
 Psychological isolation & negative relations collapse into harsh pragmatism.
 Self-driven, individualistic and sceptical of others.
