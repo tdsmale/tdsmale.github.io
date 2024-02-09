@@ -171,7 +171,7 @@ Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
 Observant: Settled (Truth + Acceptance). Observing an equitably settled truth.
-Promoting: Hospitable (Expression + Safekeeping). Promoting the needs of others.
+Promoting: Hospitable (Expression + Safekeeping). Promoting emotional needs.
 Creating: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
@@ -239,14 +239,14 @@ Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
-Neglected: Hospitable. Can neglect promoting the needs of others.
+Neglected: Hospitable. Can neglect promoting emotional needs.
 Indulgant: Settled. Can over-indulge observing an equitably settled truth.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
 SEI
 Natural: Settled. Naturally observes an equitably settled truth.
-Constructive: Hospitable. Finds it constructive to promote the needs of others.
+Constructive: Hospitable. Finds it constructive to promote emotional needs.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
 Neglected: Silly. Can neglect creating silly personas.
@@ -255,7 +255,7 @@ Repressed: Expenditure. Represses creating a pragmatic expenditure.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 
 ESE
-Natural: Hospitable. Naturally promoting of the needs of others.
+Natural: Hospitable. Naturally promoting of emotional needs.
 Constructive: Settled. Finds it constructive to observe an equitably settled truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
@@ -270,7 +270,7 @@ Constructive: Sophistry. Finds it constructive to emphasise structural possibili
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
 Neglected: Settled. Can neglect observing an equitably settled truth.
-Indulgant: Hospitable. Can over-indulge promoting the needs of others.
+Indulgant: Hospitable. Can over-indulge promoting emotional needs.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 
@@ -321,14 +321,14 @@ Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create silly personas.
 Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
-Repressed: Hospitable. Represses promoting the needs of others.
+Repressed: Hospitable. Represses promoting emotional needs.
 Trivializing: Settled. Trivializes observing an equitably settled truth.
 
 ILI
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Settled. Feels obligated to observe an equitably settled truth.
-Unnatural: Hospitable. Finds it unnatural to promote the needs of others.
+Unnatural: Hospitable. Finds it unnatural to promote emotional needs.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Repressed: Silly. Represses creating silly personas.
@@ -337,7 +337,7 @@ Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 LIE
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
-Obligation: Hospitable. Feels obligated to promote the needs of others.
+Obligation: Hospitable. Feels obligated to promote emotional needs.
 Unnatural: Settled. Finds it unnatural to observe an equitably settled truth.
 Neglected: Distancing. Can neglect emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
@@ -352,7 +352,7 @@ Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Repressed: Settled. Represses observing an equitably settled truth.
-Trivializing: Hospitable. Trivializes promoting the needs of others.
+Trivializing: Hospitable. Trivializes promoting emotional needs.
 
 EII
 Natural: Faithful. Naturally emphasises good-faith relations.
