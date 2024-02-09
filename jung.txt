@@ -210,7 +210,7 @@ Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
-Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic maintenance.
+Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic stability.
 Creating: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation.
 
 FUNCTIONS
@@ -281,14 +281,14 @@ Obligation: Faithful. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
 Neglected: Cathartic. Can neglect promoting emotional release.
 Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
-Repressed: Reliable. Represses promoting pragmatic maintenance.
+Repressed: Reliable. Represses promoting pragmatic stability.
 Trivializing: Affirming. Trivializes observing inherent quality.
 
 IEI
 Natural: Unflappable. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote emotional release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
-Unnatural: Reliable. Finds it unnatural to promote pragmatic maintenance.
+Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
 Neglected: Insurmountable. Can neglect creating powerful personas.
 Indulgant: Dividing. Can over-indulge emphasising divided structures.
 Repressed: Experimental. Represses creating pragmatic experimentation.
@@ -297,7 +297,7 @@ Trivializing: Faithful. Trivializes emphasising good-faith relations.
 EIE
 Natural: Cathartic. Naturally promotes emotional release.
 Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
-Obligation: Reliable. Feels obligated to promote pragmatic maintenance.
+Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
 Neglected: Dividing. Can neglect emphasising divided structures.
 Indulgant: Insurmountable. Can over-indulge creating powerful personas.
@@ -312,7 +312,7 @@ Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
 Neglected: Unflappable. Can neglect observing an unyielding truth.
 Indulgant: Cathartic. Can over-indulge promoting emotional release.
 Repressed: Affirming. Represses observing inherent quality.
-Trivializing: Reliable. Trivializes promoting pragmatic maintenance.
+Trivializing: Reliable. Trivializes promoting pragmatic stability.
 
 ESI
 Natural: Distancing. Naturally emphasises negative relations.
@@ -359,14 +359,14 @@ Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
 Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
-Neglected: Reliable. Can neglect promoting pragmatic maintenance.
+Neglected: Reliable. Can neglect promoting pragmatic stability.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
 Repressed: Cathartic. Represses promoting emotional release.
 Trivializing: Unflappable. Trivializes observing an unyielding truth.
 
 SLI
 Natural: Affirming. Naturally observes inherent quality.
-Constructive: Reliable. Finds it constructive to promote pragmatic maintenance.
+Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Unflappable. Feels obligated to observe an unyielding truth.
 Unnatural: Cathartic. Finds it unnatural to promote emotional release.
 Neglected: Experimental. Can neglect creating pragmatic experimentation.
@@ -375,7 +375,7 @@ Repressed: Insurmountable. Represses creating powerful personas.
 Trivializing: Dividing. Trivializes emphasising divided structures.
 
 LSE
-Natural: Reliable. Naturally promotes pragmatic maintenance.
+Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote emotional release.
 Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
@@ -390,6 +390,6 @@ Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
 Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
 Neglected: Affirming. Can neglect observing inherent quality.
-Indulgant: Reliable. Can over-indulge promoting pragmatic maintenance.
+Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
 Repressed: Unflappable. Represses observing an unyielding truth.
 Trivializing: Cathartic. Trivializes promoting emotional release.
