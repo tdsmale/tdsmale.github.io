@@ -120,7 +120,7 @@ Te + Ni: Profiteering. Implies that to yield the most from a moment, you must be
 Fe + Ni: Cathartic. Implies that to yield the most from a moment, you must tend to an audience or atmosphere.
 
 Ji + Si: Acceptance.
-Ti + Si: Settled. Implies that to be accepting of the present, you must first be observant of inherent structure.
+Ti + Si: Canonical. Implies that to be accepting of the present, you must first be observant of inherent structure.
 Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
 
 Ji + Ni: Timing.
@@ -128,7 +128,7 @@ Ti + Ni: Unflappable. Implies that to have timing, you must first be observant o
 Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
-Ti + Si: Settled. Implies that what is "true" is that which no longer requires further litigation or discussion.
+Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
 Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a more powerful one, one way or another.
 
 Ti + Pe: Structure.
@@ -199,9 +199,9 @@ Structural possibilities enhance emotional atmosphere, leading to equitable legi
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
-Shadow: Overpowering. To step on other's toes, to weild power over others, or to be drowned out.
+Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
-Observant: Settled (Truth + Acceptance). Observing an equitably settled-upon truth.
+Observant: Canonical (Truth + Acceptance). Observing an equitably settled-upon truth.
 Promoting: Hospitable (Expression + Safekeeping). Promoting emotional needs.
 Creating: Silly (Ideation + Personas). Creating silly personas.
 
@@ -229,7 +229,7 @@ Negative relations collapse into harsh pragmatism, leading to psychological ineq
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
-Shadow: Delegation. To represent others or to be delegated their work.
+Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
 Observant: Isolating (Individuation + Timing). Observing an assured, inequitable distance.
 Promoting: Profiteering (Efficiency + Foresight). Promoting a pragmatic yield.
@@ -277,12 +277,12 @@ Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
 Neglected: Hospitable. Can neglect promoting emotional needs.
-Indulgant: Settled. Can over-indulge observing an equitably settled-upon truth.
+Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 
 SEI
-Natural: Settled. Naturally observes an equitably settled-upon truth.
+Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote emotional needs.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
@@ -293,7 +293,7 @@ Trivializing: Distancing. Trivializes emphasising negative relations.
 
 ESE
 Natural: Hospitable. Naturally promoting of emotional needs.
-Constructive: Settled. Finds it constructive to observe an equitably settled-upon truth.
+Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Neglected: Sophistry. Can neglect emphasising structural possibilities.
@@ -306,7 +306,7 @@ Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
-Neglected: Settled. Can neglect observing an equitably settled-upon truth.
+Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Indulgant: Hospitable. Can over-indulge promoting emotional needs.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
@@ -359,12 +359,12 @@ Unnatural: Silly. Finds it unnatural to create silly personas.
 Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Repressed: Hospitable. Represses promoting emotional needs.
-Trivializing: Settled. Trivializes observing an equitably settled-upon truth.
+Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
 
 ILI
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
-Obligation: Settled. Feels obligated to observe an equitably settled-upon truth.
+Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
 Unnatural: Hospitable. Finds it unnatural to promote emotional needs.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
@@ -375,7 +375,7 @@ LIE
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote emotional needs.
-Unnatural: Settled. Finds it unnatural to observe an equitably settled-upon truth.
+Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
 Neglected: Distancing. Can neglect emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Repressed: Sophistry. Represses emphasising structural possibilities.
@@ -388,7 +388,7 @@ Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
-Repressed: Settled. Represses observing an equitably settled-upon truth.
+Repressed: Canonical. Represses observing an equitably settled-upon truth.
 Trivializing: Hospitable. Trivializes promoting emotional needs.
 
 EII
