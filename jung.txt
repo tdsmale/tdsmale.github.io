@@ -165,7 +165,7 @@ Hierarchal: Relating to others in terms of the social categories they are part o
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
 
 Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
-Atomistic Fi: Minimising negative feelings. Distancing & Isolation.
+Atomistic Fi: Emphasising negative feelings. Distancing & Isolation.
 
 Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
 Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
