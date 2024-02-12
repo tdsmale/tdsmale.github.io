@@ -164,6 +164,30 @@ QUADRA PROPERTIES
 Hierarchal: Relating to others in terms of the social categories they are part of.
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
 
+Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
+Atomistic Fi: Minimising negative feelings. Distancing & Isolation.
+
+Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
+Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
+
+Hierarchal Ti: Discplined observance of rules. Division & Unflappability.
+Atomistic Ti: Reinventing the wheel. Sophistry & Settledness.
+
+Hierarchal Fe: Maximising positive expression. The powerful capture & release of emotions.
+Atomistic Fe: Minimising negative expression. Hospitablness & Silliness.
+
+Hierarchal Ni: Premonition & Discordance. Submission to rules.
+Atomistic Ni: Lessening of Impact. Incremental progress.
+
+Hierarchal Se: Possessing the weak. Displays of strength.
+Atomistic Se: Weathering the storm. Retention of resources.
+
+Hierarchal Ne: Avoiding problems & stagnation, exploring alternatives.
+Atomistic Ne: Dreaming big, looking on the bright side.
+
+Hierarchal Si: Lessening Discomfort, promoting peace of mind.
+Atomistic Si: Maximising Pleasure, promoting relaxation & beauty.
+
 QUADRAS
 -------
 Equitable.
