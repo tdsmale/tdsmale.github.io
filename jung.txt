@@ -195,6 +195,8 @@ Alpha.
 Enhancing.
 Atomistic.
 Narrational.
+Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legisliated conclusions.
+Shadow: Overpowering. To step on other's toes, to weild power over others, or to be drowned out.
 Structural possibilities enhance emotional atmosphere, leading to equitable legislation of truth.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
@@ -208,6 +210,8 @@ Beta.
 Collapsing.
 Hierarchal.
 Narrational.
+Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
+Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Divided structure collapses into dramatic upheaval, leading to fundamental, unyielding truth.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
@@ -221,6 +225,8 @@ Gamma.
 Collapsing.
 Atomistic.
 Economical.
+Ideal: Independence. To determine one's own efforts & interests, free of interference.
+Shadow: Delegation. To represent others or to be delegated their work.
 Negative relations collapse into harsh pragmatism, leading to psychological inequity & isolation.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
@@ -234,7 +240,10 @@ Delta.
 Enhancing.
 Hierarchal.
 Economical.
+Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
+Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Good-faith relations enhance pragmatic possibilities, leading to affirmation of inherent quality.
+Determining one's good-faith efforts, free of small-mindedness; complex of clipped wings.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
