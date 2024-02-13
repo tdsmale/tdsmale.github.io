@@ -39,7 +39,7 @@ INFORMATION ELEMENTS
 Subjective Conditioning (Fi): Personal relations. Relational & privileging. Internalised feelings.
 Objective Conditioning (Ti): Internal structure. Truth & impartiality. Internalised rules.
 Reflective Present (Si): Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-Reflective Future (Ni): Yielding over time. Waiting for the moment. Lessening of impact.
+Reflective Future (Ni): Yielding over time. Waiting for the moment. Lessening of impact. Equivocation.
 Subjective Navigation (Fe): Influencing expressions. Authentic externalisation. Emotional information.
 Objective Navigation (Te): Pragmatisation. Productive externalisation. Factual information.
 Present Activation (Se): Unyielding in-the-moment. Taking up space. Capture & possession.
@@ -253,20 +253,20 @@ Creating: Experimental (Exploration + Pragmatism). Creating pragmatic experiment
 FUNCTIONS
 ---------
 Ego Block: Public, Strong and Valued.
-Natural: Default "always-on" attitude.
-Constructive: Attitude felt as constructive.
+Bold: Natural. Default "always-on" attitude.
+Cautious: Constructive. Attitude felt as constructive.
 
 Super-Ego Block: Public, Weak and Not Valued.
-Obligation: Attitude felt as a means to an end.
-Unnatural: Attitude felt as unnatural.
+Bold: Obligation. Attitude felt as a means to an end.
+Cautious: Unnatural. Attitude felt as unnatural.
 
 Id Block: Private, Weak and Valued.
-Neglected: Attitude felt as neglected.
-Indulgant: Attitude felt as over-indulged in.
+Bold: Indulgant. Attitude felt as over-indulged in.
+Cautious: Neglected. Attitude felt as neglected.
 
 Super-Id Block: Private, Strong and Not Valued.
-Repressed: Attitude most repressed.
-Trivializing: Attitude most taken for granted.
+Bold: Trivializing. Attitude most taken for granted.
+Cautious: Repressed. Attitude most repressed.
 
 TYPES
 -----
@@ -276,157 +276,157 @@ Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
-Neglected: Hospitable. Can neglect promoting emotional needs.
 Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
-Repressed: Profiteering. Represses promoting a pragmatic yield.
+Neglected: Hospitable. Can neglect promoting emotional needs.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
+Repressed: Profiteering. Represses promoting a pragmatic yield.
 
 SEI
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote emotional needs.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
-Neglected: Silly. Can neglect creating silly personas.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
-Repressed: Expenditure. Represses creating a pragmatic expenditure.
+Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
+Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE
 Natural: Hospitable. Naturally promoting of emotional needs.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
-Neglected: Sophistry. Can neglect emphasising structural possibilities.
 Indulgant: Silly. Can over-indulge creating silly personas.
-Repressed: Distancing. Represses emphasising negative relations.
+Neglected: Sophistry. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
+Repressed: Distancing. Represses emphasising negative relations.
 
 ILE
 Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
-Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Indulgant: Hospitable. Can over-indulge promoting emotional needs.
-Repressed: Isolating. Represses observing an assured, inequitable distance.
+Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
+Repressed: Isolating. Represses observing an assured, inequitable distance.
 
 LSI
 Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
-Neglected: Cathartic. Can neglect promoting emotional release.
 Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
-Repressed: Reliable. Represses promoting pragmatic stability.
+Neglected: Cathartic. Can neglect promoting emotional release.
 Trivializing: Affirming. Trivializes observing inherent quality.
+Repressed: Reliable. Represses promoting pragmatic stability.
 
 IEI
 Natural: Unflappable. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote emotional release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
-Neglected: Insurmountable. Can neglect creating powerful personas.
 Indulgant: Dividing. Can over-indulge emphasising divided structures.
-Repressed: Experimental. Represses creating pragmatic experimentation.
+Neglected: Insurmountable. Can neglect creating powerful personas.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
+Repressed: Experimental. Represses creating pragmatic experimentation.
 
 EIE
 Natural: Cathartic. Naturally promotes emotional release.
 Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
-Neglected: Dividing. Can neglect emphasising divided structures.
 Indulgant: Insurmountable. Can over-indulge creating powerful personas.
-Repressed: Faithful. Represses emphasising good-faith relations.
+Neglected: Dividing. Can neglect emphasising divided structures.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation.
+Repressed: Faithful. Represses emphasising good-faith relations.
 
 SLE
 Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
 Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
-Neglected: Unflappable. Can neglect observing an unyielding truth.
 Indulgant: Cathartic. Can over-indulge promoting emotional release.
-Repressed: Affirming. Represses observing inherent quality.
+Neglected: Unflappable. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
+Repressed: Affirming. Represses observing inherent quality.
 
 ESI
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create silly personas.
-Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
-Repressed: Hospitable. Represses promoting emotional needs.
+Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
+Repressed: Hospitable. Represses promoting emotional needs.
 
 ILI
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
 Unnatural: Hospitable. Finds it unnatural to promote emotional needs.
-Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
-Repressed: Silly. Represses creating silly personas.
+Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
+Repressed: Silly. Represses creating silly personas.
 
 LIE
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote emotional needs.
 Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
-Neglected: Distancing. Can neglect emphasising negative relations.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
-Repressed: Sophistry. Represses emphasising structural possibilities.
+Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
+Repressed: Sophistry. Represses emphasising structural possibilities.
 
 SEE
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
-Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
-Repressed: Canonical. Represses observing an equitably settled-upon truth.
+Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Trivializing: Hospitable. Trivializes promoting emotional needs.
+Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
 EII
 Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
 Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
-Neglected: Reliable. Can neglect promoting pragmatic stability.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
-Repressed: Cathartic. Represses promoting emotional release.
+Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Unflappable. Trivializes observing an unyielding truth.
+Repressed: Cathartic. Represses promoting emotional release.
 
 SLI
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Unflappable. Feels obligated to observe an unyielding truth.
 Unnatural: Cathartic. Finds it unnatural to promote emotional release.
-Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
-Repressed: Insurmountable. Represses creating powerful personas.
+Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Trivializing: Dividing. Trivializes emphasising divided structures.
+Repressed: Insurmountable. Represses creating powerful personas.
 
 LSE
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote emotional release.
 Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
-Neglected: Faithful. Can neglect emphasising good-faith relations.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
-Repressed: Dividing. Represses emphasising divided structures.
+Neglected: Faithful. Can neglect emphasising good-faith relations.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
+Repressed: Dividing. Represses emphasising divided structures.
 
 IEE
 Natural: Experimental. Naturally creates pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
 Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
-Neglected: Affirming. Can neglect observing inherent quality.
 Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
-Repressed: Unflappable. Represses observing an unyielding truth.
+Neglected: Affirming. Can neglect observing inherent quality.
 Trivializing: Cathartic. Trivializes promoting emotional release.
+Repressed: Unflappable. Represses observing an unyielding truth.
