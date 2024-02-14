@@ -95,74 +95,15 @@ Je + Pe: Creating.
 Seeks to make the most of external processes.
 Maximises the result.
 
-Ji + Se: Control.
-Ti + Se: Dividing. Implies that control is found in emphasising divided structures.
-Fi + Se: Distancing. Implies that control is found in emphasising negative relations.
-
-Ji + Ne: Potential.
-Ti + Ne: Sophistry. Implies that potential is found in equitable structure.
-Fi + Ne: Faithful. Implies that potential is found in positive relations.
-
-Je + Se: Capture.
-Fe + Se: Insurmountable. Implies that power is captured by creating personas.
-Te + Se: Expenditure. Implies that power is captured from the expenditure of resources.
-
-Je + Ne: Ideation.
-Te + Ne: Experimental. Implies that possibilities are broadened pragmatically.
-Fe + Ne: Silly. Implies that possibilities are broadened through personas.
-
-Je + Si: Safekeeping.
-Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
-Fe + Si: Hospitable. Implies that to be safekeeping of the present, you must tend to an audience or atmosphere.
-
-Je + Ni: Foresight.
-Te + Ni: Profiteering. Implies that to yield the most from a moment, you must be efficient and resourceful.
-Fe + Ni: Cathartic. Implies that to yield the most from a moment, you must tend to an audience or atmosphere.
-
-Ji + Si: Acceptance.
-Ti + Si: Canonical. Implies that to be accepting of the present, you must first be observant of inherent structure.
-Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
-
-Ji + Ni: Timing.
-Ti + Ni: Unflappable. Implies that to have timing, you must first be observant of inherent structure.
-Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
-
-Ti + Pi: Truth.
-Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
-Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a more powerful one, one way or another.
-
-Ti + Pe: Structure.
-Ti + Ne: Sophistry. Implies that inherent structure is best emphasised by its opening of possibilities.
-Ti + Se: Dividing. Implies that inherent structure is best emphasised by its controlling manner. "The law of the land".
-
-Fi + Pi: Individuation.
-Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
-Fi + Si: Affirming. Implies that individuation best occurs by observing the good alonside the bad.
-
-Fi + Pe: Relations.
-Fi + Ne: Faithful. Implies that inherent relations are best emphasised by their opening of possibilities.
-Fi + Se: Distancing. Implies that inherent relations are best emphasised by their negativity.
-
-Te + Pi: Efficiency.
-Te + Si: Reliable. Implies that the most efficient resources are those that work as expected for the longest.
-Te + Ni: Profiteering. Implies that the most efficient resources are those that provide the best yield at the right moment.
-
-Te + Pe: Pragmatism.
-Te + Se: Expenditure. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
-Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
-
-Fe + Pi: Expression.
-Fe + Si: Hospitable. Implies that the best expressions are those that promote emotional welcome.
-Fe + Ni: Cathartic. Implies that the best expressions are those that promote emotional release.
-
-Fe + Pe: Personas.
-Fe + Ne: Silly. Implies that the best personas explore new possibilities.
-Fe + Se: Insurmountable. Implies that the best personas capture powerful emotions.
-
-QUADRA PROPERTIES
------------------
+HIERARCHAL VS ATOMISTIC
+-----------------------
 Hierarchal: Relating to others in terms of the social categories they are part of.
+Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. Affirming & high-minded.
+Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
+
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
+Equitable (Fi/Te/Ni/Se): Narrational Enhancement. Childish & welcoming.
+Solipsistic (Ti/Fe/Si/Ne): Economical Collapse. Cold and distant.
 
 Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
 Atomistic Fi: Emphasising negative feelings. Distancing & Isolation.
@@ -188,6 +129,70 @@ Atomistic Ne: Dreaming big, looking on the bright side.
 Hierarchal Si: Lessening Discomfort, promoting peace of mind.
 Atomistic Si: Maximising Pleasure, promoting relaxation & beauty.
 
+Ji + Se: Control.
+Hierarchal: Ti + Se: Dividing. Implies that control is found in emphasising divided structures.
+Atomistic: Fi + Se: Distancing. Implies that control is found in emphasising negative relations.
+
+Ji + Ne: Potential.
+Hierarchal: Fi + Ne: Faithful. Implies that potential is found in positive relations.
+Atomistic: Ti + Ne: Sophistry. Implies that potential is found in equitable structure.
+
+Je + Se: Capture.
+Hierarchal: Fe + Se: Insurmountable. Implies that power is captured by creating personas.
+Atomistic: Te + Se: Expenditure. Implies that power is captured from the expenditure of resources.
+
+Je + Ne: Ideation.
+Hierarchal: Te + Ne: Experimental. Implies that possibilities are broadened pragmatically.
+Atomistic: Fe + Ne: Silly. Implies that possibilities are broadened through personas.
+
+Je + Si: Safekeeping.
+Hierarchal: Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
+Atomistic: Fe + Si: Hospitable. Implies that to be safekeeping of the present, you must tend to an audience or atmosphere.
+
+Je + Ni: Foresight.
+Hierarchal: Fe + Ni: Cathartic. Implies that to yield the most from a moment, you must tend to an audience or atmosphere.
+Atomistic: Te + Ni: Profiteering. Implies that to yield the most from a moment, you must be efficient and resourceful.
+
+Ji + Si: Acceptance.
+Hierarchal: Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
+Atomistic: Ti + Si: Canonical. Implies that to be accepting of the present, you must first be observant of inherent structure.
+
+Ji + Ni: Timing.
+Hierarchal: Ti + Ni: Unflappable. Implies that to have timing, you must first be observant of inherent structure.
+Atomistic: Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
+
+Ti + Pi: Truth.
+Hierarchal: Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a more powerful one, one way or another.
+Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
+
+Ti + Pe: Structure.
+Hierarchal: Ti + Se: Dividing. Implies that inherent structure is best emphasised by its controlling manner. "The law of the land".
+Atomistic: Ti + Ne: Sophistry. Implies that inherent structure is best emphasised by its opening of possibilities.
+
+Fi + Pi: Individuation.
+Hierarchal: Fi + Si: Affirming. Implies that individuation best occurs by observing the good alonside the bad.
+Atomistic: Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
+
+Fi + Pe: Relations.
+Hierarchal: Fi + Ne: Faithful. Implies that inherent relations are best emphasised by their opening of possibilities.
+Atomistic: Fi + Se: Distancing. Implies that inherent relations are best emphasised by their negativity.
+
+Te + Pi: Efficiency.
+Hierarchal: Te + Si: Reliable. Implies that the most efficient resources are those that work as expected for the longest.
+Atomistic: Te + Ni: Profiteering. Implies that the most efficient resources are those that provide the best yield at the right moment.
+
+Te + Pe: Pragmatism.
+Hierarchal: Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
+Atomistic: Te + Se: Expenditure. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
+
+Fe + Pi: Expression.
+Hierarchal: Fe + Ni: Cathartic. Implies that the best expressions are those that promote emotional release.
+Atomistic: Fe + Si: Hospitable. Implies that the best expressions are those that promote emotional welcome.
+
+Fe + Pe: Personas.
+Hierarchal: Fe + Se: Insurmountable. Implies that the best personas capture powerful emotions.
+Atomistic: Fe + Ne: Silly. Implies that the best personas explore new possibilities.
+
 QUADRAS
 -------
 Equitable.
@@ -202,7 +207,7 @@ Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislate
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
 Observant: Canonical (Truth + Acceptance). Observing an equitably settled-upon truth.
-Promoting: Hospitable (Expression + Safekeeping). Promoting a welcome expression.
+Promoting: Hospitable (Expression + Safekeeping). Promoting a welcoming expression.
 Creating: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
@@ -277,13 +282,13 @@ Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
 Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
-Neglected: Hospitable. Can neglect promoting a welcome expression.
+Neglected: Hospitable. Can neglect promoting a welcoming expression.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 
 SEI
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
-Constructive: Hospitable. Finds it constructive to promote a welcome expression.
+Constructive: Hospitable. Finds it constructive to promote a welcoming expression.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
@@ -292,7 +297,7 @@ Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE
-Natural: Hospitable. Naturally promoting of a welcome expression.
+Natural: Hospitable. Naturally promoting of a welcoming expression.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
@@ -306,7 +311,7 @@ Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
-Indulgant: Hospitable. Can over-indulge promoting a welcome expression.
+Indulgant: Hospitable. Can over-indulge promoting a welcoming expression.
 Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
@@ -359,13 +364,13 @@ Unnatural: Silly. Finds it unnatural to create silly personas.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
-Repressed: Hospitable. Represses promoting a welcome expression.
+Repressed: Hospitable. Represses promoting a welcoming expression.
 
 ILI
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
-Unnatural: Hospitable. Finds it unnatural to promote a welcome expression.
+Unnatural: Hospitable. Finds it unnatural to promote a welcoming expression.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
@@ -374,7 +379,7 @@ Repressed: Silly. Represses creating silly personas.
 LIE
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
-Obligation: Hospitable. Feels obligated to promote a welcome expression.
+Obligation: Hospitable. Feels obligated to promote a welcoming expression.
 Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Neglected: Distancing. Can neglect emphasising negative relations.
@@ -388,7 +393,7 @@ Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Neglected: Isolating. Can neglect observing an assured, inequitable distance.
-Trivializing: Hospitable. Trivializes promoting a welcome expression.
+Trivializing: Hospitable. Trivializes promoting a welcoming expression.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
 EII
