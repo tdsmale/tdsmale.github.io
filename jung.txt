@@ -98,12 +98,12 @@ Maximises the result.
 HIERARCHAL VS ATOMISTIC
 -----------------------
 Hierarchal: Relating to others in terms of the social categories they are part of.
-Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. Affirming & high-minded.
+Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
 Equitable (Fi/Te/Ni/Se): Narrational Enhancement. Childish & welcoming.
-Solipsistic (Ti/Fe/Si/Ne): Economical Collapse. Cold and distant.
+Solipsistic (Ti/Fe/Si/Ne): Economical Collapse. Cold and independent.
 
 Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
 Atomistic Fi: Emphasising negative feelings. Distancing & Isolation.
