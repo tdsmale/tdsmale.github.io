@@ -162,7 +162,7 @@ Hierarchal: Ti + Ni: Unflappable. Implies that to have timing, you must first be
 Atomistic: Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
-Hierarchal: Ti + Ni: Unflappable. Implies that what is "true" will ultimately yield to a more powerful one, one way or another.
+Hierarchal: Ti + Ni: Unflappable. Implies that what is "true" is that which does not yield under pressure.
 Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
 
 Ti + Pe: Structure.
