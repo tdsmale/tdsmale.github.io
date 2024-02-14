@@ -102,8 +102,8 @@ Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Equitable (Fi/Te/Ni/Se): Narrational Enhancement. Childish & welcoming.
-Solipsistic (Ti/Fe/Si/Ne): Economical Collapse. Cold and independent.
+Equitable (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
+Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
 Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
 Atomistic Fi: Emphasising negative feelings. Distancing & Isolation.
