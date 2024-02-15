@@ -158,11 +158,11 @@ Hierarchal: Fi + Si: Affirming. Implies that to be accepting of the present, you
 Atomistic: Ti + Si: Canonical. Implies that to be accepting of the present, you must first be observant of inherent structure.
 
 Ji + Ni: Timing.
-Hierarchal: Ti + Ni: Unflappable. Implies that to have timing, you must first be observant of inherent structure.
+Hierarchal: Ti + Ni: Radical. Implies that to have timing, you must first be observant of inherent structure.
 Atomistic: Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
 
 Ti + Pi: Truth.
-Hierarchal: Ti + Ni: Unflappable. Implies that what is "true" is that which does not yield to pressure over time.
+Hierarchal: Ti + Ni: Radical. Implies that what is "true" is that which does not yield to pressure over time.
 Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
 
 Ti + Pe: Structure.
@@ -221,7 +221,7 @@ Typically has problems with being too passionate or tyrannical.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Symptomatic: Dividing (Control + Structure). Emphasising divided structure.
-Observant: Unflappable (Truth + Timing). Observing an unyielding truth.
+Observant: Radical (Truth + Timing). Observing an unyielding truth.
 Promoting: Cathartic (Expression + Foresight). Promoting expressive release.
 Creating: Insurmountable (Capture + Personas). Creating powerful personas.
 
@@ -321,13 +321,13 @@ Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
-Indulgant: Unflappable. Can over-indulge observing an unyielding truth.
+Indulgant: Radical. Can over-indulge observing an unyielding truth.
 Neglected: Cathartic. Can neglect promoting expressive release.
 Trivializing: Affirming. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
 IEI / INFJ / Heretic
-Natural: Unflappable. Naturally observes an unyielding truth.
+Natural: Radical. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote expressive release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
@@ -338,7 +338,7 @@ Repressed: Experimental. Represses creating pragmatic experimentation.
 
 EIE / ENFJ / Cultist
 Natural: Cathartic. Naturally promotes expressive release.
-Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
+Constructive: Radical. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
 Indulgant: Insurmountable. Can over-indulge creating powerful personas.
@@ -352,7 +352,7 @@ Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
 Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
 Indulgant: Cathartic. Can over-indulge promoting expressive release.
-Neglected: Unflappable. Can neglect observing an unyielding truth.
+Neglected: Radical. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirming. Represses observing inherent quality.
 
@@ -403,13 +403,13 @@ Obligation: Dividing. Feels obligated to emphasise divided structures.
 Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
 Neglected: Reliable. Can neglect promoting pragmatic stability.
-Trivializing: Unflappable. Trivializes observing an unyielding truth.
+Trivializing: Radical. Trivializes observing an unyielding truth.
 Repressed: Cathartic. Represses promoting expressive release.
 
 SLI / ISTJ / Custodian
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
-Obligation: Unflappable. Feels obligated to observe an unyielding truth.
+Obligation: Radical. Feels obligated to observe an unyielding truth.
 Unnatural: Cathartic. Finds it unnatural to promote expressive release.
 Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
 Neglected: Experimental. Can neglect creating pragmatic experimentation.
@@ -420,7 +420,7 @@ LSE / ESTJ / Equerry
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote expressive release.
-Unnatural: Unflappable. Finds it unnatural to observe an unyielding truth.
+Unnatural: Radical. Finds it unnatural to observe an unyielding truth.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
 Neglected: Faithful. Can neglect emphasising good-faith relations.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
@@ -434,4 +434,4 @@ Unnatural: Dividing. Finds it unnatural to emphasise divided structures.
 Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
 Neglected: Affirming. Can neglect observing inherent quality.
 Trivializing: Cathartic. Trivializes promoting expressive release.
-Repressed: Unflappable. Represses observing an unyielding truth.
+Repressed: Radical. Represses observing an unyielding truth.
