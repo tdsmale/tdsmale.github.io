@@ -39,7 +39,7 @@ INFORMATION ELEMENTS
 Subjective Conditioning (Fi): Personal relations. Relational & privileging. Internalised feelings.
 Objective Conditioning (Ti): Internal structure. Truth & impartiality. Internalised rules.
 Reflective Present (Si): Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-Reflective Future (Ni): Yielding over time. Waiting for the moment. Lessening of impact. Equivocation.
+Reflective Future (Ni): Yielding over time. Waiting for the moment. Lessening of impact. 
 Subjective Navigation (Fe): Influencing expressions. Authentic externalisation. Emotional information.
 Objective Navigation (Te): Pragmatisation. Productive externalisation. Factual information.
 Present Activation (Se): Unyielding in-the-moment. Taking up space. Capture & possession.
