@@ -130,20 +130,20 @@ Hierarchal Si: Lessening Discomfort, promoting peace of mind.
 Atomistic Si: Maximising Pleasure, promoting relaxation & beauty.
 
 Ji + Se: Control.
-Hierarchal: Ti + Se: Dividing. Implies that control is found in emphasising divided structures.
-Atomistic: Fi + Se: Distancing. Implies that control is found in emphasising negative relations.
+Hierarchal: Ti + Se: Dividing. Control through emphasising divisive structure.
+Atomistic: Fi + Se: Distancing. Control through emphasising negative relations.
 
 Ji + Ne: Potential.
-Hierarchal: Fi + Ne: Faithful. Implies that potential is found in positive relations.
-Atomistic: Ti + Ne: Sophistry. Implies that potential is found in equitable structure.
+Hierarchal: Fi + Ne: Faithful. Potential through emphasising good-faith relations.
+Atomistic: Ti + Ne: Sophistry. Potential through possibilities inherent in structure.
 
 Je + Se: Capture.
-Hierarchal: Fe + Se: Insurmountable. Implies that power is captured by creating personas.
-Atomistic: Te + Se: Expenditure. Implies that power is captured from the expenditure of resources.
+Hierarchal: Fe + Se: Insurmountable. Capturing power by creating powerful social personas.
+Atomistic: Te + Se: Expenditure. Capturing power by expending resources pragmatically.
 
 Je + Ne: Ideation.
-Hierarchal: Te + Ne: Experimental. Implies that possibilities are broadened pragmatically.
-Atomistic: Fe + Ne: Silly. Implies that possibilities are broadened through personas.
+Hierarchal: Te + Ne: Experimental. Broadening possibilties through pragmatic experimentation.
+Atomistic: Fe + Ne: Silly. Broadening possibilities by creating silly social personas.
 
 Je + Si: Safekeeping.
 Hierarchal: Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
@@ -166,7 +166,7 @@ Hierarchal: Ti + Ni: Unflappable. Implies that what is "true" is that which does
 Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
 
 Ti + Pe: Structure.
-Hierarchal: Ti + Se: Dividing. Implies that inherent structure is best emphasised by its controlling manner. "The law of the land".
+Hierarchal: Ti + Se: Dividing. Implies that inherent structure is best emphasised by its divisiveness. "The law of the land".
 Atomistic: Ti + Ne: Sophistry. Implies that inherent structure is best emphasised by its opening of possibilities.
 
 Fi + Pi: Individuation.
@@ -276,7 +276,7 @@ Cautious: Repressed. Attitude most repressed.
 TYPES
 -----
 
-LII
+LII / INTP / Syllogist
 Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
@@ -286,7 +286,7 @@ Neglected: Hospitable. Can neglect promoting a welcoming expression.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 
-SEI
+SEI / ISFJ / Theologian
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote a welcoming expression.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
@@ -296,7 +296,7 @@ Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
-ESE
+ESE / ESFJ / Traiteur
 Natural: Hospitable. Naturally promoting of a welcoming expression.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
@@ -306,7 +306,7 @@ Neglected: Sophistry. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distancing. Represses emphasising negative relations.
 
-ILE
+ILE / ENTP / Fool
 Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
@@ -316,7 +316,7 @@ Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 
-LSI
+LSI / ISTP / Rogue
 Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
@@ -326,7 +326,7 @@ Neglected: Cathartic. Can neglect promoting expressive release.
 Trivializing: Affirming. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
-IEI
+IEI / INFJ / Heretic
 Natural: Unflappable. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote expressive release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
@@ -336,7 +336,7 @@ Neglected: Insurmountable. Can neglect creating powerful personas.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
 Repressed: Experimental. Represses creating pragmatic experimentation.
 
-EIE
+EIE / ENFJ / Cultist
 Natural: Cathartic. Naturally promotes expressive release.
 Constructive: Unflappable. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
@@ -346,7 +346,7 @@ Neglected: Dividing. Can neglect emphasising divided structures.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation.
 Repressed: Faithful. Represses emphasising good-faith relations.
 
-SLE
+SLE / ESTP / Marshal
 Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
@@ -356,7 +356,7 @@ Neglected: Unflappable. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirming. Represses observing inherent quality.
 
-ESI
+ESI / ISFP / Puritan
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
@@ -366,7 +366,7 @@ Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
 Repressed: Hospitable. Represses promoting a welcoming expression.
 
-ILI
+ILI / INTJ / Miser
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
@@ -376,7 +376,7 @@ Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 Repressed: Silly. Represses creating silly personas.
 
-LIE
+LIE / ENTJ / Financier
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming expression.
@@ -386,7 +386,7 @@ Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
 Repressed: Sophistry. Represses emphasising structural possibilities.
 
-SEE
+SEE / ESFP / Prodigal
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
@@ -396,7 +396,7 @@ Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming expression.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
-EII
+EII / INFP / Seelie
 Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
@@ -406,7 +406,7 @@ Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Unflappable. Trivializes observing an unyielding truth.
 Repressed: Cathartic. Represses promoting expressive release.
 
-SLI
+SLI / ISTJ / Custodian
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Unflappable. Feels obligated to observe an unyielding truth.
@@ -416,7 +416,7 @@ Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Trivializing: Dividing. Trivializes emphasising divided structures.
 Repressed: Insurmountable. Represses creating powerful personas.
 
-LSE
+LSE / ESTJ / Equerry
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote expressive release.
@@ -426,7 +426,7 @@ Neglected: Faithful. Can neglect emphasising good-faith relations.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
 Repressed: Dividing. Represses emphasising divided structures.
 
-IEE
+IEE / ENFP / Hierophant
 Natural: Experimental. Naturally creates pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
