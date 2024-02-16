@@ -135,7 +135,7 @@ Atomistic: Fi + Se: Distancing. Control through emphasising negative relations.
 
 Ji + Ne: Potential.
 Hierarchal: Fi + Ne: Faithful. Potential through emphasising good-faith relations.
-Atomistic: Ti + Ne: Sophistry. Potential through possibilities inherent in structure.
+Atomistic: Ti + Ne: Sophistry. Potential through emphasising structural possibilities.
 
 Je + Se: Capture.
 Hierarchal: Fe + Se: Insurmountable. Capturing power by creating powerful social personas.
@@ -316,7 +316,7 @@ Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 
-LSI / ISTP / ISTj / Heretic (Shadow: Equarry)
+LSI / ISTP / ISTj / Judge (Shadow: Equarry)
 Natural: Dividing. Naturally emphasises structural division.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
@@ -326,7 +326,7 @@ Neglected: Cathartic. Can neglect promoting expressive release.
 Trivializing: Affirming. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
-IEI / INFJ / INFp / Apostate (Shadow: Hierophant)
+IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
 Natural: Radical. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote expressive release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
@@ -336,7 +336,7 @@ Neglected: Insurmountable. Can neglect creating powerful personas.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
 Repressed: Experimental. Represses creating pragmatic experimentation.
 
-EIE / ENFJ / ENFj / Cultist (Shadow: Seelie)
+EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Natural: Cathartic. Naturally promotes expressive release.
 Constructive: Radical. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
@@ -346,7 +346,7 @@ Neglected: Dividing. Can neglect emphasising structural division.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation.
 Repressed: Faithful. Represses emphasising good-faith relations.
 
-SLE / ESTP / ESTp / Marshal (Shadow: Custodian)
+SLE / ESTP / ESTp / Predator (Shadow: Custodian)
 Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise structural division.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
@@ -396,7 +396,7 @@ Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
-EII / INFP / INFj / Seelie (Shadow: Cultist)
+EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise structural division.
@@ -406,7 +406,7 @@ Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Radical. Trivializes observing an unyielding truth.
 Repressed: Cathartic. Represses promoting expressive release.
 
-SLI / ISTJ / ISTp / Custodian (Shadow: Marshal)
+SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Radical. Feels obligated to observe an unyielding truth.
@@ -416,7 +416,7 @@ Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Trivializing: Dividing. Trivializes emphasising structural division.
 Repressed: Insurmountable. Represses creating powerful personas.
 
-LSE / ESTJ / ESTj / Equerry (Shadow: Heretic)
+LSE / ESTJ / ESTj / Equerry (Shadow: Judge)
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote expressive release.
@@ -426,7 +426,7 @@ Neglected: Faithful. Can neglect emphasising good-faith relations.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
 Repressed: Dividing. Represses emphasising structural division.
 
-IEE / ENFP / Enfp / Hierophant (Shadow: Apostate)
+IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
 Natural: Experimental. Naturally creates pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
