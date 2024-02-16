@@ -102,7 +102,7 @@ Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Equitable (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
+Dialectic (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
 Hierarchal Fi: Emphasising positive feelings. Faithfulness & Affirmation.
@@ -195,7 +195,7 @@ Atomistic: Fe + Ne: Silly. Implies that the best personas explore new possibilit
 
 QUADRAS
 -------
-Equitable.
+Dialectic.
 Alpha.
 Enhancing.
 Atomistic.
