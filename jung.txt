@@ -276,7 +276,7 @@ Cautious: Repressed. Attitude most repressed.
 TYPES
 -----
 
-LII / INTP / INTj / Incongruent (Shadow: Investor)
+LII / INTP / INTj / Sophist (Shadow: Investor)
 Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
@@ -286,7 +286,7 @@ Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 
-SEI / ISFJ / ISFp / Theologian (Shadow: Prodigal)
+SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
@@ -296,7 +296,7 @@ Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
-ESE / ESFJ / ESFj / Traiteur (Shadow: Puritan)
+ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
@@ -356,7 +356,7 @@ Neglected: Radical. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirming. Represses observing inherent quality.
 
-ESI / ISFP / ISFj / Puritan (Shadow: Traiteur)
+ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
@@ -376,7 +376,7 @@ Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 Repressed: Silly. Represses creating silly personas.
 
-LIE / ENTJ / ENTj / Investor (Shadow: Incongruent)
+LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
@@ -386,7 +386,7 @@ Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
 Repressed: Sophistry. Represses emphasising structural possibilities.
 
-SEE / ESFP / ESFp / Prodigal (Shadow: Theologian)
+SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
