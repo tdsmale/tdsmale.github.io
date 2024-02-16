@@ -112,7 +112,7 @@ Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
 Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
 
 Hierarchal Ti: Disciplined observance of rules. Division & Unflappability.
-Atomistic Ti: Reinventing the wheel. Sophistry & Equitable Legislation.
+Atomistic Ti: Reinventing the wheel. Dialectic & Equitable Legislation.
 
 Hierarchal Fe: Maximising positive expression. The powerful capture & release of emotions.
 Atomistic Fe: Minimising negative expression. Hospitableness & Silliness.
@@ -135,7 +135,7 @@ Atomistic: Fi + Se: Distancing. Control through emphasising negative relations.
 
 Ji + Ne: Potential.
 Hierarchal: Fi + Ne: Faithful. Potential through emphasising good-faith relations.
-Atomistic: Ti + Ne: Sophistry. Potential through emphasising structural possibilities.
+Atomistic: Ti + Ne: Dialectic. Potential through emphasising structural possibilities.
 
 Je + Se: Capture.
 Hierarchal: Fe + Se: Insurmountable. Capturing power by creating powerful social personas.
@@ -167,7 +167,7 @@ Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no long
 
 Ti + Pe: Structure.
 Hierarchal: Ti + Se: Dividing. Implies that inherent structure is best emphasised by its dividedness. "The law of the land".
-Atomistic: Ti + Ne: Sophistry. Implies that inherent structure is best emphasised by its opening of possibilities.
+Atomistic: Ti + Ne: Dialectic. Implies that inherent structure is best emphasised by its opening of possibilities.
 
 Fi + Pi: Individuation.
 Hierarchal: Fi + Si: Affirming. Implies that individuation best occurs by observing the good alonside the bad.
@@ -205,7 +205,7 @@ Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
-Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
+Symptomatic: Dialectic (Potential + Structure). Emphasising structural possibilities.
 Observant: Canonical (Truth + Acceptance). Observing an equitably settled-upon truth.
 Promoting: Hospitable (Expression + Safekeeping). Promoting a welcoming atmosphere.
 Creating: Silly (Ideation + Personas). Creating silly personas.
@@ -277,7 +277,7 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
-Natural: Sophistry. Naturally emphasises structural possibilities.
+Natural: Dialectic. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
@@ -291,7 +291,7 @@ Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
-Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
+Indulgant: Dialectic. Can over-indulge emphasising structural possibilities.
 Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
@@ -302,13 +302,13 @@ Constructive: Canonical. Finds it constructive to observe an equitably settled-u
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
 Indulgant: Silly. Can over-indulge creating silly personas.
-Neglected: Sophistry. Can neglect emphasising structural possibilities.
+Neglected: Dialectic. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distancing. Represses emphasising negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Parsimonious)
 Natural: Silly. Naturally creates silly personas.
-Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
+Constructive: Dialectic. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitable. Can over-indulge promoting a welcoming atmosphere.
@@ -359,7 +359,7 @@ Repressed: Affirming. Represses observing inherent quality.
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
-Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
+Obligation: Dialectic. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create silly personas.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Neglected: Profiteering. Can neglect promoting a pragmatic yield.
@@ -373,7 +373,7 @@ Obligation: Canonical. Feels obligated to observe an equitably settled-upon trut
 Unnatural: Hospitable. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
-Trivializing: Sophistry. Trivializes emphasising structural possibilities.
+Trivializing: Dialectic. Trivializes emphasising structural possibilities.
 Repressed: Silly. Represses creating silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
@@ -384,13 +384,13 @@ Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon tr
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
-Repressed: Sophistry. Represses emphasising structural possibilities.
+Repressed: Dialectic. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
-Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
+Unnatural: Dialectic. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
