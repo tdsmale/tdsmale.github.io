@@ -276,7 +276,7 @@ Cautious: Repressed. Attitude most repressed.
 TYPES
 -----
 
-LII / INTP / Incongruent (Shadow: Investor)
+LII / INTP / INTj/ Incongruent (Shadow: Investor)
 Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
@@ -286,7 +286,7 @@ Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 
-SEI / ISFJ / Theologian (Shadow: Prodigal)
+SEI / ISFJ / ISFp / Theologian (Shadow: Prodigal)
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
@@ -296,7 +296,7 @@ Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
-ESE / ESFJ / Traiteur (Shadow: Puritan)
+ESE / ESFJ / ESFj/ Traiteur (Shadow: Puritan)
 Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
@@ -306,7 +306,7 @@ Neglected: Sophistry. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distancing. Represses emphasising negative relations.
 
-ILE / ENTP / Fool (Shadow: Parsimonious)
+ILE / ENTP / ENTp / Fool (Shadow: Parsimonious)
 Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
@@ -316,7 +316,7 @@ Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
 
-LSI / ISTP / Heretic (Shadow: Equarry)
+LSI / ISTP / ISTj / Heretic (Shadow: Equarry)
 Natural: Dividing. Naturally emphasises divided structures.
 Constructive: Insurmountable. Finds it constructive to create powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
@@ -326,7 +326,7 @@ Neglected: Cathartic. Can neglect promoting expressive release.
 Trivializing: Affirming. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
-IEI / INFJ / Apostate (Shadow: Hierophant)
+IEI / INFJ / INFp / Apostate (Shadow: Hierophant)
 Natural: Radical. Naturally observes an unyielding truth.
 Constructive: Cathartic. Finds it constructive to promote expressive release.
 Obligation: Affirming. Feels obligated to observe inherent quality.
@@ -336,7 +336,7 @@ Neglected: Insurmountable. Can neglect creating powerful personas.
 Trivializing: Faithful. Trivializes emphasising good-faith relations.
 Repressed: Experimental. Represses creating pragmatic experimentation.
 
-EIE / ENFJ / Cultist (Shadow: Seelie)
+EIE / ENFJ / ENFj / Cultist (Shadow: Seelie)
 Natural: Cathartic. Naturally promotes expressive release.
 Constructive: Radical. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
@@ -346,7 +346,7 @@ Neglected: Dividing. Can neglect emphasising divided structures.
 Trivializing: Experimental. Trivializes creating pragmatic experimentation.
 Repressed: Faithful. Represses emphasising good-faith relations.
 
-SLE / ESTP / Marshal (Shadow: Custodian)
+SLE / ESTP / ESTp / Marshal (Shadow: Custodian)
 Natural: Insurmountable. Naturally creates powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise divided structures.
 Obligation: Experimental. Feels obligated to create pragmatic experimentation.
@@ -356,7 +356,7 @@ Neglected: Radical. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirming. Represses observing inherent quality.
 
-ESI / ISFP / Puritan (Shadow: Traiteur)
+ESI / ISFP / ISFj / Puritan (Shadow: Traiteur)
 Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Sophistry. Feels obligated to emphasise structural possibilities.
@@ -366,7 +366,7 @@ Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
 Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
-ILI / INTJ / Parsimonious (Shadow: Fool)
+ILI / INTJ / INTp / Parsimonious (Shadow: Fool)
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
@@ -376,7 +376,7 @@ Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
 Repressed: Silly. Represses creating silly personas.
 
-LIE / ENTJ / Investor (Shadow: Incongruent)
+LIE / ENTJ / ENTj / Investor (Shadow: Incongruent)
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
@@ -386,7 +386,7 @@ Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
 Repressed: Sophistry. Represses emphasising structural possibilities.
 
-SEE / ESFP / Prodigal (Shadow: Theologian)
+SEE / ESFP / ESFp / Prodigal (Shadow: Theologian)
 Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
@@ -396,7 +396,7 @@ Neglected: Isolating. Can neglect observing an assured, inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
-EII / INFP / Seelie (Shadow: Cultist)
+EII / INFP / INFj / Seelie (Shadow: Cultist)
 Natural: Faithful. Naturally emphasises good-faith relations.
 Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise divided structures.
@@ -406,7 +406,7 @@ Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Radical. Trivializes observing an unyielding truth.
 Repressed: Cathartic. Represses promoting expressive release.
 
-SLI / ISTJ / Custodian (Shadow: Marshal)
+SLI / ISTJ / ISTp / Custodian (Shadow: Marshal)
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Radical. Feels obligated to observe an unyielding truth.
@@ -416,7 +416,7 @@ Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Trivializing: Dividing. Trivializes emphasising divided structures.
 Repressed: Insurmountable. Represses creating powerful personas.
 
-LSE / ESTJ / Equerry (Shadow: Heretic)
+LSE / ESTJ / ESTj / Equerry (Shadow: Heretic)
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
 Obligation: Cathartic. Feels obligated to promote expressive release.
@@ -426,7 +426,7 @@ Neglected: Faithful. Can neglect emphasising good-faith relations.
 Trivializing: Insurmountable. Trivializes creating powerful personas.
 Repressed: Dividing. Represses emphasising divided structures.
 
-IEE / ENFP / Hierophant (Shadow: Apostate)
+IEE / ENFP / Enfp / Hierophant (Shadow: Apostate)
 Natural: Experimental. Naturally creates pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
 Obligation: Insurmountable. Feels obligated to create powerful personas.
