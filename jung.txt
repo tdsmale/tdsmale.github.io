@@ -276,7 +276,7 @@ Cautious: Repressed. Attitude most repressed.
 TYPES
 -----
 
-LII / INTP / INTj/ Incongruent (Shadow: Investor)
+LII / INTP / INTj / Incongruent (Shadow: Investor)
 Natural: Sophistry. Naturally emphasises structural possibilities.
 Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
@@ -296,7 +296,7 @@ Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
-ESE / ESFJ / ESFj/ Traiteur (Shadow: Puritan)
+ESE / ESFJ / ESFj / Traiteur (Shadow: Puritan)
 Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
