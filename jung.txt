@@ -207,7 +207,7 @@ Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislate
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Sophistry (Potential + Structure). Emphasising structural possibilities.
 Observant: Canonical (Truth + Acceptance). Observing an equitably settled-upon truth.
-Promoting: Hospitable (Expression + Safekeeping). Promoting a welcoming expression.
+Promoting: Hospitable (Expression + Safekeeping). Promoting a welcoming atmosphere.
 Creating: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
@@ -282,13 +282,13 @@ Constructive: Silly. Finds it constructive to create silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
 Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
-Neglected: Hospitable. Can neglect promoting a welcoming expression.
+Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
 Repressed: Profiteering. Represses promoting a pragmatic yield.
 
 SEI / ISFJ / Theologian
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
-Constructive: Hospitable. Finds it constructive to promote a welcoming expression.
+Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
 Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
 Indulgant: Sophistry. Can over-indulge emphasising structural possibilities.
@@ -297,7 +297,7 @@ Trivializing: Distancing. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE / ESFJ / Traiteur
-Natural: Hospitable. Naturally promoting of a welcoming expression.
+Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
 Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
@@ -311,7 +311,7 @@ Natural: Silly. Naturally creates silly personas.
 Constructive: Sophistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
-Indulgant: Hospitable. Can over-indulge promoting a welcoming expression.
+Indulgant: Hospitable. Can over-indulge promoting a welcoming atmosphere.
 Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
 Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an assured, inequitable distance.
@@ -364,13 +364,13 @@ Unnatural: Silly. Finds it unnatural to create silly personas.
 Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
 Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
-Repressed: Hospitable. Represses promoting a welcoming expression.
+Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / Parsimonious
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
-Unnatural: Hospitable. Finds it unnatural to promote a welcoming expression.
+Unnatural: Hospitable. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
 Trivializing: Sophistry. Trivializes emphasising structural possibilities.
@@ -379,7 +379,7 @@ Repressed: Silly. Represses creating silly personas.
 LIE / ENTJ / Investor
 Natural: Profiteering. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
-Obligation: Hospitable. Feels obligated to promote a welcoming expression.
+Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
 Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Neglected: Distancing. Can neglect emphasising negative relations.
@@ -393,7 +393,7 @@ Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Sophistry. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
 Neglected: Isolating. Can neglect observing an assured, inequitable distance.
-Trivializing: Hospitable. Trivializes promoting a welcoming expression.
+Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
 EII / INFP / Seelie
