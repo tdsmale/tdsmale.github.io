@@ -95,7 +95,7 @@ Fi + Pi: Individuation. Denying personas.
 Ji + Ni: Timing. Denying acceptance.
 Ji + Si: Acceptance. Denying timing.
 Ti + Ni: Radicalism. Structural Timing. Denying pragmatism by denying acceptance. Observing an unyielding truth.
-Ti + Si: Canonical. Structural Acceptance. Denying pragmatism by denying timing. Observing a settled canon.
+Ti + Si: Canon. Structural Acceptance. Denying pragmatism by denying timing. Observing a settled canon.
 Fi + Ni: Isolation. Individual Timing. Denying personas by denying aceptance. Observing an inequitable distance.
 Fi + Si: Affirmation. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
@@ -136,7 +136,7 @@ Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
 Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
 
 Hierarchal Ti: Disciplined observance of rules. Division & Radicalism.
-Atomistic Ti: Reinventing the wheel. Casuistryal & Canonical.
+Atomistic Ti: Reinventing the wheel. Casuistry & Canon.
 
 Hierarchal Fe: Maximising positive expression. Catharsis & Insurmountability.
 Atomistic Fe: Minimising negative expression. Hospitableness & Silliness.
@@ -166,7 +166,7 @@ Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Casuistry (Potential + Truth). Emphasising structural possibilities.
-Observant: Canonical (Structure + Acceptance). Observing a settled canon.
+Observant: Canon (Structure + Acceptance). Observing a settled canon.
 Promoting: Hospitable (Expression + Comfort). Promoting a welcoming atmosphere.
 Adopting: Silliness (Ideation + Personas). Adopting silly personas.
 
@@ -241,13 +241,13 @@ Presumptive: Casuistry. Presumptively emphasises structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly personas.
 Obligation: Distance. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to adopt a pragmatic expenditure.
-Indulgant: Canonical. Can over-indulge observing a settled canon.
+Indulgant: Canon. Can over-indulge observing a settled canon.
 Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolation. Trivializes observing an inequitable distance.
 Repressed: Profitability. Represses promoting a pragmatic yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Presumptive: Canonical. Presumptively observes a settled canon.
+Presumptive: Canon. Presumptively observes a settled canon.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to observe an inequitable distance.
 Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield.
@@ -258,7 +258,7 @@ Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Presumptive: Hospitable. Presumptively promoting of a welcoming atmosphere.
-Constructive: Canonical. Finds it constructive to observe a settled canon.
+Constructive: Canon. Finds it constructive to observe a settled canon.
 Obligation: Profitability. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silliness. Can over-indulge creating silly personas.
@@ -272,7 +272,7 @@ Constructive: Casuistry. Finds it constructive to emphasise structural possibili
 Obligation: Expenditure. Feels obligated to adopt a pragmatic expenditure.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitable. Can over-indulge promoting a welcoming atmosphere.
-Neglected: Canonical. Can neglect observing a settled canon.
+Neglected: Canon. Can neglect observing a settled canon.
 Trivializing: Profitability. Trivializes promoting a pragmatic yield.
 Repressed: Isolation. Represses observing an inequitable distance.
 
@@ -323,13 +323,13 @@ Obligation: Casuistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silliness. Finds it unnatural to adopt silly personas.
 Indulgant: Isolation. Can over-indulge observing an inequitable distance.
 Neglected: Profitability. Can neglect promoting a pragmatic yield.
-Trivializing: Canonical. Trivializes observing a settled canon.
+Trivializing: Canon. Trivializes observing a settled canon.
 Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Miser (Shadow: Fool)
 Presumptive: Isolation. Presumptively observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote a pragmatic yield.
-Obligation: Canonical. Feels obligated to observe a settled canon.
+Obligation: Canon. Feels obligated to observe a settled canon.
 Unnatural: Hospitable. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distance. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
@@ -340,7 +340,7 @@ LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Presumptive: Profitability. Presumptively promotes a pragmatic yield.
 Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
-Unnatural: Canonical. Finds it unnatural to observe a settled canon.
+Unnatural: Canon. Finds it unnatural to observe a settled canon.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Neglected: Distance. Can neglect emphasising negative relations.
 Trivializing: Silliness. Trivializes creating silly personas.
@@ -354,7 +354,7 @@ Unnatural: Casuistry. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profitability. Can over-indulge promoting a pragmatic yield.
 Neglected: Isolation. Can neglect observing an inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
-Repressed: Canonical. Represses observing a settled canon.
+Repressed: Canon. Represses observing a settled canon.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Presumptive: Faith. Presumptively emphasises good-faith relations.
