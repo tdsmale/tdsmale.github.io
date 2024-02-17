@@ -114,9 +114,9 @@ Je + Se: Capture. Creating control.
 Je + Ne: Ideation. Creating potential.
 Te + Pe: Pragmatism. Denying structure.
 Fe + Pe: Personas. Denying individuation.
-Fe + Se: Insurmountable. Capturing Personas. Creating control by denying individuation. Adopting powerful social personas.
+Fe + Se: Insurmountable. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
 Te + Se: Expenditure. Capturing Pragmatism. Creating control by denying structure. Adopting a pragmatic expenditure.
-Fe + Ne: Silly. Ideating Personas. Creating potential by denying individuation. Adopting silly social personas.
+Fe + Ne: Silly. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
 Te + Ne: Experimentation. Ideating Pragmatism. Creating potential by denying structure. Adopting pragmatic experimentation.
 
 HIERARCHAL VS ATOMISTIC
@@ -166,9 +166,9 @@ Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Dialectic (Potential + Truth). Emphasising structural possibilities.
-Observant: Canonical (Structure + Acceptance). Observing an equitably settled-upon canon.
+Observant: Canonical (Structure + Acceptance). Observing a settled canon.
 Promoting: Hospitable (Expression + Comfort). Promoting a welcoming atmosphere.
-Creating: Silly (Ideation + Personas). Creating silly personas.
+Adopting: Silly (Ideation + Personas). Adopting silly personas.
 
 Schismatic.
 Beta.
@@ -182,8 +182,8 @@ Ideal: Domination. To be at the top of the food chain, to be most deserving of t
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Symptomatic: Dividing (Control + Truth). Emphasising structural division.
 Observant: Radical (Structure + Timing). Observing an unyielding truth.
-Promoting: Cathartic (Expression + Foresight). Promoting expressive release.
-Creating: Insurmountable (Capture + Personas). Creating powerful personas.
+Promoting: Cathartic (Expression + Foresight). Promoting a cathartic atmosphere.
+Adopting: Insurmountable (Capture + Personas). Adopting powerful personas.
 
 Solipsistic.
 Gamma.
@@ -198,7 +198,7 @@ Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
 Observant: Isolating (Individuation + Timing). Observing an inequitable distance.
 Promoting: Profitability (Efficiency + Foresight). Promoting a pragmatic yield.
-Creating: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure.
+Adopting: Expenditure (Capture + Pragmatism). Adopting a pragmatic expenditure.
 
 Homeostatic.
 Delta.
@@ -213,7 +213,7 @@ Shadow: Parochialism. To operate with blinders on, to be subject to small-minded
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
 Promoting: Reliable (Efficiency + Comfort). Promoting pragmatic stability.
-Creating: Experimental (Ideation + Pragmatism). Creating pragmatic experimentation.
+Adopting: Experimental (Ideation + Pragmatism). Adopting pragmatic experimentation.
 
 FUNCTIONS
 ---------
@@ -238,16 +238,16 @@ TYPES
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
 Natural: Dialectic. Naturally emphasises structural possibilities.
-Constructive: Silly. Finds it constructive to create silly personas.
+Constructive: Silly. Finds it constructive to adopt silly personas.
 Obligation: Distancing. Feels obligated to emphasise negative relations.
-Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
-Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
+Unnatural: Expenditure. Finds it unnatural to adopt a pragmatic expenditure.
+Indulgant: Canonical. Can over-indulge observing a settled canon.
 Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolating. Trivializes observing an inequitable distance.
 Repressed: Profitability. Represses promoting a pragmatic yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Natural: Canonical. Naturally observes an equitably settled-upon truth.
+Natural: Canonical. Naturally observes a settled canon.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolating. Feels obligated to observe an inequitable distance.
 Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield.
@@ -258,7 +258,7 @@ Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
-Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
+Constructive: Canonical. Finds it constructive to observe a settled canon.
 Obligation: Profitability. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolating. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silly. Can over-indulge creating silly personas.
@@ -267,28 +267,28 @@ Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distancing. Represses emphasising negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Miser)
-Natural: Silly. Naturally creates silly personas.
+Natural: Silly. Naturally adopts silly personas.
 Constructive: Dialectic. Finds it constructive to emphasise structural possibilities.
-Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
+Obligation: Expenditure. Feels obligated to adopt a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitable. Can over-indulge promoting a welcoming atmosphere.
-Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
+Neglected: Canonical. Can neglect observing a settled canon.
 Trivializing: Profitability. Trivializes promoting a pragmatic yield.
 Repressed: Isolating. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Judge (Shadow: Equarry)
 Natural: Dividing. Naturally emphasises structural division.
-Constructive: Insurmountable. Finds it constructive to create powerful personas.
+Constructive: Insurmountable. Finds it constructive to adopt powerful personas.
 Obligation: Faithful. Feels obligated to emphasise good-faith relations.
-Unnatural: Experimental. Finds it unnatural to create pragmatic experimentation.
+Unnatural: Experimental. Finds it unnatural to adopt pragmatic experimentation.
 Indulgant: Radical. Can over-indulge observing an unyielding truth.
-Neglected: Cathartic. Can neglect promoting expressive release.
+Neglected: Cathartic. Can neglect promoting a cathartic atmosphere.
 Trivializing: Affirming. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
 Natural: Radical. Naturally observes an unyielding truth.
-Constructive: Cathartic. Finds it constructive to promote expressive release.
+Constructive: Cathartic. Finds it constructive to promote a cathartic atmosphere.
 Obligation: Affirming. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
 Indulgant: Dividing. Can over-indulge emphasising structural division.
@@ -297,7 +297,7 @@ Trivializing: Faithful. Trivializes emphasising good-faith relations.
 Repressed: Experimental. Represses creating pragmatic experimentation.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
-Natural: Cathartic. Naturally promotes expressive release.
+Natural: Cathartic. Naturally promotes a cathartic atmosphere.
 Constructive: Radical. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirming. Finds it unnatural to observe inherent quality.
@@ -307,29 +307,29 @@ Trivializing: Experimental. Trivializes creating pragmatic experimentation.
 Repressed: Faithful. Represses emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Natural: Insurmountable. Naturally creates powerful personas.
+Natural: Insurmountable. Naturally adopts powerful personas.
 Constructive: Dividing. Finds it constructive to emphasise structural division.
-Obligation: Experimental. Feels obligated to create pragmatic experimentation.
+Obligation: Experimental. Feels obligated to adopt pragmatic experimentation.
 Unnatural: Faithful. Finds it unnatural to emphasise good-faith relations.
-Indulgant: Cathartic. Can over-indulge promoting expressive release.
+Indulgant: Cathartic. Can over-indulge promoting a cathartic atmosphere.
 Neglected: Radical. Can neglect observing an unyielding truth.
 Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirming. Represses observing inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Natural: Distancing. Naturally emphasises negative relations.
-Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
+Constructive: Expenditure. Finds it constructive to adopt a pragmatic expenditure.
 Obligation: Dialectic. Feels obligated to emphasise structural possibilities.
-Unnatural: Silly. Finds it unnatural to create silly personas.
+Unnatural: Silly. Finds it unnatural to adopt silly personas.
 Indulgant: Isolating. Can over-indulge observing an inequitable distance.
 Neglected: Profitability. Can neglect promoting a pragmatic yield.
-Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
+Trivializing: Canonical. Trivializes observing a settled canon.
 Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Miser (Shadow: Fool)
 Natural: Isolating. Naturally observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote a pragmatic yield.
-Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
+Obligation: Canonical. Feels obligated to observe a settled canon.
 Unnatural: Hospitable. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
@@ -340,37 +340,37 @@ LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profitability. Naturally promotes a pragmatic yield.
 Constructive: Isolating. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
-Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
+Unnatural: Canonical. Finds it unnatural to observe a settled canon.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
 Neglected: Distancing. Can neglect emphasising negative relations.
 Trivializing: Silly. Trivializes creating silly personas.
 Repressed: Dialectic. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
-Natural: Expenditure. Naturally creates a pragmatic expenditure.
+Natural: Expenditure. Naturally adopts a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
-Obligation: Silly. Feels obligated to create silly personas.
+Obligation: Silly. Feels obligated to adopt silly personas.
 Unnatural: Dialectic. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profitability. Can over-indulge promoting a pragmatic yield.
 Neglected: Isolating. Can neglect observing an inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
-Repressed: Canonical. Represses observing an equitably settled-upon truth.
+Repressed: Canonical. Represses observing a settled canon.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faithful. Naturally emphasises good-faith relations.
-Constructive: Experimental. Finds it constructive to create pragmatic experimentation.
+Constructive: Experimental. Finds it constructive to adopt pragmatic experimentation.
 Obligation: Dividing. Feels obligated to emphasise structural division.
-Unnatural: Insurmountable. Finds it unnatural to create powerful personas.
+Unnatural: Insurmountable. Finds it unnatural to adopt powerful personas.
 Indulgant: Affirming. Can over-indulge observing inherent quality.
 Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Radical. Trivializes observing an unyielding truth.
-Repressed: Cathartic. Represses promoting expressive release.
+Repressed: Cathartic. Represses promoting a cathartic atmosphere.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Natural: Affirming. Naturally observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Radical. Feels obligated to observe an unyielding truth.
-Unnatural: Cathartic. Finds it unnatural to promote expressive release.
+Unnatural: Cathartic. Finds it unnatural to promote a cathartic atmosphere.
 Indulgant: Faithful. Can over-indulge emphasising good-faith relations.
 Neglected: Experimental. Can neglect creating pragmatic experimentation.
 Trivializing: Dividing. Trivializes emphasising structural division.
@@ -379,7 +379,7 @@ Repressed: Insurmountable. Represses creating powerful personas.
 LSE / ESTJ / ESTj / Equerry (Shadow: Judge)
 Natural: Reliable. Naturally promotes pragmatic stability.
 Constructive: Affirming. Finds it constructive to observe inherent quality.
-Obligation: Cathartic. Feels obligated to promote expressive release.
+Obligation: Cathartic. Feels obligated to promote a cathartic atmosphere.
 Unnatural: Radical. Finds it unnatural to observe an unyielding truth.
 Indulgant: Experimental. Can over-indulge creating pragmatic experimentation.
 Neglected: Faithful. Can neglect emphasising good-faith relations.
@@ -387,11 +387,11 @@ Trivializing: Insurmountable. Trivializes creating powerful personas.
 Repressed: Dividing. Represses emphasising structural division.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
-Natural: Experimental. Naturally creates pragmatic experimentation.
+Natural: Experimental. Naturally adopts pragmatic experimentation.
 Constructive: Faithful. Finds it constructive to emphasise good-faith relations.
-Obligation: Insurmountable. Feels obligated to create powerful personas.
+Obligation: Insurmountable. Feels obligated to adopt powerful personas.
 Unnatural: Dividing. Finds it unnatural to emphasise structural division.
 Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
 Neglected: Affirming. Can neglect observing inherent quality.
-Trivializing: Cathartic. Trivializes promoting expressive release.
+Trivializing: Cathartic. Trivializes promoting a cathartic atmosphere.
 Repressed: Radical. Represses observing an unyielding truth.
