@@ -129,11 +129,11 @@ Atomistic: Relating to others in terms of individual qualities relative to a who
 Litigious (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
-Hierarchal Fi: Maximising positive feelings. Faith & Affirmation.
-Atomistic Fi: Minimising negative feelings. Distance & Isolation.
+Hierarchal Fi: Maximising positive feelings. Affirming judgement of character. Faith & Affirmation.
+Atomistic Fi: Minimising negative feelings. Harsh judgement of character. Distance & Isolation.
 
-Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
-Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
+Hierarchal Te: Maximising useful feelings. Performing as expected. Reliability & Experimentation.
+Atomistic Te: Minimising useless feelings. Getting the job done. Profitability & Expenditure.
 
 Hierarchal Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
 Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Casuistry & Canon.
