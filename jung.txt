@@ -141,11 +141,11 @@ Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Casuistry &
 Hierarchal Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
 Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
 
-Hierarchal Ni: Maximising positive impact. Premonition of discordance. Radicalism + Catharsis.
-Atomistic Ni: Minimising negative impact. Incremental progress. Isolation & Profitability.
+Hierarchal Ni: Minimising negative impact. Premonition of discordance. Radicalism + Catharsis.
+Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
 
-Hierarchal Se: Maximising positive conflict. Possessing the weak. Divison & Supremacy.
-Atomistic Se: Minimising negative conflict. Retention of resources. Distance & Expenditure.
+Hierarchal Se: Minimising negative consequences. Possessing the weak. Divison & Supremacy.
+Atomistic Se: Maximising positive consequences. Retention of resources. Distance & Expenditure.
 
 Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
 Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Casuistry & Silliness.
