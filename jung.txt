@@ -114,7 +114,7 @@ Je + Se: Capture. Creating control.
 Je + Ne: Ideation. Creating potential.
 Te + Pe: Pragmatism. Denying structure.
 Fe + Pe: Personas. Denying individuation.
-Fe + Se: Insurmountable. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
+Fe + Se: Supremacy. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
 Te + Se: Expenditure. Capturing Pragmatism. Creating control by denying structure. Adopting a pragmatic expenditure.
 Fe + Ne: Silliness. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
 Te + Ne: Experimentation. Ideating Pragmatism. Creating potential by denying structure. Adopting pragmatic experimentation.
@@ -129,29 +129,29 @@ Atomistic: Relating to others in terms of individual qualities relative to a who
 Litigious (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
-Hierarchal Fi: Emphasising positive feelings. Faith & Affirmation.
-Atomistic Fi: Emphasising negative feelings. Distance & Isolation.
+Hierarchal Fi: Maximising positive feelings. Faith & Affirmation.
+Atomistic Fi: Minimising negative feelings. Distance & Isolation.
 
 Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
 Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
 
-Hierarchal Ti: Disciplined observance of rules. Division & Radicalism.
-Atomistic Ti: Reinventing the wheel. Casuistry & Canon.
+Hierarchal Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
+Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Casuistry & Canon.
 
-Hierarchal Fe: Maximising positive expression. Catharsis & Insurmountability.
-Atomistic Fe: Minimising negative expression. Hospitalityness & Silliness.
+Hierarchal Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
+Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
 
-Hierarchal Ni: Maximising impact. Premonition of discordance. Radicalism + Catharsis.
-Atomistic Ni: Lessening impact. Incremental progress. Isolation & Profitability.
+Hierarchal Ni: Maximising positive impact. Premonition of discordance. Radicalism + Catharsis.
+Atomistic Ni: Minimising negative impact. Incremental progress. Isolation & Profitability.
 
-Hierarchal Se: Possessing the weak. Displays of strength. Divison & Insurmountability.
-Atomistic Se: Weathering the storm. Retention of resources. Distance & Expenditure.
+Hierarchal Se: Maximising positive conflict. Possessing the weak. Divison & Supremacy.
+Atomistic Se: Minimising negative conflict. Retention of resources. Distance & Expenditure.
 
-Hierarchal Ne: Avoiding problems & stagnation. Exploring alternatives. Faith & Experimentation.
-Atomistic Ne: Dreaming big. Looking on the bright side. Casuistry & Silliness.
+Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
+Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Casuistry & Silliness.
 
-Hierarchal Si: Lessening Discomfort. Promoting peace of mind. Reliability & Affirmation.
-Atomistic Si: Maximising Pleasure. Promoting relaxation & beauty. Hospitality & Canon.
+Hierarchal Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
+Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
 
 QUADRAS
 -------
@@ -183,7 +183,7 @@ Shadow: Submission. To be the runt of the litter, to be cast as lower or less de
 Symptomatic: Division (Control + Truth). Emphasising structural division.
 Observant: Radicalism (Structure + Timing). Observing an unyielding truth.
 Promoting: Catharsis (Expression + Foresight). Promoting a cathartic atmosphere.
-Adopting: Insurmountable (Capture + Personas). Adopting powerful personas.
+Adopting: Supremacy (Capture + Personas). Adopting powerful personas.
 
 Solipsistic.
 Gamma.
@@ -278,7 +278,7 @@ Repressed: Isolation. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Judge (Shadow: Equarry)
 Presumptive: Division. Presumptively emphasises structural division.
-Constructive: Insurmountable. Finds it constructive to adopt powerful personas.
+Constructive: Supremacy. Finds it constructive to adopt powerful personas.
 Obligation: Faith. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation.
 Indulgant: Radicalism. Can over-indulge observing an unyielding truth.
@@ -292,7 +292,7 @@ Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere
 Obligation: Affirmation. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
 Indulgant: Division. Can over-indulge emphasising structural division.
-Neglected: Insurmountable. Can neglect creating powerful personas.
+Neglected: Supremacy. Can neglect creating powerful personas.
 Trivializing: Faith. Trivializes emphasising good-faith relations.
 Repressed: Experimentation. Represses creating pragmatic experimentation.
 
@@ -301,13 +301,13 @@ Presumptive: Catharsis. Presumptively promotes a cathartic atmosphere.
 Constructive: Radicalism. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
-Indulgant: Insurmountable. Can over-indulge creating powerful personas.
+Indulgant: Supremacy. Can over-indulge creating powerful personas.
 Neglected: Division. Can neglect emphasising structural division.
 Trivializing: Experimentation. Trivializes creating pragmatic experimentation.
 Repressed: Faith. Represses emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Presumptive: Insurmountable. Presumptively adopts powerful personas.
+Presumptive: Supremacy. Presumptively adopts powerful personas.
 Constructive: Division. Finds it constructive to emphasise structural division.
 Obligation: Experimentation. Feels obligated to adopt pragmatic experimentation.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
@@ -360,7 +360,7 @@ EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Presumptive: Faith. Presumptively emphasises good-faith relations.
 Constructive: Experimentation. Finds it constructive to adopt pragmatic experimentation.
 Obligation: Division. Feels obligated to emphasise structural division.
-Unnatural: Insurmountable. Finds it unnatural to adopt powerful personas.
+Unnatural: Supremacy. Finds it unnatural to adopt powerful personas.
 Indulgant: Affirmation. Can over-indulge observing inherent quality.
 Neglected: Reliable. Can neglect promoting pragmatic stability.
 Trivializing: Radicalism. Trivializes observing an unyielding truth.
@@ -374,7 +374,7 @@ Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations.
 Neglected: Experimentation. Can neglect creating pragmatic experimentation.
 Trivializing: Division. Trivializes emphasising structural division.
-Repressed: Insurmountable. Represses creating powerful personas.
+Repressed: Supremacy. Represses creating powerful personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Judge)
 Presumptive: Reliable. Presumptively promotes pragmatic stability.
@@ -383,13 +383,13 @@ Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
 Unnatural: Radicalism. Finds it unnatural to observe an unyielding truth.
 Indulgant: Experimentation. Can over-indulge creating pragmatic experimentation.
 Neglected: Faith. Can neglect emphasising good-faith relations.
-Trivializing: Insurmountable. Trivializes creating powerful personas.
+Trivializing: Supremacy. Trivializes creating powerful personas.
 Repressed: Division. Represses emphasising structural division.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
 Presumptive: Experimentation. Presumptively adopts pragmatic experimentation.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations.
-Obligation: Insurmountable. Feels obligated to adopt powerful personas.
+Obligation: Supremacy. Feels obligated to adopt powerful personas.
 Unnatural: Division. Finds it unnatural to emphasise structural division.
 Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
 Neglected: Affirmation. Can neglect observing inherent quality.
