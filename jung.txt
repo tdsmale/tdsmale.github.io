@@ -79,21 +79,45 @@ Brings an airy, boyant attitude to things.
 Guided by imaginative guesswork.
 Akin to explorers at risk of becoming "untethered".
 
-Ji + Pe: Symptomatic.
-Seeks to represent external processes.
-Emphasises the result.
+Ji + Pe: Symptomatic. Seeks to represent external processes. Emphasises the result.
+Ji + Se: Control. Denying potential.
+Ji + Ne: Potential. Denying control.
+Ti + Pe: Truth. Creating structure.
+Fi + Pe: Relations. Creating individuation.
+Ti + Se: Dividing. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
+Ti + Ne: Dialectic. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
+Fi + Se: Distancing. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
+Fi + Ne: Faithful. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
-Ji + Pi: Observant.
-Seeks to be seperate from external processes.
-Minimises the result.
+Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result.
+Ti + Pi: Structure. Denying pragmatism.
+Fi + Pi: Individuation. Denying personas.
+Ji + Ni: Timing. Denying acceptance.
+Ji + Si: Acceptance. Denying timing.
+Ti + Ni: Radical. Structural Timing. Denying pragmatism by denying acceptance. Observing an unyielding truth.
+Ti + Si: Canonical. Structural Acceptance. Denying pragmatism by denying timing. Observing a settled canon.
+Fi + Ni: Isolating. Individual Timing. Denying personas by denying aceptance. Observing an inequitable distance.
+Fi + Si: Affirming. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
-Je + Pi: Promoting.
-Seeks to promote external processes.
-Promotes further results.
+Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
+Te + Pi: Efficiency. Creating pragmatism.
+Fe + Pi: Expression. Creating personas.
+Je + Ni: Foresight. Creating timing.
+Je + Si: Comfort. Creating acceptance.
+Fe + Ni: Cathartic. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
+Fe + Si: Hospitable. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
+Te + Ni: Profitability. Efficient Foresight. Creating pragmatism by creating timing. Promoting a pragmatic yield.
+Te + Si: Reliability. Efficient Comfort. Creating pragmatism by creating acceptance. Promoting pragmatic stability.
 
-Je + Pe: Creating.
-Seeks to make the most of external processes.
-Maximises the result.
+Je + Pe: Adopting. Seeks to make the most of external processes. Maximises the result.
+Je + Se: Capture. Creating control.
+Je + Ne: Ideation. Creating potential.
+Te + Pe: Pragmatism. Denying structure.
+Fe + Pe: Personas. Denying individuation.
+Fe + Se: Insurmountable. Capturing Personas. Creating control by denying individuation. Adopting powerful social personas.
+Te + Se: Expenditure. Capturing Pragmatism. Creating control by denying structure. Adopting a pragmatic expenditure.
+Fe + Ne: Silly. Ideating Personas. Creating potential by denying individuation. Adopting silly social personas.
+Te + Ne: Experimentation. Ideating Pragmatism. Creating potential by denying structure. Adopting pragmatic experimentation.
 
 HIERARCHAL VS ATOMISTIC
 -----------------------
@@ -111,87 +135,23 @@ Atomistic Fi: Emphasising negative feelings. Distancing & Isolation.
 Hierarchal Te: Maximising useful feelings. Reliability & Experimentation.
 Atomistic Te: Minimising useless feelings. Profitability & Expenditure.
 
-Hierarchal Ti: Disciplined observance of rules. Division & Unflappability.
-Atomistic Ti: Reinventing the wheel. Dialectic & Equitable Legislation.
+Hierarchal Ti: Disciplined observance of rules. Division & Radicalism.
+Atomistic Ti: Reinventing the wheel. Dialectic & Canon.
 
-Hierarchal Fe: Maximising positive expression. The powerful capture & release of emotions.
+Hierarchal Fe: Maximising positive expression. Catharsis & Insurmountability.
 Atomistic Fe: Minimising negative expression. Hospitableness & Silliness.
 
-Hierarchal Ni: Premonition & Discordance. Submission to rules.
-Atomistic Ni: Lessening of Impact. Incremental progress.
+Hierarchal Ni: Preominition of discordance. Radicalism + Catharsis.
+Atomistic Ni: Lessening of Impact. Incremental progress. Isolation & Profitability.
 
-Hierarchal Se: Possessing the weak. Displays of strength.
+Hierarchal Se: Possessing the weak. Displays of strength. Divison & Insurmountability.
 Atomistic Se: Weathering the storm. Retention of resources.
 
-Hierarchal Ne: Avoiding problems & stagnation, exploring alternatives.
-Atomistic Ne: Dreaming big, looking on the bright side.
+Hierarchal Ne: Avoiding problems & stagnation. Exploring alternatives. Faithfulness & Experimentation.
+Atomistic Ne: Dreaming big. Looking on the bright side. Dialectic & Silly.
 
-Hierarchal Si: Lessening Discomfort, promoting peace of mind.
-Atomistic Si: Maximising Pleasure, promoting relaxation & beauty.
-
-Ji + Se: Control.
-Hierarchal: Ti + Se: Dividing. Control through emphasising stuctural division.
-Atomistic: Fi + Se: Distancing. Control through emphasising negative relations.
-
-Ji + Ne: Potential.
-Hierarchal: Fi + Ne: Faithful. Potential through emphasising good-faith relations.
-Atomistic: Ti + Ne: Dialectic. Potential through emphasising structural possibilities.
-
-Je + Se: Capture.
-Hierarchal: Fe + Se: Insurmountable. Capturing power by creating powerful social personas.
-Atomistic: Te + Se: Expenditure. Capturing power by expending resources pragmatically.
-
-Je + Ne: Ideation.
-Hierarchal: Te + Ne: Experimental. Broadening possibilties through pragmatic experimentation.
-Atomistic: Fe + Ne: Silly. Broadening possibilities by creating silly social personas.
-
-Je + Si: Safekeeping.
-Hierarchal: Te + Si: Reliable. Implies that to be safekeeping of the present, you must be efficient and resourceful.
-Atomistic: Fe + Si: Hospitable. Implies that to be safekeeping of the present, you must tend to an audience or atmosphere.
-
-Je + Ni: Foresight.
-Hierarchal: Fe + Ni: Cathartic. Implies that to yield the most from a moment, you must tend to an audience or atmosphere.
-Atomistic: Te + Ni: Profiteering. Implies that to yield the most from a moment, you must be efficient and resourceful.
-
-Ji + Si: Acceptance.
-Hierarchal: Fi + Si: Affirming. Implies that to be accepting of the present, you must first be observant of inherent relations.
-Atomistic: Ti + Si: Canonical. Implies that to be accepting of the present, you must first be observant of inherent structure.
-
-Ji + Ni: Timing.
-Hierarchal: Ti + Ni: Radical. Implies that to have timing, you must first be observant of inherent structure.
-Atomistic: Fi + Ni: Isolating. Implies that to have timing, you must first be observant of inherent relations.
-
-Ti + Pi: Truth.
-Hierarchal: Ti + Ni: Radical. Implies that what is "true" is that which does not yield to pressure over time.
-Atomistic: Ti + Si: Canonical. Implies that what is "true" is that which no longer requires further litigation or discussion.
-
-Ti + Pe: Structure.
-Hierarchal: Ti + Se: Dividing. Implies that inherent structure is best emphasised by its dividedness. "The law of the land".
-Atomistic: Ti + Ne: Dialectic. Implies that inherent structure is best emphasised by its opening of possibilities.
-
-Fi + Pi: Individuation.
-Hierarchal: Fi + Si: Affirming. Implies that individuation best occurs by observing the good alonside the bad.
-Atomistic: Fi + Ni: Isolating. Implies that individuation best occurs by observing an assured inequity. The inverse of "no man's an island".
-
-Fi + Pe: Relations.
-Hierarchal: Fi + Ne: Faithful. Implies that inherent relations are best emphasised by their opening of possibilities.
-Atomistic: Fi + Se: Distancing. Implies that inherent relations are best emphasised by their negativity.
-
-Te + Pi: Efficiency.
-Hierarchal: Te + Si: Reliable. Implies that the most efficient resources are those that work as expected for the longest.
-Atomistic: Te + Ni: Profiteering. Implies that the most efficient resources are those that provide the best yield at the right moment.
-
-Te + Pe: Pragmatism.
-Hierarchal: Te + Ne: Experimental. Implies that the most pragmatic resources are those that potentiate the most possibilities after-the-fact.
-Atomistic: Te + Se: Expenditure. Implies that the most pragmatic resources are those that have the biggest expenditure after-the-fact.
-
-Fe + Pi: Expression.
-Hierarchal: Fe + Ni: Cathartic. Implies that the best expressions are those that promote emotional release.
-Atomistic: Fe + Si: Hospitable. Implies that the best expressions are those that promote emotional welcome.
-
-Fe + Pe: Personas.
-Hierarchal: Fe + Se: Insurmountable. Implies that the best personas capture powerful emotions.
-Atomistic: Fe + Ne: Silly. Implies that the best personas explore new possibilities.
+Hierarchal Si: Lessening Discomfort. Promoting peace of mind. Reliability & Affirmation.
+Atomistic Si: Maximising Pleasure. Promoting relaxation & beauty. Hospitableness & Canon.
 
 QUADRAS
 -------
@@ -200,14 +160,14 @@ Alpha.
 Enhancing.
 Atomistic.
 Narrational.
-Structural possibilities enhance emotional atmosphere, leading to equitable legislation of truth.
+Structural possibilities enhance emotional atmosphere, leading to equitable legislation of canon.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
-Symptomatic: Dialectic (Potential + Structure). Emphasising structural possibilities.
-Observant: Canonical (Truth + Acceptance). Observing an equitably settled-upon truth.
-Promoting: Hospitable (Expression + Safekeeping). Promoting a welcoming atmosphere.
+Symptomatic: Dialectic (Potential + Truth). Emphasising structural possibilities.
+Observant: Canonical (Structure + Acceptance). Observing an equitably settled-upon canon.
+Promoting: Hospitable (Expression + Comfort). Promoting a welcoming atmosphere.
 Creating: Silly (Ideation + Personas). Creating silly personas.
 
 Schismatic.
@@ -220,8 +180,8 @@ Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
-Symptomatic: Dividing (Control + Structure). Emphasising structural division.
-Observant: Radical (Truth + Timing). Observing an unyielding truth.
+Symptomatic: Dividing (Control + Truth). Emphasising structural division.
+Observant: Radical (Structure + Timing). Observing an unyielding truth.
 Promoting: Cathartic (Expression + Foresight). Promoting expressive release.
 Creating: Insurmountable (Capture + Personas). Creating powerful personas.
 
@@ -236,8 +196,8 @@ Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distancing (Control + Relations). Emphasising negative relations.
-Observant: Isolating (Individuation + Timing). Observing an assured, inequitable distance.
-Promoting: Profiteering (Efficiency + Foresight). Promoting a pragmatic yield.
+Observant: Isolating (Individuation + Timing). Observing an inequitable distance.
+Promoting: Profitability (Efficiency + Foresight). Promoting a pragmatic yield.
 Creating: Expenditure (Capture + Pragmatism). Creating a pragmatic expenditure.
 
 Homeostatic.
@@ -252,8 +212,8 @@ Ideal: Earnestness. To engage with things sincerely, to potentiate the best in t
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
-Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic stability.
-Creating: Experimental (Exploration + Pragmatism). Creating pragmatic experimentation.
+Promoting: Reliable (Efficiency + Comfort). Promoting pragmatic stability.
+Creating: Experimental (Ideation + Pragmatism). Creating pragmatic experimentation.
 
 FUNCTIONS
 ---------
@@ -283,14 +243,14 @@ Obligation: Distancing. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to create a pragmatic expenditure.
 Indulgant: Canonical. Can over-indulge observing an equitably settled-upon truth.
 Neglected: Hospitable. Can neglect promoting a welcoming atmosphere.
-Trivializing: Isolating. Trivializes observing an assured, inequitable distance.
-Repressed: Profiteering. Represses promoting a pragmatic yield.
+Trivializing: Isolating. Trivializes observing an inequitable distance.
+Repressed: Profitability. Represses promoting a pragmatic yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
 Natural: Canonical. Naturally observes an equitably settled-upon truth.
 Constructive: Hospitable. Finds it constructive to promote a welcoming atmosphere.
-Obligation: Isolating. Feels obligated to observe an assured, inequitable distance.
-Unnatural: Profiteering. Finds it unnatural to promote a pragmatic yield.
+Obligation: Isolating. Feels obligated to observe an inequitable distance.
+Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield.
 Indulgant: Dialectic. Can over-indulge emphasising structural possibilities.
 Neglected: Silly. Can neglect creating silly personas.
 Trivializing: Distancing. Trivializes emphasising negative relations.
@@ -299,8 +259,8 @@ Repressed: Expenditure. Represses creating a pragmatic expenditure.
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Natural: Hospitable. Naturally promoting of a welcoming atmosphere.
 Constructive: Canonical. Finds it constructive to observe an equitably settled-upon truth.
-Obligation: Profiteering. Feels obligated to promote a pragmatic yield.
-Unnatural: Isolating. Finds it unnatural to observe an assured, inequitable distance.
+Obligation: Profitability. Feels obligated to promote a pragmatic yield.
+Unnatural: Isolating. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silly. Can over-indulge creating silly personas.
 Neglected: Dialectic. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
@@ -313,8 +273,8 @@ Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
 Unnatural: Distancing. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitable. Can over-indulge promoting a welcoming atmosphere.
 Neglected: Canonical. Can neglect observing an equitably settled-upon truth.
-Trivializing: Profiteering. Trivializes promoting a pragmatic yield.
-Repressed: Isolating. Represses observing an assured, inequitable distance.
+Trivializing: Profitability. Trivializes promoting a pragmatic yield.
+Repressed: Isolating. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Judge (Shadow: Equarry)
 Natural: Dividing. Naturally emphasises structural division.
@@ -361,14 +321,14 @@ Natural: Distancing. Naturally emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to create a pragmatic expenditure.
 Obligation: Dialectic. Feels obligated to emphasise structural possibilities.
 Unnatural: Silly. Finds it unnatural to create silly personas.
-Indulgant: Isolating. Can over-indulge observing an assured, inequitable distance.
-Neglected: Profiteering. Can neglect promoting a pragmatic yield.
+Indulgant: Isolating. Can over-indulge observing an inequitable distance.
+Neglected: Profitability. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
 Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Miser (Shadow: Fool)
-Natural: Isolating. Naturally observes an assured, inequitable distance.
-Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
+Natural: Isolating. Naturally observes an inequitable distance.
+Constructive: Profitability. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
 Unnatural: Hospitable. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distancing. Can over-indulge emphasising negative relations.
@@ -377,8 +337,8 @@ Trivializing: Dialectic. Trivializes emphasising structural possibilities.
 Repressed: Silly. Represses creating silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
-Natural: Profiteering. Naturally promotes a pragmatic yield.
-Constructive: Isolating. Finds it constructive to observe an assured, inequitable distance.
+Natural: Profitability. Naturally promotes a pragmatic yield.
+Constructive: Isolating. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitable. Feels obligated to promote a welcoming atmosphere.
 Unnatural: Canonical. Finds it unnatural to observe an equitably settled-upon truth.
 Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
@@ -391,8 +351,8 @@ Natural: Expenditure. Naturally creates a pragmatic expenditure.
 Constructive: Distancing. Finds it constructive to emphasise negative relations.
 Obligation: Silly. Feels obligated to create silly personas.
 Unnatural: Dialectic. Finds it unnatural to emphasise structural possibilities.
-Indulgant: Profiteering. Can over-indulge promoting a pragmatic yield.
-Neglected: Isolating. Can neglect observing an assured, inequitable distance.
+Indulgant: Profitability. Can over-indulge promoting a pragmatic yield.
+Neglected: Isolating. Can neglect observing an inequitable distance.
 Trivializing: Hospitable. Trivializes promoting a welcoming atmosphere.
 Repressed: Canonical. Represses observing an equitably settled-upon truth.
 
