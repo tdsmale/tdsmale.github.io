@@ -249,7 +249,7 @@ Good-faith relations enhance pragmatic possibilities, leading to affirmation of 
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
-Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
+Shadow: Parochialism. To operate with blinders on, to be subject to small-minded Miserism.
 Symptomatic: Faithful (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirming (Individuation + Acceptance). Observing inherent quality.
 Promoting: Reliable (Efficiency + Safekeeping). Promoting pragmatic stability.
@@ -306,7 +306,7 @@ Neglected: Dialectic. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distancing. Represses emphasising negative relations.
 
-ILE / ENTP / ENTp / Fool (Shadow: Critic)
+ILE / ENTP / ENTp / Fool (Shadow: Miser)
 Natural: Silly. Naturally creates silly personas.
 Constructive: Dialectic. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to create a pragmatic expenditure.
@@ -366,7 +366,7 @@ Neglected: Profiteering. Can neglect promoting a pragmatic yield.
 Trivializing: Canonical. Trivializes observing an equitably settled-upon truth.
 Repressed: Hospitable. Represses promoting a welcoming atmosphere.
 
-ILI / INTJ / INTp / Critic (Shadow: Fool)
+ILI / INTJ / INTp / Miser (Shadow: Fool)
 Natural: Isolating. Naturally observes an assured, inequitable distance.
 Constructive: Profiteering. Finds it constructive to promote a pragmatic yield.
 Obligation: Canonical. Feels obligated to observe an equitably settled-upon truth.
