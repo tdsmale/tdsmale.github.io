@@ -126,7 +126,7 @@ Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Casuistry (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
+Litigious (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
 Hierarchal Fi: Emphasising positive feelings. Faith & Affirmation.
@@ -141,14 +141,14 @@ Atomistic Ti: Reinventing the wheel. Casuistry & Canon.
 Hierarchal Fe: Maximising positive expression. Catharsis & Insurmountability.
 Atomistic Fe: Minimising negative expression. Hospitableness & Silliness.
 
-Hierarchal Ni: Premonition of discordance. Radicalism + Catharsis.
-Atomistic Ni: Lessening of Impact. Incremental progress. Isolation & Profitability.
+Hierarchal Ni: Maximising impact. Premonition of discordance. Radicalism + Catharsis.
+Atomistic Ni: Lessening impact. Incremental progress. Isolation & Profitability.
 
 Hierarchal Se: Possessing the weak. Displays of strength. Divison & Insurmountability.
 Atomistic Se: Weathering the storm. Retention of resources. Distance & Expenditure.
 
 Hierarchal Ne: Avoiding problems & stagnation. Exploring alternatives. Faith & Experimentation.
-Atomistic Ne: Dreaming big. Looking on the bright side. Casuistryal & Silliness.
+Atomistic Ne: Dreaming big. Looking on the bright side. Casuistry & Silliness.
 
 Hierarchal Si: Lessening Discomfort. Promoting peace of mind. Reliability & Affirmation.
 Atomistic Si: Maximising Pleasure. Promoting relaxation & beauty. Hospitable & Canonical.
