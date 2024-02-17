@@ -276,7 +276,7 @@ Neglected: Canon. Can neglect observing a settled canon.
 Trivializing: Profitability. Trivializes promoting a pragmatic yield.
 Repressed: Isolation. Represses observing an inequitable distance.
 
-LSI / ISTP / ISTj / Judge (Shadow: Equarry)
+LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Presumptive: Division. Presumptively emphasises structural division.
 Constructive: Supremacy. Finds it constructive to adopt powerful personas.
 Obligation: Faith. Feels obligated to emphasise good-faith relations.
@@ -376,7 +376,7 @@ Neglected: Experimentation. Can neglect creating pragmatic experimentation.
 Trivializing: Division. Trivializes emphasising structural division.
 Repressed: Supremacy. Represses creating powerful personas.
 
-LSE / ESTJ / ESTj / Equerry (Shadow: Judge)
+LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
 Presumptive: Reliable. Presumptively promotes pragmatic stability.
 Constructive: Affirmation. Finds it constructive to observe inherent quality.
 Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
