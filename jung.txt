@@ -90,34 +90,34 @@ Fi + Se: Distance. Controlling Relations. Creating individuation by denying pote
 Fi + Ne: Faith. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
 Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result.
-Ti + Pi: Structure. Denying pragmatism.
+Ti + Pi: Structure. Denying practicality.
 Fi + Pi: Individuation. Denying personas.
 Ji + Ni: Timing. Denying acceptance.
 Ji + Si: Acceptance. Denying timing.
-Ti + Ni: Radicalism. Structural Timing. Denying pragmatism by denying acceptance. Observing an unyielding truth.
-Ti + Si: Canon. Structural Acceptance. Denying pragmatism by denying timing. Observing a settled canon.
-Fi + Ni: Isolation. Individual Timing. Denying personas by denying aceptance. Observing an inequitable distance.
+Ti + Ni: Radicalism. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
+Ti + Si: Canon. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
+Fi + Ni: Isolation. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
 Fi + Si: Affirmation. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
 Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
-Te + Pi: Efficiency. Creating pragmatism.
+Te + Pi: Efficiency. Creating practicality.
 Fe + Pi: Expression. Creating personas.
 Je + Ni: Foresight. Creating timing.
 Je + Si: Comfort. Creating acceptance.
 Fe + Ni: Catharsis. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
 Fe + Si: Hospitality. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
-Te + Ni: Profitability. Efficient Foresight. Creating pragmatism by creating timing. Promoting a pragmatic yield.
-Te + Si: Reliability. Efficient Comfort. Creating pragmatism by creating acceptance. Promoting pragmatic stability.
+Te + Ni: Profitability. Efficient Foresight. Creating practicality by creating timing. Promoting a practical yield.
+Te + Si: Reliability. Efficient Comfort. Creating practicality by creating acceptance. Promoting practical stability.
 
 Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
 Je + Se: Capture. Creating control.
 Je + Ne: Ideation. Creating potential.
-Te + Pe: Pragmatism. Denying structure.
+Te + Pe: Practicality. Denying structure.
 Fe + Pe: Personas. Denying individuation.
 Fe + Se: Supremacy. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
-Te + Se: Expenditure. Capturing Pragmatism. Creating control by denying structure. Adopting a pragmatic expenditure.
+Te + Se: Expenditure. Capturing Practicality. Creating control by denying structure. Adopting a practical expenditure.
 Fe + Ne: Silliness. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
-Te + Ne: Experimentation. Ideating Pragmatism. Creating potential by denying structure. Adopting pragmatic experimentation.
+Te + Ne: Experimentation. Ideating Practicality. Creating potential by denying structure. Adopting practical experimentation.
 
 HIERARCHAL VS ATOMISTIC
 -----------------------
@@ -190,30 +190,30 @@ Gamma.
 Collapsing.
 Atomistic.
 Economical.
-Negative relations collapse into harsh pragmatism, leading to psychological inequity & isolation.
+Negative relations collapse into harsh practicality, leading to psychological inequity & isolation.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distance (Control + Relations). Emphasising negative relations.
 Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
-Promoting: Profitability (Efficiency + Foresight). Promoting a pragmatic yield.
-Adopting: Expenditure (Capture + Pragmatism). Adopting a pragmatic expenditure.
+Promoting: Profitability (Efficiency + Foresight). Promoting a practical yield.
+Adopting: Expenditure (Capture + Practicality). Adopting a practical expenditure.
 
 Homeostatic.
 Delta.
 Enhancing.
 Hierarchal.
 Economical.
-Good-faith relations enhance pragmatic possibilities, leading to affirmation of inherent quality.
+Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirmation (Individuation + Acceptance). Observing inherent quality.
-Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
-Adopting: Experimentation (Ideation + Pragmatism). Adopting pragmatic experimentation.
+Promoting: Reliability (Efficiency + Comfort). Promoting practical stability.
+Adopting: Experimentation (Ideation + Practicality). Adopting practical experimentation.
 
 FUNCTIONS
 ---------
@@ -240,158 +240,158 @@ LII / INTP / INTj / Sophist (Shadow: Investor)
 Presumptuous: Relitigation. Presumptuously emphasises structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly personas.
 Obligation: Distance. Feels obligated to emphasise negative relations.
-Unnatural: Expenditure. Finds it unnatural to adopt a pragmatic expenditure.
+Unnatural: Expenditure. Finds it unnatural to adopt a practical expenditure.
 Indulgant: Canon. Can over-indulge observing a settled canon.
 Neglected: Hospitality. Can neglect promoting a welcoming atmosphere.
 Trivializing: Isolation. Trivializes observing an inequitable distance.
-Repressed: Profitability. Represses promoting a pragmatic yield.
+Repressed: Profitability. Represses promoting a practical yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
 Presumptuous: Canon. Presumptuously observes a settled canon.
 Constructive: Hospitality. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to observe an inequitable distance.
-Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield.
+Unnatural: Profitability. Finds it unnatural to promote a practical yield.
 Indulgant: Relitigation. Can over-indulge emphasising structural possibilities.
 Neglected: Silliness. Can neglect creating silly personas.
 Trivializing: Distance. Trivializes emphasising negative relations.
-Repressed: Expenditure. Represses creating a pragmatic expenditure.
+Repressed: Expenditure. Represses creating a practical expenditure.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Presumptuous: Hospitality. Presumptuously promoting of a welcoming atmosphere.
 Constructive: Canon. Finds it constructive to observe a settled canon.
-Obligation: Profitability. Feels obligated to promote a pragmatic yield.
+Obligation: Profitability. Feels obligated to promote a practical yield.
 Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silliness. Can over-indulge creating silly personas.
 Neglected: Relitigation. Can neglect emphasising structural possibilities.
-Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
+Trivializing: Expenditure. Trivializes creating a practical expenditure.
 Repressed: Distance. Represses emphasising negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Miser)
 Presumptuous: Silliness. Presumptuously adopts silly personas.
 Constructive: Relitigation. Finds it constructive to emphasise structural possibilities.
-Obligation: Expenditure. Feels obligated to adopt a pragmatic expenditure.
+Obligation: Expenditure. Feels obligated to adopt a practical expenditure.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitality. Can over-indulge promoting a welcoming atmosphere.
 Neglected: Canon. Can neglect observing a settled canon.
-Trivializing: Profitability. Trivializes promoting a pragmatic yield.
+Trivializing: Profitability. Trivializes promoting a practical yield.
 Repressed: Isolation. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Presumptuous: Division. Presumptuously emphasises structural division.
 Constructive: Supremacy. Finds it constructive to adopt powerful personas.
 Obligation: Faith. Feels obligated to emphasise good-faith relations.
-Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation.
+Unnatural: Experimentation. Finds it unnatural to adopt practical experimentation.
 Indulgant: Radicalism. Can over-indulge observing an unyielding truth.
 Neglected: Catharsis. Can neglect promoting a cathartic atmosphere.
 Trivializing: Affirmation. Trivializes observing inherent quality.
-Repressed: Reliability. Represses promoting pragmatic stability.
+Repressed: Reliability. Represses promoting practical stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
 Presumptuous: Radicalism. Presumptuously observes an unyielding truth.
 Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere.
 Obligation: Affirmation. Feels obligated to observe inherent quality.
-Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
+Unnatural: Reliability. Finds it unnatural to promote practical stability.
 Indulgant: Division. Can over-indulge emphasising structural division.
 Neglected: Supremacy. Can neglect creating powerful personas.
 Trivializing: Faith. Trivializes emphasising good-faith relations.
-Repressed: Experimentation. Represses creating pragmatic experimentation.
+Repressed: Experimentation. Represses creating practical experimentation.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Presumptuous: Catharsis. Presumptuously promotes a cathartic atmosphere.
 Constructive: Radicalism. Finds it constructive to observe an unyielding truth.
-Obligation: Reliability. Feels obligated to promote pragmatic stability.
+Obligation: Reliability. Feels obligated to promote practical stability.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 Indulgant: Supremacy. Can over-indulge creating powerful personas.
 Neglected: Division. Can neglect emphasising structural division.
-Trivializing: Experimentation. Trivializes creating pragmatic experimentation.
+Trivializing: Experimentation. Trivializes creating practical experimentation.
 Repressed: Faith. Represses emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
 Presumptuous: Supremacy. Presumptuously adopts powerful personas.
 Constructive: Division. Finds it constructive to emphasise structural division.
-Obligation: Experimentation. Feels obligated to adopt pragmatic experimentation.
+Obligation: Experimentation. Feels obligated to adopt practical experimentation.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
 Indulgant: Catharsis. Can over-indulge promoting a cathartic atmosphere.
 Neglected: Radicalism. Can neglect observing an unyielding truth.
-Trivializing: Reliability. Trivializes promoting pragmatic stability.
+Trivializing: Reliability. Trivializes promoting practical stability.
 Repressed: Affirmation. Represses observing inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Presumptuous: Distance. Presumptuously emphasises negative relations.
-Constructive: Expenditure. Finds it constructive to adopt a pragmatic expenditure.
+Constructive: Expenditure. Finds it constructive to adopt a practical expenditure.
 Obligation: Relitigation. Feels obligated to emphasise structural possibilities.
 Unnatural: Silliness. Finds it unnatural to adopt silly personas.
 Indulgant: Isolation. Can over-indulge observing an inequitable distance.
-Neglected: Profitability. Can neglect promoting a pragmatic yield.
+Neglected: Profitability. Can neglect promoting a practical yield.
 Trivializing: Canon. Trivializes observing a settled canon.
 Repressed: Hospitality. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Miser (Shadow: Fool)
 Presumptuous: Isolation. Presumptuously observes an inequitable distance.
-Constructive: Profitability. Finds it constructive to promote a pragmatic yield.
+Constructive: Profitability. Finds it constructive to promote a practical yield.
 Obligation: Canon. Feels obligated to observe a settled canon.
 Unnatural: Hospitality. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distance. Can over-indulge emphasising negative relations.
-Neglected: Expenditure. Can neglect creating a pragmatic expenditure.
+Neglected: Expenditure. Can neglect creating a practical expenditure.
 Trivializing: Relitigation. Trivializes emphasising structural possibilities.
 Repressed: Silliness. Represses creating silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
-Presumptuous: Profitability. Presumptuously promotes a pragmatic yield.
+Presumptuous: Profitability. Presumptuously promotes a practical yield.
 Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitality. Feels obligated to promote a welcoming atmosphere.
 Unnatural: Canon. Finds it unnatural to observe a settled canon.
-Indulgant: Expenditure. Can over-indulge creating a pragmatic expenditure.
+Indulgant: Expenditure. Can over-indulge creating a practical expenditure.
 Neglected: Distance. Can neglect emphasising negative relations.
 Trivializing: Silliness. Trivializes creating silly personas.
 Repressed: Relitigation. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
-Presumptuous: Expenditure. Presumptuously adopts a pragmatic expenditure.
+Presumptuous: Expenditure. Presumptuously adopts a practical expenditure.
 Constructive: Distance. Finds it constructive to emphasise negative relations.
 Obligation: Silliness. Feels obligated to adopt silly personas.
 Unnatural: Relitigation. Finds it unnatural to emphasise structural possibilities.
-Indulgant: Profitability. Can over-indulge promoting a pragmatic yield.
+Indulgant: Profitability. Can over-indulge promoting a practical yield.
 Neglected: Isolation. Can neglect observing an inequitable distance.
 Trivializing: Hospitality. Trivializes promoting a welcoming atmosphere.
 Repressed: Canon. Represses observing a settled canon.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Presumptuous: Faith. Presumptuously emphasises good-faith relations.
-Constructive: Experimentation. Finds it constructive to adopt pragmatic experimentation.
+Constructive: Experimentation. Finds it constructive to adopt practical experimentation.
 Obligation: Division. Feels obligated to emphasise structural division.
 Unnatural: Supremacy. Finds it unnatural to adopt powerful personas.
 Indulgant: Affirmation. Can over-indulge observing inherent quality.
-Neglected: Reliability. Can neglect promoting pragmatic stability.
+Neglected: Reliability. Can neglect promoting practical stability.
 Trivializing: Radicalism. Trivializes observing an unyielding truth.
 Repressed: Catharsis. Represses promoting a cathartic atmosphere.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Presumptuous: Affirmation. Presumptuously observes inherent quality.
-Constructive: Reliability. Finds it constructive to promote pragmatic stability.
+Constructive: Reliability. Finds it constructive to promote practical stability.
 Obligation: Radicalism. Feels obligated to observe an unyielding truth.
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations.
-Neglected: Experimentation. Can neglect creating pragmatic experimentation.
+Neglected: Experimentation. Can neglect creating practical experimentation.
 Trivializing: Division. Trivializes emphasising structural division.
 Repressed: Supremacy. Represses creating powerful personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Presumptuous: Reliability. Presumptuously promotes pragmatic stability.
+Presumptuous: Reliability. Presumptuously promotes practical stability.
 Constructive: Affirmation. Finds it constructive to observe inherent quality.
 Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
 Unnatural: Radicalism. Finds it unnatural to observe an unyielding truth.
-Indulgant: Experimentation. Can over-indulge creating pragmatic experimentation.
+Indulgant: Experimentation. Can over-indulge creating practical experimentation.
 Neglected: Faith. Can neglect emphasising good-faith relations.
 Trivializing: Supremacy. Trivializes creating powerful personas.
 Repressed: Division. Represses emphasising structural division.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
-Presumptuous: Experimentation. Presumptuously adopts pragmatic experimentation.
+Presumptuous: Experimentation. Presumptuously adopts practical experimentation.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 Obligation: Supremacy. Feels obligated to adopt powerful personas.
 Unnatural: Division. Finds it unnatural to emphasise structural division.
-Indulgant: Reliability. Can over-indulge promoting pragmatic stability.
+Indulgant: Reliability. Can over-indulge promoting practical stability.
 Neglected: Affirmation. Can neglect observing inherent quality.
 Trivializing: Catharsis. Trivializes promoting a cathartic atmosphere.
 Repressed: Radicalism. Represses observing an unyielding truth.
