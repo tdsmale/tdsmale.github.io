@@ -109,7 +109,7 @@ Fe + Si: Hospitality. Expressive Comfort. Creating personas by creating acceptan
 Te + Ni: Profitability. Efficient Foresight. Creating pragmatism by creating timing. Promoting a pragmatic yield.
 Te + Si: Reliability. Efficient Comfort. Creating pragmatism by creating acceptance. Promoting pragmatic stability.
 
-Je + Pe: Adopting. Seeks to make the most of external processes. Maximises the result.
+Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
 Je + Se: Capture. Creating control.
 Je + Ne: Ideation. Creating potential.
 Te + Pe: Pragmatism. Denying structure.
