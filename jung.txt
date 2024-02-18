@@ -129,11 +129,11 @@ Atomistic: Relating to others in terms of individual qualities relative to a who
 Litigious (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
-Hierarchal Fi: Maximising positive feelings. Affirming judgement of character. Faith & Affirmation.
-Atomistic Fi: Minimising negative feelings. Harsh judgement of character. Distance & Isolation.
+Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
+Atomistic Fi: Minimising negative relations. Harsh judgement of character. Distance & Isolation.
 
-Hierarchal Te: Maximising useful feelings. Performing as expected. Reliability & Experimentation.
-Atomistic Te: Minimising useless feelings. Getting the job done. Profitability & Expenditure.
+Hierarchal Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
+Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
 
 Hierarchal Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
 Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Casuistry & Canon.
@@ -218,7 +218,7 @@ Adopting: Experimentation (Ideation + Pragmatism). Adopting pragmatic experiment
 FUNCTIONS
 ---------
 Ego Block: Public, Strong and Valued.
-Bold: Presumptive. Default "always-on" attitude.
+Bold: Presumptuous. Default "always-on" attitude.
 Cautious: Constructive. Attitude felt as constructive.
 
 Super-Ego Block: Public, Weak and Not Valued.
@@ -237,7 +237,7 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
-Presumptive: Casuistry. Presumptively emphasises structural possibilities.
+Presumptuous: Casuistry. Presumptuously emphasises structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly personas.
 Obligation: Distance. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to adopt a pragmatic expenditure.
@@ -247,7 +247,7 @@ Trivializing: Isolation. Trivializes observing an inequitable distance.
 Repressed: Profitability. Represses promoting a pragmatic yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Presumptive: Canon. Presumptively observes a settled canon.
+Presumptuous: Canon. Presumptuously observes a settled canon.
 Constructive: Hospitality. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to observe an inequitable distance.
 Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield.
@@ -257,7 +257,7 @@ Trivializing: Distance. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses creating a pragmatic expenditure.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
-Presumptive: Hospitality. Presumptively promoting of a welcoming atmosphere.
+Presumptuous: Hospitality. Presumptuously promoting of a welcoming atmosphere.
 Constructive: Canon. Finds it constructive to observe a settled canon.
 Obligation: Profitability. Feels obligated to promote a pragmatic yield.
 Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
@@ -267,7 +267,7 @@ Trivializing: Expenditure. Trivializes creating a pragmatic expenditure.
 Repressed: Distance. Represses emphasising negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Miser)
-Presumptive: Silliness. Presumptively adopts silly personas.
+Presumptuous: Silliness. Presumptuously adopts silly personas.
 Constructive: Casuistry. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to adopt a pragmatic expenditure.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations.
@@ -277,7 +277,7 @@ Trivializing: Profitability. Trivializes promoting a pragmatic yield.
 Repressed: Isolation. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
-Presumptive: Division. Presumptively emphasises structural division.
+Presumptuous: Division. Presumptuously emphasises structural division.
 Constructive: Supremacy. Finds it constructive to adopt powerful personas.
 Obligation: Faith. Feels obligated to emphasise good-faith relations.
 Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation.
@@ -287,7 +287,7 @@ Trivializing: Affirmation. Trivializes observing inherent quality.
 Repressed: Reliable. Represses promoting pragmatic stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
-Presumptive: Radicalism. Presumptively observes an unyielding truth.
+Presumptuous: Radicalism. Presumptuously observes an unyielding truth.
 Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere.
 Obligation: Affirmation. Feels obligated to observe inherent quality.
 Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
@@ -297,7 +297,7 @@ Trivializing: Faith. Trivializes emphasising good-faith relations.
 Repressed: Experimentation. Represses creating pragmatic experimentation.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
-Presumptive: Catharsis. Presumptively promotes a cathartic atmosphere.
+Presumptuous: Catharsis. Presumptuously promotes a cathartic atmosphere.
 Constructive: Radicalism. Finds it constructive to observe an unyielding truth.
 Obligation: Reliable. Feels obligated to promote pragmatic stability.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
@@ -307,7 +307,7 @@ Trivializing: Experimentation. Trivializes creating pragmatic experimentation.
 Repressed: Faith. Represses emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Presumptive: Supremacy. Presumptively adopts powerful personas.
+Presumptuous: Supremacy. Presumptuously adopts powerful personas.
 Constructive: Division. Finds it constructive to emphasise structural division.
 Obligation: Experimentation. Feels obligated to adopt pragmatic experimentation.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
@@ -317,7 +317,7 @@ Trivializing: Reliable. Trivializes promoting pragmatic stability.
 Repressed: Affirmation. Represses observing inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
-Presumptive: Distance. Presumptively emphasises negative relations.
+Presumptuous: Distance. Presumptuously emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to adopt a pragmatic expenditure.
 Obligation: Casuistry. Feels obligated to emphasise structural possibilities.
 Unnatural: Silliness. Finds it unnatural to adopt silly personas.
@@ -327,7 +327,7 @@ Trivializing: Canon. Trivializes observing a settled canon.
 Repressed: Hospitality. Represses promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Miser (Shadow: Fool)
-Presumptive: Isolation. Presumptively observes an inequitable distance.
+Presumptuous: Isolation. Presumptuously observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote a pragmatic yield.
 Obligation: Canon. Feels obligated to observe a settled canon.
 Unnatural: Hospitality. Finds it unnatural to promote a welcoming atmosphere.
@@ -337,7 +337,7 @@ Trivializing: Casuistry. Trivializes emphasising structural possibilities.
 Repressed: Silliness. Represses creating silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
-Presumptive: Profitability. Presumptively promotes a pragmatic yield.
+Presumptuous: Profitability. Presumptuously promotes a pragmatic yield.
 Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitality. Feels obligated to promote a welcoming atmosphere.
 Unnatural: Canon. Finds it unnatural to observe a settled canon.
@@ -347,7 +347,7 @@ Trivializing: Silliness. Trivializes creating silly personas.
 Repressed: Casuistry. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
-Presumptive: Expenditure. Presumptively adopts a pragmatic expenditure.
+Presumptuous: Expenditure. Presumptuously adopts a pragmatic expenditure.
 Constructive: Distance. Finds it constructive to emphasise negative relations.
 Obligation: Silliness. Feels obligated to adopt silly personas.
 Unnatural: Casuistry. Finds it unnatural to emphasise structural possibilities.
@@ -357,7 +357,7 @@ Trivializing: Hospitality. Trivializes promoting a welcoming atmosphere.
 Repressed: Canon. Represses observing a settled canon.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
-Presumptive: Faith. Presumptively emphasises good-faith relations.
+Presumptuous: Faith. Presumptuously emphasises good-faith relations.
 Constructive: Experimentation. Finds it constructive to adopt pragmatic experimentation.
 Obligation: Division. Feels obligated to emphasise structural division.
 Unnatural: Supremacy. Finds it unnatural to adopt powerful personas.
@@ -367,7 +367,7 @@ Trivializing: Radicalism. Trivializes observing an unyielding truth.
 Repressed: Catharsis. Represses promoting a cathartic atmosphere.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
-Presumptive: Affirmation. Presumptively observes inherent quality.
+Presumptuous: Affirmation. Presumptuously observes inherent quality.
 Constructive: Reliable. Finds it constructive to promote pragmatic stability.
 Obligation: Radicalism. Feels obligated to observe an unyielding truth.
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere.
@@ -377,7 +377,7 @@ Trivializing: Division. Trivializes emphasising structural division.
 Repressed: Supremacy. Represses creating powerful personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Presumptive: Reliable. Presumptively promotes pragmatic stability.
+Presumptuous: Reliable. Presumptuously promotes pragmatic stability.
 Constructive: Affirmation. Finds it constructive to observe inherent quality.
 Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
 Unnatural: Radicalism. Finds it unnatural to observe an unyielding truth.
@@ -387,7 +387,7 @@ Trivializing: Supremacy. Trivializes creating powerful personas.
 Repressed: Division. Represses emphasising structural division.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
-Presumptive: Experimentation. Presumptively adopts pragmatic experimentation.
+Presumptuous: Experimentation. Presumptuously adopts pragmatic experimentation.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 Obligation: Supremacy. Feels obligated to adopt powerful personas.
 Unnatural: Division. Finds it unnatural to emphasise structural division.
