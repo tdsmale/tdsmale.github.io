@@ -212,7 +212,7 @@ Ideal: Earnestness. To engage with things sincerely, to potentiate the best in t
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 Observant: Affirmation (Individuation + Acceptance). Observing inherent quality.
-Promoting: Reliable (Efficiency + Comfort). Promoting pragmatic stability.
+Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 Adopting: Experimentation (Ideation + Pragmatism). Adopting pragmatic experimentation.
 
 FUNCTIONS
@@ -284,13 +284,13 @@ Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentatio
 Indulgant: Radicalism. Can over-indulge observing an unyielding truth.
 Neglected: Catharsis. Can neglect promoting a cathartic atmosphere.
 Trivializing: Affirmation. Trivializes observing inherent quality.
-Repressed: Reliable. Represses promoting pragmatic stability.
+Repressed: Reliability. Represses promoting pragmatic stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
 Presumptuous: Radicalism. Presumptuously observes an unyielding truth.
 Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere.
 Obligation: Affirmation. Feels obligated to observe inherent quality.
-Unnatural: Reliable. Finds it unnatural to promote pragmatic stability.
+Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
 Indulgant: Division. Can over-indulge emphasising structural division.
 Neglected: Supremacy. Can neglect creating powerful personas.
 Trivializing: Faith. Trivializes emphasising good-faith relations.
@@ -299,7 +299,7 @@ Repressed: Experimentation. Represses creating pragmatic experimentation.
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Presumptuous: Catharsis. Presumptuously promotes a cathartic atmosphere.
 Constructive: Radicalism. Finds it constructive to observe an unyielding truth.
-Obligation: Reliable. Feels obligated to promote pragmatic stability.
+Obligation: Reliability. Feels obligated to promote pragmatic stability.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 Indulgant: Supremacy. Can over-indulge creating powerful personas.
 Neglected: Division. Can neglect emphasising structural division.
@@ -313,7 +313,7 @@ Obligation: Experimentation. Feels obligated to adopt pragmatic experimentation.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
 Indulgant: Catharsis. Can over-indulge promoting a cathartic atmosphere.
 Neglected: Radicalism. Can neglect observing an unyielding truth.
-Trivializing: Reliable. Trivializes promoting pragmatic stability.
+Trivializing: Reliability. Trivializes promoting pragmatic stability.
 Repressed: Affirmation. Represses observing inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
@@ -362,13 +362,13 @@ Constructive: Experimentation. Finds it constructive to adopt pragmatic experime
 Obligation: Division. Feels obligated to emphasise structural division.
 Unnatural: Supremacy. Finds it unnatural to adopt powerful personas.
 Indulgant: Affirmation. Can over-indulge observing inherent quality.
-Neglected: Reliable. Can neglect promoting pragmatic stability.
+Neglected: Reliability. Can neglect promoting pragmatic stability.
 Trivializing: Radicalism. Trivializes observing an unyielding truth.
 Repressed: Catharsis. Represses promoting a cathartic atmosphere.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Presumptuous: Affirmation. Presumptuously observes inherent quality.
-Constructive: Reliable. Finds it constructive to promote pragmatic stability.
+Constructive: Reliability. Finds it constructive to promote pragmatic stability.
 Obligation: Radicalism. Feels obligated to observe an unyielding truth.
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations.
@@ -377,7 +377,7 @@ Trivializing: Division. Trivializes emphasising structural division.
 Repressed: Supremacy. Represses creating powerful personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Presumptuous: Reliable. Presumptuously promotes pragmatic stability.
+Presumptuous: Reliability. Presumptuously promotes pragmatic stability.
 Constructive: Affirmation. Finds it constructive to observe inherent quality.
 Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
 Unnatural: Radicalism. Finds it unnatural to observe an unyielding truth.
@@ -391,7 +391,7 @@ Presumptuous: Experimentation. Presumptuously adopts pragmatic experimentation.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 Obligation: Supremacy. Feels obligated to adopt powerful personas.
 Unnatural: Division. Finds it unnatural to emphasise structural division.
-Indulgant: Reliable. Can over-indulge promoting pragmatic stability.
+Indulgant: Reliability. Can over-indulge promoting pragmatic stability.
 Neglected: Affirmation. Can neglect observing inherent quality.
 Trivializing: Catharsis. Trivializes promoting a cathartic atmosphere.
 Repressed: Radicalism. Represses observing an unyielding truth.
