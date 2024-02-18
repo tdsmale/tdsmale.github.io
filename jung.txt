@@ -36,14 +36,14 @@ Navigation (Je): Active & Dynamic. Changing external processes.
 
 INFORMATION ELEMENTS
 --------------------
-Subjective Conditioning (Fi): Personal relations. Relational & privileging. Internalised feelings.
-Objective Conditioning (Ti): Internal structure. Truth & impartiality. Internalised rules.
-Reflective Present (Si): Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-Reflective Future (Ni): Yielding over time. Waiting for the moment. Lessening of impact. 
-Subjective Navigation (Fe): Influencing expressions. Authentic externalisation. Emotional information.
-Objective Navigation (Te): Pragmatisation. Productive externalisation. Factual information.
-Present Activation (Se): Unyielding in-the-moment. Taking up space. Capture & possession.
-Future Activation (Ne): Broadening of possibilities. Taking up ideas. Thinking outside the box.
+Subjective Conditioning (Fi): Soulful. Personal relations. Relational & privileging. Internalised feelings.
+Objective Conditioning (Ti): Structural. Internal structure. Truth & impartiality. Internalised rules.
+Reflective Present (Si): Pleasant. Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
+Reflective Future (Ni): Depressive. Yielding over time. Waiting for the moment. Lessening of impact. 
+Subjective Navigation (Fe): Expressive. Influencing expressions. Authentic externalisation. Emotional information.
+Objective Navigation (Te): Productive. Pragmatisation. Productive externalisation. Factual information.
+Present Activation (Se): Forceful. Unyielding in-the-moment. Taking up space. Capture & possession.
+Future Activation (Ne): Childish. Broadening of possibilities. Taking up ideas. Thinking outside the box.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
 Fi vs Fe: Relating vs Expressing Feelings.
@@ -57,22 +57,22 @@ Fi vs Te: Privileging vs Pragmatising Feelings.
 
 INFORMATION ELEMENT COMPOSITIONS
 --------------------------------
-Fi + Te: Economical.
+Fi + Te: Economical. Soulful + Productive.
 Using resources in personally-valuable ways.
 Characterised by resourcefulness, seriousness and individuation.
 
-Ti + Fe: Narrational.
+Ti + Fe: Narrational. Structural + Expressive.
 Guiding audiences to a central truth.
 Characterised by small talk, flippancy and group membership.
 
-Ni + Se: Collapsing.
+Ni + Se: Collapsing. Depressive + Forceful.
 Acting in a willful and timely manner.
 Minimising the negative in life.
 Brings a weighty, decisive attitude to things.
 Guided by sinking feelings.
 Akin to waves crashing against the shore.
 
-Si + Ne: Enhancing.
+Si + Ne: Enhancing. Pleasant + Childish.
 Enjoying what life has to offer.
 Maximising the positive in life.
 Brings an airy, boyant attitude to things.
@@ -84,40 +84,40 @@ Ji + Se: Control. Denying potential.
 Ji + Ne: Potential. Denying control.
 Ti + Pe: Truth. Creating structure.
 Fi + Pe: Relations. Creating individuation.
-Ti + Se: Division. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
-Ti + Ne: Relitigation. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
-Fi + Se: Distance. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
-Fi + Ne: Faith. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
+Ti + Se: Division. Structural + Forceful. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
+Ti + Ne: Relitigation. Structural + Childish. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
+Fi + Se: Distance. Soulful + Forceful. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
+Fi + Ne: Faith. Soulful + Childish. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
 Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result.
 Ti + Pi: Structure. Denying practicality.
 Fi + Pi: Individuation. Denying personas.
 Ji + Ni: Timing. Denying acceptance.
 Ji + Si: Acceptance. Denying timing.
-Ti + Ni: Radicalism. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
-Ti + Si: Canon. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
-Fi + Ni: Isolation. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
-Fi + Si: Affirmation. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
+Ti + Ni: Radicalism. Structural + Depressive. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
+Ti + Si: Canon. Structural + Pleasant. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
+Fi + Ni: Isolation. Soulful + Depressive. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
+Fi + Si: Affirmation. Soulful + Pleasant. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
 Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
 Te + Pi: Efficiency. Creating practicality.
 Fe + Pi: Expression. Creating personas.
 Je + Ni: Foresight. Creating timing.
 Je + Si: Comfort. Creating acceptance.
-Fe + Ni: Catharsis. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
-Fe + Si: Hospitality. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
-Te + Ni: Profitability. Efficient Foresight. Creating practicality by creating timing. Promoting a practical yield.
-Te + Si: Reliability. Efficient Comfort. Creating practicality by creating acceptance. Promoting practical stability.
+Fe + Ni: Catharsis. Expressive + Depressive. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
+Fe + Si: Hospitality. Expressive + Pleasant. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
+Te + Ni: Profitability. Productive + Depressive. Efficient Foresight. Creating practicality by creating timing. Promoting a practical yield.
+Te + Si: Reliability. Productive + Pleasant. Efficient Comfort. Creating practicality by creating acceptance. Promoting practical stability.
 
 Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
 Je + Se: Capture. Creating control.
 Je + Ne: Ideation. Creating potential.
 Te + Pe: Practicality. Denying structure.
 Fe + Pe: Personas. Denying individuation.
-Fe + Se: Supremacy. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
-Te + Se: Expenditure. Capturing Practicality. Creating control by denying structure. Adopting a practical expenditure.
-Fe + Ne: Silliness. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
-Te + Ne: Experimentation. Ideating Practicality. Creating potential by denying structure. Adopting practical experimentation.
+Fe + Se: Supremacy. Expressive + Forceful. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
+Te + Se: Expenditure. Productive + Forceful. Capturing Practicality. Creating control by denying structure. Adopting a practical expenditure.
+Fe + Ne: Silliness. Expressive + Childish. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
+Te + Ne: Experimentation. Productive + Childish. Ideating Practicality. Creating potential by denying structure. Adopting practical experimentation.
 
 HIERARCHAL VS ATOMISTIC
 -----------------------
@@ -126,7 +126,7 @@ Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Erudite (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
+Lighthearted (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
 Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
@@ -155,7 +155,7 @@ Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Ca
 
 QUADRAS
 -------
-Erudite.
+Litigious.
 Alpha.
 Enhancing.
 Atomistic.
