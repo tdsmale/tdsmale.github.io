@@ -293,7 +293,7 @@ Repressed: Reliability. Represses specialising in neglected aspects of ecosystem
 IEI / INFJ / INFp / Apostle (Shadow: Coach)
 Presumptuous: Radicalism. Presumptuously convinces powerful hosts to relinquish strength.
 Constructive: Catharsis. Finds it constructive to provoke crowds to better defend against predators.
-Obligation: Affirmation. Feels obligated to tolerate & adapte to existing ecosystem.
+Obligation: Affirmation. Feels obligated to tolerate & adapt to existing ecosystem.
 Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem.
 Indulgant: Division. Can over-indulge defending the ecosystem, resisting change.
 Neglected: Supremacy. Can neglect possessing the weak, occupying the top of the food chain.
@@ -304,7 +304,7 @@ EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Presumptuous: Catharsis. Presumptuously provokes crowds to better defend against predators.
 Constructive: Radicalism. Finds it constructive to convince powerful hosts to relinquish strength.
 Obligation: Reliability. Feels obligated to specialise in neglected aspects of ecosystem.
-Unnatural: Affirmation. Finds it unnatural to tolerate & adapte to existing ecosystem.
+Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to existing ecosystem.
 Indulgant: Supremacy. Can over-indulge possessing the weak, occupying the top of the food chain.
 Neglected: Division. Can neglect defending the ecosystem, resisting change.
 Trivializing: Experimentation. Trivializes transforming their habitat prouctively.
@@ -382,7 +382,7 @@ Repressed: Supremacy. Represses possessing the weak, occupying the top of the fo
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
 Presumptuous: Reliability. Presumptuously specialises in neglected aspects of ecosystem.
-Constructive: Affirmation. Finds it constructive to tolerate & adapte to existing ecosystem.
+Constructive: Affirmation. Finds it constructive to tolerate & adapt to existing ecosystem.
 Obligation: Catharsis. Feels obligated to provoke crowds to better defend against predators.
 Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength.
 Indulgant: Experimentation. Can over-indulge transforming their habitat productively.
