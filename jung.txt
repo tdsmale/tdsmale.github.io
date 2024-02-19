@@ -252,7 +252,7 @@ Repressed: Profitability. Represses escalating competition of resources.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
 Natural: Canon. Naturally promotes satisfaction of all participants.
-Constructive: Hospitality. Finds it constructive to synchronise with a crowd, mutually.
+Constructive: Hospitality. Finds it constructive to mutually synchronise with a crowd.
 Obligation: Isolation. Feels obligated to benefit from the inevitable losses of others.
 Unnatural: Profitability. Finds it unnatural to escalate competition of resources.
 Indulgant: Tangentiality. Can over-indulge intellectualising aspects of life.
@@ -334,7 +334,7 @@ ILI / INTJ / INTp / Vulture (Shadow: Fool)
 Natural: Isolation. Naturally benefits from the inevitable losses of others.
 Constructive: Profitability. Finds it constructive to escalate competition of resources.
 Obligation: Canon. Feels obligated to promote satisfaction of all participants.
-Unnatural: Hospitality. Finds it unnatural to synchronise with a crowd, mutually.
+Unnatural: Hospitality. Finds it unnatural to mutually synchronise with a crowd.
 Indulgant: Distance. Can over-indulge retaining highly-selective resources.
 Neglected: Expenditure. Can neglect peacocking & machievellianism.
 Trivializing: Tangentiality. Trivializes intellectualising aspects of life.
@@ -343,7 +343,7 @@ Repressed: Silliness. Represses discovering new ecological niches to share.
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profitability. Naturally escalates competition of resources.
 Constructive: Isolation. Finds it constructive to benefit from the inevitable losses of others.
-Obligation: Hospitality. Feels obligated to synchronise with a crowd, mutually.
+Obligation: Hospitality. Feels obligated to mutually synchronise with a crowd.
 Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants.
 Indulgant: Expenditure. Can over-indulge peacocking & being machievellian.
 Neglected: Distance. Can neglect retaining highly-selective resources.
