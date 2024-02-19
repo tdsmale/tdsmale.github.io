@@ -85,7 +85,7 @@ Ji + Ne: Potential. Denying control.
 Ti + Pe: Truth. Creating structure.
 Fi + Pe: Relations. Creating individuation.
 Ti + Se: Division. Structural + Forceful. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
-Ti + Ne: Relitigation. Structural + Childish. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
+Ti + Ne: Tangential. Structural + Childish. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
 Fi + Se: Distance. Soulful + Forceful. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
 Fi + Ne: Faith. Soulful + Childish. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
@@ -136,7 +136,7 @@ Hierarchal Te: Maximising useful resources. Stable efficiency. Reliability & Exp
 Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
 
 Hierarchal Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
-Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Relitigation & Canon.
+Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Tangential & Canon.
 
 Hierarchal Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
 Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
@@ -148,24 +148,24 @@ Hierarchal Se: Minimising negative consequences. Possessing the weak. Divison & 
 Atomistic Se: Maximising positive consequences. Retention of resources. Distance & Expenditure.
 
 Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
-Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Relitigation & Silliness.
+Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Tangential & Silliness.
 
 Hierarchal Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
 Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
 
 QUADRAS
 -------
-Eupeptic.
+Theoretic.
 Alpha.
 Enhancing.
 Atomistic.
 Narrational.
-Structural possibilities enhance emotional atmosphere, leading to equitable legislation of canon.
+Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
-Symptomatic: Relitigation (Potential + Truth). Emphasising structural possibilities.
+Symptomatic: Tangential (Potential + Truth). Emphasising structural possibilities.
 Observant: Canon (Structure + Acceptance). Observing a settled canon.
 Promoting: Hospitality (Expression + Comfort). Promoting a welcoming atmosphere.
 Adopting: Silliness (Ideation + Personas). Adopting silly personas.
@@ -175,7 +175,7 @@ Beta.
 Collapsing.
 Hierarchal.
 Narrational.
-Divided structure collapses into dramatic upheaval, leading to fundamental, unyielding truth.
+Divided structure collapses into dramatic upheaval, leading to observance of unyielding truths.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
@@ -190,7 +190,7 @@ Gamma.
 Collapsing.
 Atomistic.
 Economical.
-Negative relations collapse into harsh practicality, leading to psychological inequity & isolation.
+Negative relations collapse into harsh practicality, leading to psychological inequity.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
@@ -237,7 +237,7 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
-Presumptuous: Relitigation. Presumptuously emphasises structural possibilities.
+Presumptuous: Tangential. Presumptuously emphasises structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly personas.
 Obligation: Distance. Feels obligated to emphasise negative relations.
 Unnatural: Expenditure. Finds it unnatural to adopt a practical expenditure.
@@ -251,7 +251,7 @@ Presumptuous: Canon. Presumptuously observes a settled canon.
 Constructive: Hospitality. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to observe an inequitable distance.
 Unnatural: Profitability. Finds it unnatural to promote a practical yield.
-Indulgant: Relitigation. Can over-indulge emphasising structural possibilities.
+Indulgant: Tangential. Can over-indulge emphasising structural possibilities.
 Neglected: Silliness. Can neglect adopting silly personas.
 Trivializing: Distance. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses adopting a practical expenditure.
@@ -262,13 +262,13 @@ Constructive: Canon. Finds it constructive to observe a settled canon.
 Obligation: Profitability. Feels obligated to promote a practical yield.
 Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silliness. Can over-indulge adopting silly personas.
-Neglected: Relitigation. Can neglect emphasising structural possibilities.
+Neglected: Tangential. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes adopting a practical expenditure.
 Repressed: Distance. Represses emphasising negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Miser)
 Presumptuous: Silliness. Presumptuously adopts silly personas.
-Constructive: Relitigation. Finds it constructive to emphasise structural possibilities.
+Constructive: Tangential. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to adopt a practical expenditure.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations.
 Indulgant: Hospitality. Can over-indulge promoting a welcoming atmosphere.
@@ -319,7 +319,7 @@ Repressed: Affirmation. Represses observing inherent quality.
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Presumptuous: Distance. Presumptuously emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to adopt a practical expenditure.
-Obligation: Relitigation. Feels obligated to emphasise structural possibilities.
+Obligation: Tangential. Feels obligated to emphasise structural possibilities.
 Unnatural: Silliness. Finds it unnatural to adopt silly personas.
 Indulgant: Isolation. Can over-indulge observing an inequitable distance.
 Neglected: Profitability. Can neglect promoting a practical yield.
@@ -333,7 +333,7 @@ Obligation: Canon. Feels obligated to observe a settled canon.
 Unnatural: Hospitality. Finds it unnatural to promote a welcoming atmosphere.
 Indulgant: Distance. Can over-indulge emphasising negative relations.
 Neglected: Expenditure. Can neglect adopting a practical expenditure.
-Trivializing: Relitigation. Trivializes emphasising structural possibilities.
+Trivializing: Tangential. Trivializes emphasising structural possibilities.
 Repressed: Silliness. Represses adopting silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
@@ -344,13 +344,13 @@ Unnatural: Canon. Finds it unnatural to observe a settled canon.
 Indulgant: Expenditure. Can over-indulge adopting a practical expenditure.
 Neglected: Distance. Can neglect emphasising negative relations.
 Trivializing: Silliness. Trivializes adopting silly personas.
-Repressed: Relitigation. Represses emphasising structural possibilities.
+Repressed: Tangential. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
 Presumptuous: Expenditure. Presumptuously adopts a practical expenditure.
 Constructive: Distance. Finds it constructive to emphasise negative relations.
 Obligation: Silliness. Feels obligated to adopt silly personas.
-Unnatural: Relitigation. Finds it unnatural to emphasise structural possibilities.
+Unnatural: Tangential. Finds it unnatural to emphasise structural possibilities.
 Indulgant: Profitability. Can over-indulge promoting a practical yield.
 Neglected: Isolation. Can neglect observing an inequitable distance.
 Trivializing: Hospitality. Trivializes promoting a welcoming atmosphere.
