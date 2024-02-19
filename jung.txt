@@ -199,7 +199,7 @@ Competitive Symbiosis: ecosystem relies on a healthy competition of resources be
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distance (Control + Relations). Retaining highly-selective resources.
-Observant: Isolation (Individuation + Timing). Tracking the losses of others.
+Observant: Isolation (Individuation + Timing). Tracking & scavange losses.
 Promoting: Profitability (Efficiency + Foresight). Escalating competition of resources.
 Adopting: Expenditure (Capture + Practicality). Peacocking & Machiavellianism.
 
@@ -247,13 +247,13 @@ Obligation: Distance. Feels obligated to retain highly-selective resources.
 Unnatural: Expenditure. Finds it unnatural to peacock & be machievellian.
 Indulgant: Canon. Can over-indulge promoting satisfaction of all participants.
 Neglected: Hospitality. Can neglect mutually synchronising with a crowd.
-Trivializing: Isolation. Trivializes tracking the losses of others.
+Trivializing: Isolation. Trivializes tracking & scavange losses.
 Repressed: Profitability. Represses escalating competition of resources.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
 Natural: Canon. Naturally promotes satisfaction of all participants.
 Constructive: Hospitality. Finds it constructive to mutually synchronise with a crowd.
-Obligation: Isolation. Feels obligated to track the losses of others.
+Obligation: Isolation. Feels obligated to track & scavange losses.
 Unnatural: Profitability. Finds it unnatural to escalate competition of resources.
 Indulgant: Tangentiality. Can over-indulge intellectualising aspects of life.
 Neglected: Silliness. Can neglect discovering new ecological niches to share.
@@ -264,7 +264,7 @@ ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Natural: Hospitality. Naturally synchronises with a crowd, mutually.
 Constructive: Canon. Finds it constructive to promote satisfaction of all participants.
 Obligation: Profitability. Feels obligated to escalate competition of resources.
-Unnatural: Isolation. Finds it unnatural to track the losses of others.
+Unnatural: Isolation. Finds it unnatural to track & scavange losses.
 Indulgant: Silliness. Can over-indulge discovering new ecological niches to share.
 Neglected: Tangentiality. Can neglect intellectualising aspects of life.
 Trivializing: Expenditure. Trivializes peacocking & machievellianism.
@@ -278,7 +278,7 @@ Unnatural: Distance. Finds it unnatural to retain highly-selective resources.
 Indulgant: Hospitality. Can over-indulge mutually synchronising with a crowd.
 Neglected: Canon. Can neglect promoting satisfaction of all participants.
 Trivializing: Profitability. Trivializes escalating competition of resources.
-Repressed: Isolation. Represses tracking the losses of others.
+Repressed: Isolation. Represses tracking & scavange losses.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Natural: Division. Naturally defends the ecosystem, resisting change.
@@ -325,13 +325,13 @@ Natural: Distance. Naturally retains highly-selective resources.
 Constructive: Expenditure. Finds it constructive to peacock & be machievellian.
 Obligation: Tangentiality. Feels obligated to intellectualise aspects of life.
 Unnatural: Silliness. Finds it unnatural to discover new ecological niches to share.
-Indulgant: Isolation. Can over-indulge tracking the losses of others.
+Indulgant: Isolation. Can over-indulge tracking & scavange losses.
 Neglected: Profitability. Can neglect escalating competition of resources.
 Trivializing: Canon. Trivializes promoting satisfaction of all participants.
 Repressed: Hospitality. Represses mutually synchronising with a crowd.
 
 ILI / INTJ / INTp / Vulture (Shadow: Fool)
-Natural: Isolation. Naturally tracks the losses of others.
+Natural: Isolation. Naturally tracks & scavange losses.
 Constructive: Profitability. Finds it constructive to escalate competition of resources.
 Obligation: Canon. Feels obligated to promote satisfaction of all participants.
 Unnatural: Hospitality. Finds it unnatural to mutually synchronise with a crowd.
@@ -342,7 +342,7 @@ Repressed: Silliness. Represses discovering new ecological niches to share.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profitability. Naturally escalates competition of resources.
-Constructive: Isolation. Finds it constructive to track the losses of others.
+Constructive: Isolation. Finds it constructive to track & scavange losses.
 Obligation: Hospitality. Feels obligated to mutually synchronise with a crowd.
 Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants.
 Indulgant: Expenditure. Can over-indulge peacocking & being machievellian.
@@ -356,7 +356,7 @@ Constructive: Distance. Finds it constructive to retain highly-selective resourc
 Obligation: Silliness. Feels obligated to discover new ecological niches to share.
 Unnatural: Tangentiality. Finds it unnatural to intellectualise aspects of life.
 Indulgant: Profitability. Can over-indulge escalating competition of resources.
-Neglected: Isolation. Can neglect tracking the losses of others.
+Neglected: Isolation. Can neglect tracking & scavange losses.
 Trivializing: Hospitality. Trivializes mutually synchronising with a crowd.
 Repressed: Canon. Represses promoting satisfaction of all participants.
 
