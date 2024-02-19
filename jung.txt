@@ -222,7 +222,7 @@ Adopting: Experimentation (Ideation + Practicality). Productive transformation o
 FUNCTIONS
 ---------
 Ego Block: Public, Strong and Valued.
-Bold: Presumptuous. Default "always-on" attitude.
+Bold: Natural. Default "always-on" attitude.
 Cautious: Constructive. Attitude felt as constructive.
 
 Super-Ego Block: Public, Weak and Not Valued.
@@ -241,7 +241,7 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
-Presumptuous: Tangentiality. Presumptuously intellectualises aspects of life.
+Natural: Tangentiality. Naturally intellectualises aspects of life.
 Constructive: Silliness. Finds it constructive to discover new ecological niches to share.
 Obligation: Distance. Feels obligated to retain highly-selective resources.
 Unnatural: Expenditure. Finds it unnatural to peacock & be machievellian.
@@ -251,7 +251,7 @@ Trivializing: Isolation. Trivializes benefiting from the inevitable losses of ot
 Repressed: Profitability. Represses escalating competition of resources.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Presumptuous: Canon. Presumptuously promotes satisfaction of all participants.
+Natural: Canon. Naturally promotes satisfaction of all participants.
 Constructive: Hospitality. Finds it constructive to synchronise with a crowd, mutually.
 Obligation: Isolation. Feels obligated to benefit from the inevitable losses of others.
 Unnatural: Profitability. Finds it unnatural to escalate competition of resources.
@@ -261,7 +261,7 @@ Trivializing: Distance. Trivializes retaining highly-selective resources.
 Repressed: Expenditure. Represses peacocking & machievellianism.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
-Presumptuous: Hospitality. Presumptuously synchronises with a crowd, mutually.
+Natural: Hospitality. Naturally synchronises with a crowd, mutually.
 Constructive: Canon. Finds it constructive to promote satisfaction of all participants.
 Obligation: Profitability. Feels obligated to escalate competition of resources.
 Unnatural: Isolation. Finds it unnatural to benefit from the inevitable losses of others.
@@ -271,7 +271,7 @@ Trivializing: Expenditure. Trivializes peacocking & machievellianism.
 Repressed: Distance. Represses retaining highly-selective resources.
 
 ILE / ENTP / ENTp / Fool (Shadow: Vulture)
-Presumptuous: Silliness. Presumptuously discovers new ecological niches to share.
+Natural: Silliness. Naturally discovers new ecological niches to share.
 Constructive: Tangentiality. Finds it constructive to intellectualise aspects of life.
 Obligation: Expenditure. Feels obligated to peacock & be machievellian.
 Unnatural: Distance. Finds it unnatural to retain highly-selective resources.
@@ -281,7 +281,7 @@ Trivializing: Profitability. Trivializes escalating competition of resources.
 Repressed: Isolation. Represses benefiting from the inevitable losses of others.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
-Presumptuous: Division. Presumptuously defends the ecosystem, resisting change.
+Natural: Division. Naturally defends the ecosystem, resisting change.
 Constructive: Supremacy. Finds it constructive to possess the weak, occupying the top of the food chain.
 Obligation: Faith. Feels obligated to spread altruism & friendliness.
 Unnatural: Experimentation. Finds it unnatural to productively transform their habitat.
@@ -291,7 +291,7 @@ Trivializing: Affirmation. Trivializes tolerating & adapting to existing ecosyst
 Repressed: Reliability. Represses specialising in neglected aspects of ecosystem.
 
 IEI / INFJ / INFp / Apostle (Shadow: Coach)
-Presumptuous: Radicalism. Presumptuously convinces powerful hosts to relinquish strength.
+Natural: Radicalism. Naturally convinces powerful hosts to relinquish strength.
 Constructive: Catharsis. Finds it constructive to provoke crowds to better defend against predators.
 Obligation: Affirmation. Feels obligated to tolerate & adapt to existing ecosystem.
 Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem.
@@ -301,7 +301,7 @@ Trivializing: Faith. Trivializes spreading altruism & friendliness.
 Repressed: Experimentation. Represses transforming their habitat productively.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
-Presumptuous: Catharsis. Presumptuously provokes crowds to better defend against predators.
+Natural: Catharsis. Naturally provokes crowds to better defend against predators.
 Constructive: Radicalism. Finds it constructive to convince powerful hosts to relinquish strength.
 Obligation: Reliability. Feels obligated to specialise in neglected aspects of ecosystem.
 Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to existing ecosystem.
@@ -311,7 +311,7 @@ Trivializing: Experimentation. Trivializes transforming their habitat productive
 Repressed: Faith. Represses spreading altruism & friendliness.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Presumptuous: Supremacy. Presumptuously possesses the weak, occupying the top of the food chain.
+Natural: Supremacy. Naturally possesses the weak, occupying the top of the food chain.
 Constructive: Division. Finds it constructive to defend the ecosystem, resisting change.
 Obligation: Experimentation. Feels obligated to productively transform their habitat.
 Unnatural: Faith. Finds it unnatural to spread altruism & friendliness.
@@ -321,7 +321,7 @@ Trivializing: Reliability. Trivializes specialising in neglected aspects of ecos
 Repressed: Affirmation. Represses tolerating & adapting to existing ecosystem.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
-Presumptuous: Distance. Presumptuously retains highly-selective resources.
+Natural: Distance. Naturally retains highly-selective resources.
 Constructive: Expenditure. Finds it constructive to peacock & be machievellian.
 Obligation: Tangentiality. Feels obligated to intellectualise aspects of life.
 Unnatural: Silliness. Finds it unnatural to discover new ecological niches to share.
@@ -331,7 +331,7 @@ Trivializing: Canon. Trivializes promoting satisfaction of all participants.
 Repressed: Hospitality. Represses mutually synchronising with a crowd.
 
 ILI / INTJ / INTp / Vulture (Shadow: Fool)
-Presumptuous: Isolation. Presumptuously benefits from the inevitable losses of others.
+Natural: Isolation. Naturally benefits from the inevitable losses of others.
 Constructive: Profitability. Finds it constructive to escalate competition of resources.
 Obligation: Canon. Feels obligated to promote satisfaction of all participants.
 Unnatural: Hospitality. Finds it unnatural to synchronise with a crowd, mutually.
@@ -341,7 +341,7 @@ Trivializing: Tangentiality. Trivializes intellectualising aspects of life.
 Repressed: Silliness. Represses discovering new ecological niches to share.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
-Presumptuous: Profitability. Presumptuously escalates competition of resources.
+Natural: Profitability. Naturally escalates competition of resources.
 Constructive: Isolation. Finds it constructive to benefit from the inevitable losses of others.
 Obligation: Hospitality. Feels obligated to synchronise with a crowd, mutually.
 Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants.
@@ -351,7 +351,7 @@ Trivializing: Silliness. Trivializes discovering new ecological niches to share.
 Repressed: Tangentiality. Represses intellectualising aspects of life.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
-Presumptuous: Expenditure. Presumptuously peacocks & is machievellian.
+Natural: Expenditure. Naturally peacocks & is machievellian.
 Constructive: Distance. Finds it constructive to retain highly-selective resources.
 Obligation: Silliness. Feels obligated to discover new ecological niches to share.
 Unnatural: Tangentiality. Finds it unnatural to intellectualise aspects of life.
@@ -361,7 +361,7 @@ Trivializing: Hospitality. Trivializes mutually synchronising with a crowd.
 Repressed: Canon. Represses promoting satisfaction of all participants.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
-Presumptuous: Faith. Presumptuously spreads altruism & friendliness.
+Natural: Faith. Naturally spreads altruism & friendliness.
 Constructive: Experimentation. Finds it constructive to productively transform their habitat.
 Obligation: Division. Feels obligated to defend the ecosystem, resisting change.
 Unnatural: Supremacy. Finds it unnatural to possess the weak, occupying the top of the food chain.
@@ -371,7 +371,7 @@ Trivializing: Radicalism. Trivializes convincing powerful hosts to relinquish st
 Repressed: Catharsis. Represses provoking crowds to better defend against predators.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
-Presumptuous: Affirmation. Presumptuously tolerates & adapts to existing ecosystem.
+Natural: Affirmation. Naturally tolerates & adapts to existing ecosystem.
 Constructive: Reliability. Finds it constructive to specialise in neglected aspects of ecosystem.
 Obligation: Radicalism. Feels obligated to convince powerful hosts to relinquish strength.
 Unnatural: Catharsis. Finds it unnatural to provoke crowds to better defend against predators.
@@ -381,7 +381,7 @@ Trivializing: Division. Trivializes defending the ecosystem, resisting change.
 Repressed: Supremacy. Represses possessing the weak, occupying the top of the food chain.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Presumptuous: Reliability. Presumptuously specialises in neglected aspects of ecosystem.
+Natural: Reliability. Naturally specialises in neglected aspects of ecosystem.
 Constructive: Affirmation. Finds it constructive to tolerate & adapt to existing ecosystem.
 Obligation: Catharsis. Feels obligated to provoke crowds to better defend against predators.
 Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength.
@@ -391,7 +391,7 @@ Trivializing: Supremacy. Trivializes possessing the weak, occupying the top of t
 Repressed: Division. Represses defending the ecosystem, resisting change.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
-Presumptuous: Experimentation. Presumptuously transforms their habitat productively.
+Natural: Experimentation. Naturally transforms their habitat productively.
 Constructive: Faith. Finds it constructive to spread altruism & friendliness.
 Obligation: Supremacy. Feels obligated to possess the weak, occupying the top of the food chain.
 Unnatural: Division. Finds it unnatural to defend the ecosystem, resisting change.
