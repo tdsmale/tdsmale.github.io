@@ -160,10 +160,10 @@ Alpha.
 Enhancing.
 Atomistic.
 Narrational.
-Mutual Symbiosis - ecosystem relies on a mutually-beneficial relationship between species.
 Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
+Mutual Symbiosis - ecosystem relies on a mutually-beneficial relationship between species.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symptomatic: Tangentiality (Potential + Truth). Emphasising structural possibilities.
@@ -176,10 +176,10 @@ Beta.
 Collapsing.
 Hierarchal.
 Narrational.
-Parasitical Symbiosis - ecosystem relies on a weaker species acting as a host for a stronger one.
 Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
+Parasitical Symbiosis - ecosystem relies on a weaker species acting as a host for a stronger one.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Symptomatic: Division (Control + Truth). Emphasising structural division.
@@ -192,10 +192,10 @@ Gamma.
 Collapsing.
 Atomistic.
 Economical.
-Competitive Symbiosis - ecosystem relies on a healthy competition of resources between species.
 Negative relations collapse into harsh practicality, leading to psychological inequity.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
+Competitive Symbiosis - ecosystem relies on a healthy competition of resources between species.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
 Symptomatic: Distance (Control + Relations). Emphasising negative relations.
@@ -208,10 +208,10 @@ Delta.
 Enhancing.
 Hierarchal.
 Economical.
-Commensal Symbiosis - ecosystem relies on one species benefiting from another without harm.
 Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
+Commensal Symbiosis - ecosystem relies on one species benefiting from another without harm.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
@@ -241,6 +241,7 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
+Mutual strategy: Refusal of competition, intellectualisation.
 Presumptuous: Tangentiality. Presumptuously emphasises structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly personas.
 Obligation: Distance. Feels obligated to emphasise negative relations.
@@ -251,6 +252,7 @@ Trivializing: Isolation. Trivializes observing an inequitable distance.
 Repressed: Profitability. Represses promoting a practical yield.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
+Mutual strategy: Promoting satisfaction of all participants.
 Presumptuous: Canon. Presumptuously observes a settled canon.
 Constructive: Hospitality. Finds it constructive to promote a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to observe an inequitable distance.
@@ -261,6 +263,7 @@ Trivializing: Distance. Trivializes emphasising negative relations.
 Repressed: Expenditure. Represses adopting a practical expenditure.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
+Mutual strategy: Synchronised flocking, being part of a crowd.
 Presumptuous: Hospitality. Presumptuously promotes a welcoming atmosphere.
 Constructive: Canon. Finds it constructive to observe a settled canon.
 Obligation: Profitability. Feels obligated to promote a practical yield.
@@ -270,7 +273,8 @@ Neglected: Tangentiality. Can neglect emphasising structural possibilities.
 Trivializing: Expenditure. Trivializes adopting a practical expenditure.
 Repressed: Distance. Represses emphasising negative relations.
 
-ILE / ENTP / ENTp / Fool (Shadow: Miser)
+ILE / ENTP / ENTp / Fool (Shadow: Vulture)
+Mutual strategy: Staking new ecological niches.
 Presumptuous: Silliness. Presumptuously adopts silly personas.
 Constructive: Tangentiality. Finds it constructive to emphasise structural possibilities.
 Obligation: Expenditure. Feels obligated to adopt a practical expenditure.
@@ -281,6 +285,7 @@ Trivializing: Profitability. Trivializes promoting a practical yield.
 Repressed: Isolation. Represses observing an inequitable distance.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
+Parasitical strategy: Defence of ecosystem unchanged.
 Presumptuous: Division. Presumptuously emphasises structural division.
 Constructive: Supremacy. Finds it constructive to adopt powerful personas.
 Obligation: Faith. Feels obligated to emphasise good-faith relations.
@@ -291,6 +296,7 @@ Trivializing: Affirmation. Trivializes observing inherent quality.
 Repressed: Reliability. Represses promoting practical stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Hierophant)
+Parasitical strategy: Fooling the host into protecting it.
 Presumptuous: Radicalism. Presumptuously observes an unyielding truth.
 Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere.
 Obligation: Affirmation. Feels obligated to observe inherent quality.
@@ -301,6 +307,7 @@ Trivializing: Faith. Trivializes emphasising good-faith relations.
 Repressed: Experimentation. Represses adopting practical experimentation.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
+Parasitical strategy: Provoking the flock to protect against predators.
 Presumptuous: Catharsis. Presumptuously promotes a cathartic atmosphere.
 Constructive: Radicalism. Finds it constructive to observe an unyielding truth.
 Obligation: Reliability. Feels obligated to promote practical stability.
@@ -311,6 +318,7 @@ Trivializing: Experimentation. Trivializes adopting practical experimentation.
 Repressed: Faith. Represses emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
+Parasitical strategy: Possessing the weak.
 Presumptuous: Supremacy. Presumptuously adopts powerful personas.
 Constructive: Division. Finds it constructive to emphasise structural division.
 Obligation: Experimentation. Feels obligated to adopt practical experimentation.
@@ -321,6 +329,7 @@ Trivializing: Reliability. Trivializes promoting practical stability.
 Repressed: Affirmation. Represses observing inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
+Competitive strategy: Highly-selective.
 Presumptuous: Distance. Presumptuously emphasises negative relations.
 Constructive: Expenditure. Finds it constructive to adopt a practical expenditure.
 Obligation: Tangentiality. Feels obligated to emphasise structural possibilities.
@@ -330,7 +339,8 @@ Neglected: Profitability. Can neglect promoting a practical yield.
 Trivializing: Canon. Trivializes observing a settled canon.
 Repressed: Hospitality. Represses promoting a welcoming atmosphere.
 
-ILI / INTJ / INTp / Miser (Shadow: Fool)
+ILI / INTJ / INTp / Vulture (Shadow: Fool)
+Competitive strategy: Benefiting from the loss of others.
 Presumptuous: Isolation. Presumptuously observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote a practical yield.
 Obligation: Canon. Feels obligated to observe a settled canon.
@@ -341,6 +351,7 @@ Trivializing: Tangentiality. Trivializes emphasising structural possibilities.
 Repressed: Silliness. Represses adopting silly personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
+Competitive strategy: Escalation of competition for resources.
 Presumptuous: Profitability. Presumptuously promotes a practical yield.
 Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitality. Feels obligated to promote a welcoming atmosphere.
@@ -351,6 +362,7 @@ Trivializing: Silliness. Trivializes adopting silly personas.
 Repressed: Tangentiality. Represses emphasising structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
+Competitive strategy: Machiavellianism & peacocking.
 Presumptuous: Expenditure. Presumptuously adopts a practical expenditure.
 Constructive: Distance. Finds it constructive to emphasise negative relations.
 Obligation: Silliness. Feels obligated to adopt silly personas.
@@ -361,6 +373,7 @@ Trivializing: Hospitality. Trivializes promoting a welcoming atmosphere.
 Repressed: Canon. Represses observing a settled canon.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
+Commensal strategy: Altruism & tolerance.
 Presumptuous: Faith. Presumptuously emphasises good-faith relations.
 Constructive: Experimentation. Finds it constructive to adopt practical experimentation.
 Obligation: Division. Feels obligated to emphasise structural division.
@@ -371,6 +384,7 @@ Trivializing: Radicalism. Trivializes observing an unyielding truth.
 Repressed: Catharsis. Represses promoting a cathartic atmosphere.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
+Commensal Strategy: Peripheral specialisation.
 Presumptuous: Affirmation. Presumptuously observes inherent quality.
 Constructive: Reliability. Finds it constructive to promote practical stability.
 Obligation: Radicalism. Feels obligated to observe an unyielding truth.
@@ -381,6 +395,7 @@ Trivializing: Division. Trivializes emphasising structural division.
 Repressed: Supremacy. Represses adopting powerful personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
+Commensal Strategy: Productive transformation.
 Presumptuous: Reliability. Presumptuously promotes practical stability.
 Constructive: Affirmation. Finds it constructive to observe inherent quality.
 Obligation: Catharsis. Feels obligated to promote a cathartic atmosphere.
@@ -391,6 +406,7 @@ Trivializing: Supremacy. Trivializes adopting powerful personas.
 Repressed: Division. Represses emphasising structural division.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
+Commensal Strategy: Promiscuous friendliness.
 Presumptuous: Experimentation. Presumptuously adopts practical experimentation.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 Obligation: Supremacy. Feels obligated to adopt powerful personas.
