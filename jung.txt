@@ -217,7 +217,7 @@ Shadow: Parochialism. To operate with blinders on, to be subject to small-minded
 Symptomatic: Faith (Potential + Relations). Spreading altruism & friendliness.
 Observant: Affirmation (Individuation + Acceptance). Tolerating & adapting to existing ecosystem.
 Promoting: Reliability (Efficiency + Comfort). Specialising in neglected aspects of ecosystem.
-Adopting: Experimentation (Ideation + Practicality). Productive transformation of ecosystem.
+Adopting: Experimentation (Ideation + Practicality). Productive transformation of their habitat.
 
 FUNCTIONS
 ---------
@@ -284,7 +284,7 @@ LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Presumptuous: Division. Presumptuously defends the ecosystem, resisting change.
 Constructive: Supremacy. Finds it constructive to possess the weak, occupying the top of the food chain.
 Obligation: Faith. Feels obligated to spread altruism & friendliness.
-Unnatural: Experimentation. Finds it unnatural to productively transform the ecosystem.
+Unnatural: Experimentation. Finds it unnatural to productively transform their habitat.
 Indulgant: Radicalism. Can over-indulge convincing powerful hosts to relinquish strength.
 Neglected: Catharsis. Can neglect provoking crowds to better defend against predators.
 Trivializing: Affirmation. Trivializes tolerating & adapting to existing ecosystem.
@@ -298,7 +298,7 @@ Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of
 Indulgant: Division. Can over-indulge defending the ecosystem, resisting change.
 Neglected: Supremacy. Can neglect possessing the weak, occupying the top of the food chain.
 Trivializing: Faith. Trivializes spreading altruism & friendliness.
-Repressed: Experimentation. Represses productive transformation of ecosystem.
+Repressed: Experimentation. Represses transforming their habitat productively.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Presumptuous: Catharsis. Presumptuously provokes crowds to better defend against predators.
@@ -307,13 +307,13 @@ Obligation: Reliability. Feels obligated to specialise in neglected aspects of e
 Unnatural: Affirmation. Finds it unnatural to tolerate & adapte to existing ecosystem.
 Indulgant: Supremacy. Can over-indulge possessing the weak, occupying the top of the food chain.
 Neglected: Division. Can neglect defending the ecosystem, resisting change.
-Trivializing: Experimentation. Trivializes productive transformation of ecosystem.
+Trivializing: Experimentation. Trivializes transforming their habitat prouctively.
 Repressed: Faith. Represses spreading altruism & friendliness.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
 Presumptuous: Supremacy. Presumptuously possesses the weak, occupying the top of the food chain.
 Constructive: Division. Finds it constructive to defend the ecosystem, resisting change.
-Obligation: Experimentation. Feels obligated to productively transform the ecosystem.
+Obligation: Experimentation. Feels obligated to productively transform their habitat.
 Unnatural: Faith. Finds it unnatural to spread altruism & friendliness.
 Indulgant: Catharsis. Can over-indulge provoking crowds to better defend against predators.
 Neglected: Radicalism. Can neglect convincing powerful hosts to relinquish strength.
@@ -362,7 +362,7 @@ Repressed: Canon. Represses promoting satisfaction of all participants.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Presumptuous: Faith. Presumptuously spreads altruism & friendliness.
-Constructive: Experimentation. Finds it constructive to productively transform the ecosystem.
+Constructive: Experimentation. Finds it constructive to productively transform their habitat.
 Obligation: Division. Feels obligated to defend the ecosystem, resisting change.
 Unnatural: Supremacy. Finds it unnatural to possess the weak, occupying the top of the food chain.
 Indulgant: Affirmation. Can over-indulge tolerating & adapting to existing ecosystem.
@@ -376,7 +376,7 @@ Constructive: Reliability. Finds it constructive to specialise in neglected aspe
 Obligation: Radicalism. Feels obligated to convince powerful hosts to relinquish strength.
 Unnatural: Catharsis. Finds it unnatural to provoke crowds to better defend against predators.
 Indulgant: Faith. Can over-indulge spreading altruism & friendliness.
-Neglected: Experimentation. Can neglect productive transformation of ecosystem.
+Neglected: Experimentation. Can neglect productive transformation of their habitat.
 Trivializing: Division. Trivializes defending the ecosystem, resisting change.
 Repressed: Supremacy. Represses possessing the weak, occupying the top of the food chain.
 
@@ -385,13 +385,13 @@ Presumptuous: Reliability. Presumptuously specialises in neglected aspects of ec
 Constructive: Affirmation. Finds it constructive to tolerate & adapte to existing ecosystem.
 Obligation: Catharsis. Feels obligated to provoke crowds to better defend against predators.
 Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength.
-Indulgant: Experimentation. Can over-indulge productive transformation of ecosystem.
+Indulgant: Experimentation. Can over-indulge transforming their habitat productively.
 Neglected: Faith. Can neglect spreading altruism & friendliness.
 Trivializing: Supremacy. Trivializes possessing the weak, occupying the top of the food chain.
 Repressed: Division. Represses defending the ecosystem, resisting change.
 
 IEE / ENFP / Enfp / Hierophant (Shadow: Apostle)
-Presumptuous: Experimentation. Presumptuously transforms the ecosystem productively.
+Presumptuous: Experimentation. Presumptuously transforms their habitat productively.
 Constructive: Faith. Finds it constructive to spread altruism & friendliness.
 Obligation: Supremacy. Feels obligated to possess the weak, occupying the top of the food chain.
 Unnatural: Division. Finds it unnatural to defend the ecosystem, resisting change.
