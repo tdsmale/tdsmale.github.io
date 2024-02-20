@@ -185,7 +185,7 @@ Shadow: Submission. To be the runt of the litter, to be cast as lower or less de
 Symptomatic: Division (Control + Truth). Resisting change by defending the ecosystem.
 Observant: Radicalism (Structure + Timing). Convincing powerful hosts to relinquish strength.
 Promoting: Catharsis (Expression + Foresight). Provoking crowds to better defend against predators.
-Adopting: Supremacy (Capture + Personas). Possessing the weak, occupying the top of the food chain.
+Adopting: Supremacy (Capture + Personas). Possessing the weak & occupying the top of the food chain.
 
 Solipsistic.
 Gamma.
@@ -282,7 +282,7 @@ Repressed: Isolation. Represses tracking & scavanging losses.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Natural: Division. Naturally resists change & defends the ecosystem.
-Constructive: Supremacy. Finds it constructive to possess the weak, occupying the top of the food chain.
+Constructive: Supremacy. Finds it constructive to possess the weak & occupy the top of the food chain.
 Obligation: Faith. Feels obligated to spread altruism & friendliness.
 Unnatural: Experimentation. Finds it unnatural to productively transform their habitat.
 Indulgant: Radicalism. Can over-indulge convincing powerful hosts to relinquish strength.
@@ -296,7 +296,7 @@ Constructive: Catharsis. Finds it constructive to provoke crowds to better defen
 Obligation: Affirmation. Feels obligated to tolerate & adapt to existing ecosystem.
 Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem.
 Indulgant: Division. Can over-indulge resisting change & defending the ecosystem.
-Neglected: Supremacy. Can neglect possessing the weak, occupying the top of the food chain.
+Neglected: Supremacy. Can neglect possessing the weak & occupying the top of the food chain.
 Trivializing: Faith. Trivializes spreading altruism & friendliness.
 Repressed: Experimentation. Represses transforming their habitat productively.
 
@@ -305,13 +305,13 @@ Natural: Catharsis. Naturally provokes crowds to better defend against predators
 Constructive: Radicalism. Finds it constructive to convince powerful hosts to relinquish strength.
 Obligation: Reliability. Feels obligated to specialise in neglected aspects of ecosystem.
 Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to existing ecosystem.
-Indulgant: Supremacy. Can over-indulge possessing the weak, occupying the top of the food chain.
+Indulgant: Supremacy. Can over-indulge possessing the weak & occupying the top of the food chain.
 Neglected: Division. Can neglect resisting change & defending the ecosystem.
 Trivializing: Experimentation. Trivializes transforming their habitat productively.
 Repressed: Faith. Represses spreading altruism & friendliness.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Natural: Supremacy. Naturally possesses the weak, occupying the top of the food chain.
+Natural: Supremacy. Naturally possesses the weak by occupying the top of the food chain.
 Constructive: Division. Finds it constructive to resist change & defend the ecosystem.
 Obligation: Experimentation. Feels obligated to productively transform their habitat.
 Unnatural: Faith. Finds it unnatural to spread altruism & friendliness.
@@ -364,7 +364,7 @@ EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faith. Naturally spreads altruism & friendliness.
 Constructive: Experimentation. Finds it constructive to productively transform their habitat.
 Obligation: Division. Feels obligated to resist change & defend the ecosystem.
-Unnatural: Supremacy. Finds it unnatural to possess the weak, occupying the top of the food chain.
+Unnatural: Supremacy. Finds it unnatural to possess the weak & occupy the top of the food chain.
 Indulgant: Affirmation. Can over-indulge tolerating & adapting to existing ecosystem.
 Neglected: Reliability. Can neglect specialising in neglected aspects of ecosystem.
 Trivializing: Radicalism. Trivializes convincing powerful hosts to relinquish strength.
@@ -378,7 +378,7 @@ Unnatural: Catharsis. Finds it unnatural to provoke crowds to better defend agai
 Indulgant: Faith. Can over-indulge spreading altruism & friendliness.
 Neglected: Experimentation. Can neglect productive transformation of their habitat.
 Trivializing: Division. Trivializes resisting change & defending the ecosystem.
-Repressed: Supremacy. Represses possessing the weak, occupying the top of the food chain.
+Repressed: Supremacy. Represses possessing the weak & occupy the top of the food chain.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
 Natural: Reliability. Naturally specialises in neglected aspects of ecosystem.
@@ -387,13 +387,13 @@ Obligation: Catharsis. Feels obligated to provoke crowds to better defend agains
 Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength.
 Indulgant: Experimentation. Can over-indulge transforming their habitat productively.
 Neglected: Faith. Can neglect spreading altruism & friendliness.
-Trivializing: Supremacy. Trivializes possessing the weak, occupying the top of the food chain.
+Trivializing: Supremacy. Trivializes possessing the weak & occupying the top of the food chain.
 Repressed: Division. Represses resisting change & defending the ecosystem.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
 Natural: Experimentation. Naturally transforms their habitat productively.
 Constructive: Faith. Finds it constructive to spread altruism & friendliness.
-Obligation: Supremacy. Feels obligated to possess the weak, occupying the top of the food chain.
+Obligation: Supremacy. Feels obligated to possess the weak & occupy the top of the food chain.
 Unnatural: Division. Finds it unnatural to resist change & defend the ecosystem.
 Indulgant: Reliability. Can over-indulge specialising in neglected aspects of ecosystem.
 Neglected: Affirmation. Can neglect tolerating & adapting to existing ecosystem.
