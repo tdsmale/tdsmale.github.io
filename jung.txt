@@ -163,9 +163,9 @@ Narrational.
 Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
-Mutual Symbiosis: ecosystem relies on a mutually-beneficial relationship between species.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
+Symbiosis: Mutual. Ecosystem relies on a mutually-beneficial relationship between species.
 Symptomatic: Tangentiality (Potential + Truth). Intellectualising aspects of life.
 Observant: Canon (Structure + Acceptance). Promoting satisfaction of all participants.
 Promoting: Hospitality (Expression + Comfort). Mutually synchronising with a crowd.
@@ -179,9 +179,9 @@ Narrational.
 Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
-Parasitical Symbiosis: ecosystem relies on a weaker species acting as a host for a stronger one.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
+Symbiosis: Parasitic. Ecosystem relies on a weaker species acting as a host for a stronger one.
 Symptomatic: Division (Control + Truth). Resisting change by defending the ecosystem.
 Observant: Radicalism (Structure + Timing). Convincing powerful hosts to relinquish strength.
 Promoting: Catharsis (Expression + Foresight). Provoking crowds to better defend against predators.
@@ -195,9 +195,9 @@ Economical.
 Negative relations collapse into harsh practicality, leading to psychological inequity.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
-Competitive Symbiosis: ecosystem relies on a healthy competition of resources between species.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
+Symbiosis: Competitive. Ecosystem relies on a healthy competition of resources between species.
 Symptomatic: Distance (Control + Relations). Retaining highly-selective resources.
 Observant: Isolation (Individuation + Timing). Tracking & scavanging losses.
 Promoting: Profitability (Efficiency + Foresight). Escalating competition of resources.
@@ -211,9 +211,9 @@ Economical.
 Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
-Commensal Symbiosis: ecosystem relies on one species benefiting from another without harm.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
+Symbiosis: Commensal. Ecosystem relies on one species benefiting from another without harm.
 Symptomatic: Faith (Potential + Relations). Spreading altruism & friendliness.
 Observant: Affirmation (Individuation + Acceptance). Tolerating & adapting to existing ecosystem.
 Promoting: Reliability (Efficiency + Comfort). Specialising in neglected aspects of ecosystem.
