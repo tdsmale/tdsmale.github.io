@@ -36,14 +36,14 @@ Navigation (Je): Active & Dynamic. Changing external processes.
 
 INFORMATION ELEMENTS
 --------------------
-Subjective Conditioning (Fi): Soulful. Personal relations. Relational & privileging. Internalised feelings.
+Subjective Conditioning (Fi): Sincere. Personal relations. Relational & privileging. Internalised feelings.
 Objective Conditioning (Ti): Structural. Internal structure. Truth & impartiality. Internalised rules.
 Reflective Present (Si): Pleasant. Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-Reflective Future (Ni): Depressive. Yielding over time. Waiting for the moment. Lessening of impact. 
+Reflective Future (Ni): Dissociative. Yielding over time. Waiting for the moment. Lessening of impact. 
 Subjective Navigation (Fe): Expressive. Influencing expressions. Authentic externalisation. Emotional synchronisation.
 Objective Navigation (Te): Productive. Pragmatisation. Productive externalisation. Factual synchronisation.
 Present Activation (Se): Forceful. Unyielding in-the-moment. Taking up space. Capture & possession.
-Future Activation (Ne): Childish. Broadening of possibilities. Taking up ideas. Thinking outside the box.
+Future Activation (Ne): Digressive. Broadening of possibilities. Taking up ideas. Thinking outside the box.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
 Fi vs Fe: Relating vs Expressing Feelings.
@@ -57,7 +57,7 @@ Fi vs Te: Privileging vs Pragmatising Feelings.
 
 INFORMATION ELEMENT COMPOSITIONS
 --------------------------------
-Fi + Te: Economical. Soulful + Productive.
+Fi + Te: Economical. Sincere + Productive.
 Using resources in personally-valuable ways.
 Characterised by resourcefulness, seriousness and individuation.
 
@@ -65,14 +65,14 @@ Ti + Fe: Narrational. Structural + Expressive.
 Guiding audiences to a central truth.
 Characterised by small talk, flippancy and group membership.
 
-Ni + Se: Collapsing. Depressive + Forceful.
+Ni + Se: Collapsing. Dissociative + Forceful.
 Acting in a willful and timely manner.
 Minimising the negative in life.
 Brings a weighty, decisive attitude to things.
 Guided by sinking feelings.
 Akin to waves crashing against the shore.
 
-Si + Ne: Enhancing. Pleasant + Childish.
+Si + Ne: Enhancing. Pleasant + Digressive.
 Enjoying what life has to offer.
 Maximising the positive in life.
 Brings an airy, boyant attitude to things.
@@ -85,28 +85,28 @@ Ji + Ne: Potential. Denying control.
 Ti + Pe: Truth. Creating structure.
 Fi + Pe: Relations. Creating individuation.
 Ti + Se: Division. Structural + Forceful. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
-Ti + Ne: Tangentiality. Structural + Childish. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
-Fi + Se: Distance. Soulful + Forceful. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
-Fi + Ne: Faith. Soulful + Childish. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
+Ti + Ne: Tangentiality. Structural + Digressive. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
+Fi + Se: Distance. Sincere + Forceful. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
+Fi + Ne: Faith. Sincere + Digressive. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
 Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result.
 Ti + Pi: Structure. Denying practicality.
 Fi + Pi: Individuation. Denying personas.
 Ji + Ni: Timing. Denying acceptance.
 Ji + Si: Acceptance. Denying timing.
-Ti + Ni: Radicalism. Structural + Depressive. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
+Ti + Ni: Radicalism. Structural + Dissociative. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
 Ti + Si: Canon. Structural + Pleasant. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
-Fi + Ni: Isolation. Soulful + Depressive. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
-Fi + Si: Affirmation. Soulful + Pleasant. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
+Fi + Ni: Isolation. Sincere + Dissociative. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
+Fi + Si: Affirmation. Sincere + Pleasant. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
 Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
 Te + Pi: Efficiency. Creating practicality.
 Fe + Pi: Expression. Creating personas.
 Je + Ni: Foresight. Creating timing.
 Je + Si: Comfort. Creating acceptance.
-Fe + Ni: Catharsis. Expressive + Depressive. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
+Fe + Ni: Catharsis. Expressive + Dissociative. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
 Fe + Si: Hospitality. Expressive + Pleasant. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
-Te + Ni: Profitability. Productive + Depressive. Efficient Foresight. Creating practicality by creating timing. Promoting a pragmatic yield.
+Te + Ni: Profitability. Productive + Dissociative. Efficient Foresight. Creating practicality by creating timing. Promoting a pragmatic yield.
 Te + Si: Reliability. Productive + Pleasant. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
 
 Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
@@ -116,8 +116,8 @@ Te + Pe: Practicality. Denying structure.
 Fe + Pe: Personas. Denying individuation.
 Fe + Se: Supremacy. Expressive + Forceful. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
 Te + Se: Expenditure. Productive + Forceful. Capturing Practicality. Creating control by denying structure. Adopting a pragmatic expenditure.
-Fe + Ne: Silliness. Expressive + Childish. Ideating Personas. Creating potential by denying individuation. Adopting silla personas.
-Te + Ne: Experimentation. Productive + Childish. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
+Fe + Ne: Silliness. Expressive + Digressive. Ideating Personas. Creating potential by denying individuation. Adopting silla personas.
+Te + Ne: Experimentation. Productive + Digressive. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
 
 HIERARCHAL VS ATOMISTIC
 -----------------------
