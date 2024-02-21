@@ -38,7 +38,7 @@ INFORMATION ELEMENTS
 --------------------
 Subjective Conditioning (Fi): Sincere. Personal relations. Relational & privileging. Internalised feelings.
 Objective Conditioning (Ti): Structural. Internal structure. Truth & impartiality. Internalised rules.
-Reflective Present (Si): Pleasant. Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
+Reflective Present (Si): Relaxed. Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
 Reflective Future (Ni): Dissociative. Yielding over time. Waiting for the moment. Lessening of impact. 
 Subjective Navigation (Fe): Expressive. Influencing expressions. Authentic externalisation. Emotional synchronisation.
 Objective Navigation (Te): Productive. Pragmatisation. Productive externalisation. Factual synchronisation.
@@ -72,7 +72,7 @@ Brings a weighty, decisive attitude to things.
 Guided by sinking feelings.
 Akin to waves crashing against the shore.
 
-Si + Ne: Enhancing. Pleasant + Digressive.
+Si + Ne: Enhancing. Relaxed + Digressive.
 Enjoying what life has to offer.
 Maximising the positive in life.
 Brings an airy, boyant attitude to things.
@@ -95,9 +95,9 @@ Fi + Pi: Individuation. Denying personas.
 Ji + Ni: Timing. Denying acceptance.
 Ji + Si: Acceptance. Denying timing.
 Ti + Ni: Radicalism. Structural + Dissociative. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
-Ti + Si: Canon. Structural + Pleasant. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
+Ti + Si: Canon. Structural + Relaxed. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
 Fi + Ni: Isolation. Sincere + Dissociative. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
-Fi + Si: Affirmation. Sincere + Pleasant. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
+Fi + Si: Affirmation. Sincere + Relaxed. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
 Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
 Te + Pi: Efficiency. Creating practicality.
@@ -105,9 +105,9 @@ Fe + Pi: Expression. Creating personas.
 Je + Ni: Foresight. Creating timing.
 Je + Si: Comfort. Creating acceptance.
 Fe + Ni: Catharsis. Expressive + Dissociative. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
-Fe + Si: Hospitality. Expressive + Pleasant. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
+Fe + Si: Hospitality. Expressive + Relaxed. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
 Te + Ni: Profitability. Productive + Dissociative. Efficient Foresight. Creating practicality by creating timing. Promoting a pragmatic yield.
-Te + Si: Reliability. Productive + Pleasant. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
+Te + Si: Reliability. Productive + Relaxed. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
 
 Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
 Je + Se: Capture. Creating control.
@@ -122,11 +122,11 @@ Te + Ne: Experimentation. Productive + Digressive. Ideating Practicality. Creati
 HIERARCHAL VS ATOMISTIC
 -----------------------
 Hierarchal: Relating to others in terms of the social categories they are part of.
-Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. High-minded & earnest.
+Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. Stabilizing & earnest.
 Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Lighthearted (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
+Theoretic (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
 Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
 
 Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
@@ -144,7 +144,7 @@ Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality 
 Hierarchal Ni: Minimising negative impact. Premonition of discordance. Radicalism + Catharsis.
 Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
 
-Hierarchal Se: Minimising negative consequences. Possessing the weak. Divison & Supremacy.
+Hierarchal Se: Minimising negative consequences. Possessing the weak. division & Supremacy.
 Atomistic Se: Maximising positive consequences. Retention of resources. Distance & Expenditure.
 
 Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
@@ -165,11 +165,11 @@ Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
-Symbiosis: Mutual. Ecosystem relies on a mutually-beneficial relationship between species.
-Symptomatic: Tangentiality (Potential + Truth). Intellectualising aspects of life.
-Observant: Canon (Structure + Acceptance). Promoting satisfaction of all participants.
-Promoting: Hospitality (Expression + Comfort). Mutually synchronising with a crowd.
-Adopting: Silliness (Ideation + Personas). Discovery of new ecological niches to share.
+Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
+Symptomatic: Tangentiality (Potential + Truth). Intellectualising aspects of life for mutual refusal of competition.
+Observant: Canon (Structure + Acceptance). Promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Promoting: Hospitality (Expression + Comfort). Mutually synchronising with a crowd by promoting a welcoming atmosphere.
+Adopting: Silliness (Ideation + Personas). Discovery of new ecological niches to share by adopting silly social personas.
 
 Schismatic.
 Beta.
@@ -179,13 +179,13 @@ Narrational.
 Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
-Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
+Ideal: Domination. To be at the top of the food chain by adopting powerful social personas, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
-Symbiosis: Parasitic. Ecosystem relies on a weaker species acting as a host for a stronger one.
-Symptomatic: Division (Control + Truth). Resisting change by defending the ecosystem.
-Observant: Radicalism (Structure + Timing). Convincing powerful hosts to relinquish strength.
-Promoting: Catharsis (Expression + Foresight). Provoking crowds to better defend against predators.
-Adopting: Supremacy (Capture + Personas). Possessing the weak & occupying the top of the food chain.
+Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
+Symptomatic: Division (Control + Truth). Resisting change & defending the ecosystem by emphasising division & rationalisation.
+Observant: Radicalism (Structure + Timing). Convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Promoting: Catharsis (Expression + Foresight). Provoking crowds into strength by promoting powerfully cathartic atmospheres.
+Adopting: Supremacy (Capture + Personas). Possessing the weak & occupying the top of the food chain by adopting powerful social personas.
 
 Solipsistic.
 Gamma.
@@ -197,11 +197,11 @@ Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
-Symbiosis: Competitive. Ecosystem relies on a healthy competition of resources between species.
-Symptomatic: Distance (Control + Relations). Retaining highly-selective resources.
-Observant: Isolation (Individuation + Timing). Tracking & scavanging losses.
-Promoting: Profitability (Efficiency + Foresight). Escalating competition of resources.
-Adopting: Expenditure (Capture + Practicality). Peacocking & Machiavellianism.
+Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
+Symptomatic: Distance (Control + Relations). Retaining selected resources by emphasising harsh character & negative relations.
+Observant: Isolation (Individuation + Timing). Tracking & scavanging losses by observing inevitable inequity between things.
+Promoting: Profitability (Efficiency + Foresight). Escalating competition of resources by promoting pragmatic yields.
+Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest through the powerful expenditure of resources.
 
 Homeostatic.
 Delta.
@@ -214,10 +214,10 @@ Typically has problems with being too accepting or understanding.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
-Symptomatic: Faith (Potential + Relations). Spreading altruism & friendliness.
-Observant: Affirmation (Individuation + Acceptance). Tolerating & adapting to existing ecosystem.
-Promoting: Reliability (Efficiency + Comfort). Specialising in neglected aspects of ecosystem.
-Adopting: Experimentation (Ideation + Practicality). Productive transformation of their habitat.
+Symptomatic: Faith (Potential + Relations). Spreading self-serving altruism & friendliness by emphasising good-faith relations.
+Observant: Affirmation (Individuation + Acceptance). Tolerating & adapting to existing ecosystem by observing its inherent quality.
+Promoting: Reliability (Efficiency + Comfort). Specialising in neglected aspects of ecosystem by promoting pragmatic stability.
+Adopting: Experimentation (Ideation + Practicality). Productive transformation of their habitat by finding a use for seemingly useless things.
 
 FUNCTIONS
 ---------
@@ -241,161 +241,161 @@ TYPES
 -----
 
 LII / INTP / INTj / Sophist (Shadow: Investor)
-Natural: Tangentiality. Naturally intellectualises aspects of life.
-Constructive: Silliness. Finds it constructive to discover new ecological niches to share.
-Obligation: Distance. Feels obligated to retain highly-selective resources.
-Unnatural: Expenditure. Finds it unnatural to peacock & be machievellian.
-Indulgant: Canon. Can over-indulge promoting satisfaction of all participants.
-Neglected: Hospitality. Can neglect mutually synchronising with a crowd.
-Trivializing: Isolation. Trivializes tracking & scavanging losses.
-Repressed: Profitability. Represses escalating competition of resources.
+Natural: Tangentiality. Naturally intellectualises aspects of life for mutual refusal of competition.
+Constructive: Silliness. Finds it constructive to discover new ecological niches to share by adopting silly social personas.
+Obligation: Distance. Feels obligated to retain selected resources by emphasising harsh character & negative relations.
+Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest through the powerful expenditure of resources.
+Indulgant: Canon. Can over-indulge promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Neglected: Hospitality. Can neglect mutually synchronising with a crowd by promoting a welcoming atmosphere.
+Trivializing: Isolation. Trivializes tracking & scavanging losses by observing inevitable inequity between things.
+Repressed: Profitability. Represses escalating competition of resources by promoting pragmatic yields.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Natural: Canon. Naturally promotes satisfaction of all participants.
-Constructive: Hospitality. Finds it constructive to mutually synchronise with a crowd.
-Obligation: Isolation. Feels obligated to track & scavange losses.
-Unnatural: Profitability. Finds it unnatural to escalate competition of resources.
-Indulgant: Tangentiality. Can over-indulge intellectualising aspects of life.
-Neglected: Silliness. Can neglect discovering new ecological niches to share.
-Trivializing: Distance. Trivializes retaining highly-selective resources.
-Repressed: Expenditure. Represses peacocking & machievellianism.
+Natural: Canon. Naturally promotes satisfaction of all participants by observing an equitabally-legislated understanding.
+Constructive: Hospitality. Finds it constructive to mutually synchronise with a crowd by promoting a welcoming atmosphere.
+Obligation: Isolation. Feels obligated to track & scavange losses by observing inevitable inequity between things.
+Unnatural: Profitability. Finds it unnatural to escalate competition of resources by promoting pragmatic yields.
+Indulgant: Tangentiality. Can over-indulge intellectualising aspects of life for mutual refusal of competition.
+Neglected: Silliness. Can neglect discovering new ecological niches to share by adopting silly social personas.
+Trivializing: Distance. Trivializes retaining selected resources by emphasising harsh character & negative relations.
+Repressed: Expenditure. Represses adopting aggressive self-interest through the powerful expenditure of resources.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
-Natural: Hospitality. Naturally synchronises with a crowd, mutually.
-Constructive: Canon. Finds it constructive to promote satisfaction of all participants.
-Obligation: Profitability. Feels obligated to escalate competition of resources.
-Unnatural: Isolation. Finds it unnatural to track & scavange losses.
-Indulgant: Silliness. Can over-indulge discovering new ecological niches to share.
-Neglected: Tangentiality. Can neglect intellectualising aspects of life.
-Trivializing: Expenditure. Trivializes peacocking & machievellianism.
-Repressed: Distance. Represses retaining highly-selective resources.
+Natural: Hospitality. Naturally synchronises with a crowd by promoting a mutually welcoming atmosphere.
+Constructive: Canon. Finds it constructive to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Obligation: Profitability. Feels obligated to escalate competition of resources by promoting pragmatic yields.
+Unnatural: Isolation. Finds it unnatural to track & scavange losses by observing inevitable inequity between things.
+Indulgant: Silliness. Can over-indulge discovering new ecological niches to share by adopting silly social personas.
+Neglected: Tangentiality. Can neglect intellectualising aspects of life for mutual refusal of competition.
+Trivializing: Expenditure. Trivializes adopting aggressive self-interest through the powerful expenditure of resources.
+Repressed: Distance. Represses retaining selected resources by emphasising harsh character & negative relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Vulture)
-Natural: Silliness. Naturally discovers new ecological niches to share.
-Constructive: Tangentiality. Finds it constructive to intellectualise aspects of life.
-Obligation: Expenditure. Feels obligated to peacock & be machievellian.
-Unnatural: Distance. Finds it unnatural to retain highly-selective resources.
-Indulgant: Hospitality. Can over-indulge mutually synchronising with a crowd.
-Neglected: Canon. Can neglect promoting satisfaction of all participants.
-Trivializing: Profitability. Trivializes escalating competition of resources.
-Repressed: Isolation. Represses tracking & scavanging losses.
+Natural: Silliness. Naturally discovers new ecological niches to share by adopting silly social personas.
+Constructive: Tangentiality. Finds it constructive to intellectualise aspects of life for mutual refusal of competition.
+Obligation: Expenditure. Feels obligated to adopt aggressive self-interest through the powerful expenditure of resources.
+Unnatural: Distance. Finds it unnatural to retain selected resources by emphasising harsh character & negative relations.
+Indulgant: Hospitality. Can over-indulge mutually synchronising with a crowd by promoting a welcoming atmosphere.
+Neglected: Canon. Can neglect promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Trivializing: Profitability. Trivializes escalating competition of resources by promoting pragmatic yields.
+Repressed: Isolation. Represses tracking & scavanging losses by observing inevitable inequity between things.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
-Natural: Division. Naturally resists change & defends the ecosystem.
-Constructive: Supremacy. Finds it constructive to possess the weak & occupy the top of the food chain.
-Obligation: Faith. Feels obligated to spread altruism & friendliness.
-Unnatural: Experimentation. Finds it unnatural to productively transform their habitat.
-Indulgant: Radicalism. Can over-indulge convincing powerful hosts to relinquish strength.
-Neglected: Catharsis. Can neglect provoking crowds to better defend against predators.
-Trivializing: Affirmation. Trivializes tolerating & adapting to existing ecosystem.
-Repressed: Reliability. Represses specialising in neglected aspects of ecosystem.
+Natural: Division. Naturally resists change & defends the ecosystem by emphasising division & rationalisation.
+Constructive: Supremacy. Finds it constructive to possess the weak & occupy the top of the food chain by adopting powerful social personas.
+Obligation: Faith. Feels obligated to spread self-serving altruism & friendliness by emphasising good-faith relations.
+Unnatural: Experimentation. Finds it unnatural to productively transform their habitat by finding a use for seemingly useless things.
+Indulgant: Radicalism. Can over-indulge convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Neglected: Catharsis. Can neglect provoking crowds into strength by promoting powerfully cathartic atmospheres.
+Trivializing: Affirmation. Trivializes tolerating & adapting to existing ecosystem by observing its inherent quality.
+Repressed: Reliability. Represses specialising in neglected aspects of ecosystem by promoting pragmatic stability.
 
 IEI / INFJ / INFp / Apostle (Shadow: Coach)
-Natural: Radicalism. Naturally convinces powerful hosts to relinquish strength.
-Constructive: Catharsis. Finds it constructive to provoke crowds to better defend against predators.
-Obligation: Affirmation. Feels obligated to tolerate & adapt to existing ecosystem.
-Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem.
-Indulgant: Division. Can over-indulge resisting change & defending the ecosystem.
-Neglected: Supremacy. Can neglect possessing the weak & occupying the top of the food chain.
-Trivializing: Faith. Trivializes spreading altruism & friendliness.
-Repressed: Experimentation. Represses transforming their habitat productively.
+Natural: Radicalism. Naturally convinces powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Constructive: Catharsis. Finds it constructive to provoke crowds into strength by promoting powerfully cathartic atmospheres.
+Obligation: Affirmation. Feels obligated to tolerate & adapt to existing ecosystem by observing its inherent quality.
+Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem by promoting pragmatic stability.
+Indulgant: Division. Can over-indulge resisting change & defending the ecosystem by emphasising division & rationalisation.
+Neglected: Supremacy. Can neglect possessing the weak & occupying the top of the food chain by adopting powerful social personas.
+Trivializing: Faith. Trivializes spreading self-serving altruism & friendliness by emphasising good-faith relations.
+Repressed: Experimentation. Represses transforming their habitat by finding a use for seemingly useless things productively.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
-Natural: Catharsis. Naturally provokes crowds to better defend against predators.
-Constructive: Radicalism. Finds it constructive to convince powerful hosts to relinquish strength.
-Obligation: Reliability. Feels obligated to specialise in neglected aspects of ecosystem.
-Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to existing ecosystem.
-Indulgant: Supremacy. Can over-indulge possessing the weak & occupying the top of the food chain.
-Neglected: Division. Can neglect resisting change & defending the ecosystem.
-Trivializing: Experimentation. Trivializes transforming their habitat productively.
-Repressed: Faith. Represses spreading altruism & friendliness.
+Natural: Catharsis. Naturally provokes crowds into strength by promoting powerfully cathartic atmospheres.
+Constructive: Radicalism. Finds it constructive to convince powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Obligation: Reliability. Feels obligated to specialise in neglected aspects of ecosystem by promoting pragmatic stability.
+Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to existing ecosystem by observing its inherent quality.
+Indulgant: Supremacy. Can over-indulge possessing the weak & occupying the top of the food chain by adopting powerful social personas.
+Neglected: Division. Can neglect resisting change & defending the ecosystem by emphasising division & rationalisation.
+Trivializing: Experimentation. Trivializes transforming their habitat by finding a use for seemingly useless things productively.
+Repressed: Faith. Represses spreading self-serving altruism & friendliness by emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
-Natural: Supremacy. Naturally possesses the weak by occupying the top of the food chain.
-Constructive: Division. Finds it constructive to resist change & defend the ecosystem.
-Obligation: Experimentation. Feels obligated to productively transform their habitat.
-Unnatural: Faith. Finds it unnatural to spread altruism & friendliness.
-Indulgant: Catharsis. Can over-indulge provoking crowds to better defend against predators.
-Neglected: Radicalism. Can neglect convincing powerful hosts to relinquish strength.
-Trivializing: Reliability. Trivializes specialising in neglected aspects of ecosystem.
-Repressed: Affirmation. Represses tolerating & adapting to existing ecosystem.
+Natural: Supremacy. Naturally possesses the weak by occupying the top of the food chain by adopting powerful social personas.
+Constructive: Division. Finds it constructive to resist change & defend the ecosystem by emphasising division & rationalisation.
+Obligation: Experimentation. Feels obligated to productively transform their habitat by finding a use for seemingly useless things.
+Unnatural: Faith. Finds it unnatural to spread self-serving altruism & friendliness by emphasising good-faith relations.
+Indulgant: Catharsis. Can over-indulge provoking crowds into strength by promoting powerfully cathartic atmospheres.
+Neglected: Radicalism. Can neglect convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Trivializing: Reliability. Trivializes specialising in neglected aspects of ecosystem by promoting pragmatic stability.
+Repressed: Affirmation. Represses tolerating & adapting to existing ecosystem by observing its inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
-Natural: Distance. Naturally retains highly-selective resources.
-Constructive: Expenditure. Finds it constructive to peacock & be machievellian.
-Obligation: Tangentiality. Feels obligated to intellectualise aspects of life.
-Unnatural: Silliness. Finds it unnatural to discover new ecological niches to share.
-Indulgant: Isolation. Can over-indulge tracking & scavanging losses.
-Neglected: Profitability. Can neglect escalating competition of resources.
-Trivializing: Canon. Trivializes promoting satisfaction of all participants.
-Repressed: Hospitality. Represses mutually synchronising with a crowd.
+Natural: Distance. Naturally retains selected resources by emphasising harsh character & negative relations.
+Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest through the powerful expenditure of resources.
+Obligation: Tangentiality. Feels obligated to intellectualise aspects of life for mutual refusal of competition.
+Unnatural: Silliness. Finds it unnatural to discover new ecological niches to share by adopting silly social personas.
+Indulgant: Isolation. Can over-indulge tracking & scavanging losses by observing inevitable inequity between things.
+Neglected: Profitability. Can neglect escalating competition of resources by promoting pragmatic yields.
+Trivializing: Canon. Trivializes promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Repressed: Hospitality. Represses mutually synchronising with a crowd by promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Vulture (Shadow: Fool)
-Natural: Isolation. Naturally tracks & scavanges losses.
-Constructive: Profitability. Finds it constructive to escalate competition of resources.
-Obligation: Canon. Feels obligated to promote satisfaction of all participants.
-Unnatural: Hospitality. Finds it unnatural to mutually synchronise with a crowd.
-Indulgant: Distance. Can over-indulge retaining highly-selective resources.
-Neglected: Expenditure. Can neglect peacocking & machievellianism.
-Trivializing: Tangentiality. Trivializes intellectualising aspects of life.
-Repressed: Silliness. Represses discovering new ecological niches to share.
+Natural: Isolation. Naturally tracks & scavanges losses by observing inevitable inequity between things.
+Constructive: Profitability. Finds it constructive to escalate competition of resources by promoting pragmatic yields.
+Obligation: Canon. Feels obligated to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Unnatural: Hospitality. Finds it unnatural to mutually synchronise with a crowd by promoting a welcoming atmosphere.
+Indulgant: Distance. Can over-indulge retaining selected resources by emphasising harsh character & negative relations.
+Neglected: Expenditure. Can neglect adopting aggressive self-interest through the powerful expenditure of resources.
+Trivializing: Tangentiality. Trivializes intellectualising aspects of life for mutual refusal of competition.
+Repressed: Silliness. Represses discovering new ecological niches to share by adopting silly social personas.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
-Natural: Profitability. Naturally escalates competition of resources.
-Constructive: Isolation. Finds it constructive to track & scavange losses.
-Obligation: Hospitality. Feels obligated to mutually synchronise with a crowd.
-Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants.
-Indulgant: Expenditure. Can over-indulge peacocking & being machievellian.
-Neglected: Distance. Can neglect retaining highly-selective resources.
-Trivializing: Silliness. Trivializes discovering new ecological niches to share.
-Repressed: Tangentiality. Represses intellectualising aspects of life.
+Natural: Profitability. Naturally escalates competition of resources by promoting pragmatic yields.
+Constructive: Isolation. Finds it constructive to track & scavange losses by observing inevitable inequity between things.
+Obligation: Hospitality. Feels obligated to mutually synchronise with a crowd by promoting a welcoming atmosphere.
+Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest through the powerful expenditure of resources.
+Neglected: Distance. Can neglect retaining selected resources by emphasising harsh character & negative relations.
+Trivializing: Silliness. Trivializes discovering new ecological niches to share by adopting silly social personas.
+Repressed: Tangentiality. Represses intellectualising aspects of life for mutual refusal of competition.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
-Natural: Expenditure. Naturally peacocks & is machievellian.
-Constructive: Distance. Finds it constructive to retain highly-selective resources.
-Obligation: Silliness. Feels obligated to discover new ecological niches to share.
-Unnatural: Tangentiality. Finds it unnatural to intellectualise aspects of life.
-Indulgant: Profitability. Can over-indulge escalating competition of resources.
-Neglected: Isolation. Can neglect tracking & scavanging losses.
-Trivializing: Hospitality. Trivializes mutually synchronising with a crowd.
-Repressed: Canon. Represses promoting satisfaction of all participants.
+Natural: Expenditure. Naturally adopts aggressive self-interest through the powerful expenditure of resources.
+Constructive: Distance. Finds it constructive to retain selected resources by emphasising harsh character & negative relations.
+Obligation: Silliness. Feels obligated to discover new ecological niches to share by adopting silly social personas.
+Unnatural: Tangentiality. Finds it unnatural to intellectualise aspects of life for mutual refusal of competition.
+Indulgant: Profitability. Can over-indulge escalating competition of resources by promoting pragmatic yields.
+Neglected: Isolation. Can neglect tracking & scavanging losses by observing inevitable inequity between things.
+Trivializing: Hospitality. Trivializes mutually synchronising with a crowd by promoting a welcoming atmosphere.
+Repressed: Canon. Represses promoting satisfaction of all participants by observing an equitabally-legislated understanding.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
-Natural: Faith. Naturally spreads altruism & friendliness.
-Constructive: Experimentation. Finds it constructive to productively transform their habitat.
-Obligation: Division. Feels obligated to resist change & defend the ecosystem.
-Unnatural: Supremacy. Finds it unnatural to possess the weak & occupy the top of the food chain.
-Indulgant: Affirmation. Can over-indulge tolerating & adapting to existing ecosystem.
-Neglected: Reliability. Can neglect specialising in neglected aspects of ecosystem.
-Trivializing: Radicalism. Trivializes convincing powerful hosts to relinquish strength.
-Repressed: Catharsis. Represses provoking crowds to better defend against predators.
+Natural: Faith. Naturally spreads self-serving altruism & friendliness by emphasising good-faith relations.
+Constructive: Experimentation. Finds it constructive to productively transform their habitat by finding a use for seemingly useless things.
+Obligation: Division. Feels obligated to resist change & defend the ecosystem by emphasising division & rationalisation.
+Unnatural: Supremacy. Finds it unnatural to possess the weak & occupy the top of the food chain by adopting powerful social personas.
+Indulgant: Affirmation. Can over-indulge tolerating & adapting to existing ecosystem by observing its inherent quality.
+Neglected: Reliability. Can neglect specialising in neglected aspects of ecosystem by promoting pragmatic stability.
+Trivializing: Radicalism. Trivializes convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Repressed: Catharsis. Represses provoking crowds into strength by promoting powerfully cathartic atmospheres.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
-Natural: Affirmation. Naturally tolerates & adapts to existing ecosystem.
-Constructive: Reliability. Finds it constructive to specialise in neglected aspects of ecosystem.
-Obligation: Radicalism. Feels obligated to convince powerful hosts to relinquish strength.
-Unnatural: Catharsis. Finds it unnatural to provoke crowds to better defend against predators.
-Indulgant: Faith. Can over-indulge spreading altruism & friendliness.
-Neglected: Experimentation. Can neglect productive transformation of their habitat.
-Trivializing: Division. Trivializes resisting change & defending the ecosystem.
-Repressed: Supremacy. Represses possessing the weak & occupy the top of the food chain.
+Natural: Affirmation. Naturally tolerates & adapts to existing ecosystem by observing its inherent quality.
+Constructive: Reliability. Finds it constructive to specialise in neglected aspects of ecosystem by promoting pragmatic stability.
+Obligation: Radicalism. Feels obligated to convince powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Unnatural: Catharsis. Finds it unnatural to provoke crowds into strength by promoting powerfully cathartic atmospheres.
+Indulgant: Faith. Can over-indulge spreading self-serving altruism & friendliness by emphasising good-faith relations.
+Neglected: Experimentation. Can neglect productive transformation of their habitat by finding a use for seemingly useless things.
+Trivializing: Division. Trivializes resisting change & defending the ecosystem by emphasising division & rationalisation.
+Repressed: Supremacy. Represses possessing the weak & occupy the top of the food chain by adopting powerful social personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Natural: Reliability. Naturally specialises in neglected aspects of ecosystem.
-Constructive: Affirmation. Finds it constructive to tolerate & adapt to existing ecosystem.
-Obligation: Catharsis. Feels obligated to provoke crowds to better defend against predators.
-Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength.
-Indulgant: Experimentation. Can over-indulge transforming their habitat productively.
-Neglected: Faith. Can neglect spreading altruism & friendliness.
-Trivializing: Supremacy. Trivializes possessing the weak & occupying the top of the food chain.
-Repressed: Division. Represses resisting change & defending the ecosystem.
+Natural: Reliability. Naturally specialises in neglected aspects of ecosystem by promoting pragmatic stability.
+Constructive: Affirmation. Finds it constructive to tolerate & adapt to existing ecosystem by observing its inherent quality.
+Obligation: Catharsis. Feels obligated to provoke crowds into strength by promoting powerfully cathartic atmospheres.
+Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinquish strength by observing radical, unyielding understandings.
+Indulgant: Experimentation. Can over-indulge transforming their habitat by finding a use for seemingly useless things productively.
+Neglected: Faith. Can neglect spreading self-serving altruism & friendliness by emphasising good-faith relations.
+Trivializing: Supremacy. Trivializes possessing the weak & occupying the top of the food chain by adopting powerful social personas.
+Repressed: Division. Represses resisting change & defending the ecosystem by emphasising division & rationalisation.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
-Natural: Experimentation. Naturally transforms their habitat productively.
-Constructive: Faith. Finds it constructive to spread altruism & friendliness.
-Obligation: Supremacy. Feels obligated to possess the weak & occupy the top of the food chain.
-Unnatural: Division. Finds it unnatural to resist change & defend the ecosystem.
-Indulgant: Reliability. Can over-indulge specialising in neglected aspects of ecosystem.
-Neglected: Affirmation. Can neglect tolerating & adapting to existing ecosystem.
-Trivializing: Catharsis. Trivializes provoking crowds to better defend against predators.
-Repressed: Radicalism. Represses convincing powerful hosts to relinquish strength.
+Natural: Experimentation. Naturally transforms their habitat by finding a use for seemingly useless things productively.
+Constructive: Faith. Finds it constructive to spread self-serving altruism & friendliness by emphasising good-faith relations.
+Obligation: Supremacy. Feels obligated to possess the weak & occupy the top of the food chain by adopting powerful social personas.
+Unnatural: Division. Finds it unnatural to resist change & defend the ecosystem by emphasising division & rationalisation.
+Indulgant: Reliability. Can over-indulge specialising in neglected aspects of ecosystem by promoting pragmatic stability.
+Neglected: Affirmation. Can neglect tolerating & adapting to existing ecosystem by observing its inherent quality.
+Trivializing: Catharsis. Trivializes provoking crowds into strength by promoting powerfully cathartic atmospheres.
+Repressed: Radicalism. Represses convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
