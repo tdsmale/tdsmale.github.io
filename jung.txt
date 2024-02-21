@@ -1,52 +1,52 @@
-INFORMATION ELEMENT PROPERTIES
-------------------------------
+BASE DICHOTOMIES
+----------------
 Position
-Internal: Apprehended as emerging from an internal experience of life.
-External: Apprehended as emerging from an external experience of life.
+Internal: Apprehended as emerging from an internal experience of life. (F / N)
+External: Apprehended as emerging from an external experience of life. (T / S)
 
 Method
-Detached: Apprehended as emerging from a direct experience of life.
-Involved: Apprehended as emerging from an abstract experience of life.
+Detached: Apprehended as emerging from an abstract experience of life. (T / N)
+Involved: Apprehended as emerging from a direct experience of life. (S / F)
 
 Form
-Static: Apprehended as Distinct from other Static things, having a clearly deliniated form that is difficult to change.
-Dynamic: Apprehended as Coalescent with other Dynamic things, having an unclearly delineated form that is easy to change.
+Static: Apprehended as Distinct from other Static things, having a clearly deliniated form that is difficult to change. (Ji / Pe)
+Dynamic: Apprehended as Coalescent with other Dynamic things, having an unclearly delineated form that is easy to change. (Je / Pi)
 
 Behaviour
-Reactive: Apprehended as something that is produced or affected by an external process.
-Active: Apprehended as something that starts or is inherent to an external process.
+Reactive: Apprehended as something that is produced or affected by an external process. (Ji / Pi)
+Active: Apprehended as something that starts or is inherent to an external process. (Je / Pe)
 
-COMPOSITE INFORMATION ELEMENT PROPERTIES
-----------------------------------------
+COMPOSITE DICHOTOMIES
+---------------------
 Temporality
-Future (N): Detached & Internal. Apprehending what could be.
-Present (S): Involved & External. Apprehending what is right now.
+Future: Detached & Internal. Apprehending what could be. (N)
+Present: Involved & External. Apprehending what is right now. (S)
 
 Rationality
-Objective (T): Detached & External. Apprehending what is logically true or accurate.
-Subjective (F): Involved & Internal. Apprehending what is emotionally true or accurate.
+Objective: Detached & External. Apprehending what is logically true or accurate. (T)
+Subjective: Involved & Internal. Apprehending what is emotionally true or accurate. (F)
 
 Perception
-Reflection (Pi): Reactive & Dynamic. Detaching from external processes.
-Activating (Pe): Active & Static. Engaging with external processes.
+Reflection: Reactive & Dynamic. Detaching from external processes. (Pi)
+Activation: Active & Static. Engaging with external processes. (Pe)
 
 Judging
-Conditioning (Ji): Reactive & Static. Guiding external processes.
-Navigation (Je): Active & Dynamic. Changing external processes.
+Conditioning: Reactive & Static. Guiding external processes. (Ji)
+Navigation: Active & Dynamic. Changing external processes. (Je)
 
 INFORMATION ELEMENTS
 --------------------
-Subjective Conditioning (Fi): Sincere. Personal relations. Relational & privileging. Internalised feelings.
-Objective Conditioning (Ti): Structural. Internal structure. Truth & impartiality. Internalised rules.
-Reflective Present (Si): Relaxed. Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-Reflective Future (Ni): Dissociative. Yielding over time. Waiting for the moment. Lessening of impact. 
-Subjective Navigation (Fe): Expressive. Influencing expressions. Authentic externalisation. Emotional synchronisation.
-Objective Navigation (Te): Productive. Pragmatisation. Productive externalisation. Factual synchronisation.
-Present Activation (Se): Forceful. Unyielding in-the-moment. Taking up space. Capture & possession.
-Future Activation (Ne): Digressive. Broadening of possibilities. Taking up ideas. Thinking outside the box.
+Subjective + Conditioning: Sincere (Fi). Personal relations. Relational & privileging. Internalised feelings.
+Objective + Conditioning: Structural (Ti). Internal structure. Truth & impartiality. Internalised rules.
+Reflection + Present: Relaxed (Si). Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
+Reflection + Future: Dissociative (Ni). Yielding over time. Waiting for the moment. Lessening of impact. 
+Subjective + Navigation: Expressive (Fe). Influencing expressions. Authentic externalisation. Emotional synchronisation.
+Objective + Navigation: Production (Te). Pragmatisation. Productive externalisation. Factual synchronisation.
+Present + Activation: Forceful (Se). Unyielding in-the-moment. Taking up space. Capture & possession.
+Future + Activation: Digressive (Ne). Broadening of possibilities. Taking up ideas. Thinking outside the box.
 
 Ti vs Te: Structuring vs Pragmatizing Logic.
-Fi vs Fe: Relating vs Expressing Feelings.
+Fi vs Fe: Privileging vs Expressing Feelings.
 Si vs Se: Enhancing vs Weathering the Present.
 Ni vs Ne: Narrowing vs Broadening Possibilities.
 
@@ -55,8 +55,50 @@ Si vs Ne: Enhancing vs Potentiating the Present.
 Ti vs Fe: Modelling vs Expressing Feelings.
 Fi vs Te: Privileging vs Pragmatising Feelings.
 
-INFORMATION ELEMENT COMPOSITIONS
---------------------------------
+INFORMATION ATTITUDES
+---------------------
+Ji + Pe: Symptomatic. Seeks to represent external processes. Emphasises the result. Static.
+Ji + Se: Control. Denying potential.
+Ji + Ne: Potential. Denying control.
+Ti + Pe: Truth. Creating structure.
+Fi + Pe: Relations. Creating individuation.
+Ti + Se: Division. Structural + Forceful. External & Static. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
+Ti + Ne: Tangentiality. Structural + Digressive. Detached & Static. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
+Fi + Se: Distance. Sincere + Forceful. Involved & Static. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
+Fi + Ne: Faith. Sincere + Digressive. Internal & Static. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
+
+Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result. Reactive.
+Ti + Pi: Structure. Denying practicality.
+Fi + Pi: Individuation. Denying personas.
+Ji + Ni: Timing. Denying acceptance.
+Ji + Si: Acceptance. Denying timing.
+Ti + Ni: Radicalism. Structural + Dissociative. Detached & Reactive. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
+Ti + Si: Canon. Structural + Relaxed. External & Reactive. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
+Fi + Ni: Isolation. Sincere + Dissociative. Internal & Reactive. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
+Fi + Si: Affirmation. Sincere + Relaxed. Involved & Reactive. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
+
+Je + Pi: Promoting. Seeks to promote external processes. Promotes further results. Dynamic.
+Te + Pi: Efficiency. Creating practicality.
+Fe + Pi: Expression. Creating personas.
+Je + Ni: Foresight. Creating timing.
+Je + Si: Comfort. Creating acceptance.
+Fe + Ni: Catharsis. Expressive + Dissociative. Internal & Dynamic. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
+Fe + Si: Hospitality. Expressive + Relaxed. Involved & Dynamic. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
+Te + Ni: Profitability. Productive + Dissociative. Detached & Dynamic. Efficient Foresight. Creating practicality by creating timing. Promoting a pragmatic yield.
+Te + Si: Reliability. Productive + Relaxed. External & Dynamic. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
+
+Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result. Active.
+Je + Se: Capture. Creating control.
+Je + Ne: Ideation. Creating potential.
+Te + Pe: Practicality. Denying structure.
+Fe + Pe: Personas. Denying individuation.
+Fe + Se: Supremacy. Expressive + Forceful. Involved & Active. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
+Te + Se: Expenditure. Productive + Forceful. External & Active. Capturing Practicality. Creating control by denying structure. Adopting a pragmatic expenditure.
+Fe + Ne: Silliness. Expressive + Digressive. Internal & Active. Ideating Personas. Creating potential by denying individuation. Adopting silla personas.
+Te + Ne: Experimentation. Productive + Digressive. Detached & Active. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
+
+HIERARCHAL VS ATOMISTIC
+-----------------------
 Fi + Te: Economical. Sincere + Productive.
 Using resources in personally-valuable ways.
 Characterised by resourcefulness, seriousness and individuation.
@@ -79,55 +121,13 @@ Brings an airy, boyant attitude to things.
 Guided by imaginative guesswork.
 Akin to explorers at risk of becoming "untethered".
 
-Ji + Pe: Symptomatic. Seeks to represent external processes. Emphasises the result.
-Ji + Se: Control. Denying potential.
-Ji + Ne: Potential. Denying control.
-Ti + Pe: Truth. Creating structure.
-Fi + Pe: Relations. Creating individuation.
-Ti + Se: Division. Structural + Forceful. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
-Ti + Ne: Tangentiality. Structural + Digressive. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
-Fi + Se: Distance. Sincere + Forceful. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
-Fi + Ne: Faith. Sincere + Digressive. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
-
-Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result.
-Ti + Pi: Structure. Denying practicality.
-Fi + Pi: Individuation. Denying personas.
-Ji + Ni: Timing. Denying acceptance.
-Ji + Si: Acceptance. Denying timing.
-Ti + Ni: Radicalism. Structural + Dissociative. Structural Timing. Denying practicality by denying acceptance. Observing an unyielding truth.
-Ti + Si: Canon. Structural + Relaxed. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
-Fi + Ni: Isolation. Sincere + Dissociative. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
-Fi + Si: Affirmation. Sincere + Relaxed. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
-
-Je + Pi: Promoting. Seeks to promote external processes. Promotes further results.
-Te + Pi: Efficiency. Creating practicality.
-Fe + Pi: Expression. Creating personas.
-Je + Ni: Foresight. Creating timing.
-Je + Si: Comfort. Creating acceptance.
-Fe + Ni: Catharsis. Expressive + Dissociative. Expressive Foresight. Creating personas by creating timing. Promoting a cathartic atmosphere.
-Fe + Si: Hospitality. Expressive + Relaxed. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
-Te + Ni: Profitability. Productive + Dissociative. Efficient Foresight. Creating practicality by creating timing. Promoting a pragmatic yield.
-Te + Si: Reliability. Productive + Relaxed. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
-
-Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result.
-Je + Se: Capture. Creating control.
-Je + Ne: Ideation. Creating potential.
-Te + Pe: Practicality. Denying structure.
-Fe + Pe: Personas. Denying individuation.
-Fe + Se: Supremacy. Expressive + Forceful. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
-Te + Se: Expenditure. Productive + Forceful. Capturing Practicality. Creating control by denying structure. Adopting a pragmatic expenditure.
-Fe + Ne: Silliness. Expressive + Digressive. Ideating Personas. Creating potential by denying individuation. Adopting silla personas.
-Te + Ne: Experimentation. Productive + Digressive. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
-
-HIERARCHAL VS ATOMISTIC
------------------------
 Hierarchal: Relating to others in terms of the social categories they are part of.
-Homeostatic (Fi/Te/Si/Ne): Economical Enhancement. Stabilizing & earnest.
-Schismatic (Ti/Fe/Ni/Se): Narrational Collapse. Passionate & tyrannical.
+Homeostatic: Economical Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
+Schismatic: Narrational Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
 
 Atomistic: Relating to others in terms of individual qualities relative to a whole.
-Theoretic (Ti/Fe/Si/Ne): Narrational Enhancement. Childish & welcoming.
-Solipsistic (Fi/Te/Ni/Se): Economical Collapse. Independent & distant.
+Theoretic: Narrational Enhancement. Childish & welcoming. (Ti/Fe/Si/Ne)
+Solipsistic: Economical Collapse. Independent & distant. (Fi/Te/Ni/Se)
 
 Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
 Atomistic Fi: Minimising negative relations. Harsh judgement of character. Distance & Isolation.
