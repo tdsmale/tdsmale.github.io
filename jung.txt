@@ -94,7 +94,7 @@ Te + Pe: Practicality. Denying structure.
 Fe + Pe: Personas. Denying individuation.
 Fe + Se: Supremacy. Expressive + Forceful. Involved & Active. Capturing Personas. Creating control by denying individuation. Adopting powerful personas.
 Te + Se: Expenditure. Productive + Forceful. External & Active. Capturing Practicality. Creating control by denying structure. Adopting a pragmatic expenditure.
-Fe + Ne: Silliness. Expressive + Digressive. Internal & Active. Ideating Personas. Creating potential by denying individuation. Adopting silla personas.
+Fe + Ne: Silliness. Expressive + Digressive. Internal & Active. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
 Te + Ne: Experimentation. Productive + Digressive. Detached & Active. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
 
 HIERARCHAL VS ATOMISTIC
