@@ -167,7 +167,7 @@ Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislate
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
 Symptomatic: Tangentiality (Potential + Truth). Intellectualising aspects of life for mutual refusal of competition.
-Observant: Canon (Structure + Acceptance). Promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Observant: Canon (Structure + Acceptance). Promoting satisfaction of all participants by observing an equitably-legislated understanding.
 Promoting: Hospitality (Expression + Comfort). Mutually synchronising with a crowd by promoting a welcoming atmosphere.
 Adopting: Silliness (Ideation + Personas). Discovery of new ecological niches to share by adopting silly social personas.
 
@@ -245,13 +245,13 @@ Natural: Tangentiality. Naturally intellectualises aspects of life for mutual re
 Constructive: Silliness. Finds it constructive to discover new ecological niches to share by adopting silly social personas.
 Obligation: Distance. Feels obligated to retain selected resources by emphasising harsh character & negative relations.
 Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest through the powerful expenditure of resources.
-Indulgant: Canon. Can over-indulge promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Indulgant: Canon. Can over-indulge promoting satisfaction of all participants by observing an equitably-legislated understanding.
 Unconscious: Hospitality. Can unconciously provoke mutually synchronising with a crowd by promoting a welcoming atmosphere.
 Trivializing: Isolation. Trivializes tracking & scavanging losses by observing inevitable inequity between things.
 Repressed: Profitability. Represses escalating competition of resources by promoting pragmatic yields.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
-Natural: Canon. Naturally promotes satisfaction of all participants by observing an equitabally-legislated understanding.
+Natural: Canon. Naturally promotes satisfaction of all participants by observing an equitably-legislated understanding.
 Constructive: Hospitality. Finds it constructive to mutually synchronise with a crowd by promoting a welcoming atmosphere.
 Obligation: Isolation. Feels obligated to track & scavange losses by observing inevitable inequity between things.
 Unnatural: Profitability. Finds it unnatural to escalate competition of resources by promoting pragmatic yields.
@@ -262,7 +262,7 @@ Repressed: Expenditure. Represses adopting aggressive self-interest through the 
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
 Natural: Hospitality. Naturally synchronises with a crowd by promoting a mutually welcoming atmosphere.
-Constructive: Canon. Finds it constructive to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Constructive: Canon. Finds it constructive to promote satisfaction of all participants by observing an equitably-legislated understanding.
 Obligation: Profitability. Feels obligated to escalate competition of resources by promoting pragmatic yields.
 Unnatural: Isolation. Finds it unnatural to track & scavange losses by observing inevitable inequity between things.
 Indulgant: Silliness. Can over-indulge discovering new ecological niches to share by adopting silly social personas.
@@ -276,7 +276,7 @@ Constructive: Tangentiality. Finds it constructive to intellectualise aspects of
 Obligation: Expenditure. Feels obligated to adopt aggressive self-interest through the powerful expenditure of resources.
 Unnatural: Distance. Finds it unnatural to retain selected resources by emphasising harsh character & negative relations.
 Indulgant: Hospitality. Can over-indulge mutually synchronising with a crowd by promoting a welcoming atmosphere.
-Unconscious: Canon. Can unconciously provoke promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Unconscious: Canon. Can unconciously provoke promoting satisfaction of all participants by observing an equitably-legislated understanding.
 Trivializing: Profitability. Trivializes escalating competition of resources by promoting pragmatic yields.
 Repressed: Isolation. Represses tracking & scavanging losses by observing inevitable inequity between things.
 
@@ -327,13 +327,13 @@ Obligation: Tangentiality. Feels obligated to intellectualise aspects of life fo
 Unnatural: Silliness. Finds it unnatural to discover new ecological niches to share by adopting silly social personas.
 Indulgant: Isolation. Can over-indulge tracking & scavanging losses by observing inevitable inequity between things.
 Unconscious: Profitability. Can unconciously provoke the escalation of competition over resources by promoting pragmatic yields.
-Trivializing: Canon. Trivializes promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Trivializing: Canon. Trivializes promoting satisfaction of all participants by observing an equitably-legislated understanding.
 Repressed: Hospitality. Represses mutually synchronising with a crowd by promoting a welcoming atmosphere.
 
 ILI / INTJ / INTp / Vulture (Shadow: Fool)
 Natural: Isolation. Naturally tracks & scavanges losses by observing inevitable inequity between things.
 Constructive: Profitability. Finds it constructive to escalate competition of resources by promoting pragmatic yields.
-Obligation: Canon. Feels obligated to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Obligation: Canon. Feels obligated to promote satisfaction of all participants by observing an equitably-legislated understanding.
 Unnatural: Hospitality. Finds it unnatural to mutually synchronise with a crowd by promoting a welcoming atmosphere.
 Indulgant: Distance. Can over-indulge retaining selected resources by emphasising harsh character & negative relations.
 Unconscious: Expenditure. Can unconciously provoke the adoption of aggressive self-interest through the powerful expenditure of resources.
@@ -344,7 +344,7 @@ LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profitability. Naturally escalates competition of resources by promoting pragmatic yields.
 Constructive: Isolation. Finds it constructive to track & scavange losses by observing inevitable inequity between things.
 Obligation: Hospitality. Feels obligated to mutually synchronise with a crowd by promoting a welcoming atmosphere.
-Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants by observing an equitabally-legislated understanding.
+Unnatural: Canon. Finds it unnatural to promote satisfaction of all participants by observing an equitably-legislated understanding.
 Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest through the powerful expenditure of resources.
 Unconscious: Distance. Can unconciously provoke the retaining of selected resources by emphasising harsh character & negative relations.
 Trivializing: Silliness. Trivializes discovering new ecological niches to share by adopting silly social personas.
@@ -358,7 +358,7 @@ Unnatural: Tangentiality. Finds it unnatural to intellectualise aspects of life 
 Indulgant: Profitability. Can over-indulge escalating competition of resources by promoting pragmatic yields.
 Unconscious: Isolation. Can unconciously provoke the tracking & scavanging of losses by observing inevitable inequity between things.
 Trivializing: Hospitality. Trivializes mutually synchronising with a crowd by promoting a welcoming atmosphere.
-Repressed: Canon. Represses promoting satisfaction of all participants by observing an equitabally-legislated understanding.
+Repressed: Canon. Represses promoting satisfaction of all participants by observing an equitably-legislated understanding.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faith. Naturally spreads self-serving altruism & friendliness by emphasising good-faith relations.
