@@ -182,7 +182,7 @@ Typically has problems with being too passionate or tyrannical.
 Ideal: Domination. To be at the top of the food chain by adopting powerful social personas, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
-Symptomatic: Division (Control + Truth). Resisting change & defending the ecosystem by emphasising division & rationalisation.
+Symptomatic: Division (Control + Truth). Resisting change & defending the ecosystem by emphasising division & rationalization.
 Observant: Radicalism (Structure + Timing). Convincing powerful hosts to relinquish strength by observing radical, unyielding understandings.
 Promoting: Catharsis (Expression + Foresight). Provoking crowds into strength by promoting powerfully cathartic atmospheres.
 Adopting: Supremacy (Capture + Personas). Possessing the weak & occupying the top of the food chain by adopting powerful social personas.
@@ -281,7 +281,7 @@ Trivializing: Profitability. Trivializes escalating competition over resources b
 Repressed: Isolation. Represses tracking & scavanging losses by observing inevitable inequity between things.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
-Natural: Division. Naturally resists change & defends the ecosystem by emphasising division & rationalisation.
+Natural: Division. Naturally rationalizes & defends the ecosystem by resisting change & emphasising division.
 Constructive: Supremacy. Finds it constructive to possess the weak & occupy the top of the food chain by adopting powerful social personas.
 Awkward: Faith. Awkwardly spreads self-serving altruism & friendliness by emphasising good-faith relations.
 Unnatural: Experimentation. Finds it unnatural to productively transform their habitat by finding a use for seemingly useless things.
@@ -295,7 +295,7 @@ Natural: Radicalism. Naturally convinces powerful hosts to relinquish strength b
 Constructive: Catharsis. Finds it constructive to provoke crowds into strength by promoting powerfully cathartic atmospheres.
 Awkward: Affirmation. Awkwardly tolerates & adapts to the existing ecosystem by observing its inherent quality.
 Unnatural: Reliability. Finds it unnatural to specialise in neglected aspects of ecosystem by promoting pragmatic stability.
-Indulgant: Division. Can over-indulge resisting change & defending the ecosystem by emphasising division & rationalisation.
+Indulgant: Division. Can over-indulge rationalizing & defending the ecosystem by resisting change & emphasising division.
 Unconscious: Supremacy. Can unconciously create the possession of the weak & occupying the top of the food chain by adopting powerful social personas.
 Trivializing: Faith. Trivializes spreading self-serving altruism & friendliness by emphasising good-faith relations.
 Repressed: Experimentation. Represses transforming their habitat by finding a use for seemingly useless things productively.
@@ -306,13 +306,13 @@ Constructive: Radicalism. Finds it constructive to convince powerful hosts to re
 Awkward: Reliability. Awkwardly specialises in neglected aspects of ecosystem by promoting pragmatic stability.
 Unnatural: Affirmation. Finds it unnatural to tolerate & adapt to the existing ecosystem by observing its inherent quality.
 Indulgant: Supremacy. Can over-indulge possessing the weak & occupying the top of the food chain by adopting powerful social personas.
-Unconscious: Division. Can unconciously create resistance to change & defence of the ecosystem by emphasising division & rationalisation.
+Unconscious: Division. Can unconciously create rationalization & defence of the ecosystem by resisting change & emphasising division.
 Trivializing: Experimentation. Trivializes transforming their habitat by finding a use for seemingly useless things productively.
 Repressed: Faith. Represses spreading self-serving altruism & friendliness by emphasising good-faith relations.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
 Natural: Supremacy. Naturally possesses the weak by occupying the top of the food chain by adopting powerful social personas.
-Constructive: Division. Finds it constructive to resist change & defend the ecosystem by emphasising division & rationalisation.
+Constructive: Division. Finds it constructive to rationalize & defend the ecosystem by resisting change & emphasising division.
 Awkward: Experimentation. Awkwardly transforms their habitat productively by finding a use for seemingly useless things.
 Unnatural: Faith. Finds it unnatural to spread self-serving altruism & friendliness by emphasising good-faith relations.
 Indulgant: Catharsis. Can over-indulge provoking crowds into strength by promoting powerfully cathartic atmospheres.
@@ -363,7 +363,7 @@ Repressed: Canon. Represses promoting satisfaction of all participants by observ
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faith. Naturally spreads self-serving altruism & friendliness by emphasising good-faith relations.
 Constructive: Experimentation. Finds it constructive to productively transform their habitat by finding a use for seemingly useless things.
-Awkward: Division. Awkwardly resists change & defends the ecosystem by emphasising division & rationalisation.
+Awkward: Division. Awkwardly rationalizes & defends the ecosystem by resisting change & emphasising division.
 Unnatural: Supremacy. Finds it unnatural to possess the weak & occupy the top of the food chain by adopting powerful social personas.
 Indulgant: Affirmation. Can over-indulge tolerating & adapting to the existing ecosystem by observing its inherent quality.
 Unconscious: Reliability. Can unconciously create the specialisation of neglected aspects of ecosystem by promoting pragmatic stability.
@@ -377,7 +377,7 @@ Awkward: Radicalism. Awkwardly convinces powerful hosts to relinquish strength b
 Unnatural: Catharsis. Finds it unnatural to provoke crowds into strength by promoting powerfully cathartic atmospheres.
 Indulgant: Faith. Can over-indulge spreading self-serving altruism & friendliness by emphasising good-faith relations.
 Unconscious: Experimentation. Can unconciously create the productive transformation of their habitat by finding a use for seemingly useless things.
-Trivializing: Division. Trivializes resisting change & defending the ecosystem by emphasising division & rationalisation.
+Trivializing: Division. Trivializes rationalizing & defending the ecosystem by resisting change & emphasising division.
 Repressed: Supremacy. Represses possessing the weak & occupy the top of the food chain by adopting powerful social personas.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
@@ -388,13 +388,13 @@ Unnatural: Radicalism. Finds it unnatural to convince powerful hosts to relinqui
 Indulgant: Experimentation. Can over-indulge transforming their habitat by finding a use for seemingly useless things productively.
 Unconscious: Faith. Can unconciously create self-serving altruism & friendliness by emphasising good-faith relations.
 Trivializing: Supremacy. Trivializes possessing the weak & occupying the top of the food chain by adopting powerful social personas.
-Repressed: Division. Represses resisting change & defending the ecosystem by emphasising division & rationalisation.
+Repressed: Division. Represses rationalizing & defending the ecosystem by resisting change & emphasising division.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
 Natural: Experimentation. Naturally transforms their habitat by finding a use for seemingly useless things productively.
 Constructive: Faith. Finds it constructive to spread self-serving altruism & friendliness by emphasising good-faith relations.
 Awkward: Supremacy. Awkwardly possesses the weak & occupies the top of the food chain by adopting powerful social personas.
-Unnatural: Division. Finds it unnatural to resist change & defend the ecosystem by emphasising division & rationalisation.
+Unnatural: Division. Finds it unnatural to rationalize & defend the ecosystem by resisting change & emphasising division.
 Indulgant: Reliability. Can over-indulge specialising in neglected aspects of ecosystem by promoting pragmatic stability.
 Unconscious: Affirmation. Can unconciously create toleration of & adaptation to the existing ecosystem via observance of its inherent quality.
 Trivializing: Catharsis. Trivializes provoking crowds into strength by promoting powerfully cathartic atmospheres.
