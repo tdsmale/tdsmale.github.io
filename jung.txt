@@ -216,8 +216,8 @@ Shadow: Parochialism. To operate with blinders on, to be subject to small-minded
 Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
 Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations for self-serving altruism & friendliness.
 Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality for tolerance & adapation to the existing ecosystem.
-Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability for improving neglected aspects of ecosystem.
-Adopting: Experimentation (Ideation + Practicality). Adopting pragmatic experimentation for transforming seemingly useless things.
+Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability for maintaining useful aspects of ecosystem.
+Adopting: Experimentation (Ideation + Practicality). Adopting pragmatic experimentation for making use of seemingly useless things.
 
 FUNCTIONS
 ---------
@@ -284,40 +284,40 @@ LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Natural: Division. Naturally emphasises structural division for the defence & rationalization of the ecosystem.
 Constructive: Supremacy. Finds it constructive to adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Obligation: Faith. Feels obligated to try and emphasise good-faith relations for self-serving altruism & friendliness.
-Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation for transforming seemingly useless things.
+Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation for making use of seemingly useless things.
 Indulgant: Radicalism. Can over-indulge observing unyielding truths for sapping strength from powerful hosts.
 Unconscious: Catharsis. Unconsciously invokes in others the promotion of a cathartic atmosphere for provoking crowds into better strength.
 Trivializing: Affirmation. Trivializes the observance of inherent quality for tolerance & adapation to the existing ecosystem.
-Repressed: Reliability. Represses the promotion of pragmatic stability for improving neglected aspects of ecosystem.
+Repressed: Reliability. Represses the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 
 IEI / INFJ / INFp / Apostle (Shadow: Coach)
 Natural: Radicalism. Naturally observes unyielding truths for sapping strength from powerful hosts.
 Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere for provoking crowds into better strength.
 Obligation: Affirmation. Feels obligated to try and observe inherent quality for tolerance & adapation to the existing ecosystem.
-Unnatural: Reliability. Finds it unnatural to promote pragmatic stability for improving neglected aspects of ecosystem.
+Unnatural: Reliability. Finds it unnatural to promote pragmatic stability for maintaining useful aspects of ecosystem.
 Indulgant: Division. Can over-indulge emphasising structural division for the defence & rationalization of the ecosystem.
 Unconscious: Supremacy. Unconsciously invokes in others the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 Trivializing: Faith. Trivializes the emphasis of good-faith relations for self-serving altruism & friendliness.
-Repressed: Experimentation. Represses the adoption of pragmatic experimentation for transforming seemingly useless things.
+Repressed: Experimentation. Represses the adoption of pragmatic experimentation for making use of seemingly useless things.
 
 EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)
 Natural: Catharsis. Naturally provokes cathartic atmosphere for provoking crowds into better strength.
 Constructive: Radicalism. Finds it constructive to observe unyielding truths for sapping strength from powerful hosts.
-Obligation: Reliability. Feels obligated to try and promote pragmatic stability for improving neglected aspects of ecosystem.
+Obligation: Reliability. Feels obligated to try and promote pragmatic stability for maintaining useful aspects of ecosystem.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality for tolerance & adapation to the existing ecosystem.
 Indulgant: Supremacy. Can over-indulge adopting powerful social personas for possessing the weak & occupying the top of the food chain.
 Unconscious: Division. Unconsciously invokes in others the emphasis of structural division for the defence & rationalization of the ecosystem.
-Trivializing: Experimentation. Trivializes the adoption of pragmatic experimentation for transforming seemingly useless things.
+Trivializing: Experimentation. Trivializes the adoption of pragmatic experimentation for making use of seemingly useless things.
 Repressed: Faith. Represses the emphasis of good-faith relations for self-serving altruism & friendliness.
 
 SLE / ESTP / ESTp / Predator (Shadow: Custodian)
 Natural: Supremacy. Naturally adopts powerful social personas for possessing the weak & occupying the top of the food chain.
 Constructive: Division. Finds it constructive to emphasises structural division for the defence & rationalization of the ecosystem.
-Obligation: Experimentation. Feels obligated to try and adopt pragmatic experimentation for transforming seemingly useless things.
+Obligation: Experimentation. Feels obligated to try and adopt pragmatic experimentation for making use of seemingly useless things.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations for self-serving altruism & friendliness.
 Indulgant: Catharsis. Can over-indulge promoting a cathartic atmosphere for provoking crowds into better strength.
 Unconscious: Radicalism. Unconsciously invokes in others the observance of unyielding truths for sapping strength from powerful hosts.
-Trivializing: Reliability. Trivializes the promotion of pragmatic stability for improving neglected aspects of ecosystem.
+Trivializing: Reliability. Trivializes the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 Repressed: Affirmation. Represses the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
@@ -362,40 +362,40 @@ Repressed: Canon. Represses the observance of an equitably-legislated understand
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faith. Naturally emphasises good-faith relations for self-serving altruism & friendliness.
-Constructive: Experimentation. Finds it constructive to adopt pragmatic experimentation for transforming seemingly useless things.
+Constructive: Experimentation. Finds it constructive to adopt pragmatic experimentation for making use of seemingly useless things.
 Obligation: Division. Feels obligated to try and emphasise structural division for the defence & rationalization of the ecosystem.
 Unnatural: Supremacy. Finds it unnatural to adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Indulgant: Affirmation. Can over-indulge observing inherent quality for tolerance & adapation to the existing ecosystem.
-Unconscious: Reliability. Unconsciously invokes in others the promotion of pragmatic stability for improving neglected aspects of ecosystem.
+Unconscious: Reliability. Unconsciously invokes in others the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 Trivializing: Radicalism. Trivializes the observance of unyielding truths for sapping strength from powerful hosts.
 Repressed: Catharsis. Represses the promotion of a cathartic atmosphere for provoking crowds into better strength.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Natural: Affirmation. Naturally observes inherent quality for tolerance & adapation to the existing ecosystem.
-Constructive: Reliability. Finds it constructive to promote pragmatic stability for improving neglected aspects of ecosystem.
+Constructive: Reliability. Finds it constructive to promote pragmatic stability for maintaining useful aspects of ecosystem.
 Obligation: Radicalism. Feels obligated to observe unyielding truths for sapping strength from powerful hosts.
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere for provoking crowds into better strength.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations for self-serving altruism & friendliness.
-Unconscious: Experimentation. Unconsciously invokes in others the adoption of pragmatic experimentation for transforming seemingly useless things.
+Unconscious: Experimentation. Unconsciously invokes in others the adoption of pragmatic experimentation for making use of seemingly useless things.
 Trivializing: Division. Trivializes the emphasis of structural division for the defence & rationalization of the ecosystem.
 Repressed: Supremacy. Represses the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
-Natural: Reliability. Naturally promotes pragmatic stability for improving neglected aspects of ecosystem.
+Natural: Reliability. Naturally promotes pragmatic stability for maintaining useful aspects of ecosystem.
 Constructive: Affirmation. Finds it constructive to observe inherent quality for tolerance & adapation to the existing ecosystem.
 Obligation: Catharsis. Feels obligated to try and promote a cathartic atmosphere for provoking crowds into better strength.
 Unnatural: Radicalism. Finds it unnatural to observe unyielding truths for sapping strength from powerful hosts.
-Indulgant: Experimentation. Can over-indulge the adoption of pragmatic experimentation for transforming seemingly useless things.
+Indulgant: Experimentation. Can over-indulge the adoption of pragmatic experimentation for making use of seemingly useless things.
 Unconscious: Faith. Unconsciously invokes in others the emphasis of good-faith relations for self-serving altruism & friendliness.
 Trivializing: Supremacy. Trivializes the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 Repressed: Division. Represses the emphasis of structural division for the defence & rationalization of the ecosystem.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
-Natural: Experimentation. Naturally adopts pragmatic experimentation for transforming seemingly useless things.
+Natural: Experimentation. Naturally adopts pragmatic experimentation for making use of seemingly useless things.
 Constructive: Faith. Finds it constructive to emphasise good-faith relations for self-serving altruism & friendliness.
 Obligation: Supremacy. Feels obligated to try and adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Unnatural: Division. Finds it unnatural to emphasise structural division for the defence & rationalization of the ecosystem.
-Indulgant: Reliability. Can over-indulge promoting pragmatic stability for improving neglected aspects of ecosystem.
+Indulgant: Reliability. Can over-indulge promoting pragmatic stability for maintaining useful aspects of ecosystem.
 Unconscious: Affirmation. Unconsciously invokes in others the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 Trivializing: Catharsis. Trivializes the promotion of a cathartic atmosphere for provoking crowds into better strength.
 Repressed: Radicalism. Represses the observance of unyielding truths for sapping strength from powerful hosts.
