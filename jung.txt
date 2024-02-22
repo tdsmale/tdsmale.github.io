@@ -247,7 +247,7 @@ Obligation: Distance. Feels obligated to try emphasising negative relations for 
 Unnatural: Expenditure. Finds it unnatural to adopt the powerful expenditure of resources for aggressive self-interest.
 Indulgant: Canon. Can over-indulge observing an equitably-legislated understanding for the satisfaction of all participants.
 Unconscious: Hospitality. Unconsciously invokes in others the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
-Trivializing: Isolation. Trivializes the observation of an inequitable distance between things for tracking & scavaging losses.
+Trivializing: Isolation. Trivializes the observance of an inequitable distance between things for tracking & scavaging losses.
 Repressed: Profitability. Represses the promotion of a pragmatic yield for escalation of competition over resources.
 
 SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)
@@ -276,9 +276,9 @@ Constructive: Tangentiality. Finds it constructive to emphasise of structural po
 Obligation: Expenditure. Feels obligated to try and adopt the powerful expenditure of resources for aggressive self-interest.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations for retaining selected resources.
 Indulgant: Hospitality. Can over-indulge promoting a welcoming atmosphere for mutual synchronisation with a crowd.
-Unconscious: Canon. Unconsciously invokes in others the observation of an equitably-legislated understanding for the mutual satisfaction of all participants.
+Unconscious: Canon. Unconsciously invokes in others the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
 Trivializing: Profitability. Trivializes the promotion of a pragmatic yield for escalation of competition over resources.
-Repressed: Isolation. Represses observing an inequitable distance between things for tracking & scavaging losses.
+Repressed: Isolation. Represses the observance of an inequitable distance between things for tracking & scavaging losses.
 
 LSI / ISTP / ISTj / Brigand (Shadow: Equarry)
 Natural: Division. Naturally emphasises structural division for the defence & rationalization of the ecosystem.
@@ -287,7 +287,7 @@ Obligation: Faith. Feels obligated to try and emphasise good-faith relations for
 Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation for transforming seemingly useless things.
 Indulgant: Radicalism. Can over-indulge observing unyielding truths for sapping strength from powerful hosts.
 Unconscious: Catharsis. Unconsciously invokes in others the promotion of a cathartic atmosphere for provoking crowds into better strength.
-Trivializing: Affirmation. Trivializes the observation of inherent quality for tolerance & adapation to the existing ecosystem.
+Trivializing: Affirmation. Trivializes the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 Repressed: Reliability. Represses the promotion of pragmatic stability for improving neglected aspects of ecosystem.
 
 IEI / INFJ / INFp / Apostle (Shadow: Coach)
@@ -316,9 +316,9 @@ Constructive: Division. Finds it constructive to emphasises structural division 
 Obligation: Experimentation. Feels obligated to try and adopt pragmatic experimentation for transforming seemingly useless things.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations for self-serving altruism & friendliness.
 Indulgant: Catharsis. Can over-indulge promoting a cathartic atmosphere for provoking crowds into better strength.
-Unconscious: Radicalism. Unconsciously invokes in others the observation of unyielding truths for sapping strength from powerful hosts.
+Unconscious: Radicalism. Unconsciously invokes in others the observance of unyielding truths for sapping strength from powerful hosts.
 Trivializing: Reliability. Trivializes the promotion of pragmatic stability for improving neglected aspects of ecosystem.
-Repressed: Affirmation. Represses the observation of inherent quality for tolerance & adapation to the existing ecosystem.
+Repressed: Affirmation. Represses the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
 Natural: Distance. Naturally emphasises negative relations for retaining selected resources.
@@ -327,8 +327,8 @@ Obligation: Tangentiality. Feels obligated to try and emphasise structural possi
 Unnatural: Silliness. Finds it unnatural to adopt silly social personas for the discovery of new ecological niches to share.
 Indulgant: Isolation. Can over-indulge observing an inequitable distance between things for tracking & scavaging losses.
 Unconscious: Profitability. Unconsciously invokes in others the promotion of a pragmatic yield for escalation of competition over resources.
-Trivializing: Canon. Trivializes observing an equitably-legislated understanding for the mutual satisfaction of all participants.
-Repressed: Hospitality. Represses promoting a welcoming atmosphere for mutual synchronisation with a crowd.
+Trivializing: Canon. Trivializes the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
+Repressed: Hospitality. Represses the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
 
 ILI / INTJ / INTp / Vulture (Shadow: Fool)
 Natural: Isolation. Naturally observes an inequitable distance between things for tracking & scavaging losses.
@@ -337,8 +337,8 @@ Obligation: Canon. Feels obligated to try observing an equitably-legislated unde
 Unnatural: Hospitality. Finds it unnatural to promote a welcoming atmosphere for mutual synchronisation with a crowd.
 Indulgant: Distance. Can over-indulge emphasising negative relations for retaining selected resources.
 Unconscious: Expenditure. Unconsciously invokes in others the adoption of the powerful expenditure of resources for aggressive self-interest.
-Trivializing: Tangentiality. Trivializes emphasising structural possibilities for the mutual refusal of competition.
-Repressed: Silliness. Represses adopting silly social personas for the discovery of new ecological niches to share.
+Trivializing: Tangentiality. Trivializes the emphasis of structural possibilities for the mutual refusal of competition.
+Repressed: Silliness. Represses the adoption of silly social personas for the discovery of new ecological niches to share.
 
 LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
 Natural: Profitability. Naturally promotes a pragmatic yield for escalation of competition over resources.
@@ -347,8 +347,8 @@ Obligation: Hospitality. Feels obligated to promote a welcoming atmosphere for m
 Unnatural: Canon. Finds it unnatural to observe an equitably-legislated understanding for the mutual satisfaction of all participants.
 Indulgant: Expenditure. Can over-indulge adopting the powerful expenditure of resources for aggressive self-interest.
 Unconscious: Distance. Unconsciously invokes in others the emphasis of negative relations for retaining selected resources.
-Trivializing: Silliness. Trivializes adopting silly social personas for the discovery of new ecological niches to share.
-Repressed: Tangentiality. Represses emphasising structural possibilities for the mutual refusal of competition.
+Trivializing: Silliness. Trivializes the adoption of silly social personas for the discovery of new ecological niches to share.
+Repressed: Tangentiality. Represses the emphasis of structural possibilities for the mutual refusal of competition.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
 Natural: Expenditure. Naturally adopts the powerful expenditure of resources for aggressive self-interest.
@@ -356,9 +356,9 @@ Constructive: Distance. Finds it constructive to emphasise negative relations fo
 Obligation: Silliness. Feels obligated to try and adopt silly social personas for the discovery of new ecological niches to share.
 Unnatural: Tangentiality. Finds it unnatural to emphasise structural possibilities for the mutual refusal of competition.
 Indulgant: Profitability. Can over-indulge promoting a pragmatic yield for escalation of competition over resources.
-Unconscious: Isolation. Unconsciously invokes in others the observation of inequitable distance between things for tracking & scavaging losses.
-Trivializing: Hospitality. Trivializes promoting a welcoming atmosphere for mutual synchronisation with a crowd.
-Repressed: Canon. Represses observing an equitably-legislated understanding for the mutual satisfaction of all participants.
+Unconscious: Isolation. Unconsciously invokes in others the observance of inequitable distance between things for tracking & scavaging losses.
+Trivializing: Hospitality. Trivializes the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
+Repressed: Canon. Represses the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
 
 EII / INFP / INFj / Seelie (Shadow: Provocateur)
 Natural: Faith. Naturally emphasises good-faith relations for self-serving altruism & friendliness.
@@ -367,8 +367,8 @@ Obligation: Division. Feels obligated to try and emphasise structural division f
 Unnatural: Supremacy. Finds it unnatural to adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Indulgant: Affirmation. Can over-indulge observing inherent quality for tolerance & adapation to the existing ecosystem.
 Unconscious: Reliability. Unconsciously invokes in others the promotion of pragmatic stability for improving neglected aspects of ecosystem.
-Trivializing: Radicalism. Trivializes the observation of unyielding truths for sapping strength from powerful hosts.
-Repressed: Catharsis. Represses promoting a cathartic atmosphere for provoking crowds into better strength.
+Trivializing: Radicalism. Trivializes the observance of unyielding truths for sapping strength from powerful hosts.
+Repressed: Catharsis. Represses the promotion of a cathartic atmosphere for provoking crowds into better strength.
 
 SLI / ISTJ / ISTp / Custodian (Shadow: Predator)
 Natural: Affirmation. Naturally observes inherent quality for tolerance & adapation to the existing ecosystem.
@@ -377,7 +377,7 @@ Obligation: Radicalism. Feels obligated to observe unyielding truths for sapping
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere for provoking crowds into better strength.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations for self-serving altruism & friendliness.
 Unconscious: Experimentation. Unconsciously invokes in others the adoption of pragmatic experimentation for transforming seemingly useless things.
-Trivializing: Division. Trivializes emphasising structural division for the defence & rationalization of the ecosystem.
+Trivializing: Division. Trivializes the emphasis of structural division for the defence & rationalization of the ecosystem.
 Repressed: Supremacy. Represses the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 
 LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)
@@ -388,7 +388,7 @@ Unnatural: Radicalism. Finds it unnatural to observe unyielding truths for sappi
 Indulgant: Experimentation. Can over-indulge the adoption of pragmatic experimentation for transforming seemingly useless things.
 Unconscious: Faith. Unconsciously invokes in others the emphasis of good-faith relations for self-serving altruism & friendliness.
 Trivializing: Supremacy. Trivializes the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
-Repressed: Division. Represses emphasising structural division for the defence & rationalization of the ecosystem.
+Repressed: Division. Represses the emphasis of structural division for the defence & rationalization of the ecosystem.
 
 IEE / ENFP / ENFp / Coach (Shadow: Apostle)
 Natural: Experimentation. Naturally adopts pragmatic experimentation for transforming seemingly useless things.
@@ -397,5 +397,5 @@ Obligation: Supremacy. Feels obligated to try and adopt powerful social personas
 Unnatural: Division. Finds it unnatural to emphasise structural division for the defence & rationalization of the ecosystem.
 Indulgant: Reliability. Can over-indulge promoting pragmatic stability for improving neglected aspects of ecosystem.
 Unconscious: Affirmation. Unconsciously invokes in others the observance of inherent quality for tolerance & adapation to the existing ecosystem.
-Trivializing: Catharsis. Trivializes promoting a cathartic atmosphere for provoking crowds into better strength.
-Repressed: Radicalism. Represses the observation of unyielding truths for sapping strength from powerful hosts.
+Trivializing: Catharsis. Trivializes the promotion of a cathartic atmosphere for provoking crowds into better strength.
+Repressed: Radicalism. Represses the observance of unyielding truths for sapping strength from powerful hosts.
