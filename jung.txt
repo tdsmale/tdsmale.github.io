@@ -166,6 +166,8 @@ Typically has problems with being too impractical or childish.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
+Hogwarts House: Ravenclaw. Value intelligence, knowledge, curiosity, creativity & wit.
+Tolkien Race: Hobbits. Lighthearted, easygoing, settled.
 Symptomatic: Tangentiality (Potential + Truth). Emphasising structural possibilities for the mutual refusal of competition.
 Observant: Canon (Structure + Acceptance). Observing an equitably-legislated understanding for the mutual satisfaction of all participants.
 Promoting: Hospitality (Expression + Comfort). Promoting a welcoming atmosphere for mutual synchronisation with a crowd.
@@ -182,6 +184,8 @@ Typically has problems with being too passionate or tyrannical.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
+Hogwarts House: Gryffindor. Value bravery, daring, nerve and chivalry.
+Tolkien Race: Humans. Power-hungry, heroic, dramatic.
 Symptomatic: Division (Control + Truth). Emphasising structural division for the defence & rationalization of the ecosystem.
 Observant: Radicalism (Structure + Timing). Observing unyielding truths for sapping strength from powerful hosts.
 Promoting: Catharsis (Expression + Foresight). Promoting a cathartic atmosphere for provoking crowds into better strength.
@@ -198,6 +202,8 @@ Typically has problems with being too cold or distant.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
 Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
+Hogwarts House: Slytherin. Value ambition, leadership, self-preservation, cunning & resourcefulness.
+Tolkien Race: Dwarves. Secretive, laborious, hoarding.
 Symptomatic: Distance (Control + Relations). Emphasising negative relations for retaining selected resources.
 Observant: Isolation (Individuation + Timing). Observing an inequitable distance between things for tracking & scavaging losses.
 Promoting: Profitability (Efficiency + Foresight). Promoting a pragmatic yield for escalation of competition over resources.
@@ -214,6 +220,8 @@ Typically has problems with being too accepting or understanding.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
+Hogwarts House: Hufflepuff. Value hard work, dedication, patience, loyalty & fair play.
+Tolkien Race: Elves. Skillful, harmonious, reserved.
 Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations for self-serving altruism & friendliness.
 Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality for tolerance & adapation to the existing ecosystem.
 Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability for maintaining useful aspects of ecosystem.
