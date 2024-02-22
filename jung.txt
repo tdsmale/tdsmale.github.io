@@ -246,7 +246,7 @@ Constructive: Silliness. Finds it constructive to adopt silly social personas fo
 Obligation: Distance. Feels obligated to try emphasising negative relations for retaining selected resources.
 Unnatural: Expenditure. Finds it unnatural to adopt the powerful expenditure of resources for aggressive self-interest.
 Indulgant: Canon. Can over-indulge observing an equitably-legislated understanding for the satisfaction of all participants.
-Unconscious: Hospitality. Unconsciously invokes in others the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
+Unconscious: Hospitality. Unconsciously provokes the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
 Trivializing: Isolation. Trivializes the observance of an inequitable distance between things for tracking & scavaging losses.
 Repressed: Profitability. Represses the promotion of a pragmatic yield for escalation of competition over resources.
 
@@ -256,7 +256,7 @@ Constructive: Hospitality. Finds it constructive to promote a welcoming atmosphe
 Obligation: Isolation. Feels obligated to try observing an inequitable distance between things for tracking & scavaging losses.
 Unnatural: Profitability. Finds it unnatural to promote a pragmatic yield for escalation of competition over resources.
 Indulgant: Tangentiality. Can over-indulge emphasising structural possibilities for the mutual refusal of competition.
-Unconscious: Silliness. Unconsciously invokes in others the adoption of silly social personas for the discovery of new ecological niches to share.
+Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas for the discovery of new ecological niches to share.
 Trivializing: Distance. Trivializes the emphasis of negative relations for retaining selected resources.
 Repressed: Expenditure. Represses the adoption of the powerful expenditure of resources for aggressive self-interest.
 
@@ -266,7 +266,7 @@ Constructive: Canon. Finds it constructive to observe an equitably-legislated un
 Obligation: Profitability. Feels obligated to try and promote a pragmatic yield for escalation of competition over resources.
 Unnatural: Isolation. Finds it unnatural to observe an inequitable distance between things for tracking & scavaging losses.
 Indulgant: Silliness. Can over-indulge adopting silly social personas for the discovery of new ecological niches to share.
-Unconscious: Tangentiality. Unconsciously invokes in others the emphasis of structural possibilities for the mutual refusal of competition.
+Unconscious: Tangentiality. Unconsciously provokes the emphasis of structural possibilities for the mutual refusal of competition.
 Trivializing: Expenditure. Trivializes the adoption of the powerful expenditure of resources for aggressive self-interest.
 Repressed: Distance. Represses the emphasis of negative relations for retaining selected resources.
 
@@ -276,7 +276,7 @@ Constructive: Tangentiality. Finds it constructive to emphasise of structural po
 Obligation: Expenditure. Feels obligated to try and adopt the powerful expenditure of resources for aggressive self-interest.
 Unnatural: Distance. Finds it unnatural to emphasise negative relations for retaining selected resources.
 Indulgant: Hospitality. Can over-indulge promoting a welcoming atmosphere for mutual synchronisation with a crowd.
-Unconscious: Canon. Unconsciously invokes in others the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
+Unconscious: Canon. Unconsciously provokes the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
 Trivializing: Profitability. Trivializes the promotion of a pragmatic yield for escalation of competition over resources.
 Repressed: Isolation. Represses the observance of an inequitable distance between things for tracking & scavaging losses.
 
@@ -286,7 +286,7 @@ Constructive: Supremacy. Finds it constructive to adopt powerful social personas
 Obligation: Faith. Feels obligated to try and emphasise good-faith relations for self-serving altruism & friendliness.
 Unnatural: Experimentation. Finds it unnatural to adopt pragmatic experimentation for making use of seemingly useless things.
 Indulgant: Radicalism. Can over-indulge observing unyielding truths for sapping strength from powerful hosts.
-Unconscious: Catharsis. Unconsciously invokes in others the promotion of a cathartic atmosphere for provoking crowds into better strength.
+Unconscious: Catharsis. Unconsciously provokes the promotion of a cathartic atmosphere for provoking crowds into better strength.
 Trivializing: Affirmation. Trivializes the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 Repressed: Reliability. Represses the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 
@@ -296,7 +296,7 @@ Constructive: Catharsis. Finds it constructive to promote a cathartic atmosphere
 Obligation: Affirmation. Feels obligated to try and observe inherent quality for tolerance & adapation to the existing ecosystem.
 Unnatural: Reliability. Finds it unnatural to promote pragmatic stability for maintaining useful aspects of ecosystem.
 Indulgant: Division. Can over-indulge emphasising structural division for the defence & rationalization of the ecosystem.
-Unconscious: Supremacy. Unconsciously invokes in others the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
+Unconscious: Supremacy. Unconsciously provokes the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 Trivializing: Faith. Trivializes the emphasis of good-faith relations for self-serving altruism & friendliness.
 Repressed: Experimentation. Represses the adoption of pragmatic experimentation for making use of seemingly useless things.
 
@@ -306,7 +306,7 @@ Constructive: Radicalism. Finds it constructive to observe unyielding truths for
 Obligation: Reliability. Feels obligated to try and promote pragmatic stability for maintaining useful aspects of ecosystem.
 Unnatural: Affirmation. Finds it unnatural to observe inherent quality for tolerance & adapation to the existing ecosystem.
 Indulgant: Supremacy. Can over-indulge adopting powerful social personas for possessing the weak & occupying the top of the food chain.
-Unconscious: Division. Unconsciously invokes in others the emphasis of structural division for the defence & rationalization of the ecosystem.
+Unconscious: Division. Unconsciously provokes the emphasis of structural division for the defence & rationalization of the ecosystem.
 Trivializing: Experimentation. Trivializes the adoption of pragmatic experimentation for making use of seemingly useless things.
 Repressed: Faith. Represses the emphasis of good-faith relations for self-serving altruism & friendliness.
 
@@ -316,7 +316,7 @@ Constructive: Division. Finds it constructive to emphasises structural division 
 Obligation: Experimentation. Feels obligated to try and adopt pragmatic experimentation for making use of seemingly useless things.
 Unnatural: Faith. Finds it unnatural to emphasise good-faith relations for self-serving altruism & friendliness.
 Indulgant: Catharsis. Can over-indulge promoting a cathartic atmosphere for provoking crowds into better strength.
-Unconscious: Radicalism. Unconsciously invokes in others the observance of unyielding truths for sapping strength from powerful hosts.
+Unconscious: Radicalism. Unconsciously provokes the observance of unyielding truths for sapping strength from powerful hosts.
 Trivializing: Reliability. Trivializes the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 Repressed: Affirmation. Represses the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 
@@ -326,7 +326,7 @@ Constructive: Expenditure. Finds it constructive to adopt the powerful expenditu
 Obligation: Tangentiality. Feels obligated to try and emphasise structural possibilities for the mutual refusal of competition.
 Unnatural: Silliness. Finds it unnatural to adopt silly social personas for the discovery of new ecological niches to share.
 Indulgant: Isolation. Can over-indulge observing an inequitable distance between things for tracking & scavaging losses.
-Unconscious: Profitability. Unconsciously invokes in others the promotion of a pragmatic yield for escalation of competition over resources.
+Unconscious: Profitability. Unconsciously provokes the promotion of a pragmatic yield for escalation of competition over resources.
 Trivializing: Canon. Trivializes the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
 Repressed: Hospitality. Represses the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
 
@@ -336,7 +336,7 @@ Constructive: Profitability. Finds it constructive to promote a pragmatic yield 
 Obligation: Canon. Feels obligated to try observing an equitably-legislated understanding for the mutual satisfaction of all participants.
 Unnatural: Hospitality. Finds it unnatural to promote a welcoming atmosphere for mutual synchronisation with a crowd.
 Indulgant: Distance. Can over-indulge emphasising negative relations for retaining selected resources.
-Unconscious: Expenditure. Unconsciously invokes in others the adoption of the powerful expenditure of resources for aggressive self-interest.
+Unconscious: Expenditure. Unconsciously provokes the adoption of the powerful expenditure of resources for aggressive self-interest.
 Trivializing: Tangentiality. Trivializes the emphasis of structural possibilities for the mutual refusal of competition.
 Repressed: Silliness. Represses the adoption of silly social personas for the discovery of new ecological niches to share.
 
@@ -346,7 +346,7 @@ Constructive: Isolation. Finds it constructive to observe an inequitable distanc
 Obligation: Hospitality. Feels obligated to promote a welcoming atmosphere for mutual synchronisation with a crowd.
 Unnatural: Canon. Finds it unnatural to observe an equitably-legislated understanding for the mutual satisfaction of all participants.
 Indulgant: Expenditure. Can over-indulge adopting the powerful expenditure of resources for aggressive self-interest.
-Unconscious: Distance. Unconsciously invokes in others the emphasis of negative relations for retaining selected resources.
+Unconscious: Distance. Unconsciously provokes the emphasis of negative relations for retaining selected resources.
 Trivializing: Silliness. Trivializes the adoption of silly social personas for the discovery of new ecological niches to share.
 Repressed: Tangentiality. Represses the emphasis of structural possibilities for the mutual refusal of competition.
 
@@ -356,7 +356,7 @@ Constructive: Distance. Finds it constructive to emphasise negative relations fo
 Obligation: Silliness. Feels obligated to try and adopt silly social personas for the discovery of new ecological niches to share.
 Unnatural: Tangentiality. Finds it unnatural to emphasise structural possibilities for the mutual refusal of competition.
 Indulgant: Profitability. Can over-indulge promoting a pragmatic yield for escalation of competition over resources.
-Unconscious: Isolation. Unconsciously invokes in others the observance of inequitable distance between things for tracking & scavaging losses.
+Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance between things for tracking & scavaging losses.
 Trivializing: Hospitality. Trivializes the promotion of a welcoming atmosphere for mutual synchronisation with a crowd.
 Repressed: Canon. Represses the observance of an equitably-legislated understanding for the mutual satisfaction of all participants.
 
@@ -366,7 +366,7 @@ Constructive: Experimentation. Finds it constructive to adopt pragmatic experime
 Obligation: Division. Feels obligated to try and emphasise structural division for the defence & rationalization of the ecosystem.
 Unnatural: Supremacy. Finds it unnatural to adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Indulgant: Affirmation. Can over-indulge observing inherent quality for tolerance & adapation to the existing ecosystem.
-Unconscious: Reliability. Unconsciously invokes in others the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
+Unconscious: Reliability. Unconsciously provokes the promotion of pragmatic stability for maintaining useful aspects of ecosystem.
 Trivializing: Radicalism. Trivializes the observance of unyielding truths for sapping strength from powerful hosts.
 Repressed: Catharsis. Represses the promotion of a cathartic atmosphere for provoking crowds into better strength.
 
@@ -376,7 +376,7 @@ Constructive: Reliability. Finds it constructive to promote pragmatic stability 
 Obligation: Radicalism. Feels obligated to observe unyielding truths for sapping strength from powerful hosts.
 Unnatural: Catharsis. Finds it unnatural to promote a cathartic atmosphere for provoking crowds into better strength.
 Indulgant: Faith. Can over-indulge emphasising good-faith relations for self-serving altruism & friendliness.
-Unconscious: Experimentation. Unconsciously invokes in others the adoption of pragmatic experimentation for making use of seemingly useless things.
+Unconscious: Experimentation. Unconsciously provokes the adoption of pragmatic experimentation for making use of seemingly useless things.
 Trivializing: Division. Trivializes the emphasis of structural division for the defence & rationalization of the ecosystem.
 Repressed: Supremacy. Represses the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 
@@ -386,7 +386,7 @@ Constructive: Affirmation. Finds it constructive to observe inherent quality for
 Obligation: Catharsis. Feels obligated to try and promote a cathartic atmosphere for provoking crowds into better strength.
 Unnatural: Radicalism. Finds it unnatural to observe unyielding truths for sapping strength from powerful hosts.
 Indulgant: Experimentation. Can over-indulge the adoption of pragmatic experimentation for making use of seemingly useless things.
-Unconscious: Faith. Unconsciously invokes in others the emphasis of good-faith relations for self-serving altruism & friendliness.
+Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations for self-serving altruism & friendliness.
 Trivializing: Supremacy. Trivializes the adoption of powerful social personas for possessing the weak & occupying the top of the food chain.
 Repressed: Division. Represses the emphasis of structural division for the defence & rationalization of the ecosystem.
 
@@ -396,6 +396,6 @@ Constructive: Faith. Finds it constructive to emphasise good-faith relations for
 Obligation: Supremacy. Feels obligated to try and adopt powerful social personas for possessing the weak & occupying the top of the food chain.
 Unnatural: Division. Finds it unnatural to emphasise structural division for the defence & rationalization of the ecosystem.
 Indulgant: Reliability. Can over-indulge promoting pragmatic stability for maintaining useful aspects of ecosystem.
-Unconscious: Affirmation. Unconsciously invokes in others the observance of inherent quality for tolerance & adapation to the existing ecosystem.
+Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality for tolerance & adapation to the existing ecosystem.
 Trivializing: Catharsis. Trivializes the promotion of a cathartic atmosphere for provoking crowds into better strength.
 Repressed: Radicalism. Represses the observance of unyielding truths for sapping strength from powerful hosts.
