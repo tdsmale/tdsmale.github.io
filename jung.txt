@@ -64,7 +64,7 @@ Ti + Pe: Truth. Creating structure.
 Fi + Pe: Relations. Creating individuation.
 Ti + Se: Division. Structural + Forceful. External & Static. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
 Ti + Ne: Tangentiality. Structural + Digressive. Detached & Static. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
-Fi + Se: Distance. Sincere + Forceful. Involved & Static. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
+Fi + Se: Privileging. Sincere + Forceful. Involved & Static. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
 Fi + Ne: Faith. Sincere + Digressive. Internal & Static. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
 Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result. Reactive.
@@ -130,7 +130,7 @@ Theoretic: Narrational + Enhancement. Childish & welcoming. (Ti/Fe/Si/Ne)
 Solipsistic: Economical + Collapse. Independent & distant. (Fi/Te/Ni/Se)
 
 Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
-Atomistic Fi: Minimising negative relations. Harsh judgement of character. Distance & Isolation.
+Atomistic Fi: Minimising negative relations. Harsh judgement of character. Privileging & Isolation.
 
 Hierarchal Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
 Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
@@ -145,7 +145,7 @@ Hierarchal Ni: Minimising negative impact. Premonition of discordance. Radicalis
 Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
 
 Hierarchal Se: Minimising negative consequences. Possessing the weak. division & Supremacy.
-Atomistic Se: Maximising positive consequences. Retention of resources. Distance & Expenditure.
+Atomistic Se: Maximising positive consequences. Retention of resources. Privileging & Expenditure.
 
 Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
 Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
@@ -198,7 +198,7 @@ Gamma.
 Collapsing.
 Atomistic.
 Economical.
-Negative relations collapse into harsh practicality, leading to psychological inequity.
+Privileged relations collapse into harsh practicality, leading to psychological inequity.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
 
@@ -207,7 +207,7 @@ Ideal: Independence. To determine one's own efforts & interests, free of interfe
 Shadow: Delegation. To represent others or to do their work for them.
 Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
 
-Symptomatic: Distance (Control + Relations). Emphasising retentive relations.
+Symptomatic: Privileging (Control + Relations). Emphasising retentive relations.
 Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
 Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
 Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
@@ -255,7 +255,7 @@ TYPES
 LII / INTP / INTj / Sophist (Shadow: Investor)
 Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly social personas.
-Obligation: Distance. Feels obligated to try emphasising retentive relations.
+Obligation: Privileging. Feels obligated to try emphasising retentive relations.
 Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
 Indulgant: Canon. Can over-indulge observing a mutually-legislated understanding.
 Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
@@ -269,7 +269,7 @@ Obligation: Isolation. Feels obligated to try observing an inequitable distance.
 Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
 Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
 Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
-Trivializing: Distance. Trivializes the emphasis of retentive relations.
+Trivializing: Privileging. Trivializes the emphasis of retentive relations.
 Repressed: Expenditure. Represses the adoption of aggressive self-interest.
 
 ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)
@@ -280,13 +280,13 @@ Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
 Indulgant: Silliness. Can over-indulge adopting silly social personas.
 Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
 Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
-Repressed: Distance. Represses the emphasis of retentive relations.
+Repressed: Privileging. Represses the emphasis of retentive relations.
 
 ILE / ENTP / ENTp / Fool (Shadow: Vulture)
 Natural: Silliness. Naturally adopts silly social personas.
 Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
-Unnatural: Distance. Finds it unnatural to emphasise retentive relations.
+Unnatural: Privileging. Finds it unnatural to emphasise retentive relations.
 Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
 Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
 Trivializing: Profitability. Trivializes the promotion of competitive escalation.
@@ -333,7 +333,7 @@ Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
 Repressed: Affirmation. Represses the observance of inherent quality.
 
 ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)
-Natural: Distance. Naturally emphasises retentive relations.
+Natural: Privileging. Naturally emphasises retentive relations.
 Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
 Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
@@ -347,7 +347,7 @@ Natural: Isolation. Naturally observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote competitive escalation.
 Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
 Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
-Indulgant: Distance. Can over-indulge emphasising retentive relations.
+Indulgant: Privileging. Can over-indulge emphasising retentive relations.
 Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
 Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 Repressed: Silliness. Represses the adoption of silly social personas.
@@ -358,13 +358,13 @@ Constructive: Isolation. Finds it constructive to observe an inequitable distanc
 Obligation: Hospitality. Feels obligated to promote a mutually welcoming atmosphere.
 Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
-Unconscious: Distance. Unconsciously provokes the emphasis of retentive relations.
+Unconscious: Privileging. Unconsciously provokes the emphasis of retentive relations.
 Trivializing: Silliness. Trivializes the adoption of silly social personas.
 Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
 
 SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)
 Natural: Expenditure. Naturally adopts aggressive self-interest.
-Constructive: Distance. Finds it constructive to emphasise retentive relations.
+Constructive: Privileging. Finds it constructive to emphasise retentive relations.
 Obligation: Silliness. Feels obligated to try and adopt silly social personas.
 Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
 Indulgant: Profitability. Can over-indulge promoting competitive escalation.
