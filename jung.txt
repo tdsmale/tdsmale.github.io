@@ -163,6 +163,7 @@ Narrational.
 Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
 Welcoming company that doesn't take anything too seriously.
 Typically has problems with being too impractical or childish.
+
 Worldview: Playful. The only thing to take seriously is not taking things seriously.
 Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
 Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
@@ -174,7 +175,7 @@ Observant: Canon (Structure + Acceptance). Observing an equitably-legislated und
 Promoting: Hospitality (Expression + Comfort). Promoting a welcoming atmosphere for mutual synchronisation with a crowd.
 Adopting: Silliness (Ideation + Personas). Adopting silly social personas for the discovery of new ecological niches to share.
 
-Schismatic
+Schismatic.
 Beta.
 Collapsing.
 Hierarchal.
@@ -182,6 +183,7 @@ Narrational.
 Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 Rowdy company prone to ideological conflict.
 Typically has problems with being too passionate or tyrannical.
+
 Worldview: Transformative. Having a passionate will to realise visions & conquer enemies.
 Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
@@ -201,6 +203,7 @@ Economical.
 Negative relations collapse into harsh practicality, leading to psychological inequity.
 Self-driven, individualistic and sceptical of others.
 Typically has problems with being too cold or distant.
+
 Worldview: Strategic. Making pragmatic decisions and achieving long-term success.
 Ideal: Independence. To determine one's own efforts & interests, free of interference.
 Shadow: Delegation. To represent others or to do their work for them.
@@ -220,6 +223,7 @@ Economical.
 Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 Grounded, high-minded & driven to potentiate the best in how things are.
 Typically has problems with being too accepting or understanding.
+
 Worldview: Harmonious. Living in wisened harmony with one's environment.
 Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
