@@ -344,6 +344,8 @@ Private, Strong and Not Valued.
 
 ## Types
 
+### Atomistic Types
+
 **LII / INTP / INTj / Sophist (Shadow: Capitalist)**
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
@@ -384,46 +386,6 @@ Private, Strong and Not Valued.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
 - Repressed: Isolation. Represses the observance of an inequitable distance.
 
-**LSI / ISTP / ISTj / Brigand (Shadow: Equarry)**
-- Natural: Division. Naturally emphasises defensive structural rationales.
-- Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
-- Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
-- Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
-- Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
-- Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
-- Trivializing: Affirmation. Trivializes the observance of inherent quality.
-- Repressed: Reliability. Represses the promotion of pragmatic stability.
-
-**IEI / INFJ / INFp / Apostle (Shadow: Coach)**
-- Natural: Radicalism. Naturally observes exploitative underpinnings.
-- Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
-- Obligation: Affirmation. Feels obligated to try and observe inherent quality.
-- Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
-- Indulgant: Division. Can over-indulge emphasising defensive structural rationales.
-- Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
-- Trivializing: Faith. Trivializes the emphasis of good-faith relations.
-- Repressed: Experimentation. Represses the adoption of seemingly useless things.
-
-**EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)**
-- Natural: Catharsis. Naturally promotes a purgative atmosphere.
-- Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
-- Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
-- Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
-- Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
-- Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
-- Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
-- Repressed: Faith. Represses the emphasis of good-faith relations.
-
-**SLE / ESTP / ESTp / Predator (Shadow: Custodian)**
-- Natural: Supremacy. Naturally adopts possessive social personas.
-- Constructive: Division. Finds it constructive to emphasises defensive structural rationales.
-- Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
-- Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
-- Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
-- Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
-- Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
-- Repressed: Affirmation. Represses the observance of inherent quality.
-
 **ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)**
 - Natural: Privilege. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
@@ -463,6 +425,48 @@ Private, Strong and Not Valued.
 - Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 - Repressed: Canon. Represses the observance of a mutually-legislated understanding.
+
+### Hierarchal Types
+
+**LSI / ISTP / ISTj / Brigand (Shadow: Equarry)**
+- Natural: Division. Naturally emphasises defensive structural rationales.
+- Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
+- Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
+- Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
+- Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
+- Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
+- Trivializing: Affirmation. Trivializes the observance of inherent quality.
+- Repressed: Reliability. Represses the promotion of pragmatic stability.
+
+**IEI / INFJ / INFp / Apostle (Shadow: Coach)**
+- Natural: Radicalism. Naturally observes exploitative underpinnings.
+- Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
+- Obligation: Affirmation. Feels obligated to try and observe inherent quality.
+- Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
+- Indulgant: Division. Can over-indulge emphasising defensive structural rationales.
+- Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
+- Trivializing: Faith. Trivializes the emphasis of good-faith relations.
+- Repressed: Experimentation. Represses the adoption of seemingly useless things.
+
+**EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)**
+- Natural: Catharsis. Naturally promotes a purgative atmosphere.
+- Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
+- Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
+- Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
+- Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
+- Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
+- Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
+- Repressed: Faith. Represses the emphasis of good-faith relations.
+
+**SLE / ESTP / ESTp / Predator (Shadow: Custodian)**
+- Natural: Supremacy. Naturally adopts possessive social personas.
+- Constructive: Division. Finds it constructive to emphasises defensive structural rationales.
+- Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
+- Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
+- Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
+- Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
+- Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
+- Repressed: Affirmation. Represses the observance of inherent quality.
 
 **EII / INFP / INFj / Seelie (Shadow: Provocateur)**
 - Natural: Faith. Naturally emphasises good-faith relations.
