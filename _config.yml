@@ -1,6 +1,4 @@
-permalink: /:year/:month/:day/:title:output_ext
 markdown: GFM
-#theme: jekyll-theme-minimal
 remote_theme: jekyll/minima
 minima:
   skin: dark
