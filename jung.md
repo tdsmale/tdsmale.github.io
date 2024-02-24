@@ -62,22 +62,26 @@
 
 ## Information Element Pairings
 
-### Fi + Te: Economical. Sincere + Productive.
+### Fi + Te: Economical. 
+- Sincere + Productive.
 - Using resources in personally-valuable ways.
 - Characterised by resourcefulness, seriousness and individuation.
 
-### Ti + Fe: Narrational. Structural + Expressive.
+### Ti + Fe: Narrational. 
+- Structural + Expressive.
 - Guiding audiences to a central truth.
 - Characterised by small talk, flippancy and group membership.
 
-### Ni + Se: Collapsing. Dissociative + Forceful.
+### Ni + Se: Collapsing. 
+- Dissociative + Forceful.
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
 - Guided by sinking feelings.
 - Akin to waves crashing against the shore.
 
-### Si + Ne: Enhancing. Relaxed + Digressive.
+### Si + Ne: Enhancing. 
+- Relaxed + Digressive.
 - Enjoying what life has to offer.
 - Maximising the positive in life.
 - Brings an airy, buoyant attitude to things.
@@ -92,7 +96,8 @@
 
 ## Information Attitudes
 
-- Ji + Pe: Symptomatic. Seeks to represent external processes. Emphasises the result. Static.
+### Ji + Pe: Symptomatic.
+Seeks to represent external processes. Emphasises the result. Static.
 - Ji + Se: Control. Denying potential.
 - Ji + Ne: Potential. Denying control.
 - Ti + Pe: Truth. Creating structure.
@@ -102,7 +107,8 @@
 - Fi + Se: Privilege. Sincere + Forceful. Involved & Static. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
 - Fi + Ne: Faith. Sincere + Digressive. Internal & Static. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
-- Ji + Pi: Observant. Seeks to be seperate from external processes. Minimises the result. Reactive.
+### Ji + Pi: Observant. 
+Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ti + Pi: Structure. Denying practicality.
 - Fi + Pi: Individuation. Denying personas.
 - Ji + Ni: Timing. Denying acceptance.
@@ -112,7 +118,8 @@
 - Fi + Ni: Isolation. Sincere + Dissociative. Internal & Reactive. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
 - Fi + Si: Affirmation. Sincere + Relaxed. Involved & Reactive. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
 
-- Je + Pi: Promoting. Seeks to promote external processes. Promotes further results. Dynamic.
+### Je + Pi: Promoting.
+Seeks to promote external processes. Promotes further results. Dynamic.
 - Te + Pi: Efficiency. Creating practicality.
 - Fe + Pi: Expression. Creating personas.
 - Je + Ni: Foresight. Creating timing.
@@ -122,7 +129,8 @@
 - Te + Ni: Profitability. Productive + Dissociative. Detached & Dynamic. Efficient Foresight. Creating practicality by creating timing. Promoting competitive escalation.
 - Te + Si: Reliability. Productive + Relaxed. External & Dynamic. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
 
-- Je + Pe: Adopting. Seeks to make the most of external processes. Adopts the result. Active.
+### Je + Pe: Adopting.
+Seeks to make the most of external processes. Adopts the result. Active.
 - Je + Se: Capture. Creating control.
 - Je + Ne: Ideation. Creating potential.
 - Te + Pe: Practicality. Denying structure.
