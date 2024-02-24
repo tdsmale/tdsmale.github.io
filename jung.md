@@ -1,5 +1,5 @@
 # Jungian Exegesis
-
+Summation of Jungian & Socionics theory. 
 ## Base Dichotomies
 
 ### Position
