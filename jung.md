@@ -220,136 +220,127 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
 
-## Hierarchal vs Atomistic
+## Type Groupings
 
 ### Hierarchal.
 Relating to others in terms of the social categories they are part of.
-- Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
-- Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
+- Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
+- Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
+- Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
+- Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
+- Ni: Minimising negative impact. Premonition of discordance. Radicalism & Catharsis.
+- Se: Minimising negative consequences. Possessing the weak. Division & Supremacy.
+- Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
+- Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
 
-### Atomistic. 
-Relating to others in terms of individual qualities relative to a whole.
-- Theoretic: Narrational + Enhancement. Childish & welcoming. (Ti/Fe/Si/Ne)
-- Solipsistic: Economical + Collapse. Independent & distant. (Fi/Te/Ni/Se)
-
-### Comparisons
-- Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
-- Atomistic Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
-
-- Hierarchal Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
-- Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
-
-- Hierarchal Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
-- Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
-
-- Hierarchal Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
-- Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
-
-- Hierarchal Ni: Minimising negative impact. Premonition of discordance. Radicalism + Catharsis.
-- Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
-
-- Hierarchal Se: Minimising negative consequences. Possessing the weak. division & Supremacy.
-- Atomistic Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
-
-- Hierarchal Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
-- Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
-
-- Hierarchal Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
-- Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
-
-## Quadras
-
-**Theoretic.**
-- Alpha.
-- Enhancing.
-- Atomistic.
-- Narrational.
-- Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
-- Welcoming company that doesn't take anything too seriously.
-- Typically has problems with being too impractical or childish.
-
-- Worldview: Playful. The only thing to take seriously is not taking things seriously.
-- Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
-- Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
-- Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
-
-- Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
-- Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
-- Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
-- Adopting: Silliness (Ideation + Personas). Adopting silly social personas.
-
-**Schismatic.**
-- Beta.
-- Collapsing.
-- Hierarchal.
-- Narrational.
+#### Schismatic Hierarchy.
+- Beta Quadra.
+- Collapsing + Narrational.
 - Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 - Rowdy company prone to ideological conflict.
 - Typically has problems with being too passionate or tyrannical.
 
+##### Properties
 - Worldview: Transformative. Having a passionate will to conquer enemies and enjoy the spoils.
 - Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 - Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 - Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
 
+##### Information Attitudes
 - Symptomatic: Division (Control + Truth). Emphasising defensive structural rationales.
 - Observant: Radicalism (Structure + Timing). Observing exploitative underpinnings.
 - Promoting: Catharsis (Expression + Foresight). Promoting a purgative atmosphere.
 - Adopting: Supremacy (Capture + Personas). Adopting possessive social personas.
 
-**Solipsistic.**
-- Gamma.
-- Collapsing.
-- Atomistic.
-- Economical.
-- Privileged relations collapse into harsh practicality, leading to psychological inequity.
-- Self-driven, individualistic and sceptical of others.
-- Typically has problems with being too cold or distant.
-
-- Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.
-- Ideal: Independence. To determine one's own efforts & interests, free of interference.
-- Shadow: Delegation. To represent others or to do their work for them.
-- Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
-
-- Symptomatic: Privilege (Control + Relations). Emphasising retentive relations.
-- Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
-- Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
-- Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
-
-**Homeostatic.**
-- Delta.
-- Enhancing.
-- Hierarchal.
-- Economical.
+#### Homeostatic Hierarchy.
+- Delta Quadra.
+- Enhancing + Economical.
 - Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 - Grounded, high-minded & driven to potentiate the best in how things are.
 - Typically has problems with being too accepting or understanding.
 
+##### Properties
 - Worldview: Harmonious. Living in wisened harmony with one's environment.
 - Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 - Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 - Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
 
+##### Information Attitudes
 - Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 - Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
+- Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
+- Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
+
+### Atomistic. 
+Relating to others in terms of individual qualities relative to a whole.
+- Atomistic Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
+- Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
+- Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
+- Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
+- Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
+- Atomistic Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
+- Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
+- Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
+
+#### Theoretic Atomism.
+- Alpha Quadra.
+- Enhancing + Narrational.
+- Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
+- Welcoming company that doesn't take anything too seriously.
+- Typically has problems with being too impractical or childish.
+
+##### Properties
+- Worldview: Playful. The only thing to take seriously is not taking things seriously.
+- Ideal: Adjudication. To speak aloud, to be heard, to come to equitably-legislated conclusions.
+- Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
+- Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
+
+##### Information Elements
+- Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
+- Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
+- Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
+- Adopting: Silliness (Ideation + Personas). Adopting silly social personas.
+
+#### Solipsistic Atomism.
+- Gamma Quadra.
+- Collapsing + Economical.
+- Privileged relations collapse into harsh practicality, leading to psychological inequity.
+- Self-driven, individualistic and sceptical of others.
+- Typically has problems with being too cold or distant.
+
+##### Properties
+- Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.
+- Ideal: Independence. To determine one's own efforts & interests, free of interference.
+- Shadow: Delegation. To represent others or to do their work for them.
+- Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
+
+##### Information Elements
+- Symptomatic: Privilege (Control + Relations). Emphasising retentive relations.
+- Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
+- Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
+- Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
 
 ## Functions
 
-**Ego Block: Public, Strong and Valued.**
+### Ego Block.
+Public, Strong and Valued.
 - Bold: Natural. Default "always-on" attitude.
 - Cautious: Constructive. Attitude felt as constructive.
 
-**Super-Ego Block: Public, Weak and Not Valued.**
+### Super-Ego Block.
+Public, Weak and Not Valued.
 - Bold: Obligation. Attitude felt as a means to an end.
 - Cautious: Unnatural. Attitude felt as unnatural.
 
-**Id Block: Private, Weak and Valued.**
+### Id Block.
+Private, Weak and Valued.
 - Bold: Indulgant. Attitude felt as over-indulged in.
 - Cautious: Unconscious. Attitude unconsciously invoked in others.
 
-**Super-Id Block: Private, Strong and Not Valued.**
+### Super-Id Block.
+Private, Strong and Not Valued.
 - Bold: Trivializing. Attitude most taken for granted.
 - Cautious: Repressed. Attitude most repressed.
 
