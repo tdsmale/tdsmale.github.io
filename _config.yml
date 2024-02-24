@@ -1,2 +1,5 @@
 markdown: GFM
 title: Tim Smale
+remote_theme: tdsmale/min-dark-theme
+plugins:
+- jekyll-remote-theme
