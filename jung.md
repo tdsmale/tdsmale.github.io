@@ -297,7 +297,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 - Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
 
-##### Information Elements
+##### Information Attitudes
 - Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
 - Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
 - Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
@@ -316,7 +316,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Shadow: Delegation. To represent others or to do their work for them.
 - Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
 
-##### Information Elements
+##### Information Attitudes
 - Symptomatic: Privilege (Control + Relations). Emphasising retentive relations.
 - Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
