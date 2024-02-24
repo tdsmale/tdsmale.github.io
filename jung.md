@@ -1,5 +1,7 @@
 # Jungian Exegesis
-Summation of Jungian & Socionics theory. 
+Flatpacked summation of Jungian personality theory. Mostly derived from various Socionics authors.
+- [Wikisocion](https://wikisocion.github.io)
+- [Socionavigator](https://socionavigator.com)
 ## Base Dichotomies
 
 ### Position
