@@ -134,25 +134,25 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Ni: Timing. Denying acceptance.
 - Ji + Si: Acceptance. Denying timing.
   
-### Ti + Ni: Radicalism. 
+#### Ti + Ni: Radicalism. 
 - Structural + Dissociative.
 - Detached & Reactive.
 - Structural Timing.
 - Denying practicality by denying acceptance.
 
-### Ti + Si: Canon. 
+#### Ti + Si: Canon. 
 - Structural + Relaxed.
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
   
-### Fi + Ni: Isolation. 
+#### Fi + Ni: Isolation. 
 - Sincere + Dissociative.
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
 
-### Fi + Si: Affirmation. 
+#### Fi + Si: Affirmation. 
 - Sincere + Relaxed.
 - Involved & Reactive.
 - Individual Acceptance.
@@ -165,25 +165,25 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Je + Ni: Foresight. Creating timing.
 - Je + Si: Comfort. Creating acceptance.
   
-### Fe + Ni: Catharsis. 
+#### Fe + Ni: Catharsis. 
 - Expressive + Dissociative.
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
 
-### Fe + Si: Hospitality. 
+#### Fe + Si: Hospitality. 
 - Expressive + Relaxed.
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating acceptance.
 
-### Te + Ni: Profitability. 
+#### Te + Ni: Profitability. 
 - Productive + Dissociative.
 - Detached & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
 
-### Te + Si: Reliability. 
+#### Te + Si: Reliability. 
 - Productive + Relaxed.
 - External & Dynamic.
 - Efficient Comfort.
@@ -196,25 +196,25 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Te + Pe: Practicality. Denying structure.
 - Fe + Pe: Personas. Denying individuation.
 
-### Fe + Se: Supremacy. 
+#### Fe + Se: Supremacy. 
 - Expressive + Forceful.
 - Involved & Active.
 - Capturing Personas.
 - Creating control by denying individuation.
 
-### Te + Se: Expenditure. 
+#### Te + Se: Expenditure. 
 - Productive + Forceful.
 - External & Active.
 - Capturing Practicality.
 - Creating control by denying structure.
 
-### Fe + Ne: Silliness. 
+#### Fe + Ne: Silliness. 
 - Expressive + Digressive.
 - Internal & Active.
 - Ideating Personas.
 - Creating potential by denying individuation.
 
-### Te + Ne: Experimentation. 
+#### Te + Ne: Experimentation. 
 - Productive + Digressive.
 - Detached & Active.
 - Ideating Practicality.
