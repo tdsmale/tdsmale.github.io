@@ -124,8 +124,8 @@
 - Akin to explorers at risk of becoming "untethered".
 
 **Hierarchal: Relating to others in terms of the social categories they are part of.**
-Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
-Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
+- Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
+- Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
 
 **Atomistic: Relating to others in terms of individual qualities relative to a whole.**
 - Theoretic: Narrational + Enhancement. Childish & welcoming. (Ti/Fe/Si/Ne)
