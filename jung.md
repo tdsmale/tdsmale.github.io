@@ -270,19 +270,17 @@ Relating to others in terms of the social categories they are part of.
 - Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
-- Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
-- Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
 
 ### Atomistic. 
 Relating to others in terms of individual qualities relative to a whole.
-- Atomistic Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
-- Atomistic Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
-- Atomistic Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
-- Atomistic Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
-- Atomistic Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
-- Atomistic Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
-- Atomistic Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
-- Atomistic Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
+- Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
+- Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
+- Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
+- Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
+- Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
+- Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
+- Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
+- Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
 
 #### Theoretic Atomism.
 - Alpha Quadra.
