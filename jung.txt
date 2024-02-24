@@ -252,7 +252,7 @@ Cautious: Repressed. Attitude most repressed.
 TYPES
 -----
 
-LII / INTP / INTj / Sophist (Shadow: Investor)
+LII / INTP / INTj / Sophist (Shadow: Capitalist)
 Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 Constructive: Silliness. Finds it constructive to adopt silly social personas.
 Obligation: Privilege. Feels obligated to try emphasising retentive relations.
@@ -282,7 +282,7 @@ Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative s
 Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
 Repressed: Privilege. Represses the emphasis of retentive relations.
 
-ILE / ENTP / ENTp / Fool (Shadow: Vulture)
+ILE / ENTP / ENTp / Jester (Shadow: Vulture)
 Natural: Silliness. Naturally adopts silly social personas.
 Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -342,7 +342,7 @@ Unconscious: Profitability. Unconsciously provokes the promotion of competitive 
 Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
-ILI / INTJ / INTp / Vulture (Shadow: Fool)
+ILI / INTJ / INTp / Vulture (Shadow: Jester)
 Natural: Isolation. Naturally observes an inequitable distance.
 Constructive: Profitability. Finds it constructive to promote competitive escalation.
 Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
@@ -352,7 +352,7 @@ Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self
 Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 Repressed: Silliness. Represses the adoption of silly social personas.
 
-LIE / ENTJ / ENTj / Investor (Shadow: Sophist)
+LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist)
 Natural: Profitability. Naturally promotes competitive escalation.
 Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 Obligation: Hospitality. Feels obligated to promote a mutually welcoming atmosphere.
