@@ -36,22 +36,55 @@
 - Conditioning: Reactive & Static. Guiding external processes. (Ji)
 - Navigation: Active & Dynamic. Changing external processes. (Je)
 
-### Information Elements
+## Information Elements
 
+### Conditioning
 - Subjective + Conditioning: Sincere (Fi). Personal relations. Relational & privileging. Internalised feelings.
 - Objective + Conditioning: Structural (Ti). Internal structure. Truth & impartiality. Internalised rules.
+
+### Reflection
 - Reflection + Present: Relaxed (Si). Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-- Reflection + Future: Dissociative (Ni). Yielding over time. Waiting for the moment. Lessening of impact. 
+- Reflection + Future: Dissociative (Ni). Yielding over time. Waiting for the moment. Lessening of impact.
+
+### Navigation
 - Subjective + Navigation: Expressive (Fe). Influencing expressions. Authentic externalisation. Emotional synchronisation.
 - Objective + Navigation: Production (Te). Pragmatisation. Productive externalisation. Factual synchronisation.
+
+### Activation
 - Present + Activation: Forceful (Se). Unyielding in-the-moment. Taking up space. Capture & possession.
 - Future + Activation: Digressive (Ne). Broadening of possibilities. Taking up ideas. Thinking outside the box.
 
+### Reactive vs Active Information Elements
 - Ti vs Te: Structuring vs Pragmatizing Logic.
 - Fi vs Fe: Personalising vs Expressing Feelings.
 - Si vs Se: Enhancing vs Weathering the Present.
 - Ni vs Ne: Narrowing vs Broadening Possibilities.
 
+## Information Element Pairings
+
+### Fi + Te: Economical. Sincere + Productive.
+- Using resources in personally-valuable ways.
+- Characterised by resourcefulness, seriousness and individuation.
+
+### Ti + Fe: Narrational. Structural + Expressive.
+- Guiding audiences to a central truth.
+- Characterised by small talk, flippancy and group membership.
+
+### Ni + Se: Collapsing. Dissociative + Forceful.
+- Acting in a willful and timely manner.
+- Minimising the negative in life.
+- Brings a weighty, decisive attitude to things.
+- Guided by sinking feelings.
+- Akin to waves crashing against the shore.
+
+### Si + Ne: Enhancing. Relaxed + Digressive.
+- Enjoying what life has to offer.
+- Maximising the positive in life.
+- Brings an airy, buoyant attitude to things.
+- Guided by imaginative guesswork.
+- Akin to explorers at risk of becoming "untethered".
+
+### Comparisons
 - Ni vs Se: Anticipating vs Dominating the Moment.
 - Si vs Ne: Enhancing vs Potentiating the Present.
 - Ti vs Fe: Modelling vs Expressing Feelings.
@@ -100,28 +133,6 @@
 - Te + Ne: Experimentation. Productive + Digressive. Detached & Active. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
 
 ## Hierarchal vs Atomistic
-
-**Fi + Te: Economical. Sincere + Productive.**
-- Using resources in personally-valuable ways.
-- Characterised by resourcefulness, seriousness and individuation.
-
-**Ti + Fe: Narrational. Structural + Expressive.**
-- Guiding audiences to a central truth.
-- Characterised by small talk, flippancy and group membership.
-
-**Ni + Se: Collapsing. Dissociative + Forceful.**
-- Acting in a willful and timely manner.
-- Minimising the negative in life.
-- Brings a weighty, decisive attitude to things.
-- Guided by sinking feelings.
-- Akin to waves crashing against the shore.
-
-**Si + Ne: Enhancing. Relaxed + Digressive.**
-- Enjoying what life has to offer.
-- Maximising the positive in life.
-- Brings an airy, buoyant attitude to things.
-- Guided by imaginative guesswork.
-- Akin to explorers at risk of becoming "untethered".
 
 **Hierarchal: Relating to others in terms of the social categories they are part of.**
 - Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
