@@ -102,11 +102,31 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Ji + Ne: Potential. Denying control.
 - Ti + Pe: Truth. Creating structure.
 - Fi + Pe: Relations. Creating individuation.
-- Ti + Se: Division. Structural + Forceful. External & Static. Controlling Truth. Creating structure by denying potential. Emphasising structural division.
-- Ti + Ne: Tangentiality. Structural + Digressive. Detached & Static. Potential Truth. Creating structure by denying control. Emphasising structural possibilities.
-- Fi + Se: Privilege. Sincere + Forceful. Involved & Static. Controlling Relations. Creating individuation by denying potential. Emphasising negative relations.
-- Fi + Ne: Faith. Sincere + Digressive. Internal & Static. Potential Relations. Creating individuation by denying control. Emphasising good-faith relations.
 
+#### Ti + Se: Division.
+- Structural + Forceful.
+- External & Static.
+- Controlling Truth.
+- Creating structure by denying potential.
+
+####Ti + Ne: Tangentiality.
+- Structural + Digressive.
+- Detached & Static.
+- Potential Truth.
+- Creating structure by denying control.
+  
+####Fi + Se: Privilege. 
+- Sincere + Forceful.
+- Involved & Static.
+- Controlling Relations.
+- Creating individuation by denying potential.
+  
+####Fi + Ne: Faith. 
+- Sincere + Digressive.
+- Internal & Static.
+- Potential Relations.
+- Creating individuation by denying control.
+   
 ### Ji + Pi: Observant. 
 Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ti + Pi: Structure. Denying practicality.
