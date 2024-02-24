@@ -109,19 +109,19 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Controlling Truth.
 - Creating structure by denying potential.
 
-####Ti + Ne: Tangentiality.
+#### Ti + Ne: Tangentiality.
 - Structural + Digressive.
 - Detached & Static.
 - Potential Truth.
 - Creating structure by denying control.
   
-####Fi + Se: Privilege. 
+#### Fi + Se: Privilege. 
 - Sincere + Forceful.
 - Involved & Static.
 - Controlling Relations.
 - Creating individuation by denying potential.
   
-####Fi + Ne: Faith. 
+#### Fi + Ne: Faith. 
 - Sincere + Digressive.
 - Internal & Static.
 - Potential Relations.
@@ -133,10 +133,30 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Fi + Pi: Individuation. Denying personas.
 - Ji + Ni: Timing. Denying acceptance.
 - Ji + Si: Acceptance. Denying timing.
-- Ti + Ni: Radicalism. Structural + Dissociative. Detached & Reactive. Structural Timing. Denying practicality by denying acceptance. Observing exploitative underpinnings.
-- Ti + Si: Canon. Structural + Relaxed. External & Reactive. Structural Acceptance. Denying practicality by denying timing. Observing a settled canon.
-- Fi + Ni: Isolation. Sincere + Dissociative. Internal & Reactive. Individual Timing. Denying personas by denying acceptance. Observing an inequitable distance.
-- Fi + Si: Affirmation. Sincere + Relaxed. Involved & Reactive. Individual Acceptance. Denying personas by denying timing. Observing an inherent quality.
+  
+### Ti + Ni: Radicalism. 
+- Structural + Dissociative.
+- Detached & Reactive.
+- Structural Timing.
+- Denying practicality by denying acceptance.
+
+### Ti + Si: Canon. 
+- Structural + Relaxed.
+- External & Reactive.
+- Structural Acceptance.
+- Denying practicality by denying timing.
+  
+### Fi + Ni: Isolation. 
+- Sincere + Dissociative.
+- Internal & Reactive.
+- Individual Timing.
+- Denying personas by denying acceptance.
+
+### Fi + Si: Affirmation. 
+- Sincere + Relaxed.
+- Involved & Reactive.
+- Individual Acceptance.
+- Denying personas by denying timing.
 
 ### Je + Pi: Promoting.
 Seeks to promote external processes. Promotes further results. Dynamic.
@@ -144,10 +164,30 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Fe + Pi: Expression. Creating personas.
 - Je + Ni: Foresight. Creating timing.
 - Je + Si: Comfort. Creating acceptance.
-- Fe + Ni: Catharsis. Expressive + Dissociative. Internal & Dynamic. Expressive Foresight. Creating personas by creating timing. Promoting a purgative atmosphere.
-- Fe + Si: Hospitality. Expressive + Relaxed. Involved & Dynamic. Expressive Comfort. Creating personas by creating acceptance. Promoting a welcoming atmosphere.
-- Te + Ni: Profitability. Productive + Dissociative. Detached & Dynamic. Efficient Foresight. Creating practicality by creating timing. Promoting competitive escalation.
-- Te + Si: Reliability. Productive + Relaxed. External & Dynamic. Efficient Comfort. Creating practicality by creating acceptance. Promoting pragmatic stability.
+  
+### Fe + Ni: Catharsis. 
+- Expressive + Dissociative.
+- Internal & Dynamic.
+- Expressive Foresight.
+- Creating personas by creating timing.
+
+### Fe + Si: Hospitality. 
+- Expressive + Relaxed.
+- Involved & Dynamic.
+- Expressive Comfort.
+- Creating personas by creating acceptance.
+
+### Te + Ni: Profitability. 
+- Productive + Dissociative.
+- Detached & Dynamic.
+- Efficient Foresight.
+- Creating practicality by creating timing.
+
+### Te + Si: Reliability. 
+- Productive + Relaxed.
+- External & Dynamic.
+- Efficient Comfort.
+- Creating practicality by creating acceptance.
 
 ### Je + Pe: Adopting.
 Seeks to make the most of external processes. Adopts the result. Active.
@@ -155,21 +195,44 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Je + Ne: Ideation. Creating potential.
 - Te + Pe: Practicality. Denying structure.
 - Fe + Pe: Personas. Denying individuation.
-- Fe + Se: Supremacy. Expressive + Forceful. Involved & Active. Capturing Personas. Creating control by denying individuation. Adopting possessive personas.
-- Te + Se: Expenditure. Productive + Forceful. External & Active. Capturing Practicality. Creating control by denying structure. Adopting a pragmatic expenditure.
-- Fe + Ne: Silliness. Expressive + Digressive. Internal & Active. Ideating Personas. Creating potential by denying individuation. Adopting silly personas.
-- Te + Ne: Experimentation. Productive + Digressive. Detached & Active. Ideating Practicality. Creating potential by denying structure. Adopting pragmatic experimentation.
+
+### Fe + Se: Supremacy. 
+- Expressive + Forceful.
+- Involved & Active.
+- Capturing Personas.
+- Creating control by denying individuation.
+
+### Te + Se: Expenditure. 
+- Productive + Forceful.
+- External & Active.
+- Capturing Practicality.
+- Creating control by denying structure.
+
+### Fe + Ne: Silliness. 
+- Expressive + Digressive.
+- Internal & Active.
+- Ideating Personas.
+- Creating potential by denying individuation.
+
+### Te + Ne: Experimentation. 
+- Productive + Digressive.
+- Detached & Active.
+- Ideating Practicality.
+- Creating potential by denying structure.
 
 ## Hierarchal vs Atomistic
 
-**Hierarchal: Relating to others in terms of the social categories they are part of.**
+### Hierarchal.
+Relating to others in terms of the social categories they are part of.
 - Homeostatic: Economical + Enhancement. Stabilizing & earnest. (Fi/Te/Si/Ne)
 - Schismatic: Narrational + Collapse. Passionate & tyrannical. (Ti/Fe/Ni/Se)
 
-**Atomistic: Relating to others in terms of individual qualities relative to a whole.**
+### Atomistic. 
+Relating to others in terms of individual qualities relative to a whole.
 - Theoretic: Narrational + Enhancement. Childish & welcoming. (Ti/Fe/Si/Ne)
 - Solipsistic: Economical + Collapse. Independent & distant. (Fi/Te/Ni/Se)
 
+### Comparisons
 - Hierarchal Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
 - Atomistic Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
 
