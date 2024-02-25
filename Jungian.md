@@ -50,7 +50,7 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 
 ### Navigation
 - Subjective + Navigation: Expressive (Fe). Influencing expressions. Authentic externalisation. Emotional synchronisation.
-- Objective + Navigation: Production (Te). Pragmatisation. Productive externalisation. Factual synchronisation.
+- Objective + Navigation: Productive (Te). Pragmatisation. Productive externalisation. Factual synchronisation.
 
 ### Activation
 - Present + Activation: Forceful (Se). Unyielding in-the-moment. Taking up space. Capture & possession.
@@ -353,7 +353,7 @@ Private, Strong and Not Valued.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Privilege. Feels obligated to try emphasising retentive relations.
 - Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
-- Indulgant: Canon. Can over-exploit observing a mutually-legislated understanding.
+- Indulgant: Canon. Can over-exploit the observance a mutually-legislated understanding.
 - Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
 - Trivializing: Isolation. Trivializes the observance of an inequitable distance.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
@@ -411,7 +411,7 @@ Private, Strong and Not Valued.
 **LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist)**
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Isolation. Finds it constructive to observe an inequitable distance.
-- Obligation: Hospitality. Feels obligated to promote a mutually welcoming atmosphere.
+- Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
 - Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 - Indulgant: Expenditure. Can over-exploit adopting aggressive self-interest.
 - Unconscious: Privilege. Unconsciously provokes the emphasis of retentive relations.
@@ -483,7 +483,7 @@ Private, Strong and Not Valued.
 **SLI / ISTJ / ISTp / Custodian (Shadow: Predator)**
 - Natural: Affirmation. Naturally observes inherent quality.
 - Constructive: Reliability. Finds it constructive to promote pragmatic stability.
-- Obligation: Radicalism. Feels obligated to observe exploitative underpinnings.
+- Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
 - Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
 - Indulgant: Faith. Can over-exploit emphasising good-faith relations.
 - Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
