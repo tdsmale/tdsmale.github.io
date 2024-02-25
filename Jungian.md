@@ -336,7 +336,7 @@ Public, Weak and Not Valued.
 
 ### Id Block.
 Private, Weak and Valued.
-- Bold: Indulgant. Attitude felt as over-indulged in.
+- Bold: Indulgant. Attitude over-exploited.
 - Cautious: Unconscious. Attitude unconsciously invoked in others.
 
 ### Super-Id Block.
@@ -353,7 +353,7 @@ Private, Strong and Not Valued.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Privilege. Feels obligated to try emphasising retentive relations.
 - Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
-- Indulgant: Canon. Can over-indulge observing a mutually-legislated understanding.
+- Indulgant: Canon. Can over-exploit observing a mutually-legislated understanding.
 - Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
 - Trivializing: Isolation. Trivializes the observance of an inequitable distance.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
@@ -363,7 +363,7 @@ Private, Strong and Not Valued.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Isolation. Feels obligated to try observing an inequitable distance.
 - Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
-- Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
+- Indulgant: Tangentiality. Can over-exploit emphasising cooperative structural possibilities.
 - Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
 - Trivializing: Privilege. Trivializes the emphasis of retentive relations.
 - Repressed: Expenditure. Represses the adoption of aggressive self-interest.
@@ -373,7 +373,7 @@ Private, Strong and Not Valued.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
 - Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
-- Indulgant: Silliness. Can over-indulge adopting silly social personas.
+- Indulgant: Silliness. Can over-exploit adopting silly social personas.
 - Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
 - Repressed: Privilege. Represses the emphasis of retentive relations.
@@ -383,7 +383,7 @@ Private, Strong and Not Valued.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
 - Unnatural: Privilege. Finds it unnatural to emphasise retentive relations.
-- Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
+- Indulgant: Hospitality. Can over-exploit promoting a mutually welcoming atmosphere.
 - Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
 - Repressed: Isolation. Represses the observance of an inequitable distance.
@@ -393,7 +393,7 @@ Private, Strong and Not Valued.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
 - Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
-- Indulgant: Isolation. Can over-indulge observing an inequitable distance.
+- Indulgant: Isolation. Can over-exploit observing an inequitable distance.
 - Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
@@ -403,7 +403,7 @@ Private, Strong and Not Valued.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
 - Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
-- Indulgant: Privilege. Can over-indulge emphasising retentive relations.
+- Indulgant: Privilege. Can over-exploit emphasising retentive relations.
 - Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
 - Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 - Repressed: Silliness. Represses the adoption of silly social personas.
@@ -413,7 +413,7 @@ Private, Strong and Not Valued.
 - Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to promote a mutually welcoming atmosphere.
 - Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
-- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
+- Indulgant: Expenditure. Can over-exploit adopting aggressive self-interest.
 - Unconscious: Privilege. Unconsciously provokes the emphasis of retentive relations.
 - Trivializing: Silliness. Trivializes the adoption of silly social personas.
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
@@ -423,7 +423,7 @@ Private, Strong and Not Valued.
 - Constructive: Privilege. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
-- Indulgant: Profitability. Can over-indulge promoting competitive escalation.
+- Indulgant: Profitability. Can over-exploit promoting competitive escalation.
 - Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 - Repressed: Canon. Represses the observance of a mutually-legislated understanding.
@@ -435,7 +435,7 @@ Private, Strong and Not Valued.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
 - Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
-- Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
+- Indulgant: Radicalism. Can over-exploit observing exploitative underpinnings.
 - Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
 - Repressed: Reliability. Represses the promotion of pragmatic stability.
@@ -445,7 +445,7 @@ Private, Strong and Not Valued.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
 - Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
-- Indulgant: Division. Can over-indulge emphasising defensive structural rationales.
+- Indulgant: Division. Can over-exploit emphasising defensive structural rationales.
 - Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
@@ -455,7 +455,7 @@ Private, Strong and Not Valued.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
 - Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
-- Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
+- Indulgant: Supremacy. Can over-exploit adopting possessive social personas.
 - Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
 - Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
 - Repressed: Faith. Represses the emphasis of good-faith relations.
@@ -465,7 +465,7 @@ Private, Strong and Not Valued.
 - Constructive: Division. Finds it constructive to emphasises defensive structural rationales.
 - Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
 - Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
-- Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
+- Indulgant: Catharsis. Can over-exploit promoting a purgative atmosphere.
 - Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
 - Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
 - Repressed: Affirmation. Represses the observance of inherent quality.
@@ -475,7 +475,7 @@ Private, Strong and Not Valued.
 - Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
 - Obligation: Division. Feels obligated to try and emphasise defensive structural rationales.
 - Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
-- Indulgant: Affirmation. Can over-indulge observing inherent quality.
+- Indulgant: Affirmation. Can over-exploit observing inherent quality.
 - Unconscious: Reliability. Unconsciously provokes the promotion of pragmatic stability.
 - Trivializing: Radicalism. Trivializes the observance of exploitative underpinnings.
 - Repressed: Catharsis. Represses the promotion of a purgative atmosphere.
@@ -485,7 +485,7 @@ Private, Strong and Not Valued.
 - Constructive: Reliability. Finds it constructive to promote pragmatic stability.
 - Obligation: Radicalism. Feels obligated to observe exploitative underpinnings.
 - Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
-- Indulgant: Faith. Can over-indulge emphasising good-faith relations.
+- Indulgant: Faith. Can over-exploit emphasising good-faith relations.
 - Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
 - Trivializing: Division. Trivializes the emphasis of defensive structural rationales.
 - Repressed: Supremacy. Represses the adoption of possessive social personas.
@@ -495,7 +495,7 @@ Private, Strong and Not Valued.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
 - Unnatural: Radicalism. Finds it unnatural to observe exploitative underpinnings.
-- Indulgant: Experimentation. Can over-indulge the adoption of seemingly useless things.
+- Indulgant: Experimentation. Can over-exploit the adoption of seemingly useless things.
 - Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
 - Repressed: Division. Represses the emphasis of defensive structural rationales.
@@ -505,7 +505,7 @@ Private, Strong and Not Valued.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
 - Unnatural: Division. Finds it unnatural to emphasise defensive structural rationales.
-- Indulgant: Reliability. Can over-indulge promoting pragmatic stability.
+- Indulgant: Reliability. Can over-exploit promoting pragmatic stability.
 - Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
 - Repressed: Radicalism. Represses the observance of exploitative underpinnings.
