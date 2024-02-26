@@ -41,20 +41,60 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 ## Information Elements
 
 ### Conditioning
-- Subjective + Conditioning: Sincere (Fi). Personal relations. Desire, privilege & kinship. Internalised feelings.
-- Objective + Conditioning: Structural (Ti). Internal structure. Truth, impartiality & symmetry. Internalised rules.
+
+#### Sincere (Fi)
+- Subjective + Conditioning.
+- Personal relations.
+- Desire, privilege & kinship.
+- Internalised feelings.
+
+#### Structural (Ti)
+- Objective + Conditioning.
+- Internal structure.
+- Truth, impartiality & symmetry.
+- Internalised rules.
 
 ### Reflection
-- Reflection + Present: Relaxed (Si). Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
-- Reflection + Future: Dissociative (Ni). Yielding over time. Waiting for the moment. Lessening of impact.
 
-### Navigation
-- Subjective + Navigation: Expressive (Fe). Influencing expressions. Authentic externalisation. Emotional synchronisation.
-- Objective + Navigation: Productive (Te). Pragmatisation. Productive externalisation. Factual synchronisation.
+#### Accepting (Si)
+- Reflection + Present.
+- Familiarity of senses.
+- Enhancing the current moment.
+- Lessening of discomfort.
 
-### Activation
-- Present + Activation: Forceful (Se). Unyielding in-the-moment. Taking up space. Capture & possession.
-- Future + Activation: Digressive (Ne). Broadening of possibilities. Taking up ideas. Thinking outside the box.
+#### Dissociative (Ni)
+- Reflection + Future.
+- Yielding over time.
+- Waiting for the moment.
+- Lessening of impact.
+
+### Navigating
+
+#### Expressive (Fe)
+- Subjective + Navigation.
+- Influencing expressions.
+- Authentic externalisation.
+- Emotional synchronisation.
+
+#### Productive (Te)
+- Objective + Navigation.
+- Pragmatisation.
+- Productive externalisation.
+- Factual synchronisation.
+
+### Activating
+
+#### Forceful (Se)
+- Present + Activation.
+- Unyielding in-the-moment.
+- Taking up space.
+- Capture & possession.
+
+#### Digressive (Ne)
+- Future + Activation.
+- Broadening of possibilities.
+- Taking up ideas.
+- Thinking outside the box.
 
 ### Reactive vs Active Information Elements
 - Ti vs Te: Structuring vs Pragmatizing Logic.
@@ -133,14 +173,14 @@ Seeks to represent external processes. Emphasises the result. Static.
 Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ti + Pi: Structure. Denying practicality.
 - Fi + Pi: Individuation. Denying personas.
-- Ji + Ni: Timing. Denying acceptance.
+- Ji + Ni: Timing. Denying relaxation.
 - Ji + Si: Acceptance. Denying timing.
   
 #### Ti + Ni: Radicalism. 
 - Structural + Dissociative.
 - Detached & Reactive.
 - Structural Timing.
-- Denying practicality by denying acceptance.
+- Denying practicality by denying relaxation.
 
 #### Ti + Si: Canon. 
 - Structural + Relaxed.
@@ -165,7 +205,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Te + Pi: Efficiency. Creating practicality.
 - Fe + Pi: Expression. Creating personas.
 - Je + Ni: Foresight. Creating timing.
-- Je + Si: Comfort. Creating acceptance.
+- Je + Si: Comfort. Creating relaxation.
   
 #### Fe + Ni: Catharsis. 
 - Expressive + Dissociative.
@@ -177,7 +217,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Expressive + Relaxed.
 - Involved & Dynamic.
 - Expressive Comfort.
-- Creating personas by creating acceptance.
+- Creating personas by creating relaxation.
 
 #### Te + Ni: Profitability. 
 - Productive + Dissociative.
@@ -189,7 +229,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Productive + Relaxed.
 - External & Dynamic.
 - Efficient Comfort.
-- Creating practicality by creating acceptance.
+- Creating practicality by creating relaxation.
 
 ### Je + Pe: Adopting.
 Seeks to make the most of external processes. Adopts the result. Active.
@@ -282,7 +322,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
 - Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
 - Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
-- Si: Maximising positive comfort. Relaxation & beauty. Hospitality & Canon.
+- Si: Maximising positive comfort. Indulgance & beauty. Hospitality & Canon.
 
 #### Theoretic Atomism.
 - Alpha Quadra.
