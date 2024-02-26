@@ -145,7 +145,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Ti + Pe: Truth. Creating structure.
 - Fi + Pe: Relations. Creating individuation.
 
-#### Ti + Se: Division.
+#### Ti + Se: Defence.
 - Structural + Forceful.
 - External & Static.
 - Controlling Truth.
@@ -157,7 +157,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Potential Truth.
 - Creating structure by denying control.
   
-#### Fi + Se: Privilege. 
+#### Fi + Se: Retention. 
 - Sincere + Forceful.
 - Involved & Static.
 - Controlling Relations.
@@ -268,10 +268,10 @@ Seeks to make the most of external processes. Adopts the result. Active.
 Relating to others in terms of the social categories they are part of.
 - Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
 - Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
-- Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
+- Ti: Maximising positive conformity. Disciplined observance of rules. Defence & Radicalism.
 - Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
 - Ni: Minimising negative impact. Premonition of discordance. Radicalism & Catharsis.
-- Se: Minimising negative consequences. Possessing the weak. Division & Supremacy.
+- Se: Minimising negative consequences. Possessing the weak. Defence & Supremacy.
 - Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
 - Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
 
@@ -290,7 +290,7 @@ Relating to others in terms of the social categories they are part of.
 - Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
 
 ##### Information Attitudes
-- Symptomatic: Division (Control + Truth). Emphasising defensive structural rationales.
+- Symptomatic: Defence (Control + Truth). Emphasising defensive structural rationales.
 - Observant: Radicalism (Structure + Timing). Observing exploitative underpinnings.
 - Promoting: Catharsis (Expression + Foresight). Promoting a purgative atmosphere.
 - Adopting: Supremacy (Capture + Personas). Adopting possessive social personas.
@@ -475,7 +475,7 @@ Private, Strong and Not Valued.
 ### Hierarchal Types
 
 **LSI / ISTP / ISTj / Brigand (Shadow: Equarry)**
-- Natural: Division. Naturally emphasises defensive structural rationales.
+- Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
 - Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
@@ -489,7 +489,7 @@ Private, Strong and Not Valued.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
 - Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
-- Indulgant: Division. Can over-exploit emphasising defensive structural rationales.
+- Indulgant: Defence. Can over-exploit emphasising defensive structural rationales.
 - Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
@@ -500,13 +500,13 @@ Private, Strong and Not Valued.
 - Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
 - Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 - Indulgant: Supremacy. Can over-exploit adopting possessive social personas.
-- Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
+- Unconscious: Defence. Unconsciously provokes the emphasis of defensive structural rationales.
 - Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
 - Repressed: Faith. Represses the emphasis of good-faith relations.
 
 **SLE / ESTP / ESTp / Predator (Shadow: Custodian)**
 - Natural: Supremacy. Naturally adopts possessive social personas.
-- Constructive: Division. Finds it constructive to emphasises defensive structural rationales.
+- Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
 - Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
 - Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
 - Indulgant: Catharsis. Can over-exploit promoting a purgative atmosphere.
@@ -517,7 +517,7 @@ Private, Strong and Not Valued.
 **EII / INFP / INFj / Seelie (Shadow: Provocateur)**
 - Natural: Faith. Naturally emphasises good-faith relations.
 - Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
-- Obligation: Division. Feels obligated to try and emphasise defensive structural rationales.
+- Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
 - Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
 - Indulgant: Affirmation. Can over-exploit observing inherent quality.
 - Unconscious: Reliability. Unconsciously provokes the promotion of pragmatic stability.
@@ -531,7 +531,7 @@ Private, Strong and Not Valued.
 - Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
 - Indulgant: Faith. Can over-exploit emphasising good-faith relations.
 - Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
-- Trivializing: Division. Trivializes the emphasis of defensive structural rationales.
+- Trivializing: Defence. Trivializes the emphasis of defensive structural rationales.
 - Repressed: Supremacy. Represses the adoption of possessive social personas.
 
 **LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)**
@@ -542,13 +542,13 @@ Private, Strong and Not Valued.
 - Indulgant: Experimentation. Can over-exploit the adoption of seemingly useless things.
 - Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
-- Repressed: Division. Represses the emphasis of defensive structural rationales.
+- Repressed: Defence. Represses the emphasis of defensive structural rationales.
 
 **IEE / ENFP / ENFp / Coach (Shadow: Apostle)**
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
-- Unnatural: Division. Finds it unnatural to emphasise defensive structural rationales.
+- Unnatural: Defence. Finds it unnatural to emphasise defensive structural rationales.
 - Indulgant: Reliability. Can over-exploit promoting pragmatic stability.
 - Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
