@@ -1,108 +1,109 @@
-# Jungian Exegesis
+# Jungian Exegesis.
 Flatpacked summation of Jungian personality theory. Mostly derived from various Socionics authors.
 - [Wikisocion](https://wikisocion.github.io)
 - [Socionavigator](https://socionavigator.com)
-## Base Dichotomies
 
-### Position
+## Base Dichotomies.
+
+### Position.
 - Internal: Apprehended as emerging from an internal experience of life. (F / N)
 - External: Apprehended as emerging from an external experience of life. (T / S)
 
-### Method
+### Method.
 - Detached: Apprehended as emerging from an abstract experience of life. (T / N)
 - Involved: Apprehended as emerging from a direct experience of life. (S / F)
 
-### Form
+### Form.
 - Static: Apprehended as Distinct from other Static things, having a clearly deliniated form that is difficult to change. (Ji / Pe)
 - Dynamic: Apprehended as Coalescent with other Dynamic things, having an unclearly delineated form that is easy to change. (Je / Pi)
 
-### Behaviour
+### Behaviour.
 - Reactive: Apprehended as something that is produced or affected by an external process. (Ji / Pi)
 - Active: Apprehended as something that starts or is inherent to an external process. (Je / Pe)
 
-## Composite Dichotomies
+## Composite Dichotomies.
 
-### Temporality
-- Future: Detached & Internal. Apprehending what could be. (N)
-- Present: Involved & External. Apprehending what is right now. (S)
+### Temporality.
+- Future: Detached & Internal. Apprehending what could be (N). 
+- Present: Involved & External. Apprehending what is right now (S).
 
-### Rationality
-- Objective: Detached & External. Apprehending what is logically true or accurate. (T)
-- Subjective: Involved & Internal. Apprehending what is emotionally true or accurate. (F)
+### Rationality.
+- Objective: Detached & External. Apprehending what is logically true or accurate (T).
+- Subjective: Involved & Internal. Apprehending what is emotionally true or accurate (F).
 
-### Perception
-- Reflection: Reactive & Dynamic. Detaching from external processes. (Pi)
-- Activation: Active & Static. Engaging with external processes. (Pe)
+### Perception.
+- Reflection: Reactive & Dynamic. Detaching from external processes (Pi).
+- Activation: Active & Static. Engaging with external processes (Pe).
 
-### Judging
-- Conditioning: Reactive & Static. Guiding external processes. (Ji)
-- Navigation: Active & Dynamic. Changing external processes. (Je)
+### Judging.
+- Conditioning: Reactive & Static. Guiding external processes (Ji).
+- Navigation: Active & Dynamic. Changing external processes (Je).
 
-## Information Elements
+## Information Elements.
 
-### Conditioning
+### Conditioning.
 
-#### Sincere (Fi)
+#### Sincere (Fi).
 - Subjective + Conditioning.
 - Personal relations.
 - Desire, privilege, attachment & kinship.
 - Internalised feelings.
 
-#### Structural (Ti)
+#### Structural (Ti).
 - Objective + Conditioning.
 - Internal structure.
 - Truth, impartiality, coherence & symmetry.
 - Internalised rules.
 
-### Reflection
+### Reflection.
 
-#### Accepting (Si)
+#### Accepting (Si).
 - Reflection + Present.
 - Familiarity of senses.
 - Enhancing the current moment.
 - Lessening of discomfort.
 
-#### Dissociative (Ni)
+#### Dissociative (Ni).
 - Reflection + Future.
 - Yielding over time.
 - Waiting for the moment.
 - Lessening of impact.
 
-### Navigating
+### Navigating.
 
-#### Expressive (Fe)
+#### Expressive (Fe).
 - Subjective + Navigation.
 - Influencing expressions.
 - Authentic externalisation.
 - Emotional synchronisation.
 
-#### Productive (Te)
+#### Productive (Te).
 - Objective + Navigation.
 - Pragmatisation.
 - Productive externalisation.
 - Factual synchronisation.
 
-### Activating
+### Activating.
 
-#### Forceful (Se)
+#### Forceful (Se).
 - Present + Activation.
 - Unyielding in-the-moment.
 - Taking up space.
 - Capture & possession.
 
-#### Digressive (Ne)
+#### Digressive (Ne).
 - Future + Activation.
 - Broadening of possibilities.
 - Taking up ideas.
 - Thinking outside the box.
 
-### Reactive vs Active Information Elements
+### Reactive vs Active Information Elements.
 - Ti vs Te: Structuring vs Pragmatizing Logic.
 - Fi vs Fe: Personalising vs Expressing Feelings.
 - Si vs Se: Enhancing vs Weathering the Present.
 - Ni vs Ne: Narrowing vs Broadening Possibilities.
 
-## Information Element Pairings
+## Information Element Pairings.
 
 ### Fi + Te: Economical. 
 - Sincere + Productive.
@@ -130,7 +131,7 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Guided by imaginative guesswork.
 - Akin to explorers at risk of becoming "untethered".
 
-### Comparisons
+### Comparisons.
 - Ni vs Se: Anticipating vs Dominating the Moment.
 - Si vs Ne: Enhancing vs Potentiating the Present.
 - Ti vs Fe: Modelling vs Expressing Feelings.
@@ -262,7 +263,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
 
-## Type Groupings
+## Type Groupings.
 
 ### Hierarchal.
 Relating to others in terms of the social categories they are part of.
@@ -283,13 +284,13 @@ Relating to others in terms of the social categories they are part of.
 - Rowdy company prone to ideological conflict.
 - Typically has problems with being too passionate or tyrannical.
 
-##### Properties
+##### Properties.
 - Worldview: Transformative. Having a passionate will to conquer enemies and enjoy the spoils.
 - Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 - Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 - Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
 
-##### Information Attitudes
+##### Information Attitudes.
 - Symptomatic: Defence (Control + Truth). Emphasising defensive structural rationales.
 - Observant: Radicalism (Structure + Timing). Observing exploitative underpinnings.
 - Promoting: Catharsis (Expression + Foresight). Promoting a purgative atmosphere.
@@ -303,13 +304,13 @@ Relating to others in terms of the social categories they are part of.
 - Grounded, high-minded & driven to potentiate the best in how things are.
 - Typically has problems with being too accepting or understanding.
 
-##### Properties
+##### Properties.
 - Worldview: Harmonious. Living in wisened harmony with one's environment.
 - Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 - Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 - Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
 
-##### Information Attitudes
+##### Information Attitudes.
 - Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 - Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
@@ -334,13 +335,13 @@ Relating to others in terms of individual qualities relative to a whole.
 - Welcoming company that doesn't want to take anything too seriously.
 - Typically has problems with being too impractical or childish.
 
-##### Properties
+##### Properties.
 - Worldview: Playful. The only thing to take seriously is not taking things seriously.
 - Ideal: Adjudication. To speak aloud, to dullen secrets, to come to equitably-legislated conclusions.
 - Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
 - Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
 
-##### Information Attitudes
+##### Information Attitudes.
 - Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
 - Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
 - Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
@@ -354,19 +355,19 @@ Relating to others in terms of individual qualities relative to a whole.
 - Self-driven, individualistic and sceptical of others.
 - Typically has problems with being too cold or distant.
 
-##### Properties
+##### Properties.
 - Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.
 - Ideal: Independence. To determine one's own efforts & interests, free of interference.
 - Shadow: Delegation. To represent others or to do their work for them.
 - Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
 
-##### Information Attitudes
+##### Information Attitudes.
 - Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
 - Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
 - Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
 
-## Functions
+## Functions.
 
 ### Ego Block.
 Public, Strong and Valued.
@@ -388,11 +389,11 @@ Private, Strong and Not Valued.
 - Bold: Trivializing. Attitude most taken for granted.
 - Cautious: Repressed. Attitude most repressed.
 
-## Types
+## Types.
 
-### Atomistic Types
+### Atomistic Types.
 
-**LII / INTP / INTj / Sophist (Shadow: Capitalist)**
+#### LII / INTP / INTj / Sophist (Shadow: Capitalist).
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Retention. Feels obligated to try emphasising retentive relations.
@@ -402,7 +403,7 @@ Private, Strong and Not Valued.
 - Trivializing: Isolation. Trivializes the observance of an inequitable distance.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
 
-**SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal)**
+ #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Isolation. Feels obligated to try observing an inequitable distance.
@@ -412,7 +413,7 @@ Private, Strong and Not Valued.
 - Trivializing: Retention. Trivializes the emphasis of retentive relations.
 - Repressed: Expenditure. Represses the adoption of aggressive self-interest.
 
-**ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)**
+#### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
@@ -422,7 +423,7 @@ Private, Strong and Not Valued.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
 - Repressed: Retention. Represses the emphasis of retentive relations.
 
-**ILE / ENTP / ENTp / Jester (Shadow: Vulture)**
+#### ILE / ENTP / ENTp / Jester (Shadow: Vulture).
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -432,7 +433,7 @@ Private, Strong and Not Valued.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
 - Repressed: Isolation. Represses the observance of an inequitable distance.
 
-**ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)**
+#### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
@@ -442,7 +443,7 @@ Private, Strong and Not Valued.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
-**ILI / INTJ / INTp / Vulture (Shadow: Jester)**
+#### ILI / INTJ / INTp / Vulture (Shadow: Jester).
 - Natural: Isolation. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
@@ -452,7 +453,7 @@ Private, Strong and Not Valued.
 - Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 - Repressed: Silliness. Represses the adoption of silly social personas.
 
-**LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist)**
+#### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
@@ -462,7 +463,7 @@ Private, Strong and Not Valued.
 - Trivializing: Silliness. Trivializes the adoption of silly social personas.
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
 
-**SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)**
+#### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
@@ -472,9 +473,9 @@ Private, Strong and Not Valued.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 - Repressed: Canon. Represses the observance of a mutually-legislated understanding.
 
-### Hierarchal Types
+### Hierarchal Types.
 
-**LSI / ISTP / ISTj / Brigand (Shadow: Equarry)**
+#### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
@@ -484,7 +485,7 @@ Private, Strong and Not Valued.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
 - Repressed: Reliability. Represses the promotion of pragmatic stability.
 
-**IEI / INFJ / INFp / Apostle (Shadow: Coach)**
+#### IEI / INFJ / INFp / Apostle (Shadow: Coach).
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
@@ -494,7 +495,7 @@ Private, Strong and Not Valued.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
 
-**EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie)**
+#### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
@@ -504,7 +505,7 @@ Private, Strong and Not Valued.
 - Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
 - Repressed: Faith. Represses the emphasis of good-faith relations.
 
-**SLE / ESTP / ESTp / Predator (Shadow: Custodian)**
+#### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
 - Natural: Supremacy. Naturally adopts possessive social personas.
 - Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
 - Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
@@ -514,7 +515,7 @@ Private, Strong and Not Valued.
 - Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
 - Repressed: Affirmation. Represses the observance of inherent quality.
 
-**EII / INFP / INFj / Seelie (Shadow: Provocateur)**
+#### EII / INFP / INFj / Seelie (Shadow: Provocateur).
 - Natural: Faith. Naturally emphasises good-faith relations.
 - Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
 - Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
@@ -524,7 +525,7 @@ Private, Strong and Not Valued.
 - Trivializing: Radicalism. Trivializes the observance of exploitative underpinnings.
 - Repressed: Catharsis. Represses the promotion of a purgative atmosphere.
 
-**SLI / ISTJ / ISTp / Custodian (Shadow: Predator)**
+#### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 - Natural: Affirmation. Naturally observes inherent quality.
 - Constructive: Reliability. Finds it constructive to promote pragmatic stability.
 - Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
@@ -534,7 +535,7 @@ Private, Strong and Not Valued.
 - Trivializing: Defence. Trivializes the emphasis of defensive structural rationales.
 - Repressed: Supremacy. Represses the adoption of possessive social personas.
 
-**LSE / ESTJ / ESTj / Equerry (Shadow: Brigand)**
+#### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 - Natural: Reliability. Naturally promotes pragmatic stability.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
@@ -544,7 +545,7 @@ Private, Strong and Not Valued.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
 - Repressed: Defence. Represses the emphasis of defensive structural rationales.
 
-**IEE / ENFP / ENFp / Coach (Shadow: Apostle)**
+#### IEE / ENFP / ENFp / Coach (Shadow: Apostle).
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
