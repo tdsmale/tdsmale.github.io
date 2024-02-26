@@ -331,7 +331,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Enhancing + Narrational.
 - Enlightened collectivism. Minimises harsh individuation.
 - Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
-- Welcoming company that doesn't take anything too seriously.
+- Welcoming company that doesn't want to take anything too seriously.
 - Typically has problems with being too impractical or childish.
 
 ##### Properties
