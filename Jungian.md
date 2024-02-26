@@ -6,20 +6,20 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 ## Base Dichotomies.
 
 ### Position.
-- Internal: Apprehended as emerging from an internal experience of life. (F / N)
-- External: Apprehended as emerging from an external experience of life. (T / S)
+- Internal: Apprehended as emerging from an internal experience of life (F / N).
+- External: Apprehended as emerging from an external experience of life (T / S).
 
 ### Method.
-- Detached: Apprehended as emerging from an abstract experience of life. (T / N)
-- Involved: Apprehended as emerging from a direct experience of life. (S / F)
+- Detached: Apprehended as emerging from an abstract experience of life (T / N).
+- Involved: Apprehended as emerging from a direct experience of life (S / F).
 
 ### Form.
-- Static: Apprehended as Distinct from other Static things, having a clearly deliniated form that is difficult to change. (Ji / Pe)
-- Dynamic: Apprehended as Coalescent with other Dynamic things, having an unclearly delineated form that is easy to change. (Je / Pi)
+- Static: Apprehended as Distinct from other Static things, having a clearly deliniated form that is difficult to change (Ji / Pe).
+- Dynamic: Apprehended as Coalescent with other Dynamic things, having an unclearly delineated form that is easy to change (Je / Pi).
 
 ### Behaviour.
-- Reactive: Apprehended as something that is produced or affected by an external process. (Ji / Pi)
-- Active: Apprehended as something that starts or is inherent to an external process. (Je / Pe)
+- Reactive: Apprehended as something that is produced or affected by an external process (Ji / Pi).
+- Active: Apprehended as something that starts or is inherent to an external process (Je / Pe).
 
 ## Composite Dichotomies.
 
