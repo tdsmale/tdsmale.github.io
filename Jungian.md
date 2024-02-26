@@ -278,6 +278,7 @@ Relating to others in terms of the social categories they are part of.
 #### Schismatic Hierarchy.
 - Beta Quadra.
 - Collapsing + Narrational.
+- Harsh collectivism. Minimises enlightened individuation.
 - Divided structure collapses into dramatic upheaval, leading to a radical, unyielding truth.
 - Rowdy company prone to ideological conflict.
 - Typically has problems with being too passionate or tyrannical.
@@ -297,6 +298,7 @@ Relating to others in terms of the social categories they are part of.
 #### Homeostatic Hierarchy.
 - Delta Quadra.
 - Enhancing + Economical.
+- Enlightened individuation. Minimises harsh collectivism.
 - Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.
 - Grounded, high-minded & driven to potentiate the best in how things are.
 - Typically has problems with being too accepting or understanding.
@@ -327,6 +329,7 @@ Relating to others in terms of individual qualities relative to a whole.
 #### Theoretic Atomism.
 - Alpha Quadra.
 - Enhancing + Narrational.
+- Enlightened collectivism. Minimises harsh individuation.
 - Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
 - Welcoming company that doesn't take anything too seriously.
 - Typically has problems with being too impractical or childish.
@@ -346,6 +349,7 @@ Relating to others in terms of individual qualities relative to a whole.
 #### Solipsistic Atomism.
 - Gamma Quadra.
 - Collapsing + Economical.
+- Harsh individuation. Minimises enlightened collectivism.
 - Privileged relations collapse into harsh practicality, leading to psychological inequity.
 - Self-driven, individualistic and sceptical of others.
 - Typically has problems with being too cold or distant.
