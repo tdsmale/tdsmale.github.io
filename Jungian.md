@@ -45,13 +45,13 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 #### Sincere (Fi)
 - Subjective + Conditioning.
 - Personal relations.
-- Desire, privilege & kinship.
+- Desire, privilege, attachment & kinship.
 - Internalised feelings.
 
 #### Structural (Ti)
 - Objective + Conditioning.
 - Internal structure.
-- Truth, impartiality & symmetry.
+- Truth, impartiality, coherence & symmetry.
 - Internalised rules.
 
 ### Reflection
