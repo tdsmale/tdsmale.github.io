@@ -41,8 +41,8 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 ## Information Elements
 
 ### Conditioning
-- Subjective + Conditioning: Sincere (Fi). Personal relations. Relational & privileging. Internalised feelings.
-- Objective + Conditioning: Structural (Ti). Internal structure. Truth & impartiality. Internalised rules.
+- Subjective + Conditioning: Sincere (Fi). Personal relations. Desire, privilege & kinship. Internalised feelings.
+- Objective + Conditioning: Structural (Ti). Internal structure. Truth, impartiality & symmetry. Internalised rules.
 
 ### Reflection
 - Reflection + Present: Relaxed (Si). Familiarity of senses. Enhancing the current moment. Lessening of discomfort.
