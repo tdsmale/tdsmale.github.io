@@ -361,7 +361,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
 
 ##### Information Attitudes
-- Symptomatic: Retentive (Control + Relations). Emphasising retentive relations.
+- Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
 - Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
 - Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
@@ -395,7 +395,7 @@ Private, Strong and Not Valued.
 **LII / INTP / INTj / Sophist (Shadow: Capitalist)**
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
-- Obligation: Retentive. Feels obligated to try emphasising retentive relations.
+- Obligation: Retention. Feels obligated to try emphasising retentive relations.
 - Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
 - Indulgant: Canon. Can over-exploit the observance a mutually-legislated understanding.
 - Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
@@ -409,7 +409,7 @@ Private, Strong and Not Valued.
 - Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
 - Indulgant: Tangentiality. Can over-exploit emphasising cooperative structural possibilities.
 - Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
-- Trivializing: Retentive. Trivializes the emphasis of retentive relations.
+- Trivializing: Retention. Trivializes the emphasis of retentive relations.
 - Repressed: Expenditure. Represses the adoption of aggressive self-interest.
 
 **ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan)**
@@ -420,20 +420,20 @@ Private, Strong and Not Valued.
 - Indulgant: Silliness. Can over-exploit adopting silly social personas.
 - Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
-- Repressed: Retentive. Represses the emphasis of retentive relations.
+- Repressed: Retention. Represses the emphasis of retentive relations.
 
 **ILE / ENTP / ENTp / Jester (Shadow: Vulture)**
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
-- Unnatural: Retentive. Finds it unnatural to emphasise retentive relations.
+- Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
 - Indulgant: Hospitality. Can over-exploit promoting a mutually welcoming atmosphere.
 - Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
 - Repressed: Isolation. Represses the observance of an inequitable distance.
 
 **ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant)**
-- Natural: Retentive. Naturally emphasises retentive relations.
+- Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
 - Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
@@ -447,7 +447,7 @@ Private, Strong and Not Valued.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
 - Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
-- Indulgant: Retentive. Can over-exploit emphasising retentive relations.
+- Indulgant: Retention. Can over-exploit emphasising retentive relations.
 - Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
 - Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 - Repressed: Silliness. Represses the adoption of silly social personas.
@@ -458,13 +458,13 @@ Private, Strong and Not Valued.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
 - Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 - Indulgant: Expenditure. Can over-exploit adopting aggressive self-interest.
-- Unconscious: Retentive. Unconsciously provokes the emphasis of retentive relations.
+- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
 - Trivializing: Silliness. Trivializes the adoption of silly social personas.
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
 
 **SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur)**
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
-- Constructive: Retentive. Finds it constructive to emphasise retentive relations.
+- Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
 - Indulgant: Profitability. Can over-exploit promoting competitive escalation.
