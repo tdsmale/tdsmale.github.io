@@ -434,6 +434,7 @@ Private, Strong and Not Valued.
 ### Atomistic Types.
 
 #### LII / INTP / INTj / Sophist (Shadow: Capitalist).
+Playful Intellectual.
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Retention. Feels obligated to try emphasising retentive relations.
@@ -444,6 +445,7 @@ Private, Strong and Not Valued.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
 
  #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
+Sensual Connoisseur.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Isolation. Feels obligated to try observing an inequitable distance.
@@ -454,6 +456,7 @@ Private, Strong and Not Valued.
 - Repressed: Expenditure. Represses the adoption of aggressive self-interest.
 
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
+Loveable Host.
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
@@ -464,6 +467,7 @@ Private, Strong and Not Valued.
 - Repressed: Retention. Represses the emphasis of retentive relations.
 
 #### ILE / ENTP / ENTp / Jester (Shadow: Vulture).
+Court Jester.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -474,6 +478,7 @@ Private, Strong and Not Valued.
 - Repressed: Isolation. Represses the observance of an inequitable distance.
 
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
+Judicious Individualist.
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
@@ -484,6 +489,7 @@ Private, Strong and Not Valued.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Jester).
+Lethargic Scavenger.
 - Natural: Isolation. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
@@ -494,6 +500,7 @@ Private, Strong and Not Valued.
 - Repressed: Silliness. Represses the adoption of silly social personas.
 
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
+Ruthless Materialist.
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Isolation. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
@@ -504,6 +511,7 @@ Private, Strong and Not Valued.
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
 
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
+Shameless Machiavellian.
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
@@ -516,6 +524,7 @@ Private, Strong and Not Valued.
 ### Hierarchal Types.
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
+Unyielding Enforcer.
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
@@ -525,7 +534,8 @@ Private, Strong and Not Valued.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
 - Repressed: Reliability. Represses the promotion of pragmatic stability.
 
-#### IEI / INFJ / INFp / Martyr (Shadow: Coach).
+#### IEI / INFJ / INFp / Vampire (Shadow: Coach).
+Attractive Parasite.
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
@@ -536,6 +546,7 @@ Private, Strong and Not Valued.
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
 
 #### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
+Passionate Martyr.
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
@@ -546,6 +557,7 @@ Private, Strong and Not Valued.
 - Repressed: Faith. Represses the emphasis of good-faith relations.
 
 #### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
+Apex Predator.
 - Natural: Supremacy. Naturally adopts possessive social personas.
 - Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
 - Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
@@ -556,6 +568,7 @@ Private, Strong and Not Valued.
 - Repressed: Affirmation. Represses the observance of inherent quality.
 
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
+Blessed Fairy.
 - Natural: Faith. Naturally emphasises good-faith relations.
 - Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
 - Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
@@ -566,6 +579,7 @@ Private, Strong and Not Valued.
 - Repressed: Catharsis. Represses the promotion of a purgative atmosphere.
 
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
+Stabilising Outlier.
 - Natural: Affirmation. Naturally observes inherent quality.
 - Constructive: Reliability. Finds it constructive to promote pragmatic stability.
 - Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
@@ -576,6 +590,7 @@ Private, Strong and Not Valued.
 - Repressed: Supremacy. Represses the adoption of possessive social personas.
 
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
+Conscientious Servant.
 - Natural: Reliability. Naturally promotes pragmatic stability.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
@@ -585,7 +600,8 @@ Private, Strong and Not Valued.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
 - Repressed: Defence. Represses the emphasis of defensive structural rationales.
 
-#### IEE / ENFP / ENFp / Coach (Shadow: Martyr).
+#### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
+Promiscuous Counsel.
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
