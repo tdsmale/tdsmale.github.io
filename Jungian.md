@@ -46,13 +46,15 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 #### Sincere (Fi).
 - Subjective + Conditioning.
 - Personal relations.
-- Desire, privilege, attachment & kinship.
+- Desire, privilege & kinship.
+- Attachment & detachment.
 - Internalised feelings.
 
 #### Structural (Ti).
 - Objective + Conditioning.
 - Internal structure.
-- Truth, impartiality, coherence & symmetry.
+- Truth, coherence & symmetry.
+- Neutrality & ideology.
 - Internalised rules.
 
 ### Reflection.
@@ -61,12 +63,14 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Reflection + Present.
 - Familiarity of senses.
 - Enhancing the current moment.
+- Indulgance & stagnation.
 - Lessening of discomfort.
 
-#### Dissociative (Ni).
+#### Melancholic (Ni).
 - Reflection + Future.
 - Yielding over time.
 - Waiting for the moment.
+- Prognostication, fatalism & dissociation.
 - Lessening of impact.
 
 ### Navigating.
@@ -75,12 +79,14 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Subjective + Navigation.
 - Influencing expressions.
 - Authentic externalisation.
+- Attraction & manipulation.
 - Emotional synchronisation.
 
 #### Productive (Te).
 - Objective + Navigation.
 - Pragmatisation.
 - Productive externalisation.
+- Efficiency & workaholism.
 - Factual synchronisation.
 
 ### Activating.
@@ -89,12 +95,14 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Present + Activation.
 - Unyielding in-the-moment.
 - Taking up space.
+- Impact & oppression.
 - Capture & possession.
 
 #### Digressive (Ne).
 - Future + Activation.
 - Broadening of possibilities.
 - Taking up ideas.
+- Creativity & waste.
 - Thinking outside the box.
 
 ### Reactive vs Active Information Elements.
@@ -116,7 +124,7 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Dissociative + Forceful.
+- Melancholic + Forceful.
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
@@ -178,7 +186,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Si: Acceptance. Denying timing.
   
 #### Ti + Ni: Radicalism. 
-- Structural + Dissociative.
+- Structural + Melancholic.
 - Detached & Reactive.
 - Structural Timing.
 - Denying practicality by denying relaxation.
@@ -190,7 +198,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Denying practicality by denying timing.
   
 #### Fi + Ni: Isolation. 
-- Sincere + Dissociative.
+- Sincere + Melancholic.
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
@@ -209,7 +217,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Je + Si: Comfort. Creating relaxation.
   
 #### Fe + Ni: Catharsis. 
-- Expressive + Dissociative.
+- Expressive + Melancholic.
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
@@ -221,7 +229,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Creating personas by creating relaxation.
 
 #### Te + Ni: Profitability. 
-- Productive + Dissociative.
+- Productive + Melancholic.
 - Detached & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
