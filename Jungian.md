@@ -159,32 +159,32 @@ Seeks to represent external processes. Emphasises the result. Static.
 - External & Static.
 - Controlling Truth.
 - Creating structure by denying potential.
-- Neutrality & Impact.
-- Ideology & Oppression.
+- Ideal: Neutrality & Impact.
+- Shadow: Ideology & Oppression.
 
 #### Ti + Ne: Tangentiality.
 - Structural + Digressive.
 - Detached & Static.
 - Potential Truth.
 - Creating structure by denying control.
-- Neutrality + Creativity.
-- Ideology + Waste.
+- Ideal: Neutrality & Creativity.
+- Shadow: Ideology & Waste.
   
 #### Fi + Se: Retention. 
 - Sincere + Forceful.
 - Involved & Static.
 - Controlling Relations.
 - Creating individuation by denying potential.
-- Attachment & Impact.
-- Detachment & Oppression.
+- Ideal: Attachment & Impact.
+- Shadow: Detachment & Oppression.
   
 #### Fi + Ne: Faith. 
 - Sincere + Digressive.
 - Internal & Static.
 - Potential Relations.
 - Creating individuation by denying control.
-- Attachment & Creativity.
-- Detachment & Waste.
+- Ideal: Attachment & Creativity.
+- Shadow: Detachment & Waste.
    
 ### Ji + Pi: Observant. 
 Seeks to be seperate from external processes. Minimises the result. Reactive.
@@ -198,32 +198,32 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Detached & Reactive.
 - Structural Timing.
 - Denying practicality by denying relaxation.
-- Neutrality & Prognostication.
-- Ideology & Fatalism.
+- Ideal: Neutrality & Prognostication.
+- Shadow: Ideology & Fatalism.
 
 #### Ti + Si: Canon. 
 - Structural + Relaxed.
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
-- Neutrality & Indulgance.
-- Ideology & Stagnancy.
+- Ideal: Neutrality & Indulgance.
+- Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Isolation. 
 - Sincere + Melancholic.
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
-- Attachment & Prognostication.
-- Detachment & Fatalism.
+- Ideal: Attachment & Prognostication.
+- Shadow: Detachment & Fatalism.
 
 #### Fi + Si: Affirmation. 
 - Sincere + Relaxed.
 - Involved & Reactive.
 - Individual Acceptance.
 - Denying personas by denying timing.
-- Attachment & Indulgance.
-- Detachment & Stagnancy.
+- Ideal: Attachment & Indulgance.
+- Shadow: Detachment & Stagnancy.
 
 ### Je + Pi: Promoting.
 Seeks to promote external processes. Promotes further results. Dynamic.
@@ -237,32 +237,32 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
-- Attraction & Prognostication.
-- Manipulation & Fatalism.
+- Ideal: Attraction & Prognostication.
+- Shadow: Manipulation & Fatalism.
 
 #### Fe + Si: Hospitality. 
 - Expressive + Relaxed.
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating relaxation.
-- Attraction & Indulgance.
-- Manipulation & Stagnancy.
+- Ideal: Attraction & Indulgance.
+- Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
 - Productive + Melancholic.
 - Detached & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
-- Efficiency & Prognostication.
-- Workaholism & Fatalism.
+- Ideal: Efficiency & Prognostication.
+- Shadow: Workaholism & Fatalism.
 
 #### Te + Si: Reliability. 
 - Productive + Relaxed.
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating relaxation.
-- Efficiency & Indulgance.
-- Workaholism & Stagnancy.
+- Ideal: Efficiency & Indulgance.
+- Shadow: Workaholism & Stagnancy.
 
 ### Je + Pe: Adopting.
 Seeks to make the most of external processes. Adopts the result. Active.
@@ -276,32 +276,32 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Involved & Active.
 - Capturing Personas.
 - Creating control by denying individuation.
-- Attraction & Impact.
-- Manipulation & Oppression.
+- Ideal: Attraction & Impact.
+- Shadow: Manipulation & Oppression.
 
 #### Te + Se: Expenditure. 
 - Productive + Forceful.
 - External & Active.
 - Capturing Practicality.
 - Creating control by denying structure.
-- Efficiency & Impact.
-- Workaholism & Oppression.
+- Ideal: Efficiency & Impact.
+- Shadow: Workaholism & Oppression.
 
 #### Fe + Ne: Silliness. 
 - Expressive + Digressive.
 - Internal & Active.
 - Ideating Personas.
 - Creating potential by denying individuation.
-- Attraction & Creativity.
-- Manipulation & Waste.
+- Ideal: Attraction & Creativity.
+- Shadow: Manipulation & Waste.
 
 #### Te + Ne: Experimentation. 
 - Productive + Digressive.
 - Detached & Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
-- Efficiency & Creativity.
-- Manipulation & Waste.
+- Ideal: Efficiency & Creativity.
+- Shadow: Manipulation & Waste.
 
 ## Type Groupings.
 
