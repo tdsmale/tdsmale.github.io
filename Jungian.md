@@ -337,8 +337,8 @@ Relating to others in terms of individual qualities relative to a whole.
 
 ##### Properties.
 - Worldview: Playful. The only thing to take seriously is not taking things seriously.
-- Ideal: Adjudication. To speak aloud, to dullen secrets, to come to equitably-legislated conclusions.
-- Shadow: Overpowering. To step on other's toes, to wield power over others, or to be drowned out.
+- Ideal: Adjudication. To speak openly, to dullen secrets, to come to equitably-legislated conclusions.
+- Shadow: Illusion. To keep secrets, to be tricked by others, to be out of the loop.
 - Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
 
 ##### Information Attitudes.
