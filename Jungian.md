@@ -261,7 +261,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating relaxation.
-- Efficiency & Indulgant.
+- Efficiency & Indulgance.
 - Workaholism & Stagnancy.
 
 ### Je + Pe: Adopting.
