@@ -485,7 +485,7 @@ Private, Strong and Not Valued.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
 - Repressed: Reliability. Represses the promotion of pragmatic stability.
 
-#### IEI / INFJ / INFp / Apostle (Shadow: Coach).
+#### IEI / INFJ / INFp / Martyr (Shadow: Coach).
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
@@ -545,7 +545,7 @@ Private, Strong and Not Valued.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
 - Repressed: Defence. Represses the emphasis of defensive structural rationales.
 
-#### IEE / ENFP / ENFp / Coach (Shadow: Apostle).
+#### IEE / ENFP / ENFp / Coach (Shadow: Martyr).
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
