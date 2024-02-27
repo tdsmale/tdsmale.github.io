@@ -63,7 +63,7 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - Reflection + Present.
 - Familiarity of senses.
 - Enhancing the current moment.
-- Indulgance & stagnation.
+- Satisfaction  & stagnation.
 - Lessening of discomfort.
 
 #### Melancholic (Ni).
@@ -206,7 +206,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
-- Ideal: Neutrality & Indulgance.
+- Ideal: Neutrality & Satisfaction.
 - Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Isolation. 
@@ -222,7 +222,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Involved & Reactive.
 - Individual Acceptance.
 - Denying personas by denying timing.
-- Ideal: Attachment & Indulgance.
+- Ideal: Attachment & Satisfaction.
 - Shadow: Detachment & Stagnancy.
 
 ### Je + Pi: Promoting.
@@ -245,7 +245,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating relaxation.
-- Ideal: Attraction & Indulgance.
+- Ideal: Attraction & Satisfaction.
 - Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
@@ -261,7 +261,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating relaxation.
-- Ideal: Efficiency & Indulgance.
+- Ideal: Efficiency & Satisfaction.
 - Shadow: Workaholism & Stagnancy.
 
 ### Je + Pe: Adopting.
