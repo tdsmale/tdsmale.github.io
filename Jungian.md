@@ -466,7 +466,7 @@ Loveable Host.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
 - Repressed: Retention. Represses the emphasis of retentive relations.
 
-#### ILE / ENTP / ENTp / Jester (Shadow: Vulture).
+#### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
@@ -488,7 +488,7 @@ Judicious Individualist.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
-#### ILI / INTJ / INTp / Vulture (Shadow: Jester).
+#### ILI / INTJ / INTp / Vulture (Shadow: Fool).
 Lethargic Scavenger.
 - Natural: Isolation. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
