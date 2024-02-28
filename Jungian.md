@@ -376,7 +376,7 @@ Relating to others in terms of the social categories they are part of.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
 
-### Types.
+### Hierarchal Types.
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer.
@@ -517,7 +517,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
 - Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
 
-### Types.
+### Atomistic Types.
 
 #### LII / INTP / INTj / Sophist (Shadow: Capitalist).
 Playful Intellectual.
