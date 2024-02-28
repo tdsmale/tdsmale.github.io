@@ -489,7 +489,7 @@ Judicious Individualist.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
-Lethargic Scavenger.
+Torpid Scavenger.
 - Natural: Isolation. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
