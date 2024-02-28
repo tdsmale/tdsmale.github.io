@@ -3,6 +3,28 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 - [Wikisocion](https://wikisocion.github.io)
 - [Socionavigator](https://socionavigator.com)
 
+## Functions.
+
+### Ego Block.
+Public, Strong and Valued.
+- Bold: Natural. Default "always-on" attitude.
+- Cautious: Constructive. Attitude felt as constructive.
+
+### Super-Ego Block.
+Public, Weak and Not Valued.
+- Bold: Obligation. Attitude felt as a means to an end.
+- Cautious: Unnatural. Attitude felt as unnatural.
+
+### Id Block.
+Private, Weak and Valued.
+- Bold: Indulgant. Attitude over-indulgeed.
+- Cautious: Unconscious. Attitude unconsciously invoked in others.
+
+### Super-Id Block.
+Private, Strong and Not Valued.
+- Bold: Trivializing. Attitude most taken for granted.
+- Cautious: Repressed. Attitude most repressed.
+
 ## Base Dichotomies.
 
 ### Position.
@@ -303,9 +325,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Ideal: Efficiency & Creativity.
 - Shadow: Manipulation & Waste.
 
-## Type Groupings.
-
-### Hierarchal.
+## Hierarchal.
 Relating to others in terms of the social categories they are part of.
 - Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
 - Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
@@ -316,7 +336,7 @@ Relating to others in terms of the social categories they are part of.
 - Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
 - Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
 
-#### Schismatic Hierarchy.
+### Schismatic Hierarchy.
 - Beta Quadra.
 - Collapsing + Narrational.
 - Harsh collectivism. Minimises enlightened individuation.
@@ -324,19 +344,19 @@ Relating to others in terms of the social categories they are part of.
 - Rowdy company prone to ideological conflict.
 - Typically has problems with being too passionate or tyrannical.
 
-##### Properties.
+#### Properties.
 - Worldview: Transformative. Having a passionate will to conquer enemies and enjoy the spoils.
 - Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.
 - Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.
 - Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
 
-##### Information Attitudes.
+#### Information Attitudes.
 - Symptomatic: Defence (Control + Truth). Emphasising defensive structural rationales.
 - Observant: Radicalism (Structure + Timing). Observing exploitative underpinnings.
 - Promoting: Catharsis (Expression + Foresight). Promoting a purgative atmosphere.
 - Adopting: Supremacy (Capture + Personas). Adopting possessive social personas.
 
-#### Homeostatic Hierarchy.
+### Homeostatic Hierarchy.
 - Delta Quadra.
 - Enhancing + Economical.
 - Enlightened individuation. Minimises harsh collectivism.
@@ -344,184 +364,19 @@ Relating to others in terms of the social categories they are part of.
 - Grounded, high-minded & driven to potentiate the best in how things are.
 - Typically has problems with being too accepting or understanding.
 
-##### Properties.
+#### Properties.
 - Worldview: Harmonious. Living in wisened harmony with one's environment.
 - Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.
 - Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.
 - Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it.
 
-##### Information Attitudes.
+#### Information Attitudes.
 - Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 - Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
 
-### Atomistic. 
-Relating to others in terms of individual qualities relative to a whole.
-- Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
-- Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
-- Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
-- Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
-- Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
-- Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
-- Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
-- Si: Maximising positive comfort. Indulgance & beauty. Hospitality & Canon.
-
-#### Theoretic Atomism.
-- Alpha Quadra.
-- Enhancing + Narrational.
-- Enlightened collectivism. Minimises harsh individuation.
-- Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
-- Welcoming company that doesn't want to take anything too seriously.
-- Typically has problems with being too impractical or childish.
-
-##### Properties.
-- Worldview: Playful. The only thing to take seriously is not taking things seriously.
-- Ideal: Adjudication. To speak openly, to dullen secrets, to come to equitably-legislated conclusions.
-- Shadow: Obmutescence. To keep secrets, to be tongue-tied, to be left out of the loop.
-- Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
-
-##### Information Attitudes.
-- Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
-- Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
-- Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
-- Adopting: Silliness (Ideation + Personas). Adopting silly social personas.
-
-#### Solipsistic Atomism.
-- Gamma Quadra.
-- Collapsing + Economical.
-- Harsh individuation. Minimises enlightened collectivism.
-- Retentive relations collapse into harsh practicality, leading to psychological inequity.
-- Self-driven, individualistic and sceptical of others.
-- Typically has problems with being too cold or distant.
-
-##### Properties.
-- Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.
-- Ideal: Independence. To determine one's own efforts & interests, free of interference.
-- Shadow: Delegation. To represent others or to do their work for them.
-- Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
-
-##### Information Attitudes.
-- Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
-- Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
-- Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
-- Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
-
-## Functions.
-
-### Ego Block.
-Public, Strong and Valued.
-- Bold: Natural. Default "always-on" attitude.
-- Cautious: Constructive. Attitude felt as constructive.
-
-### Super-Ego Block.
-Public, Weak and Not Valued.
-- Bold: Obligation. Attitude felt as a means to an end.
-- Cautious: Unnatural. Attitude felt as unnatural.
-
-### Id Block.
-Private, Weak and Valued.
-- Bold: Indulgant. Attitude over-indulgeed.
-- Cautious: Unconscious. Attitude unconsciously invoked in others.
-
-### Super-Id Block.
-Private, Strong and Not Valued.
-- Bold: Trivializing. Attitude most taken for granted.
-- Cautious: Repressed. Attitude most repressed.
-
-## Types.
-
-### Atomistic Types.
-
-#### LII / INTP / INTj / Sophist (Shadow: Capitalist).
-Playful Intellectual.
-- Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
-- Constructive: Silliness. Finds it constructive to adopt silly social personas.
-- Obligation: Retention. Feels obligated to try emphasising retentive relations.
-- Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
-- Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
-- Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
-- Trivializing: Isolation. Trivializes the observance of an inequitable distance.
-- Repressed: Profitability. Represses the promotion of competitive escalation.
-
- #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
-Sensual Connoisseur.
-- Natural: Canon. Naturally observes a mutually-legislated understanding.
-- Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
-- Obligation: Isolation. Feels obligated to try observing an inequitable distance.
-- Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
-- Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
-- Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
-- Trivializing: Retention. Trivializes the emphasis of retentive relations.
-- Repressed: Expenditure. Represses the adoption of aggressive self-interest.
-
-#### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
-Loveable Host.
-- Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
-- Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
-- Obligation: Profitability. Feels obligated to try and promote competitive escalation.
-- Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
-- Indulgant: Silliness. Can over-indulge adopting silly social personas.
-- Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
-- Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
-- Repressed: Retention. Represses the emphasis of retentive relations.
-
-#### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
-Court Jester.
-- Natural: Silliness. Naturally adopts silly social personas.
-- Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
-- Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
-- Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
-- Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
-- Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
-- Trivializing: Profitability. Trivializes the promotion of competitive escalation.
-- Repressed: Isolation. Represses the observance of an inequitable distance.
-
-#### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
-Judicious Individualist.
-- Natural: Retention. Naturally emphasises retentive relations.
-- Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
-- Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
-- Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
-- Indulgant: Isolation. Can over-indulge observing an inequitable distance.
-- Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
-- Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
-- Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
-
-#### ILI / INTJ / INTp / Vulture (Shadow: Fool).
-Torpid Scavenger.
-- Natural: Isolation. Naturally observes an inequitable distance.
-- Constructive: Profitability. Finds it constructive to promote competitive escalation.
-- Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
-- Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
-- Indulgant: Retention. Can over-indulge emphasising retentive relations.
-- Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
-- Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
-- Repressed: Silliness. Represses the adoption of silly social personas.
-
-#### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
-Ruthless Materialist.
-- Natural: Profitability. Naturally promotes competitive escalation.
-- Constructive: Isolation. Finds it constructive to observe an inequitable distance.
-- Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
-- Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
-- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
-- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
-- Trivializing: Silliness. Trivializes the adoption of silly social personas.
-- Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
-
-#### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
-Shameless Machiavellian.
-- Natural: Expenditure. Naturally adopts aggressive self-interest.
-- Constructive: Retention. Finds it constructive to emphasise retentive relations.
-- Obligation: Silliness. Feels obligated to try and adopt silly social personas.
-- Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
-- Indulgant: Profitability. Can over-indulge promoting competitive escalation.
-- Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance.
-- Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
-- Repressed: Canon. Represses the observance of a mutually-legislated understanding.
-
-### Hierarchal Types.
+### Types
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer.
@@ -610,3 +465,144 @@ Promiscuous Counsel.
 - Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
 - Repressed: Radicalism. Represses the observance of exploitative underpinnings.
+
+## Atomistic. 
+Relating to others in terms of individual qualities relative to a whole.
+- Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
+- Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
+- Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
+- Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
+- Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
+- Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
+- Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
+- Si: Maximising positive comfort. Indulgance & beauty. Hospitality & Canon.
+
+### Theoretic Atomism.
+- Alpha Quadra.
+- Enhancing + Narrational.
+- Enlightened collectivism. Minimises harsh individuation.
+- Structural possibilities enhance emotional atmosphere, leading to an equitable legislation of canon.
+- Welcoming company that doesn't want to take anything too seriously.
+- Typically has problems with being too impractical or childish.
+
+#### Properties.
+- Worldview: Playful. The only thing to take seriously is not taking things seriously.
+- Ideal: Adjudication. To speak openly, to dullen secrets, to come to equitably-legislated conclusions.
+- Shadow: Obmutescence. To keep secrets, to be tongue-tied, to be left out of the loop.
+- Symbiosis: Mutual. Ecosystem is implictly reliant on mutual stategies for survival.
+
+#### Information Attitudes.
+- Symptomatic: Tangentiality (Potential + Truth). Emphasising cooperative structural possibilities.
+- Observant: Canon (Structure + Acceptance). Observing a mutually-legislated understanding.
+- Promoting: Hospitality (Expression + Comfort). Promoting a mutually welcoming atmosphere.
+- Adopting: Silliness (Ideation + Personas). Adopting silly social personas.
+
+### Solipsistic Atomism.
+- Gamma Quadra.
+- Collapsing + Economical.
+- Harsh individuation. Minimises enlightened collectivism.
+- Retentive relations collapse into harsh practicality, leading to psychological inequity.
+- Self-driven, individualistic and sceptical of others.
+- Typically has problems with being too cold or distant.
+
+#### Properties.
+- Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.
+- Ideal: Independence. To determine one's own efforts & interests, free of interference.
+- Shadow: Delegation. To represent others or to do their work for them.
+- Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources.
+
+#### Information Attitudes.
+- Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
+- Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
+- Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
+- Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
+
+### Types.
+
+#### LII / INTP / INTj / Sophist (Shadow: Capitalist).
+Playful Intellectual.
+- Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
+- Constructive: Silliness. Finds it constructive to adopt silly social personas.
+- Obligation: Retention. Feels obligated to try emphasising retentive relations.
+- Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
+- Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
+- Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
+- Trivializing: Isolation. Trivializes the observance of an inequitable distance.
+- Repressed: Profitability. Represses the promotion of competitive escalation.
+
+#### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
+Sensual Connoisseur.
+- Natural: Canon. Naturally observes a mutually-legislated understanding.
+- Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
+- Obligation: Isolation. Feels obligated to try observing an inequitable distance.
+- Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
+- Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
+- Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
+- Trivializing: Retention. Trivializes the emphasis of retentive relations.
+- Repressed: Expenditure. Represses the adoption of aggressive self-interest.
+
+#### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
+Loveable Host.
+- Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
+- Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
+- Obligation: Profitability. Feels obligated to try and promote competitive escalation.
+- Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
+- Indulgant: Silliness. Can over-indulge adopting silly social personas.
+- Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
+- Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
+- Repressed: Retention. Represses the emphasis of retentive relations.
+
+#### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
+Court Jester.
+- Natural: Silliness. Naturally adopts silly social personas.
+- Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
+- Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
+- Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
+- Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
+- Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
+- Trivializing: Profitability. Trivializes the promotion of competitive escalation.
+- Repressed: Isolation. Represses the observance of an inequitable distance.
+
+#### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
+Judicious Individualist.
+- Natural: Retention. Naturally emphasises retentive relations.
+- Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
+- Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
+- Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
+- Indulgant: Isolation. Can over-indulge observing an inequitable distance.
+- Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
+- Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
+- Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
+
+#### ILI / INTJ / INTp / Vulture (Shadow: Fool).
+Torpid Scavenger.
+- Natural: Isolation. Naturally observes an inequitable distance.
+- Constructive: Profitability. Finds it constructive to promote competitive escalation.
+- Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
+- Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
+- Indulgant: Retention. Can over-indulge emphasising retentive relations.
+- Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
+- Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
+- Repressed: Silliness. Represses the adoption of silly social personas.
+
+#### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
+Ruthless Materialist.
+- Natural: Profitability. Naturally promotes competitive escalation.
+- Constructive: Isolation. Finds it constructive to observe an inequitable distance.
+- Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
+- Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
+- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
+- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
+- Trivializing: Silliness. Trivializes the adoption of silly social personas.
+- Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
+
+#### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
+Shameless Machiavellian.
+- Natural: Expenditure. Naturally adopts aggressive self-interest.
+- Constructive: Retention. Finds it constructive to emphasise retentive relations.
+- Obligation: Silliness. Feels obligated to try and adopt silly social personas.
+- Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
+- Indulgant: Profitability. Can over-indulge promoting competitive escalation.
+- Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance.
+- Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
+- Repressed: Canon. Represses the observance of a mutually-legislated understanding.
