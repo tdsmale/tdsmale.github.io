@@ -376,7 +376,7 @@ Relating to others in terms of the social categories they are part of.
 - Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
 
-### Types
+### Types.
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer.
