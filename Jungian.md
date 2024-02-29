@@ -446,7 +446,7 @@ Sees the best in all things, promoting a more friendly and altruistic habitat to
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 Stabilising Outlier. Peripheral specialisation.
 
-Occupies a peripheral position maintaining neglected niches, so as to minimise undue will against them.
+Maintains neglected niches, so as to minimise undue will against them.
 - Natural: Affirmation. Naturally observes inherent quality.
 - Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
 - Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
@@ -459,7 +459,7 @@ Occupies a peripheral position maintaining neglected niches, so as to minimise u
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 Conscientious Servant. Putting things to good use.
 
-Determined to finds a satisfying, practical use in all things to better maintain their habitat.
+Finds a satisfying, practical use in things to better maintain their habitat.
 - Natural: Stability. Naturally promotes pragmatic equilibrium.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
@@ -472,7 +472,7 @@ Determined to finds a satisfying, practical use in all things to better maintain
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
-Strives to help anyone and anything to realise its true potential, better securing its place in things.
+Strives to help anyone and anything to realise its true potential.
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
