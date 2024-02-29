@@ -380,6 +380,7 @@ Relating to others in terms of the social categories they are part of.
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Upholding the law.
+Creates and enforces structure open things, both weilding and skirting the law of the land.
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
@@ -390,7 +391,8 @@ Unyielding Enforcer. Upholding the law.
 - Repressed: Stability. Represses the promotion of pragmatic equilibrium.
 
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
-Attractive Parasite. Paying tribute.
+Attractive Parasite. Sapping strength by paying tribute.
+Offers pleasant illusions to more powerful hosts, to better benefit from their strength.
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
@@ -402,6 +404,7 @@ Attractive Parasite. Paying tribute.
 
 #### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
 Passionate Martyr. Getting it all out.
+Provokes crowds into better strength against predators by cathartically purging its weaker qualities.
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Obligation: Stability. Feels obligated to try and promote pragmatic equilibrium.
@@ -413,6 +416,7 @@ Passionate Martyr. Getting it all out.
 
 #### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
 Apex Predator. Possessing the weak.
+Occupies the top of the food chain by possessing the weak and defeating the strong.
 - Natural: Supremacy. Naturally adopts possessive social personas.
 - Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
 - Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
@@ -424,6 +428,7 @@ Apex Predator. Possessing the weak.
 
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
 Blessed Fairy. Finding good fortune.
+Sees the best in all things, promoting a more friendly and altruistic habitat to benefit from.
 - Natural: Faith. Naturally emphasises good-faith relations.
 - Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
 - Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
@@ -435,6 +440,7 @@ Blessed Fairy. Finding good fortune.
 
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 Stabilising Outlier. Peripheral specialisation.
+Occupies a peripheral position maintaining neglected niches, so as to minimise undue will against them.
 - Natural: Affirmation. Naturally observes inherent quality.
 - Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
 - Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
@@ -446,6 +452,7 @@ Stabilising Outlier. Peripheral specialisation.
 
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 Conscientious Servant. Putting things to good use.
+Determined to finds a satisfying, practical use in all things to better maintain their habitat.
 - Natural: Stability. Naturally promotes pragmatic equilibrium.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
@@ -457,6 +464,7 @@ Conscientious Servant. Putting things to good use.
 
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
+Strives to help anyone and anything to realise its true potential.
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
@@ -521,6 +529,7 @@ Relating to others in terms of individual qualities relative to a whole.
 
 #### LII / INTP / INTj / Sophist (Shadow: Capitalist).
 Playful Intellectual. Reinventing the wheel.
+Intellectualises aspects of life to avoid cognitive dissonance and encourage a more mutual refusal of competition.
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Retention. Feels obligated to try emphasising retentive relations.
@@ -532,6 +541,7 @@ Playful Intellectual. Reinventing the wheel.
 
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
+Knowing what is mutually best for everyone by learning & relaying commonly-held knowledge.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Distance. Feels obligated to try observing an inequitable distance.
@@ -543,6 +553,7 @@ Sensual Connoisseur. Making everyone feel better.
 
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 Loveable Host. Keeping people together.
+Synchronising with a larger crowd by encouraging positive atmospheres and being the centre of attention.
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
@@ -554,6 +565,7 @@ Loveable Host. Keeping people together.
 
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester. Making a fool of things.
+Encouraging others to be open to new possibilities by partaking in "silly" or "foolish" behaviour.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -565,6 +577,7 @@ Court Jester. Making a fool of things.
 
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
+Possessing and retaining personally-valuable resources, fighting off would-be competitors.
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
@@ -575,7 +588,8 @@ Judicious Individualist. Retaining selected means.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
-Torpid Scavenger. Tracking bad luck.
+Torpid Scavenger. Reaping the rewards of bad luck. 
+Minimises involvement in the affairs of others to better benefit from their inevitable misfortune.
 - Natural: Distance. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
@@ -587,6 +601,7 @@ Torpid Scavenger. Tracking bad luck.
 
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 Ruthless Materialist. Escalating competition.
+Encourages competition over resources between others so as to improve their own personal yield.
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Distance. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
@@ -598,6 +613,7 @@ Ruthless Materialist. Escalating competition.
 
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 Shameless Machiavellian. Possessing the means.
+Directly reapts the benefits of things, proudly peacocking their wealth to others.
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
