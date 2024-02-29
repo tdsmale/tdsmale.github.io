@@ -381,7 +381,7 @@ Relating to others in terms of the social categories they are part of.
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Upholding the law.
 
-Creates and enforces structure open things, both weilding and skirting the law of the land.
+Creates and enforces structure upon things, both weilding and skirting the law of the land.
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
@@ -472,7 +472,7 @@ Determined to finds a satisfying, practical use in all things to better maintain
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
-Strives to help anyone and anything to realise its true potential.
+Strives to help anyone and anything to realise its true potential, better securing its place in things.
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
