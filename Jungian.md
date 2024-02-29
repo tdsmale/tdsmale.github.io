@@ -629,7 +629,7 @@ Encourages competition over resources so as to improve their own personal yield.
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 Shameless Machiavellian. Possessing the means.
 
-Directly reapts the benefits of things, proudly peacocking their wealth to others.
+Directly reaps the benefits of things, proudly peacocking their wealth to others.
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
