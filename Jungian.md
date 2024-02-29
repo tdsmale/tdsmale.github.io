@@ -278,7 +278,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Ideal: Efficiency & Prognostication.
 - Shadow: Workaholism & Fatalism.
 
-#### Te + Si: Reliability. 
+#### Te + Si: Stability. 
 - Productive + Relaxed.
 - External & Dynamic.
 - Efficient Comfort.
@@ -328,13 +328,13 @@ Seeks to make the most of external processes. Adopts the result. Active.
 ## Hierarchal.
 Relating to others in terms of the social categories they are part of.
 - Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
-- Te: Maximising useful resources. Stable efficiency. Reliability & Experimentation.
+- Te: Maximising useful resources. Harmonic efficiency. Stability & Experimentation.
 - Ti: Maximising positive conformity. Disciplined observance of rules. Defence & Radicalism.
 - Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
 - Ni: Minimising negative impact. Premonition of discordance. Radicalism & Catharsis.
 - Se: Minimising negative consequences. Possessing the weak. Defence & Supremacy.
 - Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
-- Si: Minimising negative comfort. Stability & peace of mind. Reliability & Affirmation.
+- Si: Minimising negative comfort. Maintaining peace of mind. Stability & Affirmation.
 
 ### Schismatic Hierarchy.
 - Beta Quadra.
@@ -373,7 +373,7 @@ Relating to others in terms of the social categories they are part of.
 #### Information Attitudes.
 - Symptomatic: Faith (Potential + Relations). Emphasising good-faith relations.
 - Observant: Affirmation (Individuation + Acceptance). Observing an inherent quality.
-- Promoting: Reliability (Efficiency + Comfort). Promoting pragmatic stability.
+- Promoting: Stability (Efficiency + Comfort). Promoting pragmatic equilibrium.
 - Adopting: Experimentation (Ideation + Practicality). Adopting seemingly useless things.
 
 ### Hierarchal Types.
@@ -387,14 +387,14 @@ Unyielding Enforcer. Upholding the law.
 - Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
 - Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
-- Repressed: Reliability. Represses the promotion of pragmatic stability.
+- Repressed: Stability. Represses the promotion of pragmatic equilibrium.
 
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
 Attractive Parasite. Paying tribute.
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
-- Unnatural: Reliability. Finds it unnatural to promote pragmatic stability.
+- Unnatural: Stability. Finds it unnatural to promote pragmatic equilibrium.
 - Indulgant: Defence. Can over-indulge emphasising defensive structural rationales.
 - Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
@@ -404,7 +404,7 @@ Attractive Parasite. Paying tribute.
 Passionate Martyr. Getting it all out.
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
-- Obligation: Reliability. Feels obligated to try and promote pragmatic stability.
+- Obligation: Stability. Feels obligated to try and promote pragmatic equilibrium.
 - Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 - Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
 - Unconscious: Defence. Unconsciously provokes the emphasis of defensive structural rationales.
@@ -419,7 +419,7 @@ Apex Predator. Possessing the weak.
 - Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
 - Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
 - Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
-- Trivializing: Reliability. Trivializes the promotion of pragmatic stability.
+- Trivializing: Stability. Trivializes the promotion of pragmatic equilibrium.
 - Repressed: Affirmation. Represses the observance of inherent quality.
 
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
@@ -429,14 +429,14 @@ Blessed Fairy. Finding good fortune.
 - Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
 - Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
 - Indulgant: Affirmation. Can over-indulge observing inherent quality.
-- Unconscious: Reliability. Unconsciously provokes the promotion of pragmatic stability.
+- Unconscious: Stability. Unconsciously provokes the promotion of pragmatic equilibrium.
 - Trivializing: Radicalism. Trivializes the observance of exploitative underpinnings.
 - Repressed: Catharsis. Represses the promotion of a purgative atmosphere.
 
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 Stabilising Outlier. Peripheral specialisation.
 - Natural: Affirmation. Naturally observes inherent quality.
-- Constructive: Reliability. Finds it constructive to promote pragmatic stability.
+- Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
 - Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
 - Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
 - Indulgant: Faith. Can over-indulge emphasising good-faith relations.
@@ -446,7 +446,7 @@ Stabilising Outlier. Peripheral specialisation.
 
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 Conscientious Servant. Putting things to good use.
-- Natural: Reliability. Naturally promotes pragmatic stability.
+- Natural: Stability. Naturally promotes pragmatic equilibrium.
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
 - Unnatural: Radicalism. Finds it unnatural to observe exploitative underpinnings.
@@ -461,7 +461,7 @@ Promiscuous Counsel. Helpful friend to all.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
 - Unnatural: Defence. Finds it unnatural to emphasise defensive structural rationales.
-- Indulgant: Reliability. Can over-indulge promoting pragmatic stability.
+- Indulgant: Stability. Can over-indulge promoting pragmatic equilibrium.
 - Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
 - Repressed: Radicalism. Represses the observance of exploitative underpinnings.
