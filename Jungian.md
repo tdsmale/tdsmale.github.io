@@ -379,7 +379,7 @@ Relating to others in terms of the social categories they are part of.
 ### Hierarchal Types.
 
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
-Unyielding Enforcer. Upholding the law.
+Unyielding Enforcer. Building the wall.
 
 Creates and enforces structure upon things, both weilding and skirting the law of the land.
 - Natural: Defence. Naturally emphasises defensive structural rationales.
