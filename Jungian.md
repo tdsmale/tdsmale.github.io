@@ -231,7 +231,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ideal: Neutrality & Satisfaction.
 - Shadow: Ideology & Stagnancy.
   
-#### Fi + Ni: Isolation. 
+#### Fi + Ni: Distance. 
 - Sincere + Melancholic.
 - Internal & Reactive.
 - Individual Timing.
@@ -468,12 +468,12 @@ Promiscuous Counsel. Helpful friend to all.
 
 ## Atomistic. 
 Relating to others in terms of individual qualities relative to a whole.
-- Fi: Minimising negative relations. Harsh judgement of character. Privilege & Isolation.
+- Fi: Minimising negative relations. Harsh judgement of character. Retention & Distance.
 - Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.
 - Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.
 - Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.
-- Ni: Maximising positive impact. Incremental progress. Isolation & Profitability.
-- Se: Maximising positive consequences. Retention of resources. Privilege & Expenditure.
+- Ni: Maximising positive impact. Incremental progress. Distance & Profitability.
+- Se: Maximising positive consequences. Retention of resources. Retention & Expenditure.
 - Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.
 - Si: Maximising positive comfort. Indulgance & beauty. Hospitality & Canon.
 
@@ -513,7 +513,7 @@ Relating to others in terms of individual qualities relative to a whole.
 
 #### Information Attitudes.
 - Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
-- Observant: Isolation (Individuation + Timing). Observing an inequitable distance.
+- Observant: Distance (Individuation + Timing). Observing an inequitable distance.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
 - Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
 
@@ -527,14 +527,14 @@ Playful Intellectual. Reinventing the wheel.
 - Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
 - Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
 - Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
-- Trivializing: Isolation. Trivializes the observance of an inequitable distance.
+- Trivializing: Distance. Trivializes the observance of an inequitable distance.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
 
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
-- Obligation: Isolation. Feels obligated to try observing an inequitable distance.
+- Obligation: Distance. Feels obligated to try observing an inequitable distance.
 - Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
 - Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
 - Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
@@ -546,7 +546,7 @@ Loveable Host. Keeping people together.
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
-- Unnatural: Isolation. Finds it unnatural to observe an inequitable distance.
+- Unnatural: Distance. Finds it unnatural to observe an inequitable distance.
 - Indulgant: Silliness. Can over-indulge adopting silly social personas.
 - Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
@@ -561,7 +561,7 @@ Court Jester. Making a fool of things.
 - Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
 - Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
-- Repressed: Isolation. Represses the observance of an inequitable distance.
+- Repressed: Distance. Represses the observance of an inequitable distance.
 
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
@@ -569,14 +569,14 @@ Judicious Individualist. Retaining selected means.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
 - Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
-- Indulgant: Isolation. Can over-indulge observing an inequitable distance.
+- Indulgant: Distance. Can over-indulge observing an inequitable distance.
 - Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
 Torpid Scavenger. Tracking bad luck.
-- Natural: Isolation. Naturally observes an inequitable distance.
+- Natural: Distance. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
 - Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
@@ -588,7 +588,7 @@ Torpid Scavenger. Tracking bad luck.
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 Ruthless Materialist. Escalating competition.
 - Natural: Profitability. Naturally promotes competitive escalation.
-- Constructive: Isolation. Finds it constructive to observe an inequitable distance.
+- Constructive: Distance. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
 - Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 - Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
@@ -603,6 +603,6 @@ Shameless Machiavellian. Possessing the means.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
 - Indulgant: Profitability. Can over-indulge promoting competitive escalation.
-- Unconscious: Isolation. Unconsciously provokes the observance of inequitable distance.
+- Unconscious: Distance. Unconsciously provokes the observance of inequitable distance.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 - Repressed: Canon. Represses the observance of a mutually-legislated understanding.
