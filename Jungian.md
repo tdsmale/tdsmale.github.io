@@ -390,7 +390,7 @@ Unyielding Enforcer. Upholding the law.
 - Repressed: Reliability. Represses the promotion of pragmatic stability.
 
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
-Attractive Parasite. Dressing the truth.
+Attractive Parasite. Paying tribute.
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
