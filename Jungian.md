@@ -538,7 +538,7 @@ Relating to others in terms of individual qualities relative to a whole.
 #### LII / INTP / INTj / Sophist (Shadow: Capitalist).
 Playful Intellectual. Reinventing the wheel.
 
-Intellectualises aspects of life to avoid cognitive dissonance and encourage a more mutual refusal of competition.
+Intellectualises aspects of life to avoid cognitive dissonance and encourage a mutual refusal of competition.
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Retention. Feels obligated to try emphasising retentive relations.
@@ -551,7 +551,7 @@ Intellectualises aspects of life to avoid cognitive dissonance and encourage a m
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 
-Knowing what is mutually best for everyone by learning & relaying commonly-held knowledge.
+Knowing what is mutually satisfying for everyone by learning & relaying commonly-held knowledge.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Distance. Feels obligated to try observing an inequitable distance.
@@ -616,7 +616,7 @@ Minimises involvement in the affairs of others to better benefit from their inev
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 Ruthless Materialist. Escalating competition.
 
-Encourages competition over resources between others so as to improve their own personal yield.
+Encourages competition over resources so as to improve their own personal yield.
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Distance. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
