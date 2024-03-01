@@ -323,7 +323,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
 - Ideal: Efficiency & Creativity.
-- Shadow: Manipulation & Waste.
+- Shadow: Workaholism & Waste.
 
 ## Hierarchal.
 Relating to others in terms of the social categories they are part of.
