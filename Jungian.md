@@ -538,7 +538,7 @@ Relating to others in terms of individual qualities relative to a whole.
 #### LII / INTP / INTj / Sophist (Shadow: Capitalist).
 Playful Intellectual. Reinventing the wheel.
 
-Intellectualises aspects of life to avoid cognitive dissonance and encourage a mutual refusal of competition.
+Intellectualises aspects of life to resolve feelings of cognitive dissonance and encourage a mutual refusal of competition.
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Obligation: Retention. Feels obligated to try emphasising retentive relations.
@@ -551,7 +551,7 @@ Intellectualises aspects of life to avoid cognitive dissonance and encourage a m
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 
-Reinforcing mutual comfort through the learning & relaying of commonly-held knowledge.
+Reinforcing mutual comfort & aid through the learning & relaying of mutually-legislated understandings.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Distance. Feels obligated to try observing an inequitable distance.
@@ -577,7 +577,7 @@ Finding safety within a crowd by encouraging a positive atmosphere and being the
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester. Making a fool of things.
 
-Maintining mutual bonds through "silly" or "foolish" behaviour, preventing others from becoming too serious or distant.
+Maintining mutual bonds through "silly" or "foolish" behaviour, preventing others from taking opportunities away from them.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -590,7 +590,7 @@ Maintining mutual bonds through "silly" or "foolish" behaviour, preventing other
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
 
-Possessing and retaining personally-valuable resources, resisting would-be competitors.
+Possessing and retaining personally-valuable resources, resisting and undoing would-be competitors.
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
@@ -629,7 +629,7 @@ Encourages mutually-friendly competition over resources so as to improve their o
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 Shameless Machiavellian. Possessing the means.
 
-Directly reaps the benefits of things, so as to further benefit from peacocking that wealth over others.
+Directly reaps the benefits of new ventures, so as to further benefit from peacocking that wealth over others.
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
