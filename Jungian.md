@@ -5,7 +5,7 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 
 ## Functions.
 
-### Persona.
+### Ego.
 Bold & Strong.
 - Public + Valued: Natural. Default "always-on" attitude.
 - Private + Unvalued: Trivializing. Attitude most taken for granted.
@@ -383,7 +383,7 @@ Unyielding Enforcer. Building the wall.
 
 Creates and enforces structure upon things, both weilding and skirting the law of the land with ease.
 
-##### Persona
+##### Ego
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
  
@@ -404,7 +404,7 @@ Attractive Parasite. Sapping strength by paying tribute.
 
 Offers pleasant illusions to more powerful hosts, to sap their strength without them noticing.
 
-##### Persona
+##### Ego
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
 
@@ -425,7 +425,7 @@ Passionate Martyr. Getting it all out.
 
 Provokes crowds into better strength against predators by purging its weaker qualities.
 
-##### Persona
+##### Ego
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
 
@@ -446,7 +446,7 @@ Apex Predator. Possessing the weak.
 
 Occupies the top of the food chain by possessing the weak and defeating the strong.
 
-##### Persona
+##### Ego
 - Natural: Supremacy. Naturally adopts possessive social personas.
 - Trivializing: Stability. Trivializes the promotion of pragmatic equilibrium.
 
@@ -467,7 +467,7 @@ Blessed Fairy. Finding good fortune.
 
 Sees the best in all things, promoting a more friendly and altruistic habitat to benefit from.
 
-##### Persona
+##### Ego
 - Natural: Faith. Naturally emphasises good-faith relations.
 - Trivializing: Radicalism. Trivializes the observance of exploitative underpinnings.
 
@@ -488,7 +488,7 @@ Stabilising Outlier. Peripheral specialisation.
 
 Maintains neglected niches, so as to minimise undue will against them.
 
-##### Persona
+##### Ego
 - Natural: Affirmation. Naturally observes inherent quality.
 - Trivializing: Defence. Trivializes the emphasis of defensive structural rationales.
 
@@ -509,7 +509,7 @@ Conscientious Servant. Putting things to good use.
 
 Finds a satisfying, practical use in things to better maintain their habitat.
 
-##### Persona
+##### Ego
 - Natural: Stability. Naturally promotes pragmatic equilibrium.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
 
@@ -530,7 +530,7 @@ Promiscuous Counsel. Helpful friend to all.
 
 Strives to help anyone and anything to realise its true potential within the confines of existing structures.
 
-##### Persona
+##### Ego
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
 
@@ -604,7 +604,7 @@ Playful Intellectual. Reinventing the wheel.
 
 Intellectualises aspects of life to resolve feelings of cognitive dissonance and encourage a mutual refusal of competition.
 
-##### Persona
+##### Ego
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
 - Trivializing: Distance. Trivializes the observance of an inequitable distance.
 
@@ -625,7 +625,7 @@ Sensual Connoisseur. Making everyone feel better.
 
 Reinforces mutual comfort & aid through the learning & relaying of mutually-legislated understandings.
 
-##### Persona
+##### Ego
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Trivializing: Retention. Trivializes the emphasis of retentive relations.
 
@@ -646,7 +646,7 @@ Loveable Host. Keeping people together.
 
 Finds safety within a crowd by encouraging a positive atmosphere and being the centre of attention.
 
-##### Persona
+##### Ego
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
 
@@ -667,7 +667,7 @@ Court Jester. Making a fool of things.
 
 Maintains mutual bonds through "silly" or "foolish" behaviour, preventing others from taking opportunities away from them.
 
-##### Persona
+##### Ego
 - Natural: Silliness. Naturally adopts silly social personas.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
 
@@ -688,7 +688,7 @@ Judicious Individualist. Retaining selected means.
 
 Possesses and retains personally-valuable resources, resisting and undoing would-be competitors.
 
-##### Persona
+##### Ego
 - Natural: Retention. Naturally emphasises retentive relations.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 
@@ -709,7 +709,7 @@ Torpid Scavenger. Reaping the rewards of bad luck.
 
 Finds a minimally appropriate involvement in the affairs of others to better track their inevitable misfortune.
 
-##### Persona
+##### Ego
 - Natural: Distance. Naturally observes an inequitable distance.
 - Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
 
@@ -730,7 +730,7 @@ Ruthless Materialist. Escalating competition.
 
 Encourages mutually-friendly competition over resources so as to improve their own personal yield.
 
-##### Persona
+##### Ego
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Trivializing: Silliness. Trivializes the adoption of silly social personas.
 
@@ -751,7 +751,7 @@ Shameless Machiavellian. Possessing the means.
 
 Directly reaps the benefits of new ventures, so as to further benefit from peacocking that wealth over others.
 
-##### Persona
+##### Ego
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 
