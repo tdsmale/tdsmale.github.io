@@ -5,25 +5,25 @@ Flatpacked summation of Jungian personality theory. Mostly derived from various 
 
 ## Functions.
 
-### Ego Block.
-Public, Strong and Valued.
-- Bold: Natural. Default "always-on" attitude.
-- Cautious: Constructive. Attitude felt as constructive.
+### Persona.
+Bold & Strong.
+- Public + Valued: Natural. Default "always-on" attitude.
+- Private + Unvalued: Trivializing. Attitude most taken for granted.
 
-### Super-Ego Block.
-Public, Weak and Not Valued.
-- Bold: Obligation. Attitude felt as a means to an end.
-- Cautious: Unnatural. Attitude felt as unnatural.
+### Parental.
+Cautious & Strong.
+- Public + Valued: Constructive. Attitude felt as most constructive.
+- Private + Unvalued: Repressed. Attitude most repressed.
 
-### Id Block.
-Private, Weak and Valued.
-- Bold: Indulgant. Attitude over-indulgeed.
-- Cautious: Unconscious. Attitude unconsciously invoked in others.
+### Childish.
+Bold & Weak.
+- Private + Valued: Indulgant. Attitude over-indulged in.
+- Public + Unvalued: Obligative. Attitude felt as means to an end.
 
-### Super-Id Block.
-Private, Strong and Not Valued.
-- Bold: Trivializing. Attitude most taken for granted.
-- Cautious: Repressed. Attitude most repressed.
+### Shadow.
+Cautious & Weak.
+- Public + Unvalued: Unnatural. Attitude felt as most unnatural.
+- Private + Valued: Unconscious. Attitude unconciously provoked.
 
 ## Base Dichotomies.
 
@@ -382,105 +382,169 @@ Relating to others in terms of the social categories they are part of.
 Unyielding Enforcer. Building the wall.
 
 Creates and enforces structure upon things, both weilding and skirting the law of the land with ease.
+
+##### Persona
 - Natural: Defence. Naturally emphasises defensive structural rationales.
-- Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
-- Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
-- Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
-- Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
-- Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
+ 
+##### Parental
+- Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Repressed: Stability. Represses the promotion of pragmatic equilibrium.
+
+##### Childish
+- Indulgant: Radicalism. Can over-indulge observing exploitative underpinnings.
+- Obligative: Faith. Feels obligated to try and emphasise good-faith relations.
+
+##### Shadow
+- Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
+- Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
 
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
 Attractive Parasite. Sapping strength by paying tribute.
 
 Offers pleasant illusions to more powerful hosts, to sap their strength without them noticing.
+
+##### Persona
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
-- Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
-- Obligation: Affirmation. Feels obligated to try and observe inherent quality.
-- Unnatural: Stability. Finds it unnatural to promote pragmatic equilibrium.
-- Indulgant: Defence. Can over-indulge emphasising defensive structural rationales.
-- Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
 - Trivializing: Faith. Trivializes the emphasis of good-faith relations.
+
+##### Parental
+- Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
+
+##### Childish
+- Indulgant: Defence. Can over-indulge emphasising defensive structural rationales.
+- Obligative: Affirmation. Feels obligated to try and observe inherent quality.
+
+##### Shadow
+- Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
+- Unnatural: Stability. Finds it unnatural to promote pragmatic equilibrium.
 
 #### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
 Passionate Martyr. Getting it all out.
 
 Provokes crowds into better strength against predators by purging its weaker qualities.
+
+##### Persona
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
-- Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
-- Obligation: Stability. Feels obligated to try and promote pragmatic equilibrium.
-- Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
-- Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
-- Unconscious: Defence. Unconsciously provokes the emphasis of defensive structural rationales.
 - Trivializing: Experimentation. Trivializes the adoption of seemingly useless things.
+
+##### Parental
+- Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Repressed: Faith. Represses the emphasis of good-faith relations.
+
+##### Childish
+- Indulgant: Supremacy. Can over-indulge adopting possessive social personas.
+- Obligative: Stability. Feels obligated to try and promote pragmatic equilibrium.
+
+##### Shadow
+- Unconscious: Defence. Unconsciously provokes the emphasis of defensive structural rationales.
+- Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 
 #### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
 Apex Predator. Possessing the weak.
 
 Occupies the top of the food chain by possessing the weak and defeating the strong.
+
+##### Persona
 - Natural: Supremacy. Naturally adopts possessive social personas.
-- Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
-- Obligation: Experimentation. Feels obligated to try and adopt seemingly useless things.
-- Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
-- Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
-- Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
 - Trivializing: Stability. Trivializes the promotion of pragmatic equilibrium.
+
+##### Parental
+- Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
 - Repressed: Affirmation. Represses the observance of inherent quality.
+
+##### Childish
+- Indulgant: Catharsis. Can over-indulge promoting a purgative atmosphere.
+- Obligative: Experimentation. Feels obligated to try and adopt seemingly useless things.
+
+##### Shadow
+- Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
+- Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
 
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
 Blessed Fairy. Finding good fortune.
 
 Sees the best in all things, promoting a more friendly and altruistic habitat to benefit from.
+
+##### Persona
 - Natural: Faith. Naturally emphasises good-faith relations.
-- Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
-- Obligation: Defence. Feels obligated to try and emphasise defensive structural rationales.
-- Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
-- Indulgant: Affirmation. Can over-indulge observing inherent quality.
-- Unconscious: Stability. Unconsciously provokes the promotion of pragmatic equilibrium.
 - Trivializing: Radicalism. Trivializes the observance of exploitative underpinnings.
+
+##### Parental
+- Constructive: Experimentation. Finds it constructive to adopt seemingly useless things.
 - Repressed: Catharsis. Represses the promotion of a purgative atmosphere.
+
+##### Childish
+- Indulgant: Affirmation. Can over-indulge observing inherent quality.
+- Obligative: Defence. Feels obligated to try and emphasise defensive structural rationales.
+
+##### Shadow
+- Unconscious: Stability. Unconsciously provokes the promotion of pragmatic equilibrium.
+- Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
 
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 Stabilising Outlier. Peripheral specialisation.
 
 Maintains neglected niches, so as to minimise undue will against them.
+
+##### Persona
 - Natural: Affirmation. Naturally observes inherent quality.
-- Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
-- Obligation: Radicalism. Feels obligated to try and observe exploitative underpinnings.
-- Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
-- Indulgant: Faith. Can over-indulge emphasising good-faith relations.
-- Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
 - Trivializing: Defence. Trivializes the emphasis of defensive structural rationales.
+
+##### Parental
+- Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
 - Repressed: Supremacy. Represses the adoption of possessive social personas.
+
+##### Childish
+- Indulgant: Faith. Can over-indulge emphasising good-faith relations.
+- Obligative: Radicalism. Feels obligated to try and observe exploitative underpinnings.
+
+##### Shadow
+- Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
+- Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
 
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 Conscientious Servant. Putting things to good use.
 
 Finds a satisfying, practical use in things to better maintain their habitat.
+
+##### Persona
 - Natural: Stability. Naturally promotes pragmatic equilibrium.
-- Constructive: Affirmation. Finds it constructive to observe inherent quality.
-- Obligation: Catharsis. Feels obligated to try and promote a purgative atmosphere.
-- Unnatural: Radicalism. Finds it unnatural to observe exploitative underpinnings.
-- Indulgant: Experimentation. Can over-indulge the adoption of seemingly useless things.
-- Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations.
 - Trivializing: Supremacy. Trivializes the adoption of possessive social personas.
+
+##### Parental
+- Constructive: Affirmation. Finds it constructive to observe inherent quality.
 - Repressed: Defence. Represses the emphasis of defensive structural rationales.
+
+##### Childish
+- Indulgant: Experimentation. Can over-indulge the adoption of seemingly useless things.
+- Obligative: Catharsis. Feels obligated to try and promote a purgative atmosphere.
+
+##### Shadow
+- Unnatural: Radicalism. Finds it unnatural to observe exploitative underpinnings.
+- Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations.
 
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
 Strives to help anyone and anything to realise its true potential within the confines of existing structures.
+
+##### Persona
 - Natural: Experimentation. Naturally adopts seemingly useless things.
-- Constructive: Faith. Finds it constructive to emphasise good-faith relations.
-- Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
-- Unnatural: Defence. Finds it unnatural to emphasise defensive structural rationales.
-- Indulgant: Stability. Can over-indulge promoting pragmatic equilibrium.
-- Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 - Trivializing: Catharsis. Trivializes the promotion of a purgative atmosphere.
+
+##### Parental
+- Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Repressed: Radicalism. Represses the observance of exploitative underpinnings.
+
+##### Childish
+- Obligative: Supremacy. Feels obligated to try and adopt possessive social personas.
+- Indulgant: Stability. Can over-indulge promoting pragmatic equilibrium.
+
+##### Shadow
+- Unnatural: Defence. Finds it unnatural to emphasise defensive structural rationales.
+- Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 
 ## Atomistic. 
 Relating to others in terms of individual qualities relative to a whole.
@@ -539,102 +603,166 @@ Relating to others in terms of individual qualities relative to a whole.
 Playful Intellectual. Reinventing the wheel.
 
 Intellectualises aspects of life to resolve feelings of cognitive dissonance and encourage a mutual refusal of competition.
+
+##### Persona
 - Natural: Tangentiality. Naturally emphasises cooperative structural possibilities.
-- Constructive: Silliness. Finds it constructive to adopt silly social personas.
-- Obligation: Retention. Feels obligated to try emphasising retentive relations.
-- Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
-- Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
-- Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
 - Trivializing: Distance. Trivializes the observance of an inequitable distance.
+
+##### Parental
+- Constructive: Silliness. Finds it constructive to adopt silly social personas.
 - Repressed: Profitability. Represses the promotion of competitive escalation.
+
+##### Childish
+- Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
+- Obligative: Retention. Feels obligated to try emphasising retentive relations.
+
+##### Shadow
+- Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
+- Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
 
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 
 Reinforces mutual comfort & aid through the learning & relaying of mutually-legislated understandings.
+
+##### Persona
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
-- Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
-- Obligation: Distance. Feels obligated to try observing an inequitable distance.
-- Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
-- Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
-- Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
 - Trivializing: Retention. Trivializes the emphasis of retentive relations.
+
+##### Parental
+- Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Repressed: Expenditure. Represses the adoption of aggressive self-interest.
+
+##### Childish
+- Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
+- Obligative: Distance. Feels obligated to try observing an inequitable distance.
+
+##### Shadow
+- Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
+- Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
 
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 Loveable Host. Keeping people together.
 
 Finds safety within a crowd by encouraging a positive atmosphere and being the centre of attention.
+
+##### Persona
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
-- Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
-- Obligation: Profitability. Feels obligated to try and promote competitive escalation.
-- Unnatural: Distance. Finds it unnatural to observe an inequitable distance.
-- Indulgant: Silliness. Can over-indulge adopting silly social personas.
-- Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
 - Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
+
+##### Parental
+- Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Repressed: Retention. Represses the emphasis of retentive relations.
+
+##### Childish
+- Indulgant: Silliness. Can over-indulge adopting silly social personas.
+- Obligative: Profitability. Feels obligated to try and promote competitive escalation.
+
+##### Shadow
+- Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
+- Unnatural: Distance. Finds it unnatural to observe an inequitable distance.
 
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester. Making a fool of things.
 
 Maintains mutual bonds through "silly" or "foolish" behaviour, preventing others from taking opportunities away from them.
+
+##### Persona
 - Natural: Silliness. Naturally adopts silly social personas.
-- Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
-- Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
-- Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
-- Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
-- Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
 - Trivializing: Profitability. Trivializes the promotion of competitive escalation.
+
+##### Parental
+- Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Repressed: Distance. Represses the observance of an inequitable distance.
+
+##### Childish
+- Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
+- Obligative: Expenditure. Feels obligated to try and adopt aggressive self-interest.
+
+##### Shadow
+- Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
+- Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
 
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
 
 Possesses and retains personally-valuable resources, resisting and undoing would-be competitors.
+
+##### Persona
 - Natural: Retention. Naturally emphasises retentive relations.
-- Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
-- Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
-- Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
-- Indulgant: Distance. Can over-indulge observing an inequitable distance.
-- Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
+
+##### Parental
+- Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
+
+##### Childish
+- Indulgant: Distance. Can over-indulge observing an inequitable distance.
+- Obligative: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
+
+##### Shadow
+- Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
+- Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
 Torpid Scavenger. Reaping the rewards of bad luck. 
 
 Finds a minimally appropriate involvement in the affairs of others to better track their inevitable misfortune.
+
+##### Persona
 - Natural: Distance. Naturally observes an inequitable distance.
-- Constructive: Profitability. Finds it constructive to promote competitive escalation.
-- Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
-- Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
-- Indulgant: Retention. Can over-indulge emphasising retentive relations.
-- Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
 - Trivializing: Tangentiality. Trivializes the emphasis of cooperative structural possibilities.
+
+##### Parental
+- Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Repressed: Silliness. Represses the adoption of silly social personas.
+
+##### Childish
+- Indulgant: Retention. Can over-indulge emphasising retentive relations.
+- Obligative: Canon. Feels obligated to try observing a mutually-legislated understanding.
+
+##### Shadow
+- Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
+- Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
 
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 Ruthless Materialist. Escalating competition.
 
 Encourages mutually-friendly competition over resources so as to improve their own personal yield.
+
+##### Persona
 - Natural: Profitability. Naturally promotes competitive escalation.
-- Constructive: Distance. Finds it constructive to observe an inequitable distance.
-- Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
-- Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
-- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
-- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
 - Trivializing: Silliness. Trivializes the adoption of silly social personas.
+
+##### Parental
+- Constructive: Distance. Finds it constructive to observe an inequitable distance.
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
+
+##### Childish
+- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
+- Obligative: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
+
+##### Shadow
+- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
+- Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 Shameless Machiavellian. Possessing the means.
 
 Directly reaps the benefits of new ventures, so as to further benefit from peacocking that wealth over others.
+
+##### Persona
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
-- Constructive: Retention. Finds it constructive to emphasise retentive relations.
-- Obligation: Silliness. Feels obligated to try and adopt silly social personas.
-- Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
-- Indulgant: Profitability. Can over-indulge promoting competitive escalation.
-- Unconscious: Distance. Unconsciously provokes the observance of inequitable distance.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
+
+##### Parental
+- Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Repressed: Canon. Represses the observance of a mutually-legislated understanding.
+
+##### Childish
+- Indulgant: Profitability. Can over-indulge promoting competitive escalation.
+- Obligative: Silliness. Feels obligated to try and adopt silly social personas.
+
+##### Shadow
+- Unconscious: Distance. Unconsciously provokes the observance of inequitable distance.
+- Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
