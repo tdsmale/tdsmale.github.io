@@ -613,7 +613,7 @@ Intellectualises aspects of life to resolve feelings of cognitive dissonance and
 - Repressed: Profitability. Represses the promotion of competitive escalation.
 
 ##### Childish
-- Indulgant: Canon. Can over-indulge the observance a mutually-legislated understanding.
+- Indulgant: Canon. Can over-indulge the observance of a mutually-legislated understanding.
 - Obligative: Retention. Feels obligated to try emphasising retentive relations.
 
 ##### Shadow
