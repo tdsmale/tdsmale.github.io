@@ -407,7 +407,7 @@ Offers pleasant illusions to more powerful hosts, to better benefit from their s
 #### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
 Passionate Martyr. Getting it all out.
 
-Provokes crowds into better strength against predators by cathartically purging its weaker qualities.
+Provokes crowds into better strength against predators by purging its weaker qualities.
 - Natural: Catharsis. Naturally promotes a purgative atmosphere.
 - Constructive: Radicalism. Finds it constructive to observe exploitative underpinnings.
 - Obligation: Stability. Feels obligated to try and promote pragmatic equilibrium.
@@ -551,7 +551,7 @@ Intellectualises aspects of life to avoid cognitive dissonance and encourage a m
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 
-Knowing what is mutually satisfying for everyone by learning & relaying commonly-held knowledge.
+Reinforcing mutual comfort through the learning & relaying of commonly-held knowledge.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Distance. Feels obligated to try observing an inequitable distance.
@@ -564,7 +564,7 @@ Knowing what is mutually satisfying for everyone by learning & relaying commonly
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 Loveable Host. Keeping people together.
 
-Synchronising with a larger crowd by encouraging positive atmospheres and being the centre of attention.
+Finding safety within a crowd by encouraging a positive atmosphere and being the centre of attention.
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
@@ -577,7 +577,7 @@ Synchronising with a larger crowd by encouraging positive atmospheres and being 
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester. Making a fool of things.
 
-Encouraging others to be open to new possibilities by partaking in "silly" or "foolish" behaviour.
+Maintining mutual bonds through "silly" or "foolish" behaviour, preventing others from becoming too serious or distant.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -590,7 +590,7 @@ Encouraging others to be open to new possibilities by partaking in "silly" or "f
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
 
-Possessing and retaining personally-valuable resources, fighting off would-be competitors.
+Possessing and retaining personally-valuable resources, resisting would-be competitors.
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
@@ -603,7 +603,7 @@ Possessing and retaining personally-valuable resources, fighting off would-be co
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
 Torpid Scavenger. Reaping the rewards of bad luck. 
 
-Minimises involvement in the affairs of others to better benefit from their inevitable misfortune.
+Finds a minimally appropriate involvement in the affairs of others to better track their inevitable misfortune.
 - Natural: Distance. Naturally observes an inequitable distance.
 - Constructive: Profitability. Finds it constructive to promote competitive escalation.
 - Obligation: Canon. Feels obligated to try observing a mutually-legislated understanding.
@@ -616,7 +616,7 @@ Minimises involvement in the affairs of others to better benefit from their inev
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
 Ruthless Materialist. Escalating competition.
 
-Encourages competition over resources so as to improve their own personal yield.
+Encourages mutually-friendly competition over resources so as to improve their own personal yield.
 - Natural: Profitability. Naturally promotes competitive escalation.
 - Constructive: Distance. Finds it constructive to observe an inequitable distance.
 - Obligation: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
@@ -629,7 +629,7 @@ Encourages competition over resources so as to improve their own personal yield.
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
 Shameless Machiavellian. Possessing the means.
 
-Directly reaps the benefits of things, proudly peacocking their wealth to others.
+Directly reaps the benefits of things, so as to further benefit from peacocking that wealth over others.
 - Natural: Expenditure. Naturally adopts aggressive self-interest.
 - Constructive: Retention. Finds it constructive to emphasise retentive relations.
 - Obligation: Silliness. Feels obligated to try and adopt silly social personas.
