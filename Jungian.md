@@ -381,7 +381,7 @@ Relating to others in terms of the social categories they are part of.
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Building the wall.
 
-Creates and enforces structure upon things, both weilding and skirting the law of the land.
+Creates and enforces structure upon things, both weilding and skirting the law of the land with ease.
 - Natural: Defence. Naturally emphasises defensive structural rationales.
 - Constructive: Supremacy. Finds it constructive to adopt possessive social personas.
 - Obligation: Faith. Feels obligated to try and emphasise good-faith relations.
@@ -472,7 +472,7 @@ Finds a satisfying, practical use in things to better maintain their habitat.
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
-Strives to help anyone and anything to realise its true potential.
+Strives to help anyone and anything to realise its true potential within the confines of existing structures.
 - Natural: Experimentation. Naturally adopts seemingly useless things.
 - Constructive: Faith. Finds it constructive to emphasise good-faith relations.
 - Obligation: Supremacy. Feels obligated to try and adopt possessive social personas.
@@ -551,7 +551,7 @@ Intellectualises aspects of life to resolve feelings of cognitive dissonance and
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
 
-Reinforcing mutual comfort & aid through the learning & relaying of mutually-legislated understandings.
+Reinforces mutual comfort & aid through the learning & relaying of mutually-legislated understandings.
 - Natural: Canon. Naturally observes a mutually-legislated understanding.
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
 - Obligation: Distance. Feels obligated to try observing an inequitable distance.
@@ -564,7 +564,7 @@ Reinforcing mutual comfort & aid through the learning & relaying of mutually-leg
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 Loveable Host. Keeping people together.
 
-Finding safety within a crowd by encouraging a positive atmosphere and being the centre of attention.
+Finds safety within a crowd by encouraging a positive atmosphere and being the centre of attention.
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
 - Obligation: Profitability. Feels obligated to try and promote competitive escalation.
@@ -577,7 +577,7 @@ Finding safety within a crowd by encouraging a positive atmosphere and being the
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
 Court Jester. Making a fool of things.
 
-Maintining mutual bonds through "silly" or "foolish" behaviour, preventing others from taking opportunities away from them.
+Maintains mutual bonds through "silly" or "foolish" behaviour, preventing others from taking opportunities away from them.
 - Natural: Silliness. Naturally adopts silly social personas.
 - Constructive: Tangentiality. Finds it constructive to emphasise cooperative structural possibilities.
 - Obligation: Expenditure. Feels obligated to try and adopt aggressive self-interest.
@@ -590,7 +590,7 @@ Maintining mutual bonds through "silly" or "foolish" behaviour, preventing other
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
 Judicious Individualist. Retaining selected means.
 
-Possessing and retaining personally-valuable resources, resisting and undoing would-be competitors.
+Possesses and retains personally-valuable resources, resisting and undoing would-be competitors.
 - Natural: Retention. Naturally emphasises retentive relations.
 - Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
 - Obligation: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
