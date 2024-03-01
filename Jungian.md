@@ -394,7 +394,7 @@ Creates and enforces structure upon things, both weilding and skirting the law o
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
 Attractive Parasite. Sapping strength by paying tribute.
 
-Offers pleasant illusions to more powerful hosts, to better benefit from their strength.
+Offers pleasant illusions to more powerful hosts, to sap their strength without them noticing.
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
 - Constructive: Catharsis. Finds it constructive to promote a purgative atmosphere.
 - Obligation: Affirmation. Feels obligated to try and observe inherent quality.
