@@ -32,7 +32,7 @@ Cautious & Weak.
 - External: Apprehended as emerging from an external experience of life (T / S).
 
 ### Method.
-- Detached: Apprehended as emerging from an abstract experience of life (T / N).
+- Abstract: Apprehended as emerging from an abstract experience of life (T / N).
 - Involved: Apprehended as emerging from a direct experience of life (S / F).
 
 ### Form.
@@ -46,11 +46,11 @@ Cautious & Weak.
 ## Composite Dichotomies.
 
 ### Temporality.
-- Future: Detached & Internal. Apprehending what could be (N). 
+- Future: Abstract & Internal. Apprehending what could be (N). 
 - Present: Involved & External. Apprehending what is right now (S).
 
 ### Rationality.
-- Objective: Detached & External. Apprehending what is logically true or accurate (T).
+- Objective: Abstract & External. Apprehending what is logically true or accurate (T).
 - Subjective: Involved & Internal. Apprehending what is emotionally true or accurate (F).
 
 ### Perception.
@@ -186,7 +186,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 
 #### Ti + Ne: Tangentiality.
 - Structural + Digressive.
-- Detached & Static.
+- Abstract & Static.
 - Potential Truth.
 - Creating structure by denying control.
 - Ideal: Neutrality & Creativity.
@@ -217,7 +217,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
   
 #### Ti + Ni: Radicalism. 
 - Structural + Melancholic.
-- Detached & Reactive.
+- Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying relaxation.
 - Ideal: Neutrality & Prognostication.
@@ -272,7 +272,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 
 #### Te + Ni: Profitability. 
 - Productive + Melancholic.
-- Detached & Dynamic.
+- Abstract & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
 - Ideal: Efficiency & Prognostication.
@@ -319,7 +319,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 
 #### Te + Ne: Experimentation. 
 - Productive + Digressive.
-- Detached & Active.
+- Abstract & Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
 - Ideal: Efficiency & Creativity.
