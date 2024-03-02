@@ -93,7 +93,7 @@ Cautious & Weak.
 - Yielding over time.
 - Waiting for the moment.
 - Prognostication, fatalism & dissociation.
-- Akin to emptying the air out of a given space due to outward pressure.
+- Bending under pressure.
 - Empty, sullen, melancholic affect.
 - Lessening of impact.
 
@@ -120,7 +120,7 @@ Cautious & Weak.
 - Unyielding in-the-moment.
 - Taking up space.
 - Impact & oppression.
-- Akin to suddenly filling up a given space by exerting outward pressure.
+- Exerting outward pressure.
 - Engrossing, strong, powerful affect.
 - Capture & possession.
 
