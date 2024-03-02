@@ -70,6 +70,8 @@ Cautious & Weak.
 - Personal relations.
 - Desire, privilege & kinship.
 - Attachment & detachment.
+- Prioritising individuals.
+- Particular, empathic, captious affect.
 - Internalised feelings.
 
 #### Neutral (Ti).
@@ -77,6 +79,8 @@ Cautious & Weak.
 - Internal structure.
 - Truth, coherence & symmetry.
 - Neutrality & ideology.
+- Creating a balance.
+- Analytical, indifferent, impartial affect.
 - Internalised rules.
 
 ### Reflection.
@@ -86,6 +90,8 @@ Cautious & Weak.
 - Familiarity of senses.
 - Enhancing the current moment.
 - Satisfaction & stagnation.
+- Forgetting your troubles.
+- Grounded, appreciative, comfortable affect.
 - Lessening of discomfort.
 
 #### Vacuous (Ni).
@@ -104,6 +110,8 @@ Cautious & Weak.
 - Influencing expressions.
 - Authentic externalisation.
 - Attraction & manipulation.
+- Contributing to a shared atmosphere.
+- Ingratiating, disarming, charming affect.
 - Emotional synchronisation.
 
 #### Productive (Te).
@@ -111,6 +119,8 @@ Cautious & Weak.
 - Pragmatisation.
 - Productive externalisation.
 - Efficiency & workaholism.
+- Putting things to use.
+- Useful, straightforward, frank affect.
 - Factual synchronisation.
 
 ### Activating.
@@ -129,6 +139,8 @@ Cautious & Weak.
 - Broadening of possibilities.
 - Taking up ideas.
 - Creativity & waste.
+- Keeping things fresh & novel.
+- Childlike, curious, optimistic affect.
 - Thinking outside the box.
 
 ### Reactive vs Active Information Elements.
