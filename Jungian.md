@@ -157,7 +157,7 @@ Cautious & Weak.
 - Characterised by resourcefulness, seriousness and individuation.
 
 ### Ti + Fe: Narrational. 
-- Structural + Expressive.
+- Neutral + Expressive.
 - Guiding audiences to a central truth.
 - Characterised by small talk, flippancy and group membership.
 
@@ -203,7 +203,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 #### Ti + Ne: Tangentiality.
 - Neutral + Digressive.
 - Abstract & Static.
-- Potential Truth.
+- Potentiating Truth.
 - Creating structure by denying control.
 - Ideal: Neutrality & Creativity.
 - Shadow: Ideology & Waste.
@@ -219,7 +219,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 #### Fi + Ne: Faith. 
 - Sincere + Digressive.
 - Internal & Static.
-- Potential Relations.
+- Potentiating Relations.
 - Creating individuation by denying control.
 - Ideal: Attachment & Creativity.
 - Shadow: Detachment & Waste.
@@ -228,14 +228,14 @@ Seeks to represent external processes. Emphasises the result. Static.
 Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ti + Pi: Structure. Denying practicality.
 - Fi + Pi: Individuation. Denying personas.
-- Ji + Ni: Timing. Denying relaxation.
+- Ji + Ni: Timing. Denying acceptance.
 - Ji + Si: Acceptance. Denying timing.
   
 #### Ti + Ni: Radicalism. 
 - Neutral + Vacuous.
 - Abstract & Reactive.
 - Structural Timing.
-- Denying practicality by denying relaxation.
+- Denying practicality by denying acceptance.
 - Ideal: Neutrality & Prognostication.
 - Shadow: Ideology & Fatalism.
 
@@ -269,7 +269,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Te + Pi: Efficiency. Creating practicality.
 - Fe + Pi: Expression. Creating personas.
 - Je + Ni: Foresight. Creating timing.
-- Je + Si: Comfort. Creating relaxation.
+- Je + Si: Comfort. Creating acceptance.
   
 #### Fe + Ni: Catharsis. 
 - Expressive + Vacuous.
@@ -283,7 +283,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Expressive + Relaxed.
 - Involved & Dynamic.
 - Expressive Comfort.
-- Creating personas by creating relaxation.
+- Creating personas by creating acceptance.
 - Ideal: Attraction & Satisfaction.
 - Shadow: Manipulation & Stagnancy.
 
@@ -299,7 +299,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Productive + Relaxed.
 - External & Dynamic.
 - Efficient Comfort.
-- Creating practicality by creating relaxation.
+- Creating practicality by creating acceptance.
 - Ideal: Efficiency & Satisfaction.
 - Shadow: Workaholism & Stagnancy.
 
