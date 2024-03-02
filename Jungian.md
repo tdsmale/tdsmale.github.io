@@ -98,7 +98,7 @@ Cautious & Weak.
 - Reflection + Future.
 - Yielding over time.
 - Waiting for the moment.
-- Prognostication, fatalism & dissociation.
+- Prognostication, fatalism, equivocation & dissociation.
 - Bending under pressure.
 - Empty, sullen, melancholic affect.
 - Lessening of impact.
