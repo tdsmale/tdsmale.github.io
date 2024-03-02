@@ -381,7 +381,7 @@ Relating to others in terms of the social categories they are part of.
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Building the wall.
 
-Imposes structure upon things to avoid feelings of cognitive dissonance, singling out those who don't respect the rules.
+Imposes structure upon things to avoid feelings of cognitive dissonance, singling out that which does't respect the rules.
 
 ##### Ego
 - Natural: Division. Naturally emphasises defensive structural rationales.
@@ -465,7 +465,7 @@ Occupies the top of the food chain by possessing the weak and defeating the stro
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
 Blessed Fairy. Finding good fortune.
 
-Sees the best in all things, promoting a more friendly and altruistic habitat to benefit from.
+Promotes a more positive, friendly and altruistic ecosystem to benefit from.
 
 ##### Ego
 - Natural: Faith. Naturally emphasises good-faith relations.
@@ -528,7 +528,7 @@ Finds a satisfying, practical use in things to better maintain their habitat.
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
-Strives to help anyone and anything to realise their true potential within the confines of existing structures.
+Strives to help anyone and anything realise their true potential within an ecosystem.
 
 ##### Ego
 - Natural: Experimentation. Naturally adopts seemingly useless things.
