@@ -176,7 +176,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Ti + Pe: Truth. Creating structure.
 - Fi + Pe: Relations. Creating individuation.
 
-#### Ti + Se: Defence.
+#### Ti + Se: Division.
 - Structural + Forceful.
 - External & Static.
 - Controlling Truth.
@@ -329,10 +329,10 @@ Seeks to make the most of external processes. Adopts the result. Active.
 Relating to others in terms of the social categories they are part of.
 - Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.
 - Te: Maximising useful resources. Harmonic efficiency. Stability & Experimentation.
-- Ti: Maximising positive conformity. Disciplined observance of rules. Defence & Radicalism.
+- Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.
 - Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.
 - Ni: Minimising negative impact. Premonition of discordance. Radicalism & Catharsis.
-- Se: Minimising negative consequences. Possessing the weak. Defence & Supremacy.
+- Se: Minimising negative consequences. Possessing the weak. Division & Supremacy.
 - Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.
 - Si: Minimising negative comfort. Maintaining peace of mind. Stability & Affirmation.
 
@@ -351,7 +351,7 @@ Relating to others in terms of the social categories they are part of.
 - Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak.
 
 #### Information Attitudes.
-- Symptomatic: Defence (Control + Truth). Emphasising defensive structural rationales.
+- Symptomatic: Division (Control + Truth). Emphasising defensive structural rationales.
 - Observant: Radicalism (Structure + Timing). Observing exploitative underpinnings.
 - Promoting: Catharsis (Expression + Foresight). Promoting a purgative atmosphere.
 - Adopting: Supremacy (Capture + Personas). Adopting possessive social personas.
@@ -381,10 +381,10 @@ Relating to others in terms of the social categories they are part of.
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Building the wall.
 
-Creates and enforces structure upon things, both weilding and skirting the law of the land with ease.
+Imposes structure upon things to avoid feelings of cognitive dissonance, singling out those who don't respect the rules.
 
 ##### Ego
-- Natural: Defence. Naturally emphasises defensive structural rationales.
+- Natural: Division. Naturally emphasises defensive structural rationales.
 - Trivializing: Affirmation. Trivializes the observance of inherent quality.
  
 ##### Parental
@@ -402,7 +402,7 @@ Creates and enforces structure upon things, both weilding and skirting the law o
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
 Attractive Parasite. Sapping strength by paying tribute.
 
-Offers pleasant illusions to more powerful hosts, to sap their strength without them noticing.
+Offers pleasant illusions to more powerful hosts, to sap & feed off their strength without them noticing.
 
 ##### Ego
 - Natural: Radicalism. Naturally observes exploitative underpinnings.
@@ -413,7 +413,7 @@ Offers pleasant illusions to more powerful hosts, to sap their strength without 
 - Repressed: Experimentation. Represses the adoption of seemingly useless things.
 
 ##### Childish
-- Indulgant: Defence. Can over-indulge emphasising defensive structural rationales.
+- Indulgant: Division. Can over-indulge emphasising defensive structural rationales.
 - Obligative: Affirmation. Feels obligated to try and observe inherent quality.
 
 ##### Shadow
@@ -438,7 +438,7 @@ Provokes crowds into better strength against predators by purging its weaker qua
 - Obligative: Stability. Feels obligated to try and promote pragmatic equilibrium.
 
 ##### Shadow
-- Unconscious: Defence. Unconsciously provokes the emphasis of defensive structural rationales.
+- Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
 - Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 
 #### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
@@ -451,7 +451,7 @@ Occupies the top of the food chain by possessing the weak and defeating the stro
 - Trivializing: Stability. Trivializes the promotion of pragmatic equilibrium.
 
 ##### Parental
-- Constructive: Defence. Finds it constructive to emphasises defensive structural rationales.
+- Constructive: Division. Finds it constructive to emphasises defensive structural rationales.
 - Repressed: Affirmation. Represses the observance of inherent quality.
 
 ##### Childish
@@ -477,7 +477,7 @@ Sees the best in all things, promoting a more friendly and altruistic habitat to
 
 ##### Childish
 - Indulgant: Affirmation. Can over-indulge observing inherent quality.
-- Obligative: Defence. Feels obligated to try and emphasise defensive structural rationales.
+- Obligative: Division. Feels obligated to try and emphasise defensive structural rationales.
 
 ##### Shadow
 - Unconscious: Stability. Unconsciously provokes the promotion of pragmatic equilibrium.
@@ -490,7 +490,7 @@ Maintains neglected niches, so as to minimise undue will against them.
 
 ##### Ego
 - Natural: Affirmation. Naturally observes inherent quality.
-- Trivializing: Defence. Trivializes the emphasis of defensive structural rationales.
+- Trivializing: Division. Trivializes the emphasis of defensive structural rationales.
 
 ##### Parental
 - Constructive: Stability. Finds it constructive to promote pragmatic equilibrium.
@@ -515,7 +515,7 @@ Finds a satisfying, practical use in things to better maintain their habitat.
 
 ##### Parental
 - Constructive: Affirmation. Finds it constructive to observe inherent quality.
-- Repressed: Defence. Represses the emphasis of defensive structural rationales.
+- Repressed: Division. Represses the emphasis of defensive structural rationales.
 
 ##### Childish
 - Indulgant: Experimentation. Can over-indulge the adoption of seemingly useless things.
@@ -528,7 +528,7 @@ Finds a satisfying, practical use in things to better maintain their habitat.
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
 
-Strives to help anyone and anything to realise its true potential within the confines of existing structures.
+Strives to help anyone and anything to realise their true potential within the confines of existing structures.
 
 ##### Ego
 - Natural: Experimentation. Naturally adopts seemingly useless things.
@@ -543,7 +543,7 @@ Strives to help anyone and anything to realise its true potential within the con
 - Indulgant: Stability. Can over-indulge promoting pragmatic equilibrium.
 
 ##### Shadow
-- Unnatural: Defence. Finds it unnatural to emphasise defensive structural rationales.
+- Unnatural: Division. Finds it unnatural to emphasise defensive structural rationales.
 - Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
 
 ## Atomistic. 
