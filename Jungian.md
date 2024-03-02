@@ -72,7 +72,7 @@ Cautious & Weak.
 - Attachment & detachment.
 - Internalised feelings.
 
-#### Structural (Ti).
+#### Neutral (Ti).
 - Objective + Conditioning.
 - Internal structure.
 - Truth, coherence & symmetry.
@@ -177,7 +177,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Fi + Pe: Relations. Creating individuation.
 
 #### Ti + Se: Division.
-- Structural + Forceful.
+- Neutral + Forceful.
 - External & Static.
 - Controlling Truth.
 - Creating structure by denying potential.
@@ -185,7 +185,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Oppression.
 
 #### Ti + Ne: Tangentiality.
-- Structural + Digressive.
+- Neutral + Digressive.
 - Abstract & Static.
 - Potential Truth.
 - Creating structure by denying control.
@@ -216,7 +216,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Si: Acceptance. Denying timing.
   
 #### Ti + Ni: Radicalism. 
-- Structural + Melancholic.
+- Neutral + Melancholic.
 - Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying relaxation.
@@ -224,7 +224,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Fatalism.
 
 #### Ti + Si: Canon. 
-- Structural + Relaxed.
+- Neutral + Relaxed.
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
