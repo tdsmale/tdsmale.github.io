@@ -81,11 +81,11 @@ Cautious & Weak.
 
 ### Reflection.
 
-#### Accepting (Si).
+#### Relaxed (Si).
 - Reflection + Present.
 - Familiarity of senses.
 - Enhancing the current moment.
-- Satisfaction  & stagnation.
+- Satisfaction & stagnation.
 - Lessening of discomfort.
 
 #### Melancholic (Ni).
