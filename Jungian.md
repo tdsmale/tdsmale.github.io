@@ -381,7 +381,7 @@ Relating to others in terms of the social categories they are part of.
 #### LSI / ISTP / ISTj / Brigand (Shadow: Equarry).
 Unyielding Enforcer. Building the wall.
 
-Imposes structure upon things to avoid feelings of cognitive dissonance, singling out that which does't respect the rules.
+Imposes structure upon things to avoid feelings of cognitive dissonance, implicitly defining what is strong and what is weak.
 
 ##### Ego
 - Natural: Division. Naturally emphasises defensive structural rationales.
