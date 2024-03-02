@@ -88,11 +88,13 @@ Cautious & Weak.
 - Satisfaction & stagnation.
 - Lessening of discomfort.
 
-#### Melancholic (Ni).
+#### Vacuous (Ni).
 - Reflection + Future.
 - Yielding over time.
 - Waiting for the moment.
 - Prognostication, fatalism & dissociation.
+- Akin to emptying the air out of a given space due to outward pressure.
+- Empty, sullen, melancholic affect.
 - Lessening of impact.
 
 ### Navigating.
@@ -118,6 +120,8 @@ Cautious & Weak.
 - Unyielding in-the-moment.
 - Taking up space.
 - Impact & oppression.
+- Akin to suddenly filling up a given space by exerting outward pressure.
+- Engrossing, strong, powerful affect.
 - Capture & possession.
 
 #### Digressive (Ne).
@@ -146,7 +150,7 @@ Cautious & Weak.
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Melancholic + Forceful.
+- Vacuous + Forceful.
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
@@ -216,7 +220,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Si: Acceptance. Denying timing.
   
 #### Ti + Ni: Radicalism. 
-- Neutral + Melancholic.
+- Neutral + Vacuous.
 - Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying relaxation.
@@ -232,10 +236,11 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Distance. 
-- Sincere + Melancholic.
+- Sincere + Vacuous.
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
+- The inverse of "no man's an island".
 - Ideal: Attachment & Prognostication.
 - Shadow: Detachment & Fatalism.
 
@@ -255,7 +260,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Je + Si: Comfort. Creating relaxation.
   
 #### Fe + Ni: Catharsis. 
-- Expressive + Melancholic.
+- Expressive + Vacuous.
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
@@ -271,7 +276,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
-- Productive + Melancholic.
+- Productive + Vacuous.
 - Abstract & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
