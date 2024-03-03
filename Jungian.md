@@ -85,7 +85,7 @@ Cautious & Weak.
 
 ### Reflection.
 
-#### Relaxed (Si).
+#### Caring (Si).
 - Present + Reflection (xxPR).
 - Familiarity of senses.
 - Enhancing the current moment.
@@ -95,7 +95,7 @@ Cautious & Weak.
 - Grounded, appreciative, comfortable affect.
 - Lessening of discomfort.
 
-#### Vacuous (Ni).
+#### Provoking (Ni).
 - Future + Reflection (xxFR).
 - Yielding over time.
 - Waiting for the moment.
@@ -127,7 +127,7 @@ Cautious & Weak.
 
 ### Activating.
 
-#### Forceful (Se).
+#### Aggressive (Se).
 - Present + Activation (xxPA).
 - Unyielding in-the-moment.
 - Taking up space.
@@ -137,14 +137,14 @@ Cautious & Weak.
 - Engrossing, strong, powerful affect.
 - Capture & possession.
 
-#### Digressive (Ne).
+#### Childlike (Ne).
 - Future + Activation (xxFA).
 - Broadening of possibilities.
 - Taking up ideas.
 - Creativity & waste.
 - Keeping things fresh & novel.
 - Infantile complex - accepting of outward care.
-- Childlike, curious, optimistic affect.
+- Digressive, curious, optimistic affect.
 - Thinking outside the box.
 
 ### Reactive vs Active Information Elements.
@@ -166,7 +166,7 @@ Cautious & Weak.
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Vacuous + Forceful (xxFR + xxPA).
+- Provoking + Aggressive (xxFR + xxPA).
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
@@ -176,7 +176,7 @@ Cautious & Weak.
 - Aggressors (Se) confidently take possession of what they want.
 
 ### Si + Ne: Enhancing. 
-- Relaxed + Digressive (xxPR + xxFA).
+- Caring + Childlike (xxPR + xxFA).
 - Enjoying what life has to offer.
 - Maximising the positive in life.
 - Brings an airy, buoyant attitude to things.
@@ -201,7 +201,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Fi + Pe: Relations. Creating individuation. SCxA.
 
 #### Ti + Se: Division.
-- Neutral + Forceful (OCPA).
+- Neutral + Aggressive (OCPA).
 - External & Static.
 - Controlling Truth.
 - Creating structure by denying potential.
@@ -209,7 +209,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Oppression.
 
 #### Ti + Ne: Tangentiality.
-- Neutral + Digressive (OCFA).
+- Neutral + Childlike (OCFA).
 - Abstract & Static.
 - Potentiating Truth.
 - Creating structure by denying control.
@@ -217,7 +217,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Waste.
   
 #### Fi + Se: Retention. 
-- Sincere + Forceful (SCPA).
+- Sincere + Aggressive (SCPA).
 - Involved & Static.
 - Controlling Relations.
 - Creating individuation by denying potential.
@@ -225,7 +225,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Detachment & Oppression.
   
 #### Fi + Ne: Faith. 
-- Sincere + Digressive (SCFA).
+- Sincere + Childlike (SCFA).
 - Internal & Static.
 - Potentiating Relations.
 - Creating individuation by denying control.
@@ -240,7 +240,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Si: Acceptance. Denying timing. xCPR.
   
 #### Ti + Ni: Radicalism. 
-- Neutral + Vacuous (OCFR).
+- Neutral + Provoking (OCFR).
 - Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying acceptance.
@@ -248,7 +248,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Fatalism.
 
 #### Ti + Si: Canon. 
-- Neutral + Relaxed (OCPR).
+- Neutral + Caring (OCPR).
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
@@ -256,7 +256,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Distance. 
-- Sincere + Vacuous (SCFR).
+- Sincere + Provoking (SCFR).
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
@@ -265,7 +265,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Detachment & Fatalism.
 
 #### Fi + Si: Affirmation. 
-- Sincere + Relaxed (SCPR).
+- Sincere + Caring (SCPR).
 - Involved & Reactive.
 - Individual Acceptance.
 - Denying personas by denying timing.
@@ -280,7 +280,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Je + Si: Comfort. Creating acceptance. xNPR.
   
 #### Fe + Ni: Catharsis. 
-- Expressive + Vacuous (SNFR).
+- Expressive + Provoking (SNFR).
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
@@ -288,7 +288,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Fatalism.
 
 #### Fe + Si: Hospitality. 
-- Expressive + Relaxed (SNPR).
+- Expressive + Caring (SNPR).
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating acceptance.
@@ -296,7 +296,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
-- Productive + Vacuous (ONFR).
+- Productive + Provoking (ONFR).
 - Abstract & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
@@ -304,7 +304,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Workaholism & Fatalism.
 
 #### Te + Si: Stability. 
-- Productive + Relaxed (ONPR).
+- Productive + Caring (ONPR).
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating acceptance.
@@ -319,7 +319,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Fe + Pe: Personas. Denying individuation. SNxA.
 
 #### Fe + Se: Supremacy. 
-- Expressive + Forceful (SNPA).
+- Expressive + Aggressive (SNPA).
 - Involved & Active.
 - Capturing Personas.
 - Creating control by denying individuation.
@@ -327,7 +327,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Oppression.
 
 #### Te + Se: Expenditure. 
-- Productive + Forceful (ONPA).
+- Productive + Aggressive (ONPA).
 - External & Active.
 - Capturing Practicality.
 - Creating control by denying structure.
@@ -335,7 +335,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Workaholism & Oppression.
 
 #### Fe + Ne: Silliness. 
-- Expressive + Digressive (SNFA).
+- Expressive + Childlike (SNFA).
 - Internal & Active.
 - Ideating Personas.
 - Creating potential by denying individuation.
@@ -343,7 +343,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Waste.
 
 #### Te + Ne: Experimentation. 
-- Productive + Digressive (ONFA).
+- Productive + Childlike (ONFA).
 - Abstract & Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
@@ -445,7 +445,7 @@ Offers pleasant illusions to more powerful hosts, to sap & feed off their streng
 - Unconscious: Supremacy. Unconsciously seeks the adoption of possessive social personas.
 - Unnatural: Stability. Finds it unnatural to promote pragmatic equilibrium.
 
-#### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
+#### EIE / ENFJ / ENFj / Exorcist (Shadow: Seelie).
 Passionate Martyr. Getting it all out.
 
 Provokes crowds into better strength against predators by purging its weaker qualities.
@@ -487,7 +487,7 @@ Occupies the top of the food chain by possessing the weak and defeating the stro
 - Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
 - Unconscious: Radicalism. Unconsciously seeks the observance of exploitative underpinnings.
 
-#### EII / INFP / INFj / Seelie (Shadow: Provocateur).
+#### EII / INFP / INFj / Seelie (Shadow: Exorcist).
 Blessed Fairy. Finding good fortune.
 
 Promotes a more positive, friendly and altruistic ecosystem to benefit from.
