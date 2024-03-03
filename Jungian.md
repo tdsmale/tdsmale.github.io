@@ -421,7 +421,7 @@ Imposes structure upon things to avoid feelings of cognitive dissonance, implici
 - Obligative: Faith. Feels obligated to try and emphasise good-faith relations.
 
 ##### Shadow
-- Unconscious: Catharsis. Unconsciously provokes the promotion of a purgative atmosphere.
+- Unconscious: Catharsis. Unconsciously seeks the promotion of a purgative atmosphere.
 - Unnatural: Experimentation. Finds it unnatural to adopt seemingly useless things.
 
 #### IEI / INFJ / INFp / Vampire (Shadow: Coach).
@@ -442,7 +442,7 @@ Offers pleasant illusions to more powerful hosts, to sap & feed off their streng
 - Obligative: Affirmation. Feels obligated to try and observe inherent quality.
 
 ##### Shadow
-- Unconscious: Supremacy. Unconsciously provokes the adoption of possessive social personas.
+- Unconscious: Supremacy. Unconsciously seeks the adoption of possessive social personas.
 - Unnatural: Stability. Finds it unnatural to promote pragmatic equilibrium.
 
 #### EIE / ENFJ / ENFj / Provocateur (Shadow: Seelie).
@@ -463,7 +463,7 @@ Provokes crowds into better strength against predators by purging its weaker qua
 - Obligative: Stability. Feels obligated to try and promote pragmatic equilibrium.
 
 ##### Shadow
-- Unconscious: Division. Unconsciously provokes the emphasis of defensive structural rationales.
+- Unconscious: Division. Unconsciously seeks the emphasis of defensive structural rationales.
 - Unnatural: Affirmation. Finds it unnatural to observe inherent quality.
 
 #### SLE / ESTP / ESTp / Predator (Shadow: Custodian).
@@ -485,7 +485,7 @@ Occupies the top of the food chain by possessing the weak and defeating the stro
 
 ##### Shadow
 - Unnatural: Faith. Finds it unnatural to emphasise good-faith relations.
-- Unconscious: Radicalism. Unconsciously provokes the observance of exploitative underpinnings.
+- Unconscious: Radicalism. Unconsciously seeks the observance of exploitative underpinnings.
 
 #### EII / INFP / INFj / Seelie (Shadow: Provocateur).
 Blessed Fairy. Finding good fortune.
@@ -505,7 +505,7 @@ Promotes a more positive, friendly and altruistic ecosystem to benefit from.
 - Obligative: Division. Feels obligated to try and emphasise defensive structural rationales.
 
 ##### Shadow
-- Unconscious: Stability. Unconsciously provokes the promotion of pragmatic equilibrium.
+- Unconscious: Stability. Unconsciously seeks the promotion of pragmatic equilibrium.
 - Unnatural: Supremacy. Finds it unnatural to adopt possessive social personas.
 
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
@@ -527,7 +527,7 @@ Peacefully maintains neglected niches, so as to minimise undue will against them
 
 ##### Shadow
 - Unnatural: Catharsis. Finds it unnatural to promote a purgative atmosphere.
-- Unconscious: Experimentation. Unconsciously provokes the adoption of seemingly useless things.
+- Unconscious: Experimentation. Unconsciously seeks the adoption of seemingly useless things.
 
 #### LSE / ESTJ / ESTj / Equerry (Shadow: Brigand).
 Conscientious Servant. Putting things to good use.
@@ -548,7 +548,7 @@ Finds a satisfying, practical use in things to better maintain their habitat.
 
 ##### Shadow
 - Unnatural: Radicalism. Finds it unnatural to observe exploitative underpinnings.
-- Unconscious: Faith. Unconsciously provokes the emphasis of good-faith relations.
+- Unconscious: Faith. Unconsciously seeks the emphasis of good-faith relations.
 
 #### IEE / ENFP / ENFp / Coach (Shadow: Vampire).
 Promiscuous Counsel. Helpful friend to all.
@@ -569,7 +569,7 @@ Strives to help anyone and anything realise their true potential within an ecosy
 
 ##### Shadow
 - Unnatural: Division. Finds it unnatural to emphasise defensive structural rationales.
-- Unconscious: Affirmation. Unconsciously provokes the observance of inherent quality.
+- Unconscious: Affirmation. Unconsciously seeks the observance of inherent quality.
 
 ## Atomistic. 
 Relating to others in terms of individual qualities relative to a whole.
@@ -643,7 +643,7 @@ Intellectualises aspects of life to resolve feelings of cognitive dissonance and
 
 ##### Shadow
 - Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
-- Unconscious: Hospitality. Unconsciously provokes the promotion of a mutually welcoming atmosphere.
+- Unconscious: Hospitality. Unconsciously seeks the promotion of a mutually welcoming atmosphere.
 
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
 Sensual Connoisseur. Making everyone feel better.
@@ -664,7 +664,7 @@ Reinforces mutual comfort & aid through the learning & relaying of mutually-legi
 
 ##### Shadow
 - Unnatural: Profitability. Finds it unnatural to promote competitive escalation.
-- Unconscious: Silliness. Unconsciously provokes the adoption of silly social personas.
+- Unconscious: Silliness. Unconsciously seeks the adoption of silly social personas.
 
 #### ESE / ESFJ / ESFj / Bonvivant (Shadow: Puritan).
 Loveable Host. Keeping people together.
@@ -684,7 +684,7 @@ Finds safety within a crowd by encouraging a positive atmosphere and being the c
 - Obligative: Profitability. Feels obligated to try and promote competitive escalation.
 
 ##### Shadow
-- Unconscious: Tangentiality. Unconsciously provokes the emphasis of cooperative structural possibilities.
+- Unconscious: Tangentiality. Unconsciously seeks the emphasis of cooperative structural possibilities.
 - Unnatural: Distance. Finds it unnatural to observe an inequitable distance.
 
 #### ILE / ENTP / ENTp / Fool (Shadow: Vulture).
@@ -705,7 +705,7 @@ Maintains mutual bonds through "silly" or "foolish" behaviour, preventing others
 - Obligative: Expenditure. Feels obligated to try and adopt aggressive self-interest.
 
 ##### Shadow
-- Unconscious: Canon. Unconsciously provokes the observance of a mutually-legislated understanding.
+- Unconscious: Canon. Unconsciously seeks the observance of a mutually-legislated understanding.
 - Unnatural: Retention. Finds it unnatural to emphasise retentive relations.
 
 #### ESI / ISFP / ISFj / Puritan (Shadow: Bonvivant).
@@ -726,7 +726,7 @@ Possesses and retains personally-valuable resources, resisting and undoing would
 - Obligative: Tangentiality. Feels obligated to try and emphasise cooperative structural possibilities.
 
 ##### Shadow
-- Unconscious: Profitability. Unconsciously provokes the promotion of competitive escalation.
+- Unconscious: Profitability. Unconsciously seeks the promotion of competitive escalation.
 - Unnatural: Silliness. Finds it unnatural to adopt silly social personas.
 
 #### ILI / INTJ / INTp / Vulture (Shadow: Fool).
@@ -747,7 +747,7 @@ Finds a minimally appropriate involvement in the affairs of others to better tra
 - Obligative: Canon. Feels obligated to try observing a mutually-legislated understanding.
 
 ##### Shadow
-- Unconscious: Expenditure. Unconsciously provokes the adoption of aggressive self-interest.
+- Unconscious: Expenditure. Unconsciously seeks the adoption of aggressive self-interest.
 - Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
 
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
@@ -768,7 +768,7 @@ Encourages mutually-friendly competition over resources so as to improve their o
 - Obligative: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
 
 ##### Shadow
-- Unconscious: Retention. Unconsciously provokes the emphasis of retentive relations.
+- Unconscious: Retention. Unconsciously seeks the emphasis of retentive relations.
 - Unnatural: Canon. Finds it unnatural to observe a mutually-legislated understanding.
 
 #### SEE / ESFP / ESFp / Prodigal (Shadow: Traiteur).
@@ -789,7 +789,7 @@ Directly reaps the benefits of new ventures, so as to further benefit from peaco
 - Obligative: Silliness. Feels obligated to try and adopt silly social personas.
 
 ##### Shadow
-- Unconscious: Distance. Unconsciously provokes the observance of inequitable distance.
+- Unconscious: Distance. Unconsciously seeks the observance of inequitable distance.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
 
 ## Attitude Dichotomies.
