@@ -503,7 +503,7 @@ Promotes a more positive, friendly and altruistic ecosystem to benefit from.
 #### SLI / ISTJ / ISTp / Custodian (Shadow: Predator).
 Stabilising Outlier. Peripheral specialisation.
 
-Maintains neglected niches, so as to minimise undue will against them.
+Peacefully maintains neglected niches, so as to minimise undue will against them.
 
 ##### Ego
 - Natural: Affirmation. Naturally observes inherent quality.
