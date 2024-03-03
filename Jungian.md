@@ -45,28 +45,28 @@ Cautious & Weak.
 
 ## Composite Dichotomies.
 
-### Temporality.
-- Future: Abstract & Internal. Apprehending what could be (N). 
-- Present: Involved & External. Apprehending what is right now (S).
-
 ### Rationality.
-- Objective: Abstract & External. Apprehending what is logically true or accurate (T).
-- Subjective: Involved & Internal. Apprehending what is emotionally true or accurate (F).
-
-### Perception.
-- Reflection: Reactive & Dynamic. Detaching from external processes (Pi).
-- Activation: Active & Static. Engaging with external processes (Pe).
+- (O)bjective: Abstract & External. Apprehending what is logically true or accurate (T).
+- (S)ubjective: Involved & Internal. Apprehending what is emotionally true or accurate (F).
 
 ### Judging.
-- Conditioning: Reactive & Static. Guiding external processes (Ji).
-- Navigation: Active & Dynamic. Changing external processes (Je).
+- (C)onditioning: Reactive & Static. Guiding external processes (Ji).
+- (N)avigation: Active & Dynamic. Changing external processes (Je).
+
+### Perception.
+- (R)eflection: Reactive & Dynamic. Detaching from external processes (Pi).
+- (A)ctivation: Active & Static. Engaging with external processes (Pe).
+
+### Temporality.
+- (F)uture: Abstract & Internal. Apprehending what could be (N). 
+- (P)resent: Involved & External. Apprehending what is right now (S).
 
 ## Information Elements.
 
 ### Conditioning.
 
 #### Sincere (Fi).
-- Subjective + Conditioning.
+- Subjective + Conditioning (SCxx).
 - Personal relations.
 - Desire, privilege & kinship.
 - Attachment & detachment.
@@ -75,7 +75,7 @@ Cautious & Weak.
 - Internalised feelings.
 
 #### Neutral (Ti).
-- Objective + Conditioning.
+- Objective + Conditioning (OCxx).
 - Internal structure.
 - Truth, coherence & symmetry.
 - Neutrality & ideology.
@@ -86,7 +86,7 @@ Cautious & Weak.
 ### Reflection.
 
 #### Relaxed (Si).
-- Reflection + Present.
+- Present + Reflection (xxPR).
 - Familiarity of senses.
 - Enhancing the current moment.
 - Satisfaction & stagnation.
@@ -95,7 +95,7 @@ Cautious & Weak.
 - Lessening of discomfort.
 
 #### Vacuous (Ni).
-- Reflection + Future.
+- Future + Reflection (xxFR).
 - Yielding over time.
 - Waiting for the moment.
 - Prognostication, fatalism, equivocation & dissociation.
@@ -106,7 +106,7 @@ Cautious & Weak.
 ### Navigating.
 
 #### Expressive (Fe).
-- Subjective + Navigation.
+- Subjective + Navigation (SNxx).
 - Influencing expressions.
 - Authentic externalisation.
 - Attraction & manipulation.
@@ -115,7 +115,7 @@ Cautious & Weak.
 - Emotional synchronisation.
 
 #### Productive (Te).
-- Objective + Navigation.
+- Objective + Navigation (ONxx).
 - Pragmatisation.
 - Productive externalisation.
 - Efficiency & workaholism.
@@ -126,7 +126,7 @@ Cautious & Weak.
 ### Activating.
 
 #### Forceful (Se).
-- Present + Activation.
+- Present + Activation (xxPA).
 - Unyielding in-the-moment.
 - Taking up space.
 - Impact & oppression.
@@ -135,7 +135,7 @@ Cautious & Weak.
 - Capture & possession.
 
 #### Digressive (Ne).
-- Future + Activation.
+- Future + Activation (xxFA).
 - Broadening of possibilities.
 - Taking up ideas.
 - Creativity & waste.
@@ -152,17 +152,17 @@ Cautious & Weak.
 ## Information Element Pairings.
 
 ### Fi + Te: Economical. 
-- Sincere + Productive.
+- Sincere + Productive (SCxx + ONxx).
 - Using resources in personally-valuable ways.
 - Characterised by resourcefulness, seriousness and individuation.
 
 ### Ti + Fe: Narrational. 
-- Neutral + Expressive.
+- Neutral + Expressive (OCxx + SNxx).
 - Guiding audiences to a central truth.
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Vacuous + Forceful.
+- Vacuous + Forceful (xxFR + xxPA).
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
@@ -170,7 +170,7 @@ Cautious & Weak.
 - Akin to waves crashing against the shore.
 
 ### Si + Ne: Enhancing. 
-- Relaxed + Digressive.
+- Relaxed + Digressive (xxPR + xxFA).
 - Enjoying what life has to offer.
 - Maximising the positive in life.
 - Brings an airy, buoyant attitude to things.
@@ -187,13 +187,13 @@ Cautious & Weak.
 
 ### Ji + Pe: Symptomatic.
 Seeks to represent external processes. Emphasises the result. Static.
-- Ji + Se: Control. Denying potential.
-- Ji + Ne: Potential. Denying control.
-- Ti + Pe: Truth. Creating structure.
-- Fi + Pe: Relations. Creating individuation.
+- Ji + Se: Control. Denying potential. xCPA.
+- Ji + Ne: Potential. Denying control. xCFA.
+- Ti + Pe: Truth. Creating structure. OCxA.
+- Fi + Pe: Relations. Creating individuation. SCxA.
 
 #### Ti + Se: Division.
-- Neutral + Forceful.
+- Neutral + Forceful (OCPA).
 - External & Static.
 - Controlling Truth.
 - Creating structure by denying potential.
@@ -201,7 +201,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Oppression.
 
 #### Ti + Ne: Tangentiality.
-- Neutral + Digressive.
+- Neutral + Digressive (OCFA).
 - Abstract & Static.
 - Potentiating Truth.
 - Creating structure by denying control.
@@ -209,7 +209,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Waste.
   
 #### Fi + Se: Retention. 
-- Sincere + Forceful.
+- Sincere + Forceful (SCPA).
 - Involved & Static.
 - Controlling Relations.
 - Creating individuation by denying potential.
@@ -217,7 +217,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Detachment & Oppression.
   
 #### Fi + Ne: Faith. 
-- Sincere + Digressive.
+- Sincere + Digressive (SCFA).
 - Internal & Static.
 - Potentiating Relations.
 - Creating individuation by denying control.
@@ -226,13 +226,13 @@ Seeks to represent external processes. Emphasises the result. Static.
    
 ### Ji + Pi: Observant. 
 Seeks to be seperate from external processes. Minimises the result. Reactive.
-- Ti + Pi: Structure. Denying practicality.
-- Fi + Pi: Individuation. Denying personas.
-- Ji + Ni: Timing. Denying acceptance.
-- Ji + Si: Acceptance. Denying timing.
+- Ti + Pi: Structure. Denying practicality. OCxR.
+- Fi + Pi: Individuation. Denying personas. SCxR.
+- Ji + Ni: Timing. Denying acceptance. xCFR.
+- Ji + Si: Acceptance. Denying timing. xCPR.
   
 #### Ti + Ni: Radicalism. 
-- Neutral + Vacuous.
+- Neutral + Vacuous (OCFR).
 - Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying acceptance.
@@ -240,7 +240,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Fatalism.
 
 #### Ti + Si: Canon. 
-- Neutral + Relaxed.
+- Neutral + Relaxed (OCPR).
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
@@ -248,7 +248,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Distance. 
-- Sincere + Vacuous.
+- Sincere + Vacuous (SCFR).
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
@@ -257,7 +257,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Detachment & Fatalism.
 
 #### Fi + Si: Affirmation. 
-- Sincere + Relaxed.
+- Sincere + Relaxed (SCPR).
 - Involved & Reactive.
 - Individual Acceptance.
 - Denying personas by denying timing.
@@ -266,13 +266,13 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 
 ### Je + Pi: Promoting.
 Seeks to promote external processes. Promotes further results. Dynamic.
-- Te + Pi: Efficiency. Creating practicality.
-- Fe + Pi: Expression. Creating personas.
-- Je + Ni: Foresight. Creating timing.
-- Je + Si: Comfort. Creating acceptance.
+- Te + Pi: Efficiency. Creating practicality. ONxR.
+- Fe + Pi: Expression. Creating personas. SNxR.
+- Je + Ni: Foresight. Creating timing. xNFR.
+- Je + Si: Comfort. Creating acceptance. xNPR.
   
 #### Fe + Ni: Catharsis. 
-- Expressive + Vacuous.
+- Expressive + Vacuous (SNFR).
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
@@ -280,7 +280,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Fatalism.
 
 #### Fe + Si: Hospitality. 
-- Expressive + Relaxed.
+- Expressive + Relaxed (SNPR).
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating acceptance.
@@ -288,7 +288,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
-- Productive + Vacuous.
+- Productive + Vacuous (ONFR).
 - Abstract & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
@@ -296,7 +296,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Workaholism & Fatalism.
 
 #### Te + Si: Stability. 
-- Productive + Relaxed.
+- Productive + Relaxed (ONPR).
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating acceptance.
@@ -305,13 +305,13 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 
 ### Je + Pe: Adopting.
 Seeks to make the most of external processes. Adopts the result. Active.
-- Je + Se: Capture. Creating control.
-- Je + Ne: Ideation. Creating potential.
-- Te + Pe: Practicality. Denying structure.
-- Fe + Pe: Personas. Denying individuation.
+- Je + Se: Capture. Creating control. xNPA.
+- Je + Ne: Ideation. Creating potential. xNFA.
+- Te + Pe: Practicality. Denying structure. ONxA.
+- Fe + Pe: Personas. Denying individuation. SNxA.
 
 #### Fe + Se: Supremacy. 
-- Expressive + Forceful.
+- Expressive + Forceful (SNPA).
 - Involved & Active.
 - Capturing Personas.
 - Creating control by denying individuation.
@@ -319,7 +319,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Oppression.
 
 #### Te + Se: Expenditure. 
-- Productive + Forceful.
+- Productive + Forceful (ONPA).
 - External & Active.
 - Capturing Practicality.
 - Creating control by denying structure.
@@ -327,7 +327,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Workaholism & Oppression.
 
 #### Fe + Ne: Silliness. 
-- Expressive + Digressive.
+- Expressive + Digressive (SNFA).
 - Internal & Active.
 - Ideating Personas.
 - Creating potential by denying individuation.
@@ -335,7 +335,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Waste.
 
 #### Te + Ne: Experimentation. 
-- Productive + Digressive.
+- Productive + Digressive (ONFA).
 - Abstract & Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
@@ -783,3 +783,75 @@ Directly reaps the benefits of new ventures, so as to further benefit from peaco
 ##### Shadow
 - Unconscious: Distance. Unconsciously provokes the observance of inequitable distance.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
+
+## Attitude Dichotomies.
+
+### Subjective vs Objective
+Constructivist vs Emotivist. Blocked feelings vs Blocked logic.
+| Sxxx | Oxxx |
+| --- | --- |
+
+### Navigation vs Conditioning
+Extroverted vs Introverted.
+| xNxx | xCxx |
+| --- | --- |
+
+### Present vs Future
+Intuitive vs Sensing.
+| xxPx | xxFx |
+| --- | --- |
+
+### Activation vs Reflection
+Static vs Dynamic.
+| xxxA | xxxR |
+| --- | --- |
+
+### Economical vs Narrational
+Serious vs Merry.
+| SNxx | OCxx | SCxx | ONxx |
+| --- | --- | --- | --- |
+
+### Atomistic vs Hierarchal
+Democratic vs Aristocratic.
+| SxPx | OxFx | OxPx | SxFx |
+| --- | --- | --- | --- |
+
+### Resource-Protecting vs Interest-Protecting
+Yielding vs Obstinate.
+| SxxA | OxxR | SxxR | OxxA |
+| --- | --- | --- | --- |
+
+### Cautious vs Incidental
+Farsighted vs Carefree.
+| xNPx | xCFx | xCPx | xNFx |
+| --- | --- | --- | --- |
+
+### Labile vs Rigid
+Irrational vs Rational.
+| xNxA | xCxR | xCxA | xNxR |
+| --- | --- | --- | --- |
+
+### Collapsing vs Enhancing
+Decisive vs Judicious.
+| xxPA | xxFR | xxFA | xxPR |
+| --- | --- | --- | --- |
+
+### Declarative vs Interrogative
+Declaring vs Asking.
+| SNPx | OCPx | ONFx | SCFx | OCFx | SNFx | SCPx | ONPx |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+### Argumentative vs Persuasive
+Thinking vs Feeling.
+| SNxA | OCxA | ONxR | SCxR | OCxR | SNxR | SCxA | ONxA |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+### Negativist vs Positivist.
+Glass half-empty vs Glass half-full.
+| SxPA | OxFA | OxPR | SxFR | OxFR | SxPR | SxFA | OxPA |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+### Linear vs Parallel
+Process vs Result.
+| SNFA | OCPR | SNFR | OCPA | ONPA | SCFR | ONPR | SCFA | SNPR | OCFA | SNPA | OCFR | ONFR | SCPA | ONFA | SCPR |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
