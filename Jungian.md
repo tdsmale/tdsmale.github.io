@@ -91,6 +91,7 @@ Cautious & Weak.
 - Enhancing the current moment.
 - Satisfaction & stagnation.
 - Forgetting your troubles.
+- Parental complex - taking care of needs.
 - Grounded, appreciative, comfortable affect.
 - Lessening of discomfort.
 
@@ -100,6 +101,7 @@ Cautious & Weak.
 - Waiting for the moment.
 - Prognostication, fatalism, equivocation & dissociation.
 - Bending under pressure.
+- Victim complex - adapting to more powerful forces.
 - Empty, sullen, melancholic affect.
 - Lessening of impact.
 
@@ -131,6 +133,7 @@ Cautious & Weak.
 - Taking up space.
 - Impact & oppression.
 - Exerting outward pressure.
+- Aggressor complex - having insurmountable needs.
 - Engrossing, strong, powerful affect.
 - Capture & possession.
 
@@ -140,6 +143,7 @@ Cautious & Weak.
 - Taking up ideas.
 - Creativity & waste.
 - Keeping things fresh & novel.
+- Infantile complex - accepting of outward care.
 - Childlike, curious, optimistic affect.
 - Thinking outside the box.
 
@@ -168,6 +172,8 @@ Cautious & Weak.
 - Brings a weighty, decisive attitude to things.
 - Guided by sinking feelings.
 - Akin to waves crashing against the shore.
+- Victims (Ni) provoke & adapt to the aggression of others.
+- Aggressors (Se) confidently take possession of what they want.
 
 ### Si + Ne: Enhancing. 
 - Relaxed + Digressive (xxPR + xxFA).
@@ -176,6 +182,8 @@ Cautious & Weak.
 - Brings an airy, buoyant attitude to things.
 - Guided by imaginative guesswork.
 - Akin to explorers at risk of becoming "untethered".
+- Infants (Ne) follow their curiosity & accept the care of others.
+- Parents (Si) take mind of the small details others overlook.
 
 ### Comparisons.
 - Ni vs Se: Anticipating vs Dominating the Moment.
