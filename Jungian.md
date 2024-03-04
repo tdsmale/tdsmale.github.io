@@ -791,3 +791,99 @@ Directly reaps the benefits of new ventures, so as to further benefit from peaco
 ##### Shadow
 - Unconscious: Distance. Unconsciously seeks the observance of inequitable distance.
 - Unnatural: Tangentiality. Finds it unnatural to emphasise cooperative structural possibilities.
+
+## Appendix: Attitude Dichotomies.
+
+### Rationality.
+Constructivist vs Emotivist. Blocked feelings vs Blocked logic.
+| Subjective. | Objective. |
+| --- | --- |
+| Sxxx | Oxxx |
+
+### Judgement.
+Extroverted vs Introverted.
+| Navigating. | Conditioning. |
+| --- | --- |
+| xNxx | xCxx |
+
+### Temporality.
+Intuition vs Sensing.
+| Present. | Future. |
+| --- | --- |
+| xxPx | xxFx |
+
+### Perception.
+Static vs Dynamic. Analytic vs Associative.
+| Activation. | Reflection. |
+| --- | --- |
+| xxxA | xxxR |
+
+### Projection.
+Process vs Result. Linear vs Parallel. Complicating vs Simplifying.
+| Deductive. | | Inductive. | |
+| --- | --- | --- | --- |
+| Precise. | Synthetic. | Concrete. | Coarse. |
+| SxPx | OxFx | OxPx | SxFx |
+
+### Communication.
+Yielding vs Obstinate. 
+| Resource-protecting. | | Interest-protecting. | |
+| --- | --- | --- | --- |
+| Passionate. | Cold. | Soulful. | Cooperative. |
+| SxxA | OxxR | SxxR | OxxA |
+
+### Stimulus.
+Farsighted vs Carefree.
+| Cautious. | | Incidental. | |
+| --- | --- | --- | --- |
+| Prestige. | Self-Worth. | Well-Being. | Uniqueness. |
+| xNPx | xCFx | xCPx | xNFx |
+
+### Temperament.
+Irrational vs Rational.
+| Labile. | | Rigid. | |
+| --- | --- | --- | --- |
+| xNxA | xCxR | xCxA | xNxR |
+
+### Relations.
+Decisive vs Judicious.
+| Collapsing | | Enhancing | |
+| --- | --- | --- | --- |
+| Forceful. | Vacuous. | Digressive. | Relaxed. |
+| xxPA | xxFR | xxFA | xxPR |
+
+### Role.
+Declaring vs Asking.
+| Declarative. | | Interrogative. | | 
+| --- | --- | --- | --- |
+| Extracting. | Negotiating. | Inventing. | Industrialising. |
+| SNPx + OCPx | ONFx + SCFx | OCFx + SNFx | SCPx + ONPx |
+
+### Action.
+Thinking vs Feeling.
+| Argumentative. | | Persuasive. | |
+| --- | --- | --- | --- |
+| Systemizing. | Algorithmic. | Synchronising. | Moralising. |
+| SnxA + OCxA | OnxR + SCxR | OCxR + SNxR | ScxA + ONxA |
+
+### Cognition.
+Negativist vs Positivist.
+| Contrasting. | | Cohering. | | 
+| --- | --- | --- | --- |
+| Holographic. | Dialectic. | Synergetic. | Deterministic. |
+| SxPA + OxFA | OxPR + SxFR | OxFR + SxPR | SxFA + OxPA |
+
+### Interaction.
+Strategic vs Tactical.
+| Goal-oriented. | | Method-oriented. | |
+| --- | --- | --- | --- |
+| Antagonistic. | Peaceful. | Open. | Secretive. |
+| xNPA + xNFR | xCFA + xCPR | xNPR + xNFA | xCFR + xCPA |
+
+### Club.
+Aristocratic vs Democratic.
+| Hierarchal. | | Atomistic. | | 
+| --- | --- | --- | --- |
+| Schismatic. | Homeostatic. | Theoretic. | Solipsistic. |
+| OCFR + OCPA + SNFR + SNPA | SCPR + SCFA + ONPR + ONFA | SNPR + OCFA + SNFA + OCPR | SCFR + ONPA + ONFR + SNPA |
+
