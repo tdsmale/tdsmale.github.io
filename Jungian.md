@@ -799,6 +799,7 @@ Constructivist vs Emotivist. Blocked feelings vs Blocked logic.
 | Subjective. | Objective. |
 | --- | --- |
 | Sxxx | Oxxx |
+| Involved & Internal. Apprehending what is emotionally true or accurate (F). | Abstract & External. Apprehending what is logically true or accurate (T). |
 
 ### Judgement.
 Extroverted vs Introverted.
