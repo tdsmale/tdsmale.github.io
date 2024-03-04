@@ -854,7 +854,7 @@ Farsighted vs Carefree.
 Irrational vs Rational.
 | Labile. | | Rigid. | |
 | --- | --- | --- | --- |
-| Adopting. | Observant. | Promoting. | Symptomatic. |
+| Adopting. | Observant. | Symptomatic. | Promoting. |
 | xNxA | xCxR | xCxA | xNxR |
 
 ### Relations.
