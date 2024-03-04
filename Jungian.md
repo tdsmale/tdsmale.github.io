@@ -820,7 +820,7 @@ Static vs Dynamic. Analytic vs Associative.
 
 ### Argumentation.
 Merry vs Serious.
-| Narrational | | Economical | |
+| Narrational. | | Economical. | |
 | --- | --- | --- | --- |
 | Expressive. | Neutral. | Sincere. | Productive. |
 | SNxx | OCxx | SCxx | ONxx |
@@ -850,6 +850,7 @@ Farsighted vs Carefree.
 Irrational vs Rational.
 | Labile. | | Rigid. | |
 | --- | --- | --- | --- |
+| Adopting. | Observant. | Promoting. | Symptomatic. |
 | xNxA | xCxR | xCxA | xNxR |
 
 ### Relations.
