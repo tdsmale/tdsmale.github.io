@@ -95,7 +95,7 @@ Cautious & Weak.
 - Grounded, appreciative, comfortable affect.
 - Lessening of discomfort.
 
-#### Provoking (Ni).
+#### Vacuous (Ni).
 - Future + Reflection (xxFR).
 - Yielding over time.
 - Waiting for the moment.
@@ -166,13 +166,13 @@ Cautious & Weak.
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Provoking + Aggressive (xxFR + xxPA).
+- Vacuous + Aggressive (xxFR + xxPA).
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
 - Guided by sinking feelings.
 - Akin to waves crashing against the shore.
-- Victims (Ni) provoke & adapt to the aggression of others.
+- Victims (Ni) adapt to outward pressure via fatalistic provocation, dissociation & equivocation.
 - Aggressors (Se) confidently take possession of what they want.
 
 ### Si + Ne: Enhancing. 
@@ -240,7 +240,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Ji + Si: Acceptance. Denying timing. xCPR.
   
 #### Ti + Ni: Radicalism. 
-- Neutral + Provoking (OCFR).
+- Neutral + Vacuous (OCFR).
 - Abstract & Reactive.
 - Structural Timing.
 - Denying practicality by denying acceptance.
@@ -256,7 +256,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Stagnancy.
   
 #### Fi + Ni: Distance. 
-- Sincere + Provoking (SCFR).
+- Sincere + Vacuous (SCFR).
 - Internal & Reactive.
 - Individual Timing.
 - Denying personas by denying acceptance.
@@ -280,7 +280,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Je + Si: Comfort. Creating acceptance. xNPR.
   
 #### Fe + Ni: Catharsis. 
-- Expressive + Provoking (SNFR).
+- Expressive + Vacuous (SNFR).
 - Internal & Dynamic.
 - Expressive Foresight.
 - Creating personas by creating timing.
@@ -296,7 +296,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Stagnancy.
 
 #### Te + Ni: Profitability. 
-- Productive + Provoking (ONFR).
+- Productive + Vacuous (ONFR).
 - Abstract & Dynamic.
 - Efficient Foresight.
 - Creating practicality by creating timing.
