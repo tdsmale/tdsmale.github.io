@@ -806,18 +806,21 @@ Extroverted vs Introverted.
 | Navigating. | Conditioning. |
 | --- | --- |
 | xNxx | xCxx |
+| Active & Dynamic. Changing external processes (Je). | Reactive & Static. Guiding external processes (Ji). |
 
 ### Temporality.
 Intuition vs Sensing.
 | Present. | Future. |
 | --- | --- |
 | xxPx | xxFx |
+| Involved & External. Apprehending what is right now (S). | Abstract & Internal. Apprehending what could be (N). |
 
 ### Perception.
 Static vs Dynamic. Analytic vs Associative.
 | Activation. | Reflection. |
 | --- | --- |
 | xxxA | xxxR |
+| Active & Static. Engaging with external processes (Pe). | Reactive & Dynamic. Detaching from external processes (Pi). |
 
 ### Argumentation.
 Merry vs Serious.
