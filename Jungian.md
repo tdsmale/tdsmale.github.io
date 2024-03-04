@@ -818,6 +818,13 @@ Static vs Dynamic. Analytic vs Associative.
 | --- | --- |
 | xxxA | xxxR |
 
+### Argumentation.
+Merry vs Serious.
+| Narrational | | Economical | |
+| --- | --- | --- | --- |
+| Expressive. | Neutral. | Sincere. | Productive. |
+| SNxx | OCxx | SCxx | ONxx |
+
 ### Projection.
 Process vs Result. Linear vs Parallel. Complicating vs Simplifying.
 | Deductive. | | Inductive. | |
