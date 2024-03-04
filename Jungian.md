@@ -85,7 +85,7 @@ Cautious & Weak.
 
 ### Reflection.
 
-#### Caring (Si).
+#### Relaxed (Si).
 - Present + Reflection (xxPR).
 - Familiarity of senses.
 - Enhancing the current moment.
@@ -127,7 +127,7 @@ Cautious & Weak.
 
 ### Activating.
 
-#### Aggressive (Se).
+#### Forceful (Se).
 - Present + Activation (xxPA).
 - Unyielding in-the-moment.
 - Taking up space.
@@ -137,7 +137,7 @@ Cautious & Weak.
 - Engrossing, strong, powerful affect.
 - Capture & possession.
 
-#### Childlike (Ne).
+#### Digressive (Ne).
 - Future + Activation (xxFA).
 - Broadening of possibilities.
 - Taking up ideas.
@@ -166,7 +166,7 @@ Cautious & Weak.
 - Characterised by small talk, flippancy and group membership.
 
 ### Ni + Se: Collapsing. 
-- Vacuous + Aggressive (xxFR + xxPA).
+- Vacuous + Forceful (xxFR + xxPA).
 - Acting in a willful and timely manner.
 - Minimising the negative in life.
 - Brings a weighty, decisive attitude to things.
@@ -176,7 +176,7 @@ Cautious & Weak.
 - Aggressors (Se) confidently take possession of what they want.
 
 ### Si + Ne: Enhancing. 
-- Caring + Childlike (xxPR + xxFA).
+- Relaxed + Digressive (xxPR + xxFA).
 - Enjoying what life has to offer.
 - Maximising the positive in life.
 - Brings an airy, buoyant attitude to things.
@@ -201,7 +201,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Fi + Pe: Relations. Creating individuation. SCxA.
 
 #### Ti + Se: Division.
-- Neutral + Aggressive (OCPA).
+- Neutral + Forceful (OCPA).
 - External & Static.
 - Controlling Truth.
 - Creating structure by denying potential.
@@ -209,7 +209,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Oppression.
 
 #### Ti + Ne: Tangentiality.
-- Neutral + Childlike (OCFA).
+- Neutral + Digressive (OCFA).
 - Abstract & Static.
 - Potentiating Truth.
 - Creating structure by denying control.
@@ -217,7 +217,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Ideology & Waste.
   
 #### Fi + Se: Retention. 
-- Sincere + Aggressive (SCPA).
+- Sincere + Forceful (SCPA).
 - Involved & Static.
 - Controlling Relations.
 - Creating individuation by denying potential.
@@ -225,7 +225,7 @@ Seeks to represent external processes. Emphasises the result. Static.
 - Shadow: Detachment & Oppression.
   
 #### Fi + Ne: Faith. 
-- Sincere + Childlike (SCFA).
+- Sincere + Digressive (SCFA).
 - Internal & Static.
 - Potentiating Relations.
 - Creating individuation by denying control.
@@ -248,7 +248,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Ideology & Fatalism.
 
 #### Ti + Si: Canon. 
-- Neutral + Caring (OCPR).
+- Neutral + Relaxed (OCPR).
 - External & Reactive.
 - Structural Acceptance.
 - Denying practicality by denying timing.
@@ -265,7 +265,7 @@ Seeks to be seperate from external processes. Minimises the result. Reactive.
 - Shadow: Detachment & Fatalism.
 
 #### Fi + Si: Affirmation. 
-- Sincere + Caring (SCPR).
+- Sincere + Relaxed (SCPR).
 - Involved & Reactive.
 - Individual Acceptance.
 - Denying personas by denying timing.
@@ -288,7 +288,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Manipulation & Fatalism.
 
 #### Fe + Si: Hospitality. 
-- Expressive + Caring (SNPR).
+- Expressive + Relaxed (SNPR).
 - Involved & Dynamic.
 - Expressive Comfort.
 - Creating personas by creating acceptance.
@@ -304,7 +304,7 @@ Seeks to promote external processes. Promotes further results. Dynamic.
 - Shadow: Workaholism & Fatalism.
 
 #### Te + Si: Stability. 
-- Productive + Caring (ONPR).
+- Productive + Relaxed (ONPR).
 - External & Dynamic.
 - Efficient Comfort.
 - Creating practicality by creating acceptance.
@@ -319,7 +319,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Fe + Pe: Personas. Denying individuation. SNxA.
 
 #### Fe + Se: Supremacy. 
-- Expressive + Aggressive (SNPA).
+- Expressive + Forceful (SNPA).
 - Involved & Active.
 - Capturing Personas.
 - Creating control by denying individuation.
@@ -327,7 +327,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Oppression.
 
 #### Te + Se: Expenditure. 
-- Productive + Aggressive (ONPA).
+- Productive + Forceful (ONPA).
 - External & Active.
 - Capturing Practicality.
 - Creating control by denying structure.
@@ -335,7 +335,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Workaholism & Oppression.
 
 #### Fe + Ne: Silliness. 
-- Expressive + Childlike (SNFA).
+- Expressive + Digressive (SNFA).
 - Internal & Active.
 - Ideating Personas.
 - Creating potential by denying individuation.
@@ -343,7 +343,7 @@ Seeks to make the most of external processes. Adopts the result. Active.
 - Shadow: Manipulation & Waste.
 
 #### Te + Ne: Experimentation. 
-- Productive + Childlike (ONFA).
+- Productive + Digressive (ONFA).
 - Abstract & Active.
 - Ideating Practicality.
 - Creating potential by denying structure.
@@ -620,7 +620,7 @@ Relating to others in terms of individual qualities relative to a whole.
 - Symptomatic: Retention (Control + Relations). Emphasising retentive relations.
 - Observant: Distance (Individuation + Timing). Observing an inequitable distance.
 - Promoting: Profitability (Efficiency + Foresight). Promoting competitive escalation.
-- Adopting: Expenditure (Capture + Practicality). Adopting aggressive self-interest.
+- Adopting: Expenditure (Capture + Practicality). Adopting Forceful self-interest.
 
 ### Atomistic Types.
 
@@ -642,7 +642,7 @@ Intellectualises aspects of life to resolve feelings of cognitive dissonance and
 - Obligative: Retention. Feels obligated to try emphasising retentive relations.
 
 ##### Shadow
-- Unnatural: Expenditure. Finds it unnatural to adopt aggressive self-interest.
+- Unnatural: Expenditure. Finds it unnatural to adopt Forceful self-interest.
 - Unconscious: Hospitality. Unconsciously seeks the promotion of a mutually welcoming atmosphere.
 
 #### SEI / ISFJ / ISFp / Traiteur (Shadow: Prodigal).
@@ -656,7 +656,7 @@ Reinforces mutual comfort & aid through the learning & relaying of mutually-legi
 
 ##### Parental
 - Constructive: Hospitality. Finds it constructive to promote a mutually welcoming atmosphere.
-- Repressed: Expenditure. Represses the adoption of aggressive self-interest.
+- Repressed: Expenditure. Represses the adoption of Forceful self-interest.
 
 ##### Childish
 - Indulgant: Tangentiality. Can over-indulge emphasising cooperative structural possibilities.
@@ -673,7 +673,7 @@ Finds safety within a crowd by encouraging a positive atmosphere and being the c
 
 ##### Ego
 - Natural: Hospitality. Naturally promotes a mutually welcoming atmosphere.
-- Trivializing: Expenditure. Trivializes the adoption of aggressive self-interest.
+- Trivializing: Expenditure. Trivializes the adoption of Forceful self-interest.
 
 ##### Parental
 - Constructive: Canon. Finds it constructive to observe a mutually-legislated understanding.
@@ -702,7 +702,7 @@ Maintains mutual bonds through "silly" or "foolish" behaviour, preventing others
 
 ##### Childish
 - Indulgant: Hospitality. Can over-indulge promoting a mutually welcoming atmosphere.
-- Obligative: Expenditure. Feels obligated to try and adopt aggressive self-interest.
+- Obligative: Expenditure. Feels obligated to try and adopt Forceful self-interest.
 
 ##### Shadow
 - Unconscious: Canon. Unconsciously seeks the observance of a mutually-legislated understanding.
@@ -718,7 +718,7 @@ Possesses and retains personally-valuable resources, resisting and undoing would
 - Trivializing: Canon. Trivializes the observance of a mutually-legislated understanding.
 
 ##### Parental
-- Constructive: Expenditure. Finds it constructive to adopt aggressive self-interest.
+- Constructive: Expenditure. Finds it constructive to adopt Forceful self-interest.
 - Repressed: Hospitality. Represses the promotion of a mutually welcoming atmosphere.
 
 ##### Childish
@@ -747,7 +747,7 @@ Finds a minimally appropriate involvement in the affairs of others to better tra
 - Obligative: Canon. Feels obligated to try observing a mutually-legislated understanding.
 
 ##### Shadow
-- Unconscious: Expenditure. Unconsciously seeks the adoption of aggressive self-interest.
+- Unconscious: Expenditure. Unconsciously seeks the adoption of Forceful self-interest.
 - Unnatural: Hospitality. Finds it unnatural to promote a mutually welcoming atmosphere.
 
 #### LIE / ENTJ / ENTj / Capitalist (Shadow: Sophist).
@@ -764,7 +764,7 @@ Encourages mutually-friendly competition over resources so as to improve their o
 - Repressed: Tangentiality. Represses the emphasis of cooperative structural possibilities.
 
 ##### Childish
-- Indulgant: Expenditure. Can over-indulge adopting aggressive self-interest.
+- Indulgant: Expenditure. Can over-indulge adopting Forceful self-interest.
 - Obligative: Hospitality. Feels obligated to try and promote a mutually welcoming atmosphere.
 
 ##### Shadow
@@ -777,7 +777,7 @@ Shameless Machiavellian. Possessing the means.
 Directly reaps the benefits of new ventures, so as to further benefit from peacocking that wealth over others.
 
 ##### Ego
-- Natural: Expenditure. Naturally adopts aggressive self-interest.
+- Natural: Expenditure. Naturally adopts Forceful self-interest.
 - Trivializing: Hospitality. Trivializes the promotion of a mutually welcoming atmosphere.
 
 ##### Parental
