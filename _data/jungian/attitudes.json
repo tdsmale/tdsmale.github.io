@@ -1,0 +1,1063 @@
+{
+	"Rationality":
+	{
+		"Subjective": 
+		{
+			"code": "Sxxx",
+			"socionics": "Constructivist",
+			"function": "Fx",
+			"properties": ["Involved", "Internal"],
+			"description": ["Apprehending what is emotionally true or accurate."],
+		},
+		"Objective": 
+		{
+			"code": "Oxxx",
+			"socionics": "Emotivist",
+			"function": "Tx",
+			"properties": ["Abstract", "External"],
+			"description": ["Apprehending what is logically true of accurate."],
+		}
+	},
+	
+	"Judgement":
+	{
+		"Navigation": 
+		{
+			"code": "xCxx",
+			"socionics": "Introverted",
+			"function": "Ji",
+			"properties": ["Reactive", "Static"],
+			"description": ["Guiding external processes."],
+		},
+		"Conditioning": 
+		{
+			"code": "xNxx",
+			"socionics": "Extroverted",
+			"function": "Je",
+			"properties": ["Active", "Dynamic"],
+			"description": ["Changing external processes."],
+		}
+	},
+	
+	"Temporality":
+	{
+		"Present": 
+		{
+			"code": "xxPx",
+			"socionics": "Sensation",
+			"function": "Sx",
+			"properties": ["Involved", "External"],
+			"description": ["Apprehending what is right now."],
+		},
+		"Future": 
+		{
+			"code": "xxFx",
+			"socionics": "Intuition",
+			"function": "Nx",
+			"properties": ["Abstract", "Internal"],
+			"description": ["Apprehending what could be."],	
+		}
+	},
+	
+	"Perception":
+	{
+		"Activation": 
+		{
+			"code": "xxxA",
+			"socionics": "Static",
+			"function": "Pe",
+			"properties": ["Active", "Static"],
+			"description": ["Engaging with external processes."],	
+		},
+		"Reflection":
+		{
+			"code": "xxxR",
+			"socionics": "Dynamic",
+			"function": "Pi",
+			"properties": ["Reactive", "Dynamic"],
+			"description": ["Detaching from external processes."],	
+		},
+	},
+	
+	"Argumentation":
+	{
+		"Economical": 
+		{
+			"socionics": "Serious",
+			"description": 
+			[
+				"Using resources in personally-valuable ways.",
+				"Characterised by resourcefulness, seriousness and individuation."
+			],
+			"Sincere": 
+			{
+				"code": "SCxx",
+				"socionics": "Introverted Ethics",
+				"function": "Fi",
+				"properties": ["Subjective", "Conditioning"],
+				"description": 
+				[
+					"Personal relations.",
+					"Desire, priviledge & kinship.",
+					"Attachment & detachment.",
+					"Prioritising individuals.",
+					"Particular, empathic, captious affect.",
+					"Internalising feelings."
+				],
+			},
+			"Productive": 
+			{
+				"code": "ONxx",
+				"socionics": "Extroverted Logic",
+				"function": "Te",
+				"properties": ["Objective", "Navigation"],
+				"description": 
+				[
+					"Pragmatisation.",
+					"Productive externalisation.",
+					"Efficiency & workaholism.",
+					"Putting things to use.",
+					"Useful, straghtforward, frank affect.",
+					"Factual synchronisation."
+				],
+			}
+		},
+		"Narrational":
+		{
+			"socionics": "Merry",
+			"description": 
+			[
+				"Guiding audiences to a central truth.",
+				"Characterised by small talk, flippancy and group membership."
+			],
+			"Neutral": 
+			{
+				"code": "OCxx",
+				"socionics": "Introverted Logic",
+				"function": "Ti",
+				"properties": ["Objective", "Conditioning"],
+				"description": 
+				[
+					"Internal structure.",
+					"Truth, coherence & symmetry.",
+					"Neutrality & ideology.",
+					"Creating a balance.",
+					"Analytical, indifferent, impartial affect.",
+					"Internalising rules."
+				],
+			},
+			"Expressive": 
+			{
+				"code": "SNxx",
+				"socionics": "Extroverted Ethics",
+				"function": "Fe",
+				"properties": ["Subjective", "Navigation"],
+				"description": 
+				[
+					"Influencing expressions.",
+					"Authentic externalisation.",
+					"Attraction & manipulation.",
+					"Contributing to a shared atmosphere.",
+					"Ingratiating, disarming, charming affect.",
+					"Emotional synchronisation."
+				],
+			}
+		}
+	},
+	
+	"Projection":
+	{
+		"socionics": "Project Groups",
+		"Deductive": 
+		{
+			"socionics": "Process",
+			"Precise": 
+			{
+				"code": "SxPx",
+			},
+			"Synthetic":
+			{
+				"code": "OxFx",
+			},
+		},
+		
+		"Inductive": 
+		{
+			"socionics": "Result",
+			"Concrete":
+			{
+				"code": "OxPx",
+			},
+			"Coarse":
+			{
+				"code": "SxFx",
+			},
+		}
+	},
+	
+	"Communication":
+	{
+		"Resource-protecting": 
+		{
+			"Passionate": 
+			{
+				"code": "SxxA",
+			},
+			"Cold": 
+			{
+				"code": "OxxR",
+			}
+		},
+		
+		"Interest-protecting":
+		{
+			"Soulful": 
+			{
+				"code": "SxxR",
+			},
+			"Cooperative": 
+			{
+				"code": "OxxA",
+			}
+		}
+	},
+	
+	"Stimulus":
+	{
+		"Cautious": 
+		{
+			"Prestige": 
+			{
+				"code": "xNPx",
+			},
+			"Self-Worth": 
+			{
+				"code": "xCFx",
+			}
+		},
+		"Incidental": 
+		{
+			"Well-Being": 
+			{
+				"code": "xCPx",
+			},
+			"Uniqueness": 
+			{
+				"code": "xNFx",
+			},
+		}
+	},
+	
+	"Temperament":
+	{
+		"Labile": 
+		{
+			"Adopting": 
+			{
+				"properties": ["Active"],
+				"function": "JePe",
+				"code": "xNxA",
+				"description": 
+				[
+					"Seeks to make the most of external processes.",
+					"Adopts the result.",
+				]
+			},
+			"Observant":
+			{
+				"properties": ["Reactive"],
+				"function": "JiPi",
+				"code": "xCxR",
+				"description": 
+				[
+					"Seeks to be seperate from external processes.",
+					"Minimises the result."
+				]
+			},
+		},
+		"Rigid":
+		{
+			"Promoting":
+			{
+				"properties": ["Dynamic"],
+				"function": "JePi",
+				"code": "xNxR",
+				"description": 
+				[
+					"Seeks to promote external processes.",
+					"Promotes further results."
+				]
+			},
+			"Symptomatic":
+			{
+				"properties": ["Static"],
+				"function": "JiPe",
+				"code": "xCxA",
+				"description": 
+				[
+					"Seeks to represent external processes.",
+					"Emphasises the result."
+				]
+			},
+		}
+	},
+	
+	"Relations":
+	{
+		"Collapsing": 
+		{
+			"socionics": "Decisive",
+			"description": 
+			[
+				"Acting in a willful and timely manner,",
+				"Minimising the negative in life.",
+				"Brings a weighty, decisive attitude to things.",
+				"Guided by sinking feelings.",
+				"Akin to waves crashing against the shore.",
+				"Victims (Ni) adapt to outward pressure via fatalistic provocation.",
+				"Aggressors (Se) confidently take possession of what they want.",
+			],
+			"Forceful": 
+			{
+				"code": "xxPA",
+				"socionics": "Extroverted Sensing",
+				"function": "Se",
+				"properties": ["Present", "Activation"],
+				"description": 
+				[
+					"Unyielding in-the-moment.",
+					"Taking up space.",
+					"Impact & oppression.",
+					"Exerting outward pressure.",
+					"Aggressor complex - having insurmountable needs.",
+					"Engrossing, strong, powerful affect.",
+					"Capture & possession."
+				],
+			}
+			"Vacuous":
+			{
+				"code": "xxFR",
+				"socionics": "Introverted Intuition",
+				"function": "Ni",
+				"properties": ["Future", "Reflection"],
+				"description": 
+				[
+					"Yielding over time.",
+					"Waiting for the moment.",
+					"Prognostication, fatalism, equivocation & dissociation.",
+					"Bending under pressure.",
+					"Victim complex - adapting to the needs of powerful forces.",
+					"Empty, sullen, melancholic affect.",
+					"Lessening of impact."
+				],
+			}
+		},
+		"Enhancing":
+		{
+			"socionics": "Judicious",
+			"description": 
+			[
+				"Enjoying what life has to offer.",
+				"Maximising the positive in life.",
+				"Brings an airy, buoyant attitude to things.",
+				"Guided by imaginative guesswork.",
+				"Akin to explorers at risk of becoming 'untethered'.",
+				"Infants (Ne) follow their curiosity & welcome the care of others.",
+				"Parents (Si) take mind of the small details others overlook."
+			],
+			"Digressive": 
+			{
+				"code": "xxFA",
+				"socionics": "Extroverted Intuition",
+				"function": "Ne",
+				"properties": ["Future", "Activation"],
+				"description": 
+				[
+					"Broadening of possibilities.",
+					"Taking up ideas.",
+					"Creativity & waste.",
+					"Keeping things fresh & novel.",
+					"Infantile complex - accepting of outward care.",
+					"Digressive, curious, optimistic affect.",
+					"Thinking outside the box."
+				],
+			},
+			"Relaxed":
+			{
+				"code": "xxPR",
+				"socionics": "Introverted Sensing",
+				"function": "Si",
+				"properties": ["Present", "Reflection"],
+				"description": 
+				[
+					"Familiarity of senses.",
+					"Enhancing the current moment.",
+					"Satisfcation & stagnation.",
+					"Forgetting your troubles.",
+					"Parental complex - taking care of needs.",
+					"Grounded, appreciative, comfortable affect.",
+					"Lessening of discomfort."
+				],
+			},
+		}
+	},
+	
+	"Role":
+	{
+		"Declarative":
+		{
+			"Extracting":
+			{
+				"1": 
+				{
+					"code": "SNPx"
+				},
+				"2": 
+				{
+					"code": "OCPx"
+				}
+			},
+			"Negotiating":
+			{
+				"1": 
+				{
+					"code": "ONFx"
+				},
+				"2": 
+				{
+					"code": "SCFx"
+				}
+			}
+		},
+		"Interrogative":
+		{
+			"Inventing":
+			{
+				"1": 
+				{
+					"code": "OCFx"
+				},
+				"2": 
+				{
+					"code": "SNFx"
+				}
+			},
+			"Industrialising":
+			{
+				"1": 
+				{
+					"code": "SCPx"
+				},
+				"2": 
+				{
+					"code": "SNPx"
+				}
+			}
+		}
+	},
+	
+	"Action":
+	{
+		"Argumentative":
+		{
+			"Systemizing":
+			{
+				"Personas": 
+				{
+					"code": "SNxA",
+					"function": "FePe",
+					"description": ["Denying individuation."],
+				},
+				"Truth":
+				{
+					"code": "OCxA",
+					"function": "TiPe",
+					"description": ["Creating structure."],
+				},
+			},
+			"Algorithmic":
+			{
+				"Efficiency":
+				{
+					"code": "ONxR",
+					"function": "TePi",
+					"description": ["Creating practicality."],
+				},
+				"Individuation":
+				{
+					"code": "SCxR",
+					"function": "FiPi",
+					"description": ["Denying personas."],
+				},
+			}
+		},
+		"Persuasive":
+		{
+			"Synchronizing":
+			{
+				"Structure":
+				{
+					"code": "OCxR",
+					"function": "TiPi",
+					"description": ["Denying practicality."],
+				},
+				"Expression":
+				{
+					"code": "SNxR",
+					"function": "FePi",
+					"description": ["Creating personas."],
+				},
+			},
+			"Moralising":
+			{
+				"Relations":
+				{
+					"code": "SCxA",
+					"function": "FiPe",
+					"description": ["Creating individuation."],
+				},
+				"Practicality":
+				{
+					"code": "ONxA",
+					"function": "TePe",
+					"description": ["Denying structure."],
+				},
+			}
+		}
+	},
+	
+	"Cognition":
+	{
+		"Holographic":
+		{
+			"1": 
+			{
+				"code": "SxPA",
+			},
+			"2": 
+			{
+				"code": "OxFA",
+			},
+		},
+		"Dialectic":
+		{
+			"1": 
+			{
+				"code": "OxPR",
+			},
+			"2": 
+			{
+				"code": "SxFR",
+			},
+		},
+		"Synergetic":
+		{
+			"1": 
+			{
+				"code": "OxFR",
+			},
+			"2": 
+			{
+				"code": "SxPR",
+			},
+		},
+		"Deterministic":
+		{
+			"1": 
+			{
+				"code": "SxFA",
+			},
+			"2": 
+			{
+				"code": "OxPA",
+			},
+		}
+	},
+	
+	"Interaction":
+	{
+		"Goal-oriented":
+		{
+			"Antagonistic":
+			{
+				"Capture":  
+				{
+					"code": "xNPA",
+				},
+				"Foresight": 
+				{
+					"code": "xNFR",
+				}
+			},
+			"Peaceful":
+			{
+				"Potential": 
+				{
+					"code": "xCFA",
+				},
+				"Acceptance": 
+				{
+					"code": "xCPR",
+				}
+			}
+		},
+		"Method-oriented":
+		{
+			"Open":
+			{
+				"Comfort": 
+				{
+					"code": "xNPR",
+				},
+				"Ideation": 
+				{
+					"code": "xNFA",
+				}
+			},
+			
+			"Secretive":
+			{
+				"Timing":
+				{
+					"code": "xCFR",
+				},
+				"Control":
+				{
+					"code": "xCPA",
+				}
+			}
+		}
+	},
+	
+	"Symbiosis":
+	{
+		"Atomistic":
+		{
+			"socionics": "Democratic",
+			"description":
+			[
+				["Relating to others in terms of individual qualities relative to a whole."],
+				[
+					"Fi: Minimising negative relations. Harsh judgement of character. Retention & Distance.",
+					"Te: Minimising useless resources. Ruthless efficiency. Profitability & Expenditure.",
+					"Ti: Minimising negative conformity. Reinventing the wheel. Tangentiality & Canon.",
+					"Fe: Minimising negative expression. Welcoming atmosphere. Hospitality & Silliness.",
+					"Ni: Maximising positive impact. Incremental progress. Distance & Profitability.",
+					"Se: Maximising positive consequences. Retention of resources. Retention & Expenditure.",
+					"Ne: Maximising positive possibilities. Looking on the bright side. Tangentiality & Silliness.",
+					"Si: Maximising positive comfort. Indulgance & beauty. Hospitality & Canon."
+				],
+			],
+			"Mutual":
+			{
+				"socionics": "Alpha",
+				"properties": ["Enhancing", "Narrational"],
+				"description":
+				{
+					"Summary":
+					[
+						"Enlightened individuation. Minimises harsh collectivism.",
+						"Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.",
+						"Grounded, high-minded & driven to potentiate the best in how things are.",
+						"Typically has problems with being too accepting or understanding."
+					],
+					"Properties":
+					[
+						"Worldview: Harmonious. Living in wisened harmony with one's environment.",
+						"Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.",
+						"Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.",
+						"Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it."
+					]
+				},
+				"1":
+				{
+					"Tangentiality":
+					{
+						"code": "OCFA",
+						"properties": ["Neutral", "Digressive", "Abstract", "Static"],
+						"function": "TiNe",
+						"description": 
+						[
+							"Potentiating Truth.",
+							"Creating structure by denying control.",
+							"Ideal: Neutrality & Creativity.",
+							"Shadow: Ideology & Waste.",
+							"Emphasising cooperative structural possibilities.",
+							"Playful Intellectual.",
+							"Reinventing the wheel.",
+							"Theory of everything.",
+							"Intellectualising aspects of life to resolve feelings of cognitive dissonance and encourage a mutual refusal of competition."
+						]
+					},
+					"Canon": 
+					{
+						"code": "OCPR",
+						"properties": ["Neutral", "Relaxed", "External", "Reactive"],
+						"function": "TiSi",
+						"description": 
+						[
+							"Structural Acceptance.",
+							"Denying practicality by denying timing.",
+							"Ideal: Neutrality & Satisfaction.",
+							"Shadow: Ideology & Stagnancy.",
+							"Observing a mutually-legislated understanding.",
+							"Sensual Connoisseur.",
+							"Making everyone feel better.",
+							"Reinforcing mutual comfort & aid through the learning & relaying of mutually-legislated understandings."
+						]
+					}
+				},
+				
+				"2":
+				{
+					"Hospitality": 
+					{
+						"code": "SNPR",
+						"properties": ["Expressive", "Relaxed", "Involved", "Dynamic"],
+						"function": "FeSi",
+						"description": 
+						[
+							"Expressive Comfort.",
+							"Creating personas by creating acceptance.",
+							"Ideal: Attraction & Satisfaction.",
+							"Shadow: Manipulation & Stagnancy.",
+							"Promoting a mutually welcoming atmosphere.",
+							"Loveable Host.",
+							"Keeping people together.",
+							"Finds safety within a crowd by encouraging a positive atmosphere and being the centre of attention."
+						]
+					},
+					"Silliness": 
+					{
+						"code": "SNFA",
+						"properties": ["Expressive", "Digressive", "Internal", "Active"],
+						"function": "FeNe",
+						"description": 
+						[
+							"Ideating Personas.",
+							"Creating potential by denying individuation.",
+							"Ideal: Attraction & Creativity.",
+							"Shadow: Manipulation & Waste.",
+							"Adopting silly social personas.",
+							"Court Jester.",
+							"Making a fool of things.",
+							"Maintains mutual bonds through 'silly' or 'foolish' behaviour, preventing others from taking opportunities away from them.",
+						]
+					}
+				}
+			},
+			
+			"Competitive":
+			{
+				"socionics": "Gamma",
+				"properties": ["Collapsing", "Economical"],
+				"description":
+				{
+					"Summary":
+					[
+						"Harsh individuation. Minimises enlightened collectivism.",
+						"Retentive relations collapse into harsh practicality, leading to psychological inequity.",
+						"Self-driven, individualistic and sceptical of others.",
+						"Typically has problems with being too cold or distant."
+					],
+					"Properties":
+					[
+						"Worldview: Strategic. Making pragmatic decisions, selecting allegiances and achieving long-term success.",
+						"Ideal: Independence. To determine one's own efforts & interests, free of interference.",
+						"Shadow: Delegation. To represent others or to do their work for them.",
+						"Symbiosis: Competitive. Ecosystem is implicitly reliant on a healthy competition over resources."
+					]
+				},
+				"1":
+				{
+					"Retention": 
+					{
+						"code": "SCPA",
+						"properties": ["Sincere", "Forceful", "Involved", "Static"],
+						"function": "FiSe",
+						"description": 
+						[
+							"Controlling Relations.",
+							"Creating individuation by denying potential.",
+							"Ideal: Attachment & Impact.",
+							"Shadow: Detachment & Oppression.",
+							"Emphasising retentive relations.",
+							"Judicious Individualist.",
+							"Retaining selected means.",
+							"Possesses and retains personally-valuable resources, resisting and undoing would-be competitors."
+						]
+					},
+					"Distance": 
+					{
+						"code": "SCFR",
+						"properties": ["Sincere", "Vacuous", "Internal", "Reactive"],
+						"function": "FiNi",
+						"description": 
+						[
+							"Individual Timing.",
+							"Denying personas by denying acceptance.",
+							"The inverse of 'no man's an island'.",
+							"Ideal: Attachment & Prognostication."
+							"Shadow: Detachment & Fatalism.",
+							"Torpid Scavenger.",
+							"Reaping the rewards of bad luck.",
+							"Finds a minimally appropriate involvement in the affairs of others to better track their inevitable misfortune."
+						]
+					}
+				},
+				
+				"2":
+				{
+					"Profitability": 
+					{
+						"code": "ONFR",
+						"properties": ["Productive", "Vacuous", "Abstract", "Dynamic"],
+						"function": "TeNi",
+						"description": 
+						[
+							"Efficient Foresight.",
+							"Creating practicality by creating timing.",
+							"Ideal: Efficiency & Prognostication.",
+							"Shadow: Workaholism & Fatalism.",
+							"Promoting competitive escalation.",
+							"Ruthless Materialist.",
+							"Escalating competition.",
+							"Encourages mutually-friendly competition over resources so as to improve their own personal yield."
+						]
+					},
+					"Expenditure": 
+					{
+						"code": "ONFR",
+						"properties": ["Productive", "Forceful", "External", "Active"],
+						"function": "TeSe",
+						"description": 
+						[
+							"Capturing Practicality.",
+							"Creating control by denying structure.",
+							"Ideal: Efficiency & Impact.",
+							"Shadow: Workaholism & Oppression.",
+							"Shameless Machiavellian.",
+							"Possessing the means.",
+							"Directly reaps the benefits of new ventures, so as to further benefit from peacocking that wealth over others."
+						]
+					}
+				}
+			}
+		},
+		
+		"Hierarchal":
+		{
+			"socionics": "Aristocratic",
+			"description":
+			[
+				["Relating to others in terms of the social categories they are part of."],
+				[
+					"Fi: Maximising positive relations. Affirming judgement of character. Faith & Affirmation.",
+					"Te: Maximising useful resources. Harmonic efficiency. Stability & Experimentation.",
+					"Ti: Maximising positive conformity. Disciplined observance of rules. Division & Radicalism.",
+					"Fe: Maximising positive expression. Powerful atmosphere. Catharsis & Supremacy.",
+					"Ni: Minimising negative impact. Premonition of discordance. Radicalism & Catharsis.",
+					"Se: Minimising negative consequences. Possessing the weak. Division & Supremacy.",
+					"Ne: Minimising negative possibilities. Avoiding stagnation. Faith & Experimentation.",
+					"Si: Minimising negative comfort. Maintaining peace of mind. Stability & Affirmation."
+				],
+			],
+				
+			"Parasitical":
+			{
+				"socionics": "Beta",
+				"properties": ["Collapsing", "Narrational"],
+				"description":
+				{
+					"Summary":
+					[
+						"Harsh collectivism. Minimises enlightened individuation.",
+						"Divided structure collapses into dramatic upheaval, leading to a radical, unyielding understanding.",
+						"Rowdy company prone to ideological conflict.",
+						"Typically has problems with being too passionate or tyrannical."
+					],
+					"Properties":
+					[
+						"Worldview: Transformative. Having a passionate will to conquer enemies and enjoy the spoils.",
+						"Ideal: Domination. To be at the top of the food chain, to be most deserving of the spoils.",
+						"Shadow: Submission. To be the runt of the litter, to be cast as lower or less deserving.",
+						"Symbiosis: Parasitic. Ecosystem is implicitly reliant on the strong possessing the weak."
+					]
+				},
+				"1":
+				{
+					"Division": 
+					{
+						"code": "OCPA",
+						"properties": ["Neutral", "Forceful", "External", "Static"],
+						"function": "TiSe",
+						"description": 
+						[
+							"Controlling Truth.",
+							"Creating structure by denying potential.",
+							"Ideal: Neutrality & Impact.",
+							"Shadow: Ideology & Oppression.",
+							"Emphasising defensive structural rationales.",
+							"Unyielding Enforcer.",
+							"Building the wall.",
+							"Imposes structure upon things to avoid feelings of cognitive dissonance, implicitly defining what is strong and what is weak."
+						]
+					},
+					"Radicalism": 
+					{
+						"code": "OCFR",
+						"properties": ["Neutral", "Vacuous", "Abstract", "Reactive"],
+						"function": "TiNi",
+						"description": 
+						[
+							"Structural Timing.",
+							"Denying practicality by denying acceptance.",
+							"Ideal: Neutrality & Prognostication.",
+							"Shadow: Ideology & Fatalism.",
+							"Observing exploitative underpinnings.",
+							"Attractive Parasite.", 
+							"Sapping strength by paying tribute.",
+							"Offers pleasant illusions to more powerful hosts, to sap & feed off their strength without them noticing."
+						]
+					}
+				},
+				
+				"2":
+				{
+					"Catharsis": 
+					{
+						"code": "SNFR",
+						"properties": ["Expressive", "Vacuous", "Internal", "Dynamic"],
+						"function": "FeNi",
+						"description": 
+						[
+							"Expressive Foresight.",
+							"Creating personas by creating timing.",
+							"Ideal: Attraction & Prognostication.",
+							"Shadow: Manipulation & Fatalism.",
+							"Promoting a purgative atmosphere.",
+							"Passionate Martyr.",
+							"Getting it all out.",
+							"Highlights & purges a crowd's weaker qualities, maintaining a stronger position within it.",
+						]
+					},
+					"Supremacy": 
+					{
+						"code": "SNPA",
+						"properties": ["Expressive", "Forceful", "Involved", "Active"],
+						"function": "FeSe",
+						"description": 
+						[
+							"Capturing Personas.",
+							"Creating control by denying individuation.",
+							"Ideal: Attraction & Impact.",
+							"Shadow: Manipulation & Oppression.",
+							"Adopting possessive social personas.",
+							"Apex Predator.",
+							"Possessing the weak.",
+							"Occupies the top of the food chain by possessing the weak and defeating the strong.",
+						]
+					}
+				}
+			},
+			
+			"Commensal":
+			{
+				"socionics": "Delta",
+				"properties": ["Enhancing", "Economical"],
+				"description":
+				{
+					"Summary":
+					[
+						"Enlightened individuation. Minimises harsh collectivism.",
+						"Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.",
+						"Grounded, high-minded & driven to potentiate the best in how things are.",
+						"Typically has problems with being too accepting or understanding."
+					],
+					"Properties":
+					[
+						"Worldview: Harmonious. Living in wisened harmony with one's environment.",
+						"Ideal: Earnestness. To engage with things sincerely, to potentiate the best in them.",
+						"Shadow: Parochialism. To operate with blinders on, to be subject to small-minded criticism.",
+						"Symbiosis: Commensal. Ecosystem relies on one species benefiting from a host without affecting it."
+					]
+				},
+				"1":
+				{
+					"Faith": 
+					{
+						"code": "SCFA",
+						"properties": ["Sincere", "Digressive", "Internal", "Static"],
+						"function": "FiNe",
+						"description": 
+						[
+							"Potentiating Relations.",
+							"Creating individuation by denying control.",
+							"Ideal: Attachment & Creativity.",
+							"Shadow: Detachment & Waste.",
+							"Emphasising good-faith relations.",
+							"Blessed Fairy.",
+							"Finding good fortune.",
+							"Promotes a more positive, friendly and altruistic ecosystem to benefit from.",
+						]
+					},
+					"Affirmation": 
+					{
+						"code": "SCPR",
+						"properties": ["Sincere", "Relaxed", "Involved", "Reactive"],
+						"function": "FiSi",
+						"description": 
+						[
+							"Individual Acceptance.",
+							"Denying personas by denying timing.",
+							"Ideal: Attachment & Satisfaction.",
+							"Shadow: Detachment & Stagnancy.",
+							"Observing an inherent quality.",
+							"Stabilising Outlier.",
+							"Peripheral specialisation.",
+							"Peacefully maintains neglected niches, so as to minimise undue will against them."
+						]
+					}
+				},
+				
+				"2":
+				{
+					"Stability": 
+					{
+						"code": "ONPR",
+						"properties": ["Productive", "Relaxed", "External", "Dynamic"],
+						"function": "TeSi",
+						"description": 
+						[
+							"Efficient Comfort.",
+							"Creating practicality by creating acceptance.",
+							"Ideal: Efficiency & Satisfaction.",
+							"Shadow: Workaholism & Stagnancy.",
+							"Promoting pragmatic equilibrium.",
+							"Conscientious Servant.",
+							"Putting things to good use.",
+							"Finds a satisfying, practical use in things to better maintain their habitat."
+						]
+					},
+					"Experimentation": 
+					{
+						"code": "ONFA",
+						"properties": ["Productive", "Digressive", "Abstract", "Active"],
+						"function": "TeNe",
+						"description": 
+						[
+							"Ideating Practicality.",
+							"Creating potential by denying structure.",
+							"Ideal: Efficiency & Creativity.",
+							"Shadow: Workaholism & Waste.",
+							"Adopting seemingly useless things.",
+							"Promiscuous Counsel.",
+							"Helpful friend to all.",
+							"Strives to help anyone and anything realise their true potential within an ecosystem."
+						]
+					}
+				}
+			}
+		}
+	}
+}
