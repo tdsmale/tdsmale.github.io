@@ -293,8 +293,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			div.working-title {
 				padding: 1em;
 				text-align: center;
-				background-color: var(--fg-color);
 				border-style: solid;
+			}
+			
+			div.working-title.clickable {
+				background-color: var(--fg-color);
 			}
 			
 			.working th, .working td {
@@ -366,18 +369,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		<!--
 		// TODO
 		- each small group has 3 versions...expressed with two possible pairings. define them!
-		- "complex of..."
 		- clean up large articles (headers)
-		- header with contents button
+		- header with:
+			- contents button
+			- dark/light mode
+			- detailed tables mode
+			- original socionics names mode
 		- sources
 		- never stop absorbing
-		- map author names to their descriptions
 		- list small groups in each pair (should be 7 per pair)
 		- expand on polarities (i.e. separate descriptions for both positive & negative)
-		- romance style etc. labels?
 		- collapsible divs (per dichot, per tetra, per group) (i) (x) (+) (-)
 		- replace popups with divs that expand underneath (need to put a div in every possible location, then programatically determine WHICH div to place content in...)
-		- replace all tables with flex (esp. popup right header table)
+		- get rid of popup right header table, put elsewhere
+		- hide pair types in popups more effectively (or better seperate from working groups)
 		- figure out type/attitude picker (or at least make smaller on mobile)
 		- test on many browsers & devices
 		- finish all code label inputs (some are still blank)
@@ -735,7 +740,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			return b.join("");
 		}
-		
 	
 		function originalToTernaryCode(a) {
 			let b = [];
@@ -782,6 +786,27 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 			
 			return b.join("");
+		}
+		
+		function originalToSocionicsCode(a) {
+			switch(a) {
+				case "SCFA": return "EII";
+				case "SCFR": return "ILI";
+				case "SCPA": return "ESI";
+				case "SCPR": return "SLI";
+				case "SNFA": return "ILE";
+				case "SNFR": return "EIE";
+				case "SNPA": return "SLE";
+				case "SNPR": return "ESE";
+				case "OCFA": return "LII";
+				case "OCFR": return "IEI";
+				case "OCPA": return "LSI";
+				case "OCPR": return "SEI";
+				case "ONFA": return "IEE";
+				case "ONFR": return "LIE";
+				case "ONPA": return "SEE";
+				case "ONPR": return "LSE";
+			}
 		}
 	
 		function dichotCode(a) {
@@ -1925,11 +1950,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createTetraLabel(["OCxx"], ["ONxx"], ["SCxx"], ["SNxx"], {
 				label: "Argumentation",
-				Miranov: "Emotional Experience",
-				Socionics: "Rational Elements"
+				desc: [
+					{
+						"Miranov - Emotional Experience": [],
+						"Socionics - Rational Elements": [],
+						"Danidin - Value Shades of Vertity-1": []
+					}
+				]
 			});
 			createCodeLabel("SNxx", {
-				label: "Social", //"Expressive",
+				label: "Social",
 				Socionics: "Extroverted Ethics",
 				desc: [
 					"Contributing to a shared atmosphere.",
@@ -1937,8 +1967,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Influencing expressions.",
 					"Emotional synchronisation.",
 					{
-						Danidin: [
-							"Following the ideals of attractiveness and managing the dramatic passions of the masses (fashion designers, prophets)."
+						"Danidin - Involving": [
+							"Following the ideals of attractiveness and managing the dramatic passions of the masses (fashion designers, prophets).",
+							"(Ascending) to world sentiments."
 						]
 					}
 				]
@@ -1952,9 +1983,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Useful, straghtforward, efficient affect.",
 					"Factual synchronisation.",
 					{
-						Danidin: [
+						"Danidin - Contacting": [
 							"Objective thinking; doing work to change the external world.",
-							"Professional specialization (leading to the rejection of any transpersonal universal meanings of life)."
+							"Professional specialization (leading to the rejection of any transpersonal universal meanings of life).",
+							"(Descending) towards labor specialization."
 						]
 					}
 				]
@@ -1966,8 +1998,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Internalising relations between individuals.",
 					"Particular, empathic, confidential affect.",
 					{
-						Danidin: [
-							"Management of private relations based on a superior understanding of personal characteristics of close people."
+						"Danidin - Confidential": [
+							"Management of private relations based on a superior understanding of personal characteristics of close people.",
+							"(Descending) towards private relationships."
 						]
 					}
 				]
@@ -1980,9 +2013,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Analytical, indifferent, impartial affect.",
 					"Internalising the rules of the game.",
 					{
-						Danidin: [
+						"Danidin - Inert": [
 							"Analyzing and modeling reality in your mind.",
-							"Stubbornness the reason for which is the principled adherence to the chosen ideological paradigm."
+							"Stubbornness the reason for which is the principled adherence to the chosen ideological paradigm.",
+							"(Ascending) to the laws of the world order."
 						]
 					}
 				]
@@ -2090,7 +2124,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Victor Gulenko - Stimulus Seeking": [
 							"In the socion one can distinguish 4 stimulus groups, within which sociotypes are motivated in a similar way.",
 							"These groups are formed when the socion is divided into four parts by the extra / introversion axis and sensory / intuition."
-						]
+						],
+						"Danidin - Stimuli (\"Maps\" in Symbolic Socionics)": []
 					}
 				]
 			});
@@ -2113,7 +2148,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								"Enthusiast (ES, ESE): the world is ruled by rush, burning, attraction. The most emotional personality type, able to influence the mood of other people. He can be enrolled as an idealist, because he is well capable of doing only what he likes. However, its inherent dependence on the energy state of others is quite material.",
 								"Administrator (PS, FEL): the world is ruled by work, business. The most materialistic thinking type of the psyche, based in its reasoning only on the facts and proven patterns in practice. Fully dependent on the work process, subjecting his plans to him. Rejects any contrived theories and schemes, if they are not presented in the form of a proven technology.”"
 							]
-						]
+						],
+						"Danidin - Immersed In Reality / Status Stimulus / Kings": []
 					}
 				]
 			});
@@ -2137,7 +2173,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								"Lyric (TE, IEI): the world is ruled by mood, state. The most changeable type of psyche, strongly dependent on its inner spirit. Because of this, it is relatively easy to convince in any matter, if you are persistent enough. However, he is just as easy and gives up imposed beliefs.",
 								"Conciliator (RI, EII): kindness rules the world. The most sympathetic type of personality, even if his feelings are not embodied in actions. Ideal ideas of good and justice, if they are all guided in everyday life, will lead to a humane society. However, they must come from the soul of the person himself, and not be imposed from the outside.”"
 							]
-						]
+						],
+						"Danidin - Self-Absorbed / Stimulus of Self-Worth / Pages": []
 					}
 				]
 			});
@@ -2161,7 +2198,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								"Mediator (SE, SEI): the world is ruled by pleasure. This sociotype does well only pleasant and non fatiguing work for him. Quite conformal in behavior, he easily adapts to others, believing that people will willingly meet, if only to create an atmosphere of comfort and to offer what they lack to live in their pleasure.",
 								"Master (SP, SLI): the world is ruled by good. In accordance with his philosophy, he himself will not do anything useless for himself and will never suggest to others. The principle of least action by which the physical world lives is its principle. As the most technologically thinking type, he believes that the main argument is an appeal to the common sense of man.”"
 							]
-						]
+						],
+						"Danidin - Immersed In Everyday / Welfare Stimulus / Ladies": []
 					}
 				],
 			});
@@ -2183,15 +2221,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								"Psychologist (IR, IEE): the world is ruled by a feeling that is stronger than a person; This is the most altruistic type of personality, which is able to help people without demanding even gratitude in return. This also explains his strongest penchant for empathy.",
 								"Entrepreneur (PT, LIE): the creator of everything is wildlife. This sociotype animates nature, thus becoming a dualist, i.e., equally recognizing the ideal and the material principles, which are combined in the element of nature.”"
 							]
-						]
+						],
+						"Danidin - Immersed In Ideas / Stimulus of Uniqueness / Knights": []
 					}
 				],
 			});
 			
 			createTetraLabel(["xCxA"], ["xCxR"], ["xNxA"], ["xNxR"], {
 				label: "Temperament",
-				"Victor Gulenko": "Temperament",
-				Miranov: "Perception Matrix",
+				desc: [
+					{
+						"Victor Gulenko - Temperament": [],
+						"Miranov - Perception Matrix": []
+					}
+				]
 			});
 			createCodeLabel("xNxA", {
 				label: "Adopting",
@@ -2384,11 +2427,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabel("xxFR", {
-				label: "Implosive",//"Doubting",//"Dissociative",
+				label: "Implosive",
 				Socionics: "Introverted Intuition",
 				desc: [
 					"Dissociatively relinquishing the moment to more powerful forces by bending to their pressure.",
 					"Apprehending things in terms of their apparent placement in time & history.",
+					"Waiting for the turning point.",
 					"Prognostication, fatalism, equivocation & dissociation.",
 					"Vacuous, sullen, provocative affect.",
 					{
@@ -2413,10 +2457,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Danidin and Talanov - Victim": [
 							"“Frequency of thoughts about the future; love for subjects developing in time, including in their fantasies. Interest in everything pretentious, defiantly shocking, unnatural and painful. Dislike for housekeeping, for household physical exertion. Weak appetite for food. Evolved from defensive-defensive strategies related to mimicry (deception of a predator by changes in its appearance and behavior).”"
 						],
-						Danidin: [
+						"Danidin - Provoking / Victims": [
 							"Observing changes and waiting for the moment, adaptation to unpleasant circumstances and superior forces, equivocation.",
 							"Introduction of an ecotope into a crisis (opening of ecological chains; wasted finite resource in terms of volume; linear time); reproduction is tied to times of ecotope crisis.",
-							"Imagination of changes in time; passivity; self-absorbed contemplation; parasitism & unwillingness to make an effort to help; correlates with masochism."
+							"Imagination of changes in time; passivity; self-absorbed contemplation; parasitism & unwillingness to make an effort to help; correlates with masochism.",
+							"Searching for its happy moment among the struggle of superior forces."
 						]
 					}
 				]
@@ -2446,8 +2491,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Danidin and Talanov - Childlike": [
 							"“Indifference to money and things, unselfishness in property and financial matters. Naivety, underestimation of someone's egoism is characteristic. Curiosity and curiosity. Tolerance for ambiguity. Internationalism, non-alienity of xenophobia. Appreciates freedom, stands for expanding the field of socially permitted, prefers to control other people with the help of rewards rather than punishments. Evolved from defensive-defensive strategies related to movement in space (fleeing to unoccupied territories or seeking refuge).”"
 						],
-						Danidin: [
-							"Imagination of new possibilities; chaos of creativity; \"childishness\" - love for novelty and freedom."
+						"Danidin - Curious / Infants": [
+							"Imagination of new possibilities; chaos of creativity; \"childishness\" - love for novelty and freedom.",
+							"Running away in search of the still unknown to the horizon of the possible."
 						]
 					}
 				]
@@ -2484,14 +2530,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Danidin and Talanov - Caring": [
 							"“The pursuit of everything simple, natural and healthy. Householdness, practicality in everyday life, enjoyment of home improvement classes. Sensory household care for other people, animals and plants. Evolved from food strategies collectors \"grass\" feed.”"
 						],
-						Danidin: [
-							"Comfort and relaxation; life here and now; maintenance of homeostasis & crisis avoidance."
+						"Danidin - Economic / Caring": [
+							"Comfort and relaxation; life here and now; maintenance of homeostasis & crisis avoidance.",
+							"Collecting and processing scattered low-value resources."
 						]
 					}
 				]
 			});
 			createCodeLabel("xxPA", {
-				label: "Explosive",//"Forceful",
+				label: "Explosive",
 				Socionics: "Extroverted Sensing",
 				desc: [
 					"Forcefully taking up space to fulfill insurmountable needs.",
@@ -2523,8 +2570,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							"Want the freedom to choose the next act. Seek to have impact, to get results. Want to be graceful, bold, and impressive. Generally are excited and optimistic. Are absorbed in the action of the moment. Are oriented toward the present. Seek adventure and stimulation. Hunger for spontaneity. Trust impulses, luck, and their ability to solve any problem they run into. Think in terms of variation. Have a talent for noticing and describing rich detail, constantly seeking relevant information. Like freedom to move, festivities, and games. Tend to be natural negotiators. Seize opportunities. Usually are gifted tacticians, deciding the best move to make in the moment, the expedient action to take. Are frequently drawn to all kinds of work that requires variation on a theme.",
 							"They tend to be gifted at employing the available means to accomplish an end. Their creativity is revealed by the variety of solutions they come up with. They are talented at using tools, whether the tool be language, theories, a paint brush, or a computer. They tune into immediate sensory information and vary their actions according to the needs of the moment. They are gifted at tactics. They can easily read the situation at hand, instantly make decisions, and, if needed, take actions to achieve the desired outcome."
 						],
-						Danidin: [
-							"Striving for dominance and usurpation the best resources- \"alpha (fe)male\"; correlates with the dark triad subtraits and sadism."
+						"Danidin - Owners / Aggressors": [
+							"Striving for dominance and usurpation the best resources- \"alpha (fe)male\"; correlates with the dark triad subtraits and sadism.",
+							"Fighting to capture and retain already concentrated high-value resources."
 						]
 					}
 				]
@@ -2540,7 +2588,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createTetraLabel(commensalKeyArr, parasiticalKeyArr, mutualKeyArr, competitiveKeyArr, {
 				label: "Symbiosis",
-				Socionics: "Quadras"
+				desc: [
+					{
+						"Socionics - Quadras": []
+					}
+				]
 			});
 			createCodeLabelArr(commensalKeyArr, {
 				label: "Commensal",
@@ -2797,7 +2849,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								],
 							},
 						],
-						"Danidin - Delta Quadra": [
+						"Danidin - Delta Quadra - Values of Old Age - Preservation of Culture": [
 							"Peaceful pathernalistic private purposes = Delta (moderate, communal) - conformist elderly values (psychotherapy and tolerance education in people to create a comfortable and ergonomic place for life).",
 							[
 								"Social encouragement of elderly conformity",
@@ -2956,7 +3008,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								]
 							}
 						],
-						"Danidin - Beta Quadra": [
+						"Danidin - Beta Quadra - Values of Youth - Conquest of Greatness": [
 							"Rival pathernalistic universal purposes = Beta (hierarchical, state-egregoral) - romantic-power values of teenage groups (forceful seizure of living space and resources, inspired by the ideology of existential superiority);",
 							[
 								"Social encouragement of teenage flocking (“us” vs “them”) - search for the image of a collective enemy to rally society around the “flag” of the central government",
@@ -2989,7 +3041,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(mutualKeyArr, {
 				label: "Mutual",
-				"Victor Gulenko": "Preparers",
 				desc: [
 					"Ecosystem is implictly reliant on mutual stategies for survival.",
 					"Cooperative possibilities enhance emotional atmosphere, leading to a mutually-legislated understanding.",
@@ -3102,7 +3153,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								]
 							}
 						],
-						"Danidin - Alpha Quadra": [
+						"Danidin - Alpha Quadra - Childhood Values - Discovery of Nature": [
 							"Peaceful liberal universal purposes = Alfa (natural, panhuman) - children's values of cognition and growth (opening of personal abilities in sincere contact with the diversity of the nature of the world);",
 							[
 								"Social encouragement of children's naturalness - curiosity, sincerity and the ability to selflessly share the joys of life",
@@ -3135,7 +3186,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(competitiveKeyArr, {
 				label: "Competitive",
-				"Victor Gulenko": "Vibrators",
 				 desc: [
 					"Ecosystem is implicitly reliant on a healthy competition over resources.",
 					"Retentive relations collapse into harsh practicality, leading to psychological inequity.",
@@ -3381,7 +3431,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								]
 							}
 						],
-						"Danidin - Gamma Quadra": [
+						"Danidin - Gamma Quadra - Adult Values - Earning a Reputation": [
 							"Rival liberal private purposes = Gamma (capitalistic, individualistic) - pragmatic adult values (accumulation of private property and personal reputation through participation in speculative market transactions);",
 							[
 								"Social encouragement of adult selfishness",
@@ -3420,7 +3470,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// role
 			createTetraLabel(["SCFx","ONFx"], ["SNPx","OCPx"], ["SNFx","OCFx"], ["SCPx","ONPx"], {
 				label: "Role",
-				"Danidin and Talanov": "Economic Role"
+				desc: [
+					{
+						"Danidin and Talanov - Economic Role": []
+					}
+				]
 			});
 			createCodeLabelArr(["SNPx","OCPx"], {
 				label: "Mining",
@@ -3430,7 +3484,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Miners": [
 							"“Simplifying declaring sensorics, configured to search for material resources. More concerned about the current consumption and biological survival of the individual than the sustainability of the reproduction of resources. It is better adapted to life in the conditions of a materially depleted environment (typical of fun squares); more often in favor of eliminating unnecessarily labor-intensive material excesses and returning to naturalness.”"
-						]
+						],
+						"Danidin - Fundamentalists / Tribal Solidarity Group": []
 					}
 				],
 			});
@@ -3442,19 +3497,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Contractors": [
 							"“Simplifying declaring intuition, well suited for adapting abstract concepts to specific life situations and applying them to real people. Responsible for the ability to negotiate, to find information points of contact. Ensures the formation and maintenance of public consensus.”"
-						]
+						],
+						"Danidin - Adapters / Culturual Integration Group": []
 					}
 				],
 			});
 			createCodeLabelArr(["OCFx","SNFx"], {
-				label: "Innovating",//"Ideologising",
+				label: "Innovating",
 				desc: [
 					"Creating & spreading new ways of thinking.",
 					"Ideas typically reflect internal representations rather than external reality.",
 					{
 						"Danidin and Talanov - Inventors": [
 							"“Complicating questic intuition, well suited for comprehending fundamental truths and developing abstract concepts (including ideological orientation). Responsible for the ability to create fundamentally new things; for the formation of a common information paradigm of the individual and social groups, right up to humanity as a whole. The ideas of this group are more “heavy” than the ideas of the group of contractors, since they invariably reflect the internal “self” of the subject, rather than the dictates of the external environment (a property that distinguishes cheerful quadras).”"
-						]
+						],
+						"Danidin - Idealists / Group of Original Creativity": []
 					}
 				],
 			});
@@ -3466,7 +3523,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Manufacturers": [
 							"“Complicating questic sensory, tuned to maintain the functionality of a large number of complex things, more industrious and attentive to detail. Provides sustainable reproduction of material resources and the increasing complexity of the technosphere as a whole.”"
-						]
+						],
+						"Danidin - Materalists / Bodily Self-Preservation Group": []
 					}
 				],
 			});
@@ -3475,7 +3533,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createTetraLabel(["SNxA","OCxA"], ["SCxR","ONxR"], ["OCxR","SNxR"], ["SCxA","ONxA"], {
 				label: "Action",
-				Mironov: "Practical Knowledge"
+				desc: [
+					{
+						"Mironov - Practical Knowledge": [],
+						"Danidin - Forms of Action (Groups of Rational Functions)": []
+					}
+				]
 			});
 			createCodeLabelArr(["SNxA","OCxA"], {
 				label: "Systemic",
@@ -3486,7 +3549,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Mironov - Systematics": [
 							 "“Orientation in cause-effect relationships, assessment of the consistency (consistency) of a person's judgments, consistent presentation of one's own judgments. Comparison, analysis, synthesis, systematization of any information. Comparison according to certain criteria of theories, systems, classifications, etc., the definition of theoretical assumptions, identifying the structure and patterns, the definition of truth. Drawing up norms, rules, laws. The desire for symmetry, reproduction of geometric shapes.”"
-						]
+						],
+						"Danidin - System Organizers": []
 					}
 				],
 			});
@@ -3499,7 +3563,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Mironov - Technologists": [
 							 "“The ability to assess the business qualities of a person, the effectiveness of his actions. The ability to recreate (think up and think over), organize, improve the technological process, methods, algorithm of actions. A clear understanding of the necessary sequence of actions, division of labor. The desire for efficiency, feasibility, the usefulness of their own and other people's actions, decisions. The pursuit of accuracy, functionality, practicality. Propensity to innovation, invention. The desire for reliability, reliability of the sources and the information itself, based in their judgments on the facts. Good memory for numbers and facts. Evaluation of the quality and value of something. Understanding the working qualities of objects (elasticity, softness, thermal conductivity, etc.).”"
-						]
+						],
+						"Danidin - Case Optimizers": []
 					}
 				]
 			});
@@ -3512,7 +3577,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Mironov - Mummers": [
 							 "“Understanding the emotional state of a person. The ability to force a person to open up emotionally, to influence his mood, to play \"on the right strings\" of the soul. Open expression of one's emotions, demonstration of one's feelings, shocking, inclination to theatricality (play to the public). Impression, mood swings, passion, animation of various objects. Creating an emotional atmosphere in the team, society (forcing environment, inspiration, emotional lift). Manage emotional background. Aptitude for oratory, artistry (the whole range of intonations, expressive pauses, meaningful looks, rich facial expressions).”"
-						]
+						],
+						"Danidin - Inspirers of Mood": []
 					}
 				]
 			});
@@ -3525,7 +3591,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Mironov - Psychologists": [
 							  "“Evaluation of the actions of man, his judgments. The ability to understand, assess the relationship between people, the norms of behavior adopted in the team, society. Evaluation of his attitude (likes, dislikes, trust, admiration, etc.), his open expression. Evaluation of public relations (sympathy, popularity, etc.). Manipulation of relations between people, the ability to build relationships at any psychological distance, to create and impose their own norms of behavior. The pursuit of humanistic ideals (philanthropy, mercy, etc.). The desire for mutual trust, good relations between all people.”"
-						]
+						],
+						"Danidin - Behaviour Stylists": []
 					}
 				]
 			});
@@ -3686,7 +3753,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// interaction
 			createTetraLabel(["xCFA","xCPR"], ["xNFR","xNPA"], ["xNFA","xNPR"], ["xCFR","xCPA"], {
 				label: "Interaction",
-				"Danidin and Talanov": "Societal Interaction"
+				desc: [
+					{
+						"Danidin and Talanov - Societal Interaction": [],
+						"Danidin - Value Shades of Vertity-2": []
+					}
+				]
 			});
 			createCodeLabelArr(["xCFA","xCPR"], {
 				label: "Peaceful",
@@ -3695,7 +3767,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Avoiding": [
 							 "“Conflict-free and peacefulness. The desire to avoid conflicts, or, if this is not possible - to smooth them. Love of moderation and gradualness in any endeavors. \"Stalling\" from external irritants in the closed world of their personal interests and needs. They prefer to listen rather than talk, answer questions slowly.”"
-						]
+						],
+						"Danidin - Peace-Loving": []
 					}
 				]
 			});
@@ -3706,7 +3779,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Expansive": [
 							 "“Interest in situations of conflict and interpersonal competition, to the expansion of their interests by stirring up contradictions in the surrounding world. Anger, aggressive manner of speech, and love of public speaking. Propensity to brag.”"
-						]
+						],
+						"Danidin - Conflict": []
 					}
 				]
 			}); 
@@ -3717,7 +3791,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Open": [
 							"“Openness and straightforwardness in communication. Intolerance situations loneliness. Love to spend time in big noisy companies (mostly friendly-minded).”"
-						]
+						],
+						"Danidin - Open": []
 					}
 				],
 			});
@@ -3728,7 +3803,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Secretive": [
 							"“Traction to loneliness and psychological resistance to it. The ability to hide their intentions and their true face in society. Often - the desire for the position of the \"gray cardinal\".”"
-						]
+						],
+						"Danidin - Secretive": []
 					}
 				]
 			});
@@ -3741,7 +3817,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Danidin and Talanov - Planning Styles": [],
 						"F. Schecter and L. Kobrin - Squares/Relaxation Groups": [
 							"“A homogeneous group of 4 people. Presents the relationship of semi-complement, kindred and complement. Square - the most suitable group for joint recreation. Relationships in this group are calm, unstressed. To establish contact does not need to make great efforts. Communication is in a leisurely, calm, measured rhythm. You can relax. There are no theoretical disputes in this group. Practical problems are quickly solved. If everyone is silent, the tension, as in the \"ring of control\", is not felt. This is a relaxation group. Staying in this four gives you the opportunity to have a good rest and rejuvenate. The study of the possibility of practical application of the group properties considered here should be carried out with psychologists, sociologists, and physicians. The properties of other holistic groups are now being studied. In conclusion, we can add that modern social psychology, having introduced into its arsenal a wide range of such microgrids with all the stable diversity of their properties, gets the opportunity for a new effective approach to the problem of purposeful formation of teams in various spheres of human activity.”"
-						]
+						],
+						"Danidin - Value Squares": []
 					}
 				]
 			});
@@ -3754,7 +3831,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Consecutive": [
 							"“\"The world is a fortress besieged by the enemies, so it's worth waiting for a trick in everything and never relax\". To achieve the victory of one's identity - one's “principle”, habitual way of life or plan for the future over his opponents. Tune in to life according to plan, and not according to the situation, without being distracted by entertainment. Constant mobilization, tension, difficulty with relaxation. Suspicion, subconscious willingness to trouble. Best suited for survival and socially accepted in a situation of permanent, sluggish conflict with a relatively stable composition of participants (any group that has been in a highly aggressive environment for a long time). Maximum approval in wartime.”"
-						]
+						],
+						"Danidin - Controlling": []
 					}
 				]
 			});
@@ -3767,7 +3845,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Chaotic": [
 							 "“\"The world is a clean field where you can go anywhere looking for a better place to live.\" Find the \"warm place\", the most convenient for life at the moment, and when it ceases to be such - to find another, etc. Spontaneity, rejection of planning your life and daily routine, difficulties with planning time. Background relaxation as a way of life. Unchallenged, uncharacteristic paranoia. Best suited for survival and socially successful in a peaceful society, discovering new areas of activity, new resources and forms of social relations (nomadic society or any other in which people move actively and freely). Maximum popularity during wartime.”"
-						]
+						],
+						"Danidin - Random": []
 					}
 				]
 			});
@@ -3780,7 +3859,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Unpredictable": [
 							"“\"The world is the field of war for everyone with everyone, where one must be able to trick opponents at the expense of his unpredictability\". Survive at any cost and in any way, using the chaos around you and “noticing the traces” of your activities. Optional, selfish neglect of other people's interests and social norms. Low diligence, prefers to exploit other people. Does not like to explain and share information. Considers punishment a more effective incentive than encouragement. Increased criminal risks (more associated with emergencies, but also with BI as well). Best suited for survival and socially successful in times of crises, turmoil, radical break of the usual way of life (a society that has undergone a complete collapse of public institutions due to revolution, civil war, clashes between criminal structures, external genocide, etc.). Maximum approval in peacetime.”"
-						]
+						],
+						"Danidin - Unpredictable": []
 					}
 				]
 			});
@@ -3793,7 +3873,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					{
 						"Danidin and Talanov - Predictable": [
 							"“\"The world is a blooming valley that needs to be settled by common friendly efforts\". Create and maintain on their own the most convenient, understandable, predictable and fair environment for everyone. Social responsibility, commitment, integrity. Lack of criminal inclinations. The lack of a tendency to sadism. The desire and love of life in a predictable, stable world order. Best suited for survival and socially accepted during periods of peacetime, settled life and lasting social stability. Maximum approval in peacetime.”"
-						]
+						],
+						"Danidin - Conscientious": []
 					}
 				]
 			});
@@ -3806,40 +3887,36 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createTetraLabel(researchingKeyArr, organizingKeyArr, humanitarianKeyArr, consumingKeyArr, {
 				label: "Clubs",
-				"Gregory Reinin and Aushra Augusta": "Clubs",
-				"Victor Gulenko": "occupational mindsets",
-				Danidin: "Clubs",
 				desc: [
 					{
 						Lytov: [
 							"“The \"Clubs\" (the term proposed by Gregory Reinin and Aushra Augusta), or \"occupational mindsets\" (the term proposed by Victor Gulenko) are groups of 4 sociotypes united by coincidence of the criteria \"intuition—sensing\" and \"logic—ethic\" (or \"thinking—feeling\", according to Jung). From my experience I can judge that the \"club\" is often easy to determine even in very superficial communication, because they manifest very well in people's conscious activities, in their preference of choosing certain methods of action or even occupations.”"
-						]
+						],
+						"Gregory Reinin and Aushra Augusta - Clubs": [],
+						"Victor Gulenko - Occupational Mindsets": [],
+						"Danidin - Clubs": []
 					}
 				]
 			});
 			createCodeLabelArr(researchingKeyArr, {
 				label: "Researching",
 				Socionics: "Researchers",
-				Lytov: "Researcher",
-				"Linda Berens": "Theorist / Rational / Strategic",
-				"Danidin and Talanov": "Researchers",
-				Danidin: "Abstract-symbolic/Researchers",
 				desc: [
 					"Typically interested in investigating new subjects, theories or applications.",
 					"Tend to value researching new or esoteric knowledge.",
 					{
-						"Linda Berens": [
+						"Linda Berens - Theorist / Rational / Strategic": [
 							"The core needs are for mastery of concepts, knowledge, and competence. People of this temperament want to understand the operating principles of the universe and to learn or even develop theories for everything. They value expertise, logical consistency, concepts, and ideas and seek progress. They tend toward pragmatic, utilitarian actions with a technology focus. They trust logic above all else. They tend to be skeptical and highly value precision in language. Their learning style is conceptual, and they want to know the underlying principles that generate the details and facts rather than the details alone.",
 							"Want knowledge and to be competent, to achieve mastery. Seek expertise to understand how the world and things in it work. Are theory oriented. See everything as conditional and relative. Are oriented to the infinite. Trust logic and reason. Want to have a rationale for everything. Are skeptical. Think in terms of differences, delineating categories, definitions, structures, and functions. Hunger for precision, especially in thought and language. Usually are skilled at long-range planning, inventing, designing, and defining. Generally are calm. Foster individualism. Frequently gravitate toward technology and the sciences. Tend to be well suited for engineering and devising strategy, whether in the social sciences or physical sciences.",
 							"They prefer using their gifts of strategic analysis to approach all situations. They constantly examine the relationship of the means to the overall vision and goal. No strangers to complexity, theories, and models, they like to think of all possible contingencies and develop multiple plans for handling them. They abstractly analyze a situation and consider previously unthought-of possibilities. Researching, analying, searching for patterns, and developing hypotheses are quite likely to be their natural modus operandi."
 						],
-						Lytov: [
+						"Lytov - Researcher": [
 							"“They own a well-developed analytical and inventive thinking, vivid imagination, even when their real occupations (e.g. a farm owner) is not relevant to abstract speculations. Their interests are various; often they even have knowledge that seems redundant to others, for the reason that it may be useful one day. They think a lot and often offer unusual, non-standard solutions. The Achilles' heel of Researches (exactly what they must sacrifice for their perfect mental skills) is that they are often tactless in relations with people. They can find brilliant solutions, but get stuck at their implementation, because of awkwardness in handling the human factor, as well as of forgetting “those boring details”.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Researchers": [
 							"“Developed abstract thinking and a tendency to generalizations, the ability to invent new things. Characterized by interest in research issues. Inattention to the appearance - his own and other people, indifference to life, personal hygiene, poor appetite in food. \"Nervous tissue\" of society. They extract, process and preserve information about the objective properties of the surrounding world.”"
 						],
-						Danidin: [
+						"Danidin - Abstract-symbolic/Researchers": [
 							"Changing the objective world by developing and implementing new technologies."
 						]
 					}
@@ -3848,19 +3925,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(organizingKeyArr, {
 				label: "Organizing",
 				Socionics: "Pragmatists",
-				Lytov: "Pragmatist",
-				"Danidin and Talanov": "Pragmatists",
-				Danidin: "Visually-figurative/Practises",
 				desc: [
 					"Practical, matter-of-fact way of approaching situations.",
 					{
-						Lytov: [
+						"Lytov - Pragmatist": [
 							"“This sort of people evaluate things from the standpoint of practical result, they dislike “visions” and “hollow conversations”. Their manner of communication at close distances is, as a rule, rather harsh (“I am a frank person!”), plain - unless the partner gains respect for himself. Their typical problem is the obscure understanding of their own feelings, which is especially unpleasant for women of these types. Being often unable of expressing their feelings adequately, they tend to be abrupt and suspicious for no reason. Their second problem is a habit to use “well-proved ways”, and they do not like to use new, unusual approaches, especially when these approaches have a form of rather an idea than a well-working technology. From this standpoint we can understand the paradox when a Pragmatist may be among those who get behind (he simply does not understand why he needs all these abstract rules and formulas), but after school he becomes quite successful. The problem is that the school focused on mechanic learning of theoretical knowledge cannot understand usefulness of his practical skills. The third problem is caused by their strive for concrete values - for this reason they strive for being “authoritative”, and often interpret advice from others (even constructive) as an infringement on their authority.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Pragmatists": [
 							"“Insensitive and poorly developed imagination, instead, attention is focused on solving practical issues of an objective nature, including making money. There is a tendency to governing administrative work. \"Muscular tissue\" of society. Maintain the vitality of society in the external environment, manage the production and production of material goods.”"
 						],
-						Danidin: [
+						"Danidin - Visually-figurative / Practises": [
 							"Changing the body condition of people by providing them with the material resources - food, clothing, housing, etc."
 						]
 					}
@@ -3869,25 +3943,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(humanitarianKeyArr, {
 				label: "Humanitarian",
 				Socionics: "Humanitarians",
-				Lytov: "Humanitarian",
-				"Linda Berens": "Catalyst / Idealist / Diplomatic",
-				"Danidin and Talanov": "Humanitarians",
-				Danidin: "Abstract-figurative/Humanities",
 				desc: [
 					"Typically interested in the welfare of other people.",
 					{
-						"Linda Berens": [
+						"Linda Berens - Catalyst / Idealist / Diplomatic": [
 							"The core needs are for the meaning and significance that come from having a sense of purpose and working toward some greater good. They need to have a sense of unique identity. They value unity, self-actualization, and authenticity. People of this temperament prefer cooperative interactions with a focus on ethics and morality. They tend to trust their intuition and impressions first and then seek to find the logic and the data to support them. Given their need for empathic relationships, they learn more easily when they can relate to the instructor and the group.",
 							"Want to be authentic, benevolent, and empathic. Search for identity, meaning, and significance. Are relationship oriented, particularly valuing meaningful relationships. Tend to be idealistic and visionary, wanting to make the world a better place. Look to the future. Trust their intuition, imagination, and impressions. Focus on developing potential, fostering and facilitating growth through coaching, teaching, counseling, and communicating. Generally are enthusiastic. Think in terms of integration and similarities and look for universals. Often are gifted in the use of metaphors to bridge different perspectives. Usually are diplomatic. Frequently are drawn to work that inspires and develops people and relationships.",
 							"They tend to be gifted at unifying diverse peoples and helping individuals realize their potential. They build bridges between people through empathy and clarification of deeper issues. They use these same skills to help people work through difficulties. Thus, they can make excellent mediators, helping people and companies solve conflicts through mutual cooperation. If working on a global level, they champion a cause. If working on an individual level, they focus on growth and development of the person."
 						],
-						Lytov: [
+						"Lytov - Humanitarian": [
 							"“These are people whose imagination is directed towards the human world and human relations. The developed skill that they would usually possess is their ability to make one enthusiastic or calm him down, to find a key to one's soul and talents. Their common problem is rooted in their emotions and passions, which do not allow them to live quietly. Even the smallest problems (especially material ones) may trigger frequent mood swings, and make them feel depressed. Since their emotions and imagination often prevail over pragmatic issues, these are probably the least practical of the 16 types (maybe not in great affairs, but definitely in their everyday life): it is easier for them to persuade somebody to do something than to deal with routine chores themselves.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Humanitarians": [
 							"“Rich, easily excitable imagination. Frequent interest in the field of culture and art. Insight in communicating. Tendency to the emergence of obsessive thoughts and mental images. Emotional instability, manifested in the form of capriciousness, anxiety, fearfulness, suspiciousness in relation to their health, etc. \"Cover fabric\" of society. They carry out the stratification of society using humanitarian information (mass culture images).”"
 						],
-						Danidin: [
+						"Danidin - Abstract-figurative / Humanities": [
 							"Changing the internal state, mood and attitudes of people by inspiring them with artistic images."
 						]
 					}
@@ -3896,19 +3966,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(consumingKeyArr, {
 				label: "Consuming",
 				Socionics: "Socializers",
-				Lytov: "Social",
-				"Danidin and Talanov": "Socials",
-				Danidin: "Subject-instrumental/Socials",
 				desc: [
 					"Tend to focus on what is fashionable, attention-seeking or otherwise prominent to others.",
 					{
-						Lytov: [
+						"Lytov - Social": [
 							"“Human needs, life and the material world are things that interest them. In addition, they are the most sensuous of the 16 types, i.e. the most attentive to everything related to esthetic and attracting other people; they are well capable of presenting themselves and remark such manifestations of other people. Their realism and the negotiating skills often make them successful in life and attract representatives of the opposite sex. Their usual problem is subjectivism, lack of sober skepticism. They often overestimate their skill to make unofficial arrangements, influence people, instead of evaluating objective factors, independent of people and their relations. For example, if a teacher awards a bad mark to a pupil-social, a usual reaction of the latter would not be “I did not prepare myself for the lesson”, but rather “the teacher is prejudiced towards me”.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Socials": [
 							"“Attention to the appearance - his, other people and objects; notices even small changes in appearance. The ability to pick up clothes and accessories. Good appetite for food. Demonstrates hospitality to guests, practical care for loved ones. I like the professions of the service sector, like communicating with people on the topics of everyday life. \"Connective tissue\" of society. Provide members of society with the necessary material goods.”"
 						],
-						Danidin: [
+						"Danidin - Subject-instrumental/Socials": [
 							 "Changing the objective world by doing mechanical work - construction and destruction material objects."
 						]
 					}
@@ -3923,80 +3990,76 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// constraints
 			createTetraLabel(["SNFA","SCPR","SCFR","SNPA"], ["OCFA","ONPR","ONFR","OCPA"], ["SCFA","SNPR","SNFR","SCPA"], ["ONFA","OCPR","OCFR","ONPA"], {
 				label: "Constraints",
-				"Victor Gulenko": "Argumentative Groups",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Argumentative Groups": [
 							"“Argumentative groups are formed by splitting a socion into four parts by two Jung axes - “rationality-irrationality” and “logic-ethics”. It is these socionic scales that are directly involved in the formation of judgments and argumentation of conclusions.”"
-						]
+						],
+						"Danidin - Styles of Argumentation": []
 					}
 				]
 			});
 			createCodeLabelArr(["SNFA","SCPR","SCFR","SNPA"], {
 				label: "Unstructured",
-				"Victor Gulenko": "Restructors",
 				desc: [
 					"Looking to change or alter structures to suit their agendas.",
 					"Low consideration of ethical norms.",
-					[
-						{
-							"Victor Gulenko": [
-								 "“Logical irrationals, or RESTRUCTORS (sociotypes FL, SP, IL, TP). Their judgments are complete, but unstable. Because of this, they have a tendency to the transformations and adaptations of logical systems, both material and ideal. Their argument will be called restructive. Not finding within the existing paradigm means of solving problems of interest to them, the restructors borrow them from other paradigms. The results of judgments they draw up in the form of \"defamations\" - finding a way out of a vicious circle. For this reason, they often differ ingenuity and resourcefulness in logically seemingly hopeless situations. The restructors are somewhat inferior to the Constructors in the sequence of arguments. In their speeches, now and then there is a waste from the main topic that is unmotivated for the external listener. But the restructive argument is free from dogma and differs by wider erudition.”"
-							]
-						}
-					]
+					{
+						"Victor Gulenko - Restructors": [
+							 "“Logical irrationals, or RESTRUCTORS (sociotypes FL, SP, IL, TP). Their judgments are complete, but unstable. Because of this, they have a tendency to the transformations and adaptations of logical systems, both material and ideal. Their argument will be called restructive. Not finding within the existing paradigm means of solving problems of interest to them, the restructors borrow them from other paradigms. The results of judgments they draw up in the form of \"defamations\" - finding a way out of a vicious circle. For this reason, they often differ ingenuity and resourcefulness in logically seemingly hopeless situations. The restructors are somewhat inferior to the Constructors in the sequence of arguments. In their speeches, now and then there is a waste from the main topic that is unmotivated for the external listener. But the restructive argument is free from dogma and differs by wider erudition.”"
+						],
+						"Danidin - Reconstructors / Swords / Weak Inert Ethics": []
+					}
 				]
 			}); // (low ethical consideration, anti-normative)
 			createCodeLabelArr(["OCFA","ONPR","ONFR","OCPA"], {
 				label: "Stringent",
-				"Victor Gulenko": "Constructors",
 				desc: [
-					"Looking to construct structures.",
+					"Looking to construct things (places, relationships, ideas etc.) from the ground up.",
 					"Stringent use of time.",
-					[
-						{
-							"Victor Gulenko": [
-								"“Logical rationals, or DESIGNERS (sociotypes PS, LF, PT, LI). Differ both completeness and perseverance of judgment. Their reasoning is therefore the most constructive. The results of their judgments are drawn up in the form of conclusions as a kind of coherent logical structure optimally suited to function as the basis for a scientific theory, a set of laws, an organizational structure, technology, etc. Constructors are very difficult to knock off the logical chain of verbal reasoning. They are free to navigate in the entire volume of the stated material, therefore they can begin its presentation practically from any point. The disadvantage of their style of argumentation is the ignoring of other paradigms, the desire to develop thought only within its own system of concepts.”"
-							]
-						}
-					]
+					{
+						"Victor Gulenko - Constructors": [
+							"“Logical rationals, or DESIGNERS (sociotypes PS, LF, PT, LI). Differ both completeness and perseverance of judgment. Their reasoning is therefore the most constructive. The results of their judgments are drawn up in the form of conclusions as a kind of coherent logical structure optimally suited to function as the basis for a scientific theory, a set of laws, an organizational structure, technology, etc. Constructors are very difficult to knock off the logical chain of verbal reasoning. They are free to navigate in the entire volume of the stated material, therefore they can begin its presentation practically from any point. The disadvantage of their style of argumentation is the ignoring of other paradigms, the desire to develop thought only within its own system of concepts.”"
+						],
+						"Danidin - Constructors / Pentacles / Strong Inert Logic": []
+					}
 				]
 			}); // (stringent use of time)
 			createCodeLabelArr(["SCFA","SNPR","SNFR","SCPA"], {
 				label: "Normative",
-				"Victor Gulenko": "Guardians",
 				desc: [
 					"High consideration of ethical norms.",
-					[
-						{
-							"Victor Gulenko": [
-								 "“Ethical rationals, or BLUSTERS (sociotypes ES, RF, ET, RI). Characterized by endurance, but incomplete judgments. They monitor the observance of those perceived and credited by their reference group to the category of “correct” structures and paradigms, paying little attention to their narrowness and imperfection. Draw up the results of their judgments in the form of interpretations, that is, the establishment of correspondence between the newly perceived information and those or other laws of the cultivated paradigm. The argument of the Supervisors is based on authorities, socially fixed norms, as well as the interpretation of the names of concepts - terms, therefore it can be called nominative (nominative). For this reason, their reasoning often boils down to a dispute over whether it is correct to call this or that phenomenon by this name. The emotional side of the Arguments 'argument is distinguished by its particular stability, as well as an appeal to the interlocutor's feelings. It is this group that is more likely than others to risk falling into epigonism or scholasticism.”"
-							]
-						}
-					]
+					{
+						"Victor Gulenko - Guardians": [
+							 "“Ethical rationals, or BLUSTERS (sociotypes ES, RF, ET, RI). Characterized by endurance, but incomplete judgments. They monitor the observance of those perceived and credited by their reference group to the category of “correct” structures and paradigms, paying little attention to their narrowness and imperfection. Draw up the results of their judgments in the form of interpretations, that is, the establishment of correspondence between the newly perceived information and those or other laws of the cultivated paradigm. The argument of the Supervisors is based on authorities, socially fixed norms, as well as the interpretation of the names of concepts - terms, therefore it can be called nominative (nominative). For this reason, their reasoning often boils down to a dispute over whether it is correct to call this or that phenomenon by this name. The emotional side of the Arguments 'argument is distinguished by its particular stability, as well as an appeal to the interlocutor's feelings. It is this group that is more likely than others to risk falling into epigonism or scholasticism.”"
+						],
+						"Danidin - Guardians": []
+					}
 				]
 			}); // (high ethical consideration, pro-normative)
 			createCodeLabelArr(["ONFA","OCPR","OCFR","ONPA"], {
 				label: "Adapatable",
-				"Victor Gulenko": "Diplomats",
 				desc: [
 					"Charming, artistic & unproductive.",
 					"Good at managing emotionally delicate situations.",
 					"Adaptable use of time.",
-					[
-						{
-							"Victor Gulenko": [
-								"“Ethical irrationality, or diplomas (sociotypes FR, SE, IR, TE). For them the instability and incompleteness of judgments are most characteristic. The logic of their argumentation is small and, understanding this, they are trying to fill it with descriptiveness, i.e., by reporting all the information they know about this topic. Due to this, they create their own ground for a diplomatic maneuver - the replacement of one system of concepts for another. From the side it seems that the person leaves the answer, “gets out”. A descriptive (descriptive) approach is to list all known definitions of the subject of a judgment from the most varied, even if logically and unconnected, paradigms and the presentation of the possibility to draw a conclusion to the listener himself. In this case, it is usually emphasized how difficult it is to reach an unequivocal conclusion. Diplomats are most concerned about accusations of intent to evade a clear answer. Their cognitive (cognitive) problem is the search for a criterion of truth, or at least the justification for using a particular paradigm.”"
-							]
-						}
-					]
+					{
+						"Victor Gulenko - Diplomats": [
+							"“Ethical irrationality, or diplomas (sociotypes FR, SE, IR, TE). For them the instability and incompleteness of judgments are most characteristic. The logic of their argumentation is small and, understanding this, they are trying to fill it with descriptiveness, i.e., by reporting all the information they know about this topic. Due to this, they create their own ground for a diplomatic maneuver - the replacement of one system of concepts for another. From the side it seems that the person leaves the answer, “gets out”. A descriptive (descriptive) approach is to list all known definitions of the subject of a judgment from the most varied, even if logically and unconnected, paradigms and the presentation of the possibility to draw a conclusion to the listener himself. In this case, it is usually emphasized how difficult it is to reach an unequivocal conclusion. Diplomats are most concerned about accusations of intent to evade a clear answer. Their cognitive (cognitive) problem is the search for a criterion of truth, or at least the justification for using a particular paradigm.”"
+						],
+						"Danidin - Diplomats": []
+					}
 				]
 			}); // (adapatable use of time)
 			
 			// focus
 			createTetraLabel(["OxFR","OxPA"], ["SxFA","SxPR"], ["OxFA","OxPR"], ["SxFR","SxPA"], {
 				label: "Focus",
-				Mironov: "Peak Experiences"
+				desc: [
+					{
+						"Mironov - Peak Experiences": []
+					}
+				]
 			});
 			createCodeLabelArr(["OxFR","OxPA"], {
 				label: "Unilateral",
@@ -4025,18 +4088,22 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// means
 			createTetraLabel(["OCFA","OCPA","SCFR","SCPR"], ["OCFR","OCPR","SCFA","SCPA"], ["ONFA","ONPA","SNFR","SNPR"], ["ONFR","ONPR","SNFA","SNPA"], {
 				label: "Means",
-				"Victor Gulenko": "Communication Style"
+				desc: [
+					{
+						"Victor Gulenko - Communication Style": [],
+						"Danidin - Communication Styles": []
+					}
+				]
 			});
 			createCodeLabelArr(["OCFA","OCPA","SCFR","SCPR"], {
 				label: "Sowing",
-				"Victor Gulenko": "Cold-blooded",
 				desc: [
 					"Supportive tissue, sowing the land.",
 					"A passive anticipation of feelings.",
 					"Communication flows according to established courses and norms.",
 					"Communication typically doesn't lose much in written form.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Cold-blooded": [
 							"“People of these types are not confident in their feelings and act restrained in their emotional displays.",
 							"These types are the least sociable ones in informal contact.",
 							"Their communication style is opposite to the \"Passionate\" group.",
@@ -4045,39 +4112,39 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							"Their life scenarios suggest that they marry later in life than representatives of other types and are not inclined to remarry.",
 							"Their marriages, as a rule, are the least successful.",
 							"They understand communication as an exchange of lacking information of explanatory nature. Such communication doesn't lose much if it is carried out only in a written form.”"
-						]
+						],
+						"Danidin - Cold-blooded": []
 					}
 				]
 			}); // 
 			createCodeLabelArr(["OCFR","OCPR","SCFA","SCPA"], {
 				label: "Neglected",
-				"Victor Gulenko": "Sincere",
 				desc: [
 					"Attitude of having been neglected by society.",
 					"A passive search for feelings.",
 					"Express their feelings indirectly.",
 					"Communication is an exchange of heartfelt gestures.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Sincere": [
 							"“This position can be described as a passive search for feelings.",
 							"Being ethical, \"Sincere\" sociotypes confidently choose a partner who has appealed to them, but as introverts, they express their openness to relational contact by indirect signals.",
 							"This is the kind of behavior that is expected from a woman during the premarital period in traditional societies.",
 							"These sociotypes are most inclined to \"home-making\" with stereotypical distribution of roles: man - as the breadwinner and defender of the family, woman - as the guardian of the family and nurturer of children.",
 							"They understand communication as an exchange of signs of soulful/heartfelt attachments."
-						]
+						],
+						"Danidin - Emotional": []
 					}
 				]
 			}); // attitude of having been neglected (Sincere)
 			createCodeLabelArr(["ONFA","ONPA","SNFR","SNPR"], {
 				label: "Spoiled",
-				"Victor Gulenko": "Passionate",
 				desc: [
 					"Attitude of being spoiled with choice by society.",
 					"An active search for feelings.",
 					"Bring lots of emotions into situations.",
 					"Communication is an explicit exchange of emotions.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Passionate": [
 							"“This group is most confident in their attitudes towards other people and not afraid to openly show and talk of their feelings, likes and dislikes, and ethical evaluations.",
 							"These sociotypes are the most sociable ones in informal contact.",
 							"Their position in a conversation is an active search for feelings.",
@@ -4085,27 +4152,28 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							"In their life scenarios, it is typical of them to marry earlier on the average than individuals other sociotypes.",
 							"However, they also separate and divorce more frequently than other sociotypes.",
 							"These types understand dialogue as an exchange of emotions, as a kind of \"sailing\" through active currents of life.”"
-						]
+						],
+						"Danidin - Passionate": []
 					}
 				]
 			}); // attitude of havng been spoiled for choice (Passionate)
 			createCodeLabelArr(["ONFR","ONPR","SNFA","SNPA"], {
 				label: "Harvesting",
-				"Victor Gulenko": "Business-like",
 				desc: [
 					"Feeding off the land.",
 					"An active expectation of feelings.",
 					"Maintains an active, if not explicitly emotional, position in life.",
 					"Communication typically sets up cooperative activities.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Business-Like": [
 							"“These types make contact with others over their activities and direct emotions at their work and their engagements.",
 							"Their communication style can be called an active expectation of feelings.",
 							"Business-inclined sociotypes expect to meet their other half in the whirlpool of their activities.",
 							"The standard image of a typical man prescribes him an active position in life, but not in the area of feelings.",
 							"In romantic literature, the hero gets acquainted with his future beloved by rescuing her from troubles.",
 							"These sociotypes interpret communication as a business cooperation.”"
-						]
+						],
+						"Danidin - Business": []
 					}
 				]
 			}); // feeding off the land, providing for others (Business-like)
@@ -4113,7 +4181,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// order
 			createTetraLabel(["OCFR","OCPA","ONFA","ONPR"], ["SCFA","SCPR","SNFR","SNPA"], ["OCFA","OCPR","ONFR","ONPA"], ["SCFR","SCPA","SNFA","SNPR"], {
 				label: "Order",
-				Mironov: "Family Groups"
+				desc: [
+					{
+						"Mironov - Family Groups": []
+					}
+				]
 			});
 			createCodeLabelArr(["OCFR","OCPA","ONFA","ONPR"], {
 				label: "Sectarian",
@@ -4143,68 +4215,67 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// dynamic
 			createTetraLabel(["OCFR","OCPA","SCFA","SCPR"], ["ONFA","ONPR","SNFR","SNPA"], ["OCFA","OCPR","SCFR","SCPA"], ["ONFR","ONPA","SNFA","SNPR"], {
 				label: "Dynamic",
-				"F. Schecter and L. Kobrin": "Mobilization Groups",
-				"Danidin and Talanov": "Forms of Will",
 				desc: [
 					{
-						"F. Schecter and L. Kobrin": [
+						"F. Schecter and L. Kobrin - Mobilization Groups": [
 							"“A homogeneous group of 4 people. The relations of activation, quasi-identities and superego are presented. Introvert or extraverted group. Gradually, communication acquires a certain rhythm. In an introverted group, the situation is calmer. Communication is abrupt, but intense. One topic replaces another, but there is always completeness. Dispute is always resolved quickly. The combination of the squares does not occur, that is, each relationship does not appear individually. In joint actions, each has its own role and responsibilities. Mutual aid Misunderstandings, if they arise, are resolved quickly. The atmosphere is businesslike, even jokes have a business tone. The group quickly comes to a method of joint action, finds a practical solution. In contrast to the \"club\" there are no long theoretical discussions. The question is raised and immediately resolved. After some time, there is a need for rest, since the intensity of communication is great. Rest individual.”"
 						],
-						Miranov: [
+						"Miranov - Forms of Will": [
 							"“Consider what is happening MI based on the model \"A\". Shechter and Kobrinskaya write that in the group “the atmosphere is businesslike, even business jokes”, which is generally predictable. After all, all the functions of the vital block and the superego block of any member of the group are represented in the leading blocks of other TIMs. In other words, any member of this group is “driven” into its “Ego” block, because all positions except the “Ego” block are “occupied”. A person cannot express himself fairly freely in any of the functions of the contact block, except for the creative one, since enters into competition with someone from the group. By the nature of the interaction, this group very much resembles Group 2 “Locks” or “Equilibrium”. If we proceed from the nature of intertype relationships (AI), we can assume the following. The interaction with the activator will be the most intense, while the instability of the activation relationship will be enhanced by the quasi-identity relationship, and the superego will not stabilize the group and provide the necessary support. Continuing the course of reasoning, we can note the following. The authors write that the participants \"were simply offered communication for approximately 20-30 minutes.\" And further, \"in joint actions, each has its own role and responsibilities.\" It is not at all clear what the group members did after all, just communicated or performed joint actions, and if the latter, how did they manage to find topics for discussion in a given time, find a common language, agree on joint actions, and produce these actions. With what speed should all the above described happen? “After some time (for members of the group, author) there is a need for rest, because the intensity of communication is great. \" Most likely, the interaction in the group did not go beyond communication. In their work, Schechter and Kobrinskaya call this group \"mobilization.\" Meanwhile, in the description of group effects there is not a hint of mobilization, in contrast to the group described by them as the “progress ring” or “quadra”, where there is a “feeling of recovery, mobilization” [6]. Conclusion: it is clear that the name of the group does not reflect the essence of the intragroup effect, joint activity, if it is not episodic in nature, is difficult, the group requires further study due to the inconsistency of the described group effects.”"
-						]
+						],
+						"Danidin - Value Shades of Vertity-3": []
 					},
 				]
 			});
 			createCodeLabelArr(["OCFR","OCPA","SCFA","SCPR"], {
 				label: "Conforming",
-				"Danidin and Talanov": "Executive",
 				desc: [
 					"Accepting a position less authoritative than others.",
 					"Conforms to the constraints presented by society at large.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Executive": [
 							"“Conformists willingly submit to the constraints of society.”"
-						]
+						],
+						"Danidin - Enlightened": []
 					}
 				]
 			}); // accepting a position less authoritative than others
 			createCodeLabelArr(["ONFA","ONPR","SNFR","SNPA"], {
 				label: "Subordinating",
-				"Danidin and Talanov": "Commanders",
 				desc: [
 					"Taking a position more authoritative than others.",
 					"Guiding other people & limiting their initiative on behalf of others.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Commanders": [
 							"“Trying to guide other people, speaking on behalf of the public and restricting someone else's initiative.”"
-						]
+						],
+						"Danidin - Disposing": []
 					}
 				]
 			}); // taking a position more authoritative than others
 			createCodeLabelArr(["OCFA","OCPR","SCFR","SCPA"], {
 				label: "Reactive",
-				"Danidin and Talanov": "Self-Critical",
 				desc: [
 					"Acting in response to the demands of others.",
 					"Prone to doubting & restraining their own individual free will.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Self-Critical": [
 							"“Self-critical, in all doubt, capable of self-restraint of their own free will.”"
-						]
+						],
+						"Danidin - Doubters": []
 					}
 				]
 			}); // accepting the demands of others
 			createCodeLabelArr(["ONFR","ONPA","SNFA","SNPR"], {
 				label: "Demanding",
-				"Danidin and Talanov": "Initiative",
 				desc: [
 					"Pushing demands onto others.",
 					"Shows individual initiative, bypassing social restrictions.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Initiative": [
 							"“Show individual initiative, often bypassing and in violation of social restrictions.”"
 						],
+						"Danidin - Proactive": []
 					}
 				]
 			}); // pushing demands onto others
@@ -4212,10 +4283,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// Trigger
 			createTetraLabel(["SCFA","SCFR","SNPR","SNPA"], ["SNFA","SNFR","SCPR","SCPA"], ["ONPR","ONPA","OCFA","OCFR"], ["OCPR","OCPA","ONFA","ONFR"], {
 				label: "Trigger",
-				Socionics: "Trigger Groups",
 				desc: [
 					{
-						Socionics: [
+						"Socionics - Trigger Groups": [
 							"(as defined by u/peppermint-kiss)",
 							 "“This tetrachotomy is derived from the following dichotomies: carefree/farsighted, constructivist/emotivist, and asking/declaring. It relates to, well, \"triggers\", pet peeves, annoyance. Social and personal expectations. What people do when they're mildly angry or annoyed. How they can be placated. The kind of comfort, validation, or remediation they seek.”"
 						]
@@ -4224,7 +4294,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCFA","SCFR","SNPR","SNPA"], {
 				label: "Trusting",//"Petty",//"Pompous",//"Pitiable", //"Intentional",
-				Socionics: "Sympathy-Atonement",
 				desc: [
 					//"Formulating a plan intentionally and following through with it.",
 					"Gets upset when others betray their trust, perceiving them as a liar or hypocrite.",
@@ -4233,7 +4302,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Passively sulks or self-destructs when pity is not found.",
 					"Respect people who are true to their word and meet their obligations.",
 					{
-						Socionics: [
+						"Socionics - Sympathy-Atonement": [
 							"(as defined by u/peppermint-kiss)",
 							"“Gets triggered when someone doesn't meet their expectations in the relationship, or who acts differently than they claim to be (liars and hypocrites). Examples: a partner who flirts with someone else behind your back, a father who's never around, someone who claims to be an expert but doesn't know what they're talking about, someone who acts sweet and friendly in public but is actually a terrible person. \"You've let me down.\" Object of anger can make amends by admitting mistake and grovelling - \"I really messed up, you deserve better than that.\" Once upset, usually makes passive-aggressive art/music/blog posts about the topic in general, leaving out specifics, or drops hints in conversation (\"Well, at least you can count on him, unlike some people...\") Seeks commiseration and pity from others - \"You poor thing. How could they do this to you?\" On failure (cannot get pity): Passive acceptance, feels sorry for self, goes along in previous role but feels bitter, may become increasingly passive-aggressive or self-destructive over time. Respect people who are true to their word and meet their obligations. \"I'm good because I did what I said I would.\"”"
 						]
@@ -4242,7 +4311,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (having a plan and following it)
 			createCodeLabelArr(["SNFA","SNFR","SCPR","SCPA"], {
 				label: "Assimilative",//refuted //"Impulsive",
-				Socionics: "Assimilation-Validation",
 				desc: [
 					//"Not having a plan and just going with it.",
 					"Gets upset when others don't follow social rules or expectations.",
@@ -4251,7 +4319,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Adjusts to new expectations when they don't receive validation from others.",
 					"Respects people who meet social expectations.",
 					{
-						Socionics: [
+						"Socionics - Assimilation-Validation": [
 							"(as defined by u/peppermint-kiss)",
 							"“Gets triggered when others don't follow social rules or expectations. Examples: people eating on a train under a \"no food\" sign, people who don't wave when you let their car in, fellow students who never do their homework, or people forgetting to close the door when they leave your room. Object of anger can make amends by acknowledging fault and righting wrong - \"Oh my god, I didn't realize; I'll stop right away!\" Once upset, rant - either verbally to friends, writing an \"off my chest\" style post, etc. Seeks social validation to feel better after transgression - \"You're right, that's so annoying/rude; I hate it when people do that.\" On failure (cannot receive social validation): Eventually come around and adjust to new expectation. \"Why should I care if no one else does?\" Blame self, feels ashamed for doing something wrong (ranting about something no one agrees with). Starts behaving in accordance with \"new\" expectation. Respect people who meet social expectations well. \"I'm good because I did what I was supposed to.\"”"
 						]
@@ -4260,7 +4328,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (not having a plan and just going with it)
 			createCodeLabelArr(["ONPR","ONPA","OCFA","OCFR"], {
 				label: "Compliant",//"Unrecognised",//"Seeking",
-				Socionics: "Appreciation-Consensus",
 				desc: [
 					//"Looking for a plan to fit into.",
 					"Gets upset when someone expects unreasonable things from them.",
@@ -4269,7 +4336,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Engages in malicious compliance when consensus isn't found.",
 					"Respects people who acknowledge and appreciate the efforts of others.",
 					{
-						Socionics: [
+						"Socionics - Appreciation-Consensus": [
 							"(as defined by u/peppermint-kiss)",
 							"“Gets triggered when someone expects unreasonable things from them or is disappointed in them. Examples: being criticized for not being at a funeral when their car broke down, people judging them for being a good friend to someone others don't like, being blamed for the negative ramifications of a decision that they genuinely thought was best, being called selfish or uncaring when they sacrificed a lot to help someone. Object of anger can make amends by retracting what they said and showing appreciation, gratitude, or understanding - \"You're right, I didn't think it through. Thank you for all you've done.\" Once upset, usually confront the source of the criticism by being defensive, arguing/justifying their position, and demanding a retraction. \"You don't know what you're talking about.\" Seeks support and agreement from others - \"You've made a good case; I'm on your side in this.\" On failure (cannot get consensus): malicious compliance, reductio-ad-absurdum to show how unreasonable the expectations were. Respect people who acknowledge and appreciate their efforts and point of view. \"I'm good because I didn't let anyone down.\""
 						]
@@ -4278,7 +4345,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (looking for a plan)
 			createCodeLabelArr(["OCPR","OCPA","ONFA","ONFR"], {
 				label: "Adjudicating",//"Aggrieved",//"Resentful",//"Accused", //"Reassessing",
-				Socionics: "Justice-Acquittal",
 				desc: [
 					//"Reformulating or improving plans."
 					"Gets upset when they're punished for something they perceive as not their fault.",
@@ -4287,7 +4353,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Escapes or drops situation when reparations aren't found.",
 					"Respects people who make their expectations clear and keep to them.",
 					{
-						Socionics: [
+						"Socionics - Justice-Acquittal": [
 							"(as defined by u/peppermint-kiss)",
 							"“Gets triggered when they've been punished for something they didn't do, or when they got a negative outcome after doing something the way they were told to or the same way others were doing. Examples: being told to be quiet when others are talking too, losing privileges as part of a group punishment even though they weren't responsible, getting detention for graffiti they didn't write, getting told off for doing a task the way someone asked them to do it (when they change their mind later). Object of anger can make amends by acknowledging mistake and providing reparations - \"Actually, you're right. Here's a cookie for your troubles.\" Once upset, either complain to the source of the problem - directly to the person punishing them - or stay silent and sulk. When possible, may escalate problems to higher authority. Dig in heels and keep doing things the way they were doing them before. Seeks justice and exoneration from others - \"You had no right to do that to them; there will be consequences.\" On failure (cannot get justice): Retreat and escape if possible (quit the team, stop hanging out with friend). If not possible or desirable, either devalue and blame others, or just pretend it never happened. Respect people who make their rules and expectations clear and don't change them. \"Authority must be earned.\" \"I'm good because I didn't do anything wrong.\"”"
 						]
@@ -4298,60 +4364,73 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// expectations
 			createTetraLabel(["SCFR","OCPR","SNPR","ONFR"], ["SNFR","ONPR","SCPR","OCFR"], ["SNFA","ONPA","SCPA","OCFA"], ["SCFA","OCPA","SNPA","ONFA"], {
 				label: "Expectations",
-				"Danidin and Talanov": "Quest Diminutive Function Groups"
+				desc: [
+					{
+						"Danidin and Talanov - Quest Diminutive Function Groups": [],
+						"Danidin - Groups of Questim-Declatim Functions": []		
+					}
+				]
 			});
 			createCodeLabelArr(["SCFR","OCPR","SNPR","ONFR"], {
 				label: "Willful",
-				"Danidin and Talanov": "Natural",
 				desc: [
 					"Emphasises the importance of individual will in decision-making.",
 					"Simplifies thinking to reflect individual wants or desires.",
 					"Judges people by their individual aspirations & actions.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Natural": [
 							"“Prone to excessive simplicity and naturalness of personal thoughts and desires. Most of all are aware of the internal integrity and continuity of the personality in time, its true (not imposed from the outside) aspirations and needs - both in relation to itself and other people. Other people are judged by their aspirations, thoughts and actions, which are manifestations of their inner essence.”"
+						],
+						"Danidin - Egalitarianism / Democratically Omnivorous": [
+							"Omnivorous in contacts, ensuring cross-border exchange of resources."
 						]
 					}
 				]
 			}); // (Emphasises individual will, simplifies thinking to reflect individual wants or desires)
 			createCodeLabelArr(["SNFR","ONPR","SCPR","OCFR"], {
 				label: "Sacrificial",
-				"Danidin and Talanov": "Idealizing",
 				desc: [
 					"Emphasises sacrificing individual will to a greater cause.",
 					"Creation of cults of personality or elite groups.",
 					"Judges people by the company they keep.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Idealizing": [
 							"“Prone to excessive complication of ideas about people, to idealization and the creation of cults from the worship of someone's personality, to sacrifice themselves to someone. Most of all realize the unity of their lives with the existence of their environment. Against this background, they may not understand the finiteness of their individual “I,” and therefore more often than other types, they endure sacrifice and suicidality. Often, they seek to participate in the life of elite groups, assess themselves and others by the environment in which they “rotate”.”"
+						],
+						"Danidin - Elitism / Elitist-Disgusting": [
+							"Physiological disgust, struggle for high quality resource provision."
 						]
 					}
 				]
 			}); // (Emphasises sacrificing individual will to a greater cause)
 			createCodeLabelArr(["SNFA","ONPA","SCPA","OCFA"], {
 				label: "Unconventional",
-				"Danidin and Talanov": "Chaotic (Quest Diminutive Function)",
 				desc: [
 					"Most aware of themselves as distinct from others and society.",
 					"Emphasises individual freedom and sublimation of thoughts & desires into unusual forms.",
 					"Judges people in terms of their individual complexity.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Chaotic (Quest Diminutive Function)": [
 							"“Prone to excessive complexity of the picture of the world, to sublimation of their natural thoughts and desires into unnatural forms. They are most aware of themselves as separate from other people and from society. Others are judged by how intrinsically complex a person is, how much (a) they have developed (a) their unique individuality. They make up a basic group of support for individual personal freedoms (will, conscience, self-expression, movement, etc.).”"
+						],
+						"Danidin - Individualism / Group of Individual Will": [
+							"Moral disgust, struggle for personal space and personal rights."
 						]
 					}
 				]
 			}); // (Emphasises differences between individuals)
 			createCodeLabelArr(["SCFA","OCPA","SNPA","ONFA"], {
-				label: "Policing",//"Archetypal",
-				"Danidin and Talanov": "Reducing",
+				label: "Policing",
 				desc: [
 					"Stereotypical & reductive of social roles & people.",
 					"Polices expectations of adopted social roles, in themselves & others.",
 					"Judges people by their conformity to social expectations.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Reducing": [
 							 "“Prone to excessive simplification of ideas about people, reducing their personalities in their minds to simple understandable roles. They strive to correspond as much as possible to the role they have assumed - to be the best, standard representative of their chosen group (role, status, rank). Others are also evaluated through the prism of their social roles. They do not appreciate in people excessive complexity that does not fit into the framework of their chosen role. Particularly susceptible to social stereotypes (the need to \"keep the brand\").”"
+						],
+						"Danidin - Collectivism / Group of Collective Will": [
+							"Obedience to the rules of life accepted in one’s pack, its hierarchy."
 						]
 					}
 				]
@@ -4360,84 +4439,80 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// luck
 			createTetraLabel(["SNFR","ONPR","SCPA","OCFA"], ["SCFA","OCPA","SNPR","ONFR"], ["SNFA","ONPA","SCPR","OCFR"], ["SCFR","OCPR","SNPA","ONFA"], {
 				label: "Luck",
-				"Varlawend and Gulenko": "Club Displacement",
-				"Danidin and Talanov": "Worldview Groups",
 				desc: [
 					{
-						"Varlawend and Gulenko": [
+						"Varlawend and Gulenko - Club Displacement": [
 							"“Gulenko hasn't named the group as far as I know, but he discovered that when types enter an installation adjacent to their own (e.g. Researcher enters a Humanitarian field or Pragmatist field, Pragmatist enters a Research or Social field, etc.), they behave similarly to their Semi-Dual and Mirage type (depending on which installation). The reason that this happens is that one shares Asking/Declaring, Positivist/Negativist and Rational/Irrational with the Semi-Dual and Mirage, and changing one's pole in those dichotomies costs too much energy to sustain. \"Club Displacement\" is my name for this. It is possible to have brief shifts to the Beneficiary and Benefactor, for example, but since they differ in Rationality and Positivist/Negativist, it can't be sustained. To use my own type as an example: ILI's are naturally Researchers (Intuitive/Logical). However, when ILI's have to work in a Pragmatist field (Sensing/Logical), then it is natural for them to take up the authoritarian, centralized methods of a Marshal (SLE), finding weakness and eliminating them. Similarly, when ILI's work in a Humanitarian (Intuitive/Ethical) field, it is natural for them to turn the commonplace upside down and advise people out of difficult life situations like an IEE. To be clear, the type never changes; it's just an altered state of behavior where one type mimics the other types in their \"club displacement\" group.”"
-						]
+						],
+						"Danidin and Talanov - Worldview Groups": [],
+						"Danidin - inertia groups of questimno-declatim functions": []
 					}
 				]
 			});
 			createCodeLabelArr(["SNFR","ONPR","SCPA","OCFA"], {
 				label: "Defensive",
-				"Varlawend and Gulenko": "Avoiding failures",
-				"Danidin and Talanov": "Group A",
 				desc: [
 					"Overestimates bad luck.",
 					"Prepares for the worst outcomes.",
 					{
-						"Varlawend and Gulenko": [
+						"Varlawend and Gulenko - Avoiding failures": [
 							"“The analyst (LII) seeks to find strict laws in psychology, to inspire people to a new ideology, emotionally and fascinatingly feeds the material, which is similar to the Mentor. Mentor (EIE) finds in himself strong analytical skills, strives for scientific research, the construction of logical concepts. The communicative shift occurs to the Analyst. The administrator (LSE) values his friends, family relations and social relations in general, protects and protects them in every possible way, is a strict moralist at work. Communicative shift towards the Guardian. The keeper (ESI) in the work moves to the administrative side - he works hard, takes care of his subordinates, worries about deadlines. His behavior resembles the style of the Administrator.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Group A": [
 							"“\"Difficult evil world\". The reality is full of various, often unexpected, dangers, for which we must prepare in advance and insure (exaggerate the likelihood of failure, the loss of existing benefits).”"
-						]
+						],
+						"Danidin - Indignant Trash": []
 					}
 				]
 			}); // Complex Evil World (Overestimates Failure) (Expect the worst) (Protect)
 			createCodeLabelArr(["SCFA","OCPA","SNPR","ONFR"], {
 				label: "Straightforward",
-				"Varlawend and Gulenko": "Realistic Plans",
-				"Danidin and Talanov": "Group B",
 				desc: [
 					"Underestimates bad luck.",
 					"If you do what you need to, then there's no need to worry or try too hard.",
 					"An attitude of consciously achieving what you want without worry.",
 					{
-						"Varlawend and Gulenko": [
+						"Varlawend and Gulenko - Realistic Plans": [
 							"“An entrepreneur (LIE) often chooses a job as an educator, likes to mess with children, reminding in this of a humanist. Humanist (EII) in science to experiment, is at risk, tends to be dynamic, which is a communicative shift towards the Entrepreneur. The inspector (LSI) can be observed in the role of a caring person who provides assistance to children and the elderly, or a courteous suitor of women. This communicative manner resembles the behavior of an Enthusiast. The enthusiast (ESE) feels certain managerial abilities in himself, strives to observe justice, to control the actions of others like the Inspector.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Group B": [
 							"“\"Simple Good World\". The reality is full of various benefits, rather simple-minded activities, so that everything goes well (understate the likelihood of failure, the loss of existing benefits).”"
-						]
+						],
+						"Danidin - Following By Authority": []
 					}
 				]
 			}); // Simple Good World (Underestimates Failure) (Just do it) (Straightforward) (Gather)
 			createCodeLabelArr(["SNFA","ONPA","SCPR","OCFR"], {
 				label: "Leisurely",
-				"Varlawend and Gulenko": "Iridescent Hopes",
-				"Danidin and Talanov": "Group C",
 				desc: [
 					"Overestimates good luck.",
 					"The world is your oyster.",
 					"If you look for it, you will find it.",
 					{
-						"Varlawend and Gulenko": [
+						"Varlawend and Gulenko - Iridescent Hopes": [
 							"“The seeker (ILE) seeks for a comfortable, independent work with a tangible result, is engaged in repair and promotional activities as a master. The lyricist (IEI) in the workplace shows the qualities of a diplomat who maintains a balance of power and relationships, but he can also afford rudeness, deliberate vulgarity for manipulative purposes. This trend is nothing but a shift towards politics. The master (SLI) is very responsive to new scientific ideas of inventive nature, likes to search for non-standard logical solutions, to engage in logical synthesis. The shift is in the direction of the Seeker. The politician (SEE) is not averse to submitting himself to a thin, melancholic person, weak and defenseless, who needs a strong support, which is a shift towards Lyrics.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Group C": [
 							"“\"Complicated good world.\" Reality, even if it is imperceptible at first glance, is full of various benefits; they are only able to find (exaggerate the likelihood of luck, finding new benefits).”"
-						]
+						],
+						"Danidin - Following After Pleasure": []
 					}
 				]
 			}); // Complex Good World (Overestimates Success) (Go find it) (Search)
 			createCodeLabelArr(["SCFR","OCPR","SNPA","ONFA"], {
 				label: "Grasping",
-				"Varlawend and Gulenko": "Waiting",
-				"Danidin and Talanov": "Group G",
 				desc: [
 					"Underestimates good luck.",
 					"Do not expect much from the world.",
 					"No one gives it to you, you have to take it.",
 					{
-						"Varlawend and Gulenko": [
+						"Varlawend and Gulenko - Waiting": [
 							"“The critic (ILI) in the working mode, being the head, sometimes controls hard, authoritarian, removes the disagreeable and disobedient, which demonstrates a shift towards Marshal. The adviser (IEE) is often introverted, experiences melancholic states, suffers from discomfort, acts as the middle of a small group, which he holds together with his friendliness. The shift is in the direction of the Mediator. Marshal (SLE) is proud of himself as a meticulous collector and critical appraiser of information, rejects bold ideas, trying to predict the future himself. There is a shift towards the Critic. The mediator (SEI) is often extroverted, makes compliments to people's abilities, and gives advice on difficult psychological situations, like a counselor.”"
 						],
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Group G": [
 							"“\"A simple evil world.\" The reality is simple and, even if it is imperceptible at first glance, contains very few benefits and a lot of hunters behind them; as a result, one should not miss any opportunities, fight for each piece (they diminish the probability of luck, finding new benefits).”"
-						]
+						],
+						"Danidin - Ready For Any Rubbish": []
 					}
 				]
 			}); // Simple Evil World (Underestimates Success) (No one gives it to you) (Seizure)
@@ -4445,76 +4520,73 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// opportunities
 			createTetraLabel(["xCFA","xNFR"], ["xCPR","xNPA"], ["xCFR","xNFA"], ["xCPA","xNPR"], {
 				label: "Opportunities",
-				"Victor Gulenko": "Perceptual Groups",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Perceptual Groups": [
 							"“Intersecting orthogonally, the socionic axes “sensory-intuition” and “rationality-irrationality”, which we examined, form four groups of perception.”"
-						]
+						],
+						"Danidin - Inertia Groups of Irrational Functions": []
 					}
 				]
 			});
 			createCodeLabelArr(["xCFA","xNFR"], {
-				label: "Abstinent",//"Dissociative",//"Abstinent",
-				"Victor Gulenko": "Dissociative",
+				label: "Abstinent",
 				desc: [
 					"Preserving the future.",
 					"Abstaining from present opportunities for the sake of future ones.",
 					"Calmly await the future, having synthesised & prepared for its possible outcomes.",
 					"Thinking is ideologically or conceptually reductive.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Dissociative": [
 							"“Intuitive rationals, or DISSOCIATIVE. This perceptual group includes sociotypes PT, LI, ET, RI. They are reductionally perceiving types - refracting any information coming from outside through the prism of the basic concepts of their worldview. Their perception is mostly based on the reduction of the complex to the combination of primary elements, which Jung once called archetypes. Thus, dissociation is the decay into natural minimal parts. Of these komponenty Dissociative type can synthesize the image of any complexity. In the state of uncertainty of the outcomes of any event, Dissociative types provide for actions for all possible variants of its development. They calmly await the future, after they prepare for both the positive and negative outcomes of the expected event. Mathematically, the phenomenon of dissociation is similar to the operation “putting off the brackets” - replacing the addition with multiplication: ab + ac + ad = a (b + c + d). In terms of the number of ideas, Dissociatives are inferior to the Associative, but in terms of their orderliness and reduction to a conceptual or “ideological” state, they are superior. Oddly enough, they can not reflect the external picture on your internal screen. They involuntarily decompose it, and then reassemble it, drawing imaginary images that do not have prototypes in reality.”"
-						]
+						],
+						"Danidin - Ascetic / Weak Inert Sensory": []
 					}
 				]
 			}); // neglecting present moment for sake of future
 			createCodeLabelArr(["xCPR","xNPA"], {
-				label: "Opportunistic",//"Anchoring",//"Commutative",//"Anchoring",
-				"Victor Gulenko": "Commutative",
+				label: "Opportunistic",
 				desc: [
 					"Destruction of the future.",
 					"Neglecting possible opportunities for the sake of present ones.",
 					"Extremely clear & concrete thinking.",
 					"Carpe Diem - making the most of opportunities as they arise.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Commutative": [
 							"“Sensory irrational, or commutative. These include the sociotypes COORDINATOR, POLITICIAN, MASTER, MEDIATOR. The perception in this group is extremely clear and concrete, distinguished by clarity and perceptibility - the closest to reality. When such a sociotype finds itself in a situation of uncertainty, it is guided by its past experience or proceeds from standard scenarios for the development of events. The world for commutative sociotypes is a mosaic composition where each pebble can be moved (in this case, the picture changes, as in a kaleidoscope), but not thrown away. The perception of reality turns out to be somewhat flat, but detailed. In everyday terms, representatives of these sociotypes accumulate a lot of things, but they are poorly ordered. Commutativity (displaceability) as the law of mathematical operations reflects precisely this property of this group: a + b = b + a. Commutative types are not afraid of inverted images. Apparently, therefore, they are well oriented on the ground, quickly finding familiar objects or stating their movement. And one more note. The current trend in practical psychology - neuro-linguistic programming (NLP) is a concentrated expression of this particular perceptive group. The technique of NLP is actually based on the conscious switching of sensory channels.”"
-						]
+						],
+						"Danidin - Hedonic / Strong Inert Sensory": []
 					}
 				]
 			}); // opposite of novel
 			createCodeLabelArr(["xCFR","xNFA"], {
-				label: "Novel",//"Associative",//"Novel",
-				"Victor Gulenko": "Associative",
+				label: "Novel",
 				desc: [
-					//"Fixating on unusual or novel opportunities.",
 					"Destruction of the past.",
 					"Perceive an interconnected spider's web of images, ideas & associations.",
 					"Thinking is diverse, but fragmented and unordered.",
 					"See little value in what they already have, look to unusual or novel opportunities.",
 					"Good at forseeing & preparing for the most likely events.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Associative": [
 							"“Intuitive irrationals, or ASSOCIATIVE. This group includes sociotypes IL, IR, TP, TE. This type of perception is carried out through arbitrarily generated images. Some one detail of the perceived picture causes in these sociotypes a holistic ideal image, associated with all its content. For Associative sociotypes, the system is not a hierarchical order by any criterion, but a comprehensive network connection of everything with everything that has ever come into their field of vision. Thanks to their ability to catch spider-like interrelations, these sociotypes well foresee or anticipate the future - trends of events. They rely on the well-known principle of \"dominoes\": one knuckle fallen down pushes the other until the whole chain falls. Therefore, behaviorally, they are always ready for the most likely event. As the reader was convinced, here I am somewhat narrowing the meaning of the concept of “associativity”, putting into it approximately the same content as J. Grinder and R. Bendler put into the concept of “anchoring” [4], i.e. it means the combination of stimulus reactions of any nature.Mathematically, associativity is written as a “bracketed” operation - an arbitrary combination of terms or factors: (a + b) + c = a + (b + c). The sociotypes of this group have a large number of diverse ideas, but these ideas are poorly ordered, freely flowing one into another.”"
-						]
+						],
+						"Danidin - Chaotic / Strong Inert Intuition": []
 					}
 				]
 			}); // opposite of stable
 			createCodeLabelArr(["xCPA","xNPR"], {
-				label: "Ordered",//"Distributive",//"Hedonistic",
-				"Victor Gulenko": "Distributive",
+				label: "Ordered",
 				desc: [
-					//"Carpe diem.",
-					//"Hedonistically making the most of opportunities as they arise.",
 					"Preserving the past.",
 					"Reality is perceived & ordered through their past experience.",
 					"The degree to which something is clearly perceived depends on this internal ordering.",
 					"Eager to return uncertain situations to a steady, valued state.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Distributive": [
 							"“Sensory rationals, or DISTRIBUTIVE. These include sociotypes PS, ES, LF, RF. They perceive unevenly, as if through some glasses of traditionalism - an orderly experience, putting some objects or states to the forefront and pushing others away, which become just a background. Distributive psyche sets out ideas about the phenomena of the world in a certain order - it distributes them to the first, second, third, etc., depending on the depth of distribution. The first objects in such an orderly series are perceived clearly and concretely, the latter - as if they fall out of perception, few are taken into account. Distributive sociotypes are harder to tolerate uncertainty (equiprobability of outcomes), since they lose their foothold - the ability to distribute forces and means for a specific goal. Therefore, they strive to move as quickly as possible to a steady state — either to return to the old one, or to go back to the new. These are the most organized and punctual members of society, strictly meeting the time schedule and technological discipline. By virtue of these qualities, by their share in a team or social stratum, one can assess its stability and adherence to traditions. The things with which they surround themselves are smaller than those of the Commutative, but they are contained in a greater order. Mathematically, a distribution law can be written as a replacement for a product by a sum, that is, as an operation “opening the brackets”: a (b + c) = ab + ac. The common factor “a” is evenly distributed among all the terms, symbolically expressing a strongly cultivated tradition. Distributors unwittingly pass everything that is again perceived through their past experience - they think through eidetic images.”"
-						]
+						],
+						"Danidin - Disciplined / Weak Inert Intuition": []
 					}
 				]
 			});
@@ -4522,72 +4594,68 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// spirit
 			createTetraLabel(["SNPA","ONFR","SCFR","OCPA"], ["SCFA","OCPR","SNPR","ONFA"], ["SNFA","ONPR","SCPR","OCFA"], ["SCPA","OCFR","SNFR","ONPA"], {
 				label: "Spirit",
-				"Danidin and Talanov": "Spheres of Self-Realization",
 				desc: [
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Spheres of Self-Realization": [
 							"“Due to the significant correlation of the poles of intuition and questiness, sensation and deklatimimosti, as well as centrality and collectivism, peripherality and individualism, the properties of the spheres of self-realization partially overlap with the properties of psychoanalytic groups . Namely, due to such secondary interconnections, caring-infantile additions in alpha and aggressors - victimas in beta appear more clearly, whereas in descending boxes, many types contain separate features of the complementary psychoanalytic group.”"
-						]
+						],
+						"Danidin - Spheres of Self-Realization": []
 					}
 				]
 			});
 			createCodeLabelArr(["SNPA","ONFR","SCFR","OCPA"], {
 				label: "Ruthless",
-				"Danidin and Talanov": "Control",
-				Danidin: "Competitive",
 				desc: [
 					"Having a coldly controlling or dismissive demeanor to others.",
 					"Looking for a partner that will stand their ground and dare to push back.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Control": [
 							 "“Simplifying decallable logic, well suited for realizing and \"pushing through\" their ideas, introducing technologies, and controlling other people for the sake of objective tasks. Demand in the field of business and state construction. Negative, mechanistically neglectful, sometimes cynical.”"
-						]
+						],
+						"Danidin - Competitive / Ruthless": []
 					}
 				]
 			}); 
 			createCodeLabelArr(["SCFA","OCPR","SNPR","ONFA"], {
 				label: "Supportive",
-				"Danidin and Talanov": "Support",
-				Danidin: "Supportive",
 				desc: [
 					"Being mindful of the needs or wants of others.",
 					"Looking for a partner they can protect, uplift & indulge maternally/paternally.",
 					{
 						"Danidin and Talanov": [
 							 "“Simplifying declaring ethics, concentrating on empathy. Responsible for caring for loved ones, friendliness, humanistic interests: helping those in need, caring for wildlife. Demand in the field of family life. Positively benevolent”"
-						]
+						],
+						"Danidin - Supportive / Tolerant": []
 					}
 				]
 			}); 
 			createCodeLabelArr(["SNFA","ONPR","SCPR","OCFA"], {
 				label: "Veracious",
-				"Danidin and Talanov": "Creation",
-				Danidin: "Creative",
 				desc: [
 					"Speaking to or representing things truthfully or honestly.",
 					"Understanding the objective laws of the world.",
 					"Poorly versed in people.",
 					"Tendency to intellectualise or exist \"outside\" their own sexuality, appreciate those who can meet them on the same level.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Creation": [
 							 "“Complicating quest logic, well suited to the knowledge of the objective laws of the world, to design and create tools for the transformation of nature. In demand in the fields of science and crafts. Non-neutral: poorly versed in people in general.”"
-						]
+						],
+						"Danidin - Creative / Straightforward": []
 					}
 				]
 			});
 			createCodeLabelArr(["SCPA","OCFR","SNFR","ONPA"], {
 				label: "Manipulative",
-				"Danidin and Talanov": "Intrigue",
-				Danidin: "Intriguing",
 				desc: [
 					"Applying underhanded leverage or influence onto things or people.",
 					"Pushing interests onto others.",
 					"Well versed in people.",
 					"Looking for a partner they can provoke or pick apart.",
 					{
-						"Danidin and Talanov": [
+						"Danidin and Talanov - Intrigue": [
 							 "“Complicating questic ethics well suited for social manipulation, pushing different interests and building informal social groups. In demand in the field of social life. Very well versed in people, each have their own attitude.”"
-						]
+						],
+						"Danidin - Intriguing / Socially Sophisticated": []
 					}
 				]
 			});
@@ -4595,10 +4663,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// implementation
 			createTetraLabel(["SNFA","ONPR","SCFR","OCPA"], ["SCFA","OCPR","SNFR","ONPA"], ["SCPA","OCFR","SNPR","ONFA"], ["SNPA","ONFR","SCPR","OCFA"], {
 				label: "Implementation",
-				"Victor Gulenko": "Implementation Groups",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Implementation Groups": [
 							"“Jung's dichotomy Logic-Ethics describes, on the one hand, the rational side of actions, the systematic work to promote innovation, and, on the other hand, the feminine and masculine origins in human psychology. Implementing, introducing, forcing through is the male role, while developing the right conditions, assimilating, stabilizing in the society as a whole is the female role.”"
 						]
 					}
@@ -4606,12 +4673,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SNFA","ONPR","SCFR","OCPA"], {
 				label: "Implementing",// "Persevering",
-				"Victor Gulenko": "Feminine to Masculine", // intermediary types, transition from feminine to masculine, still feminine origins predominate in them
 				desc: [
 					"Enable mass implementation of generalised experience.",
-					//"Typically not drawn to extreme masculine or feminine manifestations."
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Feminine to Masculine": [
 							"“Main focus on this group is the junction of management and scientism, generalization of the practical experience in management. These types are inventors, rationalizers, creators of laws. They enable mass implementation of technologies. ILE and LSE make good inventors and innovators. ILI and LSI finalizers and exploitationists.”"
 						]
 					}
@@ -4619,13 +4684,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // let's keep it going
 			createCodeLabelArr(["SCFA","OCPR","SNFR","ONPA"], {
 				label: "Propagandizing", //"Initiating",
-				"Victor Gulenko": "Feminine", // most feminine types, right process and ethical disposition are united within them
 				desc: [
 					"Maintain what is established and traditionally accepted.",
 					"Mass ideology, propagandisation.",
 					//"Most explicitly feminine."
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Feminine": [
 							"“Work to maintain established social customs, or if they are programmed for something else, try to implement and stabilize new customs. Operate at the intersection of social and humanitarian spheres - mass ideology, advertising companies, show business. SEE and EIE are advertisers, propagandists, entertainers, show agents. EII and SEI prompt movement towards new stereotypes.”"
 						]
 					}
@@ -4633,13 +4697,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // let's start it
 			createCodeLabelArr(["SCPA","OCFR","SNPR","ONFA"], {
 				label: "Rescuing", //"Escaping",
-				"Victor Gulenko": "Masculine to Feminine", // intermediary types, transition of masculine to feminine, still masculine origins predominate in them
 				desc: [
 					"Implement humanitarian ideas.",
 					"Undermine and destroy what is routine and established.",
 					//"Typically take on masculine roles."
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Masculine to Feminine": [
 							"“Their spheres of activity are humanitarian and social. They undermine and destroy that which is routine and established, may take on traditionally male responsibilities. They bring localized focused implementation of humanitarian ideas. From large groups they transfer to small teams. ESE and IEE are enthusiasts and inspirers, shaking the foundations of the humdrum of life. IEI and ESI serve as internal motivators, deeply penetrating into the psyche.”"
 						]
 					}
@@ -4647,13 +4710,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // let's get out of here
 			createCodeLabelArr(["SNPA","ONFR","SCPR","OCFA"], {
 				label: "Brave", //"Finishing",
-				"Victor Gulenko": "Masculine", // most masculine types, left process and logical disposition are united within them
 				desc: [
 					"Attracted to risky prospects and the promotion of promising ideas.",
 					"Act bravely without looking back.",
 					//"Most explicitly masculine."
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Masculine": [
 							"“Act bravely without looking back. Their field of activity lies at the junction of management and scientism. Localized introduction of promising ideas and developments into production. This results in the greatest disruption of homeostasis. SLE and LIE are the best promoters i.e. managers of risky projects. SLI and LII are effective in the development of technological support.”"
 						]
 					}
@@ -4663,10 +4725,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// fate
 			createTetraLabel(["SCFA","SNPA","ONPR","OCFR"], ["SCPR","SNFR","ONFA","OCPA"], ["SCFR","SNPR","ONPA","OCFA"], ["SCPA","SNFA","ONFR","OCPR"], {
 				label: "Fate",
-				Mironov: "Dual Conflict Dyads",
 				desc: [
 					{
-						Mironov: [
+						"Mironov - Dual Conflict Dyads": [
 							"“The group consists of two dual-conflict dyads. Y. Ivanov writes that in these groups the relations “... are tense, tough, often leading to conflicts. At the same time, the level of tension in such groups increases with time ”[2, 54]. For practical problem solving groups are not suitable. During the experiments of the working group on identifying the filling of Reinin traits, as applied to this case, it is primarily “carelessness-prudence” and also “compliance-stubbornness”; in working with groups, results were obtained [3] that predict the success of interaction No.2 in brainstorm mode. Moreover, “compliant-careless” groups are effective with a shortage of resources, including time, “stubbornly-prudent” - with the availability of resources in the absence of time pressure.”"
 						]
 					}
@@ -4707,75 +4768,74 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// decisions
 			createTetraLabel(["SCPR","SNPA","ONFA","OCFR"], ["SCFA","SNFR","ONPR","OCPA"], ["SCPA","SNPR","ONFR","OCFA"], ["SCFR","SNFA","ONPA","OCPR"], {
 				label: "Decisions",
-				"Victor Gulenko": "Stress Groups",
-				Mironov: "Blocking Groups",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Stress Groups": [
 							"“Left and right types differ in their tolerance for stress. Certainty and clarity of the situation is favorable for the Rational and Right (Process) types. Vagueness, potential for development of some events gives the advantages to Irrational and Left (Result) types.”"
 						],
-						Mironov: [
+						"Mironov - Blocking Groups": [
 							"“This group is remarkable in that if we take the functions of the leading blocks of all members of the group, then the whole range of information flows will be covered. In other words, since all functions of the information metabolism are in the expert zone of its members, any information in the group is assessed adequately and is perceived in detail. Since there are no priorities and no avoiding - any information is valuable, I would call this group a “balance” group. The experience of communication in such a group confirms the justification of such a name. As a participant, the author happened to be in two such stable groups for a long time (from several hours to several days) under conditions of intensive interaction. The following information can be regarded as the author's self-report, which does not contradict the opinion of two more members of one of the groups. Communication is easy, on an equal footing, any proposal is agreed, no one imposes his decisions. But at the same time, the group feels stiff, light tension because any proposal must pass the approval of all members of the group, although the group always came to a consensus. From the group there is a feeling of some awkwardness. This can be compared to a heavy pendulum. When someone in the equilibrium group makes a proposal for joint actions, before the group makes a decision, you have to wait until the whole system comes to equilibrium again. If the group begins to act, then it as a heavy flywheel cannot be quickly unwound and cannot be quickly stopped. The initial rise and enthusiasm from the meeting quickly gives way to a smooth relationship. There are no intellectual disputes in the group and no emotional support, even between duals. Communication is a dyad: repayment, superego, duals. There are no proposals for joint activities requiring any efforts, each member of the group understands that they should not do this. Because the initiatives will either not be supported or will require lengthy approvals, which is too energy-consuming. From communication in the group does not feel the energy recovery, the topics of communication are extremely superficial. At the same time, even prolonged communication does not bore you.”"
-						]
+						],
+						"Danidin - Groups of Political Values": []
 					}
 				]
 			});
 			createCodeLabelArr(["SCPR","SNPA","ONFA","OCFR"], {
 				label: "Willing",
-				"Victor Gulenko": "Resistant to Stress",
 				desc: [
 					"Easily changes one's mind.",
 					"Easily resists stress.",
 					"Has an elastic response to unexpected or extreme situations.",
 					"May seek to change things up to feel more mobilised.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Resistant to Stress": [
 							"“These types are elastic, springy. They are the most stress-resistant types which show resilience against immediate stress loads. Their advantage is that they perform well in extreme situations. They are mobilized by unexpected changes in situations - this gives them a new drive. Ability to work effectively in stressful environments adds a new trait to their temperament - \"elasticity\". SLE and IEI maneuver and evade sudden blows. SLI and IEE wait the storm out in a safe location. These types have anchors in space - developed habits to do this or that actions in a certain location. For SLEs this is often their home, their territory. For SLIs this is their workplace where he feels relaxed and emboldened.”"
-						]
+						],
+						"Danidin - Destroyers of the Future / Gregarious and Adaptive": []
 					}
 				]});
 			createCodeLabelArr(["SCFA","SNFR","ONPR","OCPA"], {
 				label: "Unswayable",
-				"Victor Gulenko": "Vulnerable to Stress",
 				desc: [
 					"Refuses to change one's mind.",
 					"Externally stoic & monolithic.",
 					"May amass resources so as to avoid having to rely on the decisions of others.",
 					"Vulnerable to prolonged stress without foundational support (\"giants with feets of clay.\").",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Vulnerable to Stress": [
 							"“This groups is the most unstable in conditions of prolonged stress. They are monolithic, but fragile. When they stick together they can successfully oppose hardships but separately they are easily scattered and taken out as their resistance drops sharply. In stressful conditions they fare worse than the other types, especially if stress is of unexpected in nature. Despite their external stoicism, they always have poorly protected and vulnerable points and a need for a solid foundation. If this foundation is removed, they lose any resistance to stress they may have had. Stress threatens these types with challenging doubts and in the end leads them to break internally (\"giants with feet of clay\"). The defining element for their rational temperament is \"monolithism\". Taking into account that rationality is related to the orientation in time (planning, order) as well as to speech as communication forms, and that the right progress is much more rational than the left in nature, we conclude that this group of types is strongly dependent on the time factor and verbal signals. In dealing with these types one can observe that they have as if anchors in time, easily developed habits to do this or that action at specific points in time. Their second dependency is related to the speech stream. EIE and LSI, for example, need a continuous supply of signals to their auditory system.”"
-						]
+						],
+						"Danidin - Creators of the Past / Conservative-Patriotic": []
 					}
 				]
 			});
 			createCodeLabelArr(["SCPA","SNPR","ONFR","OCFA"], {
 				label: "Premature",
-				"Victor Gulenko": "Trained by Stress",
 				desc: [
 					"Easily comes to conclusions.",
 					"Mobilised and trained by stress.",
 					"Hardened or otherwise crystalised by extreme situations.",
 					"Can enjoy putting others and themselves to extreme tests.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Trained by Stress": [
 							 "“These types easily withstand small amounts of stress. They are stopped only by very fundamental shocks and even then only for a short while. Life is constantly training these types, making them more hardened (ESE, LIE) or more tolerant (ESI, LII). This is especially evident with the optimists LIE and ESE, who may find themselves restarting their lives from complete zero. They are as if holding light wireframe structures inside them. An additional component to the temperament of these types - \"crystalinity\". How do these types build anchors? To develop a stable habit a single tie to a specific moment in time is not enough for them. For additional stability they use visual anchors. These types are convinced not only by orderly process of events in time, but also by visual signals. ESE and ESI for example when they see disorder or an unkempt, sick person take measures immediately. LII and LIE start acting if they see signals of emotional response.”"
-						]
+						],
+						"Danidin - Creators of the Future / Democratic-Representative": []
 					}
 				]
 			}); 
 			createCodeLabelArr(["SCFR","SNFA","ONPA","OCPR"], {
 				label: "Delaying",
-				"Victor Gulenko": "Frozen by Stress",
 				desc: [
 					"Refuses to come to absolute conclusions until neccessary.",
 					"Tendency to avoid the stress of making decisions, may instead prefer others do it.",
 					"May amass resources to avoid making decisions for themselves.",
 					"They first resist stress easily, but soon subside over time - as if losing their viscosity.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Frozen by Stress": [
 							"“These types try to avoid stress. They are viscous. Their communicative environment is similar to a glue-like mass. They have a tendency to lose their resistance to stress over time - at first they react vigorously to a stimulus, but then subside. These types are able to resist stress for quite some time, but with each new wave of stress their strengths dissipate and they change their method of resistance to withdrawal, interiorizing their worries and anxieties. This adds a unique trait to their temperament - \"viscosity\". These types like the irrational types are more inclined to develop habits that are anchored in space. However due to their right-ness they emphasize such anchors less. Significant to them are kinesthetic sensations and reflexes, touch, smell, taste.”"
-						]
+						],
+						"Danidin - Destroyers of the Past / Familiar-Libertarian": []
 					}
 				]
 			});
@@ -4783,7 +4843,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// relatability
 			createTetraLabel(["SNPA","OCPR","SNFR","OCFA"], ["SCFA","ONFR","SCPR","ONPA"], ["SNFA","OCFR","SNPR","OCPA"], ["SCPA","ONPR","SCFR","ONFA"], {
 				label: "Relatability",
-				Mironov: "Freedom of Choice"
+				desc: [
+					{
+						"Mironov - Freedom of Choice": []
+					}
+				]
 			});
 			createCodeLabelArr(["SNPA","OCPR","SNFR","OCFA"], {
 				label: "Discordant",
@@ -4813,7 +4877,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// dreams
 			createTetraLabel(["SxFA","OxFR"], ["SxPR","OxPA"], ["SxFR","OxFA"], ["SxPA","OxPR"], {
 				label: "Dreams",
-				Mironov: "Selection Groups"
+				desc: [
+					{
+						"Mironov - Selection Groups": []
+					}
+				]
 			});
 			createCodeLabelArr(["SxFA","OxFR"], {
 				label: "Receiving",
@@ -4848,50 +4916,66 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// actualisation
 			createTetraLabel(["SNxR","OCxA"], ["SCxA","ONxR"], ["SNxA","OCxR"], ["SCxR","ONxA"], {
 				label: "Actualisation",
-				Mironov: "World Order",
-				Danidin: "Historical Roles",
+				desc: [
+					{
+						"Danidin - Historical Roles": [],
+						"Mironov - World Order": []
+					}
+				]
 			});
 			createCodeLabelArr(["SNxR","OCxA"], {
 				label: "Authoring",
-				Danidin: "Civilizers",
 				desc: [
 					"Finding the right expression.",
 					"Mindset of spreading one's principles.",
-					"Shaping one's culture."
+					"Shaping one's culture.",
+					{
+						"Danidin - Civilizers / The Attitude to Spread Their Principles": []
+					}
 				]
 			});
 			createCodeLabelArr(["SCxA","ONxR"], {
 				label: "Sustaining",
-				Danidin: "Children of Culture",
 				desc: [
 					"Making something that already exists more viable.",
 					"Mindset of social responsibility.",
-					"Preserving one's culture."
+					"Preserving one's culture.",
+					{
+						"Danidin - Children of Culture / Social Responsibility Mindset": []
+					}
 				]
 			});
 			createCodeLabelArr(["SNxA","OCxR"], {
 				label: "Dramatising",
-				Danidin: "Children of Nature",
 				desc: [
 					"Casting oneself or others as if actors in a stageplay.",
 					"Mindset of self-realization.",
-					"Preserving one's nature."
+					"Preserving one's nature.",
+					{
+						"Danidin - Children of Nature / The Mood for Self-Realization": []
+					}
 				]
 			});
 			createCodeLabelArr(["SCxR","ONxA"], {
 				label: "Imitating",
-				Danidin: "Imitators",
 				desc: [
 					"Creating something from nothing.",
 					"Mindset of social success - imitating what is successful.",
-					"Shaping one's nature."
+					"Shaping one's nature.",
+					{
+						"Danidin - Imitators / Mindset for Social Success": []
+					}
 				]
 			});
 			
 			// readiness
 			createTetraLabel(["SCFA","ONPA","SNPA","OCFA"], ["SNFA","OCPA","SCPA","ONFA"], ["SCFR","ONPR","SNPR","OCFR"], ["SNFR","OCPR","SCPR","ONFR"], {
 				label: "Readiness",
-				Mironov: "Accident Management"
+				desc: [
+					{
+						"Mironov - Accident Management": []
+					}
+				]
 			});
 			createCodeLabelArr(["SCFA","ONPA","SNPA","OCFA"], {
 				label: "Shrewd",
@@ -4919,85 +5003,81 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// results
 			createTetraLabel(["OCPx","SCFx"], ["ONFx","SNPx"], ["OCFx","SCPx"], ["ONPx","SNFx"], {
 				label: "Results",
-				"Victor Gulenko": "Rings of Benefit",
-				"Linda Berens": "Interaction Styles",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Rings of Benefit": [
 							"“These groups are demonstratively of energetic character. Latin word iflatio means \"bulging, swelling\". With the use of these groups, socion is filled with energy. This is why these groups are unstable, short-lived. They overfill quickly if there isn't an outside force capable of containing the spill of energy. Mechanism of relations of social order (benefit) has a lot in common with the act of hypnosis - the act of benefactor on the subconscious of the beneficiary. Energy is transferred directly only if benefactor (sender) is able to somehow relax the beneficiary (receiver) and predispose him to the benefactor. With consciously critical attitude on the part of the beneficiary, the energy impulse is not transmitted. It is either blocked or even reversed, bringing into effect reverse order - a destructive process when emotional get heated causing a breakdown in the system. Information in this system undergoes inflation - it is devalued if not put into circulation immediately. The basis of the differences between inflation (benefit) rings lies in the way energy and information get used. Energy corresponds to extraversion, but also left progress. Similarly, information is tied with introversion, but also with the right progress.”"
 						],
+						"Linda Berens - Interaction Styles": [],
+						"Danidin - Roles in the Quadra": []
 					}
 				]
 			});
 			createCodeLabelArr(["OCPx","SCFx"], {
 				label: "Focusing",
-				"Victor Gulenko": "Information Accumulators/Gatekeepers",
-				"Linda Berens": "Chart the Course",
 				desc: [
 					"Knowing the plan and keeping it on track.",
 					"Suffer from a lack of energy, need energising by others.",
 					"Strong at keeping large groups informed.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Information Accumulators/Gatekeepers": [
 							"“ILI accumulates scientific or philosophical information, LSI accumulates operational or managerial information (both of these types make for the best collectors), EII - humanitarian information, SEI - social information (prices, services, events and holidays). They suffer from lack of energy. Specialize in informatics of large groups. LSI and SEI engage in solving immediate concrete problems at work or at home. ILI and EII cooperate on basis of philosophical, scientific, and spiritual topics.”"
 						],
-						"Linda Berens": [
+						"Linda Berens - Chart the Course": [
 							"\"The theme is having a course of action to follow. People of this stylefocus on knowing what to do and keeping themselves, the group, or the project on track. They prefer to enter a situation having an idea of what is to happen. They identify a process to accomplish a goal and have a somewhat contained tension as they work to create and monitor a plan. The aim is not the plan itself, but to use it as a guide to move things along toward the goal. Their informed and deliberate decisions are based on analyzing, outlining, conceptualizing or foreseeing what needs to be done.\""
-						]
+						],
+						"Danidin - Humble": []
 					}
 			]}); // chart-the-course (keep it going) (Focusing)
 			createCodeLabelArr(["ONFx","SNPx"], {
 				label: "Involving",
-				"Victor Gulenko": "Energy Carriers/Finalists",
-				"Linda Berens": "Get Things Going",
 				desc: [
 					"Involving others and lighting a fire under things.",
 					"Saturated with energy, typically don't gather new information.",
 					"Good at energizing small groups.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Energy Carriers/Finalists": [
 							"“These types are the most saturated with energy in the socion. They suffer from lack of fundamentally new information. Energizers of small groups. To be good at management and coordination, they have to break up large groups into small groups and then control these smaller groups. SLE and ESE solve concrete, immediate problems. IEE and LIE unite on basis of romanticism, they are captivated by more daring ideas.”"
 						],
-						"Linda Berens": [
+						"Linda Berens - Get Things Going": [
 							"“The theme is persuading and involving others. They thrive in facilitator or catalyst roles and aim to inspire others to move to action, facilitating the process. Their focus is on interaction, often with an expressive style. They Get-Things-Going™ with upbeat energy, enthusiasm, or excitement, which can be contagious. Exploring options and possibilities, making preparations, discovering new ideas, and sharing insights are all ways they get people moving along. They want decisions to be participative and enthusiastic, with everyone involved and engaged.”"
-						]
+						],
+						"Danidin - Uniting": []
 					}
 				]
 			}); // get-things-going (light a fire) (Involving)
 			createCodeLabelArr(["OCFx","SCPx"], {
 				label: "Clarifying",
-				"Victor Gulenko": "Information Generators/Stabilisers",
-				"Linda Berens": "Behind the Scenes",
 				desc: [
 					"Understanding what the best result will be.",
 					"Translating energy into information.",
 					"Weakest at energizing others.",
 					"Strong at keeping small groups informed.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Information Generators/Stabilisers": [
 							"“These types translate energy into information. They function as stabilizers in socion. Suffer from weak ability to energetically impact their environment. They specialize in informatics of small groups and feel good in small groups of similar-minded individuals. IEI and LII capable of uniting a small group on the basis of some novel interesting information. SLI and ESI engage in solving problems relating to survival and well-being."
 						],
-						"Linda Berens": [
+						"Linda Berens - Behind the Scenes": [
 							"\"The theme is getting the best result possible. People of this style focus on understanding and working with the process to create a positive outcome. They see value in many contributions and consult outside inputs to make an informed decision. They aim to integrate various information sources and accommodate differing points of view. They approach others with a quiet, calm style that may not show their strong convictions. Producing, sustaining, defining, and clarifying are all ways they support a group's process. They typically have more patience than most with the time it takes to gain support through consensus for a project or to refine the result.\""
-						]
+						],
+						"Danidin - Isolated / Correctors": []
 					}
 				]
 			}); // behind-the-scenes (best result) (Clarifying)
 			createCodeLabelArr(["ONPx","SNFx"], {
 				label: "Commanding",
-				"Victor Gulenko": "Energy Generators/Culminators",
-				"Linda Berens": "In Charge",
 				desc: [
 					"Achieving results through other people.",
 					"Introduce large amounts of energy into situations.",
 					"Good at energizing large groups.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Energy Generators/Culminators": [
 							"“These types translate information into energy. They bring about energy processes in their environment. EIE and SEE with their words and actions evoke strong emotional reactions in others (for this reason they also make for the best actors). They specialize in energetics of large groups and for this reason realize themselves in such conditions. They have a tendency to unite small groups into larger groups. These are the most inflationary types, that start up energy chain reactions in the society. ILE and EIE are innovators and fighters for an idea. SEE and LSE draw in people for collective effects.”"
 						],
-						"Linda Berens": [
+						"Linda Berens - In Charge": [
 							"\"The theme is getting things accomplished through people. People of this style are focused on results, often taking action quickly. They often have a driving energy with an intention to lead a group to the goal. They make decisions quickly to keep themselves and others on task, on target, and on time. They hate wasting time and having to back track. Mentoring, executing actions, supervising, and mobilizing resources are all ways they get things accomplished. They notice right away what is not working in a situation and become painfully aware of what needs to be fixed, healed, or corrected.\""
-						]
+						],
+						"Danidin - Rebels / Movers of Quadra": []
 					}
 				]
 			}); // in-charge (get a result) (Succeeding)
@@ -5005,7 +5085,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// interference
 			createTetraLabel(["ONPx","SCFx"], ["OCPx","SNFx"], ["OCFx","SNPx"], ["ONFx","SCPx"], {
 				label: "Interference",
-				Mironov: "Informational Usage"
+				desc: [
+					{
+						"Mironov - Informational Usage": []
+					}
+				]
 			});
 			createCodeLabelArr(["ONPx","SCFx"], {
 				label: "Modulating",
@@ -5035,10 +5119,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// impression (first impressions)
 			createTetraLabel(["OxPR","SxFA"], ["OxFA","SxPR"], ["OxFR","SxPA"], ["OxPA","SxFR"], {
 				label: "Impressions",
-				"Victor Gulenko": "Equifinal Groups",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Equifinal Groups": [
 							"“These groups are formed by the orthogonal intersection of two considered binary scales: Social progress = left / right x center / periphery”"
 						]
 					}
@@ -5046,10 +5129,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OxPR","SxFA"], {
 				label: "Familiarising",
-				"Victor Gulenko": "Right periphery",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Right periphery": [
 							"“Future society, informatization and humanization.”"
 						]
 					}
@@ -5057,10 +5139,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Pliable + Complicating + Enhancing (getting used to it)
 			createCodeLabelArr(["OxFA","SxPR"], {
 				label: "Enlightening",
-				"Victor Gulenko": "Left periphery",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Left periphery": [
 							 "“The deepest periphery pushed out of the socion. Gives a view from the outside, communicates with other socions. The principle of the fourth superfluous in tetratome - quadruple division of the system.”"
 						]
 					}
@@ -5068,10 +5149,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Particular + Simplifying + Enhancing (knowing better than it)
 			createCodeLabelArr(["OxFR","SxPA"], {
 				label: "Resisting",
-				"Victor Gulenko": "Left centre",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Left centre": [
 							"“Group reform, business development.”"
 						]
 					}
@@ -5079,10 +5159,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Pliable + Simplifying + Collapsing (bill the butcher)
 			createCodeLabelArr(["OxPA","SxFR"], {
 				label: "Absorbing",
-				"Victor Gulenko": "Right centre",
 				desc: [
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Right centre": [
 							"“Group debugging social systems. Stability and order.”"
 						]
 					}
@@ -5092,44 +5171,60 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// fears 
 			createTetraLabel(["OCFR","ONPA","SCFA","SNPR"], ["OCFA","ONPR","SCFR","SNPA"], ["OCPA","ONFR","SCPR","SNFA"], ["OCPR","ONFA","SCPA","SNFR"], {
 				label: "Fears",
-				Mironov: "Overcoming Fears"
+				desc: [
+					{
+						"Mironov - Overcoming Fears": []
+					}
+				]
 			});
 			createCodeLabelArr(["OCFR","ONPA","SCFA","SNPR"], {
 				label: "Endearing", // Cohering + Persuasive + Prepared (Moral/Ethical/Spiritual/Mental Support)
-				Mironov: "Moral/Ethical/Spiritual/Mental Support",
 				desc: [
-					"Facing fears by having a moral, ethical or mental framework to undo them."
+					"Facing fears by having a moral, ethical or mental framework to undo them.",
+					{
+						"Mironov - Moral/Ethical/Spiritual/Mental Support": []
+					}
 				]
 			});
 			
 			createCodeLabelArr(["OCFA","ONPR","SCFR","SNPA"], {
 				label: "Counteracting", // Contrasting + Argumentative + Prepared (Progress)
-				Mironov: "Progress",
 				desc: [
-					"Facing fears by mitigating them through direct response."
+					"Facing fears by mitigating them through direct response.",
+					{
+						"Mironov - Progress": []
+					}
 				]
 			});
 			
 			createCodeLabelArr(["OCPA","ONFR","SCPR","SNFA"], {
 				label: "Acting", // Cohering + Argumentative + Incidental (Systemic Safety/Security)
-				Mironov: "Systemic Safety/Security",
 				desc: [
-					"Facing fears by constructing a safe environment without them."
+					"Facing fears by constructing a safe environment without them.",
+					{
+						"Mironov - Systemic Safety/Security": []
+					}
 				]
 			});
 			
 			createCodeLabelArr(["OCPR","ONFA","SCPA","SNFR"], {
 				label: "Repelling", // Contrasting + Persuasive + Incidental (Suspicious)
-				Mironov: "Suspicious",
 				desc: [
-					"Facing fears by defensively anticipating and minimising their possibility."
+					"Facing fears by defensively anticipating and minimising their possibility.",
+					{
+						"Mironov - Suspicious": []
+					}
 				]
 			});
 			
 			// interests
 			createTetraLabel(["OCPR","ONFR","SCFA","SNPA"], ["OCPA","ONFA","SCFR","SNPR"], ["OCFR","ONPR","SCPA","SNFA"], ["OCFA","ONPA","SCPR","SNFR"], {
 				label: "Interests",
-				Mironov: "Disposition of Interest"
+				desc: [
+					{
+						"Mironov - Disposition of Interest": []
+					}
+				]
 			});
 			createCodeLabelArr(["OCPR","ONFR","SCFA","SNPA"], {
 				label: "Sensible", // Pliable + Limiting + Declarative / methods + strategic + declaring
@@ -5172,12 +5267,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNPA", {
 				label: "Capturing",
-				Danidin: "Most sense of domination",
 				desc: [
 					"Tackling problems head-on. Welcoming of confrontation.",
 					"Tightening behavioural requirements of the ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Most Sense of Domination / Feeling of Power": [
 							"Desire to win here and now, striving for dominance & lust for power, offensive aggression, willingness and ability to use violence.",
 							"Tighter requirements for the accuracy of behavior reproduction (narrowing of the behavioral norm); tougher intraspecific competition; increasing the proportion of the contribution of genetics to behavior (instinctive behavior)."
 						]
@@ -5186,12 +5280,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNFR", {
 				label: "Foresight",
-				Danidin: "Least sense of homeostasis",
 				desc: [
 					"Anticipating the chain of events. Avoiding needless conflicts. Sensing intentions.",
 					"Undoing homeostasis - mobilising an ecosystem in anticipation of an upcoming crisis.",
 					{
-						Danidin: [
+						"Danidin - Least sense of homeostasis / Denial of Comfort": [
 							"Striving for the future, following long-range purposes, tension, accelerating, searching for crisis to use them to yours advantage."
 						]
 					}
@@ -5199,12 +5292,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCFA", {
 				label: "Potentiating",
-				Danidin: "Least sense of domination",
 				desc: [
 					"Optimistic exploration of ways to minimise conflict.",
 					"Discouraging the tightening of behavioural norms within an ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Least sense of domination / Denial of power": [
 							"Altruistic desire to preserve the possibilities for a future's life, humanism, non-possessiveness, honesty, hesitancy, shyness."
 						]
 					}
@@ -5212,12 +5304,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCPR", {
 				label: "Relaxing",
-				Danidin: "Most sense of homeostasis",
 				desc: [
 					"Relaxed affirmation & acceptance. Lowering the temperature in the room.",
 					"Introducing homeostasis - encouraging an eco-system to become more circular & closed off.",
 					{
-						Danidin: [
+						"Danidin - Most sense of homeostasis / Feeling of Comfort": [
 							 "Focusing on the present, relaxation, striving to comfort & convinience and to avoid any conflict or crisis.",
 							 "Introduction of an ecotope into homeostasis (closure of ecological chains; potentially infinite resource in its dynamic circulation; cyclic time); best reproduced in homeostatic ecotopes."
 						]
@@ -5226,12 +5317,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNPR", {
 				label: "Comforting",
-				Danidin: "Least imagination of metamorphosis", 
 				desc: [
 					"Working toward peace of mind & body.",
 					"Undoing a crisis - releasing tension and lowering readiness of the ecosystem as problems recede from view.",
 					{
-						Danidin: [
+						"Danidin - Least imagination of metamorphosis / Crisis Denial": [
 							"Diligence, regular care, guardianship of loved ones, mundanity, doesn't anticipate any trouble."
 						]
 					}
@@ -5239,12 +5329,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNFA", {
 				label: "Ideating",
-				Danidin: "Most imagination of alternatives",
 				desc: [
 					"Brainstorming. Entertaining ideas out loud with others.",
 					"Relaxing behavioural requirements of the ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Most imagination of alternatives / Imagination of Freedom": [
 							"\"Childishness\", curiosity, seeing new possibilities, innovation, love of freedom and willingness to give freedom.",
 							"Relaxing requirements for the accuracy of behavior reproduction (expansion of the behavioral norm); weakening of intraspecific competition; increasing the proportion of the contribution of language culture to behavior."
 						]
@@ -5253,12 +5342,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCFR", {
 				label: "Timing",
-				Danidin: "Most imagination of Metamorphosis",
 				desc: [
 					"Compression of time. Bridging past, present and future. Intuition & insight. Sensing the significance of a given moment.",
 					"Introducing a crisis - pressing the importance of the moment to induce action within an ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Most imagination of Metamorphosis / Imagination of Crisis": [
 							"Observing changes and waiting for the moment, adaptation to unpleasant circumstances and superior forces, equivocation.",
 							"Introduction of an ecotope into a crisis (opening of ecological chains; wasted finite resource in terms of volume; linear time); reproduction is tied to times of ecotope crisis."
 						]
@@ -5267,12 +5355,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCPA", {
 				label: "Controlling",
-				Danidin: "Least imagination of alternatives",
 				desc: [
 					"Dismissal & forceful elimination of unwanted possibilities.",
 					"Discouraging the relaxing of behavioural norms within an ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Least Imagination of Alternatives / Denial of Freedom": [
 							"Severity and \"solidity\", focus on past experience, prohibition of alternatives, imposition of restrictions and punishments."
 						]
 					}
@@ -5378,12 +5465,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SNxA", {
 				label: "Jestering",
-				Danidin: "Least suggestion of relations",
 				desc: [
 					"Foisting personas on oneself or others.",
 					"Resisting the localised rules of individuation within an ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Least suggestion of relations / Attitude Denial": [
 							"Tactlessness, straightforwardness, sharpness, audacity, early emancipation, radicalism, revolutionary."
 						]
 					}
@@ -5391,12 +5477,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("OCxA", {
 				label: "Truthful",
-				Danidin: "Most calculation of laws",
 				desc: [
-					//"Emphasising the result of the rules of natural selection within an ecosystem.",
 					"Emphasising the actual implications of a given structure or system, rather than its intentions.",
 					{
-						Danidin: [
+						"Danidin - Most calculation of laws / Calculation of the Law": [
 							 "Analyticity, systematization, paradigmatic thinking, impartiality, denial of compromises.",
 							 "Natural selection (guided by the global properties of the environment and the following from its models of the landscape and behavior on it)."
 						]
@@ -5405,12 +5489,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("ONxR", {
 				label: "Autonomizing",
-				Danidin: "Most calculation of profit",
 				desc: [
 					"Increasing independence & self-sufficiency of individual economy.",
 					"Taking advantage of practical possibilities.",
 					{
-						Danidin: [
+						"Danidin - Most calculation of profit / Benefit Calculation": [
 							"Professional specialization, focus on efficiency, time savings and monetary benefits, utilitarianism, workaholism.",
 							"Independent (driven by the desire for personal gain) search for a resource; creation of a personal, separate economy, whose success depends only on the personal skills of the individual."
 						]
@@ -5419,12 +5502,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SCxR", {
 				label: "Individuating",
-				Danidin: "Least suggestion of synchrony",
 				desc: [
 					"Resisting the development of socially-determined identities (denying personas).",
 					"Seperating the success of the flock from that of the individual.",
 					{
-						Danidin: [
+						"Danidin - Least suggestion of synchrony / Denial of Attraction": [
 							"Self-concealment, individualism as non-involvement, indifference, unemotionality, critical thinking."
 						]
 					}
@@ -5432,12 +5514,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("OCxR", {
 				label: "Structural",
-				Danidin: "Least calculation of profit",
 				desc: [
 					"Undoing individual self-sufficiency in favour of more systemic or structural understandings.",
 					"Denying practicality.",
 					{
-						Danidin: [
+						"Danidin - Least Calculation of Profit / Denial of Benefit": [
 							 "The ability to create a mood, art decorativeness, susceptibility, sensitivity, capriciousness, seeking patronage."
 						]
 					}
@@ -5445,12 +5526,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SNxR", {
 				label: "Flocking",
-				Danidin: "Most suggestion of synchrony",
 				desc: [
 					"Developing a socially-determined identity. Moving & identifying with a crowd.",
 					"The success of an individual is indestinquishable from the success of their flock.",
 					{
-						Danidin: [
+						"Danidin - Most Suggestion of Synchrony / Suggestion of Attraction": [
 							"Expressive behavior to motivate people masses, involvement in public life, following fashion, striving for the ideal of attractiveness.",
 							"Emotional & behavioral synchronization with the flock, were the search and distribution of the resource takes place; the success of an individual is inseparable from the success of the flock."
 						]
@@ -5460,12 +5540,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SCxA", {
 				label: "Relational",
-				Danidin: "Most suggestion of relations",
 				desc: [
-					//"Emphasising the result of the rules of individuation within an ecosystem.",
 					"Emphasising actual emotional relations between individuals, rather than what is socially-mandated.",
 					{
-						Danidin: [
+						"Danidin - Most Suggestion of Relations / Instillation of Attitude": [
 							"Deep ethical analysis of the personality, tactfullness, devotion which motivate loved ones, shame and guilt feelings.",
 							"Sexual selection (driven by factors of local genetic and cultural change and subsequent stylization of behavior)."
 						]
@@ -5474,12 +5552,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("ONxA", {
 				label: "Practical",
-				Danidin: "Least calculation of laws",
 				desc: [
 					"Demonstrating the practical limitations of a given structure.",
 					"Resisting the localised rules of natural selection within an ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Least Calculation of Laws / Denial of the Law": [
 							"Sociability, social manipulativeness, flattery & charm \"specially for you\", inconsistency and thoughtlessness of actions."
 						]
 					}
@@ -5506,7 +5583,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SNPx", {
 				label: "Surviving",
 				desc: [
-					"Locates neccessary social resources."
+					"Locating & attaining neccessary social resources."
 				]
 			});
 			createCodeLabel("OCPx", {
@@ -5719,17 +5796,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCFA","SNFA"], {
 				label: "Playful",
-				Socionics: "Childlike",
-				Danidin: "Knowledge",
 				desc: [
 					"Promoting a mutual interest in unusual, playful or unexpected activities.",
 					"Competition of independent thinking. Attracting others through the sharing of highly original thoughts in an open setting, manifesting in an increasing divergance & independence of interests & groups.",
 					"Wants a partner who will indulge their unusual interests and needs.",
 					{
-						Socionics: [
+						"Socionics - Childlike": [
 							"These types seem to exist outside their own sexuality. Sex is to be metabolized psychologically for them in an almost roundabout way - as an emotional entity, or possibly even an intellectual exercise. In a partner, they are looking for someone who will deal with (and protect) their quirks and understand their sexuality on the same intellectual/emotional level.”"
 						],
-						Danidin: [
+						"Danidin - Knowledge": [
 							"divergent abstract-symbolic thinking is present in knowledge types {ILE, creator of knowledge + LII, keeper of knowledge}. These types form a scientific picture of the world through the competition of independent thinkers."
 						]
 					}
@@ -5737,16 +5812,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCPR","SNPR"], {
 				label: "Indulging",
-				Socionics: "Caregivers",
-				Danidin: "Nature",
 				desc: [
 					"Creating a mutual interest in succulent, beautiful or aesthetically pleasing activities.",
 					"Wants a partner who will share their indulgences and accept their parental instincts.",
 					{
-						Socionics: [
+						"Socionics - Caregivers": [
 							"These are those types who openly express their need to \"protect\" and care for their romantic interest. In conversation may often lend a sympathetic ear (which, depending on the person, may be interpreted as insincerity, but it's exactly what the Child-like type is looking for). They are looking for someone who will not only accept their paternal/maternal tendencies, but welcome and thrive on it.”"
 						],
-						Danidin: [
+						"Danidin - Nature": [
 							"Convergent visually-figurative thinking is present in nature types {ESE, creator of nature + SEI, keeper of nature}. These types maintain the unity of the appearance of the population, adapting it to the natural habitat of this population."
 						]
 					}
@@ -5754,17 +5827,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCPA","ONPA"], {
 				label: "Avaricious",
-				Socionics: "Employers",
-				Danidin: "Ownership",
 				desc: [
 					"Forceful seizure & retention of resources for personal use.",
 					"Creation, imitation & ownership of highly-successful market means.",
 					"Wants a partner who's seemingly-impenetrable facade they can personally break down piece-by-piece.",
 					{
-						Socionics: [
+						"Socionics - Employers": [
 							"These types, like the conquerors, express their sexuality openly. In daily life they may tend to be rather submissive and as a result may tend to carry over these tendencies into their romantic life. They are won over by indirect acts of submission, and are thrilled when their love interest (in the case of the \"pseudo-aggressor\" type) acts unlike himself. In a partner, they are looking for their equal - someone whose solid facade they can break down piece by piece.”",
 						],
-						Danidin: [
+						"Danidin - Ownership": [
 							"Divergent visually-figurative thinking is present in ownership types {SEE, creator of ownership + ESI, keeper of ownership}. These types form the features of the appearance of people through sexual and political competition of independent appearance appraisers."
 						]
 					}
@@ -5772,16 +5843,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCFR","ONFR"], {
 				label: "Escalating",
-				Socionics: "Psuedo-Aggressors/Employees",
-				Danidin: "Business",
 				desc: [
 					"Maintenance of market unity; incremental economical progress through escalation of past successes over time.",
 					"Wants a worthy competitor, someone who won't break under their indirect aggression & cold, distant demeanor.",
 					{
-						Socionics: [
+						"Socionics - Psuedo-Aggressors / Employees": [
 							"These are types who exhibit aggressive tendencies in their everyday life, and as a result tend to carry over these notions and temperaments into their romantic life. They typically are not comfortable with connotations of the word \"victim\" - implying a certain weakness, effeteness, and lack of dignity. In searching for a partner, they are looking for a worthy opponent - someone who is strong enough to withstand their quirks without \"breaking\" so to speak."
 						],
-						Danidin: [
+						"Danidin - Business": [
 							"Convergent abstract-symbolic thinking is present in business types {LIE, creator of business + ILI, keeper of business}. These types maintain a market unity."
 						]
 					}
@@ -5789,17 +5858,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCPA","SNPA"], {
 				label: "Conquering",
-				"Victor Gulenko": "Conquerers",
-				Danidin: "Force",
 				desc: [
 					"Forcibly dominating and overthrowing one's environment.",
 					"Maintenance of state unity; laying down the law. Elimination of cultures or ways of thinking through forceful persuasion, even violence.",
 					"Wants a partner they can dominate & control, almost sadistically, enough to let down their guard.",
 					{
-						"Victor Gulenko": [
+						"Victor Gulenko - Conquerers": [
 							"These are assertive types who do not flinch at their own sexuality. They will express their own desire without reservation. They are won over by direct shows of submission (only after feeling that they have earned it). He will be insulted if his romantic interest gives him his title without question, and bored if the fight is too easily won. He, like the Pseudo-Aggressor and the Challenger, is questing to find his equal. Someone he can play his almost sadistic games with without \"breaking.\""
 						],
-						Danidin: [
+						"Danidin - Force": [
 							"Convergent subject-instrumental thinking is present in force types {SLE, creator of force + LSI, keeper of force}. These types maintain a state unity."
 						]
 					}
@@ -5807,16 +5874,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SNFR","OCFR"], {
 				label: "Idolatrous",
-				Socionics: "Challengers/Trophies",
-				Danidin: "Art",
 				desc: [
 					"Competition of independent artistry. Attracting others through the sharing of provocative works, manifesting in selected ones receiving the highest regard from powerful forces over time.",
 					"Wants to be the prize worth winning, to throw down the gauntlet and to submit to someone capable of overcoming it.",
 					{
-						Socionics: [
+						"Socionics - Challengers/Trophies": [
 							"These are the types who unconsciously throw a \"gauntlet\" down for their opponents. They know on an almost subliminal level exactly who they are looking for, and anyone who does not fit the bill will be subjected to a rather flakey, hot-cold game of courting tag. As a result, they may appear (both to others and to themselves) rather amorphous and can take on qualities of the other romantic attitudes, depending on the situation and who they are \"challenging.\" They may, for example, give the victim half his aggressor, the pseudo-aggressor a little victim, the caregiver a bit of his child, etc. They react best, however, to those who do not \"break\" as a result of their games, but grant them a level of autonomy. Healthy examples of this type will have a sense of self-esteem, and may think of themselves as the \"prize\" that will be given only to the rightful owner.”"
 						],
-						Danidin: [
+						"Danidin - Art": [
 							"Divergent abstract-figurative thinking is present in art types {EIE, creator of art + IEI, keeper of art}. These types form a high art through the competition of independent artists."
 						]
 					}
@@ -5824,17 +5889,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCFA","ONFA"], {
 				label: "Animistic",
-				Socionics: "Students",
-				Danidin: "Culture",
 				desc: [
 					"Having a respect or admiration for what is latent in otherwise innocuous things.",
 					"Maintenance of cultural unity. Attracting others through promiscuous friendliness, manifesting in increased language, eusocial or behavioural understandings.",
 					"Wants a partner who will attend to their needs, but will also accept their imaginative patronage.",
 					{
-						Socionics: [
+						"Socionics - Students": [
 							"These are types who exhibit paternal/maternal tendencies towards others in their everyday lives and may thus carry over these notions and temperaments into their romantic life. These types habitually attempt to give their partner what he/she \"needs\" (or what they believe they need). As a result, they may become drained by lack of attendance to their own needs and desires. In a partner, they are searching for a combination of strength and gentleness."
 						],
-						Danidin: [
+						"Danidin - Culture": [
 							"Convergent abstract-figurative thinking is present in culture types {IEE, creator of culture + EII, keeper of culture}. These types maintain a language-cultural unity."
 						]
 					}
@@ -5842,17 +5905,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCPR","ONPR"], {
 				label: "Homeostatic",
-				Socionics: "Teachers",
-				Danidin: "Production",
 				desc: [
 					"Sustaining an existing ecosystem.",
 					"Competition of indepenant craftsmanship. Attracting others through the formation of efficient & practical environments, manifesting in increased autonomy and a higher standard of living.",
 					"Wants a partner they can patiently guide to a higher standard of self-sufficiency.",
 					{
-						Socionics: [
+						"Socionics - Teachers": [
 							"If I were to describe this type's approach to love, it would be \"serious.\" He approaches his love interest almost with the intention to \"teach.\" This can quite possibly rub the object of his affection in the wrong way, possibly interpreted as condescension. Like the childlike type, he may tend to live \"outside sexuality\" and may have to intellectualize it in order to be comfortable. He is looking for a worthy pupil."
 						],
-						Danidin: [
+						"Danidin - Production": [
 							"Divergent subject-instrumental thinking is present in production types {LSE, creator of production + SLI, keeper of production}. These types form a ergonomically perfect environment through the competition of independent craftsmen."
 						]
 					}
@@ -5948,12 +6009,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCFA","SCPA"], {
 				label: "Isolative",
-				Danidin: "Most separation of independence",
 				desc: [
 					"Emphasising one's personal purity & freedom to the point of social isolation.",
 					"Increasing originality of one's ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Most Separation of Independence / Isolation of Individuality": [
 							"Low stress resistance, social separation, moral fastidiousness & striving for moral purity, defense of personal freedom and justice.",
 							"Directional selection (progressive factor of evolution); strengthening the influence on the future of the species of the properties of the individual (unique mutations, genetic recombinations and the particular qualities of behavior they generate)."
 						]
@@ -5962,12 +6022,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // LII / ESI: +I - +Individualism(Isolation): Directional selection (progressive factor of evolution); strengthening the influence on the future of the species of the properties of the individual (unique mutations, genetic recombinations and the particular qualities of behavior they generate)
 			createCodeLabelArr(["ONFR","SNPR"], {
 				label: "Omnivorous",
-				Danidin: "Most acceptance of collaboration",
 				desc: [
 					"Willingness to involve and get involved in any business.",
 					"Decreasing originality of one's ecosystem.",
 					{
-						Danidin: [
+						"Danidin - Most Acceptance of Collaboration / Acceptance of Cooperation": [
 							"Intergroup exchange of equals, willingness to involve and get involved in any business, good understanding yours and others goals.",
 							"Omnivorous in the choice of resources; expansion of environmental conditions suitable for survival; embedding into existing ecotopes, reducing the originality of their ecological pyramids (cosmopolitans, \"weeds\")."
 						]
@@ -5976,13 +6035,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // ESE / LIE: +C - +Egalitarianism(Collectivism): Omnivorous in the choice of resources; expansion of environmental conditions suitable for survival; embedding into existing ecotopes, reducing the originality of their ecological pyramids (cosmopolitans, "weeds")
 			createCodeLabelArr(["ONPR","SNFR"], {
 				label: "Selective",
-				Danidin: "Most separation of exclusivity",
 				desc: [
 					"Squeamishness for low-quality resources.",
 					"Elitist, segregated nobility.",
 					"Adversion to what is \"lower\", sick or alien.",
 					{
-						Danidin: [
+						"Danidin - Most Separation of Exclusivity / Segregation of Nobility": [
 							"Elitism, irritation of discomfort, squeamishness for low quality resourses, aversion to the lower, alien and sick, indignation.",
 							"Selectivity in the choice of a resource; narrowing of environmental conditions suitable for survival; dependence on the native ecological pyramid, outside which his survival is impossible."
 						]
@@ -5990,27 +6048,25 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			}); // EIE / LSE: +E - +Elitism(Segregated Nobility): Selectivity in the choice of a resource; narrowing of environmental conditions suitable for survival; dependence on the native ecological pyramid, outside which his survival is impossible
 			createCodeLabelArr(["OCPA","SCFA"], {
-				label: "Resigning",//"Conservative",
-				Danidin: "Most acceptance of subordination",
+				label: "Resigning",
 				desc: [
 					"Obedience or resignation to majority opinion & authority.",
 					{
-						Danidin: [
+						"Danidin - Most Acceptance of Subordination / Acceptance of Submission": [
 							"Collectivism, obedience for majority opinion & all-recognized authorities, patience, resignation to fate, conservatism.",
-							"Stabilizing selection (conservative factor of evolution); strengthening the influence on the future of the species pre-existing collective genetic&cultural norms."
+							"Stabilizing selection (conservative factor of evolution); strengthening the influence on the future of the species pre-existing collective genetic & cultural norms."
 						]
 					}
 				]
 			}); // LSI / EII: +O - +Collectivism(Submission): Stabilizing selection (conservative factor of evolution); strengthening the influence on the future of the species pre-existing collective genetic&cultural norms
 			createCodeLabelArr(["OCFR","SCPR"], {
 				label: "Unequal",
-				Danidin: "Least acceptance of collaboration",
 				desc: [
 					"Detachment from others.",
 					"Desire for originality, prestige and specialness.",
 					"Denial of cooperation & egalitarianism.",
 					{
-						Danidin: [
+						"Danidin - Least Acceptance of Collaboration / Denial of Cooperation": [
 							"Detachment, doubts about one's essence, search for special ways and doing original works, desire for privilege for one's craftsmanship."
 						]
 					}
@@ -6018,12 +6074,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // IEI/SLI: -C -ELitism(Denial of +Egalitarianism(Cooperation)) 
 			createCodeLabelArr(["OCPR","SCFR"], {
 				label: "Parallelizing",
-				Danidin: "Least seperation of exclusivity",
 				desc: [
 					"Denial of segregated resources.",
 					"Having a strong stomach for things others look down on.",
 					{
-						Danidin: [
+						"Danidin - Least Seperation of Exclusivity / Denial of Nobility": [
 							"Universal acceptability, collaborationism - ready to use anything for survival, tolerance for human oddities, sins and any bodily dirt."
 						]
 					}
@@ -6032,13 +6087,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // SEI/ILI: -E -Egalitarianism(Denial of +Elitism(Segregated Nobility))
 			createCodeLabelArr(["ONPA","SNFA"], {
 				label: "Freeing",
-				Danidin: "Least acceptance of subordination",
 				desc: [
 					"Acting on one's own will and not on majority opinion.",
 					"Impatient and individualistic.",
 					"Denial of resignation to fate or submission to majority authority.",
 					{
-						Danidin: [
+						"Danidin - Least Acceptance of Subordination / Denial of Submission": [
 							"Nonconformism, impatience, acts contrary to the majority, individualism as a bright personal originality, reformist potential."
 						]
 					}
@@ -6046,12 +6100,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // ILE/SEE: -O -Individualism(Denial of +Collectivism(Submission))
 			createCodeLabelArr(["ONFA","SNPA"], {
 				label: "Recruiting",
-				Danidin: "Least seperation of independence",
 				desc: [
 					"Discouraging independence of thought or behaviour.",
-					"Herd instinct. Accepting corruption that keeps everyone stronger.",,
+					"Herd instinct. Accepting corruption that keeps everyone stronger.",
 					{
-						Danidin: [
+						"Danidin - Least Seperation of Independence / Denial of Individuality": [
 							"Herd instinct, patriotism & nationalism, any propaganda, pack bullying, approval of generally accepted corruption schemes."
 						]
 					}
@@ -6406,7 +6459,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							html += "</ul>";
 						} else if(a instanceof Object) {
 							for (const [key, value] of Object.entries(a)) {
-								html += "<div class='working-title clickable onClickWorkingTitle'>" + key + "</div>";
+								let onClick = "clickable onClickWorkingTitle";
+								if(value.length == 0) {
+									onClick = "";
+								}
+								html += "<div class='working-title " + onClick + "'>" + key + "</div>";
 								html += "<div class='working'>";
 									for(let i = 0; i < value.length; i++) {
 										writeDesc(value[i]);
@@ -6895,6 +6952,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						html += "<b>" + pairLabel.label + "</b><br />";
 						html += expandedCodes.toSorted().join(" ") + "<br />";
 						html += expandedCodes.toSorted().map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+						html += expandedCodes.toSorted().map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 					} else {
 						html += pairLabel.label + "<br />";
 					}
@@ -6939,7 +6997,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							
 							html += group.codes.map((x) => originalToFunctionCode(x[0])).join(" ") + "<br />";
 							html += group.attitudes.join(" ") + "<br />";
-							html += group.attitudes.map((x) => originalToFunctionCode(x)).join(" ");
+							html += group.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+							html += group.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 						}
 					html += "</div>";
 						
@@ -6965,7 +7024,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += dichotLeftLabel.codes.join(" ") + "<br />";
 								html += dichotLeftLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
 								html += d.left.attitudes.join(" ") + "<br />";
-								html += d.left.attitudes.map((x) => originalToFunctionCode(x)).join(" ");
+								html += d.left.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+								html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 							}
 						html += "</div>";
 						html += "<div class='dichotomy subtitle clickable " + d.right.attitudes.join(" ") + " onClickDichot' id='" + d.right.key + "'>";
@@ -6974,7 +7034,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += dichotRightLabel.codes.join(" ") + "<br />";
 								html += dichotRightLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
 								html += d.right.attitudes.join(" ") + "<br />";
-								html += d.right.attitudes.map((x) => originalToFunctionCode(x)).join(" ");
+								html += d.right.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+								html += d.right.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 							}
 						html += "</div>";
 					html += "</div>";
