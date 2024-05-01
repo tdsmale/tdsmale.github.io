@@ -279,6 +279,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			.tippy-box .main-body {
 				margin: 20px;
 				padding: 20px;
+				max-height: 800px;
+				overflow-y: scroll;
 			}
 			
 			.tippy-box {
@@ -386,6 +388,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		- figure out type/attitude picker (or at least make smaller on mobile)
 		- test on many browsers & devices
 		- finish all code label inputs (some are still blank)
+		- socionics labels
 		- upload
 		- permanent links (get vars...)
 		-->
@@ -428,6 +431,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		let dichots = {};
 		let tetras = {};
 		let octas = {};
+		let pairDichots = {};
 		let currentPopup = null;
 		
 		function addEvent(name, func) {
@@ -873,12 +877,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return groupTetraCodes(a[0], a[1], a[2], a[3]);
 		}
 		
-		function addCodeLabel(key, label) {
-			console.assert(!(key in codeLabels), key, label, codeLabels[key]);
-			codeLabels[key] = label;
+		function storeKeyInAttitudes(label, key, groupStr) {
+			for(let i = 0; i < label.expandedCodes.length; i++) {
+				let codeLabel = codeLabels[groupCode(label.expandedCodes[i])];
+				
+				if(!(groupStr in codeLabel)) {
+					codeLabel[groupStr] = [key];
+				} else {
+					codeLabel[groupStr].push(key);
+				}
+			}
 		}
 		
 		function createCodeLabelWithKey(key, codeArr, label) {
+			console.assert(!(key in codeLabels), key, label, codeLabels[key]);
 			let expandedCodes = expandCodesArr(codeArr).toSorted();
 			
 			label.binary = originalToBinaryCode(codeArr[0]);
@@ -893,7 +905,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label.expandedFuncs = expandedCodes.map((x) => originalToFunctionCode(x));
 			}
 			
-			addCodeLabel(key, label);
+			codeLabels[key] = label;
 		}
 		
 		function createCodeLabelArr(codeArr, label) {
@@ -928,10 +940,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					storeIn[key] = {key: key, left: {codes: dichotL, key: leftKey, attitudes: leftAttitudes}, right: {codes: dichotR, key: rightKey, attitudes: rightAttitudes}};
 				}
 			}
+			
+			if(label.expandedCodes.length > 0) {
+				storeKeyInAttitudes(label, key, "dichotomies");
+			}
 		}
 		
 		function createPairDichotLabel(dichotL, dichotR, label) {
-			createDichotLabel(dichotL, dichotR, label, null);
+			createDichotLabel(dichotL, dichotR, label, pairDichots);
 		}
 		
 		function createTetraLabel(a, b, c, d, label) {
@@ -950,6 +966,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let groups = [a, b, c, d].toSorted();
 				let expandedGroups = groups.map((x) => expandCodesArr(x));
 				tetras[key] = {key: key, groups: groups, expandedGroups: expandedGroups};
+			}
+			
+			if(label.expandedCodes.length > 0) {
+				storeKeyInAttitudes(label, key, "tetrachotomies");
 			}
 		}
 		
@@ -973,6 +993,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let groups = [a, b, c, d, e, f, g, h].toSorted();
 				let expandedGroups = groups.map((x) => expandCodesArr(x));
 				octas[key] = {key: key, groups: groups, expandedGroups: expandedGroups};
+			}
+			
+			if(label.expandedCodes.length > 0) {
+				storeKeyInAttitudes(label, key, "octachotomies");
 			}
 		}
 		
@@ -1178,7 +1202,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SCPR", {
 				label: "Affirming",
 				desc: [
-					"Observing a satisfying quality in things, recognising and reinforcing their inherent worth.",
+					"Observing a satisfying quality in things, recognising and reinforcing their inherent worth seperate from others.",
 					{
 						"Danidin & Romanov - Peaceful-Avoidance Strategy": [
 							 "Moving to the deep periphery and occupying a specialized ecological niche for which there are no more applicants."
@@ -7513,6 +7537,95 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					html += "</table>";
 				}
 				
+				if("dichotomies" in from) {
+					html += "<div class='working-title clickable onClickWorkingTitle'>Dichotomies</div>";
+					html += "<div class='working'>";
+						html += "<ul>";
+							for(let i = 0; i < from.dichotomies.length; i++) {
+								let dichot = dichots[from.dichotomies[i]];
+								if(dichot == undefined) {
+									dichot = pairDichots[from.dichotomies[i]];
+								}
+								
+								let dichotLabel = codeLabels[from.dichotomies[i]];
+								let leftLabel = codeLabels[dichot.left.key];
+								let rightLabel = codeLabels[dichot.right.key];
+								let chosenLabel = null;
+								
+								if(dichot.left.attitudes.includes(from.codes[0])) {
+									chosenLabel = leftLabel;
+								} else if(dichot.right.attitudes.includes(from.codes[0])) {
+									chosenLabel = rightLabel;
+								}
+								
+								console.assert(chosenLabel != null);
+								
+								let desc = chosenLabel.desc;
+								html += "<li>" + dichotLabel.label + ": " + chosenLabel.label;
+								if(desc != undefined) {
+									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+								}
+								html += "</li>";
+							}
+						html += "</ul>";
+					html += "</div>";
+				}
+				
+				if("tetrachotomies" in from) {
+					html += "<div class='working-title clickable onClickWorkingTitle'>Tetrachotomies</div>";
+					html += "<div class='working'>";
+						html += "<ul>";
+							for(let i = 0; i < from.tetrachotomies.length; i++) {
+								let tetra = tetras[from.tetrachotomies[i]];
+								let tetraLabel = codeLabels[from.tetrachotomies[i]];
+								let chosenLabel = null;
+								
+								for(let j = 0; j < tetra.expandedGroups.length; j++) {
+									if(tetra.expandedGroups[j].includes(from.codes[0])) {
+										chosenLabel = codeLabels[groupCodes(tetra.expandedGroups[j])];
+									}
+								}
+								
+								console.assert(chosenLabel != null);
+								
+								let desc = chosenLabel.desc;
+								html += "<li>" + tetraLabel.label + ": " + chosenLabel.label;
+								if(desc != undefined) {
+									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+								}
+								html += "</li>";
+							}
+						html += "</ul>";
+					html += "</div>";
+				}
+				
+				if("octachotomies" in from) {
+					html += "<div class='working-title clickable onClickWorkingTitle'>Octachotomies</div>";
+					html += "<div class='working'>";
+						html += "<ul>";
+							for(let i = 0; i < from.octachotomies.length; i++) {
+								let octa = octas[from.octachotomies[i]];
+								
+								let octaLabel = codeLabels[from.octachotomies[i]];
+								let chosenLabel = null;
+								
+								for(let j = 0; j < octa.expandedGroups.length; j++) {
+									if(octa.expandedGroups[j].includes(from.codes[0])) {
+										chosenLabel = codeLabels[groupCodes(octa.expandedGroups[j])];
+									}
+								}
+								
+								let desc = chosenLabel.desc;
+								html += "<li>" + octaLabel.label + ": " + chosenLabel.label;
+								if(desc != undefined) {
+									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+								}
+								html += "</li>";
+							}
+						html += "</ul>";
+					html += "</div>";
+				}
+				
 				html += "</div>";
 				
 				return html;
@@ -7530,7 +7643,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						maxWidth: 200000, 
 						arrow: false, 
 						interactive: true, 
-						boundary: "window",
+						boundary: "viewport",
 						appendTo: document.body,
 						onShown: function() {
 							currentPopup = popup;
