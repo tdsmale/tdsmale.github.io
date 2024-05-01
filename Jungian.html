@@ -877,14 +877,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return groupTetraCodes(a[0], a[1], a[2], a[3]);
 		}
 		
-		function storeKeyInAttitudes(label, key, groupStr) {
+		function storeKeyInAttitudes(label, groupStr) {
 			for(let i = 0; i < label.expandedCodes.length; i++) {
 				let codeLabel = codeLabels[groupCode(label.expandedCodes[i])];
 				
 				if(!(groupStr in codeLabel)) {
-					codeLabel[groupStr] = [key];
+					codeLabel[groupStr] = [label.key];
 				} else {
-					codeLabel[groupStr].push(key);
+					codeLabel[groupStr].push(label.key);
 				}
 			}
 		}
@@ -919,7 +919,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr([code], label);
 		}
 		
-		function createDichotLabel(dichotL, dichotR, label, storeIn=dichots) {
+		function createDichotLabelBase(dichotL, dichotR, label, storeIn) {
 			dichotL = dichotL.toSorted();
 			dichotR = dichotR.toSorted();
 			let key = groupDichotCodes(dichotL, dichotR);
@@ -940,14 +940,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					storeIn[key] = {key: key, left: {codes: dichotL, key: leftKey, attitudes: leftAttitudes}, right: {codes: dichotR, key: rightKey, attitudes: rightAttitudes}};
 				}
 			}
-			
-			if(label.expandedCodes.length > 0) {
-				storeKeyInAttitudes(label, key, "dichotomies");
-			}
+		}
+		
+		function createDichotLabel(dichotL, dichotR, label) {
+			createDichotLabelBase(dichotL, dichotR, label, dichots);
+			storeKeyInAttitudes(label, "dichotomies");
 		}
 		
 		function createPairDichotLabel(dichotL, dichotR, label) {
-			createDichotLabel(dichotL, dichotR, label, pairDichots);
+			createDichotLabelBase(dichotL, dichotR, label, pairDichots);
 		}
 		
 		function createTetraLabel(a, b, c, d, label) {
@@ -968,9 +969,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				tetras[key] = {key: key, groups: groups, expandedGroups: expandedGroups};
 			}
 			
-			if(label.expandedCodes.length > 0) {
-				storeKeyInAttitudes(label, key, "tetrachotomies");
-			}
+			storeKeyInAttitudes(label, "tetrachotomies");
 		}
 		
 		function createOctaLabel(a, b, c, d, e, f, g, h, label) {
@@ -995,9 +994,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				octas[key] = {key: key, groups: groups, expandedGroups: expandedGroups};
 			}
 			
-			if(label.expandedCodes.length > 0) {
-				storeKeyInAttitudes(label, key, "octachotomies");
-			}
+			storeKeyInAttitudes(label, "octachotomies");
 		}
 		
 		function printCodeLabel(...codes) {
@@ -7047,7 +7044,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCPA","SCFA"], {
 				label: "Resigning",
 				desc: [
-					"Obedience or resignation to majority opinion & authority.",
+					"Obedience, delegation or resignation to majority opinion & authority.",
 					{
 						"Danidin & Romanov - Most Acceptance of Subordination / Acceptance of Submission": [
 							"Collectivism, obedience for majority opinion & all-recognized authorities, patience, resignation to fate, conservatism.",
@@ -7577,6 +7574,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						html += "<ul>";
 							for(let i = 0; i < from.tetrachotomies.length; i++) {
 								let tetra = tetras[from.tetrachotomies[i]];
+								let expandedTetraName = null;
+								if(Array.isArray(tetra)) {
+									expandedTetraName = codeLabels[tetra[1]].label;
+									tetra = tetra[0];
+								}
 								let tetraLabel = codeLabels[from.tetrachotomies[i]];
 								let chosenLabel = null;
 								
@@ -7590,6 +7592,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								
 								let desc = chosenLabel.desc;
 								html += "<li>" + tetraLabel.label + ": " + chosenLabel.label;
+								if(expandedTetraName != null) {
+									html += " (" + expandedTetraName + ")";
+								}
+								
 								if(desc != undefined) {
 									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
 								}
