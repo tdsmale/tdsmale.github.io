@@ -93,6 +93,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				flex-flow: row wrap;
 				justify-content: center;
 				row-gap: 25px;
+				margin-bottom: 25px;
 			}
 			
 			div.ego-container, div.type-pair-groups-container {
@@ -7937,8 +7938,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 			
 			function onClickDichot(elem) {
-				let label = codeLabels[elem.id];
-				doPopup(elem, label);
+				for(let i = 0; i < elem.classList.length; i++) {
+					if(elem.classList[i].startsWith("key-")) {
+						let split = elem.classList[i].split("-");
+						let label = codeLabels[split[1]];
+						doPopup(elem, label);
+					}
+				}
 			}
 			
 			function onClickTetraTitle(elem) {
@@ -8013,6 +8019,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let shadow2Index = t[9];
 				
 				html += "<div id='" + name + "-model' class='type-model-container'>";
+					html += "<h2>" + name + " Model</h2>";
 					html += "<p>" + t[10] + "</p>";
 					function drawModelTable(polarity, egoIndex, parentalIndex, childishIndex, shadowIndex, egoName, parentalName, childishName, shadowName) {
 						html += "<div class='type-model'>";
@@ -8022,8 +8029,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							let parental = egos[parentalIndex];
 							let childish = egos[childishIndex];
 							let shadow = egos[shadowIndex];
-							
-							console.log(egos);
 							
 							html += "<div class='ego-container'>";
 								html += "<div class='ego'>";
@@ -8109,6 +8114,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "</div>";
 							html += "</div>";
 						html += "</div>";
+						
+					
+						let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
+						let dichotLabel = codeLabels[dichotKey];
+						
+						html += "<h2>" + name + " Categorization</h2>";
+						
+						html += "<div class='type-dichot-title title clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
 						
 						html += "<div class='type-pair-groups-container'>";
 							function drawPairTable(title, label1, attitude1, attitude2, label2, attitude3, attitude4) {
@@ -8240,7 +8253,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				html += "<div class='dichotomy-table'>";
 					html += "<div class='dichotomy-title title clickable onClickDichotTitle' id='" + dkey + "'>" + dichotName + "</div>";
 					html += "<div class='dichotomy-split'>";
-						html += "<div class='dichotomy subtitle clickable " + d.left.attitudes.join(" ") + " onClickDichot' id='" + d.left.key + "'>";
+						html += "<div class='dichotomy subtitle clickable " + d.left.attitudes.join(" ") + " onClickDichot key-" + d.left.key + "'>";
 							html += dichotLeftName + "<br />";
 							if(detailedTables) {
 								html += dichotLeftLabel.codes.join(" ") + "<br />";
@@ -8250,7 +8263,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 							}
 						html += "</div>";
-						html += "<div class='dichotomy subtitle clickable " + d.right.attitudes.join(" ") + " onClickDichot' id='" + d.right.key + "'>";
+						html += "<div class='dichotomy subtitle clickable " + d.right.attitudes.join(" ") + " onClickDichot key-" + d.right.key + "'>";
 							html += dichotRightName + "<br />";
 							if(detailedTables) {
 								html += dichotRightLabel.codes.join(" ") + "<br />";
