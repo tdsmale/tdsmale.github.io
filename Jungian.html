@@ -109,6 +109,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				margin-top: 25px;
 			}
 			
+			div.type-pair-groups-outer {
+				flex-grow: 1;
+			}
+			
+			div.type-pair-groups {
+				display: flex;
+			}
+			
 			div.type-pair-group {
 				flex-basis: 245px;
 				flex-grow: 1;
@@ -983,13 +991,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				if(key in storeIn) {
 					console.log("Duplicate dichotomy", key, storeIn[key]);
 				} else {
-				
 					let leftAttitudes = expandCodesArr(dichotL);
 					let rightAttitudes = expandCodesArr(dichotR);
 					let leftKey = groupCodes(leftAttitudes);
 					let rightKey = groupCodes(rightAttitudes);
 	
 					storeIn[key] = {key: key, left: {codes: dichotL, key: leftKey, attitudes: leftAttitudes}, right: {codes: dichotR, key: rightKey, attitudes: rightAttitudes}};
+					
+					let leftLabel = codeLabels[leftKey];
+					let rightLabel = codeLabels[rightKey];
+					
+					leftLabel.parentDichot = label;
+					rightLabel.parentDichot = label;
 				}
 			}
 		}
@@ -1019,6 +1032,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let groups = [a, b, c, d].toSorted();
 				let expandedGroups = groups.map((x) => expandCodesArr(x));
 				tetras[key] = {key: key, groups: groups, expandedGroups: expandedGroups};
+				
+				for(let i =0; i < expandedGroups.length; i++) {
+					let groupKey = groupCodes(expandedGroups[i]);
+					let groupLabel = codeLabels[groupKey];
+					groupLabel.parentTetra = label;
+				}
 			}
 			
 			storeKeyInAttitudes(label, "tetrachotomies");
@@ -1284,17 +1303,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 				
-			createDichotLabel(["Oxxx"], ["Sxxx"], {
-				label: "Rationality",
-				Socionics: "Constructivist & Emotivist",
-				desc: [
-					{
-						Danidin: [
-							"Depression - hopefulness, inertia of feelings - game of feelings;."
-						]
-					}
-				]
-			});
 			createCodeLabel("Sxxx", {
 				label: "Subjective",
 				Socionics: "Constructivist",
@@ -1325,18 +1333,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["xCxx"], ["xNxx"], {
-				label: "Judgement",
-				Socionics: "Introverted & Extroverted",
+			createDichotLabel(["Oxxx"], ["Sxxx"], {
+				label: "Rationality",
+				Socionics: "Constructivist & Emotivist",
 				desc: [
 					{
 						Danidin: [
-							"Extraversion - introversion, energy excess - energy lack (hyperthymia - dysthymia), initiative - waiting for someone else's initiative, love of risk - risk-aversion, sociability - seclusion, more quantity in work - more quality in work. The extraversion pole is characterized by predominance of the excitation reaction in higher nervous activity, and introversion pole - of the inhibition reaction."
+							"Depression - hopefulness, inertia of feelings - game of feelings;."
 						]
 					}
 				]
 			});
+			
 			createCodeLabel("xNxx", {
 				label: "Navigating",
 				Socionics: "Extroverted",
@@ -1367,18 +1375,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["xxFx"], ["xxPx"], {
-				label: "Temporality",
-				Socionics: "Intuition & Sensing",
+			createDichotLabel(["xCxx"], ["xNxx"], {
+				label: "Judgement",
+				Socionics: "Introverted & Extroverted",
 				desc: [
 					{
 						Danidin: [
-							"Imagination - sense, abstractness - concreteness, mentality - physicality. Imagination pole differs in wider perception filters (which allow more signals to pass through - both allowing to detect something useful or dangerous in advance, but also containing more errors of perception), and the sense pole - narrower perception filters (which allowing to better control movements of body and identify habitual signals environment). The extreme form of manifestation of the imagination pole is schizotypal personality disorder."
+							"Extraversion - introversion, energy excess - energy lack (hyperthymia - dysthymia), initiative - waiting for someone else's initiative, love of risk - risk-aversion, sociability - seclusion, more quantity in work - more quality in work. The extraversion pole is characterized by predominance of the excitation reaction in higher nervous activity, and introversion pole - of the inhibition reaction."
 						]
 					}
 				]
 			});
+			
 			createCodeLabel("xxFx", {
 				label: "Future",
 				Socionics: "Intuition",
@@ -1411,7 +1419,46 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
+			createDichotLabel(["xxFx"], ["xxPx"], {
+				label: "Temporality",
+				Socionics: "Intuition & Sensing",
+				desc: [
+					{
+						Danidin: [
+							"Imagination - sense, abstractness - concreteness, mentality - physicality. Imagination pole differs in wider perception filters (which allow more signals to pass through - both allowing to detect something useful or dangerous in advance, but also containing more errors of perception), and the sense pole - narrower perception filters (which allowing to better control movements of body and identify habitual signals environment). The extreme form of manifestation of the imagination pole is schizotypal personality disorder."
+						]
+					}
+				]
+			});
 			
+			createCodeLabel("xxxR", {
+				label: "Reflective",
+				Socionics: "Dynamic",
+				desc: [
+					"Detaching from external processes.",
+					"Adjusts to change.",
+					"Perceives reality as saturated with events.",
+					{
+						"Danidin & Romanov - Dynamics": [
+							"Meeting current needs through the transformation and exchange of resources; adjustment to someone else's will."
+						]
+					}
+				]
+			});
+			createCodeLabel("xxxA", {
+				label: "Activating",
+				Socionics: "Static",
+				desc: [
+					"Engaging with external processes.",
+					"Defends against change.",
+					"Perceives reality as full of distinct objects.",
+					{
+						"Danidin & Romanov - Statics": [
+							"Realization of abilities (unchangeable essence) through volitional defense of beliefs; self-sufficiency (“and there is only one warrior in the field”)."
+						]
+					}
+				]
+			});
 			createDichotLabel(["xxxA"], ["xxxR"], {
 				label: "Perception",
 				Socionics: "Static vs Dynamic",
@@ -1452,46 +1499,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			createCodeLabel("xxxR", {
-				label: "Reflective",
-				Socionics: "Dynamic",
-				desc: [
-					"Detaching from external processes.",
-					"Adjusts to change.",
-					"Perceives reality as saturated with events.",
-					{
-						"Danidin & Romanov - Dynamics": [
-							"Meeting current needs through the transformation and exchange of resources; adjustment to someone else's will."
-						]
-					}
-				]
-			});
-			createCodeLabel("xxxA", {
-				label: "Activating",
-				Socionics: "Static",
-				desc: [
-					"Engaging with external processes.",
-					"Defends against change.",
-					"Perceives reality as full of distinct objects.",
-					{
-						"Danidin & Romanov - Statics": [
-							"Realization of abilities (unchangeable essence) through volitional defense of beliefs; self-sufficiency (“and there is only one warrior in the field”)."
-						]
-					}
-				]
-			});
 			
-			createDichotLabel(["OCxx", "SNxx"], ["ONxx", "SCxx"], {
-				label: "Understanding",
-				desc: [
-					{
-						Danidin: [
-							"Universal meanings - private goals, universalisation - specialisation (in the sense: proximity to the root causes of Being and the most powerful existential experiences associated with them, or distance from these root causes to a specialized state where random and insignificant details dominate); romanticism - pragmatism, inspiration & comprehension - sanity & stylization."
-						]
-					}
-				]
-				
-			});
 			createCodeLabelArr(["OCxx","SNxx"], {
 				label: "Narrational",
 				Socionics: "Merry",
@@ -1548,42 +1556,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["OxPx","SxFx"], ["OxFx","SxPx"], {
-				label: "Process",
+			createDichotLabel(["OCxx", "SNxx"], ["ONxx", "SCxx"], {
+				label: "Understanding",
 				desc: [
 					{
-						"Victor Gulenko": [
-							"In its most general form, I understand this dichotomy as ProcessResult; or by its other informal name, RightLeft. More precisely, I refer to the designated Latin words ‘evolutio': “developing outward” and ‘involutio': “coalescing inward.”",
-							"Intellectual Level",
-							"Describing EvolutionInvolution at this level will initially contrast deductive vs. inductive thinking. Unfortunately, the bulk of literature on this cognitive dichotomy treats it in at least two different senses. In the first sense, deduction is understood simply as a strict formal sequence or expository progression of thought (aka Socionics rationality), while induction is understood as conclusions stemming from practical experience (aka Socionics irrationality).",
-							"I will frame this dichotomy in the second sense, namely as simplification vs. complication of thought structure. Meaning that in deductive thinking, given a set of simple and obvious statements (axioms, postulates), the resultant consequences can be necessarily derived (theorem). Reasoning flows in the direction of simple to complex. Evolutionary types therefore mentally complicate the situation.",
-							"In inductive thinking reasoning proceeds the other way around. Observing and comprehending complex phenomena, inductive thinking reduces them to generalized diagrams and models stripped of details. Involutionary types break down and simplify the situation in order to understand it. Reasoning flows in reverse order from complex to simple.",
-							"The EvolutionInvolution dichotomy confers different scales of examination in a problem. Evolutionary types see small to large. Details are distinct. Scale is specific and precise like geographical map. Involutionary types on the other hand, see large to small. Details are vague. Scale is general and broad. The scale will alternate in Negativists, since they think more alternatively, but the same priority will remain.",
-							"It is worth noting that deductive thinking has always had priority in society over inductive thinking. Constructing a deductively consistent theory to explain a phenomenon, has always been seen as a researcher's coup de grace.",
-							"Social Level",
-							"On the social level, differences between these approaches can be contrasted as naturality/artificiality. By ‘naturality' I refer to primal behavior inherent to nature, and by ‘artificiality' I refer to behavior accepted by society. For example, in nature, survival of the fittest is law, whereas in society, protection and care of the weak is cultivated.",
-							"From this stems distinctions in one's attitudes towards people in close or distant circles. In the life of Evolutionary types, reputation plays a much greater role. Opinions of others in external society tend to be more important to them than opinions of friends or relatives. Involutionary types depend less on social appraisal. They are more accommodating towards people of their inner circle, whose opinions they hold in higher esteem than those of public approval or disapproval.",
-							"There is a habit in Involutionary types to abruptly curtail conversations. They do not simply cut off communication, but specifically wind it up, quickly finish, or summarize what has been said. They may also suddenly deflect onto tangents, then flip back to the topic at hand. Evolutionary types may interpret this mannerism as a sign of tactlessness, disinterest, or resentment.",
-							"Psychological Level",
-							"EvolutionInvolution, along with other dichotomies, influences a key parameter of stress in the psyche: Control of asymmetry in the excitatory/inhibitory processes of the nervous system.",
-							"Evolutionary types recover more slowly from stress than Involutionary types. Their inhibitory processes are less amenable to conscious control than their excitatory processes, hence their tendency to dwell on personal issues. After being pulled in by any process, they are often unable to get out of it. Which can lead to gambling, drug use, alcoholism, or other vices, even Internet-addiction.",
-							"Consequently, susceptibility to conditioning is higher in Evolutionary types than in Involutionary types. Conditioned responses require movement along a single path, without possibility of turning around or deviating from the imposed route. One of the inhibitory mechanisms of conditioning is phobia (obsessive fear). Imagine not being able to rid yourself of thinking you will definitely fall on a slippery road. This is an example of a phobia. And then you actually do end up falling, even if wearing mountain-climbing boots. According to my observations, Involutionary types do not seriously suffer such phobias.",
-							"Thus, Involutionary types more rapidly and less painfully get rid of illusions, imposed opinions, suggested thoughts, fanatic states, etc. It is because of EvolutionInvolution differences that quadras are split rings of social progress are formed.",
-							"Physical Level",
-							"The EvolutionInvolution dichotomy manifests on the lower level of communication through an orientation towards either process or result.",
-							"Evolutionary types are more inclined to procedure, which involves careful study of details. They are subject to the logic of the development process, which assumes motion from beginning to end and top to bottom.",
-							"Involutionary types rush to obtain a result, frequently neglecting details of the process, which reduces overall quality. Such behavioral patterns lead to a tolerant attitude towards returns and corrections. They don't mind accepting suboptimal, but convenient solutions. They are characterized by backward motion, from end to beginning and from bottom to top.",
-							"Let me illustrate this by an example of reading books. Glancing immediately at the end or bottom part of the page is characteristic for Involutionary types. Reading in reverse order does not deprive them pleasure of novelty, on the contrary, it stimulates their activity in assimilating information. Involution shouldn't be confused merely with impatient skimming ahead, after which one continues smooth reading.",
-							"Sharpness of movement is observed in Involutionary types, along with sporadic shifting from one activity to another. These sudden shifts overtly contrast to the smoothness of Evolutionary types. In traditional Socionics, sharp movements are attributed to Rationality. In my opinion, however, this quality is more determined by Involution. For counterexample, consider the Evolutionary Rational types LSI and EII, whose motions are characteristically soft and smooth. Yet the nature of movement in Involutionary Irrationals SLE and IEE is so sharp that training them smooth movement is practically impossible.",
-							"To clarify the fundamental distinction between Involution and Evolution, the following analogy will help. In biology, catabolism and anabolism are the two sides of organic metabolism. Catabolismthe breakdown of complex compounds to release energy and the elimination of decay products from the organismcorresponds to the role of Involutionary types in group dynamics. Anabolismthe assimilation from the external environment of substances necessary for life and their transformation into more complex compoundscorresponds to the communicative role played by Evolutionary behavior."
-						],
 						Danidin: [
-							"Complication - simplification, politicized - apolitical."
+							"Universal meanings - private goals, universalisation - specialisation (in the sense: proximity to the root causes of Being and the most powerful existential experiences associated with them, or distance from these root causes to a specialized state where random and insignificant details dominate); romanticism - pragmatism, inspiration & comprehension - sanity & stylization."
 						]
 					}
 				]
+				
 			});
+			
 			createCodeLabelArr(["OxPx","SxFx"], {
 				label: "Complicating",
 				Socionics: "Process",
@@ -1620,17 +1604,42 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["OxxR","SxxA"], ["OxxA","SxxR"], {
-				label: "Attention",
+			createDichotLabel(["OxPx","SxFx"], ["OxFx","SxPx"], {
+				label: "Process",
 				desc: [
 					{
+						"Victor Gulenko": [
+							"In its most general form, I understand this dichotomy as ProcessResult; or by its other informal name, RightLeft. More precisely, I refer to the designated Latin words ‘evolutio': “developing outward” and ‘involutio': “coalescing inward.”",
+							"Intellectual Level",
+							"Describing EvolutionInvolution at this level will initially contrast deductive vs. inductive thinking. Unfortunately, the bulk of literature on this cognitive dichotomy treats it in at least two different senses. In the first sense, deduction is understood simply as a strict formal sequence or expository progression of thought (aka Socionics rationality), while induction is understood as conclusions stemming from practical experience (aka Socionics irrationality).",
+							"I will frame this dichotomy in the second sense, namely as simplification vs. complication of thought structure. Meaning that in deductive thinking, given a set of simple and obvious statements (axioms, postulates), the resultant consequences can be necessarily derived (theorem). Reasoning flows in the direction of simple to complex. Evolutionary types therefore mentally complicate the situation.",
+							"In inductive thinking reasoning proceeds the other way around. Observing and comprehending complex phenomena, inductive thinking reduces them to generalized diagrams and models stripped of details. Involutionary types break down and simplify the situation in order to understand it. Reasoning flows in reverse order from complex to simple.",
+							"The EvolutionInvolution dichotomy confers different scales of examination in a problem. Evolutionary types see small to large. Details are distinct. Scale is specific and precise like geographical map. Involutionary types on the other hand, see large to small. Details are vague. Scale is general and broad. The scale will alternate in Negativists, since they think more alternatively, but the same priority will remain.",
+							"It is worth noting that deductive thinking has always had priority in society over inductive thinking. Constructing a deductively consistent theory to explain a phenomenon, has always been seen as a researcher's coup de grace.",
+							"Social Level",
+							"On the social level, differences between these approaches can be contrasted as naturality/artificiality. By ‘naturality' I refer to primal behavior inherent to nature, and by ‘artificiality' I refer to behavior accepted by society. For example, in nature, survival of the fittest is law, whereas in society, protection and care of the weak is cultivated.",
+							"From this stems distinctions in one's attitudes towards people in close or distant circles. In the life of Evolutionary types, reputation plays a much greater role. Opinions of others in external society tend to be more important to them than opinions of friends or relatives. Involutionary types depend less on social appraisal. They are more accommodating towards people of their inner circle, whose opinions they hold in higher esteem than those of public approval or disapproval.",
+							"There is a habit in Involutionary types to abruptly curtail conversations. They do not simply cut off communication, but specifically wind it up, quickly finish, or summarize what has been said. They may also suddenly deflect onto tangents, then flip back to the topic at hand. Evolutionary types may interpret this mannerism as a sign of tactlessness, disinterest, or resentment.",
+							"Psychological Level",
+							"EvolutionInvolution, along with other dichotomies, influences a key parameter of stress in the psyche: Control of asymmetry in the excitatory/inhibitory processes of the nervous system.",
+							"Evolutionary types recover more slowly from stress than Involutionary types. Their inhibitory processes are less amenable to conscious control than their excitatory processes, hence their tendency to dwell on personal issues. After being pulled in by any process, they are often unable to get out of it. Which can lead to gambling, drug use, alcoholism, or other vices, even Internet-addiction.",
+							"Consequently, susceptibility to conditioning is higher in Evolutionary types than in Involutionary types. Conditioned responses require movement along a single path, without possibility of turning around or deviating from the imposed route. One of the inhibitory mechanisms of conditioning is phobia (obsessive fear). Imagine not being able to rid yourself of thinking you will definitely fall on a slippery road. This is an example of a phobia. And then you actually do end up falling, even if wearing mountain-climbing boots. According to my observations, Involutionary types do not seriously suffer such phobias.",
+							"Thus, Involutionary types more rapidly and less painfully get rid of illusions, imposed opinions, suggested thoughts, fanatic states, etc. It is because of EvolutionInvolution differences that quadras are split rings of social progress are formed.",
+							"Physical Level",
+							"The EvolutionInvolution dichotomy manifests on the lower level of communication through an orientation towards either process or result.",
+							"Evolutionary types are more inclined to procedure, which involves careful study of details. They are subject to the logic of the development process, which assumes motion from beginning to end and top to bottom.",
+							"Involutionary types rush to obtain a result, frequently neglecting details of the process, which reduces overall quality. Such behavioral patterns lead to a tolerant attitude towards returns and corrections. They don't mind accepting suboptimal, but convenient solutions. They are characterized by backward motion, from end to beginning and from bottom to top.",
+							"Let me illustrate this by an example of reading books. Glancing immediately at the end or bottom part of the page is characteristic for Involutionary types. Reading in reverse order does not deprive them pleasure of novelty, on the contrary, it stimulates their activity in assimilating information. Involution shouldn't be confused merely with impatient skimming ahead, after which one continues smooth reading.",
+							"Sharpness of movement is observed in Involutionary types, along with sporadic shifting from one activity to another. These sudden shifts overtly contrast to the smoothness of Evolutionary types. In traditional Socionics, sharp movements are attributed to Rationality. In my opinion, however, this quality is more determined by Involution. For counterexample, consider the Evolutionary Rational types LSI and EII, whose motions are characteristically soft and smooth. Yet the nature of movement in Involutionary Irrationals SLE and IEE is so sharp that training them smooth movement is practically impossible.",
+							"To clarify the fundamental distinction between Involution and Evolution, the following analogy will help. In biology, catabolism and anabolism are the two sides of organic metabolism. Catabolismthe breakdown of complex compounds to release energy and the elimination of decay products from the organismcorresponds to the role of Involutionary types in group dynamics. Anabolismthe assimilation from the external environment of substances necessary for life and their transformation into more complex compoundscorresponds to the communicative role played by Evolutionary behavior."
+						],
 						Danidin: [
-							"Naivety - sophistication: unambiguity - multidimensionality, shows the face - hide real face behind a masks."
+							"Complication - simplification, politicized - apolitical."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["OxxR","SxxA"], {
 				label: "Flexible",//"Pliable",
 				Socionics: "Yielding",
@@ -1661,17 +1670,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["xNPx","xCFx"], ["xCPx","xNFx"], {
-				label: "Approach",
+			createDichotLabel(["OxxR","SxxA"], ["OxxA","SxxR"], {
+				label: "Attention",
 				desc: [
 					{
 						Danidin: [
-							"Fielddependence - fieldindependence: delegation of control for surrounding society - personal control of situation, likes a predictable environment - ready for radical changes if himself decides so."
+							"Naivety - sophistication: unambiguity - multidimensionality, shows the face - hide real face behind a masks."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["xNPx","xCFx"], {
 				label: "Prepared",
 				Socionics: "Farsighted",
@@ -1698,20 +1707,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			const enhancingKeyArr = ["xxFA","xxPR"];
-			const collapsingKeyArr = ["xxFR","xxPA"];
-			
-			createDichotLabel(enhancingKeyArr, collapsingKeyArr, {
-				label: "Direction",
+			createDichotLabel(["xNPx","xCFx"], ["xCPx","xNFx"], {
+				label: "Approach",
 				desc: [
 					{
 						Danidin: [
-							"Peacefulness - rivalness, altruism - selfishness, kindness - evil intent, giving away - usurpation, relaxation - escalation, care - parasitism. The rivalness pole is characterized by a higher level of endorphin release in response to stress, which in some cases can lead to a special search and provocation for stress factors (endorphins addiction)link. Rivalness pole a correlates with traits of the dark triad (machiavellianismlink, antisocial psychopathylink, narcissismlink)."
+							"Fielddependence - fieldindependence: delegation of control for surrounding society - personal control of situation, likes a predictable environment - ready for radical changes if himself decides so."
 						]
 					}
 				]
 			});
+			
+			const enhancingKeyArr = ["xxFA","xxPR"];
+			const collapsingKeyArr = ["xxFR","xxPA"];
+			
 			createCodeLabelArr(enhancingKeyArr, {
 				label: "Enhancing",
 				Socionics: "Judicious",
@@ -1770,20 +1779,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			const enhancingLabel = codeLabels[groupCodes(enhancingKeyArr)];
-			const collapsingLabel = codeLabels[groupCodes(collapsingKeyArr)];
-			
-			createDichotLabel(["xNxA","xCxR"], ["xCxA","xNxR"], {
-				label: "State",
+			createDichotLabel(enhancingKeyArr, collapsingKeyArr, {
+				label: "Direction",
 				desc: [
 					{
 						Danidin: [
-							 "Perception - judgment, spontaneity - control, improvisation - planning, free style - self-discipline. The control pole is characterized by higher activity of the frontal lobes of the neocortex, and spontaneity pole, on the contrary, by a deficit of frontal neocortical activity (which can be caused by a variety of reasons)link. The extreme form of manifestation of the control pole is anankast (obsessive-compulsive) personality disorderlink."
+							"Peacefulness - rivalness, altruism - selfishness, kindness - evil intent, giving away - usurpation, relaxation - escalation, care - parasitism. The rivalness pole is characterized by a higher level of endorphin release in response to stress, which in some cases can lead to a special search and provocation for stress factors (endorphins addiction)link. Rivalness pole a correlates with traits of the dark triad (machiavellianismlink, antisocial psychopathylink, narcissismlink)."
 						]
 					}
 				]
 			});
+			
+			const enhancingLabel = codeLabels[groupCodes(enhancingKeyArr)];
+			const collapsingLabel = codeLabels[groupCodes(collapsingKeyArr)];
+			
 			createCodeLabelArr(["xNxA","xCxR"], {
 				label: "Labile",
 				Socionics: "Irrational",
@@ -1808,17 +1817,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["OCxR","ONxA","SCxA","SNxR"], ["OCxA","ONxR","SCxR","SNxA"], {
-				label: "Reasoning",
+			createDichotLabel(["xNxA","xCxR"], ["xCxA","xNxR"], {
+				label: "State",
 				desc: [
 					{
 						Danidin: [
-							"\"Thinking - feeling\", orientation to objects - to subjects, formal logic - cognitive empathy, calculation - suggestion (incl. autosuggestion). Suggestion pole is characterized by a more generalized excitation of the nervous system, and calculation pole is more local (the functioning of the brain is more like a computer). The extreme forms of manifestation of the calculation pole is schizoid personality disorder and antisocial personality disorder. Histrionic personality disorder contains features of the suggestion pole."
+							 "Perception - judgment, spontaneity - control, improvisation - planning, free style - self-discipline. The control pole is characterized by higher activity of the frontal lobes of the neocortex, and spontaneity pole, on the contrary, by a deficit of frontal neocortical activity (which can be caused by a variety of reasons)link. The extreme form of manifestation of the control pole is anankast (obsessive-compulsive) personality disorderlink."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["OCxR","ONxA","SCxA","SNxR"], {
 				label:"Persuasive",
 				Socionics: "Ethics",
@@ -1849,36 +1858,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); 
-			
-			createDichotLabel(["OxFR","OxPA","SxFA","SxPR"], ["OxFA","OxPR","SxFR","SxPA"], {
-				label: "Perspective",
+			createDichotLabel(["OCxR","ONxA","SCxA","SNxR"], ["OCxA","ONxR","SCxR","SNxA"], {
+				label: "Reasoning",
 				desc: [
 					{
-						"Victor Gulenko": [
-							"Positivism I understand as the tendency to maximize the positive, Negativism as the tendency to minimize the negative. Positivists primarily perceive the positive side of any phenomenon, and often turn a blind eye to the negative. Negativists won't overlook problems, and simultaneously mitigate any positive aspects to their situation of interest.",
-							"Intellectual Level",
-							"At this level, the PositivismNegativism dichotomy manifests as identification of similarities or differences in object comparison. In Negativists thought processes prevails contrast, in Positivists leads comparison. Meaning that Positivists more easily hold overall views of an object, without considering its internal divisions. Conversely, Negativists more easily distinguish its extreme points of separation and opposing contrasts.",
-							"Directly relevant to this is a dichotomy known in cognitive psychology as convergent/divergent thinking [5], discovered by J. P. Guilford. In his opinion, divergent thinking, from simple initial data, yields several different solutions to the same problem; a trait characteristic to the alternative-thinking of Negativists.",
-							"Opposite this, convergent thinking searches for a single valid encompassing solution; a trait more characteristic to Positivist thinking. For them, a problem is unsolved until the validity of one solution is proven against other alternatives.",
-							"Social Level",
-							"PositivismNegativism affects the degree of internal group coherence and regulates attraction/repulsion between its members.",
-							"An individual's ability to assimilate into a group is typologically predictable. Negativists are remote types. They need constant assurance, even in a group they consider their own. Therefore it is more difficult to fully integrate Negativists into a group. Positivists on the other hand, are inclined to close range communication. They do not polarize contrasts, but smooth them over in one way or another. Thus Positivists facilitate monocentric group structure and unity of purpose. Whereas Negativists amplify polarizing forces conducive to polycentric group structure.",
-							"Consider the example of SEI, a fairly good-natured type, although Negativist. Is there a behavioral tendency towards remoteness? Yes, it contrasts its subgroup with other subgroups. Thereby disrupting, unintentionally or not, unity of purpose in the whole group overall.",
-							"What process balances internal group cohesion? It is observed that Positivists are drawn towards their opposite, which contributes to overall group solidarity, particularly through the ease of intragroup role distribution. Negativists on the other hand, have an inherent paradoxical attraction to those similar to themselves. The nearer such parallel charged elements converge, however, it becomes increasingly difficult to implement mutual action. Repulsive forces rapidly emerge and fracture group integration.",
-							"The overall incidence of monolithic or polarized group behavior is a reliable index for gauging PositivistNegativist tendencies. Negativism generates tension in intragroup relations, leading on one hand to an increase in psychological distance between members, but on the other hand activating its internal momentum to say “Move!”. Positivism by contrast contracts psychological distance and encourages internal group cohesion, but can also bring complacency, carelessness, and ‘vapidity' of existence.",
-							"Psychological Level",
-							"In a psychological sense, this dichotomy can be approximately interpreted as trust/distrust.",
-							"Each type of person behaves in life according to how they answer the following existential question: is human nature inherently good or evil? For Positivists, human nature is inherently good, so they are more likely to be trusting. This does not mean that they consciously consider themselves to be good, just that they conduct themselves as if others were. Negativists even under favorable conditions are inclined to expect the worst. Their degree of trust in others is therefore is much lower.",
-							"The relation between Positivists and Negativists is illustrated well by the analogy of electric conductors. Electric-people (Negativists who have accumulated a negative psychological charge) discharge into conductor-people (Positivists), who tend to provoke them in just the right way to do so. All of which happens mostly automatically and unconsciously. The resulting emotional flash establishing temporary balance of psychological (electro-)potentials. This beneficial surge of emotional release, Aristotle in his “Poetics” called ‘catharsis'psychological purging via intense experience.",
-							"Physical Level",
-							"The spatial arrangement of conversation parties in front or near is a key factor in communication, its importance first stressed by Harry S. Sullivan. Negativists gain leverage in communication from positions opposite the partner, Positivists from positions alongside or at an angle deflecting a straight-on gaze.",
-							"Automatic reductions in confrontation due to being seated side by side, are a common method used by marital psychologists working with couples. Sitting side by side and addressing an imaginary third party, enables couples to gradually decrease the severity of sore conflict.",
-							"Clinical psychologists studying nonverbal cues classify gestures indicative of critical attitudes. Such gestures are typically ‘closed'for instance, a hand at the mouth. From a Socionics standpoint then, closed demeanor is better explained by Negativism, not Introversion.",
-							"Negativism induces tangible bodily tension. Negativists are inclined to accumulate ‘charge', making highly-charged Negativists easily overexcitable (especially if also Dynamic). In order to compensate against this, Negativists are recommended to engage in physical exercise that relaxes and smooths internal tension. While Positivists are recommended to perform physical exercise that excites and intensifies their physiological processes."
+						Danidin: [
+							"\"Thinking - feeling\", orientation to objects - to subjects, formal logic - cognitive empathy, calculation - suggestion (incl. autosuggestion). Suggestion pole is characterized by a more generalized excitation of the nervous system, and calculation pole is more local (the functioning of the brain is more like a computer). The extreme forms of manifestation of the calculation pole is schizoid personality disorder and antisocial personality disorder. Histrionic personality disorder contains features of the suggestion pole."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["OxFR","OxPA","SxFA","SxPR"], {
 				label:"Cohering",
 				Socionics: "Positivist",
@@ -1909,17 +1899,36 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); 
-			
-			createDichotLabel(["xCFA","xCPR","xNFR","xNPA"], ["xCFR","xCPA","xNFA","xNPR"], {
-				label: "Goals",
+			createDichotLabel(["OxFR","OxPA","SxFA","SxPR"], ["OxFA","OxPR","SxFR","SxPA"], {
+				label: "Perspective",
 				desc: [
 					{
-						Danidin: [
-							"Ornamentalism - symbolism: work at details - understanding the whole, sublimating desires in social games - the desire to quickly satisfy the basic need."
+						"Victor Gulenko": [
+							"Positivism I understand as the tendency to maximize the positive, Negativism as the tendency to minimize the negative. Positivists primarily perceive the positive side of any phenomenon, and often turn a blind eye to the negative. Negativists won't overlook problems, and simultaneously mitigate any positive aspects to their situation of interest.",
+							"Intellectual Level",
+							"At this level, the PositivismNegativism dichotomy manifests as identification of similarities or differences in object comparison. In Negativists thought processes prevails contrast, in Positivists leads comparison. Meaning that Positivists more easily hold overall views of an object, without considering its internal divisions. Conversely, Negativists more easily distinguish its extreme points of separation and opposing contrasts.",
+							"Directly relevant to this is a dichotomy known in cognitive psychology as convergent/divergent thinking [5], discovered by J. P. Guilford. In his opinion, divergent thinking, from simple initial data, yields several different solutions to the same problem; a trait characteristic to the alternative-thinking of Negativists.",
+							"Opposite this, convergent thinking searches for a single valid encompassing solution; a trait more characteristic to Positivist thinking. For them, a problem is unsolved until the validity of one solution is proven against other alternatives.",
+							"Social Level",
+							"PositivismNegativism affects the degree of internal group coherence and regulates attraction/repulsion between its members.",
+							"An individual's ability to assimilate into a group is typologically predictable. Negativists are remote types. They need constant assurance, even in a group they consider their own. Therefore it is more difficult to fully integrate Negativists into a group. Positivists on the other hand, are inclined to close range communication. They do not polarize contrasts, but smooth them over in one way or another. Thus Positivists facilitate monocentric group structure and unity of purpose. Whereas Negativists amplify polarizing forces conducive to polycentric group structure.",
+							"Consider the example of SEI, a fairly good-natured type, although Negativist. Is there a behavioral tendency towards remoteness? Yes, it contrasts its subgroup with other subgroups. Thereby disrupting, unintentionally or not, unity of purpose in the whole group overall.",
+							"What process balances internal group cohesion? It is observed that Positivists are drawn towards their opposite, which contributes to overall group solidarity, particularly through the ease of intragroup role distribution. Negativists on the other hand, have an inherent paradoxical attraction to those similar to themselves. The nearer such parallel charged elements converge, however, it becomes increasingly difficult to implement mutual action. Repulsive forces rapidly emerge and fracture group integration.",
+							"The overall incidence of monolithic or polarized group behavior is a reliable index for gauging PositivistNegativist tendencies. Negativism generates tension in intragroup relations, leading on one hand to an increase in psychological distance between members, but on the other hand activating its internal momentum to say “Move!”. Positivism by contrast contracts psychological distance and encourages internal group cohesion, but can also bring complacency, carelessness, and ‘vapidity' of existence.",
+							"Psychological Level",
+							"In a psychological sense, this dichotomy can be approximately interpreted as trust/distrust.",
+							"Each type of person behaves in life according to how they answer the following existential question: is human nature inherently good or evil? For Positivists, human nature is inherently good, so they are more likely to be trusting. This does not mean that they consciously consider themselves to be good, just that they conduct themselves as if others were. Negativists even under favorable conditions are inclined to expect the worst. Their degree of trust in others is therefore is much lower.",
+							"The relation between Positivists and Negativists is illustrated well by the analogy of electric conductors. Electric-people (Negativists who have accumulated a negative psychological charge) discharge into conductor-people (Positivists), who tend to provoke them in just the right way to do so. All of which happens mostly automatically and unconsciously. The resulting emotional flash establishing temporary balance of psychological (electro-)potentials. This beneficial surge of emotional release, Aristotle in his “Poetics” called ‘catharsis'psychological purging via intense experience.",
+							"Physical Level",
+							"The spatial arrangement of conversation parties in front or near is a key factor in communication, its importance first stressed by Harry S. Sullivan. Negativists gain leverage in communication from positions opposite the partner, Positivists from positions alongside or at an angle deflecting a straight-on gaze.",
+							"Automatic reductions in confrontation due to being seated side by side, are a common method used by marital psychologists working with couples. Sitting side by side and addressing an imaginary third party, enables couples to gradually decrease the severity of sore conflict.",
+							"Clinical psychologists studying nonverbal cues classify gestures indicative of critical attitudes. Such gestures are typically ‘closed'for instance, a hand at the mouth. From a Socionics standpoint then, closed demeanor is better explained by Negativism, not Introversion.",
+							"Negativism induces tangible bodily tension. Negativists are inclined to accumulate ‘charge', making highly-charged Negativists easily overexcitable (especially if also Dynamic). In order to compensate against this, Negativists are recommended to engage in physical exercise that relaxes and smooths internal tension. While Positivists are recommended to perform physical exercise that excites and intensifies their physiological processes."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["xCFA","xCPR","xNFR","xNPA"], {
 				label:"Limiting",
 				Socionics: "Strategic",
@@ -1944,17 +1953,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createDichotLabel(["SNPx","OCPx","ONFx","SCFx"], ["SNFx","SCPx","ONPx","OCFx"], {
-				label: "Communication",
+			createDichotLabel(["xCFA","xCPR","xNFR","xNPA"], ["xCFR","xCPA","xNFA","xNPR"], {
+				label: "Goals",
 				desc: [
 					{
 						Danidin: [
-							"Separatness - acceptance (of unity): divergention - convergention, irritation - patience, disgust - indiscrimination, distancing from someone else's - accepting someone else's, creation of the original - competition of copies, personal uniqueness - mainstream (unity of commoners). Belonging to the separateness pole is associated with a narrower area of the personally permissible (such that everything that falls outside the boundaries of this area is rejected). Probably, acceptance pole is largely characterized by increased vasopressin activity in the central nervous system."
+							"Ornamentalism - symbolism: work at details - understanding the whole, sublimating desires in social games - the desire to quickly satisfy the basic need."
 						]
 					}
 				]
 			});
+			
 			createCodeLabelArr(["SNPx","OCPx","ONFx","SCFx"], {
 				label: "Declarative",
 				Socionics: "Declaring",
@@ -1991,20 +2000,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-	
-			const hierarchalKeyArr = ["OCFR","OCPA","ONFA","ONPR","SCFA","SCPR","SNFR","SNPA"];
-			const atomisticKeyArr = ["OCFA","OCPR","ONFR","ONPA","SCFR","SCPA","SNFA","SNPR"];
-			
-			createDichotLabel(hierarchalKeyArr, atomisticKeyArr, {
-				label: "Values",
+			createDichotLabel(["SNPx","OCPx","ONFx","SCFx"], ["SNFx","SCPx","ONPx","OCFx"], {
+				label: "Communication",
 				desc: [
 					{
 						Danidin: [
-							"Liberalism - pathernalism, individualism & democracy - collectivism & elitism, cosmopolitanism - xenophobia, focusing on society's future (progressism) - focusing on society's past (conservatism)."
+							"Separatness - acceptance (of unity): divergention - convergention, irritation - patience, disgust - indiscrimination, distancing from someone else's - accepting someone else's, creation of the original - competition of copies, personal uniqueness - mainstream (unity of commoners). Belonging to the separateness pole is associated with a narrower area of the personally permissible (such that everything that falls outside the boundaries of this area is rejected). Probably, acceptance pole is largely characterized by increased vasopressin activity in the central nervous system."
 						]
 					}
 				]
 			});
+	
+			const hierarchalKeyArr = ["OCFR","OCPA","ONFA","ONPR","SCFA","SCPR","SNFR","SNPA"];
+			const atomisticKeyArr = ["OCFA","OCPR","ONFR","ONPA","SCFR","SCPA","SNFA","SNPR"];
+			
 			createCodeLabelArr(hierarchalKeyArr, {
 				label:"Hierarchal",
 				Socionics: "Aristocratic",
@@ -2047,13 +2056,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
+			createDichotLabel(hierarchalKeyArr, atomisticKeyArr, {
+				label: "Values",
+				desc: [
+					{
+						Danidin: [
+							"Liberalism - pathernalism, individualism & democracy - collectivism & elitism, cosmopolitanism - xenophobia, focusing on society's future (progressism) - focusing on society's past (conservatism)."
+						]
+					}
+				]
+			});
 			
 			const hierarchalLabel = codeLabels[groupCodes(hierarchalKeyArr)];
 			const atomisticLabel = codeLabels[groupCodes(atomisticKeyArr)];
 			
 			// Tetrachotomies
-			
-			
 			
 			// symbiosis
 			const commensalKeyArr = ["ONFA","ONPR","SCFA","SCPR"];
@@ -2061,16 +2078,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			const mutualKeyArr = ["OCFA","OCPR","SNFA","SNPR"];
 			const competitiveKeyArr = ["ONFR","ONPA","SCFR","SCPA"];
 			
-			createTetraLabel(commensalKeyArr, parasiticalKeyArr, mutualKeyArr, competitiveKeyArr, {
-				label: "Symbiosis",
-				Socionics: "Quadras",
-				desc: [
-					{
-						"Socionics - Quadras": [],
-						"Mironov - Social self-organization": []
-					}
-				]
-			});
 			createCodeLabelArr(commensalKeyArr, {
 				label: "Commensal",
 				Socionics: "Delta",
@@ -2958,27 +2965,22 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
+			createTetraLabel(commensalKeyArr, parasiticalKeyArr, mutualKeyArr, competitiveKeyArr, {
+				label: "Symbiosis",
+				Socionics: "Quadras",
+				desc: [
+					{
+						"Socionics - Quadras": [],
+						"Mironov - Social self-organization": []
+					}
+				]
+			});
 			
 			const commensalLabel = codeLabels[groupCodes(commensalKeyArr)];
 			const parasiticalLabel = codeLabels[groupCodes(parasiticalKeyArr)];
 			const mutualLabel = codeLabels[groupCodes(mutualKeyArr)];
 			const competitiveLabel = codeLabels[groupCodes(competitiveKeyArr)];
 			
-			
-			
-			createTetraLabel(["xxFA"], ["xxFR"], ["xxPA"], ["xxPR"], {
-				label: "Disposition",
-				Socionics: "Irrational Elements",
-				desc: [
-					{
-						"Victor Gulenko - Romance Styles": [
-							"“\"Romance styles\" refer specifically to romantic/sexual interaction -- displaying physical attraction, interest, and desire, flirting, and sexual behavior present in romantic relationships. These styles apply much less to relationships between friends or business partners.”"
-						],
-						"Mironov: Identification-Elements": [],
-						"Danidin & Talanov - Psychoanalytic Groups": []
-					}
-				]
-			});
 			createCodeLabel("xxFR", {
 				label: "Implosive",
 				Socionics: "Introverted Intuition",
@@ -3439,18 +3441,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createTetraLabel(["OCxx"], ["ONxx"], ["SCxx"], ["SNxx"], {
-				label: "Argumentation",
-				Socionics: "Rational Elements",
+			createTetraLabel(["xxFA"], ["xxFR"], ["xxPA"], ["xxPR"], {
+				label: "Disposition",
+				Socionics: "Irrational Elements",
 				desc: [
 					{
-						"Miranov - Emotional Experience": [],
-						"Socionics - Rational Elements": [],
-						"Danidin & Romanov - Value Shades of Vertity-1": []
+						"Victor Gulenko - Romance Styles": [
+							"“\"Romance styles\" refer specifically to romantic/sexual interaction -- displaying physical attraction, interest, and desire, flirting, and sexual behavior present in romantic relationships. These styles apply much less to relationships between friends or business partners.”"
+						],
+						"Mironov: Identification-Elements": [],
+						"Danidin & Talanov - Psychoanalytic Groups": []
 					}
 				]
 			});
+			
 			createCodeLabel("SNxx", {
 				label: "Social",
 				Socionics: "Extroverted Ethics",
@@ -3640,28 +3644,23 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
+			createTetraLabel(["OCxx"], ["ONxx"], ["SCxx"], ["SNxx"], {
+				label: "Argumentation",
+				Socionics: "Rational Elements",
+				desc: [
+					{
+						"Miranov - Emotional Experience": [],
+						"Socionics - Rational Elements": [],
+						"Danidin & Romanov - Value Shades of Vertity-1": []
+					}
+				]
+			});
 			
 			// clubs
 			const researchingKeyArr = ["OCFA","ONFR","SCFR","SNFA"];
 			const organizingKeyArr = ["OCPA","ONPR","SCPR","SNPA"];
 			const humanitarianKeyArr = ["OCFR","ONFA","SCFA","SNFR"];
 			const consumingKeyArr = ["OCPR","ONPA","SCPA","SNPR"];
-			
-			createTetraLabel(researchingKeyArr, organizingKeyArr, humanitarianKeyArr, consumingKeyArr, {
-				label: "Clubs",
-				desc: [
-					{
-						Lytov: [
-							"“The \"Clubs\" (the term proposed by Gregory Reinin and Aushra Augusta), or \"occupational mindsets\" (the term proposed by Victor Gulenko) are groups of 4 sociotypes united by coincidence of the criteria \"intuition—sensing\" and \"logic—ethic\" (or \"thinking—feeling\", according to Jung). From my experience I can judge that the \"club\" is often easy to determine even in very superficial communication, because they manifest very well in people's conscious activities, in their preference of choosing certain methods of action or even occupations.”"
-						],
-						"Gregory Reinin and Aushra Augusta - Clubs": [],
-						"Victor Gulenko - Occupational Mindsets": [],
-						"Danidin & Romanov - Clubs": [],
-						"Mironov - Sexual strategies": []
-					}
-				]
-			});
 			
 			createCodeLabelArr(researchingKeyArr, {
 				label: "Researching",
@@ -3779,21 +3778,26 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // SF Socialites
+			createTetraLabel(researchingKeyArr, organizingKeyArr, humanitarianKeyArr, consumingKeyArr, {
+				label: "Clubs",
+				desc: [
+					{
+						Lytov: [
+							"“The \"Clubs\" (the term proposed by Gregory Reinin and Aushra Augusta), or \"occupational mindsets\" (the term proposed by Victor Gulenko) are groups of 4 sociotypes united by coincidence of the criteria \"intuition—sensing\" and \"logic—ethic\" (or \"thinking—feeling\", according to Jung). From my experience I can judge that the \"club\" is often easy to determine even in very superficial communication, because they manifest very well in people's conscious activities, in their preference of choosing certain methods of action or even occupations.”"
+						],
+						"Gregory Reinin and Aushra Augusta - Clubs": [],
+						"Victor Gulenko - Occupational Mindsets": [],
+						"Danidin & Romanov - Clubs": [],
+						"Mironov - Sexual strategies": []
+					}
+				]
+			});
 			
 			const researchingLabel = codeLabels[groupCodes(researchingKeyArr)];
 			const organizingLabel = codeLabels[groupCodes(organizingKeyArr)];
 			const humanitarianLabel = codeLabels[groupCodes(humanitarianKeyArr)];
 			const consumingLabel = codeLabels[groupCodes(consumingKeyArr)];
 			
-			createTetraLabel(["xCxA"], ["xCxR"], ["xNxA"], ["xNxR"], {
-				label: "Temperament",
-				desc: [
-					{
-						"Victor Gulenko - Temperament": [],
-						"Miranov - Perception Matrix": []
-					}
-				]
-			});
 			createCodeLabel("xNxA", {
 				label: "Adopting",
 				desc: [
@@ -3982,20 +3986,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createTetraLabel(["xCPx"], ["xCFx"], ["xNFx"], ["xNPx"], {
-				label: "Incentive",
+			createTetraLabel(["xCxA"], ["xCxR"], ["xNxA"], ["xNxR"], {
+				label: "Temperament",
 				desc: [
 					{
-						"Victor Gulenko - Stimulus Seeking": [
-							"In the socion one can distinguish 4 stimulus groups, within which sociotypes are motivated in a similar way.",
-							"These groups are formed when the socion is divided into four parts by the extra / introversion axis and sensory / intuition."
-						],
-						"Danidin & Romanov - Stimuli (\"Maps\" in Symbolic Socionics)": [],
-						"Mironov - Materialization of ideas ": []
+						"Victor Gulenko - Temperament": [],
+						"Miranov - Perception Matrix": []
 					}
 				]
 			});
+			
 			createCodeLabel("xNPx", {
 				label: "Prestigious",
 				desc: [
@@ -4097,19 +4097,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				],
 			});
-			
-			// cognition
-			createTetraLabel(["SxFR","OxPR"], ["SxPR","OxFR"], ["SxPA","OxFA"], ["SxFA","OxPA"], {
-				label: "Cognition",
+			createTetraLabel(["xCPx"], ["xCFx"], ["xNFx"], ["xNPx"], {
+				label: "Incentive",
 				desc: [
 					{
-						"Victor Gulenko - Cognition Styles": [
-							"“The manifestations of three dichotomies: Static-Dynamic, Positivism-Negativism, and Evolution-Involution; examined on four levels: intellectual, social, psychological, and physical. From these dichotomies are identified the cognitive styles corresponding to Sociotypes. The features of Causal-Determinist, Dialectical-Algorithmic, Holographical-Panoramic, and Vortical-Synergetic forms of cognition are described. Also explored is their formative influence on modern philosophical paradigms and the special role of Supervision rings in societal transmission of information.”"
+						"Victor Gulenko - Stimulus Seeking": [
+							"In the socion one can distinguish 4 stimulus groups, within which sociotypes are motivated in a similar way.",
+							"These groups are formed when the socion is divided into four parts by the extra / introversion axis and sensory / intuition."
 						],
-						"Mironov - Formation of the situation": []
+						"Danidin & Romanov - Stimuli (\"Maps\" in Symbolic Socionics)": [],
+						"Mironov - Materialization of ideas ": []
 					}
 				]
 			});
+			
+			// cognition
 			createCodeLabelArr(["SxFR","OxPR"], {
 				label: "Dialectical",
 				desc: [
@@ -4253,16 +4255,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			createTetraLabel(["SNxA","OCxA"], ["SCxR","ONxR"], ["OCxR","SNxR"], ["SCxA","ONxA"], {
-				label: "Action",
+			createTetraLabel(["SxFR","OxPR"], ["SxPR","OxFR"], ["SxPA","OxFA"], ["SxFA","OxPA"], {
+				label: "Cognition",
 				desc: [
 					{
-						"Mironov - Practical Knowledge": [],
-						"Danidin & Romanov - Forms of Action (Groups of Rational Functions)": []
+						"Victor Gulenko - Cognition Styles": [
+							"“The manifestations of three dichotomies: Static-Dynamic, Positivism-Negativism, and Evolution-Involution; examined on four levels: intellectual, social, psychological, and physical. From these dichotomies are identified the cognitive styles corresponding to Sociotypes. The features of Causal-Determinist, Dialectical-Algorithmic, Holographical-Panoramic, and Vortical-Synergetic forms of cognition are described. Also explored is their formative influence on modern philosophical paradigms and the special role of Supervision rings in societal transmission of information.”"
+						],
+						"Mironov - Formation of the situation": []
 					}
 				]
 			});
+			
 			createCodeLabelArr(["SNxA","OCxA"], {
 				label: "Systemic",
 				desc: [
@@ -4488,22 +4492,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			
-			// results
-			createTetraLabel(["OCPx","SCFx"], ["ONFx","SNPx"], ["OCFx","SCPx"], ["ONPx","SNFx"], {
-				label: "Results",
+			createTetraLabel(["SNxA","OCxA"], ["SCxR","ONxR"], ["OCxR","SNxR"], ["SCxA","ONxA"], {
+				label: "Action",
 				desc: [
 					{
-						"Victor Gulenko - Rings of Benefit": [
-							"“These groups are demonstratively of energetic character. Latin word iflatio means \"bulging, swelling\". With the use of these groups, socion is filled with energy. This is why these groups are unstable, short-lived. They overfill quickly if there isn't an outside force capable of containing the spill of energy. Mechanism of relations of social order (benefit) has a lot in common with the act of hypnosis - the act of benefactor on the subconscious of the beneficiary. Energy is transferred directly only if benefactor (sender) is able to somehow relax the beneficiary (receiver) and predispose him to the benefactor. With consciously critical attitude on the part of the beneficiary, the energy impulse is not transmitted. It is either blocked or even reversed, bringing into effect reverse order - a destructive process when emotional get heated causing a breakdown in the system. Information in this system undergoes inflation - it is devalued if not put into circulation immediately. The basis of the differences between inflation (benefit) rings lies in the way energy and information get used. Energy corresponds to extraversion, but also left progress. Similarly, information is tied with introversion, but also with the right progress.”"
-						],
-						"Linda Berens - Interaction Styles": [],
-						"Danidin & Romanov - Roles in the Quadra": [],
-						"Mironov -  Forms of communication": []
+						"Mironov - Practical Knowledge": [],
+						"Danidin & Romanov - Forms of Action (Groups of Rational Functions)": []
 					}
 				]
 			});
+			
+			// results
 			createCodeLabelArr(["OCPx","SCFx"], {
 				label: "Focusing",
 				desc: [
@@ -4576,18 +4575,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // in-charge (get a result) (Succeeding)
-			
-			// means
-			createTetraLabel(["OCFA","OCPA","SCFR","SCPR"], ["OCFR","OCPR","SCFA","SCPA"], ["ONFA","ONPA","SNFR","SNPR"], ["ONFR","ONPR","SNFA","SNPA"], {
-				label: "Means",
+			createTetraLabel(["OCPx","SCFx"], ["ONFx","SNPx"], ["OCFx","SCPx"], ["ONPx","SNFx"], {
+				label: "Results",
 				desc: [
 					{
-						"Victor Gulenko - Communication Style": [],
-						"Danidin & Romanov - Communication Styles": [],
-						"Mironov - Social problems": []
+						"Victor Gulenko - Rings of Benefit": [
+							"“These groups are demonstratively of energetic character. Latin word iflatio means \"bulging, swelling\". With the use of these groups, socion is filled with energy. This is why these groups are unstable, short-lived. They overfill quickly if there isn't an outside force capable of containing the spill of energy. Mechanism of relations of social order (benefit) has a lot in common with the act of hypnosis - the act of benefactor on the subconscious of the beneficiary. Energy is transferred directly only if benefactor (sender) is able to somehow relax the beneficiary (receiver) and predispose him to the benefactor. With consciously critical attitude on the part of the beneficiary, the energy impulse is not transmitted. It is either blocked or even reversed, bringing into effect reverse order - a destructive process when emotional get heated causing a breakdown in the system. Information in this system undergoes inflation - it is devalued if not put into circulation immediately. The basis of the differences between inflation (benefit) rings lies in the way energy and information get used. Energy corresponds to extraversion, but also left progress. Similarly, information is tied with introversion, but also with the right progress.”"
+						],
+						"Linda Berens - Interaction Styles": [],
+						"Danidin & Romanov - Roles in the Quadra": [],
+						"Mironov -  Forms of communication": []
 					}
 				]
 			});
+			
+			// means
 			createCodeLabelArr(["OCFA","OCPA","SCFR","SCPR"], {
 				label: "Sowing",
 				desc: [
@@ -4674,18 +4676,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // feeding off the land, providing for others (Business-like)
-			
-			// role
-			createTetraLabel(["SCFx","ONFx"], ["SNPx","OCPx"], ["SNFx","OCFx"], ["SCPx","ONPx"], {
-				label: "Role",
+			createTetraLabel(["OCFA","OCPA","SCFR","SCPR"], ["OCFR","OCPR","SCFA","SCPA"], ["ONFA","ONPA","SNFR","SNPR"], ["ONFR","ONPR","SNFA","SNPA"], {
+				label: "Means",
 				desc: [
 					{
-						"Danidin & Talanov - Economic Role": [],
-						"Mironov - Forms of self-expression": []
+						"Victor Gulenko - Communication Style": [],
+						"Danidin & Romanov - Communication Styles": [],
+						"Mironov - Social problems": []
 					}
 				]
 			});
 			
+			// role
 			createCodeLabelArr(["SNPx","OCPx"], {
 				label: "Mining",
 				desc: [
@@ -4743,18 +4745,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				],
 			});
-			
-			createTetraLabel(["OxFx"], ["OxPx"], ["SxFx"], ["SxPx"], {
-				label: "Projection",
+			createTetraLabel(["SCFx","ONFx"], ["SNPx","OCPx"], ["SNFx","OCFx"], ["SCPx","ONPx"], {
+				label: "Role",
 				desc: [
 					{
-						"Victor Gulenko - Project Groups": [
-							"“Projection is attribution by the subject of own properties and states to external objects. Projection requires, first of all, understanding of the problem and setting of the goals. Compilation of projects as the next step in this process means development of course of action. In practical psychology there are so-called projective tests that are usually made up of pictures. Traits that are most projective are intuition and sensing as well as left-ness and right-ness. Intuition shows itself in the measure of unconventionality of the picture of the subject, while right process manifests itself in selection of important details.”"
-						],
-						"Mironov - Creations of reality": []
+						"Danidin & Talanov - Economic Role": [],
+						"Mironov - Forms of self-expression": []
 					}
 				]
 			});
+			
 			createCodeLabel("OxPx", {
 				label: "Precise",
 				desc: [
@@ -4808,18 +4808,19 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// interaction
-			createTetraLabel(["xCFA","xCPR"], ["xNFR","xNPA"], ["xNFA","xNPR"], ["xCFR","xCPA"], {
-				label: "Interaction",
+			createTetraLabel(["OxFx"], ["OxPx"], ["SxFx"], ["SxPx"], {
+				label: "Projection",
 				desc: [
 					{
-						"Danidin & Talanov - Societal Interaction": [],
-						"Danidin & Romanov - Value Shades of Vertity-2": [],
-						"Mironov - Fulfillment of dreams": []
+						"Victor Gulenko - Project Groups": [
+							"“Projection is attribution by the subject of own properties and states to external objects. Projection requires, first of all, understanding of the problem and setting of the goals. Compilation of projects as the next step in this process means development of course of action. In practical psychology there are so-called projective tests that are usually made up of pictures. Traits that are most projective are intuition and sensing as well as left-ness and right-ness. Intuition shows itself in the measure of unconventionality of the picture of the subject, while right process manifests itself in selection of important details.”"
+						],
+						"Mironov - Creations of reality": []
 					}
 				]
 			});
+			
+			// interaction
 			createCodeLabelArr(["xCFA","xCPR"], {
 				label: "Peaceful",
 				desc: [
@@ -4872,21 +4873,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// power
-			createTetraLabel(["xCPA","xNFR"], ["xCPR","xNFA"], ["xCFR","xNPA"], ["xCFA","xNPR"], {
-				label: "Power",
+			createTetraLabel(["xCFA","xCPR"], ["xNFR","xNPA"], ["xNFA","xNPR"], ["xCFR","xCPA"], {
+				label: "Interaction",
 				desc: [
 					{
-						"Danidin & Talanov - Planning Styles": [],
-						"F. Schecter and L. Kobrin - Squares/Relaxation Groups": [
-							"“A homogeneous group of 4 people. Presents the relationship of semi-complement, kindred and complement. Square - the most suitable group for joint recreation. Relationships in this group are calm, unstressed. To establish contact does not need to make great efforts. Communication is in a leisurely, calm, measured rhythm. You can relax. There are no theoretical disputes in this group. Practical problems are quickly solved. If everyone is silent, the tension, as in the \"ring of control\", is not felt. This is a relaxation group. Staying in this four gives you the opportunity to have a good rest and rejuvenate. The study of the possibility of practical application of the group properties considered here should be carried out with psychologists, sociologists, and physicians. The properties of other holistic groups are now being studied. In conclusion, we can add that modern social psychology, having introduced into its arsenal a wide range of such microgrids with all the stable diversity of their properties, gets the opportunity for a new effective approach to the problem of purposeful formation of teams in various spheres of human activity.”"
-						],
-						"Danidin & Romanov - Value Squares": [],
-						"Mironov - Finding solutions": []
+						"Danidin & Talanov - Societal Interaction": [],
+						"Danidin & Romanov - Value Shades of Vertity-2": [],
+						"Mironov - Fulfillment of dreams": []
 					}
 				]
 			});
+			
+			// power
 			createCodeLabelArr(["xCPA","xNFR"], {
 				label: "Occupying",
 				desc: [
@@ -4947,19 +4945,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			
-			// expectations
-			createTetraLabel(["SCFR","OCPR","SNPR","ONFR"], ["SNFR","ONPR","SCPR","OCFR"], ["SNFA","ONPA","SCPA","OCFA"], ["SCFA","OCPA","SNPA","ONFA"], {
-				label: "Expectations",
+			createTetraLabel(["xCPA","xNFR"], ["xCPR","xNFA"], ["xCFR","xNPA"], ["xCFA","xNPR"], {
+				label: "Power",
 				desc: [
 					{
-						"Danidin & Talanov - Quest Diminutive Function Groups": [],
-						"Danidin & Romanov - Groups of Questim-Declatim Functions": [],
-						"Mironov - Role Behaviour": []
+						"Danidin & Talanov - Planning Styles": [],
+						"F. Schecter and L. Kobrin - Squares/Relaxation Groups": [
+							"“A homogeneous group of 4 people. Presents the relationship of semi-complement, kindred and complement. Square - the most suitable group for joint recreation. Relationships in this group are calm, unstressed. To establish contact does not need to make great efforts. Communication is in a leisurely, calm, measured rhythm. You can relax. There are no theoretical disputes in this group. Practical problems are quickly solved. If everyone is silent, the tension, as in the \"ring of control\", is not felt. This is a relaxation group. Staying in this four gives you the opportunity to have a good rest and rejuvenate. The study of the possibility of practical application of the group properties considered here should be carried out with psychologists, sociologists, and physicians. The properties of other holistic groups are now being studied. In conclusion, we can add that modern social psychology, having introduced into its arsenal a wide range of such microgrids with all the stable diversity of their properties, gets the opportunity for a new effective approach to the problem of purposeful formation of teams in various spheres of human activity.”"
+						],
+						"Danidin & Romanov - Value Squares": [],
+						"Mironov - Finding solutions": []
 					}
 				]
 			});
+			
+			// expectations
 			createCodeLabelArr(["SCFR","OCPR","SNPR","ONFR"], {
 				label: "Willful",
 				desc: [
@@ -5028,21 +5028,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // (Emphasises social expectations, stereotypical & reductive)
-			
-			// luck
-			createTetraLabel(["SNFR","ONPR","SCPA","OCFA"], ["SCFA","OCPA","SNPR","ONFR"], ["SNFA","ONPA","SCPR","OCFR"], ["SCFR","OCPR","SNPA","ONFA"], {
-				label: "Luck",
+			createTetraLabel(["SCFR","OCPR","SNPR","ONFR"], ["SNFR","ONPR","SCPR","OCFR"], ["SNFA","ONPA","SCPA","OCFA"], ["SCFA","OCPA","SNPA","ONFA"], {
+				label: "Expectations",
 				desc: [
 					{
-						"Varlawend and Gulenko - Club Displacement": [
-							"“Gulenko hasn't named the group as far as I know, but he discovered that when types enter an installation adjacent to their own (e.g. Researcher enters a Humanitarian field or Pragmatist field, Pragmatist enters a Research or Social field, etc.), they behave similarly to their Semi-Dual and Mirage type (depending on which installation). The reason that this happens is that one shares Asking/Declaring, Positivist/Negativist and Rational/Irrational with the Semi-Dual and Mirage, and changing one's pole in those dichotomies costs too much energy to sustain. \"Club Displacement\" is my name for this. It is possible to have brief shifts to the Beneficiary and Benefactor, for example, but since they differ in Rationality and Positivist/Negativist, it can't be sustained. To use my own type as an example: ILI's are naturally Researchers (Intuitive/Logical). However, when ILI's have to work in a Pragmatist field (Sensing/Logical), then it is natural for them to take up the authoritarian, centralized methods of a Marshal (SLE), finding weakness and eliminating them. Similarly, when ILI's work in a Humanitarian (Intuitive/Ethical) field, it is natural for them to turn the commonplace upside down and advise people out of difficult life situations like an IEE. To be clear, the type never changes; it's just an altered state of behavior where one type mimics the other types in their \"club displacement\" group.”"
-						],
-						"Danidin & Talanov - Worldview Groups": [],
-						"Danidin & Romanov - inertia groups of questimno-declatim functions": [],
-						"Mironov - Achieving success": []
+						"Danidin & Talanov - Quest Diminutive Function Groups": [],
+						"Danidin & Romanov - Groups of Questim-Declatim Functions": [],
+						"Mironov - Role Behaviour": []
 					}
 				]
 			});
+			
+			// luck
 			createCodeLabelArr(["SNFR","ONPR","SCPA","OCFA"], {
 				label: "Defensive",
 				desc: [
@@ -5114,20 +5111,21 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // Simple Evil World (Underestimates Success) (No one gives it to you) (Seizure)
-			
-			// opportunities
-			createTetraLabel(["xCFA","xNFR"], ["xCPR","xNPA"], ["xCFR","xNFA"], ["xCPA","xNPR"], {
-				label: "Opportunities",
+			createTetraLabel(["SNFR","ONPR","SCPA","OCFA"], ["SCFA","OCPA","SNPR","ONFR"], ["SNFA","ONPA","SCPR","OCFR"], ["SCFR","OCPR","SNPA","ONFA"], {
+				label: "Luck",
 				desc: [
 					{
-						"Victor Gulenko - Perceptual Groups": [
-							"“Intersecting orthogonally, the socionic axes “sensory-intuition” and “rationality-irrationality”, which we examined, form four groups of perception.”"
+						"Varlawend and Gulenko - Club Displacement": [
+							"“Gulenko hasn't named the group as far as I know, but he discovered that when types enter an installation adjacent to their own (e.g. Researcher enters a Humanitarian field or Pragmatist field, Pragmatist enters a Research or Social field, etc.), they behave similarly to their Semi-Dual and Mirage type (depending on which installation). The reason that this happens is that one shares Asking/Declaring, Positivist/Negativist and Rational/Irrational with the Semi-Dual and Mirage, and changing one's pole in those dichotomies costs too much energy to sustain. \"Club Displacement\" is my name for this. It is possible to have brief shifts to the Beneficiary and Benefactor, for example, but since they differ in Rationality and Positivist/Negativist, it can't be sustained. To use my own type as an example: ILI's are naturally Researchers (Intuitive/Logical). However, when ILI's have to work in a Pragmatist field (Sensing/Logical), then it is natural for them to take up the authoritarian, centralized methods of a Marshal (SLE), finding weakness and eliminating them. Similarly, when ILI's work in a Humanitarian (Intuitive/Ethical) field, it is natural for them to turn the commonplace upside down and advise people out of difficult life situations like an IEE. To be clear, the type never changes; it's just an altered state of behavior where one type mimics the other types in their \"club displacement\" group.”"
 						],
-						"Danidin & Romanov - Inertia Groups of Irrational Functions": [],
-						"Mironov -  Goal setting group": []
+						"Danidin & Talanov - Worldview Groups": [],
+						"Danidin & Romanov - inertia groups of questimno-declatim functions": [],
+						"Mironov - Achieving success": []
 					}
 				]
 			});
+			
+			// opportunities
 			createCodeLabelArr(["xCFA","xNFR"], {
 				label: "Abstinent",
 				desc: [
@@ -5193,20 +5191,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// spirit
-			createTetraLabel(["SNPA","ONFR","SCFR","OCPA"], ["SCFA","OCPR","SNPR","ONFA"], ["SNFA","ONPR","SCPR","OCFA"], ["SCPA","OCFR","SNFR","ONPA"], {
-				label: "Spirit",
+			createTetraLabel(["xCFA","xNFR"], ["xCPR","xNPA"], ["xCFR","xNFA"], ["xCPA","xNPR"], {
+				label: "Opportunities",
 				desc: [
 					{
-						"Danidin & Talanov - Spheres of Self-Realization": [
-							"“Due to the significant correlation of the poles of intuition and questiness, sensation and deklatimimosti, as well as centrality and collectivism, peripherality and individualism, the properties of the spheres of self-realization partially overlap with the properties of psychoanalytic groups . Namely, due to such secondary interconnections, caring-infantile additions in alpha and aggressors - victimas in beta appear more clearly, whereas in descending boxes, many types contain separate features of the complementary psychoanalytic group.”"
+						"Victor Gulenko - Perceptual Groups": [
+							"“Intersecting orthogonally, the socionic axes “sensory-intuition” and “rationality-irrationality”, which we examined, form four groups of perception.”"
 						],
-						"Danidin & Romanov - Spheres of Self-Realization": [],
-						"Mironov -  Personal awareness": []
+						"Danidin & Romanov - Inertia Groups of Irrational Functions": [],
+						"Mironov -  Goal setting group": []
 					}
 				]
 			});
+			
+			// spirit
 			createCodeLabelArr(["SNPA","ONFR","SCFR","OCPA"], {
 				label: "Ruthless",
 				desc: [
@@ -5267,20 +5265,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// constraints
-			createTetraLabel(["SNFA","SCPR","SCFR","SNPA"], ["OCFA","ONPR","ONFR","OCPA"], ["SCFA","SNPR","SNFR","SCPA"], ["ONFA","OCPR","OCFR","ONPA"], {
-				label: "Constraints",
+			createTetraLabel(["SNPA","ONFR","SCFR","OCPA"], ["SCFA","OCPR","SNPR","ONFA"], ["SNFA","ONPR","SCPR","OCFA"], ["SCPA","OCFR","SNFR","ONPA"], {
+				label: "Spirit",
 				desc: [
 					{
-						"Victor Gulenko - Argumentative Groups": [
-							"“Argumentative groups are formed by splitting a socion into four parts by two Jung axes - “rationality-irrationality” and “logic-ethics”. It is these socionic scales that are directly involved in the formation of judgments and argumentation of conclusions.”"
+						"Danidin & Talanov - Spheres of Self-Realization": [
+							"“Due to the significant correlation of the poles of intuition and questiness, sensation and deklatimimosti, as well as centrality and collectivism, peripherality and individualism, the properties of the spheres of self-realization partially overlap with the properties of psychoanalytic groups . Namely, due to such secondary interconnections, caring-infantile additions in alpha and aggressors - victimas in beta appear more clearly, whereas in descending boxes, many types contain separate features of the complementary psychoanalytic group.”"
 						],
-						"Danidin & Romanov - Styles of Argumentation": [],
-						"Mironov -   Group norms": []
+						"Danidin & Romanov - Spheres of Self-Realization": [],
+						"Mironov -  Personal awareness": []
 					}
 				]
 			});
+			
+			// constraints
 			createCodeLabelArr(["SNFA","SCPR","SCFR","SNPA"], {
 				label: "Unstructured",
 				desc: [
@@ -5337,22 +5335,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // (adapatable use of time)
-			
-			// dynamic
-			createTetraLabel(["OCFR","OCPA","SCFA","SCPR"], ["ONFA","ONPR","SNFR","SNPA"], ["OCFA","OCPR","SCFR","SCPA"], ["ONFR","ONPA","SNFA","SNPR"], {
-				label: "Dynamic",
+			createTetraLabel(["SNFA","SCPR","SCFR","SNPA"], ["OCFA","ONPR","ONFR","OCPA"], ["SCFA","SNPR","SNFR","SCPA"], ["ONFA","OCPR","OCFR","ONPA"], {
+				label: "Constraints",
 				desc: [
 					{
-						"F. Schecter and L. Kobrin - Mobilization Groups": [
-							"“A homogeneous group of 4 people. The relations of activation, quasi-identities and superego are presented. Introvert or extraverted group. Gradually, communication acquires a certain rhythm. In an introverted group, the situation is calmer. Communication is abrupt, but intense. One topic replaces another, but there is always completeness. Dispute is always resolved quickly. The combination of the squares does not occur, that is, each relationship does not appear individually. In joint actions, each has its own role and responsibilities. Mutual aid Misunderstandings, if they arise, are resolved quickly. The atmosphere is businesslike, even jokes have a business tone. The group quickly comes to a method of joint action, finds a practical solution. In contrast to the \"club\" there are no long theoretical discussions. The question is raised and immediately resolved. After some time, there is a need for rest, since the intensity of communication is great. Rest individual.”"
+						"Victor Gulenko - Argumentative Groups": [
+							"“Argumentative groups are formed by splitting a socion into four parts by two Jung axes - “rationality-irrationality” and “logic-ethics”. It is these socionic scales that are directly involved in the formation of judgments and argumentation of conclusions.”"
 						],
-						"Miranov - Forms of Will / Self-realization (personal growth)": [
-							"“Consider what is happening MI based on the model \"A\". Shechter and Kobrinskaya write that in the group “the atmosphere is businesslike, even business jokes”, which is generally predictable. After all, all the functions of the vital block and the superego block of any member of the group are represented in the leading blocks of other TIMs. In other words, any member of this group is “driven” into its “Ego” block, because all positions except the “Ego” block are “occupied”. A person cannot express himself fairly freely in any of the functions of the contact block, except for the creative one, since enters into competition with someone from the group. By the nature of the interaction, this group very much resembles Group 2 “Locks” or “Equilibrium”. If we proceed from the nature of intertype relationships (AI), we can assume the following. The interaction with the activator will be the most intense, while the instability of the activation relationship will be enhanced by the quasi-identity relationship, and the superego will not stabilize the group and provide the necessary support. Continuing the course of reasoning, we can note the following. The authors write that the participants \"were simply offered communication for approximately 20-30 minutes.\" And further, \"in joint actions, each has its own role and responsibilities.\" It is not at all clear what the group members did after all, just communicated or performed joint actions, and if the latter, how did they manage to find topics for discussion in a given time, find a common language, agree on joint actions, and produce these actions. With what speed should all the above described happen? “After some time (for members of the group, author) there is a need for rest, because the intensity of communication is great. \" Most likely, the interaction in the group did not go beyond communication. In their work, Schechter and Kobrinskaya call this group \"mobilization.\" Meanwhile, in the description of group effects there is not a hint of mobilization, in contrast to the group described by them as the “progress ring” or “quadra”, where there is a “feeling of recovery, mobilization” [6]. Conclusion: it is clear that the name of the group does not reflect the essence of the intragroup effect, joint activity, if it is not episodic in nature, is difficult, the group requires further study due to the inconsistency of the described group effects.”"
-						],
-						"Danidin & Romanov - Value Shades of Vertity-3": []
-					},
+						"Danidin & Romanov - Styles of Argumentation": [],
+						"Mironov -   Group norms": []
+					}
 				]
 			});
+			
+			// dynamic
 			createCodeLabelArr(["OCFR","OCPA","SCFA","SCPR"], {
 				label: "Conforming",
 				desc: [
@@ -5409,20 +5405,22 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // pushing demands onto others
-			
-			// Plans
-			createTetraLabel(["SCFA","SCFR","SNPR","SNPA"], ["SNFA","SNFR","SCPR","SCPA"], ["ONPR","ONPA","OCFA","OCFR"], ["OCPR","OCPA","ONFA","ONFR"], {
-				label: "Plans",
+			createTetraLabel(["OCFR","OCPA","SCFA","SCPR"], ["ONFA","ONPR","SNFR","SNPA"], ["OCFA","OCPR","SCFR","SCPA"], ["ONFR","ONPA","SNFA","SNPR"], {
+				label: "Dynamic",
 				desc: [
 					{
-						"Socionics - Trigger Groups": [
-							"(as defined by u/peppermint-kiss)",
-							 "“This tetrachotomy is derived from the following dichotomies: carefree/farsighted, constructivist/emotivist, and asking/declaring. It relates to, well, \"triggers\", pet peeves, annoyance. Social and personal expectations. What people do when they're mildly angry or annoyed. How they can be placated. The kind of comfort, validation, or remediation they seek.”"
+						"F. Schecter and L. Kobrin - Mobilization Groups": [
+							"“A homogeneous group of 4 people. The relations of activation, quasi-identities and superego are presented. Introvert or extraverted group. Gradually, communication acquires a certain rhythm. In an introverted group, the situation is calmer. Communication is abrupt, but intense. One topic replaces another, but there is always completeness. Dispute is always resolved quickly. The combination of the squares does not occur, that is, each relationship does not appear individually. In joint actions, each has its own role and responsibilities. Mutual aid Misunderstandings, if they arise, are resolved quickly. The atmosphere is businesslike, even jokes have a business tone. The group quickly comes to a method of joint action, finds a practical solution. In contrast to the \"club\" there are no long theoretical discussions. The question is raised and immediately resolved. After some time, there is a need for rest, since the intensity of communication is great. Rest individual.”"
 						],
-						"Mironov - Accumulation of experience ": []
-					}
+						"Miranov - Forms of Will / Self-realization (personal growth)": [
+							"“Consider what is happening MI based on the model \"A\". Shechter and Kobrinskaya write that in the group “the atmosphere is businesslike, even business jokes”, which is generally predictable. After all, all the functions of the vital block and the superego block of any member of the group are represented in the leading blocks of other TIMs. In other words, any member of this group is “driven” into its “Ego” block, because all positions except the “Ego” block are “occupied”. A person cannot express himself fairly freely in any of the functions of the contact block, except for the creative one, since enters into competition with someone from the group. By the nature of the interaction, this group very much resembles Group 2 “Locks” or “Equilibrium”. If we proceed from the nature of intertype relationships (AI), we can assume the following. The interaction with the activator will be the most intense, while the instability of the activation relationship will be enhanced by the quasi-identity relationship, and the superego will not stabilize the group and provide the necessary support. Continuing the course of reasoning, we can note the following. The authors write that the participants \"were simply offered communication for approximately 20-30 minutes.\" And further, \"in joint actions, each has its own role and responsibilities.\" It is not at all clear what the group members did after all, just communicated or performed joint actions, and if the latter, how did they manage to find topics for discussion in a given time, find a common language, agree on joint actions, and produce these actions. With what speed should all the above described happen? “After some time (for members of the group, author) there is a need for rest, because the intensity of communication is great. \" Most likely, the interaction in the group did not go beyond communication. In their work, Schechter and Kobrinskaya call this group \"mobilization.\" Meanwhile, in the description of group effects there is not a hint of mobilization, in contrast to the group described by them as the “progress ring” or “quadra”, where there is a “feeling of recovery, mobilization” [6]. Conclusion: it is clear that the name of the group does not reflect the essence of the intragroup effect, joint activity, if it is not episodic in nature, is difficult, the group requires further study due to the inconsistency of the described group effects.”"
+						],
+						"Danidin & Romanov - Value Shades of Vertity-3": []
+					},
 				]
 			});
+			
+			// Plans
 			createCodeLabelArr(["SCFA","SCFR","SNPR","SNPA"], {
 				label: "Trusting",
 				desc: [
@@ -5495,23 +5493,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			
-			// decisions
-			createTetraLabel(["SCPR","SNPA","ONFA","OCFR"], ["SCFA","SNFR","ONPR","OCPA"], ["SCPA","SNPR","ONFR","OCFA"], ["SCFR","SNFA","ONPA","OCPR"], {
-				label: "Decisions",
+			createTetraLabel(["SCFA","SCFR","SNPR","SNPA"], ["SNFA","SNFR","SCPR","SCPA"], ["ONPR","ONPA","OCFA","OCFR"], ["OCPR","OCPA","ONFA","ONFR"], {
+				label: "Plans",
 				desc: [
 					{
-						"Victor Gulenko - Stress Groups": [
-							"“Left and right types differ in their tolerance for stress. Certainty and clarity of the situation is favorable for the Rational and Right (Process) types. Vagueness, potential for development of some events gives the advantages to Irrational and Left (Result) types.”"
+						"Socionics - Trigger Groups": [
+							"(as defined by u/peppermint-kiss)",
+							 "“This tetrachotomy is derived from the following dichotomies: carefree/farsighted, constructivist/emotivist, and asking/declaring. It relates to, well, \"triggers\", pet peeves, annoyance. Social and personal expectations. What people do when they're mildly angry or annoyed. How they can be placated. The kind of comfort, validation, or remediation they seek.”"
 						],
-						"Mironov - Blocking Groups / Process Management": [
-							"“This group is remarkable in that if we take the functions of the leading blocks of all members of the group, then the whole range of information flows will be covered. In other words, since all functions of the information metabolism are in the expert zone of its members, any information in the group is assessed adequately and is perceived in detail. Since there are no priorities and no avoiding - any information is valuable, I would call this group a “balance” group. The experience of communication in such a group confirms the justification of such a name. As a participant, the author happened to be in two such stable groups for a long time (from several hours to several days) under conditions of intensive interaction. The following information can be regarded as the author's self-report, which does not contradict the opinion of two more members of one of the groups. Communication is easy, on an equal footing, any proposal is agreed, no one imposes his decisions. But at the same time, the group feels stiff, light tension because any proposal must pass the approval of all members of the group, although the group always came to a consensus. From the group there is a feeling of some awkwardness. This can be compared to a heavy pendulum. When someone in the equilibrium group makes a proposal for joint actions, before the group makes a decision, you have to wait until the whole system comes to equilibrium again. If the group begins to act, then it as a heavy flywheel cannot be quickly unwound and cannot be quickly stopped. The initial rise and enthusiasm from the meeting quickly gives way to a smooth relationship. There are no intellectual disputes in the group and no emotional support, even between duals. Communication is a dyad: repayment, superego, duals. There are no proposals for joint activities requiring any efforts, each member of the group understands that they should not do this. Because the initiatives will either not be supported or will require lengthy approvals, which is too energy-consuming. From communication in the group does not feel the energy recovery, the topics of communication are extremely superficial. At the same time, even prolonged communication does not bore you.”"
-						],
-						"Danidin & Romanov - Groups of Political Values": []
+						"Mironov - Accumulation of experience ": []
 					}
 				]
-			}); 	 	 
+			});
+			
+			// decisions
 			createCodeLabelArr(["SCPR","SNPA","ONFA","OCFR"], {
 				label: "Willing",
 				desc: [
@@ -5575,17 +5570,22 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// actualisation
-			createTetraLabel(["SNxR","OCxA"], ["SCxA","ONxR"], ["SNxA","OCxR"], ["SCxR","ONxA"], {
-				label: "Actualisation",
+			createTetraLabel(["SCPR","SNPA","ONFA","OCFR"], ["SCFA","SNFR","ONPR","OCPA"], ["SCPA","SNPR","ONFR","OCFA"], ["SCFR","SNFA","ONPA","OCPR"], {
+				label: "Decisions",
 				desc: [
 					{
-						"Danidin & Romanov - Historical Roles": [],
-						"Mironov - World Order": []
+						"Victor Gulenko - Stress Groups": [
+							"“Left and right types differ in their tolerance for stress. Certainty and clarity of the situation is favorable for the Rational and Right (Process) types. Vagueness, potential for development of some events gives the advantages to Irrational and Left (Result) types.”"
+						],
+						"Mironov - Blocking Groups / Process Management": [
+							"“This group is remarkable in that if we take the functions of the leading blocks of all members of the group, then the whole range of information flows will be covered. In other words, since all functions of the information metabolism are in the expert zone of its members, any information in the group is assessed adequately and is perceived in detail. Since there are no priorities and no avoiding - any information is valuable, I would call this group a “balance” group. The experience of communication in such a group confirms the justification of such a name. As a participant, the author happened to be in two such stable groups for a long time (from several hours to several days) under conditions of intensive interaction. The following information can be regarded as the author's self-report, which does not contradict the opinion of two more members of one of the groups. Communication is easy, on an equal footing, any proposal is agreed, no one imposes his decisions. But at the same time, the group feels stiff, light tension because any proposal must pass the approval of all members of the group, although the group always came to a consensus. From the group there is a feeling of some awkwardness. This can be compared to a heavy pendulum. When someone in the equilibrium group makes a proposal for joint actions, before the group makes a decision, you have to wait until the whole system comes to equilibrium again. If the group begins to act, then it as a heavy flywheel cannot be quickly unwound and cannot be quickly stopped. The initial rise and enthusiasm from the meeting quickly gives way to a smooth relationship. There are no intellectual disputes in the group and no emotional support, even between duals. Communication is a dyad: repayment, superego, duals. There are no proposals for joint activities requiring any efforts, each member of the group understands that they should not do this. Because the initiatives will either not be supported or will require lengthy approvals, which is too energy-consuming. From communication in the group does not feel the energy recovery, the topics of communication are extremely superficial. At the same time, even prolonged communication does not bore you.”"
+						],
+						"Danidin & Romanov - Groups of Political Values": []
 					}
 				]
 			});
+			
+			// actualisation
 			createCodeLabelArr(["SNxR","OCxA"], {
 				label: "Authoring",
 				desc: [
@@ -5634,16 +5634,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// interests
-			createTetraLabel(["OCPR","ONFR","SCFA","SNPA"], ["OCPA","ONFA","SCFR","SNPR"], ["OCFR","ONPR","SCPA","SNFA"], ["OCFA","ONPA","SCPR","SNFR"], {
-				label: "Interests",
+			createTetraLabel(["SNxR","OCxA"], ["SCxA","ONxR"], ["SNxA","OCxR"], ["SCxR","ONxA"], {
+				label: "Actualisation",
 				desc: [
 					{
-						"Mironov - Disposition of Interest / Interesting things to do": []
+						"Danidin & Romanov - Historical Roles": [],
+						"Mironov - World Order": []
 					}
 				]
 			});
+			
+			// interests
 			createCodeLabelArr(["OCPR","ONFR","SCFA","SNPA"], {
 				label: "Sensible",
 				desc: [
@@ -5654,7 +5655,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
 			createCodeLabelArr(["OCPA","ONFA","SCFR","SNPR"], {
 				label:  "Passionate",
 				desc: [
@@ -5664,7 +5664,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
 			createCodeLabelArr(["OCFR","ONPR","SCPA","SNFA"], {
 				label: "Curious",
 				desc: [
@@ -5676,7 +5675,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
 			createCodeLabelArr(["OCFA","ONPA","SCPR","SNFR"], {
 				label: "Obsessive",
 				desc: [
@@ -5686,16 +5684,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// order
-			createTetraLabel(["OCFR","OCPA","ONFA","ONPR"], ["SCFA","SCPR","SNFR","SNPA"], ["OCFA","OCPR","ONFR","ONPA"], ["SCFR","SCPA","SNFA","SNPR"], {
-				label: "Order",
+			createTetraLabel(["OCPR","ONFR","SCFA","SNPA"], ["OCPA","ONFA","SCFR","SNPR"], ["OCFR","ONPR","SCPA","SNFA"], ["OCFA","ONPA","SCPR","SNFR"], {
+				label: "Interests",
 				desc: [
 					{
-						"Mironov - Family Groups / Your Circle": []
+						"Mironov - Disposition of Interest / Interesting things to do": []
 					}
 				]
 			});
+			
+			// order
 			createCodeLabelArr(["OCFR","OCPA","ONFA","ONPR"], {
 				label: "Sectarian",
 				desc: [
@@ -5732,19 +5730,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // (Promoting Atomism) Having cosmopolitan interests
-			
-			// implementation
-			createTetraLabel(["SNFA","ONPR","SCFR","OCPA"], ["SCFA","OCPR","SNFR","ONPA"], ["SCPA","OCFR","SNPR","ONFA"], ["SNPA","ONFR","SCPR","OCFA"], {
-				label: "Implementation",
+			createTetraLabel(["OCFR","OCPA","ONFA","ONPR"], ["SCFA","SCPR","SNFR","SNPA"], ["OCFA","OCPR","ONFR","ONPA"], ["SCFR","SCPA","SNFA","SNPR"], {
+				label: "Order",
 				desc: [
 					{
-						"Victor Gulenko - Implementation Groups": [
-							"“Jung's dichotomy Logic-Ethics describes, on the one hand, the rational side of actions, the systematic work to promote innovation, and, on the other hand, the feminine and masculine origins in human psychology. Implementing, introducing, forcing through is the male role, while developing the right conditions, assimilating, stabilizing in the society as a whole is the female role.”"
-						],
-						"Mironov -  Coalition formations": []
+						"Mironov - Family Groups / Your Circle": []
 					}
 				]
 			});
+			
+			// implementation
 			createCodeLabelArr(["SNFA","ONPR","SCFR","OCPA"], {
 				label: "Implementing",// "Persevering",
 				desc: [
@@ -5799,18 +5794,19 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // let's finish it
-					
-			// fate
-			createTetraLabel(["SCFA","SNPA","ONPR","OCFR"], ["SCPR","SNFR","ONFA","OCPA"], ["SCFR","SNPR","ONPA","OCFA"], ["SCPA","SNFA","ONFR","OCPR"], {
-				label: "Fate",
+			createTetraLabel(["SNFA","ONPR","SCFR","OCPA"], ["SCFA","OCPR","SNFR","ONPA"], ["SCPA","OCFR","SNPR","ONFA"], ["SNPA","ONFR","SCPR","OCFA"], {
+				label: "Implementation",
 				desc: [
 					{
-						"Mironov - Dual Conflict Dyads /  Knowledge transfer": [
-							"“The group consists of two dual-conflict dyads. Y. Ivanov writes that in these groups the relations “... are tense, tough, often leading to conflicts. At the same time, the level of tension in such groups increases with time ”[2, 54]. For practical problem solving groups are not suitable. During the experiments of the working group on identifying the filling of Reinin traits, as applied to this case, it is primarily “carelessness-prudence” and also “compliance-stubbornness”; in working with groups, results were obtained [3] that predict the success of interaction No.2 in brainstorm mode. Moreover, “compliant-careless” groups are effective with a shortage of resources, including time, “stubbornly-prudent” - with the availability of resources in the absence of time pressure.”"
-						]
+						"Victor Gulenko - Implementation Groups": [
+							"“Jung's dichotomy Logic-Ethics describes, on the one hand, the rational side of actions, the systematic work to promote innovation, and, on the other hand, the feminine and masculine origins in human psychology. Implementing, introducing, forcing through is the male role, while developing the right conditions, assimilating, stabilizing in the society as a whole is the female role.”"
+						],
+						"Mironov -  Coalition formations": []
 					}
 				]
-			});		
+			});
+					
+			// fate
 			createCodeLabelArr(["SCFA","SNPA","ONPR","OCFR"], {
 				label: "Submitting",
 				desc: [
@@ -5852,16 +5848,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// relatability
-			createTetraLabel(["SNPA","OCPR","SNFR","OCFA"], ["SCFA","ONFR","SCPR","ONPA"], ["SNFA","OCFR","SNPR","OCPA"], ["SCPA","ONPR","SCFR","ONFA"], {
-				label: "Relatability",
+			createTetraLabel(["SCFA","SNPA","ONPR","OCFR"], ["SCPR","SNFR","ONFA","OCPA"], ["SCFR","SNPR","ONPA","OCFA"], ["SCPA","SNFA","ONFR","OCPR"], {
+				label: "Fate",
 				desc: [
 					{
-						"Mironov - Freedom of Choice": []
+						"Mironov - Dual Conflict Dyads /  Knowledge transfer": [
+							"“The group consists of two dual-conflict dyads. Y. Ivanov writes that in these groups the relations “... are tense, tough, often leading to conflicts. At the same time, the level of tension in such groups increases with time ”[2, 54]. For practical problem solving groups are not suitable. During the experiments of the working group on identifying the filling of Reinin traits, as applied to this case, it is primarily “carelessness-prudence” and also “compliance-stubbornness”; in working with groups, results were obtained [3] that predict the success of interaction No.2 in brainstorm mode. Moreover, “compliant-careless” groups are effective with a shortage of resources, including time, “stubbornly-prudent” - with the availability of resources in the absence of time pressure.”"
+						]
 					}
 				]
 			});
+			
+			// relatability
 			createCodeLabelArr(["SNPA","OCPR","SNFR","OCFA"], {
 				label: "Discordant",
 				desc: [
@@ -5898,16 +5896,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // reformulating economies
-			
-			// dreams
-			createTetraLabel(["SxFA","OxFR"], ["SxPR","OxPA"], ["SxFR","OxFA"], ["SxPA","OxPR"], {
-				label: "Dreams",
+			createTetraLabel(["SNPA","OCPR","SNFR","OCFA"], ["SCFA","ONFR","SCPR","ONPA"], ["SNFA","OCFR","SNPR","OCPA"], ["SCPA","ONPR","SCFR","ONFA"], {
+				label: "Relatability",
 				desc: [
 					{
-						"Mironov - Selection Groups / Choice": []
+						"Mironov - Freedom of Choice": []
 					}
 				]
 			});
+			
+			// dreams
 			createCodeLabelArr(["SxFA","OxFR"], {
 				label: "Receiving",
 				desc: [
@@ -5949,16 +5947,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// readiness
-			createTetraLabel(["SCFA","ONPA","SNPA","OCFA"], ["SNFA","OCPA","SCPA","ONFA"], ["SCFR","ONPR","SNPR","OCFR"], ["SNFR","OCPR","SCPR","ONFR"], {
-				label: "Readiness",
+			createTetraLabel(["SxFA","OxFR"], ["SxPR","OxPA"], ["SxFR","OxFA"], ["SxPA","OxPR"], {
+				label: "Dreams",
 				desc: [
 					{
-						"Mironov - Accident Management / Chance management": []
+						"Mironov - Selection Groups / Choice": []
 					}
 				]
 			});
+			
+			// readiness
 			createCodeLabelArr(["SCFA","ONPA","SNPA","OCFA"], {
 				label: "Shrewd",
 				desc: [
@@ -5993,18 +5991,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// worldview
-			createTetraLabel(["OxxA"], ["OxxR"], ["SxxA"], ["SxxR"], {
-				label: "Worldview",
+			createTetraLabel(["SCFA","ONPA","SNPA","OCFA"], ["SNFA","OCPA","SCPA","ONFA"], ["SCFR","ONPR","SNPR","OCFR"], ["SNFR","OCPR","SCPR","ONFR"], {
+				label: "Readiness",
 				desc: [
 					{
-						"Mironov - Most Uncomfortable / Resource provision": [
-							"“Unfortunately, there is no data on the speed of information exchange and on the effects in this small group. It can be assumed that with a random combination, this group will quickly disintegrate. In the case of artificial association in a group, negative processes, such as physical and psychological fatigue, irritation, and aggression towards other members of the group, should quickly increase. Moreover, the speed of myocardial infarction in time should be sharply reduced and, by increasing, mutual understanding should decrease.”"
-						]
+						"Mironov - Accident Management / Chance management": []
 					}
 				]
 			});
+			
+			// worldview
 			createCodeLabel("SxxA", {
 				label: "Eclectic",
 				desc: [
@@ -6041,16 +6037,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			// focus
-			createTetraLabel(["OxFR","OxPA"], ["SxFA","SxPR"], ["OxFA","OxPR"], ["SxFR","SxPA"], {
-				label: "Focus",
+			createTetraLabel(["OxxA"], ["OxxR"], ["SxxA"], ["SxxR"], {
+				label: "Worldview",
 				desc: [
 					{
-						"Mironov - Peak Experiences": []
+						"Mironov - Most Uncomfortable / Resource provision": [
+							"“Unfortunately, there is no data on the speed of information exchange and on the effects in this small group. It can be assumed that with a random combination, this group will quickly disintegrate. In the case of artificial association in a group, negative processes, such as physical and psychological fatigue, irritation, and aggression towards other members of the group, should quickly increase. Moreover, the speed of myocardial infarction in time should be sharply reduced and, by increasing, mutual understanding should decrease.”"
+						]
 					}
 				]
 			});
+			
+			// focus
 			createCodeLabelArr(["OxFR","OxPA"], {
 				label: "Unilateral",
 				desc: [
@@ -6086,16 +6084,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						"Mironov - Retouchers (?)": []
 					}
 			]}); // Heavy conversation, interests & subjects
-			
-			// interference
-			createTetraLabel(["ONPx","SCFx"], ["OCPx","SNFx"], ["OCFx","SNPx"], ["ONFx","SCPx"], {
-				label: "Interference",
+			createTetraLabel(["OxFR","OxPA"], ["SxFA","SxPR"], ["OxFA","OxPR"], ["SxFR","SxPA"], {
+				label: "Focus",
 				desc: [
 					{
-						"Mironov - Informational Usage / Working with information": []
+						"Mironov - Peak Experiences": []
 					}
 				]
 			});
+			
+			// interference
 			createCodeLabelArr(["ONPx","SCFx"], {
 				label: "Modulating",
 				desc: [
@@ -6132,19 +6130,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // Decreasing interference in activities
-			
-			// impression (first impressions)
-			createTetraLabel(["OxPR","SxFA"], ["OxFA","SxPR"], ["OxFR","SxPA"], ["OxPA","SxFR"], {
-				label: "Impressions",
+			createTetraLabel(["ONPx","SCFx"], ["OCPx","SNFx"], ["OCFx","SNPx"], ["ONFx","SCPx"], {
+				label: "Interference",
 				desc: [
 					{
-						"Victor Gulenko - Equifinal Groups": [
-							"“These groups are formed by the orthogonal intersection of two considered binary scales: Social progress = left / right x center / periphery”"
-						],
-						"Mironov - Effort Distribution": []
+						"Mironov - Informational Usage / Working with information": []
 					}
 				]
 			});
+			
+			// impression (first impressions)
 			createCodeLabelArr(["OxPR","SxFA"], {
 				label: "Familiarising",
 				desc: [
@@ -6189,16 +6184,19 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			}); // Particular + Complicating + Collapsing (kirby)
-			
-			// fears 
-			createTetraLabel(["OCFR","ONPA","SCFA","SNPR"], ["OCFA","ONPR","SCFR","SNPA"], ["OCPA","ONFR","SCPR","SNFA"], ["OCPR","ONFA","SCPA","SNFR"], {
-				label: "Fears",
+			createTetraLabel(["OxPR","SxFA"], ["OxFA","SxPR"], ["OxFR","SxPA"], ["OxPA","SxFR"], {
+				label: "Impressions",
 				desc: [
 					{
-						"Mironov - Overcoming Fears": []
+						"Victor Gulenko - Equifinal Groups": [
+							"“These groups are formed by the orthogonal intersection of two considered binary scales: Social progress = left / right x center / periphery”"
+						],
+						"Mironov - Effort Distribution": []
 					}
 				]
 			});
+			
+			// fears 
 			createCodeLabelArr(["OCFR","ONPA","SCFA","SNPR"], {
 				label: "Counterphobic",
 				desc: [
@@ -6235,6 +6233,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Facing fears by having a moral, ethical or mental framework to counteract them.",
 					{
 						"Mironov - Moral/Ethical/Spiritual/Mental Support (?)": []
+					}
+				]
+			});
+			createTetraLabel(["OCFR","ONPA","SCFA","SNPR"], ["OCFA","ONPR","SCFR","SNPA"], ["OCPA","ONFR","SCPR","SNFA"], ["OCPR","ONFA","SCPA","SNFR"], {
+				label: "Fears",
+				desc: [
+					{
+						"Mironov - Overcoming Fears": []
 					}
 				]
 			});
@@ -7743,10 +7749,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				elem._tippy.show();
 			}
 			
-			function resetDichotCells() {
-				
-			}
-			
 			function onClickWorkingTitle(elem) {
 				let table = elem.nextSibling;
 				console.log(table);
@@ -7812,6 +7814,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 					
 					children = null;
+					dichotCells = null;
 				}
 				
 				let a = document.getElementById("attitudes").getElementsByTagName("li");
@@ -8121,14 +8124,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						
 						html += "<h2>" + name + " Categorization</h2>";
 						
+						html += "<div class='type-dichot-title subtitle clickable onClickDichot key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
 						html += "<div class='type-dichot-title title clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
 						
 						html += "<div class='type-pair-groups-container'>";
-							function drawPairTable(title, label1, attitude1, attitude2, label2, attitude3, attitude4) {
+							function drawPairTable(tetra, title, label1, attitude1, attitude2, label2, attitude3, attitude4) {
 								html += "<div class='type-pair-group'>";
 									html += "<div class='clickable title onClickTypePairGroupTitle'>" + title + "</div>";
 									let groupKey = groupCodes([attitude1, attitude2, attitude3, attitude4]);
 									let group = codeLabels[groupKey];
+									console.assert(group.parentTetra == tetra && group.parentTetra != undefined);
 									html += "<div class='clickable subtitle onClickSmallGroup key-" + groupKey + "'>" + group.label + "</div>";
 									html += "<div class='type-pair-container'>";
 										html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + label1 + "</div>";
@@ -8145,14 +8150,67 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "</div>";
 							}
 							
-							drawPairTable("Public", "Bold", ego[polarity], childish[1-polarity], "Cautious", parental[polarity], shadow[1-polarity]);
-							drawPairTable("Private", "Bold", ego[1-polarity], childish[polarity], "Cautious", parental[1-polarity], shadow[polarity]);
+							function drawGroupTable(title1, title2, label1, label2, attitude1, attitude2, attitude3, attitude4, attitude5, attitude6, attitude7, attitude8) {
+								let groupKey = groupCodes([attitude1, attitude2, attitude3, attitude4]);
+								let group = codeLabels[groupKey];
+								html += "<div class='type-pair-groups-outer'>";
+									html += "<div class='type-dichot-title subtitle clickable onClickTetraTitle key-" + group.parentTetra.key + "'>" + group.parentTetra.label + "</div>";
+									html += "<div class='type-pair-groups'>";
+										drawPairTable(group.parentTetra, title1, label1, attitude1, attitude2, label2, attitude3, attitude4);
+										drawPairTable(group.parentTetra, title2, label1, attitude5, attitude6, label2, attitude7, attitude8);
+									html += "</div>";
+								html += "</div>";
+							}
 							
-							drawPairTable("Bold", "Strong", ego[polarity], ego[1-polarity], "Weak", childish[polarity], childish[1-polarity]);
-							drawPairTable("Cautious", "Strong", parental[polarity], parental[1-polarity], "Weak", shadow[polarity], shadow[1-polarity]);
+							drawGroupTable(
+								"Public", "Private", 
+								"Bold", "Cautious", 
+								ego[polarity], childish[1-polarity], 
+								parental[polarity], shadow[1-polarity],
+								ego[1-polarity], childish[polarity],
+								parental[1-polarity], shadow[polarity]
+							);
 							
-							drawPairTable("Strong", "Public", ego[polarity], parental[polarity], "Private", ego[1-polarity], parental[1-polarity]);
-							drawPairTable("Weak", "Public", childish[1-polarity], shadow[1-polarity], "Private", childish[polarity], shadow[polarity]);
+							drawGroupTable(
+								"Bold", "Cautious", 
+								"Strong", "Weak", 
+								ego[polarity], ego[1-polarity], 
+								childish[polarity], childish[1-polarity],
+								parental[polarity], parental[1-polarity],
+								shadow[polarity], shadow[1-polarity]
+							);
+							
+							drawGroupTable(
+								"Public", "Private", 
+								"Bold", "Cautious", 
+								ego[polarity], parental[polarity], 
+								ego[1-polarity], parental[1-polarity],
+								childish[1-polarity], shadow[1-polarity],
+								childish[polarity], shadow[polarity]
+							);
+							
+							/*
+							html += "<div class='type-pair-groups-outer'>";
+								html += "<div class='type-dichot-title subtitle clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
+								html += "<div class='type-pair-groups'>";
+									drawPairTable("Public", "Bold", ego[polarity], childish[1-polarity], "Cautious", parental[polarity], shadow[1-polarity]);
+									drawPairTable("Private", "Bold", ego[1-polarity], childish[polarity], "Cautious", parental[1-polarity], shadow[polarity]);
+								html += "</div>";
+							html += "</div>";
+							html += "<div class='type-pair-groups-outer'>";
+								html += "<div class='type-dichot-title subtitle clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
+								html += "<div class='type-pair-groups'>";
+									drawPairTable("Bold", "Strong", ego[polarity], ego[1-polarity], "Weak", childish[polarity], childish[1-polarity]);
+									drawPairTable("Cautious", "Strong", parental[polarity], parental[1-polarity], "Weak", shadow[polarity], shadow[1-polarity]);
+								html += "</div>";
+							html += "</div>";
+							html += "<div class='type-pair-groups-outer'>";
+								html += "<div class='type-dichot-title subtitle clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
+								html += "<div class='type-pair-groups'>";
+									drawPairTable("Strong", "Public", ego[polarity], parental[polarity], "Private", ego[1-polarity], parental[1-polarity]);
+									drawPairTable("Weak", "Public", childish[1-polarity], shadow[1-polarity], "Private", childish[polarity], shadow[polarity]);
+								html += "</div>";
+							html += "</div>";*/
 						html += "</div>";
 					}
 					
