@@ -95,13 +95,40 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				row-gap: 25px;
 			}
 			
-			div.ego-container {
+			div.ego-container, div.type-pair-groups-container {
 				display: flex;
 				flex-flow: row wrap;
 				justify-content: center;
 				flex-basis: 495px;
 				flex-grow: 1;
 				row-gap: 25px;
+			}
+			
+			div.type-pair-groups-container {
+				margin-top: 25px;
+			}
+			
+			div.type-pair-group {
+				flex-basis: 245px;
+				flex-grow: 1;
+			}
+			
+			div.type-pair-container {
+				display: flex;
+				width: 100%;
+				padding: 0em;
+				justify-content: center;
+				flex-flow: row wrap;
+			}
+			
+			div.type-pair-container div {
+				flex-grow: 1;
+				flex-basis: 0;
+				padding: 1em;
+			}
+			
+			div.type-pair {
+				
 			}
 			
 			div.ego {
@@ -130,10 +157,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				background-color: var(--fg2-color);
 			}
 			
-			div.ego div.function {
-				padding: 0px;
-			}
-			
 			div.ego-title-cell {
 			    display: flex;
 				padding: 0em;
@@ -150,6 +173,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				padding: 1em;
 				flex-grow: 1;
 				border-style: solid;
+			}
+			
+			div.ego div.function {
+				padding: 0px;
 			}
 			
 			div.function {
@@ -526,15 +553,39 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			{
 				label: "Public",
 				desc: [
-					"Personas that are typically verbalised & shared with others.",
+					"Attitudes that are typically verbalised & shared with others.",
 					"Felt as most reflective of one's external or public life."
 				]
 			},
 			{
 				label: "Private",
 				desc: [
-					"Personas that are typically reactive & kept to oneself.",
+					"Attitudes that are typically reactive & kept to oneself.",
 					"Felt as most reflective of one's internal or private life.",
+				]
+			},
+			{
+				label: "Bold",
+				desc: [
+					"Attitudes that are confidently engaged in.",
+				]
+			},
+			{
+				label: "Cautious",
+				desc: [
+					"Attitudes that are not confidently engaged in.",
+				]
+			},
+			{
+				label: "Strong",
+				desc: [
+					"Attitudes that are typically easy to engage in in.",
+				]
+			},
+			{
+				label: "Weak",
+				desc: [
+					"Attitudes that are typically difficult to engage in.",
 				]
 			},
 		];
@@ -7853,6 +7904,33 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				doPopup(elem, desc);
 			}
 			
+			function onClickTypePairGroupTitle(elem) {
+				let desc = null;
+			
+				switch(elem.innerHTML) {
+					case "Public":
+						desc = polarities[0];
+						break;
+					case "Private":
+						desc = polarities[1];
+						break;
+					case "Bold":
+						desc = polarities[2];
+						break;
+					case "Cautious":
+						desc = polarities[3];
+						break;
+					case "Strong":
+						desc = polarities[4];
+						break;
+					case "Weak":
+						desc = polarities[5];
+						break;
+				}
+				
+				doPopup(elem, desc);
+			}
+			
 			function onClickDichotTitle(elem) {
 				let label = codeLabels[elem.id];
 				doPopup(elem, label);
@@ -7945,6 +8023,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							let childish = egos[childishIndex];
 							let shadow = egos[shadowIndex];
 							
+							console.log(egos);
+							
 							html += "<div class='ego-container'>";
 								html += "<div class='ego'>";
 									html += "<div class='clickable onClickModelTitle model-title title' id='" + name + "-" + egoName + "'>" + egoName + "</div>";
@@ -8028,7 +8108,38 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 									html += "</div>";
 								html += "</div>";
 							html += "</div>";
+						html += "</div>";
+						
+						html += "<div class='type-pair-groups-container'>";
+							function drawPairTable(title, label1, attitude1, attitude2, label2, attitude3, attitude4) {
+								html += "<div class='type-pair-group'>";
+									html += "<div class='clickable title onClickTypePairGroupTitle'>" + title + "</div>";
+									let groupKey = groupCodes([attitude1, attitude2, attitude3, attitude4]);
+									let group = codeLabels[groupKey];
+									html += "<div class='clickable subtitle onClickSmallGroup key-" + groupKey + "'>" + group.label + "</div>";
+									html += "<div class='type-pair-container'>";
+										html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + label1 + "</div>";
+										let pair1Key = groupCodes([attitude1, attitude2]);
+										let pair1 = codeLabels[pair1Key];
+										html += "<div class='type-pair clickable subtitle onClickPairTitle key-" + pair1Key + "'>" + pair1.label + "</div>";
+									html += "</div>";
+									html += "<div class='type-pair-container'>";
+										html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + label2 + "</div>";
+										let pair2Key = groupCodes([attitude3, attitude4]);
+										let pair2 = codeLabels[pair2Key];
+										html += "<div class='type-pair clickable subtitle onClickPairTitle key-" + pair2Key + "'>" + pair2.label + "</div>";
+									html += "</div>";
+								html += "</div>";
+							}
 							
+							drawPairTable("Public", "Bold", ego[polarity], childish[1-polarity], "Cautious", parental[polarity], shadow[1-polarity]);
+							drawPairTable("Private", "Bold", ego[1-polarity], childish[polarity], "Cautious", parental[1-polarity], shadow[polarity]);
+							
+							drawPairTable("Bold", "Strong", ego[polarity], ego[1-polarity], "Weak", childish[polarity], childish[1-polarity]);
+							drawPairTable("Cautious", "Strong", parental[polarity], parental[1-polarity], "Weak", shadow[polarity], shadow[1-polarity]);
+							
+							drawPairTable("Strong", "Public", ego[polarity], parental[polarity], "Private", ego[1-polarity], parental[1-polarity]);
+							drawPairTable("Weak", "Public", childish[1-polarity], shadow[1-polarity], "Private", childish[polarity], shadow[polarity]);
 						html += "</div>";
 					}
 					
@@ -8334,6 +8445,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			addEvent("onClickPairDichot", function(a) {
 				onClickPairDichot(a.target);
+			});
+			
+			addEvent("onClickTypePairGroupTitle", function(a) {
+				onClickTypePairGroupTitle(a.target);
 			});
 			
 			for(let i = 0; i < fullCodes.length; i++) {
