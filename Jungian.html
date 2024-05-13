@@ -442,6 +442,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		
 		//window.asdf();
 		
+		if(Set.prototype.intersection == undefined) {
+			Set.prototype.intersection = function(b) {
+				return new Set([...this].filter(i => b.has(i)));
+			}
+		}
+		
 		function logErr(msg) {
 			document.getElementById("logger").innerHTML	+= msg + "<br />";
 		}
@@ -7702,9 +7708,161 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return other;
 		}
 		
+		let functions = [];
+		let funcDichots = new Set();
+		let funcTetras = {};
+		function createFunctionGroups() {
+			let dichotLookup = {};
+			
+			function addFunction(a) {
+				functions.push({name: a, attrs: new Set()});
+			}
+			
+			addFunction("Natural");
+			addFunction("Constructive");
+			addFunction("Obligative");
+			addFunction("Unnatural");
+			addFunction("Abused");
+			addFunction("Repressed");
+			addFunction("Indulgant");
+			addFunction("Unconscious");
+			
+			function addFunctionDichot(a, b, aa, bb) {
+				for(let i = 0; i < aa.length; i++) {
+					functions[aa[i]-1].attrs.add(a);
+				}
+				
+				for(let i = 0; i < bb.length; i++) {
+					functions[bb[i]-1].attrs.add(b);
+				}
+				
+				funcDichots.add([a, b].toSorted());
+				dichotLookup[a] = funcDichots.size - 1;
+				dichotLookup[b] = funcDichots.size - 1;
+			}
+			
+			// accepting / producing
+			// respected, ends-in-themselves / unrespected, means-to-an-end
+			// 1-3-6-8, 2-4-5-7
+			addFunctionDichot("Presumptive", "Contingent", [1,3,6,8], [2,4,5,7]);
+			
+			// mental / vital
+			// publicity - public / private
+			// 1-2-3-4, 5-6-7-8
+			addFunctionDichot("Public", "Private", [1,2,3,4], [5,6,7,8]);
+			
+			// introverted / extroverted groups
+			// confident, observable, energetic / not confident, unobservable, unenergetic
+			// 1-3-5-7, 2-4-6-8
+			addFunctionDichot("Confident", "Diffident", [1,3,5,7], [2,4,6,8]);
+			
+			// valued symbiosis / unvalued symbiosis
+			// want to / not want to
+			// 1-2-7-8, 3-4-5-6
+			addFunctionDichot("Valued", "Unvalued", [1,2,7,8], [3,4,5,6]);
+			
+			// inert / contact
+			// flexibility - individual input, independant / outside input, adapative
+			// 1-4-6-7, 2-3-5-8
+			addFunctionDichot("Insular", "Adaptive", [1,4,6,7], [2,3,5,8]);
+			
+			// evolutionary / situational
+			// linear, consistently on or off / non-linear, inconsistently on or off
+			// 1-4-5-8, 2-3-6-7
+			addFunctionDichot("Consistent", "Inconsistent", [1,4,5,8], [2,3,6,7]);
+			
+			// clubs
+			// strong / weak
+			// easily differentiates information, practical, beneficial / differentiates information more difficultly, impractical, non-beneficial
+			// 1-2-5-6, 3-4-7-8
+			addFunctionDichot("Skilled", "Amateur", [1,2,5,6], [3,4,7,8]);
+			
+			funcDichots = Array.from(funcDichots);
+			for(let i = 0; i < funcDichots.length; i++) {
+				funcDichots[i][0] = {name: funcDichots[i][0], pairs: [], groups: {}};
+				funcDichots[i][1] = {name: funcDichots[i][1], pairs: [], groups: {}};
+			}
+			
+			let funcPairs2 = {};
+			
+			for(let i = 0; i < functions.length; i++) {
+				for(let j = 0; j < functions.length; j++) {
+					if(i == j) {
+						continue;
+					}
+				
+					let key = [functions[i].name + "-" + i, functions[j].name + "-" + j].toSorted().join(" ");
+					if(key in funcPairs2) {
+						continue;
+					}
+					
+					let attrs = functions[i].attrs.intersection(functions[j].attrs);
+					funcPairs2[key] = Array.from(attrs).toSorted();
+				}
+			}
+			
+			
+			
+			for (const [key, value] of Object.entries(funcPairs2)) {
+				let split = key.split(" ");
+				split = split.map((x) => x.split("-"));
+				let indices = split.map((x) => Number(x[1]));
+				let functions = split.map((x) => x[0]);
+				
+				let realValue = {functions: functions, indices: indices, attrs: value};
+				
+				let groupKey = value.map((x) => dichotLookup[x]).toSorted().join(" ");
+				if(!(groupKey in funcTetras)) {
+					funcTetras[groupKey] = [];
+				}
+				funcTetras[groupKey].push(realValue);
+
+				for(let i = 0; i < value.length; i++) {
+					for(let j = 0; j < funcDichots.length; j++) {
+						let done = false;
+					
+						function addToGroup(d) {
+							let foundOne = false;
+							for (const [key2, value2] of Object.entries(d.groups)) {
+								for(let k = 0; k < value.length; k++) {
+									let lookupValue = dichotLookup[value[k]];
+									if(lookupValue == key2) {
+										d.groups[lookupValue].push(realValue);
+										foundOne = true;
+									}
+								}
+							}
+							
+							if(!foundOne) {
+								for(let k = 0; k < value.length; k++) {
+									
+									if(value[k] != d.name) {
+										let lookupValue = dichotLookup[value[k]];
+										d.groups[lookupValue] = [realValue];
+										break;
+									}
+								}
+							}
+						}
+					
+						if(funcDichots[j][0].name == value[i]) {
+							funcDichots[j][0].pairs.push(realValue);
+							addToGroup(funcDichots[j][0]);
+						} else if (funcDichots[j][1].name == value[i]) {
+							funcDichots[j][1].pairs.push(realValue);
+							addToGroup(funcDichots[j][1]);
+						}
+					}
+				}
+			}
+			
+			console.log(funcTetras);
+		}
+		
 		try {
 			document.getElementById("navbar").innerHTML = "Generating...";
 			
+			createFunctionGroups();
 			createCodeLabels();
 			
 			const mutualLabel = codeLabels[groupCodes(mutualKeyArr)];
@@ -8518,160 +8676,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								shadow[polarity],
 							];
 							
-							let funcDichots = [];
-							let actualDichots = new Set();
-							let actualDichotsLookup = {};
-							
-							function addFunction(a) {
-								funcDichots.push({name: a, attrs: new Set()});
-							}
-							
-							addFunction("Natural");
-							addFunction("Constructive");
-							addFunction("Obligative");
-							addFunction("Unnatural");
-							addFunction("Abused");
-							addFunction("Repressed");
-							addFunction("Indulgant");
-							addFunction("Unconscious");
-							
-							function addWhatever(a, b, aa, bb) {
-								for(let i = 0; i < aa.length; i++) {
-									funcDichots[aa[i]-1].attrs.add(a);
-								}
-								
-								for(let i = 0; i < bb.length; i++) {
-									funcDichots[bb[i]-1].attrs.add(b);
-								}
-								
-								actualDichots.add([a, b].toSorted());
-								actualDichotsLookup[a] = actualDichots.size - 1;
-								actualDichotsLookup[b] = actualDichots.size - 1;
-							}
-							
-							// accepting / producing
-							// respected, ends-in-themselves / unrespected, means-to-an-end
-							// 1-3-6-8, 2-4-5-7
-							addWhatever("Presumptive", "Contingent", [1,3,6,8], [2,4,5,7]);
-							
-							// mental / vital
-							// publicity - public / private
-							// 1-2-3-4, 5-6-7-8
-							addWhatever("Public", "Private", [1,2,3,4], [5,6,7,8]);
-							
-							// introverted / extroverted groups
-							// confident, observable, energetic / not confident, unobservable, unenergetic
-							// 1-3-5-7, 2-4-6-8
-							addWhatever("Confident", "Diffident", [1,3,5,7], [2,4,6,8]);
-							
-							// valued symbiosis / unvalued symbiosis
-							// want to / not want to
-							// 1-2-7-8, 3-4-5-6
-							addWhatever("Valued", "Unvalued", [1,2,7,8], [3,4,5,6]);
-							
-							// inert / contact
-							// flexibility - individual input, independant / outside input, adapative
-							// 1-4-6-7, 2-3-5-8
-							addWhatever("Insular", "Adaptive", [1,4,6,7], [2,3,5,8]);
-							
-							// evolutionary / situational
-							// linear, consistently on or off / non-linear, inconsistently on or off
-							// 1-4-5-8, 2-3-6-7
-							addWhatever("Consistent", "Inconsistent", [1,4,5,8], [2,3,6,7]);
-							
-							// clubs
-							// strong / weak
-							// easily differentiates information, practical, beneficial / differentiates information more difficultly, impractical, non-beneficial
-							// 1-2-5-6, 3-4-7-8
-							addWhatever("Skilled", "Amateur", [1,2,5,6], [3,4,7,8]);
-							
-							actualDichots = Array.from(actualDichots);
-							for(let i = 0; i < actualDichots.length; i++) {
-								actualDichots[i][0] = {name: actualDichots[i][0], pairs: [], groups: {}};
-								actualDichots[i][1] = {name: actualDichots[i][1], pairs: [], groups: {}};
-							}
-							
-							let funcPairs2 = {};
-							
-							for(let i = 0; i < funcDichots.length; i++) {
-								for(let j = 0; j < funcDichots.length; j++) {
-									if(i == j) {
-										continue;
-									}
-								
-									let key = [funcDichots[i].name + "-" + i, funcDichots[j].name + "-" + j].toSorted().join(" ");
-									if(key in funcPairs2) {
-										continue;
-									}
-									
-									let attrs = funcDichots[i].attrs.intersection(funcDichots[j].attrs);
-									funcPairs2[key] = Array.from(attrs).toSorted();
-								}
-							}
-							
-							let actualTetras = {};
-							
-							for (const [key, value] of Object.entries(funcPairs2)) {
-								let split = key.split(" ");
-								split = split.map((x) => x.split("-"));
-								let indices = split.map((x) => Number(x[1]));
-								let functions = split.map((x) => x[0]);
-								
-								let realValue = {functions: functions, indices: indices, attrs: value};
-								
-								let groupKey = value.map((x) => actualDichotsLookup[x]).toSorted().join(" ");
-								if(!(groupKey in actualTetras)) {
-									actualTetras[groupKey] = [];
-								}
-								actualTetras[groupKey].push(realValue);
-
-								for(let i = 0; i < value.length; i++) {
-									for(let j = 0; j < actualDichots.length; j++) {
-										let done = false;
-									
-										function addToGroup(d) {
-											let foundOne = false;
-											for (const [key2, value2] of Object.entries(d.groups)) {
-												for(let k = 0; k < value.length; k++) {
-													let lookupValue = actualDichotsLookup[value[k]];
-													if(lookupValue == key2) {
-														d.groups[lookupValue].push(realValue);
-														foundOne = true;
-													}
-												}
-											}
-											
-											if(!foundOne) {
-												for(let k = 0; k < value.length; k++) {
-													
-													if(value[k] != d.name) {
-														let lookupValue = actualDichotsLookup[value[k]];
-														d.groups[lookupValue] = [realValue];
-														break;
-													}
-												}
-											}
-										}
-									
-										if(actualDichots[j][0].name == value[i]) {
-											actualDichots[j][0].pairs.push(realValue);
-											addToGroup(actualDichots[j][0]);
-										} else if (actualDichots[j][1].name == value[i]) {
-											actualDichots[j][1].pairs.push(realValue);
-											addToGroup(actualDichots[j][1]);
-										}
-									}
-								}
-							}
-							
-							//console.log(funcDichots);
-							//console.log(actualDichots);
-							//console.log(funcPairs2);
-							console.log(actualTetras);
-							//console.log(ohGodTheGroups);
-							//console.log(funcPairs2);
-							//console.log(Object.keys(funcPairs2).length);
-							
 							function drawPairTable(pair) {
 								let attitude1 = orderedAttitudes[pair.indices[0]];
 								let attitude2 = orderedAttitudes[pair.indices[1]];
@@ -8711,8 +8715,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "</div>";
 							}
 							
-							for(let i = 0; i < actualDichots.length; i++) {
-								drawGroupTable(actualDichots[i]);
+							for(let i = 0; i < funcDichots.length; i++) {
+								drawGroupTable(funcDichots[i]);
 							}
 							
 						html += "</div>";
@@ -8736,7 +8740,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							html += "</div>";
 						}
 						
-						for (const [key, value] of Object.entries(actualTetras)) {
+						for (const [key, value] of Object.entries(funcTetras)) {
 							//let tetraTitle = key.split(" ").map((x) => funcDichots[Number(x)].name).join(" + ");
 							html += "<div class='tetra-title subtitle clickable'>" + key + "</div>";
 							html += "<div class='small-group-cell'>";
