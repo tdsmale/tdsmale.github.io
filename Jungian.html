@@ -473,7 +473,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		
 		function addEvent(name, func) {
 			Array.from(document.getElementsByClassName(name)).forEach(function(x) {
-				let id = eventId;
+				const id = eventId;
 				eventId++;
 				x.dataset.eventId = id;
 				eventListeners[id] = func;
@@ -483,7 +483,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		
 		function removeEvent(name) {
 			Array.from(document.getElementsByClassName(name)).forEach(function(x) {
-				let functionToRemove = eventListeners[x.dataset.eventId];
+				const functionToRemove = eventListeners[x.dataset.eventId];
 				x.removeEventListener("click", functionToRemove, true);
 			});
 		}
@@ -695,7 +695,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							"Maintaining the homeostasis of the ecosystem as a whole due to the mutual satisfaction of the needs of all its participants."
 						],
 						"Juan E. Sandoval - Scholar": [
-							"This is the deadpan. Often seen by others as cold/aloof and militant. They hold a panoramic view of “process operations” and can identify inefficiencies in the conceptual or practical expression of systems. Thus also often effective and efficient in anything they pursue. And prone to pursue business enterprises with success. Can be political and often in a critical way. They won’t mince their words. No bullshit. But also not necessarily ill-willed. Just direct and honest in ways few other types are. Cutting right to the core of a matter and addressing what isn’t achieving outcomes."
+							"This type is the scholar; a thinker who thinks in very historical terms and develops a view of the world that is chronological, coherent, and cohesive. Usually experts on a few personal topics, they will have a very nuanced understanding of their subject matter that goes far beyond the typical definitions and into subsets of their own interpretations and philosophies. For them, conclusions are only the end trails of a long ancestry of Ti data-sorting. And so to explain any one point, the scholar often walks you through the entire deductive pathway, as a narrative. Prone to be dry.. TL;DR …but feeling that sharing anything less than the whole background material would make the conclusion less useful to others. Unlike the Ti+Ne types whose knowledge relies a bit more on pure deduction and “a priori”, their conclusions and philosophies are only supported through an elaborate material database and lead to very earthy, grounded answers… but answers one wouldn’t normally come to without going through such meticulous care."
 						]
 					}
 				],
@@ -842,17 +842,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Sophist", 
 				0, 0, 1, 2, 3, 5, 7, 6, 4, 
-				"A playful intellectual that enjoys both quiet solitude and good company. Defensive & retentive when it comes to objects of value, but often morally or intellectually challenged by naked self-interest.",
+				"A playful intellectual that enjoys both quiet solitude and good company. Defensive & retentive when it comes to objects of value, but often morally or intellectually challenged by brash self-interest.",
 				[
 					"Richard Dawkins",
 					"Kip Thorne",
 					"Terry Pratchett",
+					"Charlie Kaufman",
+					"John Hodgman",
+					"David Mitchell"
 				]
 			],
 			[
 				"Traiteur", 
 				0, 2, 3, 0, 1, 0, 0, 0, 0, 
-				"An orthodox host, locating and reiterating a collective satisfaction. Knows how to maintain an observant distance from others, but doesn't have the instinct for competitive escalation.",
+				"An orthodox & welcoming host, locating and reiterating a collective satisfaction. Knows how to maintain an observant distance from others, but works to dissuade competitive escalation between people.",
 				[
 					"Larry David",
 					"Louis CK",
@@ -886,7 +889,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Fool", 
 				0, 1, 0, 3, 2, 4, 6, 5, 7, 
-				"A naive trickster who ropes others into speculative, untethered schemes. Likes to peacock their intelligence & success in front of others, but can be careless & unobservant with what people value.",
+				"A foolish & naive trickster who ropes others into speculative, untethered schemes. Likes to peacock their intelligence & success in front of others, but can be careless & unobservant with what people value.",
 				[
 					"Ricky Gervais",
 					"Steve Wozniak",
@@ -916,7 +919,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Vampire", 
 				1, 5, 4, 7, 6, 0, 0, 0, 0, 
-				"An attractive parasite, feeding off the strong and radicalising the weak. Knows how to recognise and cultivate strength in others, but usually toward supplanting or exhausting them.",
+				"An attractive parasite, feeding off the strong and radicalising the weak. Comfortably recognises and idolizes the way things are done, but often with an eye toward supplanting or exhausting it.",
 				[
 					"Denis Villeneuve",
 					"Maynard James Keenan",
@@ -930,7 +933,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Marilyn Manson",
 					"David Bowie",
 					"Daniel Day Lewis",
-					"Robert De Niro"
+					"Robert De Niro",
+					"David Lynch"
 				],
 			],
 			[
@@ -972,7 +976,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Vulture", 
 				1, 0, 1, 2, 3, 5, 7, 6, 4, 
-				"A torpid scavenger, tracking and feasting off the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic & distant character.",
+				"A torpid scavenger, tracking and profiting from the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic & distant character.",
 				[
 					
 				],
@@ -980,7 +984,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Capitalist", 
 				1, 1, 0, 3, 2, 0, 0, 0, 0, 
-				"A ruthless materialist, escalating competition to improve their personal lot. Knows how to put together a team and keep them in high spirits, but can feel no remorse in letting them go if they don't perform.",
+				"A productive & ruthless materialist, escalating competition to improve their personal lot. Knows how to put together a team and keep them in high spirits, but can feel no remorse in letting them go if they don't perform.",
 				[
 					
 				],
@@ -988,7 +992,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Prodigal", 
 				1, 3, 2, 1, 0, 0, 0, 0, 0, 
-				"A shameless machievellian, peacocking their influence & wealth over others. A foolish & playful creature who treats every interaction as a competition, and they always need to win.",
+				"A pragmatic & shameless machievellian, peacocking their influence & wealth over others. A seemingly foolish & playful creature who treats every interaction as a competition, and they always need to win.",
 				[
 					"Steven Spielberg",
 					"Danny Boyle"
@@ -997,15 +1001,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Seelie", 
 				0, 5, 4, 7, 6, 0, 0, 0, 0, 
-				"A blessed fairy, discovering good fortune through altruism and faithful eusociality. Knows how to rationalize and defend their way of life, but resists wielding a truly dominative influence over things.",
+				"A trusting & blessed fairy, discovering good fortune through altruism and faithful eusociality. Knows how to rationalize and defend their way of life, but resists wielding a truly dominative influence over things.",
 				[
 					
 				]
 			],
 			[
-				"Custodian", 
+				"Custodian",
 				0, 7, 6, 5, 4, 0, 0, 0, 0, 
-				"A stabilising outlier, affirming and enhancing the inherent qualities of things. While comfortable depending on the strengths of others, they rarely stand out or makes a name for themselves for fear of attracting ill will.",
+				"A comfortable & stabilising outlier, affirming and enhancing the inherent qualities of things. While comfortable attending to the strengths of others, they rarely stand out or makes a name for themselves for fear of attracting ill will.",
 				[
 					"Barack Obama",
 					"Al Gore"
@@ -1014,16 +1018,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Habitant", 
 				0, 6, 7, 4, 5, 0, 0, 0, 0, 
-				"A conscientious settler, productively transforming their habitat into better self-sustenance. Knows how to make an example of those that don't serve a practical use, but doesn't have a true instinct for inspiring radical change.",
+				"A productive & conscientious settler, productively transforming their habitat into better self-sustenance. Knows how to make an example of those that don't serve a practical use, but doesn't have a true instinct for inspiring radical change.",
 				[
-					"James Cameron",
 					"Bill Gates",
+					"Tommy Lee Jones",
 				],
 			],
 			[
 				"Upcycler", 
 				0, 4, 5, 6, 7, 0, 0, 0, 0, 
-				"An imaginative patron, finding new uses for what is seemingly useless or out-of-place. Can bring a strong & manganimous presence to others, but is uncomfortable bumping heads with the law of the land.",
+				"Am imaginative & pragmatic patron, finding new uses for what is seemingly useless or out-of-place. Can bring a strong & magnanimous presence to others, but is uncomfortable bumping heads with the law of the land.",
 				[
 					
 				],
@@ -1040,12 +1044,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		}
 		
 		function codeMatch(a, b) {
+			if(a == b) {
+				return true;
+			}
+		
 			for(let i = 0; i < 4; i++) {
-				if(a[i] == "x" || b[i] == "x") {
-					continue;
-				}
-				
-				if(a[i] != b[i]) {
+				if(a[i] != b[i] && a[i] != "x" && b[i] != "x") {
 					return false;
 				}
 			}
@@ -1054,6 +1058,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		}
 		
 		function expandCode(code) {
+			if(code.indexOf("x") == -1) {
+				return [code];
+			}
+		
 			let codes = [];
 			for(let i = 0; i < fullCodes.length; i++) {
 				if(codeMatch(code, fullCodes[i])) {
@@ -1410,9 +1418,20 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return searchCodeLabelsMax(8, codes);
 		}
 		
-		try {
-			document.getElementById("navbar").innerHTML = "Generating...";
-	
+		const enhancingKeyArr = ["xxFA","xxPR"];
+		const collapsingKeyArr = ["xxFR","xxPA"];
+		const hierarchalKeyArr = ["OCFR","OCPA","ONFA","ONPR","SCFA","SCPR","SNFR","SNPA"];
+		const atomisticKeyArr = ["OCFA","OCPR","ONFR","ONPA","SCFR","SCPA","SNFA","SNPR"];
+		const commensalKeyArr = ["ONFA","ONPR","SCFA","SCPR"];
+		const parasiticalKeyArr = ["OCFR","OCPA","SNFR","SNPA"];
+		const mutualKeyArr = ["OCFA","OCPR","SNFA","SNPR"];
+		const competitiveKeyArr = ["ONFR","ONPA","SCFR","SCPA"];
+		const researchingKeyArr = ["OCFA","ONFR","SCFR","SNFA"];
+		const organizingKeyArr = ["OCPA","ONPR","SCPR","SNPA"];
+		const humanitarianKeyArr = ["OCFR","ONFA","SCFA","SNFR"];
+		const consumingKeyArr = ["OCPR","ONPA","SCPA","SNPR"];
+		
+		function createCodeLabels() {
 			// attitudes
 			createCodeLabel("OCFA", {
 				label: "Tangential", 
@@ -1509,7 +1528,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SCPR", {
 				label: "Affirming",
 				desc: [
-					"Observing a satisfying quality in things, recognising and reinforcing their inherent worth seperate from others.",
+					"Observing a satisfying quality in things, recognising and reinforcing their inherent worth.",
 				]
 			});
 			
@@ -1952,9 +1971,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			const enhancingKeyArr = ["xxFA","xxPR"];
-			const collapsingKeyArr = ["xxFR","xxPA"];
-			
 			createCodeLabelArr(enhancingKeyArr, {
 				label: "Enhancing",
 				Socionics: "Judicious",
@@ -2033,9 +2049,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			const enhancingLabel = codeLabels[groupCodes(enhancingKeyArr)];
-			const collapsingLabel = codeLabels[groupCodes(collapsingKeyArr)];
 			
 			createCodeLabelArr(["xNxA","xCxR"], {
 				label: "Labile",
@@ -2255,9 +2268,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 	
-			const hierarchalKeyArr = ["OCFR","OCPA","ONFA","ONPR","SCFA","SCPR","SNFR","SNPA"];
-			const atomisticKeyArr = ["OCFA","OCPR","ONFR","ONPA","SCFR","SCPA","SNFA","SNPR"];
-			
 			createCodeLabelArr(hierarchalKeyArr, {
 				label:"Hierarchal",
 				Socionics: "Aristocratic",
@@ -2311,17 +2321,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			const hierarchalLabel = codeLabels[groupCodes(hierarchalKeyArr)];
-			const atomisticLabel = codeLabels[groupCodes(atomisticKeyArr)];
-			
 			// Tetrachotomies
 			
 			// symbiosis
-			const commensalKeyArr = ["ONFA","ONPR","SCFA","SCPR"];
-			const parasiticalKeyArr = ["OCFR","OCPA","SNFR","SNPA"];
-			const mutualKeyArr = ["OCFA","OCPR","SNFA","SNPR"];
-			const competitiveKeyArr = ["ONFR","ONPA","SCFR","SCPA"];
-			
 			createCodeLabelArr(commensalKeyArr, {
 				label: "Commensal",
 				Socionics: "Delta",
@@ -3258,11 +3260,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			const commensalLabel = codeLabels[groupCodes(commensalKeyArr)];
-			const parasiticalLabel = codeLabels[groupCodes(parasiticalKeyArr)];
-			const mutualLabel = codeLabels[groupCodes(mutualKeyArr)];
-			const competitiveLabel = codeLabels[groupCodes(competitiveKeyArr)];
-			
 			createCodeLabel("xxFR", {
 				label: "Implosive",
 				Socionics: "Introverted Intuition",
@@ -3393,6 +3390,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Thinking outside the box.",
 					"Curious, optimistic affect.",
 					{
+						"Richard A. Bartle - Spades / Explorers": [
+							"Explorers delight in having the game expose its internal machinations to them. They try progressively esoteric actions in wild, out-of-the-way places, looking for interesting features (ie. bugs) and figuring out how things work. Scoring points may be necessary to enter some next phase of exploration, but it's tedious, and anyone with half a brain can do it. Killing is quicker, and might be a constructive exercise in its own right, but it causes too much hassle in the long run if the deceased return to seek retribution. Socialising can be informative as a source of new ideas to try out, but most of what people say is irrelevant or old hat. The real fun comes only from discovery, and making the most complete set of maps in existence.",
+							"Explorers say things like:",
+							[
+								"Hmm...",
+								"You mean you don't know the shortest route from <obscure room 1> to <obscure room 2>?",
+								"I haven't tried that one, what's it do?",
+								"Why is it that if you carry the uranium you get radiation sickness, and if you put it in a bag you still get it, but if you put it in a bag and drop it then wait 20 seconds and pick it up again, you don't?"
+							],
+							"Explorers are interested in having the game surprise them, ie. in INTERACTING with the WORLD. It's the sense of wonder which the virtual world imbues that they crave for; other players add depth to the game, but they aren't essential components of it, except perhaps as sources of new areas to visit. Scoring points all the time is a worthless occupation, because it defies the very open-endedness that makes a world live and breathe. Most accomplished explorers could easily rack up sufficient points to reach the top, but such one-dimensional behaviour is the sign of a limited intellect.",
+							"Explorers are proud of their knowledge of the game's finer points, especially if new players treat them as founts of all knowledge."
+						],
 						"Juan E. Sandoval - Ne": [
 							"As a Pe function, Ne has a short cycle of decay (S), making its extrapolations (A) necessarily limited to what the present situation (E) offers before facing the refresh factor. This forces Ne to generate short-term, situational associations between the objects at hand rather than longstanding, interlaced schemas. Each association is formed between objects, but because the objects Ne juggles do not need to be anchored to any concrete (C) analog, purely mental objects often become more plentiful in their thoughts since they are easier to create. The slightest attribute of the environment may trigger a caricature to rise out from a physical object while the actual object is henceforth neglected. The environment is still necessary for Ne to generate associations, but only as a catalyst which it can diverge from and handle the extrapolated material instead.",
 							"This divergent property causes Ne to register reality in a very iconic fashion, where objects are often only attended to long enough to extract a caricature. This gives Ne a memetic approach to information, as each dataset it handles is more analogous to a meme than an actuality. Reality becomes emblematic, and suspended somewhat above the physical like a proxy or a series of simulations they can enter in and out of. This suspension from the limits of the presently concrete will lead naturally to an optimistic approach to metabolism. Since the restraints of the present are neglected, more appears plausible and Ne’s libido turns to chasing those unexplored potentialities."
@@ -3623,6 +3632,19 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Escalating outward pressure.",
 					"Engrossing, strong, powerful affect.",
 					{
+						"Richard A. Bartle - Clubs / Killers": [
+							"Killers get their kicks from imposing themselves on others. This may be \"nice\", ie. busybody do-gooding, but few people practice such an approach because the rewards (a warm, cosy inner glow, apparently) aren't very substantial. Much more commonly, people attack other players with a view to killing off their personae (hence the name for this style of play). The more massive the distress caused, the greater the killer's joy at having caused it. Normal points-scoring is usually required so as to become powerful enough to begin causing havoc in earnest, and exploration of a kind is necessary to discover new and ingenious ways to kill people. Even socialising is sometimes worthwhile beyond taunting a recent victim, for example in finding out someone's playing habits, or discussing tactics with fellow killers. They're all just means to an end, though; only in the knowledge that a real person, somewhere, is very upset by what you've just done, yet can themselves do nothing about it, is there any true adrenalin-shooting, juicy fun.",
+							"Killers says things like:",
+							[
+								"Ha!",
+								"Coward!",
+								"Die!",
+								"Die! Die! Die!"
+							],
+							"(Killers are people of few words).",
+							"Killers are interested in doing things to people, ie. in ACTING on other PLAYERS. Normally, this is not with the consent of these \"other players\" (even if, objectively, the interference in their play might appear \"helpful\"), but killers don't care; they wish only to demonstrate their superiority over fellow humans, preferably in a world which serves to legitimise actions that could mean imprisonment in real life. Accumulated knowledge is useless unless it can be applied; even when it is applied, there's no fun unless it can affect a real person instead of an emotionless, computerised entity.",
+							"Killers are proud of their reputation and of their oft-practiced fighting skills."
+						],
 						"Juan E. Sandoval - Se": [
 							"As a Pe function, Se has a short cycle of decay (S), limiting its exploration to the numerous qualities that objects and situations (E) evidence. And since Se requires a concrete (C) analog to simulate a mental object, it does not diverge its attention from the environment like Ne but instead sinks more acutely into the physical world to extract out a greater volume of subtleties and datasets. This gives Se a photographic approach to information; a somatic registration of reality and a sense of presence. However, this sense of presence also makes Se more susceptible to the conditions of the physical environment such as through noise and irritants. This photographic focus is not easy to turn off, leading to a higher sensitivity to stimuli and a need to adjust to those conditions.",
 							"Inversely, if the environment is providing insufficient stimulation, Se will compel the individual to take a more kinesthetic and mobilizing route of exploration and seek out new landscapes with richer details to extract. It will have a magnetic attraction to areas with the most pleasant and aesthetic frequencies. This makes Se’s exploration opportunistic, rather than optimistic like Ne. Se identifies existent opportunities for high stimuli in the environment, rather than being satiated with simulated potentialities."
@@ -3757,11 +3779,23 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Social",
 				Socionics: "Extroverted Ethics",
 				desc: [
-					"Contributing to a shared atmosphere.",
+					"Contributing to a shared atmosphere; influencing expressions.",
+					"Emphasising emotional expression over internal structure.",
 					"Ingratiating, disarming, charming affect.",
-					"Influencing expressions.",
 					"Emotional synchronisation.",
 					{
+						"Richard A. Bartle - Hearts / Socializers": [
+							"Socialisers are interested in people, and what they have to say. The game is merely a backdrop, a common ground where things happen to players. Inter-player relationships are important: empathising with people, sympathising, joking, entertaining, listening; even merely observing people play can be rewarding - seeing them grow as individuals, maturing over time. Some exploration may be necessary so as to understand what everyone else is talking about, and points-scoring could be required to gain access to neat communicative spells available only to higher levels (as well as to obtain a certain status in the community). Killing, however, is something only ever to be excused if it's a futile, impulsive act of revenge, perpetrated upon someone who has caused intolerable pain to a dear friend. The only ultimately fulfilling thing is not how to rise levels or kill hapless drips; it's getting to know people, to undertand them, and to form beautiful, lasting relationships.",
+							"Socialisers say things like:",
+							[
+								"Hi!",
+								"Yeah, well, I'm having trouble with my boyfriend.",
+								"What happened? I missed it, I was talking.",
+								"Really? Oh no! Gee, that's terrible! Are you sure? Awful, just awful!"
+							],
+							"Socialisers are interested in INTERACTING with other PLAYERS. This usually means talking, but it can extend to more exotic behaviour. Finding out about people and getting to know them is far more worthy than treating them as fodder to be bossed around. The game world is just a setting; it's the characters that make it so compelling.",
+							"Socialisers are proud of their friendships, their contacts and their influence."
+						],
 						"Juan E. Sandoval - Fe": [
 							"Fe by itself cannot view a causality between objects without comprehending it through the social economy. Even something mechanical like “arranging the dishes” carries a heroic undertone to it and is metabolized in some anthropomorphic fashion. Every locomotive act is in some way a manifestation of the drama of life. This embeds each activity with moral “effort”. Fe can do inanimate tasks but it actually is drained by them because it’s inserting an unnecessary layer of processing which isn’t effectively utilized."
 						],
@@ -3805,11 +3839,23 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Productive",
 				Socionics: "Extroverted Logic",
 				desc: [
-					"Pragmatisation.",
-					"Putting things to use.",
+					"Pragmatisation; putting things to use.",
+					"Emphasising productive effort over personal relations.",
 					"Useful, straghtforward, efficient affect.",
 					"Factual synchronisation.",
 					{
+						"Richard A. Bartle - Diamonds / Achievers": [
+							"Achievers regard points-gathering and rising in levels as their main goal, and all is ultimately subserviant to this. Exploration is necessary only to find new sources of treasure, or improved ways of wringing points from it. Socialising is a relaxing method of discovering what other players know about the business of accumulating points, that their knowledge can be applied to the task of gaining riches. Killing is only necessary to eliminate rivals or people who get in the way, or to gain vast amounts of points (if points are awarded for killing other players).",
+							"Achievers say things like:",
+							[
+								"I'm busy.",
+								"Sure, I'll help you. What do I get?",
+								"So how do YOU kill the dragon, then?",
+								"Only 4211 points to go!"
+							],
+							"Achievers are interested in doing things to the game, ie. in ACTING on the WORLD. It's the fact that the game environment is a fully-fledged world in which they can immerse themselves that they find compelling; its being shared with other people merely adds a little authenticity, and perhaps a competitive element. The point of playing is to master the game, and make it do what you want it to do; there's nothing intrinsically worthwhile in rooting out irrelevant details that will never be of use, or in idling away your life with gossip.",
+							"Achievers are proud of their formal status in the game's built-in level hierarchy, and of how short a time they took to reach it."
+						],
 						"Juan E. Sandoval - Te": [
 							"Te compares objects to other objects in a matter-of-fact way. There is no extra loop of processing embedded in each micro-judgment to evaluate it’s comparison to the social economy. This is different than saying the Te person’s actions aren’t motivated by some ethical imperative. Indeed, one could be building a shelter for the homeless, using Te, but the actual metabolic effort at each cycle of processing is mechanical and abiotic in its treatement of information. It’s just about getting it built; that’s just that, “get it done.”"
 						],
@@ -3858,6 +3904,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				Socionics: "Introverted Ethics",
 				desc: [
 					"Internalising relations between individuals.",
+					"Emphasising personal relations over productive effort.",
 					"Particular, empathic, confidential affect.",
 					{
 						"Juan E. Sandoval - Ti": [
@@ -3905,7 +3952,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Neutral",
 				Socionics: "Introverted Logic",
 				desc: [
-					"Emphasising internal structure e.g. truth, coherence & symmetry.",
+					"Emphasising internal structure over emotional expression.",
 					"Analytical, indifferent, impartial affect.",
 					"Internalising the rules of the game.",
 					{
@@ -3966,12 +4013,165 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			// clubs
-			const researchingKeyArr = ["OCFA","ONFR","SCFR","SNFA"];
-			const organizingKeyArr = ["OCPA","ONPR","SCPR","SNPA"];
-			const humanitarianKeyArr = ["OCFR","ONFA","SCFA","SNFR"];
-			const consumingKeyArr = ["OCPR","ONPA","SCPA","SNPR"];
 			
+			
+			// cognition
+			createCodeLabelArr(["SxFR","OxPR"], {
+				label: "Dialectical",
+				desc: [
+					"Fixates on dynamic interplay between opposites, synthesizing their contradictions.",
+					"Shaped by contextual assumptions, fixates on their limitations.",
+					"Highly dependent on time & place; most unstable and susceptible to sudden changes.",
+					"Predictive, but inferring purpose - most teleological, akin to intelligent design.",
+					"You cannot enter the same river twice, for it has already changed.",
+					"A sculpture is caused by an idea the sculptor had.",
+					{
+						"Victor Gulenko - Dialectical-Algorithmic": [
+							"“The second cognitive form is of particular interest: it is synthetic, negative, and deductive. The working name of this style is Dialectical-Algorithmic. Representatives of this style are Sociotypes EIE, ILI, LSE, SEI. As Dynamics, these types synthesize associational images. As Evolutionary types, they increase deductive complexity of them. As Negativists, they work well with contradictions and paradoxes.",
+							"Intellectual Sphere",
+							"The essential distinguishing feature of the Dialectical style, is a view of the universe as a unified struggle of opposites. In speech it often uses syntactic constructions \"if-then-else\", the predictive branches of a developing process. Within limits, the Dialectic strives to find an intermediate point of dynamic equilibrium between contrasting extremes. Dialectical cognition is born from the colliding flow and counterflow of thought, the consciousness and unconsciousness. Thinkers of this style are characterized by an express inclination towards the synthesis of opposites, the removal of contradictions, which they so keenly perceive.",
+							"Its advantages are obvious: it is the most subtle and flexible style. It can easily switch to an opposite direction, and possesses predictive ability, accompanied by an effective type of associative memory. Algorithmic thinking is also good at solving problems of classification, given their gift for recognizing complex patterns. Beyond the circumstantial conditions of a problem, it perceives a fundamental algorithm for its solution.",
+							"According to Aristotle, Dialecticals prognostic thinking explains reality on the basis of purposive causes. For example, the cause of a sculpture is an idea of it in the head of the sculptor. The main role is played by a program, the intention of the creator. Thus, it can be considered teleological, and hence the most 'religious' in its essential thinking. Many scholars of this type sooner or later come to faith (not necessarily a church confessional).",
+							"Social Sphere",
+							"Historically, the first representative of a Dialectical worldview would be Heraclitus. Epitomizing the Dynamic dichotomy, he was of the opinion that \"you cannot enter the same river twice\" because whenever you enter again, the flow is already of different water. In more recent times it developed into Hegel's comprehensive theory of a rational system. Since Dialectical cognition, compared to other styles, is the most oriented towards creative intention, it invariably leads to ideas of a creator, an absolute, a cosmic intelligence, etc.",
+							"Two of its representatives—EIE and ILI—are usually recognized in society as the most intellectual types. They form the backbone of intellectual elites, expert clubs, esoteric groups, etc. They are the best computer programmers, knowing better than other types how to work with moving structures—algorithms. Algorithmic diagrams consist of blocks and arrows showing the order of transitions, branches, and loop cycles. The crux of a program is its dynamic structure—pointers, rather than blocks. The formula \"if-then-else\" is, in essence, the core of any algorithm.",
+							"The disadvantages in Dialectical-Algorithmic cognition include instability and uncertainty. Algorithmics suffer from difficulty in making choices and embracing unambiguous decisions. This thinking is more comparable to a symphony of flowing interwoven imagery, rather than a mechanism of clearly established instruction sets. Another problem is increased criticality, which can be so high that it incurs self-destruction, plunging them into danger of total detachment from reality, and leading to mental disorders, especially in cases of hereditary predisposition.",
+							"Psychological Sphere",
+							"The psyche of Dialectical types is most prone to transformations. From a psychological point of view, an unstable oscillating psyche is fertile ground for suggestibility. Occasionally Dialectics lose control over the parallel streams of thought fluctuating in their heads. They need only tune out their internal oscillation between freedom of choice and fatalism, and reinforce the latter. Doctors know that a small but accurately timed shock can throw the heart into a state of fibrillation. Likewise, a successfully directed signal at the right time can throw the Dialectical psyche into a chaotic state.",
+							"The EIE Sociotype has a very suitable psyche for suggestive influence. It is characterized by so-called moments of imprint vulnerability. In these moments an intense suggestion is triggered—an imprint—the prerequisites of which are a state of extreme fear, confusion, or surprise. A 'No Exit' sign suddenly seen by a person of Algorithmic psyche at a time of severe emotional turmoil, may catalyze a decision about suicide. Exploiting this paradoxical nature of Dialectical types, shock therapy is capable of completely reprogramming their conception of reality, including core value judgments.",
+							"A certain, although rare sign of Dialectical cognition—accidents that lead to states similar to a deep trance or coma, followed by sudden enlightenment or the appearance of esoteric abilities.",
+							"The other version is slow suggestion, primarily based on entrainment through rhythmic vocalization and/or sound, multiple repetitions of the same phrase with variation. Variations in this case are particularly significant, working akin to the chorus in a song. Gradually a trance state is reached—external relaxation with internal concentration. The greater the monotony, the sooner a deep trance is reached. Hence why some people rapidly settle down and fall asleep under a monotone 'bubnezh' TV.",
+							"Scientific Sphere",
+							"Dialectical thinking best corresponds to the quantum-probabilistic worldview of modern physics. According to this paradigm, there are no immutable laws, only tendencies and probabilities. Quantum Mechanics is built on the counterintuitive principle of particle-wave duality, according to which microcosmic objects behave as particles and as waves. Two of the 20th century's greatest physicists disputed over this view—Albert Einstein and Neils Bohr. The former defended causal-determinism as the nature of the universe, the latter advocated a probabilistic ontology. In the aftermath, Bohr won. Though apart from its historical context, the dispute makes little sense, given that these cognitive forms are dual to one other. Jung's principle of 'synchronicity' also lies within the Dialectical paradigm.",
+							"Contemporary British mathematician Roger Penrose has suggested that the human brain uses quantum gravity as a means for intuitive insight. He's written several books (\"The Emperor's New Mind\" and \"Shadows of the Mind\") stipulating that the brain is a quantum computer, and that Aristotelian logical thinking is actually alien to human beings. If he is right, it follows that the integral type of humanity is Dialectical-Algorithmic.",
+							"A real-life model of this thinking—double-images periodically passing into each other. Simple example: a projection onto the plane of a truncated pyramid. After examining it awhile it alternately seems convex, with the top facing to the observer, then concave, with the rear wall receding into the distance.",
+							"One more graphical illustration of Dialectical perception. What do you see in the picture: a vase against a black background, or two facial profiles on a white background? It depends on which one for you is the background, and which is the figure. Some see a vase and the profiles turn into a dark background, others see two black profiles and the white vase goes into the background. But once a person sees both images, fluctuations of attention begin. The picture seems to pulsate: you see a vase, then the profiles. There is a dialectical exchange of background/foreground. Triggering negative reverse perspective, where distant or darkened objects are perceived more significantly than those located closer to the observer."
+						],
+						"Mironov - Conservatives (?)": []
+					}
+				]
+			});
+			createCodeLabelArr(["SxPR","OxFR"], {
+				label: "Darwinistic",
+				desc: [			
+					"Most fluid in thought.",
+					"Thinking is tied inexorably to activity.",
+					"Survival of the fittest - random & unstructured yet productive.",
+					"Primordial soup - spontaneous creation and essential mutation.",
+					"The sculpture is caused by the block of marble from which it was made.",
+					{
+						"Victor Gulenko - Vortial-Synergistic": [
+							"“The fourth cognitive style: it is synthetic, positive, and inductive. Its most appropriate title is Vortical-Synergetic. This form flows in Sociotypes ESE, SLI, LIE, IEI. Synergetics—the science of how order emerges from chaos. The word 'synergy' in Ancient Greek means \"concerted action\". The concept of synergy continues to be discussed at present. In the West, it is called 'Chaos Theory' or 'Nonlinear Dynamics' [9]. For our purposes, it is important to note that it is characterized by so-called dissipative states—non-equilibrium, nonlinear, unstable. As Dynamics, Synergetics think fluidly with tints of one thought cascading into another. As Positivists, they converge towards a point of attraction. As Involutionary types, they frequently turn backwards and jump over previous levels, displacing the flow of their thoughts like a vortex or fluctuating storm. IEI as if in a kaleidoscope sees whimsical iridescent imagery, dissolving then receding in flux. LIE thinks very experimentally with many variants rapidly assorted and mentally tested on the fly for practical applicability. ESE initiates a social torrent leaving behind a trail of emotional turbulence. Thoughts 'swarm' and chaotically displace one another. SLI 'lies in a drift' as it were awaiting favorable wind. Once the situation becomes favorable, self-organization immediately takes hold and rapid thinking initiates, scrolling through incoming information, identifying options most and least likely to succeed.",
+							"Intellectual Sphere",
+							"Characteristic of a 'vortex' is its self-organizing nature, moving like a whirlwind. This manifests mentally as a rapid search for options, tests, and the subsequent screening of variants which do not yield results. It operates on basis of testing, advancing to the goal through trial and error. In a sense, it is comparable to a perpetual lab experiment in the brain.",
+							"The first advantage of Vortical cognition—liveliness and naturalness. It seems to simulate the actual processes occurring in nature. Another advantage—faith in success and luck. Synergetics do not confuse temporary setbacks with error; they will undertake attempt after attempt until success ultimately comes to them.",
+							"Its chief disadvantage is that the intellectual search is often blind and uneconomical. Another difficulty is its randomness and spontaneity. Synergetic intellect is a kind of chain reaction that catalyzes itself. The mechanism of positive feedback operates: if not curbed, then the concentration of effort first leads to an explosion, followed by dissipation.",
+							"Synergetic intellect explains phenomena through substantive reasoning. The very substance (material or substrate) itself generating phenomena through natural movement. In the Aristotle example, the cause of sculpture is the block of marble from which it was made.",
+							"Social Sphere",
+							"Vortical cognition developed into a unique intellectual paradigm that was deemed later than all others to have social merit, despite it being most akin to natural phenomena. It is known that in natural conditions, all processes run in cycles. For example, in laissez-faire economies operating on Adam Smith's 'invisible hand' principle, natural cyclical fluctuations in market supply and demand guide the natural equilibrium prices of goods.",
+							"Studying biological evolution, Charles Darwin discovered its origin as a struggle for existence against natural selection, and survival of the fittest organisms. The main engine of this 'evolution', is involution through events of random variation, which abruptly leave no intermediate gradual links between appearances of species.",
+							"Biological self-organization is catalyzed by mutation—sudden, unpredictable changes in genetic material. Involution generates pulsating chaos, as evolution simultaneously selects and propagates useful mutations.",
+							"Following in the involutionary trend of Darwinism, the concept of 'punctuated equilibrium' emphasizes the discontinuous development of species observed in nature. Authors Gould and Eldridge conclude from this fact that smooth gradual evolution of species is impossible under natural conditions. To survive, all organs must simultaneously be in working order; there are no creatures present with half-fin wings, half-hoof toes, etc. According to this theory, the lifetime of a species is divided into two unequal stages of duration. The first stage is stasis, long periods where no significant species change occurs. Then the second stage, a time of fracture when the species is rapidly converted into another form, or dies out.",
+							"In the 20th century, as I mentioned, the vortex idea was rediscovered and Synergetics adopted its armament. The motto of Synergetics—order through fluctuation. Such fluctuations (local perturbations in the system) are analogous to biological mutation. Order in the chaotic evolution of complex socio-psychological systems, Socionics understands through the law of quadra progression. However, we must not forget that in the irreversible progression of quadras is a series of involutional junctures—jumps, twists, and turns. Because of this, the real non-theoretical quadra progression curve is jagged and looped, its outline resembling the dancing tongues of a burning flame.",
+							"Psychological Sphere",
+							"This cognitive style imbues qualities of endurance and optimism to the psyche. However, the psyche of Synergetics is less stable than that of Holographers. Synergetic types are partially conditionable, but capable of discarding undesired habits. For restoration of normal mental life they need specific, and sometimes long periods of trial and error. Depriving their life of continuous forward movement exerts a bad effect upon their mind. Operating principle: As ambient momentum of circumstance declines, their self-determination atrophies. Lack of oncoming circumstantial pressures renders them increasingly worse off.",
+							"The best countermeasure in such situations is positive self-programming. Consisting of forcing disturbing thoughts to the background and dissolving them in positive scenarios. IEI before sleep visualizes a pleasant scene to remove disturbing experiences of the day. LIE casts a desirable goal in its imagination, optimistic it will eventually acquire the necessary persons and resources. ESE simply does not think about past mistakes and its mood is improved by itself. SLI is not the first place puts a positive scenario and awaits the moment possible to implement it.",
+							"It is often forgotten that the synergetic aspect of development makes extended forecasts futile. American meteorologist Edward Lorenz descriptively coined this phenomenon the 'Butterfly Effect'. Where a butterfly waving its wings in some part of America can, with specific confluence of circumstances, induce a hurricane somewhere in Indonesia. Complex nonlinear phenomena are unpredictable, because tiny initial influences with time can lead to enormous consequences. In conventional life, this same phenomenon is called the Domino Effect. Where the initial fall of the first domino successfully entails catastrophe of the series. The catalyzing action, whose event occurs on your will, determines which of the scenarios will run—optimistic or pessimistic.",
+							"Scientific Sphere",
+							"This cognitive form reflects the synergy formed by the current worldview. Within this paradigm during the 18th century arose the Kant-Laplace hypothesis about the vortex origin of the sun and planets from cosmic dust.",
+							"The Synergetic paradigm is opposed to Creationism; the emergence of complex systems explains spontaneous creation, not divine intervention. A typical example from the history of science is biochemist A. I. Oparin's hypothesis on the emergence of life from inanimate matter in the primordial 'broth' of Earth's early existence, which was largely confirmed in Stanley Miller's famous 1953 experiment.",
+							"Also hailing from the Synergetic paradigm comes the outlook of Nikolai Amosov. According to him it \"explains the evolution of the world's self-organizing structures… miracles can happen, but are of no practical value.\" He sincerely believes demonstrative simulations can be recreated by computer models.",
+							"Synergetics recognize the critical role of chance and free will in transitional moments of history. Synergetically-minded scholars frequently consider alternative historical outcomes. British historian Arnold J. Toynbee in particular, explored this twist on the course of ancient history—what if Alexander of Macedon did not die (pessimistic version), how would the world have developed then (optimistic version)?",
+							"A real-life model of Synergetic cognition is the turbulent flow. Turbulence is a liquid or gas flow, in which there is rapid mixing of its moving layers. The behavior of such flows cannot be predicted. Whereas the preceding laminar flow phrase exhibits clear regularities deducible by Causal-Determinism.",
+							"Mathematical modeling of natural growth processes typically uses exponential functions. Such functions describe geometric progressions, rather than arithmetic values. Logarithmic (S-shaped) curves terminating in saturation points are common in dynamic modeling. Implying that self-organization is not omnipotent: after exceeding a certain limit, it exhausts its own momentum. At which point it becomes necessary to either yield to external structure, or create a new nexus of self-organization. Synergetic types naturally select the latter.",
+							"Lev N. Gumilev offers a Synergetic account for involutions of ethnogenesis in the birth, growth, and death process of societies. Social systems dictate rules of selection for specific behaviors of people. Charismatic-personalities (cranks, outcasts, dissenters) engender a variety of diverse social mutations. Society holds them at bay, until such time that it weakens for any reason (due to economic crisis, internal wars, cultural stagnation, etc.). Afterwards, the energy of a new order vigorously sweeps the decrepit system and begins to grow in its place. But sooner or later, the new order itself will age just the same and be forced to give way to an alternative system ripening in its depths, and so forth.",
+							"Vortical cognition is hardest to convey to people of Algorithmic cognition, since to them free choice and the game of chance opposes teleology, fate, the special role of a creator, etc. When Synergetics speak about the implicit order in chaos, if we translate their words to the language of Socionics, they imply that Holographical cognition, with its minimally convoluted ordering structures, is dual to the chaotic vortex."
+						],
+						"Mironov - Innovators (?)": []
+					}
+				]
+			});
+			createCodeLabelArr(["SxPA","OxFA"], {
+				label: "Panoramic",
+				desc: [
+					"Rapid aggregation of perspectives & interpretations of the same object.",
+					"Most abstract and penetrative, akin to x-ray vision or a hologram.",
+					"Most susceptible to jumping to conclusions without fact-checking.",
+					"A sculpture is caused by its latent form, which is set free by the sculptor cutting away marble.",
+					{
+						"Victor Gulenko - Holographical-Panoramic": [
+							"“In cognitive theory, the third cognitive form is the least studied: it is analytic, negative, and inductive. The provisional name of this style is Holographical-Panoramic. 'Holograph' originates from the Ancient Greek words holos \"entire, whole\" and grapho \"write\". This name is derived from the Holographist's ability to densely pack information via method of 'like to, similar' analogy. Sociotypes possessing this form are SLE, LII, IEE, ESI. As Statics, Holographers attain reliable precision of thought. As Negativists they periodically turn the object of thought to its opposite side. As Involutionary types, they sporadically change the angle of examination or criterion of judgment.",
+							"Intellectual Sphere",
+							"This cognitive style has much in common with the holographic principle in physics. A hologram (optical) is a statistically recorded interference pattern made by two beams of light which are transmitted and reflected from a single source. Holographic technology allows us to obtain a three-dimensional image of an object. The hologram itself is an aggregation of stripes and spots exactly resembling the embedded object. The two beams of light are superimposed in such a way that every part of the hologram carries information about the whole.",
+							"In this way, by mentally superimposing multiple projections of the same object, Holographists reach a holistic view. To do this, they look at the image and select a desired angle of examination. Holographic cognition often utilizes the grammatical conjunctions: \"or-or\", \"either-or\", \"on the one hand, on the other hand\". It actively uses the principle of perspective; unrestricted choice in point of view. The holographic approach is a progressive approximation towards the purpose, or away from it, accompanied by changes of perspective. The holographic process is carried out as if calibrating focus.",
+							"Holographic cognition has a characteristic penetrating, skeletal-revealing, 'x-ray' nature. It unhesitatingly cuts away details and nuances, giving a coarsely generalized representation of the subject. Take for example the two orthogonal cross-sections of a cylinder: the horizontal section looks like a circle, and the vertical section looks like a rectangle. Two different perspectives of an indivisible whole which, when superimposed in the mind, produces transition to a higher level of understanding about the object.",
+							"SLE thinks this way in battle. Analyzing the situation, they simplify it to two or three facets (frontal, flank, and/or rear), but then quickly go to a higher tier of understanding. LII grasps the problem from opposite sides, mentally rotating the situation in three dimensions around its semantic axes. ESI first draws near to a person, then moves away, seeming to probe the individual from all sides, cutting off those who could let them down. IEE detects the possible hidden motivations of a person, as if building their psychological 'hologram'.",
+							"The main advantages of Holographic cognition are as follows. First, it is multi-perspective. As already stated, because of this it attains a dimensionally holistic and complete depiction. Second, it values simplicity and clarity, avoids pretentiousness, and forgoes 'bells and whistles'. Holographists are particularly effective in crisis situations, when it is necessary to make decisions quickly, and there is no time to weigh all the details.",
+							"The obvious disadvantage of this cognitive style is that it appears too rough, lacking adequate consideration to details which become important when a process flows smoothly. Its information-dense constructs are often difficult to decompress and unpack; to outsiders, they may seem void of intermediate links for establishing coherency in their connections.",
+							"According to Aristotle, Holographic cognition corresponds to explanation by structural or formative causes. Aristotle called it the structure of form. Returning to the sculptor example, the cause of the sculpture is its latent form, which the sculptor merely sets free by cutting away excess marble.",
+							"Social Sphere",
+							"A vague idea of the holographic concept was expressed by Gottfried Leibniz's \"Monadology\". His monad, a microcosmic reflection of the whole world order, is analogous to a hologram. Ecologists regularly turned to it in attempting to understand why there is stability in nature. Relationships between living and non-living nature arising in a given territory causes biogeocenosis, or ecosystem formation. Ecosystems are primarily characterized by equilibrium of self-similarity over time, where long-term coexistence of opposites without merging (synthesis) is observed. Therefore, Static prevails over Dynamic in such communities. Therein lies the fundamental law of homeostasis in the ecosystem.",
+							"General systems theory was later formed on the basis of these ideas. It was founded by Austrian biologist Ludwig von Bertalanffy, who introduced the concept of open systems, which exchange matter, energy, and information with the environment, thus resisting destabilization.",
+							"While Determinists attempt to explain the behavior of a system by its component parts and interconnections, Holographists find novel qualities illustrating emergent features in it that cannot be accounted for solely from its internal structure. Therefore, the Holographical paradigm can generally be called a systemic-ecological worldview.",
+							"Contemporary 'green' ideology is an epitomization of this cognitive form. This does not in any way imply that the ideologues of this movement are Holographical types—cognitive styles and proclaimed viewpoints may not necessarily coincide! Manifestations of one cognitive style through another are completely typical. The books of \"quantum psychologist\" Robert Anton Wilson are a good example of this, in which his Dialectical-Algorithmic form is laden with multi-perspective, holographic content [5].",
+							"Psychological Sphere",
+							"Holographical cognition corresponds to a stable, self-possessed psyche resistant to conditioning. In comparing the conditionability of an LSI psyche to its Involutionary Mirror SLE, observation shows that the degree of psychological resistance is much higher in the latter. How is this explained? By the durable cognitive infrastructure on which it is built. Complete panorama, which allows periodic change of perspective on the subject. Good balance between the immune and nervous systems, as well as the primary sense organs.",
+							"In neuro-linguistic programming, this principle is used in a technique called 'reframing'. Reframing changes the perceptual framework contextualizing an event. If we mentally place a familiar object into an unfamiliar context, then significance of the whole situation changes. For example, imagine a tiger first in a jungle, then in a zoo cage, then on the balcony of your apartment. The standard Socionics type is depicted as immersed in its 'club'. But what if you shift it to quadra? What if it turns out to be among types with opposite cognitive styles? The chain can continue indefinitely.",
+							"With reframing it is possible to see the familiar with fresh eyes. The type of the psyche in one who resorts to this technique remains constant of course, only their subjective relation to the object of attention is changed. The benefit of this method is primarily in the fact that new perspectives emphasize aspects of a situation that may have been previously underestimated, allowing the possibility of discovering new avenues of growth, and expanding one's existing range of choices.",
+							"Scientific Sphere",
+							"A real-life physical model of this multi-perspective intellect is the hologram—a superimposition of multiple images where each one can only be seen when looking at a certain angle. Change of perspective occurs intermittently and does not alter the system itself, only its priorities. In this way, multiple standards can be implemented, making it possible to work with a complex system as if it were a simple sequence.",
+							"Another real-life prototype of Holographical cognition are fractal objects, discovered by mathematician Benoit Mandelbrot in the 1970s. Geometrically, fractals are figures with diffuse outlines, possessing self-similar internal structures. For example, trees, snowflakes, coastlines, etc. They are characterized by multiple internal forms similar in principle to nesting-dolls. Like a hologram, any fragment of a fractal contains complete information about the entire fractal. The part is always structurally similar to the whole.",
+							"Socionics types are also like fractal objects. Hence my holographic concept of personality as a nested system of types, one inside another [4]. Which opposes the prevailing flat view of Socionics advocated by people with reductionist thinking."
+						],
+						"Mironov - Reformers (?)": []
+					}
+				]
+			});
+			createCodeLabelArr(["SxFA","OxPA"], {
+				label: "Deterministic",
+				desc: [
+					"Most stable, deliberate and consistent.",
+					"Least susceptible to external influence.",
+					"Fixates on causal linear events and their outcome.",
+					"A sculpture is caused by its sculptor.",
+					{
+						"Victor Gulenko - Causal-Deterministic": [
+							"“Let us now examine the first cognitive form: It is analytic, positive, and deductive. We will call this style Causal-Determinist. Its carriers are Sociotypes ILE, LSI, SEE, EII. As Statics, their cognitive activity is stable and clear. As Evolutionary types, they think procedurally without overlooking parts and intermediate details. As Positivists, they aim towards singularly valid solutions.",
+							"Intellectual Sphere",
+							"Causal-Determinist cognition is known under synonymous names as formal logic or deterministic thinking, both of which emphasize its rigid nature. Speech in this cognitive style takes shape with aid of the connectives \"because\", \"therefore\", \"consequently\" (causal conjunctions). The mental process consists in constructing chains of cause and effect, reducing explanations to deterministic mechanisms. Using the example of Aristotle, who first pointed out four ways to explain phenomena, the reason for the existence of a sculpture is the sculptor who fashioned it directly.",
+							"In the scientific sphere so thinks ILE, in the managerial-administrative sphere is methodical LSI, in the social sphere SEE calculates chains of material interests, in the humanitarian sphere subject to the same categorical imperative is EII.",
+							"Social Sphere",
+							"Aristotle is considered the discoverer of this approach. The basic laws of formal thinking are outlined in his theory of syllogism. However, the first to consistently put them into practice was Euclid, founder of geometry. More recently, its principles grounded rationalist Rene Descartes in his 1637 treatise \"Discourse on the Method\". Then it finally took shape in mathematical logic. The Causal-Determinist paradigm reached its apogee in Logical Positivism, then increasingly began to decline in value towards the end of the 20th century. However, as the common stereotype of proof, it still dominates to this day.",
+							"I will touch its advantages. First, it is perceived by society as the most authoritative, most convincing, and singularly correct. In mathematics, it is formalized as the deductive-axiomatic method. Use of it requires great intellectual stamina. Second, attributes of greater clarity and concentration are inherent to this style. The type most characterized by singular concentration is LSI. However, the irrational SEE argues quite soundly, deriving one consequence from another, implying focus on the chain of events. If even one link fails for any reason, then Determinists lose their sense of rationale and find it difficult to act because they see no reason to.",
+							"At the same time, Causal-Determinism has its drawbacks. It is primarily the most artificial and removed from the laws of functioning life. Its efficacy extends to the 'logical' formulation of already existing results, the construction of operating mechanisms, but not fundamentally new discoveries. The first dead end which formalization risks is scholasticism, i.e. pointless albeit logically impeccable reasoning. The second intellectual dead end faced by sequential Determinists is the trap of reductionism, which they fall into on account of fragmenting wholes into their component parts. This deficiency was noted even by the ancient skeptics, as well as in modern times by Hume, who doubted that any event could be dictated by strict reason.",
+							"Indeed, in building a long chain of cause and effect, it is difficult to avoid the danger of circularity, the risk of falling into circulus vitiosus—a vicious circle in the proof. Kurt Gödel's theorem on the incompleteness of formal systems, asserts that any sufficiently complex system of rules is either inconsistent, or contains conclusions that can be neither proven nor refuted by the rules of that system. This established limits in the applicability of formal logic. Using the deductive-axiomatic method, the medieval Scholastics in particular, attempted to rigorously prove the existence of God. Resulting from closure of causes in terms of effects, they circularly arrived at a definition of God as the thought which thinks of itself.",
+							"Psychological Sphere",
+							"Causal-Determinist cognition forges a mentality poorly protected from indoctrination, or in extreme cases, even brainwashing. By skillfully combining memorable words and actions, it is possible to gain control over the behavior of specific individuals. Intelligent Determinists in particular, are characterized by a strong dependence on the events of childhood, which Sigmund Freud discovered in his time, though poorly understood in full. Habits in pronounced Determinists are comparable in their rigidity to conditioned reflexes.",
+							"Standard military interrogation procedures are designed to ensure guaranteed cause-effect impacts upon the psyche. It includes measures of exposure such as sleep deprivation, changes in room temperature and/or humidity, denial of food subsequently followed by its delivery as a reward, etc. Isolation of the detainee and the gradual imposition of regulations, bears fruit sooner or later. In time, the vulnerability of psychological destabilization is manufactured into dependence upon the interrogator.",
+							"It is noteworthy that extreme critical situations, trigger a 'slow-motion film' state of mind in Determinists. Thinking becomes particularly clear, but stretched out over time, such that seconds can subjectively feel like minutes. Along these same lines, due to an abrupt shakeup of their psyche, the stress of surprise severely impedes their cerebral activity until they can recover in deep sleep.",
+							"The psychological school of Behaviorism represents this model of the psyche. Its supporters believe that behavioral learning is achieved through reinforcement—rewarding adherence to rules and punishing their violation. B. F. Skinner formulated the principle of operant conditioning, according to which the behavior of living organisms is completely determined by the cause-effect of this conditioning. He proposed the method of 'successive approximations', in which students receive positive reinforcement in instances where their behavior conforms to that desired.",
+							"Behaviorists developed the concept of conditioned learning and established a rigid procedural method of action towards the goal as the basis for its operation.",
+							"Scientific Sphere",
+							"Formal logical thinking in its time gave birth to the deterministic cause-effect worldview. This is the worldview of classical physics whose cornerstone is Newtonian Mechanics, and was the dominant paradigm until the early 20th century. Rigid systems operate according to these rules—organisms and mechanisms. When faced with multi-factor processes (such as psychology or society), however, reductionism loses its explanatory power to portray complex phenomena in terms of their basic components. Additionally, this classic paradigm has been too influenced by the ideal of 'progress', in spite of numerous historical examples of regressive tendencies, setbacks, repetitions, etc.",
+							"A real-life model of Causal-Determinist cognition is given by information represented in the form of a chart or realistic illustration made using a direct perspective. In this technique, objects are depicted larger or smaller in proportion to their distance from the observer. By drawing in this way, following strict instructions, any object can be easily depicted."
+						],
+						"Mironov - Non-resisters (?)": []
+					}
+				]
+			});
+			createTetraLabel(["SxFR","OxPR"], ["SxPR","OxFR"], ["SxPA","OxFA"], ["SxFA","OxPA"], {
+				label: "Cognition",
+				desc: [
+					{
+						"Victor Gulenko - Cognition Styles": [
+							"“The manifestations of three dichotomies: Static-Dynamic, Positivism-Negativism, and Evolution-Involution; examined on four levels: intellectual, social, psychological, and physical. From these dichotomies are identified the cognitive styles corresponding to Sociotypes. The features of Causal-Determinist, Dialectical-Algorithmic, Holographical-Panoramic, and Vortical-Synergetic forms of cognition are described. Also explored is their formative influence on modern philosophical paradigms and the special role of Supervision rings in societal transmission of information.”"
+						],
+						"Mironov - Formation of the situation": []
+					}
+				]
+			});
+			
+			// clubs
 			createCodeLabelArr(researchingKeyArr, {
 				label: "Researching",
 				Socionics: "Researchers",
@@ -4089,7 +4289,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			}); // SF Socialites
 			createTetraLabel(researchingKeyArr, organizingKeyArr, humanitarianKeyArr, consumingKeyArr, {
-				label: "Clubs",
+				label: "Occupation",
 				desc: [
 					{
 						Lytov: [
@@ -4102,11 +4302,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				]
 			});
-			
-			const researchingLabel = codeLabels[groupCodes(researchingKeyArr)];
-			const organizingLabel = codeLabels[groupCodes(organizingKeyArr)];
-			const humanitarianLabel = codeLabels[groupCodes(humanitarianKeyArr)];
-			const consumingLabel = codeLabels[groupCodes(consumingKeyArr)];
 			
 			createCodeLabel("xNxA", {
 				label: "Adopting",
@@ -4421,162 +4616,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			// cognition
-			createCodeLabelArr(["SxFR","OxPR"], {
-				label: "Dialectical",
-				desc: [
-					"Fixates on dynamic interplay between opposites, synthesizing their contraditions.",
-					"Shaped by contextual assumptions, fixates on their limitations.",
-					"Highly dependent on time & place; most unstable and susceptible to sudden changes.",
-					"Predictive, but inferring purpose - most teleological, akin to intelligent design.",
-					"You cannot enter the same river twice, for it has already changed.",
-					"A sculpture is caused by an idea the sculptor had.",
-					{
-						"Victor Gulenko - Dialectical-Algorithmic": [
-							"“The second cognitive form is of particular interest: it is synthetic, negative, and deductive. The working name of this style is Dialectical-Algorithmic. Representatives of this style are Sociotypes EIE, ILI, LSE, SEI. As Dynamics, these types synthesize associational images. As Evolutionary types, they increase deductive complexity of them. As Negativists, they work well with contradictions and paradoxes.",
-							"Intellectual Sphere",
-							"The essential distinguishing feature of the Dialectical style, is a view of the universe as a unified struggle of opposites. In speech it often uses syntactic constructions \"if-then-else\", the predictive branches of a developing process. Within limits, the Dialectic strives to find an intermediate point of dynamic equilibrium between contrasting extremes. Dialectical cognition is born from the colliding flow and counterflow of thought, the consciousness and unconsciousness. Thinkers of this style are characterized by an express inclination towards the synthesis of opposites, the removal of contradictions, which they so keenly perceive.",
-							"Its advantages are obvious: it is the most subtle and flexible style. It can easily switch to an opposite direction, and possesses predictive ability, accompanied by an effective type of associative memory. Algorithmic thinking is also good at solving problems of classification, given their gift for recognizing complex patterns. Beyond the circumstantial conditions of a problem, it perceives a fundamental algorithm for its solution.",
-							"According to Aristotle, Dialecticals prognostic thinking explains reality on the basis of purposive causes. For example, the cause of a sculpture is an idea of it in the head of the sculptor. The main role is played by a program, the intention of the creator. Thus, it can be considered teleological, and hence the most 'religious' in its essential thinking. Many scholars of this type sooner or later come to faith (not necessarily a church confessional).",
-							"Social Sphere",
-							"Historically, the first representative of a Dialectical worldview would be Heraclitus. Epitomizing the Dynamic dichotomy, he was of the opinion that \"you cannot enter the same river twice\" because whenever you enter again, the flow is already of different water. In more recent times it developed into Hegel's comprehensive theory of a rational system. Since Dialectical cognition, compared to other styles, is the most oriented towards creative intention, it invariably leads to ideas of a creator, an absolute, a cosmic intelligence, etc.",
-							"Two of its representatives—EIE and ILI—are usually recognized in society as the most intellectual types. They form the backbone of intellectual elites, expert clubs, esoteric groups, etc. They are the best computer programmers, knowing better than other types how to work with moving structures—algorithms. Algorithmic diagrams consist of blocks and arrows showing the order of transitions, branches, and loop cycles. The crux of a program is its dynamic structure—pointers, rather than blocks. The formula \"if-then-else\" is, in essence, the core of any algorithm.",
-							"The disadvantages in Dialectical-Algorithmic cognition include instability and uncertainty. Algorithmics suffer from difficulty in making choices and embracing unambiguous decisions. This thinking is more comparable to a symphony of flowing interwoven imagery, rather than a mechanism of clearly established instruction sets. Another problem is increased criticality, which can be so high that it incurs self-destruction, plunging them into danger of total detachment from reality, and leading to mental disorders, especially in cases of hereditary predisposition.",
-							"Psychological Sphere",
-							"The psyche of Dialectical types is most prone to transformations. From a psychological point of view, an unstable oscillating psyche is fertile ground for suggestibility. Occasionally Dialectics lose control over the parallel streams of thought fluctuating in their heads. They need only tune out their internal oscillation between freedom of choice and fatalism, and reinforce the latter. Doctors know that a small but accurately timed shock can throw the heart into a state of fibrillation. Likewise, a successfully directed signal at the right time can throw the Dialectical psyche into a chaotic state.",
-							"The EIE Sociotype has a very suitable psyche for suggestive influence. It is characterized by so-called moments of imprint vulnerability. In these moments an intense suggestion is triggered—an imprint—the prerequisites of which are a state of extreme fear, confusion, or surprise. A 'No Exit' sign suddenly seen by a person of Algorithmic psyche at a time of severe emotional turmoil, may catalyze a decision about suicide. Exploiting this paradoxical nature of Dialectical types, shock therapy is capable of completely reprogramming their conception of reality, including core value judgments.",
-							"A certain, although rare sign of Dialectical cognition—accidents that lead to states similar to a deep trance or coma, followed by sudden enlightenment or the appearance of esoteric abilities.",
-							"The other version is slow suggestion, primarily based on entrainment through rhythmic vocalization and/or sound, multiple repetitions of the same phrase with variation. Variations in this case are particularly significant, working akin to the chorus in a song. Gradually a trance state is reached—external relaxation with internal concentration. The greater the monotony, the sooner a deep trance is reached. Hence why some people rapidly settle down and fall asleep under a monotone 'bubnezh' TV.",
-							"Scientific Sphere",
-							"Dialectical thinking best corresponds to the quantum-probabilistic worldview of modern physics. According to this paradigm, there are no immutable laws, only tendencies and probabilities. Quantum Mechanics is built on the counterintuitive principle of particle-wave duality, according to which microcosmic objects behave as particles and as waves. Two of the 20th century's greatest physicists disputed over this view—Albert Einstein and Neils Bohr. The former defended causal-determinism as the nature of the universe, the latter advocated a probabilistic ontology. In the aftermath, Bohr won. Though apart from its historical context, the dispute makes little sense, given that these cognitive forms are dual to one other. Jung's principle of 'synchronicity' also lies within the Dialectical paradigm.",
-							"Contemporary British mathematician Roger Penrose has suggested that the human brain uses quantum gravity as a means for intuitive insight. He's written several books (\"The Emperor's New Mind\" and \"Shadows of the Mind\") stipulating that the brain is a quantum computer, and that Aristotelian logical thinking is actually alien to human beings. If he is right, it follows that the integral type of humanity is Dialectical-Algorithmic.",
-							"A real-life model of this thinking—double-images periodically passing into each other. Simple example: a projection onto the plane of a truncated pyramid. After examining it awhile it alternately seems convex, with the top facing to the observer, then concave, with the rear wall receding into the distance.",
-							"One more graphical illustration of Dialectical perception. What do you see in the picture: a vase against a black background, or two facial profiles on a white background? It depends on which one for you is the background, and which is the figure. Some see a vase and the profiles turn into a dark background, others see two black profiles and the white vase goes into the background. But once a person sees both images, fluctuations of attention begin. The picture seems to pulsate: you see a vase, then the profiles. There is a dialectical exchange of background/foreground. Triggering negative reverse perspective, where distant or darkened objects are perceived more significantly than those located closer to the observer."
-						],
-						"Mironov - Conservatives (?)": []
-					}
-				]
-			});
-			createCodeLabelArr(["SxPR","OxFR"], {
-				label: "Darwinistic",
-				desc: [			
-					"Most fluid in thought.",
-					"Thinking is tied inexorably to activity.",
-					"Survival of the fittest - random & unstructured yet productive.",
-					"Primordial soup - spontaneous creation and essential mutation.",
-					"The sculpture is caused by the block of marble from which it was made.",
-					{
-						"Victor Gulenko - Vortial-Synergistic": [
-							"“The fourth cognitive style: it is synthetic, positive, and inductive. Its most appropriate title is Vortical-Synergetic. This form flows in Sociotypes ESE, SLI, LIE, IEI. Synergetics—the science of how order emerges from chaos. The word 'synergy' in Ancient Greek means \"concerted action\". The concept of synergy continues to be discussed at present. In the West, it is called 'Chaos Theory' or 'Nonlinear Dynamics' [9]. For our purposes, it is important to note that it is characterized by so-called dissipative states—non-equilibrium, nonlinear, unstable. As Dynamics, Synergetics think fluidly with tints of one thought cascading into another. As Positivists, they converge towards a point of attraction. As Involutionary types, they frequently turn backwards and jump over previous levels, displacing the flow of their thoughts like a vortex or fluctuating storm. IEI as if in a kaleidoscope sees whimsical iridescent imagery, dissolving then receding in flux. LIE thinks very experimentally with many variants rapidly assorted and mentally tested on the fly for practical applicability. ESE initiates a social torrent leaving behind a trail of emotional turbulence. Thoughts 'swarm' and chaotically displace one another. SLI 'lies in a drift' as it were awaiting favorable wind. Once the situation becomes favorable, self-organization immediately takes hold and rapid thinking initiates, scrolling through incoming information, identifying options most and least likely to succeed.",
-							"Intellectual Sphere",
-							"Characteristic of a 'vortex' is its self-organizing nature, moving like a whirlwind. This manifests mentally as a rapid search for options, tests, and the subsequent screening of variants which do not yield results. It operates on basis of testing, advancing to the goal through trial and error. In a sense, it is comparable to a perpetual lab experiment in the brain.",
-							"The first advantage of Vortical cognition—liveliness and naturalness. It seems to simulate the actual processes occurring in nature. Another advantage—faith in success and luck. Synergetics do not confuse temporary setbacks with error; they will undertake attempt after attempt until success ultimately comes to them.",
-							"Its chief disadvantage is that the intellectual search is often blind and uneconomical. Another difficulty is its randomness and spontaneity. Synergetic intellect is a kind of chain reaction that catalyzes itself. The mechanism of positive feedback operates: if not curbed, then the concentration of effort first leads to an explosion, followed by dissipation.",
-							"Synergetic intellect explains phenomena through substantive reasoning. The very substance (material or substrate) itself generating phenomena through natural movement. In the Aristotle example, the cause of sculpture is the block of marble from which it was made.",
-							"Social Sphere",
-							"Vortical cognition developed into a unique intellectual paradigm that was deemed later than all others to have social merit, despite it being most akin to natural phenomena. It is known that in natural conditions, all processes run in cycles. For example, in laissez-faire economies operating on Adam Smith's 'invisible hand' principle, natural cyclical fluctuations in market supply and demand guide the natural equilibrium prices of goods.",
-							"Studying biological evolution, Charles Darwin discovered its origin as a struggle for existence against natural selection, and survival of the fittest organisms. The main engine of this 'evolution', is involution through events of random variation, which abruptly leave no intermediate gradual links between appearances of species.",
-							"Biological self-organization is catalyzed by mutation—sudden, unpredictable changes in genetic material. Involution generates pulsating chaos, as evolution simultaneously selects and propagates useful mutations.",
-							"Following in the involutionary trend of Darwinism, the concept of 'punctuated equilibrium' emphasizes the discontinuous development of species observed in nature. Authors Gould and Eldridge conclude from this fact that smooth gradual evolution of species is impossible under natural conditions. To survive, all organs must simultaneously be in working order; there are no creatures present with half-fin wings, half-hoof toes, etc. According to this theory, the lifetime of a species is divided into two unequal stages of duration. The first stage is stasis, long periods where no significant species change occurs. Then the second stage, a time of fracture when the species is rapidly converted into another form, or dies out.",
-							"In the 20th century, as I mentioned, the vortex idea was rediscovered and Synergetics adopted its armament. The motto of Synergetics—order through fluctuation. Such fluctuations (local perturbations in the system) are analogous to biological mutation. Order in the chaotic evolution of complex socio-psychological systems, Socionics understands through the law of quadra progression. However, we must not forget that in the irreversible progression of quadras is a series of involutional junctures—jumps, twists, and turns. Because of this, the real non-theoretical quadra progression curve is jagged and looped, its outline resembling the dancing tongues of a burning flame.",
-							"Psychological Sphere",
-							"This cognitive style imbues qualities of endurance and optimism to the psyche. However, the psyche of Synergetics is less stable than that of Holographers. Synergetic types are partially conditionable, but capable of discarding undesired habits. For restoration of normal mental life they need specific, and sometimes long periods of trial and error. Depriving their life of continuous forward movement exerts a bad effect upon their mind. Operating principle: As ambient momentum of circumstance declines, their self-determination atrophies. Lack of oncoming circumstantial pressures renders them increasingly worse off.",
-							"The best countermeasure in such situations is positive self-programming. Consisting of forcing disturbing thoughts to the background and dissolving them in positive scenarios. IEI before sleep visualizes a pleasant scene to remove disturbing experiences of the day. LIE casts a desirable goal in its imagination, optimistic it will eventually acquire the necessary persons and resources. ESE simply does not think about past mistakes and its mood is improved by itself. SLI is not the first place puts a positive scenario and awaits the moment possible to implement it.",
-							"It is often forgotten that the synergetic aspect of development makes extended forecasts futile. American meteorologist Edward Lorenz descriptively coined this phenomenon the 'Butterfly Effect'. Where a butterfly waving its wings in some part of America can, with specific confluence of circumstances, induce a hurricane somewhere in Indonesia. Complex nonlinear phenomena are unpredictable, because tiny initial influences with time can lead to enormous consequences. In conventional life, this same phenomenon is called the Domino Effect. Where the initial fall of the first domino successfully entails catastrophe of the series. The catalyzing action, whose event occurs on your will, determines which of the scenarios will run—optimistic or pessimistic.",
-							"Scientific Sphere",
-							"This cognitive form reflects the synergy formed by the current worldview. Within this paradigm during the 18th century arose the Kant-Laplace hypothesis about the vortex origin of the sun and planets from cosmic dust.",
-							"The Synergetic paradigm is opposed to Creationism; the emergence of complex systems explains spontaneous creation, not divine intervention. A typical example from the history of science is biochemist A. I. Oparin's hypothesis on the emergence of life from inanimate matter in the primordial 'broth' of Earth's early existence, which was largely confirmed in Stanley Miller's famous 1953 experiment.",
-							"Also hailing from the Synergetic paradigm comes the outlook of Nikolai Amosov. According to him it \"explains the evolution of the world's self-organizing structures… miracles can happen, but are of no practical value.\" He sincerely believes demonstrative simulations can be recreated by computer models.",
-							"Synergetics recognize the critical role of chance and free will in transitional moments of history. Synergetically-minded scholars frequently consider alternative historical outcomes. British historian Arnold J. Toynbee in particular, explored this twist on the course of ancient history—what if Alexander of Macedon did not die (pessimistic version), how would the world have developed then (optimistic version)?",
-							"A real-life model of Synergetic cognition is the turbulent flow. Turbulence is a liquid or gas flow, in which there is rapid mixing of its moving layers. The behavior of such flows cannot be predicted. Whereas the preceding laminar flow phrase exhibits clear regularities deducible by Causal-Determinism.",
-							"Mathematical modeling of natural growth processes typically uses exponential functions. Such functions describe geometric progressions, rather than arithmetic values. Logarithmic (S-shaped) curves terminating in saturation points are common in dynamic modeling. Implying that self-organization is not omnipotent: after exceeding a certain limit, it exhausts its own momentum. At which point it becomes necessary to either yield to external structure, or create a new nexus of self-organization. Synergetic types naturally select the latter.",
-							"Lev N. Gumilev offers a Synergetic account for involutions of ethnogenesis in the birth, growth, and death process of societies. Social systems dictate rules of selection for specific behaviors of people. Charismatic-personalities (cranks, outcasts, dissenters) engender a variety of diverse social mutations. Society holds them at bay, until such time that it weakens for any reason (due to economic crisis, internal wars, cultural stagnation, etc.). Afterwards, the energy of a new order vigorously sweeps the decrepit system and begins to grow in its place. But sooner or later, the new order itself will age just the same and be forced to give way to an alternative system ripening in its depths, and so forth.",
-							"Vortical cognition is hardest to convey to people of Algorithmic cognition, since to them free choice and the game of chance opposes teleology, fate, the special role of a creator, etc. When Synergetics speak about the implicit order in chaos, if we translate their words to the language of Socionics, they imply that Holographical cognition, with its minimally convoluted ordering structures, is dual to the chaotic vortex."
-						],
-						"Mironov - Innovators (?)": []
-					}
-				]
-			});
-			createCodeLabelArr(["SxPA","OxFA"], {
-				label: "Panoramic",
-				desc: [
-					"Rapid aggregation of perspectives & interpretations of the same object.",
-					"Most abstract and penetrative, akin to x-ray vision or a hologram.",
-					"Most susceptible to jumping to conclusions without fact-checking.",
-					"A sculpture is caused by its latent form, which is set free by the sculptor cutting away marble.",
-					{
-						"Victor Gulenko - Holographical-Panoramic": [
-							"“In cognitive theory, the third cognitive form is the least studied: it is analytic, negative, and inductive. The provisional name of this style is Holographical-Panoramic. 'Holograph' originates from the Ancient Greek words holos \"entire, whole\" and grapho \"write\". This name is derived from the Holographist's ability to densely pack information via method of 'like to, similar' analogy. Sociotypes possessing this form are SLE, LII, IEE, ESI. As Statics, Holographers attain reliable precision of thought. As Negativists they periodically turn the object of thought to its opposite side. As Involutionary types, they sporadically change the angle of examination or criterion of judgment.",
-							"Intellectual Sphere",
-							"This cognitive style has much in common with the holographic principle in physics. A hologram (optical) is a statistically recorded interference pattern made by two beams of light which are transmitted and reflected from a single source. Holographic technology allows us to obtain a three-dimensional image of an object. The hologram itself is an aggregation of stripes and spots exactly resembling the embedded object. The two beams of light are superimposed in such a way that every part of the hologram carries information about the whole.",
-							"In this way, by mentally superimposing multiple projections of the same object, Holographists reach a holistic view. To do this, they look at the image and select a desired angle of examination. Holographic cognition often utilizes the grammatical conjunctions: \"or-or\", \"either-or\", \"on the one hand, on the other hand\". It actively uses the principle of perspective; unrestricted choice in point of view. The holographic approach is a progressive approximation towards the purpose, or away from it, accompanied by changes of perspective. The holographic process is carried out as if calibrating focus.",
-							"Holographic cognition has a characteristic penetrating, skeletal-revealing, 'x-ray' nature. It unhesitatingly cuts away details and nuances, giving a coarsely generalized representation of the subject. Take for example the two orthogonal cross-sections of a cylinder: the horizontal section looks like a circle, and the vertical section looks like a rectangle. Two different perspectives of an indivisible whole which, when superimposed in the mind, produces transition to a higher level of understanding about the object.",
-							"SLE thinks this way in battle. Analyzing the situation, they simplify it to two or three facets (frontal, flank, and/or rear), but then quickly go to a higher tier of understanding. LII grasps the problem from opposite sides, mentally rotating the situation in three dimensions around its semantic axes. ESI first draws near to a person, then moves away, seeming to probe the individual from all sides, cutting off those who could let them down. IEE detects the possible hidden motivations of a person, as if building their psychological 'hologram'.",
-							"The main advantages of Holographic cognition are as follows. First, it is multi-perspective. As already stated, because of this it attains a dimensionally holistic and complete depiction. Second, it values simplicity and clarity, avoids pretentiousness, and forgoes 'bells and whistles'. Holographists are particularly effective in crisis situations, when it is necessary to make decisions quickly, and there is no time to weigh all the details.",
-							"The obvious disadvantage of this cognitive style is that it appears too rough, lacking adequate consideration to details which become important when a process flows smoothly. Its information-dense constructs are often difficult to decompress and unpack; to outsiders, they may seem void of intermediate links for establishing coherency in their connections.",
-							"According to Aristotle, Holographic cognition corresponds to explanation by structural or formative causes. Aristotle called it the structure of form. Returning to the sculptor example, the cause of the sculpture is its latent form, which the sculptor merely sets free by cutting away excess marble.",
-							"Social Sphere",
-							"A vague idea of the holographic concept was expressed by Gottfried Leibniz's \"Monadology\". His monad, a microcosmic reflection of the whole world order, is analogous to a hologram. Ecologists regularly turned to it in attempting to understand why there is stability in nature. Relationships between living and non-living nature arising in a given territory causes biogeocenosis, or ecosystem formation. Ecosystems are primarily characterized by equilibrium of self-similarity over time, where long-term coexistence of opposites without merging (synthesis) is observed. Therefore, Static prevails over Dynamic in such communities. Therein lies the fundamental law of homeostasis in the ecosystem.",
-							"General systems theory was later formed on the basis of these ideas. It was founded by Austrian biologist Ludwig von Bertalanffy, who introduced the concept of open systems, which exchange matter, energy, and information with the environment, thus resisting destabilization.",
-							"While Determinists attempt to explain the behavior of a system by its component parts and interconnections, Holographists find novel qualities illustrating emergent features in it that cannot be accounted for solely from its internal structure. Therefore, the Holographical paradigm can generally be called a systemic-ecological worldview.",
-							"Contemporary 'green' ideology is an epitomization of this cognitive form. This does not in any way imply that the ideologues of this movement are Holographical types—cognitive styles and proclaimed viewpoints may not necessarily coincide! Manifestations of one cognitive style through another are completely typical. The books of \"quantum psychologist\" Robert Anton Wilson are a good example of this, in which his Dialectical-Algorithmic form is laden with multi-perspective, holographic content [5].",
-							"Psychological Sphere",
-							"Holographical cognition corresponds to a stable, self-possessed psyche resistant to conditioning. In comparing the conditionability of an LSI psyche to its Involutionary Mirror SLE, observation shows that the degree of psychological resistance is much higher in the latter. How is this explained? By the durable cognitive infrastructure on which it is built. Complete panorama, which allows periodic change of perspective on the subject. Good balance between the immune and nervous systems, as well as the primary sense organs.",
-							"In neuro-linguistic programming, this principle is used in a technique called 'reframing'. Reframing changes the perceptual framework contextualizing an event. If we mentally place a familiar object into an unfamiliar context, then significance of the whole situation changes. For example, imagine a tiger first in a jungle, then in a zoo cage, then on the balcony of your apartment. The standard Socionics type is depicted as immersed in its 'club'. But what if you shift it to quadra? What if it turns out to be among types with opposite cognitive styles? The chain can continue indefinitely.",
-							"With reframing it is possible to see the familiar with fresh eyes. The type of the psyche in one who resorts to this technique remains constant of course, only their subjective relation to the object of attention is changed. The benefit of this method is primarily in the fact that new perspectives emphasize aspects of a situation that may have been previously underestimated, allowing the possibility of discovering new avenues of growth, and expanding one's existing range of choices.",
-							"Scientific Sphere",
-							"A real-life physical model of this multi-perspective intellect is the hologram—a superimposition of multiple images where each one can only be seen when looking at a certain angle. Change of perspective occurs intermittently and does not alter the system itself, only its priorities. In this way, multiple standards can be implemented, making it possible to work with a complex system as if it were a simple sequence.",
-							"Another real-life prototype of Holographical cognition are fractal objects, discovered by mathematician Benoit Mandelbrot in the 1970s. Geometrically, fractals are figures with diffuse outlines, possessing self-similar internal structures. For example, trees, snowflakes, coastlines, etc. They are characterized by multiple internal forms similar in principle to nesting-dolls. Like a hologram, any fragment of a fractal contains complete information about the entire fractal. The part is always structurally similar to the whole.",
-							"Socionics types are also like fractal objects. Hence my holographic concept of personality as a nested system of types, one inside another [4]. Which opposes the prevailing flat view of Socionics advocated by people with reductionist thinking."
-						],
-						"Mironov - Reformers (?)": []
-					}
-				]
-			});
-			createCodeLabelArr(["SxFA","OxPA"], {
-				label: "Deterministic",
-				desc: [
-					"Most stable, deliberate and consistent.",
-					"Least susceptible to external influence.",
-					"Fixates on causal linear events and their outcome.",
-					"A sculpture is caused by its sculptor.",
-					{
-						"Victor Gulenko - Causal-Deterministic": [
-							"“Let us now examine the first cognitive form: It is analytic, positive, and deductive. We will call this style Causal-Determinist. Its carriers are Sociotypes ILE, LSI, SEE, EII. As Statics, their cognitive activity is stable and clear. As Evolutionary types, they think procedurally without overlooking parts and intermediate details. As Positivists, they aim towards singularly valid solutions.",
-							"Intellectual Sphere",
-							"Causal-Determinist cognition is known under synonymous names as formal logic or deterministic thinking, both of which emphasize its rigid nature. Speech in this cognitive style takes shape with aid of the connectives \"because\", \"therefore\", \"consequently\" (causal conjunctions). The mental process consists in constructing chains of cause and effect, reducing explanations to deterministic mechanisms. Using the example of Aristotle, who first pointed out four ways to explain phenomena, the reason for the existence of a sculpture is the sculptor who fashioned it directly.",
-							"In the scientific sphere so thinks ILE, in the managerial-administrative sphere is methodical LSI, in the social sphere SEE calculates chains of material interests, in the humanitarian sphere subject to the same categorical imperative is EII.",
-							"Social Sphere",
-							"Aristotle is considered the discoverer of this approach. The basic laws of formal thinking are outlined in his theory of syllogism. However, the first to consistently put them into practice was Euclid, founder of geometry. More recently, its principles grounded rationalist Rene Descartes in his 1637 treatise \"Discourse on the Method\". Then it finally took shape in mathematical logic. The Causal-Determinist paradigm reached its apogee in Logical Positivism, then increasingly began to decline in value towards the end of the 20th century. However, as the common stereotype of proof, it still dominates to this day.",
-							"I will touch its advantages. First, it is perceived by society as the most authoritative, most convincing, and singularly correct. In mathematics, it is formalized as the deductive-axiomatic method. Use of it requires great intellectual stamina. Second, attributes of greater clarity and concentration are inherent to this style. The type most characterized by singular concentration is LSI. However, the irrational SEE argues quite soundly, deriving one consequence from another, implying focus on the chain of events. If even one link fails for any reason, then Determinists lose their sense of rationale and find it difficult to act because they see no reason to.",
-							"At the same time, Causal-Determinism has its drawbacks. It is primarily the most artificial and removed from the laws of functioning life. Its efficacy extends to the 'logical' formulation of already existing results, the construction of operating mechanisms, but not fundamentally new discoveries. The first dead end which formalization risks is scholasticism, i.e. pointless albeit logically impeccable reasoning. The second intellectual dead end faced by sequential Determinists is the trap of reductionism, which they fall into on account of fragmenting wholes into their component parts. This deficiency was noted even by the ancient skeptics, as well as in modern times by Hume, who doubted that any event could be dictated by strict reason.",
-							"Indeed, in building a long chain of cause and effect, it is difficult to avoid the danger of circularity, the risk of falling into circulus vitiosus—a vicious circle in the proof. Kurt Gödel's theorem on the incompleteness of formal systems, asserts that any sufficiently complex system of rules is either inconsistent, or contains conclusions that can be neither proven nor refuted by the rules of that system. This established limits in the applicability of formal logic. Using the deductive-axiomatic method, the medieval Scholastics in particular, attempted to rigorously prove the existence of God. Resulting from closure of causes in terms of effects, they circularly arrived at a definition of God as the thought which thinks of itself.",
-							"Psychological Sphere",
-							"Causal-Determinist cognition forges a mentality poorly protected from indoctrination, or in extreme cases, even brainwashing. By skillfully combining memorable words and actions, it is possible to gain control over the behavior of specific individuals. Intelligent Determinists in particular, are characterized by a strong dependence on the events of childhood, which Sigmund Freud discovered in his time, though poorly understood in full. Habits in pronounced Determinists are comparable in their rigidity to conditioned reflexes.",
-							"Standard military interrogation procedures are designed to ensure guaranteed cause-effect impacts upon the psyche. It includes measures of exposure such as sleep deprivation, changes in room temperature and/or humidity, denial of food subsequently followed by its delivery as a reward, etc. Isolation of the detainee and the gradual imposition of regulations, bears fruit sooner or later. In time, the vulnerability of psychological destabilization is manufactured into dependence upon the interrogator.",
-							"It is noteworthy that extreme critical situations, trigger a 'slow-motion film' state of mind in Determinists. Thinking becomes particularly clear, but stretched out over time, such that seconds can subjectively feel like minutes. Along these same lines, due to an abrupt shakeup of their psyche, the stress of surprise severely impedes their cerebral activity until they can recover in deep sleep.",
-							"The psychological school of Behaviorism represents this model of the psyche. Its supporters believe that behavioral learning is achieved through reinforcement—rewarding adherence to rules and punishing their violation. B. F. Skinner formulated the principle of operant conditioning, according to which the behavior of living organisms is completely determined by the cause-effect of this conditioning. He proposed the method of 'successive approximations', in which students receive positive reinforcement in instances where their behavior conforms to that desired.",
-							"Behaviorists developed the concept of conditioned learning and established a rigid procedural method of action towards the goal as the basis for its operation.",
-							"Scientific Sphere",
-							"Formal logical thinking in its time gave birth to the deterministic cause-effect worldview. This is the worldview of classical physics whose cornerstone is Newtonian Mechanics, and was the dominant paradigm until the early 20th century. Rigid systems operate according to these rules—organisms and mechanisms. When faced with multi-factor processes (such as psychology or society), however, reductionism loses its explanatory power to portray complex phenomena in terms of their basic components. Additionally, this classic paradigm has been too influenced by the ideal of 'progress', in spite of numerous historical examples of regressive tendencies, setbacks, repetitions, etc.",
-							"A real-life model of Causal-Determinist cognition is given by information represented in the form of a chart or realistic illustration made using a direct perspective. In this technique, objects are depicted larger or smaller in proportion to their distance from the observer. By drawing in this way, following strict instructions, any object can be easily depicted."
-						],
-						"Mironov - Non-resisters (?)": []
-					}
-				]
-			});
-			createTetraLabel(["SxFR","OxPR"], ["SxPR","OxFR"], ["SxPA","OxFA"], ["SxFA","OxPA"], {
-				label: "Cognition",
-				desc: [
-					{
-						"Victor Gulenko - Cognition Styles": [
-							"“The manifestations of three dichotomies: Static-Dynamic, Positivism-Negativism, and Evolution-Involution; examined on four levels: intellectual, social, psychological, and physical. From these dichotomies are identified the cognitive styles corresponding to Sociotypes. The features of Causal-Determinist, Dialectical-Algorithmic, Holographical-Panoramic, and Vortical-Synergetic forms of cognition are described. Also explored is their formative influence on modern philosophical paradigms and the special role of Supervision rings in societal transmission of information.”"
-						],
-						"Mironov - Formation of the situation": []
-					}
-				]
-			});
-			
 			createCodeLabelArr(["SNxA","OCxA"], {
 				label: "Systemic",
 				desc: [
@@ -4695,7 +4734,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCxR","SNxR"], {
 				label: "Synchronizing",
 				desc: [
-					"Encouraging people to be more emotionally in-sync with each other, by deemphasising its practical cost.",
+					"Encouraging people to be more involved with each other, by deemphasising its practical cost.",
 					"Identifying & influencing emotional moods, getting people to \"open up\" to others.",
 					"Managing emotional atmosphere, inclination to theatricality.",
 					{
@@ -4751,7 +4790,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["SCxA","ONxA"], {
 				label: "Moralising",
 				desc: [
-					"Encouraging others to break with systemic rules in favour of more humanitarian needs.",
+					"Encouraging others to break with systemic rules.",
 					"Identifying & influencing normative relations between people.",
 					"The desire for mutual trust & \"good\" (or at least beneficial) relations.",
 					{
@@ -6007,7 +6046,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFR","OCPA","ONFA","ONPR"], {
 				label: "Sectarian",
 				desc: [
-					"Ordering or segregating society into a workable hierarchy.",
+					"Ordering or segregating society into a workable hierarchy of social orders.",
 					{
 						"Mironov - Our people (?)": []
 					}
@@ -6016,7 +6055,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["SCFA","SCPR","SNFR","SNPA"], {
 				label: "Aristocratic",
 				desc: [
-					"Keeping to the social orders one feels to be a part of.",
+					"Keeping to the social orders one is expected to be a part of.",
 					{
 						"Mironov - Brothers (?)": []
 					}
@@ -6025,7 +6064,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFA","OCPR","ONFR","ONPA"], {
 				label: "Discrete",
 				desc: [
-					"Maintains individual interests that are highly selective.",
+					"Maintains a highly-selective & individualistic sense of the social orders one takes part in.",
 					{
 						"Mironov - White crows (?)": []
 					}
@@ -6034,7 +6073,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["SCFR","SCPA","SNFA","SNPR"], {
 				label: "Cosmopolitan",
 				desc: [
-					"Has an indiscriminate attitude to their interests.",
+					"Has an indiscriminate attitude to the social orders one feels a part of.",
 					{
 						"Mironov - Restless (?)": []
 					}
@@ -6647,7 +6686,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				desc: [
 					"Compression of time. Bridging past, present and future. Intuition & insight. Sensing the significance of a given moment.",
 					"Introducing a crisis - pressing the importance of the moment to induce action within an ecosystem.",
-					"They are likely to torpidly wait by default, and are mobilised upon receiving strong moments of internal synchronisation.",
+					"Torpidly listening or anticipating strong moments of internal synchronisation, when the planets seem to align themselves.",
 					{
 						"Danidin & Romanov - Most imagination of Metamorphosis / Imagination of Crisis": [
 							"Observing changes and waiting for the moment, adaptation to unpleasant circumstances and superior forces, equivocation.",
@@ -6689,51 +6728,66 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SxPA", {
 				label: "Reductive",
 				desc: [
-					"Aggressive possession of relations.",
-					"Using relationships to eliminate possibilities & simplify thinking in-the-moment.",
+					"Rapid elimination of perspectives.",
+					"Acting in-the-moment, almost without thinking. Spidey-sense. Instinctive. \"I feel it in my gut.\"",
+					"They learn best in environments that discourage thought and encourage immediate engagement."
 				]
 			});
 			createCodeLabel("OxFA", {
 				label: "Holistic",
 				desc: [
-					"Aggregation of perspectives into a \"higher\" understanding.",
+					"Rapid expansion of perspectives.",
+					"Placing objects into new contexts to gain a more enhanced \"view\" of them.",
+					"They learn best in environments where they can experiment & research independently, free of any expectations or limitations."
 				]
 			});
 			createCodeLabel("OxPR", {
-				label: "Oscillative",
+				label: "Oscillatory",
 				desc: [
-					"Effortless integration of changing external circumstances through rythmic entrainment."
+					"Slow suggestion.",
+					"Rhythmic entrainment. Relaxing to a ticking clock, monotonous sound or swaying pendulum.",
+					"They learn best in environments that allow them to relax, take their time & encourage getting physically \"in-sync\" with what's going on, listening to their body."
 				]
 			});
 			createCodeLabel("SxFR", {
-				label: "Suggestive",
+				label: "Defibrilative",
 				desc: [
-					"Dramatic transformation of internal representations via seemingly benign external stimuli.",
+					"Sudden suggestion.",
+					"\"Bad moon rising\". Shocking, internal sense of transformation due to external stimuli.",
+					"They learn best in environments that present themselves as seemingly benign, where they must take initiative in anticipation of a crisis they either foresee or fabricate.",
 					"Prone to setting idealised, impossible to achieve goals."
 				]
 			});
 			createCodeLabel("OxFR", {
-				label: "Enduring",
+				label: "Mutative",
 				desc: [
-					"Optimistic endurance of chaotic circumstances."
+					"Negative Chaos.",
+					"Enduring & adapting to harsh conditions. Most explicitly darwinistic, survival of the fittest.",
+					"They learn best in environments that encourage the adoption of essential \"mutations\" in thought or behaviour in order to thrive."
 				]
 			});
 			createCodeLabel("SxPR", {
 				label: "Carefree",
 				desc: [
-					"Making the most of chaotic circumstances."
+					"Positive Chaos.",
+					"Making the most of a moment while it is available. Living life to the fullest without a care or worry in the world.",
+					"They learn best in a comfortable, unstructured environment where the stakes can be freely lowered and nothing needs to be taken too seriously."
 				]
 			});
 			createCodeLabel("SxFA", {
-				label: "Behavioural",
+				label: "Incentivising",
 				desc: [
-					"Conditioned learning & positive reinforcement."
+					"Conditioning learning & positive reinforcement.",
+					"Rewarding desired behaviour, rather than punishing incorrect behaviour.",
+					"They learn best in environments that encourage an attitude of \"no bad ideas\", where they can freely experiment and hone in on the expected result. \"Wow, you did that? Great!\""
 				]
 			});
 			createCodeLabel("OxPA", {
 				label: "Programmable",
 				desc: [
-					"Single-mindedly following & providing instructions."
+					"Negative reinforcement.",
+					"Single-mindedly delivering & following instructions. Punishing or eliminating the wrong behaviour.",
+					"They learn best in environments with clear expectations of what the result should (and shouldn't) be. \"Don't do that, do this!\""
 				]
 			});
 			
@@ -6823,7 +6877,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("OCxR", {
 				label: "Structural",
 				desc: [
-					"Undoing individual self-sufficiency in favour of more systemic, structural or social understandings.",
+					"Undoing individual self-sufficiency in favour of more implicitly systemic, structural or social understandings.",
 					"Tendency toward tending to an atmosphere and sense of shared patronage between people.",
 					{
 						"Danidin & Romanov - Least Calculation of Profit / Denial of Benefit": [
@@ -6860,9 +6914,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabel("ONxA", {
-				label: "Practical",
+				label: "Pragmatic",
 				desc: [
-					"Demonstrating the practical limitations of a given structure.",
+					"Demonstrating the pragmatic limitations of a given structure.",
 					"Resisting the localised rules of natural selection within an ecosystem.",
 					"Tendency toward individual initiative.",
 					{
@@ -7014,7 +7068,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Hosting"
 			});
 			createPairDichotLabel(["ONFA","ONPR"],["ONFR","ONPA"], {
-				label: "Pragmatic"
+				label: "Practical"//"Pragmatic"
 			});
 			createPairDichotLabel(["SCFA","SCPR"],["SCFR","SCPA"], {
 				label: "Cultivating"
@@ -7142,7 +7196,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabelArr(["OCPR","SNPR"], {
-				label: "Indulging",
+				label: "Indulgent",
 				desc: [
 					"Creating a mutual interest in succulent, beautiful or aesthetically pleasing activities.",
 					"Wants a partner who will share their indulgences and accept their parental instincts.",
@@ -7434,7 +7488,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			}); // ESE / LIE: +C - +Egalitarianism(Collectivism): Omnivorous in the choice of resources; expansion of environmental conditions suitable for survival; embedding into existing ecotopes, reducing the originality of their ecological pyramids (cosmopolitans, "weeds")
 			createCodeLabelArr(["ONPR","SNFR"], {
-				label: "Segregating",
+				label: "Segregative",
 				desc: [
 					"Squeamishness for low-quality resources.",
 					"Elitist, segregated nobility.",
@@ -7448,7 +7502,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			}); // EIE / LSE: +E - +Elitism(Segregated Nobility): Selectivity in the choice of a resource; narrowing of environmental conditions suitable for survival; dependence on the native ecological pyramid, outside which his survival is impossible
 			createCodeLabelArr(["OCPA","SCFA"], {
-				label: "Resigning",
+				label: "Resigned",
 				desc: [
 					"Obedience, delegation or resignation to majority opinion & authority.",
 					{
@@ -7524,7 +7578,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createPairDichotLabel(["OCFR","SCPR"], ["ONFR","SNPR"], {
-				label: "Evolutional"
+				label: "Phylogenic"
 			});
 			
 			// ?? (derived from decisions/stress)
@@ -7604,33 +7658,65 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFA","SNPA"], {label: "TiNe FeSe"}); // Tangential/Supreme
 			createCodeLabelArr(["ONFR","SCPR"], {label: "TeNi FiSi"}); // Profiteering/Affirming
 			createCodeLabelArr(["OCPA","SNFA"], {label: "TiSe FeNe"}); // Dividing/Foolish
-			createCodeLabelArr(["ONPR","SCFR"], {label: "TeSi FiNI"}); // Stabilising/Distancing // insulating?
+			createCodeLabelArr(["ONPR","SCFR"], {label: "TeSi FiNi"}); // Stabilising/Distancing // insulating?
 			createCodeLabelArr(["OCFR","SNPR"], {label: "TiNi FeSi"}); // Radicalising/Hospitable
 			createCodeLabelArr(["ONFA","SCPA"], {label: "TeNe FiSe"}); // Upcycling/Retentive
 			
-			function getCodeLabelArr(arr) {
-				let expandedCode = groupCodes(arr);
-				return codeLabels[expandedCode];
+			createPairDichotLabel(["OCPR","SNFR"], ["ONPR","SCFR"], {
+				label: "Dialectical ??"
+			});
+			
+			createPairDichotLabel(["OCFR","SNPR"], ["ONFR","SCPR"], {
+				label: "Darwinistic ??"
+			});
+			
+			createPairDichotLabel(["OCPA","SNFA"], ["ONPA","SCFA"], {
+				label: "Deterministic ??"
+			});
+			
+			createPairDichotLabel(["OCFA","SNPA"], ["ONFA","SCPA"], {
+				label: "Panoramic ??"
+			});
+		}
+		
+		function getCodeLabelArr(arr) {
+			let expandedCode = groupCodes(arr);
+			return codeLabels[expandedCode];
+		}
+		
+		function getCodeLabel(code) {
+			return getCodeLabelArr([code]);
+		}
+		
+		let missingLabels = new Set();
+		function getCodeLabelOr(key, other) {
+			if(key in codeLabels) {
+				return getLabelName(codeLabels[key]);
 			}
 			
-			function getCodeLabel(code) {
-				return getCodeLabelArr([code]);
+			if(!missingLabels.has(key)) {
+				//console.log("Missing label for key \"" + key + "\"");
+				missingLabels.add(key);
 			}
 			
-			let missingLabels = new Set();
-			function getCodeLabelOr(key, other) {
-				if(key in codeLabels) {
-					return getLabelName(codeLabels[key]);
-				}
-				
-				if(!missingLabels.has(key)) {
-					//console.log("Missing label for key \"" + key + "\"");
-					missingLabels.add(key);
-				}
-				
-				return other;
-			}
+			return other;
+		}
+		
+		try {
+			document.getElementById("navbar").innerHTML = "Generating...";
 			
+			createCodeLabels();
+			
+			const mutualLabel = codeLabels[groupCodes(mutualKeyArr)];
+			const competitiveLabel = codeLabels[groupCodes(competitiveKeyArr)];
+			const commensalLabel = codeLabels[groupCodes(commensalKeyArr)];
+			const parasiticalLabel = codeLabels[groupCodes(parasiticalKeyArr)];
+			
+			const researchingLabel = codeLabels[groupCodes(researchingKeyArr)];
+			const consumingLabel = codeLabels[groupCodes(consumingKeyArr)];
+			const humanitarianLabel = codeLabels[groupCodes(humanitarianKeyArr)];
+			const organizingLabel = codeLabels[groupCodes(organizingKeyArr)];
+	
 			for(let i = 0; i < egos.length; i++) {
 				let ego = egos[i];
 				let symbiosisPair = [null,null];
@@ -8130,7 +8216,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 				
 				let model = document.getElementById(elem.id + "-model");
-				console.log(model);
+				
 				model.style.display = "block";
 				elem.classList.add("selected");
 			}
@@ -8171,7 +8257,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						}
 						
 						elem.classList.add("selected");
-						//doPopup(elem, label);
 					}
 				}
 			}
@@ -8276,57 +8361,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				doPopup(elem, label);
 			}
 			
-			function onClickDichot(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
-			}
-			
-			function onClickTetraTitle(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
-			}
-			
-			function onClickSmallGroup(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
-			}
-			
-			function onClickPair(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
-			}
-			
-			function onClickPairTitle(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
-			}
-			
-			function onClickPairDichot(elem) {
+			function onClickPopup(elem) {
 				for(let i = 0; i < elem.classList.length; i++) {
 					if(elem.classList[i].startsWith("key-")) {
 						let split = elem.classList[i].split("-");
@@ -8465,73 +8500,256 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
 						let dichotLabel = codeLabels[dichotKey];
 						
-						html += "<h2>" + name + " Categorization</h2>";
+						html += "<h2>" + name + " Function Dichotomies</h2>";
 						
-						html += "<div class='type-dichot-title subtitle clickable onClickDichot key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
-						html += "<div class='type-dichot-title title clickable onClickDichot key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
+						//html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
+						html += "<div class='type-dichot-title title clickable onClickPopup key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
 						
 						html += "<div class='type-pair-groups-container'>";
-							function drawPairTable(tetra, title, label1, attitude1, attitude2, label2, attitude3, attitude4) {
-								html += "<div class='type-pair-group'>";
-									html += "<div class='clickable title onClickTypePairGroupTitle'>" + title + "</div>";
-									let groupKey = groupCodes([attitude1, attitude2, attitude3, attitude4]);
-									let group = codeLabels[groupKey];
-									console.assert(group.parentTetra == tetra && group.parentTetra != undefined);
-									html += "<div class='clickable subtitle onClickSmallGroup key-" + groupKey + "'>" + group.label + "</div>";
-									html += "<div class='type-pair-container'>";
-										html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + label1 + "</div>";
-										let pair1Key = groupCodes([attitude1, attitude2]);
-										let pair1 = codeLabels[pair1Key];
-										html += "<div class='type-pair clickable subtitle onClickPairTitle key-" + pair1Key + "'>" + pair1.label + "</div>";
-									html += "</div>";
-									html += "<div class='type-pair-container'>";
-										html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + label2 + "</div>";
-										let pair2Key = groupCodes([attitude3, attitude4]);
-										let pair2 = codeLabels[pair2Key];
-										html += "<div class='type-pair clickable subtitle onClickPairTitle key-" + pair2Key + "'>" + pair2.label + "</div>";
-									html += "</div>";
+							
+							let orderedAttitudes = [
+								ego[polarity],
+								parental[polarity],
+								childish[1-polarity],
+								shadow[1-polarity],
+								ego[1-polarity],
+								parental[1-polarity],
+								childish[polarity],
+								shadow[polarity],
+							];
+							
+							let funcDichots = [];
+							let actualDichots = new Set();
+							let actualDichotsLookup = {};
+							
+							function addFunction(a) {
+								funcDichots.push({name: a, attrs: new Set()});
+							}
+							
+							addFunction("Natural");
+							addFunction("Constructive");
+							addFunction("Obligative");
+							addFunction("Unnatural");
+							addFunction("Abused");
+							addFunction("Repressed");
+							addFunction("Indulgant");
+							addFunction("Unconscious");
+							
+							function addWhatever(a, b, aa, bb) {
+								for(let i = 0; i < aa.length; i++) {
+									funcDichots[aa[i]-1].attrs.add(a);
+								}
+								
+								for(let i = 0; i < bb.length; i++) {
+									funcDichots[bb[i]-1].attrs.add(b);
+								}
+								
+								actualDichots.add([a, b].toSorted());
+								actualDichotsLookup[a] = actualDichots.size - 1;
+								actualDichotsLookup[b] = actualDichots.size - 1;
+							}
+							
+							// accepting / producing
+							// respected, ends-in-themselves / unrespected, means-to-an-end
+							// 1-3-6-8, 2-4-5-7
+							addWhatever("Presumptive", "Contingent", [1,3,6,8], [2,4,5,7]);
+							
+							// mental / vital
+							// publicity - public / private
+							// 1-2-3-4, 5-6-7-8
+							addWhatever("Public", "Private", [1,2,3,4], [5,6,7,8]);
+							
+							// introverted / extroverted groups
+							// confident, observable, energetic / not confident, unobservable, unenergetic
+							// 1-3-5-7, 2-4-6-8
+							addWhatever("Confident", "Diffident", [1,3,5,7], [2,4,6,8]);
+							
+							// valued symbiosis / unvalued symbiosis
+							// want to / not want to
+							// 1-2-7-8, 3-4-5-6
+							addWhatever("Valued", "Unvalued", [1,2,7,8], [3,4,5,6]);
+							
+							// inert / contact
+							// flexibility - individual input, independant / outside input, adapative
+							// 1-4-6-7, 2-3-5-8
+							addWhatever("Insular", "Adaptive", [1,4,6,7], [2,3,5,8]);
+							
+							// evolutionary / situational
+							// linear, consistently on or off / non-linear, inconsistently on or off
+							// 1-4-5-8, 2-3-6-7
+							addWhatever("Consistent", "Inconsistent", [1,4,5,8], [2,3,6,7]);
+							
+							// clubs
+							// strong / weak
+							// easily differentiates information, practical, beneficial / differentiates information more difficultly, impractical, non-beneficial
+							// 1-2-5-6, 3-4-7-8
+							addWhatever("Skilled", "Amateur", [1,2,5,6], [3,4,7,8]);
+							
+							actualDichots = Array.from(actualDichots);
+							for(let i = 0; i < actualDichots.length; i++) {
+								actualDichots[i][0] = {name: actualDichots[i][0], pairs: [], groups: {}};
+								actualDichots[i][1] = {name: actualDichots[i][1], pairs: [], groups: {}};
+							}
+							
+							let funcPairs2 = {};
+							
+							for(let i = 0; i < funcDichots.length; i++) {
+								for(let j = 0; j < funcDichots.length; j++) {
+									if(i == j) {
+										continue;
+									}
+								
+									let key = [funcDichots[i].name + "-" + i, funcDichots[j].name + "-" + j].toSorted().join(" ");
+									if(key in funcPairs2) {
+										continue;
+									}
+									
+									let attrs = funcDichots[i].attrs.intersection(funcDichots[j].attrs);
+									funcPairs2[key] = Array.from(attrs).toSorted();
+								}
+							}
+							
+							let actualTetras = {};
+							
+							for (const [key, value] of Object.entries(funcPairs2)) {
+								let split = key.split(" ");
+								split = split.map((x) => x.split("-"));
+								let indices = split.map((x) => Number(x[1]));
+								let functions = split.map((x) => x[0]);
+								
+								let realValue = {functions: functions, indices: indices, attrs: value};
+								
+								let groupKey = value.map((x) => actualDichotsLookup[x]).toSorted().join(" ");
+								if(!(groupKey in actualTetras)) {
+									actualTetras[groupKey] = [];
+								}
+								actualTetras[groupKey].push(realValue);
+
+								for(let i = 0; i < value.length; i++) {
+									for(let j = 0; j < actualDichots.length; j++) {
+										let done = false;
+									
+										function addToGroup(d) {
+											let foundOne = false;
+											for (const [key2, value2] of Object.entries(d.groups)) {
+												for(let k = 0; k < value.length; k++) {
+													let lookupValue = actualDichotsLookup[value[k]];
+													if(lookupValue == key2) {
+														d.groups[lookupValue].push(realValue);
+														foundOne = true;
+													}
+												}
+											}
+											
+											if(!foundOne) {
+												for(let k = 0; k < value.length; k++) {
+													
+													if(value[k] != d.name) {
+														let lookupValue = actualDichotsLookup[value[k]];
+														d.groups[lookupValue] = [realValue];
+														break;
+													}
+												}
+											}
+										}
+									
+										if(actualDichots[j][0].name == value[i]) {
+											actualDichots[j][0].pairs.push(realValue);
+											addToGroup(actualDichots[j][0]);
+										} else if (actualDichots[j][1].name == value[i]) {
+											actualDichots[j][1].pairs.push(realValue);
+											addToGroup(actualDichots[j][1]);
+										}
+									}
+								}
+							}
+							
+							//console.log(funcDichots);
+							//console.log(actualDichots);
+							//console.log(funcPairs2);
+							console.log(actualTetras);
+							//console.log(ohGodTheGroups);
+							//console.log(funcPairs2);
+							//console.log(Object.keys(funcPairs2).length);
+							
+							function drawPairTable(pair) {
+								let attitude1 = orderedAttitudes[pair.indices[0]];
+								let attitude2 = orderedAttitudes[pair.indices[1]];
+								html += "<div class='type-pair-container'>";
+									html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + pair.attrs.join(" + ") + "</div>";
+									let pair1Key = groupCodes([attitude1, attitude2]);
+									let pair1 = codeLabels[pair1Key];
+									html += "<div class='type-pair clickable subtitle onClickPopup key-" + pair1Key + "'>" + pair1.label + "</div>";
 								html += "</div>";
 							}
 							
-							function drawGroupTable(title1, title2, label1, label2, attitude1, attitude2, attitude3, attitude4, attitude5, attitude6, attitude7, attitude8) {
-								let groupKey = groupCodes([attitude1, attitude2, attitude3, attitude4]);
+							function drawDichotTable(dichot) {
+								let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+								let groupKey = groupCodes(attitudes);
+								let group = codeLabels[groupKey];
+								
+								html += "<div class='type-pair-group'>";
+									html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
+									html += "<div class='clickable subtitle onClickPopup key-" + groupKey + "'>" + group.label + "</div>";
+									for(let i = 0; i < dichot.pairs.length; i++) {
+										drawPairTable(dichot.pairs[i]);
+									}
+								html += "</div>";
+							}
+							
+							function drawGroupTable(dichot) {
+								let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+								
+								let groupKey = groupCodes(attitudes);
 								let group = codeLabels[groupKey];
 								html += "<div class='type-pair-groups-outer'>";
-									html += "<div class='type-dichot-title subtitle clickable onClickTetraTitle key-" + group.parentTetra.key + "'>" + group.parentTetra.label + "</div>";
+									html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + group.parentTetra.key + "'>" + group.parentTetra.label + "</div>";
 									html += "<div class='type-pair-groups'>";
-										drawPairTable(group.parentTetra, title1, label1, attitude1, attitude2, label2, attitude3, attitude4);
-										drawPairTable(group.parentTetra, title2, label1, attitude5, attitude6, label2, attitude7, attitude8);
+										drawDichotTable(dichot[0]);
+										drawDichotTable(dichot[1]);
 									html += "</div>";
 								html += "</div>";
 							}
 							
-							drawGroupTable(
-								"Public", "Private", 
-								"Bold", "Cautious", 
-								ego[polarity], childish[1-polarity], 
-								parental[polarity], shadow[1-polarity],
-								ego[1-polarity], childish[polarity],
-								parental[1-polarity], shadow[polarity]
-							);
+							for(let i = 0; i < actualDichots.length; i++) {
+								drawGroupTable(actualDichots[i]);
+							}
 							
-							drawGroupTable(
-								"Bold", "Cautious", 
-								"Strong", "Weak", 
-								ego[polarity], ego[1-polarity], 
-								childish[polarity], childish[1-polarity],
-								parental[polarity], parental[1-polarity],
-								shadow[polarity], shadow[1-polarity]
-							);
-							
-							drawGroupTable(
-								"Public", "Private", 
-								"Bold", "Cautious", 
-								ego[polarity], parental[polarity], 
-								ego[1-polarity], parental[1-polarity],
-								childish[1-polarity], shadow[1-polarity],
-								childish[polarity], shadow[polarity]
-							);
 						html += "</div>";
+							
+						html += "<h2>" + name + " Function Tetrachotomies (Small Groups)</h2>";
+						
+						function drawFunctionGroup(v) {
+							let attitude1 = orderedAttitudes[v.indices[0]];
+							let attitude2 = orderedAttitudes[v.indices[1]];
+							let pairKey = groupCodes([attitude1, attitude2]);
+							let pair = codeLabels[pairKey];
+						
+							html += "<div class='small-group'>";
+								//html += "<div class='small-group-title title clickable'>Title</div>";
+								html += "<div class='small-pair-table'>";
+									html += "<div class='small-pair-group'>";
+										html += "<div class='small-pair title clickable'>" + v.attrs.join(" + ") + "</div>";
+										html += "<div class='small-pair subtitle clickable onClickPopup key-" + pairKey + "'>" + pair.label + "</div>";
+									html += "</div>";
+								html += "</div>";
+							html += "</div>";
+						}
+						
+						for (const [key, value] of Object.entries(actualTetras)) {
+							//let tetraTitle = key.split(" ").map((x) => funcDichots[Number(x)].name).join(" + ");
+							html += "<div class='tetra-title subtitle clickable'>" + key + "</div>";
+							html += "<div class='small-group-cell'>";
+								html += "<div class='small-group-column'>";
+									drawFunctionGroup(value[0]);
+									drawFunctionGroup(value[1]);
+								html += "</div>";
+								html += "<div class='small-group-column'>";
+									drawFunctionGroup(value[2]);
+									drawFunctionGroup(value[3]);
+								html += "</div>";
+							html += "</div>";
+						}
 					}
 					
 					drawModelTable(polarity, egoIndex, parentalIndex, childishIndex, shadowIndex, "Ego", "Parental", "Childish", "Shadow");
@@ -8554,7 +8772,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let pairLabel = getCodeLabelArr(pairCodes);
 				let pairLabelName = getLabelName(pairLabel);
 				
-				html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " key-" + pairLabel.key + " onClickPair'>";
+				html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " key-" + pairLabel.key + " onClickPopup'>";
 					
 					if(detailedTables) {
 						html += "<b>" + pairLabelName + "</b><br />";
@@ -8576,7 +8794,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 				
 				if(label != "??") {
-					html += "<div class='small-pair-group-title subtitle2 clickable onClickPairDichot key-" + key + "'>" + label + "</div>";
+					html += "<div class='small-pair-group-title subtitle2 clickable onClickPopup key-" + key + "'>" + label + "</div>";
 				}
 				html += "<div class='small-pair-group'>";
 					writePair(pair1);
@@ -8591,7 +8809,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					let smallGroupLabel = codeLabels[smallGroupKey];
 					let smallGroupName = getLabelName(smallGroupLabel);
 					
-					html += "<div class='small-group-title title clickable onClickSmallGroup " + smallGroupCodes.join(" ") + " key-" + smallGroupKey + "'>";
+					html += "<div class='small-group-title title clickable onClickPopup " + smallGroupCodes.join(" ") + " key-" + smallGroupKey + "'>";
 						
 						if(detailedTables) {
 							html += "<b>" + smallGroupName + "</b><br />";
@@ -8629,9 +8847,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let dichotName = getLabelName(dichotLabel);
 	
 				html += "<div class='dichotomy-table'>";
-					html += "<div class='dichotomy-title title clickable onClickDichotTitle' id='" + dkey + "'>" + dichotName + "</div>";
+					html += "<div class='dichotomy-title subtitle clickable onClickDichotTitle' id='" + dkey + "'>" + dichotName + "</div>";
 					html += "<div class='dichotomy-split'>";
-						html += "<div class='dichotomy subtitle clickable " + d.left.attitudes.join(" ") + " onClickDichot key-" + d.left.key + "'>";
+						html += "<div class='dichotomy title clickable " + d.left.attitudes.join(" ") + " onClickPopup key-" + d.left.key + "'>";
 							html += dichotLeftName + "<br />";
 							if(detailedTables) {
 								html += dichotLeftLabel.codes.join(" ") + "<br />";
@@ -8641,7 +8859,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 							}
 						html += "</div>";
-						html += "<div class='dichotomy subtitle clickable " + d.right.attitudes.join(" ") + " onClickDichot key-" + d.right.key + "'>";
+						html += "<div class='dichotomy title clickable " + d.right.attitudes.join(" ") + " onClickPopup key-" + d.right.key + "'>";
 							html += dichotRightName + "<br />";
 							if(detailedTables) {
 								html += dichotRightLabel.codes.join(" ") + "<br />";
@@ -8652,14 +8870,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							}
 						html += "</div>";
 					html += "</div>";
-					html += "<div class='dichotomy-small-groups-title clickable title onClickShowSmallGroups'>+ Expand Small Groups</div>";
+					html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
 					html += "<div class='dichotomy-small-groups'>";
 				
 					for (const [tkey, t] of Object.entries(tetras)) {
 						if(t.sources.some((x) => x == d)) {
 							let tetraLabel = codeLabels[tkey];
 							
-							html += "<div class='tetra-title subtitle clickable onClickTetraTitle key-" + tkey + "'>";
+							html += "<div class='tetra-title subtitle clickable onClickPopup key-" + tkey + "'>";
 								html += getLabelName(tetraLabel);
 								if(detailedTables) {
 									html += "<br />" + t.sources.map((x) => getLabelName(codeLabels[x.key])).join(" + ");
@@ -8721,7 +8939,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			for (const [tkey, t] of Object.entries(tetras)) {
 				let tetraLabel = codeLabels[tkey];
-				html += "<div class='tetra-title subtitle clickable onClickTetraTitle key-" + tkey + "'>";
+				html += "<div class='tetra-title subtitle clickable onClickPopup key-" + tkey + "'>";
 					html += getLabelName(tetraLabel);
 					if(detailedTables) {
 						html += "<br />" + t.sources.map((x) => getLabelName(codeLabels[x.key])).join(" + ");
@@ -8744,7 +8962,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			for (const [pkey, p] of Object.entries(octas)) {
 				let pairLabel = codeLabels[pkey];
-				html += "<div class='octa-title title clickable onClickPairTitle key-" + pkey + "'>";
+				html += "<div class='octa-title title clickable onClickPopup key-" + pkey + "'>";
 					html += getLabelName(pairLabel);
 				html += "</div>";
 				
@@ -8802,20 +9020,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				onClickDichotTitle(a.target);
 			});
 			
-			addEvent("onClickDichot", function(a) {
-				onClickDichot(a.target);
-			});
-			
-			addEvent("onClickTetraTitle", function(a) {
-				onClickTetraTitle(a.target);
-			});
-			
-			addEvent("onClickSmallGroup", function(a) {
-				onClickSmallGroup(a.target);
-			});
-			
-			addEvent("onClickPair", function(a) {
-				onClickPair(a.target);
+			addEvent("onClickPopup", function(a) {
+				onClickPopup(a.target);
 			});
 			
 			addEvent("onClickWorkingTitle", function(a) {
@@ -8828,14 +9034,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			addEvent("onClickShowSmallGroups", function(a) {
 				onClickShowSmallGroups(a.target);
-			});
-			
-			addEvent("onClickPairTitle", function(a) {
-				onClickPairTitle(a.target);
-			});
-			
-			addEvent("onClickPairDichot", function(a) {
-				onClickPairDichot(a.target);
 			});
 			
 			addEvent("onClickTypePairGroupTitle", function(a) {
