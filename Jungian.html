@@ -8564,11 +8564,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + egoIndex + "-" + polarity + "'>" + ego[title] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-0'>" + aspects[0].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-0'>" + aspects[0].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(ego[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-4'>" + aspects[4].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-4'>" + aspects[4].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(ego[(1 - polarity)])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8584,11 +8584,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title ego-title subtitle' id='ego-title-" + name + "-" + parentalIndex + "-" + polarity + "'>" + parental[title] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-1'>" + aspects[1].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-1'>" + aspects[1].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(parental[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-5'>" + aspects[5].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-5'>" + aspects[5].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(parental[(1 - polarity)])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8606,11 +8606,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html +=	"<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + childishIndex + "-" + (1 - polarity) + "'>" + childish[title2] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-2'>" + aspects[2].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-2'>" + aspects[2].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(childish[1 - polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-6'>" + aspects[6].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-6'>" + aspects[6].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(childish[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8626,11 +8626,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + shadowIndex + "-" + (1 - polarity) + "'>" + shadow[title2] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-3'>" + aspects[3].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-3'>" + aspects[3].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[1 - polarity] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(shadow[1 - polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-7'>" + aspects[7].name + "</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-7'>" + aspects[7].label + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(shadow[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8710,7 +8710,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							
 						html += "</div>";
 							
-						html += "<h2>" + name + " Aspect Tetrachotomies (Small Groups)</h2>";
+						html += "<h2>" + name + " Aspect Tetrachotomies</h2>";
 						
 						function drawFunctionGroup(v) {
 							let attitude1 = orderedAttitudes[v.indices[0]];
