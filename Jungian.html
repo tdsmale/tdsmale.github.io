@@ -606,40 +606,40 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			},
 		];
 		
-		const aspects = {
-			"natural": {
+		const aspects = [
+			{
 				label: "Natural",
 				desc: ["Default \"always-on\" attitude."],
 			},
-			"abused": {
+			{
 				label: "Abused",//"Trivialized",
 				desc: ["Attitude most taken for granted, trivialized or otherwise abused."],
 			},
-			"constructive": {
+			{
 				label: "Constructive",
 				desc: ["Attitude that is easily used to solve problems."]
 			},
-			"repressed": {
+			{
 				label: "Repressed",
 				desc: ["Attitude felt to be hidden, underutilised, minimised or avoided."]
 			},
-			"obligative": {
+			{
 				label: "Obligative",
 				desc: ["Attitude felt as comfortable, but as a means to an end."]
 			},
-			"indulgant": {
+			{
 				label: "Indulgant",
 				desc: ["Attitude felt as too easy to over-indulge."]
 			},
-			"unnatural": {
+			{
 				label: "Unnatural",
 				desc: ["Attitude felt as most foreign or unnatural to engage in."]
 			},
-			"unconscious": {
+			{
 				label: "Unconscious",
 				desc: ["Attitude unconciously provoked or attained."]
 			}
-		};
+		];
 	
 		const egos = [
 			[
@@ -1468,7 +1468,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createCodeLabel("OCPA", {
-				functions: "TiSe",
 				label: "Dividing", 
 				desc: [
 					"Rationalizing & enforcing an order to things that implicitly defines what is strong or weak.",
@@ -7708,117 +7707,105 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return other;
 		}
 		
-		let functions = [];
-		let funcDichots = new Set();
-		let funcTetras = {};
+		let aspectDichots = [];
+		let aspectTetras = {};
 		function createFunctionGroups() {
 			let dichotLookup = {};
 			
-			function addFunction(a) {
-				functions.push({name: a, attrs: new Set()});
+			for(let i = 0; i < aspects.length; i++) {
+				aspects[i].attrs = new Set();
 			}
 			
-			addFunction("Natural");
-			addFunction("Constructive");
-			addFunction("Obligative");
-			addFunction("Unnatural");
-			addFunction("Abused");
-			addFunction("Repressed");
-			addFunction("Indulgant");
-			addFunction("Unconscious");
-			
-			function addFunctionDichot(a, b, aa, bb) {
+			function addAspectDichot(n, a, b, aa, bb) {
 				for(let i = 0; i < aa.length; i++) {
-					functions[aa[i]-1].attrs.add(a);
+					aspects[aa[i]-1].attrs.add(a);
 				}
 				
 				for(let i = 0; i < bb.length; i++) {
-					functions[bb[i]-1].attrs.add(b);
+					aspects[bb[i]-1].attrs.add(b);
 				}
 				
-				funcDichots.add([a, b].toSorted());
-				dichotLookup[a] = funcDichots.size - 1;
-				dichotLookup[b] = funcDichots.size - 1;
+				aspectDichots.push({
+					name: n,
+					dichots: [
+					{name: a, pairs: [], groups: {}},
+					{name: b, pairs: [], groups: {}}
+				]});
+				
+				dichotLookup[a] = aspectDichots.length - 1;
+				dichotLookup[b] = aspectDichots.length - 1;
 			}
 			
 			// accepting / producing
 			// respected, ends-in-themselves / unrespected, means-to-an-end
 			// 1-3-6-8, 2-4-5-7
-			addFunctionDichot("Presumptive", "Contingent", [1,3,6,8], [2,4,5,7]);
+			addAspectDichot("Rationalization", "Presumptive", "Contingent", [1,3,6,8], [2,4,5,7]);
 			
 			// mental / vital
 			// publicity - public / private
 			// 1-2-3-4, 5-6-7-8
-			addFunctionDichot("Public", "Private", [1,2,3,4], [5,6,7,8]);
+			addAspectDichot("Publicity", "Public", "Private", [1,2,3,4], [5,6,7,8]);
 			
 			// introverted / extroverted groups
 			// confident, observable, energetic / not confident, unobservable, unenergetic
 			// 1-3-5-7, 2-4-6-8
-			addFunctionDichot("Confident", "Diffident", [1,3,5,7], [2,4,6,8]);
+			addAspectDichot("Confidence", "Confident", "Diffident", [1,3,5,7], [2,4,6,8]);
 			
 			// valued symbiosis / unvalued symbiosis
 			// want to / not want to
 			// 1-2-7-8, 3-4-5-6
-			addFunctionDichot("Valued", "Unvalued", [1,2,7,8], [3,4,5,6]);
+			addAspectDichot("Worth", "Valued", "Unvalued", [1,2,7,8], [3,4,5,6]);
 			
 			// inert / contact
 			// flexibility - individual input, independant / outside input, adapative
 			// 1-4-6-7, 2-3-5-8
-			addFunctionDichot("Insular", "Adaptive", [1,4,6,7], [2,3,5,8]);
+			addAspectDichot("Flexibility", "Insular", "Adaptive", [1,4,6,7], [2,3,5,8]);
 			
 			// evolutionary / situational
 			// linear, consistently on or off / non-linear, inconsistently on or off
 			// 1-4-5-8, 2-3-6-7
-			addFunctionDichot("Consistent", "Inconsistent", [1,4,5,8], [2,3,6,7]);
+			addAspectDichot("Consistency", "Consistent", "Inconsistent", [1,4,5,8], [2,3,6,7]);
 			
 			// clubs
 			// strong / weak
 			// easily differentiates information, practical, beneficial / differentiates information more difficultly, impractical, non-beneficial
 			// 1-2-5-6, 3-4-7-8
-			addFunctionDichot("Skilled", "Amateur", [1,2,5,6], [3,4,7,8]);
+			addAspectDichot("Skill", "Skilled", "Amateur", [1,2,5,6], [3,4,7,8]);
 			
-			funcDichots = Array.from(funcDichots);
-			for(let i = 0; i < funcDichots.length; i++) {
-				funcDichots[i][0] = {name: funcDichots[i][0], pairs: [], groups: {}};
-				funcDichots[i][1] = {name: funcDichots[i][1], pairs: [], groups: {}};
-			}
+			let aspectPairs = {};
 			
-			let funcPairs2 = {};
-			
-			for(let i = 0; i < functions.length; i++) {
-				for(let j = 0; j < functions.length; j++) {
+			for(let i = 0; i < aspects.length; i++) {
+				for(let j = 0; j < aspects.length; j++) {
 					if(i == j) {
 						continue;
 					}
 				
-					let key = [functions[i].name + "-" + i, functions[j].name + "-" + j].toSorted().join(" ");
-					if(key in funcPairs2) {
+					let key = [aspects[i].name + "-" + i, aspects[j].name + "-" + j].toSorted().join(" ");
+					if(key in aspectPairs) {
 						continue;
 					}
 					
-					let attrs = functions[i].attrs.intersection(functions[j].attrs);
-					funcPairs2[key] = Array.from(attrs).toSorted();
+					let attrs = aspects[i].attrs.intersection(aspects[j].attrs);
+					aspectPairs[key] = Array.from(attrs).toSorted();
 				}
 			}
 			
-			
-			
-			for (const [key, value] of Object.entries(funcPairs2)) {
+			for (const [key, value] of Object.entries(aspectPairs)) {
 				let split = key.split(" ");
 				split = split.map((x) => x.split("-"));
 				let indices = split.map((x) => Number(x[1]));
-				let functions = split.map((x) => x[0]);
+				let aspects = split.map((x) => x[0]);
 				
-				let realValue = {functions: functions, indices: indices, attrs: value};
+				let realValue = {aspects: aspects, indices: indices, attrs: value};
 				
 				let groupKey = value.map((x) => dichotLookup[x]).toSorted().join(" ");
-				if(!(groupKey in funcTetras)) {
-					funcTetras[groupKey] = [];
+				if(!(groupKey in aspectTetras)) {
+					aspectTetras[groupKey] = [];
 				}
-				funcTetras[groupKey].push(realValue);
+				aspectTetras[groupKey].push(realValue);
 
 				for(let i = 0; i < value.length; i++) {
-					for(let j = 0; j < funcDichots.length; j++) {
+					for(let j = 0; j < aspectDichots.length; j++) {
 						let done = false;
 					
 						function addToGroup(d) {
@@ -7845,18 +7832,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							}
 						}
 					
-						if(funcDichots[j][0].name == value[i]) {
-							funcDichots[j][0].pairs.push(realValue);
-							addToGroup(funcDichots[j][0]);
-						} else if (funcDichots[j][1].name == value[i]) {
-							funcDichots[j][1].pairs.push(realValue);
-							addToGroup(funcDichots[j][1]);
+						if(aspectDichots[j].dichots[0].name == value[i]) {
+							aspectDichots[j].dichots[0].pairs.push(realValue);
+							addToGroup(aspectDichots[j].dichots[0]);
+						} else if (aspectDichots[j].dichots[1].name == value[i]) {
+							aspectDichots[j].dichots[1].pairs.push(realValue);
+							addToGroup(aspectDichots[j].dichots[1]);
 						}
 					}
 				}
 			}
 			
-			console.log(funcTetras);
+			console.log(aspectTetras);
 		}
 		
 		try {
@@ -8577,11 +8564,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + egoIndex + "-" + polarity + "'>" + ego[title] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-natural'>Natural</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-0'>" + aspects[0].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(ego[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-abused'>Abused</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-4'>" + aspects[4].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(ego[(1 - polarity)])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8597,11 +8584,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title ego-title subtitle' id='ego-title-" + name + "-" + parentalIndex + "-" + polarity + "'>" + parental[title] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-constructive'>Constructive</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-1'>" + aspects[1].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(parental[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-repressed'>Repressed</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-5'>" + aspects[5].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(parental[(1 - polarity)])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8619,11 +8606,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html +=	"<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + childishIndex + "-" + (1 - polarity) + "'>" + childish[title2] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-obligative'>Obligative</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-2'>" + aspects[2].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(childish[1 - polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-indulgant'>Indulgant</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-6'>" + aspects[6].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(childish[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8639,11 +8626,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + shadowIndex + "-" + (1 - polarity) + "'>" + shadow[title2] + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-unnatural'>Unnatural</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-3'>" + aspects[3].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[1 - polarity] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(shadow[1 - polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-unconscious'>Unconscious</div>";
+										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-7'>" + aspects[7].name + "</div>";
 										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(shadow[polarity])) + "</div>";
 									html += "</div>";
 									html += "<div class='ego-title-cell'>";
@@ -8658,10 +8645,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
 						let dichotLabel = codeLabels[dichotKey];
 						
-						html += "<h2>" + name + " Function Dichotomies</h2>";
+						html += "<h2>" + name + " Aspect Dichotomies</h2>";
 						
-						//html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
-						html += "<div class='type-dichot-title title clickable onClickPopup key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
+						html += "<div class='type-dichot-title title clickable onClickPopup key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
+						html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
 						
 						html += "<div class='type-pair-groups-container'>";
 							
@@ -8701,12 +8688,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "</div>";
 							}
 							
-							function drawGroupTable(dichot) {
+							function drawGroupTable(dichots) {
+								let dichot = dichots.dichots;
 								let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
 								
 								let groupKey = groupCodes(attitudes);
 								let group = codeLabels[groupKey];
 								html += "<div class='type-pair-groups-outer'>";
+									html += "<div class='type-dichot-title title clickable'>" + dichots.name + "</div>";
 									html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + group.parentTetra.key + "'>" + group.parentTetra.label + "</div>";
 									html += "<div class='type-pair-groups'>";
 										drawDichotTable(dichot[0]);
@@ -8715,13 +8704,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "</div>";
 							}
 							
-							for(let i = 0; i < funcDichots.length; i++) {
-								drawGroupTable(funcDichots[i]);
+							for(let i = 0; i < aspectDichots.length; i++) {
+								drawGroupTable(aspectDichots[i]);
 							}
 							
 						html += "</div>";
 							
-						html += "<h2>" + name + " Function Tetrachotomies (Small Groups)</h2>";
+						html += "<h2>" + name + " Aspect Tetrachotomies (Small Groups)</h2>";
 						
 						function drawFunctionGroup(v) {
 							let attitude1 = orderedAttitudes[v.indices[0]];
@@ -8740,9 +8729,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 							html += "</div>";
 						}
 						
-						for (const [key, value] of Object.entries(funcTetras)) {
-							//let tetraTitle = key.split(" ").map((x) => funcDichots[Number(x)].name).join(" + ");
-							html += "<div class='tetra-title subtitle clickable'>" + key + "</div>";
+						for (const [key, value] of Object.entries(aspectTetras)) {
+							let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
+							html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
 							html += "<div class='small-group-cell'>";
 								html += "<div class='small-group-column'>";
 									drawFunctionGroup(value[0]);
