@@ -81,8 +81,30 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					background-color: var(--click-active-color2);
 				}
 			}
+			
+			#header {
+				max-width: 1000px; 
+				margin: 0 auto; 
+				padding: 0px clamp(5px, 2%, 25px);
+				position: sticky; 
+				top: 0;
+				z-index: 99; 
+				background-color: var(--bg-color); 
+				border-style: none solid solid solid; 
+				border-bottom-right-radius: 15px;
+				border-bottom-left-radius: 15px;
+			}
+			
+			#header span {
+				padding: 0em 0.75em;
+			}
+			
+			#header.headersticky {
+				border-radius: 0px;
+				border-style: none;
+			}
 		
-			#navbar {
+			#types {
 				text-align: center;
 				border-bottom-style: solid;
 			}
@@ -231,7 +253,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				padding: 1em;
 			}
 			
-			#container {
+			#attitudes {
 				margin: 0 auto;
 				text-align: center;
 			}
@@ -458,16 +480,18 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		- permanent links (hash tags)
 		- clicking on span doesn't trigger popups
 		-->
-		<div style='max-width: 1000px; margin: 0 auto; padding: 5px; position: sticky; top: 0;'>
-			<div class='clickable onClickSwapTheme'>Theme</div>
-			<div class='clickable onClickSwapLabels'>Labels</div>
+		<div id="header">
+			<span class='clickable onClickSwapTheme'>Theme</span>
+			<span class='clickable onClickSwapLabels'>Labels</span>
 		</div>
 		<h1>Types</h1>
-		<div class="main-body" id='navbar'>
-			<h1>You need JavaScript. No one likes it. But you need it.</h1>
+		<div id='intersect'>
+			<div class="main-body" id='types'>
+				<h1>You need JavaScript. No one likes it. But you need it.</h1>
+			</div>
+			<h1>Attitudes</h1>
+			<div class="main-body" id='attitudes'></div>
 		</div>
-		<h1>Attitudes</h1>
-		<div class="main-body" id='container'></div>
 		<div id="logger"></div>
 		
 		<script>
@@ -7130,7 +7154,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Structural",
 				desc: [
 					"Undoing individual self-sufficiency in favour of more implicitly systemic, structural or social understandings.",
-					"Tendency toward tending to an atmosphere and sense of shared patronage between people.",
+					"Tendency toward tending to an atmosphere and shared sense of patronage between people.",
 					{
 						"Danidin & Romanov - Least Calculation of Profit / Denial of Benefit": [
 							 "The ability to create a mood, art decorativeness, susceptibility, sensitivity, capriciousness, seeking patronage."
@@ -8089,7 +8113,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		}
 		
 		try {
-			document.getElementById("navbar").innerHTML = "Generating...";
+			document.getElementById("types").innerHTML = "Generating...";
 			
 			createFunctionGroups();
 			createCodeLabels();
@@ -8600,7 +8624,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					a[i].style.display = "none";
 				}
 				
-				a = document.getElementById("types").getElementsByTagName("li");
+				a = document.getElementById("types-list").getElementsByTagName("li");
 				for(let i = 0; i < a.length; i++) {
 					if(a[i].classList.contains("selected")) {
 						let b = document.getElementById(a[i].id + "-model");
@@ -8744,7 +8768,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 			
 			let html = "";
-			html += "<ul id='types' class='horiz-list'>";
+			html += "<ul id='types-list' class='horiz-list'>";
 			for(let i = 0; i < types.length; i++) {
 				let t = types[i];
 				html += "<li class='clickable onClickType' id='" + t[0] + "'>" + t[0] + "</li>";
@@ -8951,7 +8975,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				html += "</div>";
 			}
 		
-			document.getElementById("navbar").innerHTML = html;
+			document.getElementById("types").innerHTML = html;
 			
 			html = "<ul class='horiz-list' id='attitudes'>";
 			for(let i = 0; i < fullCodes.length; i++) {
@@ -9184,7 +9208,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				html += "</div>";
 			}
 	
-			document.getElementById("container").innerHTML = html;
+			document.getElementById("attitudes").innerHTML = html;
 			
 			addEvent("onClickType", function(a) {
 				onClickType(a.target);
@@ -9239,13 +9263,33 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				codeLabels[code].elements = Array.from(document.getElementsByClassName(fullCodes[i]));
 			}
 			
-			onClickType(document.getElementById("types").getElementsByTagName("li")[0]);
+			onClickType(document.getElementById("types-list").getElementsByTagName("li")[0]);
 			
 			const el = document.getElementsByClassName("horiz-list");
-			const observer = new IntersectionObserver( 
-					([e]) => e.target.classList.toggle("sticky", e.intersectionRatio < 1),
-					{ threshold: [1] }
-				);
+			const observer = new IntersectionObserver(function(elements) {
+					for(let i = 0; i < elements.length; i++) {
+						let e = elements[i];
+						let sticky = e.intersectionRatio < 1;
+						e.target.classList.toggle("sticky", sticky);
+					}
+					
+					let stickyElems = document.getElementsByClassName("sticky");
+					
+					let anyVisible = false;
+					
+					for(let i = 0; i < stickyElems.length; i++) {
+						let rect = stickyElems[i].getBoundingClientRect();
+						var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+						anyVisible |= !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+					}
+					
+					//console.log(stickyElems.length, anyVisible);
+					document.getElementById("header").classList.toggle("headersticky", anyVisible);
+				},
+				{
+					threshold: [1]
+				}
+			);
 			
 			for(let i = 0; i < el.length; i++) {
 				observer.observe(el[i]);
