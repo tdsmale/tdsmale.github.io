@@ -17,13 +17,27 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				--bg-color: #090a0a;
 				--fg-color: #222628;
 				--fg2-color: #101010;
-				--fg3-color: #404143;
 				--selected-color: #555555;
 				--scrollbar-thumb-color: #666;
 				--scrollbar-bg-color: #202324;
 				--font-color: rgba(232, 230, 227, 0.85);
 				--border-color: rgba(232, 230, 227, 0.25);
-				--click-active-color: #555555;	
+				--click-active-color: #555555;
+				--click-active-color2: #111111;
+			}
+			
+			.light-theme {
+				--body-color: #eaeaea;
+				--bg-color: #ffffff;
+				--fg-color: #dddddd;
+				--fg2-color: #eeeeee;
+				--selected-color: #bbbbbb;
+				--scrollbar-thumb-color: #999;
+				--scrollbar-bg-color: #fff;
+				--font-color: rgba(32, 30, 27, 0.85);
+				--border-color: rgba(32, 30, 27, 0.15);
+				--click-active-color: #aaaaaa;	
+				--click-active-color2: #ddd;
 			}
 			
 			* {
@@ -42,6 +56,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				color: var(--font-color);
 				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 				font-size: 1.6em;
+				padding: 0;
+				margin: 0;
 			}
 			
 			h1 {
@@ -62,13 +78,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 				
 				.clickable:active {
-					background-color: #111111;
+					background-color: var(--click-active-color2);
 				}
 			}
 		
 			#navbar {
 				text-align: center;
 				border-bottom-style: solid;
+			}
+			
+			.socionics-label {
+				display: none;
 			}
 			
 			ul.horiz-list {
@@ -161,7 +181,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				padding: 1em 0;
 			}
 			
-			.title.selected, .subtitle.selected, li.selected {
+			.title.selected, .subtitle.selected, .subtitle2.selected, li.selected {
 				background-color: var(--selected-color);
 			}
 			
@@ -419,28 +439,29 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		<!--
 		// TODO
 		- each small group has 3 versions...expressed with two possible pairings. define them!
-		- clean up large articles (headers)
 		- header with:
 			- contents button
-			- dark/light mode
 			- detailed tables mode
-			- original socionics names mode
+			- glossary (ternary, code, blocking, socionics etc.)
+		- quiz (select from opposites to whittle down most likely types)
 		- sources
-		- model A socionics names (functions, blocks, dichotomies, tetrachotomies etc.)
 		- absorb more material
 		- list small groups (including pair dichots) in each pair (should be 7 per pair, potentially 14 including pair dichots)
 		- expand on polarities (i.e. separate descriptions for both positive & negative)
 		- collapsible divs (per dichot, per tetra, per group) (i) (x) (+) (-)
 		- replace popups with divs that expand underneath (need to put a div in every possible location, then programatically determine WHICH div to place content in...)
 		- get rid of popup right header table, put elsewhere
-		- hide pair types in popups more effectively (or better seperate from working groups)
-		- figure out type/attitude picker (or at least make smaller on mobile)
+		- make type/attitude picker smaller on mobile
 		- test on many browsers & devices
 		- finish all code label inputs (some are still blank)
 		- socionics labels
-		- upload
 		- permanent links (hash tags)
+		- clicking on span doesn't trigger popups
 		-->
+		<div style='max-width: 1000px; margin: 0 auto; padding: 5px; position: sticky; top: 0;'>
+			<div class='clickable onClickSwapTheme'>Theme</div>
+			<div class='clickable onClickSwapLabels'>Labels</div>
+		</div>
 		<h1>Types</h1>
 		<div class="main-body" id='navbar'>
 			<h1>You need JavaScript. No one likes it. But you need it.</h1>
@@ -472,14 +493,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		const showMissingLabels = false;
 		const showSocionicsLabels = false;
 		
-		function getLabelName(label) {
-			if(showSocionicsLabels && "Socionics" in label) {
-				return label.Socionics;
-			}
-			
-			return label.label;
-		}
-		
 		let eventListeners = {};
 		let eventId = 0;
 		let codeLabels = {};
@@ -487,7 +500,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		let tetras = {};
 		let octas = {};
 		let pairDichots = {};
+		let aspectDichots = [];
+		let aspectTetras = {};
 		let currentPopup = null;
+		let defaultLabels = new Set();
+		let socionicsLabels = new Set();
+		let showingDefaultLabels = true;
 		
 		function addEvent(name, func) {
 			Array.from(document.getElementsByClassName(name)).forEach(function(x) {
@@ -504,6 +522,72 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				const functionToRemove = eventListeners[x.dataset.eventId];
 				x.removeEventListener("click", functionToRemove, true);
 			});
+		}
+		
+		function swapLabelsOf(socLabels, defLabels) {
+			if(showingDefaultLabels) {
+				for(let key of socLabels) {
+					$(key).hide();
+				}
+				
+				for(let key of defLabels) {
+					$(key).show();
+				}
+				
+			} else {
+				for(let key of defLabels) {
+					$(key).hide();
+				}
+				
+				for(let key of socLabels) {
+					$(key).show();
+				}
+			}
+		}
+		
+		function swapLabels() {
+			showingDefaultLabels = !showingDefaultLabels;
+			let socLabels = socionicsLabels.keys();
+			let defLabels = defaultLabels.keys();
+			swapLabelsOf(socLabels, defLabels);
+		}
+		
+		function collectLabels(src) {
+			let socLabels = Array.from(src.getElementsByClassName("socionics-label"));
+			let defLabels = Array.from(src.getElementsByClassName("default-label"));
+			swapLabelsOf(socLabels, defLabels);
+			
+			for(let i = 0; i < socLabels.length; i++) {
+				socionicsLabels.add(socLabels[i]);
+			}
+			
+			for(let i = 0; i < defLabels.length; i++) {
+				defaultLabels.add(defLabels[i]);
+			}
+		}
+		
+		function swapTheme() {
+			let hasDarkTheme = !document.documentElement.classList.toggle("light-theme");
+			if(hasDarkTheme) {
+				localStorage.setItem("hasDarkTheme", hasDarkTheme);
+			} else {
+				localStorage.removeItem("hasDarkTheme");
+			}
+		}
+		
+		const hasDarkTheme = localStorage.getItem("hasDarkTheme");
+		const colorSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+		
+		console.log(hasDarkTheme, typeof hasDarkTheme, colorSchemeQuery);
+		
+		if(hasDarkTheme || colorSchemeQuery.matches) {
+			console.log("Has dark theme, setting to dark...");
+			document.documentElement.classList.remove("light-theme");
+			localStorage.setItem("hasDarkTheme", true);
+		} else {
+			console.log("No dark theme, setting to light...");
+			document.documentElement.classList.add("light-theme");
+			localStorage.removeItem("hasDarkTheme");
 		}
 		
 		const baseFunc = "JxPx";
@@ -621,42 +705,42 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		const aspects = [
 			{
 				label: "Natural",
-				Socionics: "Program",
+				socionics: "Program",
 				desc: ["Default \"always-on\" attitude."],
 			},
 			{
 				label: "Constructive",
-				Socionics: "Creative",
+				socionics: "Creative",
 				desc: ["Attitude that is easily used to solve problems."]
 			},
 			{
 				label: "Obligative",
-				Socionics: "Role",
+				socionics: "Role",
 				desc: ["Attitude felt as comfortable, but as a means to an end."]
 			},
 			{
 				label: "Unnatural",
-				Socionics: "Mobilizing",
+				socionics: "Mobilizing",
 				desc: ["Attitude felt as most foreign or unnatural to engage in."]
 			},
 			{
 				label: "Abused",
-				Socionics: "Background",
+				socionics: "Background",
 				desc: ["Attitude most taken for granted, trivialized or otherwise abused."],
 			},
 			{
 				label: "Repressed",
-				Socionics: "Ignoring",
+				socionics: "Ignoring",
 				desc: ["Attitude felt to be hidden, underutilised, minimised or avoided."]
 			},
 			{
 				label: "Indulgant",
-				Socionics: "Suggestive",
+				socionics: "Suggestive",
 				desc: ["Attitude felt as too easy to over-indulge."]
 			},
 			{
 				label: "Unconscious",
-				Socionics: "Activating",
+				socionics: "Activating",
 				desc: ["Attitude unconciously provoked or attained."]
 			}
 		];
@@ -874,7 +958,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			[
 				"Vulture", 
 				1, 0, 1, 2, 3, 5, 7, 6, 4, 
-				"A torpid scavenger, tracking and profiting from the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic & distant character.",
+				"A torpid scavenger, tracking and profiting from the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic, wounded & distant character.",
 				[
 					
 				],
@@ -1203,6 +1287,28 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 		}
 		
+		const CodeLabelPrototype = {
+			label: "",
+		
+			name() {
+				if("socionics" in this) {
+					return this.socionics;
+				}
+				
+				return this.label;
+			},
+
+			nameHTML() {
+				if("socionics" in this) {
+					return "<span class='default-label'>" + this.label + "</span><span class='socionics-label'>" + this.socionics + "</span>";
+				}
+				
+				return this.label;
+			}
+		};
+		
+		let missingSocionicsLabels = new Set();
+		
 		function createCodeLabelWithKey(key, codeArr, label) {
 			console.assert(!(key in codeLabels), key, label, codeLabels[key]);
 			let expandedCodes = expandCodesArr(codeArr).toSorted();
@@ -1221,7 +1327,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label.expandedFuncs = expandedCodes.map((x) => originalToFunctionCode(x));
 			}
 			
-			codeLabels[key] = label;
+			if(!("socionics" in label)) {
+				missingSocionicsLabels.add(label.label);
+			}
+			
+			let newObj = Object.create(CodeLabelPrototype);
+			Object.assign(newObj, label);
+			
+			codeLabels[key] = newObj;
+			return newObj;
 		}
 		
 		function createCodeLabelArr(codeArr, label) {
@@ -1241,7 +1355,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			let key = groupDichotCodes(dichotL, dichotR);
 			let codeArr = dichotL.concat(dichotR).toSorted();
 			
-			createCodeLabelWithKey(key, codeArr, label);
+			label = createCodeLabelWithKey(key, codeArr, label);
 			
 			if(storeIn != null) {
 				if(key in storeIn) {
@@ -1280,7 +1394,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			let key = groupTetraCodes(a, b, c, d);
 			let codeArr = a.concat(b).concat(c).concat(d).toSorted();
 	
-			createCodeLabelWithKey(key, codeArr, label);
+			label = createCodeLabelWithKey(key, codeArr, label);
 			
 			if(key in tetras) {
 				console.log("Duplicate Tetrachotomy", key, tetras[key]);
@@ -1311,7 +1425,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			let key = groupSmallPairCodes(a, b, c, d, e, f, g, h);
 			let codeArr = a.concat(b).concat(c).concat(d).concat(e).concat(f).concat(g).concat(h).toSorted();
 	
-			createCodeLabelWithKey(key, codeArr, label);
+			label = createCodeLabelWithKey(key, codeArr, label);
 			
 			if(key in octas) {
 				console.log("Duplicate Octachotomy", key, octas[key]);
@@ -1542,7 +1656,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SCFR", {
 				label: "Distancing",
 				desc: [
-					"Observing an assured inequity & isolation between things; the inverse of \"no man's an island\".",
+					"Observing & feeling an assured inequity & isolation between oneself and others; the inverse of \"no man's an island\".",
 					{
 						"Viktor Gulenko - +T": [
 							"Future intuition. Containing their inner seething and temper, these sociotypes prefer gradual progress into the future, although they sharply abandon outdated ideas, criticizing past mistakes and delusions. Approaching the nearest, real future step by step, they generally believe in linear development, i.e., in their deepest ideas, you just need to remove the hindering obstacles - remnants of the past - and unlimited growth opportunities will immediately open up ahead. This quadra is not afraid of chaos and upheaval: they know how to do things in conditions of spontaneity, risk, and confusion."
@@ -1667,7 +1781,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				
 			createCodeLabel("Sxxx", {
 				label: "Subjective",
-				Socionics: "Constructivist",
+				socionics: "Constructivist",
 				desc: [
 					"Apprehending what is emotionally true or accurate.",
 					"Can get locked into emotional needs & experiences.",
@@ -1682,7 +1796,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("Oxxx", {
 				label: "Objective",
-				Socionics: "Emotivist",
+				socionics: "Emotivist",
 				desc: [
 					"Apprehending what is logically true or accurate.",
 					"Can get locked into requests for action & consideration.",
@@ -1697,7 +1811,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["Oxxx"], ["Sxxx"], {
 				label: "Rationality",
-				Socionics: "Constructivist & Emotivist",
+				socionics: "Constructivist & Emotivist",
 				desc: [
 					{
 						Danidin: [
@@ -1709,7 +1823,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xNxx", {
 				label: "Navigating",
-				Socionics: "Extroverted",
+				socionics: "Extroverted",
 				desc: [
 					"Changing or being an integral part of external processes.",
 					{
@@ -1724,7 +1838,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCxx", {
 				label: "Conditioning",
-				Socionics: "Introverted",
+				socionics: "Introverted",
 				desc: [
 					"Guiding or observing external processes.",
 					{
@@ -1739,7 +1853,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xCxx"], ["xNxx"], {
 				label: "Judgement",
-				Socionics: "Introverted & Extroverted",
+				socionics: "Introverted & Extroverted",
 				desc: [
 					{
 						Danidin: [
@@ -1751,7 +1865,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xxFx", {
 				label: "Future",
-				Socionics: "Intuition",
+				socionics: "Intuition",
 				desc: [
 					"Apprehending what could be.",
 					{
@@ -1767,7 +1881,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xxPx", {
 				label: "Present",
-				Socionics: "Sensation",
+				socionics: "Sensation",
 				desc: [
 					"Apprehending what is.",
 					{
@@ -1783,7 +1897,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xxFx"], ["xxPx"], {
 				label: "Temporality",
-				Socionics: "Intuition & Sensing",
+				socionics: "Intuition & Sensing",
 				desc: [
 					{
 						Danidin: [
@@ -1795,7 +1909,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xxxR", {
 				label: "Reflective",
-				Socionics: "Dynamic",
+				socionics: "Dynamic",
 				desc: [
 					"Detaching from external processes.",
 					"Adjusts to change.",
@@ -1809,7 +1923,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xxxA", {
 				label: "Activating",
-				Socionics: "Static",
+				socionics: "Static",
 				desc: [
 					"Engaging with external processes.",
 					"Defends against change.",
@@ -1823,7 +1937,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xxxA"], ["xxxR"], {
 				label: "Perception",
-				Socionics: "Static vs Dynamic",
+				socionics: "Static vs Dynamic",
 				desc: [
 					{
 						"Viktor Gulenko": [
@@ -1864,7 +1978,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["OCxx","SNxx"], {
 				label: "Narrational",
-				Socionics: "Merry",
+				socionics: "Merry",
 				desc: [
 					"Guiding audiences to a central truth.",
 					"Characterised by small talk, flippancy and group membership.",
@@ -1897,7 +2011,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["ONxx","SCxx"], {
 				label: "Economical",
-				Socionics: "Serious",
+				socionics: "Serious",
 				desc: [
 					"Using resources in personally-valuable ways.",
 					"Characterised by resourcefulness, seriousness and individuation.",
@@ -1942,7 +2056,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["OxPx","SxFx"], {
 				label: "Complicating",
-				Socionics: "Process",
+				socionics: "Process",
 				desc: [
 					"Complicates thinking.",
 					"Bad at multitasking.",
@@ -1960,7 +2074,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OxFx","SxPx"], {
 				label: "Simplifying",
-				Socionics: "Result",
+				socionics: "Result",
 				desc: [
 					"Simplifies thinking.",
 					"Good at multitasking.",
@@ -2014,7 +2128,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["OxxR","SxxA"], {
 				label: "Flexible",//"Pliable",
-				Socionics: "Yielding",
+				socionics: "Yielding",
 				desc: [
 					"Available resources determine one's interests.",
 					"Unambiguous intentions, thoughts, language, behaviour & understandings.",
@@ -2029,7 +2143,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OxxA","SxxR"], {
 				label: "Particular",
-				Socionics: "Obstinate",
+				socionics: "Obstinate",
 				desc: [
 					"Interests determine one's available resources.",
 					"Ambiguous intentions, thoughts, language, behaviour & understandings.",
@@ -2055,7 +2169,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["xNPx","xCFx"], {
 				label: "Prepared",
-				Socionics: "Farsighted",
+				socionics: "Farsighted",
 				desc: [
 					"Solutions tend to fit many circumstances.",
 					"It's best to prepare in advance.",
@@ -2068,7 +2182,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCPx","xNFx"], {
 				label: "Incidental",
-				Socionics: "Carefree",
+				socionics: "Carefree",
 				desc: [
 					"Solutions tend to fit specific problems.",
 					"You cannot prepare for everything.",
@@ -2092,7 +2206,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(enhancingKeyArr, {
 				label: "Enhancing",
-				Socionics: "Judicious",
+				socionics: "Judicious",
 				desc: [
 					"Enjoying what life has to offer.",
 					"Maximising the positive in life.",
@@ -2126,7 +2240,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(collapsingKeyArr, {
 				label: "Collapsing",
-				Socionics: "Decisive",
+				socionics: "Decisive",
 				desc: [
 					"Acting in a willful and timely manner,",
 					"Minimising the negative in life.",
@@ -2171,7 +2285,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["xNxA","xCxR"], {
 				label: "Labile",
-				Socionics: "Irrational",
+				socionics: "Irrational",
 				desc: [
 					"Prefer to delay decision-making.",
 					{
@@ -2183,7 +2297,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCxA","xNxR"], {
 				label: "Rigid",
-				Socionics: "Rational",
+				socionics: "Rational",
 				desc: [
 					"Like to make decisions early and keep to them.",
 					{
@@ -2206,7 +2320,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["OCxR","ONxA","SCxA","SNxR"], {
 				label:"Persuasive",
-				Socionics: "Ethics",
+				socionics: "Ethics",
 				desc: [
 					"Prefers to argue by persuasing others emotionally, regardless of the objective facts.",
 					{
@@ -2221,7 +2335,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCxA","ONxR","SCxR","SNxA"], {
 				label:"Argumentative",
-				Socionics: "Logic",
+				socionics: "Logic",
 				desc: [
 					"Prefers to argue by presenting strong objective arguments, regardless of how others feel.",
 					{
@@ -2247,7 +2361,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["OxFR","OxPA","SxFA","SxPR"], {
 				label:"Cohering",
-				Socionics: "Positivist",
+				socionics: "Positivist",
 				desc: [
 					"Fixates on what is good enough or how it can be improved.",
 					"Emphasises what is similar when comparing things.",
@@ -2262,7 +2376,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OxFA","OxPR","SxFR","SxPA"], {
 				label:"Contrasting",
-				Socionics: "Negativist",
+				socionics: "Negativist",
 				desc: [
 					"Fixates on what is missing or isn't good enough.",
 					"Emphasises what is different when comparing things.",
@@ -2307,7 +2421,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["xCFA","xCPR","xNFR","xNPA"], {
 				label:"Limiting",
-				Socionics: "Strategic",
+				socionics: "Strategic",
 				desc: [
 					"Defends options.",
 					{
@@ -2319,7 +2433,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCFR","xCPA","xNFA","xNPR"], {
 				label:"Expanding",
-				Socionics: "Tactical",
+				socionics: "Tactical",
 				desc: [
 					"Expands options.",
 					{
@@ -2342,7 +2456,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["SNPx","OCPx","ONFx","SCFx"], {
 				label: "Declarative",
-				Socionics: "Declaring",
+				socionics: "Declaring",
 				desc: [
 					"Tendency to make declarative statements and monologue.",
 					"Is typically talking to one person at a time when in a group.",
@@ -2360,7 +2474,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SNFx","SCPx","ONPx","OCFx"], {
 				label: "Interrogative",
-				Socionics: "Asking",
+				socionics: "Asking",
 				desc: [
 					"Tendency to ask questions and involve others into a wider conversation.",
 					"Is typically talking to more than one person at a time when in a group.",
@@ -2389,7 +2503,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 	
 			createCodeLabelArr(hierarchalKeyArr, {
 				label:"Hierarchal",
-				Socionics: "Aristocratic",
+				socionics: "Aristocratic",
 				desc: [
 					"Relating to others and oneself in terms of the social categories they are part of.",
 					{
@@ -2410,7 +2524,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(atomisticKeyArr, {
 				label:"Atomistic",
-				Socionics: "Democratic",
+				socionics: "Democratic",
 				desc: [
 					"Relating to others and oneself in terms of individual qualities relative to the whole.",
 					{
@@ -2445,7 +2559,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// symbiosis
 			createCodeLabelArr(commensalKeyArr, {
 				label: "Commensal",
-				Socionics: "Delta",
+				socionics: "Delta",
 				desc: [
 					"Ecosystem is implicitly reliant on one species benefiting from a host without affecting it.",
 					"Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.",
@@ -2752,7 +2866,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(parasiticalKeyArr, {
 				label: "Parasitical",
-				Socionics: "Beta",
+				socionics: "Beta",
 				desc: [
 					"Ecosystem is implicitly reliant on the strong possessing the weak and the weak feeding off the strong.",
 					"Divided structure collapses into dramatic upheaval, leading to a radical, unyielding understanding.",
@@ -2928,7 +3042,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(mutualKeyArr, {
 				label: "Mutual",
-				Socionics: "Alpha",
+				socionics: "Alpha",
 				desc: [
 					"Ecosystem is implictly reliant on mutual stategies for survival.",
 					"Cooperative possibilities enhance emotional atmosphere, leading to a mutually-legislated understanding.",
@@ -3093,7 +3207,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(competitiveKeyArr, {
 				label: "Competitive",
-				Socionics: "Gamma",
+				socionics: "Gamma",
 				 desc: [
 					"Ecosystem is implicitly reliant on a healthy competition over resources.",
 					"Retentive relations collapse into harsh practicality, leading to psychological inequity.",
@@ -3389,7 +3503,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(commensalKeyArr, parasiticalKeyArr, mutualKeyArr, competitiveKeyArr, {
 				label: "Symbiosis",
-				Socionics: "Quadras",
+				socionics: "Quadras",
 				desc: [
 					{
 						"Socionics - Quadras": [],
@@ -3400,7 +3514,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xxFR", {
 				label: "Implosive",
-				Socionics: "Introverted Intuition",
+				socionics: "Introverted Intuition",
 				desc: [
 					"Dissociatively relinquishing the moment to more powerful forces by bending to their pressure.",
 					"Apprehending things in terms of their apparent placement in time & history.",
@@ -3522,7 +3636,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xxFA", {
 				label: "Digressive",
-				Socionics: "Extroverted Intuition",
+				socionics: "Extroverted Intuition",
 				desc: [
 					"Taking up new ideas to broaden the set of possibilities available.",
 					"Thinking outside the box.",
@@ -3636,7 +3750,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xxPR", {
 				label: "Contented",
-				Socionics: "Introverted Sensing",
+				socionics: "Introverted Sensing",
 				desc: [
 					"Enhancing the senses by indulging oneself sensually.",
 					"Lessening of discomfort.",
@@ -3764,7 +3878,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xxPA", {
 				label: "Explosive",
-				Socionics: "Extroverted Sensing",
+				socionics: "Extroverted Sensing",
 				desc: [
 					"Forcefully taking up space to fulfill insurmountable needs.",
 					"Escalating outward pressure.",
@@ -3901,7 +4015,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["xxFA"], ["xxFR"], ["xxPA"], ["xxPR"], {
 				label: "Disposition",
-				Socionics: "Irrational Elements",
+				socionics: "Irrational Elements",
 				desc: [
 					{
 						"Viktor Gulenko - Romance Styles": [
@@ -3915,7 +4029,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("SNxx", {
 				label: "Social",
-				Socionics: "Extroverted Ethics",
+				socionics: "Extroverted Ethics",
 				desc: [
 					"Contributing to a shared atmosphere; influencing expressions.",
 					"Emphasising emotional expression over internal structure.",
@@ -3975,7 +4089,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("ONxx", {
 				label: "Productive",
-				Socionics: "Extroverted Logic",
+				socionics: "Extroverted Logic",
 				desc: [
 					"Pragmatisation; putting things to use.",
 					"Emphasising productive effort over personal relations.",
@@ -4039,7 +4153,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SCxx", {
 				label: "Personal",
-				Socionics: "Introverted Ethics",
+				socionics: "Introverted Ethics",
 				desc: [
 					"Internalising relations between individuals.",
 					"Emphasising personal relations over productive effort.",
@@ -4088,7 +4202,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("OCxx", {
 				label: "Neutral",
-				Socionics: "Introverted Logic",
+				socionics: "Introverted Logic",
 				desc: [
 					"Emphasising internal structure over emotional expression.",
 					"Analytical, indifferent, impartial affect.",
@@ -4141,7 +4255,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["OCxx"], ["ONxx"], ["SCxx"], ["SNxx"], {
 				label: "Argumentation",
-				Socionics: "Rational Elements",
+				socionics: "Rational Elements",
 				desc: [
 					{
 						"Miranov - Emotional Experience": [],
@@ -4312,7 +4426,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// clubs
 			createCodeLabelArr(researchingKeyArr, {
 				label: "Researching",
-				Socionics: "Researchers",
+				socionics: "Researchers",
 				desc: [
 					"Typically interested in investigating new subjects, theories or applications.",
 					"Tend to value researching new or esoteric knowledge.",
@@ -4344,7 +4458,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // NT Researchers
 			createCodeLabelArr(organizingKeyArr, {
 				label: "Organizing",
-				Socionics: "Pragmatists",
+				socionics: "Pragmatists",
 				desc: [
 					"Practical, matter-of-fact way of approaching situations.",
 					{
@@ -4370,7 +4484,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // ST Pragmatists
 			createCodeLabelArr(humanitarianKeyArr, {
 				label: "Humanitarian",
-				Socionics: "Humanitarians",
+				socionics: "Humanitarians",
 				desc: [
 					"Typically interested in the welfare of other people.",
 					{
@@ -4401,7 +4515,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // NF Humanitarians
 			createCodeLabelArr(consumingKeyArr, {
 				label: "Consuming",
-				Socionics: "Socializers",
+				socionics: "Socializers",
 				desc: [
 					"Tend to focus on what is fashionable, attention-seeking or otherwise prominent to others.",
 					{
@@ -6808,7 +6922,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("xNFA", {
 				label: "Brainstorming",
 				desc: [
-					"Brainstorming. Entertaining ideas out loud with others, fostering an atmosphere of \"no bad ideas\".",
+					"Entertaining ideas out loud with others, fostering an atmosphere of \"no bad ideas\".",
 					"From here, the possibility for truly novel or innovative discoveries can occur.",
 					"Relaxing behavioural requirements of the ecosystem.",
 					{
@@ -7152,14 +7266,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Academic",//"Theoretical",
 				desc: [
 					"Playful reinvention of the wheel.",
-					"Forging a so-called \"theory of everything\" that accounts for all participants or possibilities."
+					"Forging, collecting or reiterating a so-called \"theory of everything\" that accounts for all participants or possibilities."
 				]
 			});
 			createCodeLabelArr(["SNPR","SNFA"], {
 				label: "Inclusive",
 				desc: [
-					"Welcoming new individuals to the table.",
-					"Making new accomodations for someone.",
+					"Welcoming of new ideas, opportunities or individuals to the table."
 				]
 			});
 			createCodeLabelArr(["SCPA","SCFR"], {
@@ -7181,15 +7294,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabelArr(["SNFR","SNPA"], {
-				label: "Galvanizing",
+				label: "Purifying",
 				desc: [
-					"Provoking & mobilising latent emotions."
+					"Provoking & mobilising latent emotions to better galvanise conflict."
 				]
 			});
 			createCodeLabelArr(["SCFA","SCPR"], {
 				label: "Charitable", //"Empathic",
 				desc: [
-					"Giving others the benefit of the doubt."
+					"Giving others the benefit of the doubt, so as to help them get on their feet."
 				]
 			});
 			createCodeLabelArr(["ONFA","ONPR"], {
@@ -7267,7 +7380,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFR","SNPA"], {
 				label: "Unifying",
 				desc: [
-					"Uniting others under a common banner through sheer force of will."
+					"Uniting under a common banner of chosen people; forming or joining a more worthy culture."
 				]
 			});
 			createCodeLabelArr(["SCFA","ONPR"], {
@@ -7484,7 +7597,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Homeostatic",
 				desc: [
 					"Sustaining an existing ecosystem.",
-					"Competition of indepenant craftsmanship. Attracting others through the formation of efficient & practical environments, manifesting in increased autonomy and a higher standard of living.",
+					"Competition of independant craftsmanship. Attracting others through the formation of efficient & practical environments, manifesting in increased autonomy and a higher standard of living.",
 					"Wants a partner they can patiently guide to a higher standard of self-sufficiency.",
 					{
 						"Socionics - Teachers": [
@@ -7829,19 +7942,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		let missingLabels = new Set();
 		function getCodeLabelOr(key, other) {
 			if(key in codeLabels) {
-				return getLabelName(codeLabels[key]);
+				return codeLabels[key].nameHTML();
 			}
 			
 			if(!missingLabels.has(key)) {
-				//console.log("Missing label for key \"" + key + "\"");
 				missingLabels.add(key);
 			}
 			
 			return other;
 		}
 		
-		let aspectDichots = [];
-		let aspectTetras = {};
 		function createFunctionGroups() {
 			let dichotLookup = {};
 			
@@ -7976,8 +8086,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 				}
 			}
-			
-			console.log(aspectTetras);
 		}
 		
 		try {
@@ -8022,8 +8130,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let pairKey = groupCodes([ego[0], ego[1]]);
 				let pairLabel = codeLabels[pairKey];
 				
-				let desc1 = "(" + getLabelName(pairLabel) + ", " + getLabelName(symbiosisPair[0]) + " " + getLabelName(clubLabel) + ")";
-				let desc2 = "(" + getLabelName(pairLabel) + ", " + getLabelName(symbiosisPair[1]) + " " + getLabelName(clubLabel) + ")";
+				let desc1 = "(" + pairLabel.nameHTML() + ", " + symbiosisPair[0].nameHTML() + " " + clubLabel.nameHTML() + ")";
+				let desc2 = "(" + pairLabel.nameHTML() + ", " + symbiosisPair[1].nameHTML() + " " + clubLabel.nameHTML() + ")";
 				
 				let src1 = {label: ego[2], desc: [desc1].concat(ego[3])};
 				let src2 = {label: ego[4], desc: [desc2].concat(ego[5])};
@@ -8036,7 +8144,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			console.log(tetras);
 			
 			for (const [tkey, t] of Object.entries(tetras)) {
-			
 				// figure out tetra sources
 				// 1 + 2 / 3 + 4
 				let key1 = groupDichotCodes(t.groups[0].concat(t.groups[1]), t.groups[2].concat(t.groups[3]));
@@ -8057,7 +8164,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				console.assert(source1 != source3);
 				console.assert(source2 != source3);
 				
-				codeLabels[tkey].sources = [getLabelName(codeLabels[key1]), getLabelName(codeLabels[key2]), getLabelName(codeLabels[key3])];
+				codeLabels[tkey].sources = [codeLabels[key1].nameHTML(), codeLabels[key2].nameHTML(), codeLabels[key3].nameHTML()];
 				
 				// reverse engineer how codes were combined
 				function createGroups(source1, source2, source3) {
@@ -8131,7 +8238,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				
 				for (const [k, v] of Object.entries(combinedWorking)) {
 					codeLabels[k].working = v;
-					codeLabels[k].sources = v[0].sources.map((x) => getLabelName(codeLabels[x.key])).toSorted();
+					codeLabels[k].sources = v[0].sources.map((x) => codeLabels[x.key].nameHTML()).toSorted();
 				}
 				
 				t.sources = [source1, source2, source3];
@@ -8145,7 +8252,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				
 				function addToPairSources(g, l, r) {
 					let pairCode = groupCodes([l, r]);
-					console.log(l, r, pairCode);
 					let pairLabel = codeLabels[pairCode];
 					if("sources" in pairLabel) {
 						pairLabel.sources.push(g);
@@ -8158,10 +8264,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			{
 				let s = new Set();
 				for (const [key, value] of Object.entries(codeLabels)) {
-					if(s.has(getLabelName(value))) {
-						console.log("Duplicate label " + getLabelName(value));
+					if(s.has(value.nameHTML())) {
+						console.log("Duplicate label " + value.nameHTML());
 					} else {
-						s.add(getLabelName(value));
+						s.add(value.nameHTML());
 					}
 				}
 			}
@@ -8188,7 +8294,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				html += "<div class='popup-header-left'>";
 				
 				if('label' in from) {
-					html += "<h2>" + getLabelName(from) + "</h2>";
+					html += "<h2>" + from.nameHTML() + "</h2>";
 				}
 				
 				html += "</div><div class='popup-header-right'>";
@@ -8255,7 +8361,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				
 				if(from.working != undefined) {
 					for(let i = 0; i < from.working.length; i++) {
-						html += "<div class='working-title clickable onClickWorkingTitle'>" + getLabelName(codeLabels[from.working[i].sources[0].key]) + " + " + getLabelName(codeLabels[from.working[i].sources[1].key])  +"</div>";
+						html += "<div class='working-title clickable onClickWorkingTitle'>" + codeLabels[from.working[i].sources[0].key].nameHTML() + " + " + codeLabels[from.working[i].sources[1].key].nameHTML() + "</div>";
 						html += "<div class='working'>";
 							html += "<table>";
 							for(let j = 0; j < from.working[i].codes.length; j++) {
@@ -8265,8 +8371,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								let dstLabel = codeLabels[groupCode(from.working[i].codes[j][0])];
 								
 								html += "<tr>";
-									html += "<th>" + getLabelName(leftLabel) + " + " + getLabelName(rightLabel) + "</th>";
-									html += "<th>" + getLabelName(dstLabel) + "</th>";
+									html += "<th>" + leftLabel.nameHTML() + " + " + rightLabel.nameHTML() + "</th>";
+									html += "<th>" + dstLabel.nameHTML() + "</th>";
 								html += "</tr>";
 								html += "<tr>";
 									html += "<td>" + from.working[i].codes[j][1] + " + " + from.working[i].codes[j][2] + "</td>";
@@ -8292,17 +8398,30 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					let left = codeLabels[groupCode(from.expandedCodes[0])];
 					let right = codeLabels[groupCode(from.expandedCodes[1])];
 					
+					html += "<div class='working-title'>Attitudes</div>";
 					html += "<table class='working block'>";
 						html += "<tr>";
-							html += "<th>" + getLabelName(left) + "</th>";
-							html += "<th>" + getLabelName(right) + "</th>";
+							html += "<th>Name</th>";
+							html += "<th>" + left.nameHTML() + "</th>";
+							html += "<th>" + right.nameHTML() + "</th>";
 						html += "</tr><tr>";
-							html += "<td>" + from.expandedCodes[0] + "</td>";
-							html += "<td>" + from.expandedCodes[1] + "</td>";
+							html += "<th>Function</th>";
+							html += "<td>" + left.signed + "</td>";
+							html += "<td>" + right.signed + "</td>";;
 						html += "</tr><tr>";
+							html += "<th>Blocking</th>";
+							html += "<td>" + left.block + "</td>";
+							html += "<td>" + right.block + "</td>";;
+						html += "</tr><tr>";
+							html += "<th>Alternate Blocking</th>";
 							html += "<td>" + left.funcs + "</td>";
 							html += "<td>" + right.funcs + "</td>";;
 						html += "</tr><tr>";
+							html += "<th>Code</th>";
+							html += "<td>" + from.expandedCodes[0] + "</td>";
+							html += "<td>" + from.expandedCodes[1] + "</td>";
+						html += "</tr><tr>";
+							html += "<th>Ternary</th>";
 							html += "<td>" + left.ternary + "</td>";
 							html += "<td>" + right.ternary + "</td>";
 						html += "</tr>";
@@ -8333,7 +8452,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								console.assert(chosenLabel != null);
 								
 								let desc = chosenLabel.desc;
-								html += "<li>" + dichotLabel.label + ": " + chosenLabel.label;
+								html += "<li>" + dichotLabel.nameHTML() + ": " + chosenLabel.nameHTML();
 								if(desc != undefined) {
 									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
 								}
@@ -8351,7 +8470,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								let tetra = tetras[from.tetrachotomies[i]];
 								let expandedTetraName = null;
 								if(Array.isArray(tetra)) {
-									expandedTetraName = codeLabels[tetra[1]].label;
+									expandedTetraName = codeLabels[tetra[1]].nameHTML();
 									tetra = tetra[0];
 								}
 								let tetraLabel = codeLabels[from.tetrachotomies[i]];
@@ -8366,7 +8485,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								console.assert(chosenLabel != null);
 								
 								let desc = chosenLabel.desc;
-								html += "<li>" + tetraLabel.label + ": " + chosenLabel.label;
+								html += "<li>" + tetraLabel.nameHTML() + ": " + chosenLabel.nameHTML();
 								if(expandedTetraName != null) {
 									html += " (" + expandedTetraName + ")";
 								}
@@ -8397,7 +8516,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								}
 								
 								let desc = chosenLabel.desc;
-								html += "<li>" + octaLabel.label + ": " + chosenLabel.label;
+								html += "<li>" + octaLabel.nameHTML() + ": " + chosenLabel.nameHTML();
 								if(desc != undefined) {
 									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
 								}
@@ -8426,6 +8545,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						interactive: true, 
 						boundary: "viewport",
 						appendTo: document.body,
+						onMount: function(inst) {
+							collectLabels(inst.popper);
+						},
 						onShown: function() {
 							currentPopup = popup;
 							addEvent("onClickWorkingTitle", function(a) {
@@ -8452,13 +8574,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			function onClickWorkingTitle(elem) {
 				let table = elem.nextSibling;
-				console.log(table);
 				$(table).slideToggle(400);
 			}
 			
 			function onClickShowSmallGroups(elem) {
 				let table = elem.nextSibling;
-				console.log(table);
 				if(table.style.display == "block") {
 					$(table).hide(0);
 					elem.innerHTML = "+ Expand Small Groups";
@@ -8499,22 +8619,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				model.style.display = "block";
 				elem.classList.add("selected");
 			}
-				
-			function onClickTypeAttitude(elem) {
-				let split = elem.id.split("-");
-				let code = split[3];
-				let label = getCodeLabel(code);
-				doPopup(elem, label);
-			}
 			
 			function onClickAttitude(elem) {
-				let children = dichotCells;
-				if(children != null) {
-					for(let i = 0; i < children.length; i++) {
-						children[i].classList.remove("selected");
+				if(dichotCells != null) {
+					for(let i = 0; i < dichotCells.length; i++) {
+						dichotCells[i].classList.remove("selected");
 					}
 					
-					children = null;
 					dichotCells = null;
 				}
 				
@@ -8523,21 +8634,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					a[i].classList.remove("selected");
 				}
 				
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						
-						let children = label.elements;
-						dichotCells = children;
-						console.log(children);
-						for(let i = 0; i < children.length; i++) {
-							children[i].classList.add("selected");
-						}
-						
-						elem.classList.add("selected");
-					}
+				let label = codeLabels[elem.dataset.popupkey];
+				dichotCells = label.elements;
+				
+				for(let i = 0; i < dichotCells.length; i++) {
+					dichotCells[i].classList.add("selected");
 				}
+				elem.classList.add("selected");
 			}
 			
 			function onClickEgoTitle(elem) {
@@ -8635,19 +8738,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				doPopup(elem, desc);
 			}
 			
-			function onClickDichotTitle(elem) {
-				let label = codeLabels[elem.id];
-				doPopup(elem, label);
-			}
-			
 			function onClickPopup(elem) {
-				for(let i = 0; i < elem.classList.length; i++) {
-					if(elem.classList[i].startsWith("key-")) {
-						let split = elem.classList[i].split("-");
-						let label = codeLabels[split[1]];
-						doPopup(elem, label);
-					}
-				}
+				let label = codeLabels[elem.dataset.popupkey];
+				doPopup(elem, label);
 			}
 			
 			let html = "";
@@ -8672,7 +8765,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let shadow2Index = t[9];
 				
 				html += "<div id='" + name + "-model' class='type-model-container'>";
-					html += "<h2>" + name + " Model</h2>";
+					//html += "<h2>" + name + " Model</h2>";
 					html += "<p>" + t[10] + "</p>";
 					/*
 					html += "<ul>";
@@ -8681,249 +8774,179 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					}
 					html += "</ul>";*/
 					
-					function drawModelTable(polarity, egoIndex, parentalIndex, childishIndex, shadowIndex, egoName, parentalName, childishName, shadowName) {
-						html += "<div class='type-model'>";
-							let title = polarity == 0 ? 2 : 4;
-							let title2 = polarity == 0 ? 4 : 2;
-							let ego = egos[egoIndex];
-							let parental = egos[parentalIndex];
-							let childish = egos[childishIndex];
-							let shadow = egos[shadowIndex];
-							
-							html += "<div class='ego-container'>";
-								html += "<div class='ego'>";
-									html += "<div class='clickable onClickModelTitle model-title title' id='" + name + "-" + egoName + "'>" + egoName + "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>++</div>";
-										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + egoIndex + "-" + polarity + "'>" + ego[title] + "</div>";
-									html += "</div>";*/
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-0'>" + aspects[0].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(ego[polarity])) + "</div>";
-									html += "</div>";
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-4'>" + aspects[4].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + ego[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(ego[(1 - polarity)])) + "</div>";
-									html += "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>--</div>";
-										html +=	"<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + egoIndex + "-" + (1 - polarity) + "'>" + ego[title2] + "</div>";
-									html += "</div>";*/
-								html += "</div>";
-								
-								html += "<div class='ego'>";
-									html += "<div class='clickable onClickModelTitle model-title title' id='" + name + "-" + parentalName + "'>" + parentalName + "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>++</div>"; 
-										html += "<div class='clickable onClickEgoTitle ego-title ego-title subtitle' id='ego-title-" + name + "-" + parentalIndex + "-" + polarity + "'>" + parental[title] + "</div>";
-									html += "</div>";*/
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-1'>" + aspects[1].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(parental[polarity])) + "</div>";
-									html += "</div>";
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-5'>" + aspects[5].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + parental[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(parental[(1 - polarity)])) + "</div>";
-									html += "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>--</div>";
-										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + parentalIndex + "-" + (1 - polarity) + "'>" + parental[title2] + "</div>";
-									html += "</div>";*/
-								html += "</div>";
-							html += "</div>";
-							
-							html += "<div class='ego-container'>";
-								html += "<div class='ego'>";
-									html += "<div class='clickable onClickModelTitle model-title title' id='" + name + "-" + childishName + "'>" + childishName + "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>++</div>";
-										html +=	"<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + childishIndex + "-" + (1 - polarity) + "'>" + childish[title2] + "</div>";
-									html += "</div>";*/
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-2'>" + aspects[2].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[(1 - polarity)] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(childish[1 - polarity])) + "</div>";
-									html += "</div>";
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-6'>" + aspects[6].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + childish[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(childish[polarity])) + "</div>";
-									html += "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>--</div>";
-										html +=	"<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + childishIndex + "-" + polarity + "'>" + childish[title] + "</div>";
-									html += "</div>";*/
-								html += "</div>";
-								
-								html += "<div class='ego'>";
-									html += "<div class='clickable onClickModelTitle model-title title' id='" + name + "-" + shadowName + "'>" + shadowName + "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>++</div>";
-										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + shadowIndex + "-" + (1 - polarity) + "'>" + shadow[title2] + "</div>";
-									html += "</div>";*/
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-3'>" + aspects[3].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[1 - polarity] + "-" + (1 - polarity) + "'> " + getLabelName(getCodeLabel(shadow[1 - polarity])) + "</div>";
-									html += "</div>";
-									html += "<div class='function'>";
-										html += "<div class='clickable onClickModelAspect model-aspect title' id='" + name +"-7'>" + aspects[7].label + "</div>";
-										html += "<div class='clickable onClickTypeAttitude attitude-title subtitle' id='attitude-title-" + name + "-" + shadow[polarity] + "-" + polarity + "'> " + getLabelName(getCodeLabel(shadow[polarity])) + "</div>";
-									html += "</div>";
-									/*
-									html += "<div class='ego-title-cell'>";
-										html += "<div class='clickable ego-polarity onClickPolarity'>--</div>";
-										html += "<div class='clickable onClickEgoTitle ego-title subtitle' id='ego-title-" + name + "-" + shadowIndex + "-" + polarity + "'>" + shadow[title] + "</div>";
-									html += "</div>";*/
-								html += "</div>";
-							html += "</div>";
-						html += "</div>";
-						
+					let title = polarity == 0 ? 2 : 4;
+					let title2 = polarity == 0 ? 4 : 2;
+					let ego = egos[egoIndex];
+					let parental = egos[parentalIndex];
+					let childish = egos[childishIndex];
+					let shadow = egos[shadowIndex];
 					
-						let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
-						let dichotLabel = codeLabels[dichotKey];
-						
-						html += "<h2>" + name + " Aspect Dichotomies</h2>";
-						
-						html += "<div class='type-dichot-title title clickable onClickPopup key-" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.label + "</div>";
-						html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + dichotKey + "'>" + dichotLabel.label + "</div>";
-						
-						let orderedAttitudes = [
-							ego[polarity],
-							parental[polarity],
-							childish[1-polarity],
-							shadow[1-polarity],
-							ego[1-polarity],
-							parental[1-polarity],
-							childish[polarity],
-							shadow[polarity],
-						];
-						
-						function drawAspectGroup(v) {
-							let attitude1 = orderedAttitudes[v.indices[0]];
-							let attitude2 = orderedAttitudes[v.indices[1]];
-							let pairKey = groupCodes([attitude1, attitude2]);
-							let pair = codeLabels[pairKey];
-						
-							html += "<div class='small-group'>";
-								//html += "<div class='small-group-title title clickable'>Title</div>";
-								html += "<div class='small-pair-table'>";
-									html += "<div class='small-pair-group'>";
-										html += "<div class='small-pair title clickable'>" + v.attrs.join(" + ") + "</div>";
-										html += "<div class='small-pair subtitle clickable onClickPopup key-" + pairKey + "'>" + pair.label + "</div>";
-									html += "</div>";
+					let orderedAttitudes = [
+						ego[polarity],
+						parental[polarity],
+						childish[1-polarity],
+						shadow[1-polarity],
+						ego[1-polarity],
+						parental[1-polarity],
+						childish[polarity],
+						shadow[polarity],
+					];
+					
+					function drawAspectGroup(v) {
+						let attitude1 = orderedAttitudes[v.indices[0]];
+						let attitude2 = orderedAttitudes[v.indices[1]];
+						let pairKey = groupCodes([attitude1, attitude2]);
+						let pair = codeLabels[pairKey];
+					
+						html += "<div class='small-group'>";
+							//html += "<div class='small-group-title title clickable'>Title</div>";
+							html += "<div class='small-pair-table'>";
+								html += "<div class='small-pair-group'>";
+									html += "<div class='small-pair title clickable'>" + v.attrs.join(" + ") + "</div>";
+									html += "<div class='small-pair subtitle clickable onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
 								html += "</div>";
 							html += "</div>";
-						}
-						
-						function drawAspectTetra(key, value) {
-							let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
-							html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
-							html += "<div class='small-group-cell'>";
-								html += "<div class='small-group-column'>";
-									drawAspectGroup(value[0]);
-									drawAspectGroup(value[1]);
-								html += "</div>";
-								html += "<div class='small-group-column'>";
-									drawAspectGroup(value[2]);
-									drawAspectGroup(value[3]);
-								html += "</div>";
-							html += "</div>";
-						}
-						
-						function drawPairTable(pair) {
-							let attitude1 = orderedAttitudes[pair.indices[0]];
-							let attitude2 = orderedAttitudes[pair.indices[1]];
-							html += "<div class='type-pair-container'>";
-								html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + pair.attrs.join(" + ") + "</div>";
-								let pair1Key = groupCodes([attitude1, attitude2]);
-								let pair1 = codeLabels[pair1Key];
-								html += "<div class='type-pair clickable subtitle onClickPopup key-" + pair1Key + "'>" + pair1.label + "</div>";
-							html += "</div>";
-						}
-						
-						function drawDichotTable(dichot) {
-							let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
-							let groupKey = groupCodes(attitudes);
-							let group = codeLabels[groupKey];
-							
-							html += "<div class='type-pair-group'>";
-								html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
-								html += "<div class='clickable subtitle onClickPopup key-" + groupKey + "'>" + group.label + "</div>";
-								/*
-								for(let i = 0; i < dichot.pairs.length; i++) {
-									drawPairTable(dichot.pairs[i]);
-								}*/
-								
-							html += "</div>";
-						}
-						
-						function drawAspectDichot(dichots) {
-							let dichot = dichots.dichots;
-							let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
-							
-							let groupKey = groupCodes(attitudes);
-							let group = codeLabels[groupKey];
-							html += "<div class='type-pair-groups-outer'>";
-								html += "<div class='type-dichot-title title clickable'>" + dichots.name + "</div>";
-								html += "<div class='type-dichot-title subtitle clickable onClickPopup key-" + group.parentTetra.key + "'>" + group.parentTetra.label + "</div>";
-								html += "<div class='type-pair-groups'>";
-									drawDichotTable(dichot[0]);
-									drawDichotTable(dichot[1]);
-								html += "</div>";
-								html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
-								html += "<div class='dichotomy-small-groups'>";
-									for (const [key, value] of Object.entries(aspectTetras)) {
-										if(value[0].attrs.some((x) => x == dichot[0].name || x == dichot[1].name)) {
-											console.log(dichots, key, value);
-											let newvalue = [null, null, null, null];
-											
-											// reorder
-											for(let i = 0; i < value.length; i++) {
-												if(value[i].attrs.some((x) => x == dichot[0].name)) {
-													if(newvalue[0] == null) {
-														newvalue[0] = value[i];
-													} else {
-														console.assert(newvalue[1] == null);
-														newvalue[1] = value[i];
-													}
-												} else {
-													console.assert(value[i].attrs.some((x) => x == dichot[1].name));
-													if(newvalue[2] == null) {
-														newvalue[2] = value[i];
-													} else {
-														console.assert(newvalue[3] == null);
-														newvalue[3] = value[i];
-													}
-												}
-											}
-											
-											console.assert(!newvalue.some((x) => x == null));
-											drawAspectTetra(key, newvalue);
-										}
-									}
-								html += "</div>";
-							html += "</div>";
-						}
-						
-						html += "<div class='type-pair-groups-container'>";
-							for(let i = 0; i < aspectDichots.length; i++) {
-								drawAspectDichot(aspectDichots[i]);
-							}
 						html += "</div>";
-							
-						html += "<h2>" + name + " Aspect Tetrachotomies</h2>";
-						
-						for (const [key, value] of Object.entries(aspectTetras)) {
-							drawAspectTetra(key, value);
-						}
 					}
 					
-					drawModelTable(polarity, egoIndex, parentalIndex, childishIndex, shadowIndex, "Ego", "Parental", "Childish", "Shadow");
+					function drawEgo(v) {
+						let attitude1 = orderedAttitudes[v.indices[0]];
+						let attitude2 = orderedAttitudes[v.indices[1]];
+						let pairKey = groupCodes([attitude1, attitude2]);
+						let pair = codeLabels[pairKey];
+
+						html += "<div class='ego'>";
+							html += "<div class='clickable model-title title'>" + v.attrs.join(" + ") + "</div>";
+							html += "<div class='ego-title-cell'>";
+								html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
+							html += "</div>";
+							html += "<div class='function'>";
+								html += "<div class='clickable model-aspect title'>Aspect</div>";
+								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
+							html += "</div>";
+							html += "<div class='function'>";
+								html += "<div class='clickable model-aspect title'>Aspect</div>";
+								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude2) + "'>" + getCodeLabel(attitude2).nameHTML() + "</div>";
+							html += "</div>";
+						html += "</div>";
+					}
+					
+					function drawAspectTetra(key, value) {
+						let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
+						html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
+						/*
+						html += "<div class='small-group-cell'>";
+							html += "<div class='small-group-column'>";
+								drawAspectGroup(value[0]);
+								drawAspectGroup(value[1]);
+							html += "</div>";
+							html += "<div class='small-group-column'>";
+								drawAspectGroup(value[2]);
+								drawAspectGroup(value[3]);
+							html += "</div>";
+						html += "</div>";
+						*/
+						html += "<div class='type-model'>";
+							html += "<div class='ego-container'>";
+								drawEgo(value[0]);
+								drawEgo(value[1]);
+							html += "</div>";
+							html += "<div class='ego-container'>";
+								drawEgo(value[2]);
+								drawEgo(value[3]);
+							html += "</div>";
+						html += "</div>";
+					}
+					
+					function drawPairTable(pair) {
+						let attitude1 = orderedAttitudes[pair.indices[0]];
+						let attitude2 = orderedAttitudes[pair.indices[1]];
+						html += "<div class='type-pair-container'>";
+							html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + pair.attrs.join(" + ") + "</div>";
+							let pair1Key = groupCodes([attitude1, attitude2]);
+							let pair1 = codeLabels[pair1Key];
+							html += "<div class='type-pair clickable subtitle onClickPopup' data-popupkey='" + pair1Key + "'>" + pair1.nameHTML() + "</div>";
+						html += "</div>";
+					}
+					
+					function drawDichotTable(dichot) {
+						let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+						let groupKey = groupCodes(attitudes);
+						let group = codeLabels[groupKey];
+						
+						html += "<div class='type-pair-group'>";
+							html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
+							html += "<div class='clickable subtitle onClickPopup' data-popupkey='" + groupKey + "'>" + group.nameHTML() + "</div>";
+							/*
+							for(let i = 0; i < dichot.pairs.length; i++) {
+								drawPairTable(dichot.pairs[i]);
+							}*/
+							
+						html += "</div>";
+					}
+					
+					function drawAspectDichot(dichots) {
+						let dichot = dichots.dichots;
+						let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+						
+						let groupKey = groupCodes(attitudes);
+						let group = codeLabels[groupKey];
+						html += "<div class='type-pair-groups-outer'>";
+							html += "<div class='type-dichot-title title clickable'>" + dichots.name + "</div>";
+							html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + group.parentTetra.key + "'>" + group.parentTetra.nameHTML() + "</div>";
+							html += "<div class='type-pair-groups'>";
+								drawDichotTable(dichot[0]);
+								drawDichotTable(dichot[1]);
+							html += "</div>";
+							html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
+							html += "<div class='dichotomy-small-groups'>";
+								for (const [key, value] of Object.entries(aspectTetras)) {
+									if(value[0].attrs.some((x) => x == dichot[0].name || x == dichot[1].name)) {
+										let newvalue = [null, null, null, null];
+										
+										// reorder
+										for(let i = 0; i < value.length; i++) {
+											if(value[i].attrs.some((x) => x == dichot[0].name)) {
+												if(newvalue[0] == null) {
+													newvalue[0] = value[i];
+												} else {
+													console.assert(newvalue[1] == null);
+													newvalue[1] = value[i];
+												}
+											} else {
+												console.assert(value[i].attrs.some((x) => x == dichot[1].name));
+												if(newvalue[2] == null) {
+													newvalue[2] = value[i];
+												} else {
+													console.assert(newvalue[3] == null);
+													newvalue[3] = value[i];
+												}
+											}
+										}
+										
+										console.assert(!newvalue.some((x) => x == null));
+										drawAspectTetra(key, newvalue);
+									}
+								}
+							html += "</div>";
+						html += "</div>";
+					}
+					
+					html += "<h2>" + name + " Aspect Tetrachotomies</h2>";					
+					for (const [key, value] of Object.entries(aspectTetras)) {
+						drawAspectTetra(key, value);
+					}
+					
+					let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
+					let dichotLabel = codeLabels[dichotKey];
+					html += "<h2>" + name + " Aspect Dichotomies</h2>";
+					html += "<div class='type-dichot-title title clickable onClickPopup' data-popupkey='" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.nameHTML() + "</div>";
+					html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + dichotKey + "'>" + dichotLabel.nameHTML() + "</div>";
+					html += "<div class='type-pair-groups-container'>";
+						for(let i = 0; i < aspectDichots.length; i++) {
+							drawAspectDichot(aspectDichots[i]);
+						}
+					html += "</div>";
 					
 				html += "</div>";
 			}
@@ -8934,16 +8957,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			for(let i = 0; i < fullCodes.length; i++) {
 				let key = groupCode(fullCodes[i]);
 				let label = codeLabels[key];
-				html += "<li class='clickable onClickAttitude key-" + key + "'>" + getLabelName(label) + "</li>";
+				html += "<li class='clickable onClickAttitude' data-popupkey='" + key + "'>" + label.nameHTML() + "</li>";
 			}
 			html += "</ul>";
 				
 			function writePair(pairCodes) {
 				let expandedCodes = expandCodesArr(pairCodes);
 				let pairLabel = getCodeLabelArr(pairCodes);
-				let pairLabelName = getLabelName(pairLabel);
+				let pairLabelName = pairLabel.nameHTML();
 				
-				html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " key-" + pairLabel.key + " onClickPopup'>";
+				html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " onClickPopup' data-popupkey='" + pairLabel.key + "'>";
 					
 					if(detailedTables) {
 						html += "<b>" + pairLabelName + "</b><br />";
@@ -8965,7 +8988,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 				
 				if(label != "??") {
-					html += "<div class='small-pair-group-title subtitle2 clickable onClickPopup key-" + key + "'>" + label + "</div>";
+					html += "<div class='small-pair-group-title subtitle2 clickable onClickPopup' data-popupkey='" + key + "'>" + label + "</div>";
 				}
 				html += "<div class='small-pair-group'>";
 					writePair(pair1);
@@ -8978,9 +9001,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					let smallGroupCodes = expandCodesArr(group.codes.map((x => x[0])));
 					let smallGroupKey = groupCodes(smallGroupCodes);
 					let smallGroupLabel = codeLabels[smallGroupKey];
-					let smallGroupName = getLabelName(smallGroupLabel);
+					let smallGroupName = smallGroupLabel.nameHTML();
 					
-					html += "<div class='small-group-title title clickable onClickPopup " + smallGroupCodes.join(" ") + " key-" + smallGroupKey + "'>";
+					html += "<div class='small-group-title title clickable onClickPopup " + smallGroupCodes.join(" ") + "' data-popupkey='" + smallGroupKey + "'>";
 						
 						if(detailedTables) {
 							html += "<b>" + smallGroupName + "</b><br />";
@@ -8989,7 +9012,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						}
 						
 						if(detailedTables) {
-							html += group.sources.map((x) => getLabelName(codeLabels[x.key])).join(" + ") + "<br />";
+							html += group.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ") + "<br />";
 							html += group.codes.map((x) => x[1] + " + " + x[2] + " = " + x[0]).join("<br />") + "<br />";
 							
 							html += group.codes.map((x) => originalToFunctionCode(x[0])).join(" ") + "<br />";
@@ -9013,14 +9036,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				let dichotLabel = codeLabels[dkey];
 				let dichotLeftLabel = codeLabels[d.left.key];
 				let dichotRightLabel = codeLabels[d.right.key];
-				let dichotLeftName = getLabelName(dichotLeftLabel);
-				let dichotRightName = getLabelName(dichotRightLabel);
-				let dichotName = getLabelName(dichotLabel);
+				let dichotLeftName = dichotLeftLabel.nameHTML();
+				let dichotRightName = dichotRightLabel.nameHTML();
+				let dichotName = dichotLabel.nameHTML();
 	
 				html += "<div class='dichotomy-table'>";
-					html += "<div class='dichotomy-title subtitle clickable onClickDichotTitle' id='" + dkey + "'>" + dichotName + "</div>";
+					html += "<div class='dichotomy-title subtitle clickable onClickPopup' data-popupkey='" + dkey + "'>" + dichotName + "</div>";
 					html += "<div class='dichotomy-split'>";
-						html += "<div class='dichotomy title clickable " + d.left.attitudes.join(" ") + " onClickPopup key-" + d.left.key + "'>";
+						html += "<div class='dichotomy title clickable " + d.left.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.left.key + "'>";
 							html += dichotLeftName + "<br />";
 							if(detailedTables) {
 								html += dichotLeftLabel.codes.join(" ") + "<br />";
@@ -9030,7 +9053,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
 							}
 						html += "</div>";
-						html += "<div class='dichotomy title clickable " + d.right.attitudes.join(" ") + " onClickPopup key-" + d.right.key + "'>";
+						html += "<div class='dichotomy title clickable " + d.right.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.right.key + "'>";
 							html += dichotRightName + "<br />";
 							if(detailedTables) {
 								html += dichotRightLabel.codes.join(" ") + "<br />";
@@ -9048,10 +9071,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						if(t.sources.some((x) => x == d)) {
 							let tetraLabel = codeLabels[tkey];
 							
-							html += "<div class='tetra-title subtitle clickable onClickPopup key-" + tkey + "'>";
-								html += getLabelName(tetraLabel);
+							html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
+								html += tetraLabel.nameHTML();
 								if(detailedTables) {
-									html += "<br />" + t.sources.map((x) => getLabelName(codeLabels[x.key])).join(" + ");
+									html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
 								}
 							html += "</div>";
 							
@@ -9110,10 +9133,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			for (const [tkey, t] of Object.entries(tetras)) {
 				let tetraLabel = codeLabels[tkey];
-				html += "<div class='tetra-title subtitle clickable onClickPopup key-" + tkey + "'>";
-					html += getLabelName(tetraLabel);
+				html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
+					html += tetraLabel.nameHTML();
 					if(detailedTables) {
-						html += "<br />" + t.sources.map((x) => getLabelName(codeLabels[x.key])).join(" + ");
+						html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
 					}
 				html += "</div>";
 				
@@ -9133,8 +9156,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			for (const [pkey, p] of Object.entries(octas)) {
 				let pairLabel = codeLabels[pkey];
-				html += "<div class='octa-title title clickable onClickPopup key-" + pkey + "'>";
-					html += getLabelName(pairLabel);
+				html += "<div class='octa-title title clickable onClickPopup' data-popupkey='" + pkey + "'>";
+					html += pairLabel.nameHTML();
 				html += "</div>";
 				
 				html += "<div class='small-group-cell'>";
@@ -9183,14 +9206,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				onClickModelAspect(a.target);
 			});
 			
-			addEvent("onClickTypeAttitude", function(a) {
-				onClickTypeAttitude(a.target);
-			});
-			
-			addEvent("onClickDichotTitle", function(a) {
-				onClickDichotTitle(a.target);
-			});
-			
 			addEvent("onClickPopup", function(a) {
 				onClickPopup(a.target);
 			});
@@ -9211,6 +9226,14 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				onClickTypePairGroupTitle(a.target);
 			});
 			
+			addEvent("onClickSwapTheme", function(a) {
+				swapTheme();
+			});
+			
+			addEvent("onClickSwapLabels", function(a) {
+				swapLabels();
+			});
+
 			for(let i = 0; i < fullCodes.length; i++) {
 				let code = groupCodes([fullCodes[i]]);
 				codeLabels[code].elements = Array.from(document.getElementsByClassName(fullCodes[i]));
@@ -9228,7 +9251,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				observer.observe(el[i]);
 			}
 			
-			console.log(missingLabels);
+			collectLabels(document);
+			
+			console.log("Missing labels: ", missingLabels);
+			console.log("Missing socionics labels: ", missingSocionicsLabels);
 			
 		} catch(err) {
 			logErr(err.message + "<br />" + err.stack);
