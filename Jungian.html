@@ -143,7 +143,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				display: flex;
 				flex-flow: row wrap;
 				justify-content: center;
-				row-gap: 25px;
 				margin-bottom: 25px;
 			}
 			
@@ -153,7 +152,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				justify-content: center;
 				flex-basis: 495px;
 				flex-grow: 1;
-				row-gap: 25px;
 			}
 			
 			div.type-pair-groups-container {
@@ -172,25 +170,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			div.type-pair-group {
 				flex-basis: 245px;
 				flex-grow: 1;
-			}
-			
-			div.type-pair-container {
-				display: flex;
-				width: 100%;
-				padding: 0em;
-				justify-content: center;
-				flex-flow: row wrap;
-			}
-			
-			div.type-pair-container div {
-				flex-grow: 1;
-				flex-basis: 0;
-				padding: 1em;
-				min-width: 100px;
-			}
-			
-			div.type-pair {
-				
 			}
 			
 			div.ego {
@@ -222,13 +201,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			div.ego-title-cell {
 			    display: flex;
 				padding: 0em;
-			}
-			
-			div.ego-polarity {
-				padding: 1em;
-				background-color: var(--fg-color);
-				flex-basis: 15%;
-				border-style: solid;
 			}
 			
 			div.ego-title {
@@ -591,27 +563,27 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		}
 		
 		function swapTheme() {
-			let hasDarkTheme = !document.documentElement.classList.toggle("light-theme");
-			if(hasDarkTheme) {
-				localStorage.setItem("hasDarkTheme", hasDarkTheme);
+			let hasLightTheme = document.documentElement.classList.toggle("light-theme");
+			if(hasLightTheme) {
+				localStorage.setItem("hasLightTheme", hasLightTheme);
 			} else {
-				localStorage.removeItem("hasDarkTheme");
+				localStorage.removeItem("hasLightTheme");
 			}
 		}
 		
-		const hasDarkTheme = localStorage.getItem("hasDarkTheme");
+		const hasLightTheme = localStorage.getItem("hasLightTheme");
 		const colorSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
 		
-		console.log(hasDarkTheme, typeof hasDarkTheme, colorSchemeQuery);
+		console.log(hasLightTheme, typeof hasLightTheme, colorSchemeQuery);
 		
-		if(hasDarkTheme || colorSchemeQuery.matches) {
+		if(hasLightTheme === null && colorSchemeQuery.matches) {
 			console.log("Has dark theme, setting to dark...");
 			document.documentElement.classList.remove("light-theme");
-			localStorage.setItem("hasDarkTheme", true);
+			localStorage.removeItem("hasLightTheme");
 		} else {
 			console.log("No dark theme, setting to light...");
 			document.documentElement.classList.add("light-theme");
-			localStorage.removeItem("hasDarkTheme");
+			localStorage.setItem("hasLightTheme", true);
 		}
 		
 		const baseFunc = "JxPx";
@@ -657,33 +629,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			"R": "i",
 			"A": "e"
 		};
-		
-		const models = [
-			{
-				label: "Ego",
-				desc: [
-					"Attitudes that reflect natural strengths. Bold & strong.",
-				]
-			},
-			{
-				label: "Parental",
-				desc: [
-					"Attitudes that are strong but felt to be neglected or not done enough. Cautious & strong.",
-				]
-			},
-			{
-				label: "Childish",
-				desc: [
-					"Attitudes that are weak but felt to be missguided or done too much. Bold & weak.",
-				]
-			},
-			{
-				label: "Shadow",
-				desc: [
-					"Attitudes that are weak and therefore consciously pushed aside. Cautious & weak.",
-				]
-			}
-		];	
 		
 		const polarities = [
 			{
@@ -769,85 +714,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 		];
 	
-		const egos = [
-			[
-				"OCFA", "SCFR",
-				"Playful Intellectual", [
-					"Intellectualising aspects of life to promote a mutual curiosity & refusal of competition."
-				], 
-				"Torpid Scavenger", [
-					"Adopting a minimally-appropriate engagement with others to better track their inevitable misfortune."
-				]
-			],
-			[
-				"SNFA", "ONFR",
-				"Foolish Speculator", [
-					"Optimistically exploring new ventures with others to lower the stakes and promote greater mutual benefit."
-				],
-				"Ruthless Materialist", [
-					"Escalating competition over new or speculative ventures to increase their personal yield."
-				]
-			],
-			[
-				"OCPR", "SCPA",
-				"Relaxed Caterer", [
-					"Observing a mutually-legislated understanding over what is important."
-				],
-				"Judicious Pack Rat", [
-					"Retaining what is valuable by resisting & undoing would-be competitors."
-				]
-			],
-			[
-				"SNPR", "ONPA",
-				"Loveable Host", [
-					"Finding safety within crowds by promoting an extravagant atmosphere and being the centre of attention."
-				],
-				"Brash Machiavellian", [
-					"Directly profiting from shared ventures, so as to better wield that wealth for oneself."
-				]
-			],
-			[
-				"ONFA", "SNFR",
-				"Imaginative Patron", [
-					"Imaginative patronage of what is discarded or seemingly out-of-place, maximising their potential use to others."
-				],
-				"Purging Ringmaster", [
-					"Adopting & purging a crowd's weaker qualities, thereby maintaining a stronger position within it."
-				]
-			],
-			[
-				"SCFA", "OCFR",
-				"Blessed Seelie", [
-					"Promoting a more positive, friendly and altruistic ecosystem to benefit from."
-				],
-				"Attractive Parasite", [
-					"Offering pleasing illusions to more powerful hosts, to sap & feed off their strength."
-				]
-			],
-			[
-				"ONPR", "SNPA",
-				"Prudent Settler", [
-					"Finding a satisfying, practical use in themselves & others to make an ecosystem more self-sustaining."
-				],
-				"Apex Predator", [
-					"Occupying the top of the food chain, putting both the strong & the weak under their command."
-				]
-			],
-			[
-				"SCPR", "OCPA",
-				"Stabilising Outlier", [
-					"Peacefully cultivating neglected niches, so as to minimise undue will against them."
-				],
-				"Unyielding Vigilante", [
-					"Enforcing, disobeying or otherwise influencing the natural order of things, forcefully affirming some over others."
-				]
-			],
-		];
-		
 		const types = [
 			[
 				"Sophist", 
-				0, 0, 1, 2, 3, 5, 7, 6, 4, 
+				"OCFA",
 				"A playful intellectual that enjoys both quiet solitude and good company. Defensive & retentive when it comes to objects of value, but often morally or intellectually challenged by brash self-interest.",
 				[
 					"Richard Dawkins",
@@ -855,12 +725,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Terry Pratchett",
 					"Charlie Kaufman",
 					"John Hodgman",
-					"David Mitchell"
+					"David Mitchell",
 				]
 			],
 			[
 				"Traiteur", 
-				0, 2, 3, 0, 1, 0, 0, 0, 0, 
+				"OCPR",
 				"An orthodox & welcoming host, locating and reiterating a collective satisfaction. Knows how to maintain an observant distance from others, but works to dissuade competitive escalation between people.",
 				[
 					"Larry David",
@@ -874,15 +744,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Stephen Colbert",
 					"David Letterman",
 					"Ryan Reynolds",
-					"Douglas Adams"
+					"Ian McKellen",
+					"Douglas Adams",
 				]
 			],
 			[
 				"Bonvivant", 
-				0, 3, 2, 1, 0, 0, 0, 0, 0, 
+				"SNPR",
 				"A playful and exuberant personality, enjoying the best life has to offer. Easily gets swept up with the crowd into exciting ventures, but finds it difficult to seperate and go at it alone.",
 				[
-					"Ian McKellen",
 					"Graham Norton",
 					"Tom Hanks",
 					"Stephen Fry",
@@ -894,7 +764,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Fool", 
-				0, 1, 0, 3, 2, 4, 6, 5, 7, 
+				"SNFA",
 				"A foolish & naive trickster who ropes others into speculative, untethered schemes. Likes to peacock their intelligence & success in front of others, but can be careless & unobservant with what people value.",
 				[
 					"Ricky Gervais",
@@ -904,11 +774,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Robert Downey Jr.",
 					"Craig Furguson",
 					"Conan O'Brien",
+					"Bill Maher",
+					"Robin Williams",
+					"Vic Reeves",
+					"Bob Mortimer",
 				],
 			],
 			[
 				"Brigand", 
-				1, 7, 6, 5, 4, 0, 0, 0, 0, 
+				"OCPA",
 				"A principled freebooter, enforcing and disobeying the laws of the land with equal force. Knows how to play their luck with the kindness and stupidity of others, but ultimately fights for their own way of life.",
 				[
 					"Henry Rollins",
@@ -920,11 +794,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					"Leonardo Di Caprio",
 					"Russell Crowe",
 					"Mike Tyson",
+					"Ridley Scott"
 				]
 			],
 			[
 				"Vampire", 
-				1, 5, 4, 7, 6, 0, 0, 0, 0, 
+				"OCFR",				
 				"An attractive parasite, feeding off the strong and radicalising the weak. Comfortably recognises and idolizes the way things are done, but often with an eye toward supplanting or exhausting it.",
 				[
 					"Denis Villeneuve",
@@ -945,7 +820,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Exorcist", 
-				1, 4, 5, 6, 7, 0, 0, 0, 0, 
+				"SNFR",
 				"A cathartic ringmaster, capturing and purging a crowd of its weaker qualities. Has an instinct for whipping others into better shape, but passionately makes an example of those who don't take to their patronage.",
 				[
 					"Jordan Peterson",
@@ -956,7 +831,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Suzerain", 
-				1, 6, 7, 4, 5, 0, 0, 0, 0, 
+				"SNPA",
 				"An unassailable overlord, magnanimously possessing the weak by mercilessly defeating the strong. Adoptive of those he perceives to be weaker or in dire need, but rules them with an iron fist.",
 				[
 					"Denzel Washington",
@@ -973,7 +848,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Hoarder", 
-				1, 2, 3, 0, 1, 0, 0, 0, 0, 
+				"SCPA",
 				"A moral & judicious pack-rat, protecting their hoard from would-be predators. Mutual & imaginative cooperation with others comes easily, but doesn't risk what is important to speculative or foolish ventures.",
 				[
 					
@@ -981,15 +856,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Vulture", 
-				1, 0, 1, 2, 3, 5, 7, 6, 4, 
-				"A torpid scavenger, tracking and profiting from the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic, wounded & distant character.",
+				"SCFR",
+				"A torpid scavenger, tracking and profiting from the \"inevitable\" bad luck of others. Easily adapts to new environs or ways of thinking, but remains a coldly pragmatic & distant character.",
 				[
 					
 				],
 			],
 			[
 				"Capitalist", 
-				1, 1, 0, 3, 2, 0, 0, 0, 0, 
+				"ONFR",
 				"A productive & ruthless materialist, escalating competition to improve their personal lot. Knows how to put together a team and keep them in high spirits, but can feel no remorse in letting them go if they don't perform.",
 				[
 					
@@ -997,16 +872,15 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Prodigal", 
-				1, 3, 2, 1, 0, 0, 0, 0, 0, 
+				"ONPA",
 				"A pragmatic & shameless machievellian, peacocking their influence & wealth over others. A seemingly foolish & playful creature who treats every interaction as a competition, and they always need to win.",
 				[
-					"Steven Spielberg",
-					"Danny Boyle"
+					"Steven Spielberg"
 				],
 			],
 			[
 				"Seelie", 
-				0, 5, 4, 7, 6, 0, 0, 0, 0, 
+				"SCFA",
 				"A trusting & blessed fairy, discovering good fortune through altruism and faithful eusociality. Knows how to rationalize and defend their way of life, but resists wielding a truly dominative influence over things.",
 				[
 					
@@ -1014,16 +888,17 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Custodian",
-				0, 7, 6, 5, 4, 0, 0, 0, 0, 
+				"SCPR",
 				"A comfortable & stabilising outlier, affirming and enhancing the inherent qualities of things. While comfortable attending to the strengths of others, they rarely stand out or makes a name for themselves for fear of attracting ill will.",
 				[
 					"Barack Obama",
-					"Al Gore"
+					"Al Gore",
+					"James Comey"
 				],
 			],
 			[
 				"Habitant", 
-				0, 6, 7, 4, 5, 0, 0, 0, 0, 
+				"ONPR",
 				"A productive & conscientious settler, productively transforming their habitat into better self-sustenance. Knows how to make an example of those that don't serve a practical use, but doesn't have a true instinct for inspiring radical change.",
 				[
 					"Bill Gates",
@@ -1032,7 +907,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			],
 			[
 				"Upcycler", 
-				0, 4, 5, 6, 7, 0, 0, 0, 0, 
+				"ONFA",
 				"Am imaginative & pragmatic patron, finding new uses for what is seemingly useless or out-of-place. Can bring a strong & magnanimous presence to others, but is uncomfortable bumping heads with the law of the land.",
 				[
 					
@@ -1132,9 +1007,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				case "ONPR": return "TeSi";
 				case "ONFA": return "NeFi";
 				case "ONFR": return "TeNi";
-				case "SCPA": return "FiNe";
+				case "SCPA": return "FiSe";
 				case "SCPR": return "SiTe";
-				case "SCFA": return "TiNe";
+				case "SCFA": return "FiNe";
 				case "SCFR": return "NiTe";
 				case "SNPA": return "SeTi";
 				case "SNPR": return "FeSi";
@@ -1154,9 +1029,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				case "ONPR": return "+Te";//"TeSi";
 				case "ONFA": return "-Ne";//"NeFi";
 				case "ONFR": return "-Te";//"TeNi";
-				case "SCPA": return "-Fi";//"FiNe";
+				case "SCPA": return "-Fi";//"FiSe";
 				case "SCPR": return "-Si";//"SiTe";
-				case "SCFA": return "+Fi";//"TiNe";
+				case "SCFA": return "+Fi";//"FiNe";
 				case "SCFR": return "+Ni";//"NiTe";
 				case "SNPA": return "-Se";//"SeTi";
 				case "SNPR": return "-Fe";//"FeSi";
@@ -1310,6 +1185,72 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 			}
 		}
+
+		function constructiveCode(a) {
+			let newCode = [];
+			if(a[0] == "O") newCode.push("S"); else newCode.push("O");
+			if(a[1] == "C") newCode.push("N"); else newCode.push("C");
+			newCode.push(a.substring(2));
+			
+			return newCode.join("");
+		}
+
+		function obligativeCode(a) {
+			let newCode = [];
+			if(a[0] == "O") newCode.push("S"); else newCode.push("O");
+			newCode.push(a[1]);
+			if(a[2] == "F") newCode.push("P"); else newCode.push("F");
+			newCode.push(a[3]);
+			
+			return newCode.join("");
+		}
+		
+		function unnaturalCode(a) {
+			let newCode = [a[0]];
+			if(a[1] == "C") newCode.push("N"); else newCode.push("C");
+			if(a[2] == "F") newCode.push("P"); else newCode.push("F");
+			newCode.push(a[3]);
+			
+			return newCode.join("");
+		}
+		
+		function abusedCode(a) {
+			let newCode = [];
+			if(a[0] == "O") newCode.push("S"); else newCode.push("O");
+			newCode.push(a[1]);
+			newCode.push(a[2]);
+			if(a[3] == "R") newCode.push("A"); else newCode.push("R");
+			
+			return newCode.join("");
+		}
+		
+		function repressedCode(a) {
+			let newCode = [a[0]];
+			if(a[1] == "C") newCode.push("N"); else newCode.push("C");
+			newCode.push(a[2]);
+			if(a[3] == "R") newCode.push("A"); else newCode.push("R");
+			
+			return newCode.join("");
+		}
+		
+		function indulgantCode(a) {
+			let newCode = [a[0], a[1]];
+			if(a[2] == "F") newCode.push("P"); else newCode.push("F");
+			if(a[3] == "R") newCode.push("A"); else newCode.push("R");
+			
+			return newCode.join("");
+		}
+		
+		function unconsciousCode(a) {
+			let newCode = [];
+			
+			if(a[0] == "O") newCode.push("S"); else newCode.push("O");
+			if(a[1] == "C") newCode.push("N"); else newCode.push("C");
+			if(a[2] == "F") newCode.push("P"); else newCode.push("F");
+			if(a[3] == "R") newCode.push("A"); else newCode.push("R");
+			
+			return newCode.join("");
+		}
 		
 		const CodeLabelPrototype = {
 			label: "",
@@ -1342,6 +1283,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			label.funcs = codeArr.map((x) => originalToFunctionCode(x));
 			label.signed = codeArr.map((x) => originalToSignedFunction(x));
 			label.block = codeArr.map((x) => originalToSocionicsBlock(x));
+			if(label.block == "") {
+				delete label.block;
+			}
 			label.codes = codeArr;
 			label.expandedCodes = expandedCodes;
 			label.key = key;
@@ -1471,11 +1415,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			console.log("Couldn't find label for key \"" + key + "\", built from", codes);
 		}
 		
-		function searchCodeLabelsMax(max, ...codes) {
+		function searchCodeLabelsMinMax(min, max, ...codes) {
 			let result = [];
 			for (const [k, v] of Object.entries(codeLabels)) {
 				if("expandedCodes" in v) {
-					if(v.expandedCodes.length > max) {
+					if(v.expandedCodes.length > max || v.expandedCodes.length < min) {
 						continue;
 					}
 					
@@ -1497,7 +1441,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		}
 		
 		function searchCodeLabels(...codes) {
-			return searchCodeLabelsMax(8, codes);
+			return searchCodeLabelsMinMax(0, 8, codes);
 		}
 		
 		const enhancingKeyArr = ["xxFA","xxPR"];
@@ -1590,7 +1534,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("OCPA", {
 				label: "Dividing", 
 				desc: [
-					"Rationalizing & enforcing an order to things that implicitly defines what is strong or weak.",
+					"Rationalizing & enforcing an order to things, implicitly defining what is strong or weak.",
 					{
 						"Viktor Gulenko - +L": [
 							"Organizational logic, based on a developed sense of duty, citizenship, and loyalty to the chosen cause. Therefore, this is the most disciplined and organized quadra, able to quickly gather all their strength into a fist in the event of imminent danger or an extreme situation."
@@ -1626,7 +1570,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SNFR", {
 				label: "Cathartic",
 				desc: [
-					"Promoting a powerfully purgative atmosphere by anticipating & yielding to emotional pressure over time.",
+					"Promoting a powerfully purgative atmosphere by anticipating & yielding to powerful emotional forces.",
 					{
 						"Viktor Gulenko - +E": [
 							"They are able to enjoy little things. Against the backdrop of intense dramatic emotions that always accompany their quadra, even a small detail that deserves a positive response is seen as a reason for joy and uplifting."
@@ -1770,7 +1714,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("ONPR", {
 				label: "Stabilising",
 				desc: [
-					"Promoting pragmatic equilibrium; putting things to a satisfying use.",
+					"Promoting pragmatic equilibrium; putting things to a satisfying & respectful use.",
 					{
 						"Viktor Gulenko - +P": [
 							"The logic of consumption and rational use of resources. This is the most zealous quadra, able to consume rationally, preferring high-quality and durable goods. Sociotypes of this quadra are not characterized by risk, emergency situations, economic chaos, or fraud. A society of high-quality consumption can only be stable."
@@ -1788,7 +1732,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("ONFA", {
 				label: "Upcycling",
 				desc: [
-					"Imaginatively adopting what is seemingly useless or out-of-place.",
+					"Imaginative patronage of what is seemingly useless or out-of-place.",
 					{
 						"Viktor Gulenko - -I": [
 							"Alternative, unusual, sensational. Despite all their groundedness, the sociotypes of this quadra respect unusual, talented people who offer an alternative. In any case, there are no obstacles to the dissemination of new information, no matter how avant-garde it may be. Therefore, in a society at the stage of the fourth quadra, some sensations periodically erupt, outbursts of interest in original people and what they preach occur, and alternative ideas for development are put forward."
@@ -2068,6 +2012,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["OCxx", "SNxx"], ["ONxx", "SCxx"], {
 				label: "Understanding",
+				socionics: "Merry & Serious",
 				desc: [
 					{
 						Danidin: [
@@ -2116,6 +2061,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["OxPx","SxFx"], ["OxFx","SxPx"], {
 				label: "Process",
+				socionics: "Process & Result",
 				desc: [
 					{
 						"Viktor Gulenko": [
@@ -2182,6 +2128,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["OxxR","SxxA"], ["OxxA","SxxR"], {
 				label: "Attention",
+				socionics: "Yielding & Obstinate",
 				desc: [
 					{
 						Danidin: [
@@ -2219,6 +2166,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xNPx","xCFx"], ["xCPx","xNFx"], {
 				label: "Approach",
+				socionics: "Farsighted & Carefree",
 				desc: [
 					{
 						Danidin: [
@@ -2298,6 +2246,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(enhancingKeyArr, collapsingKeyArr, {
 				label: "Direction",
+				socionics: "Judicious & Decisive",
 				desc: [
 					{
 						Danidin: [
@@ -2333,6 +2282,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xNxA","xCxR"], ["xCxA","xNxR"], {
 				label: "State",
+				socionics: "Irrational & Rational",
 				desc: [
 					{
 						Danidin: [
@@ -2374,6 +2324,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); 
 			createDichotLabel(["OCxR","ONxA","SCxA","SNxR"], ["OCxA","ONxR","SCxR","SNxA"], {
 				label: "Reasoning",
+				socionics: "Ethics & Logic",
 				desc: [
 					{
 						Danidin: [
@@ -2415,6 +2366,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); 
 			createDichotLabel(["OxFR","OxPA","SxFA","SxPR"], ["OxFA","OxPR","SxFR","SxPA"], {
 				label: "Perspective",
+				socionics: "Positivist & Negativist",
 				desc: [
 					{
 						"Viktor Gulenko": [
@@ -2469,6 +2421,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["xCFA","xCPR","xNFR","xNPA"], ["xCFR","xCPA","xNFA","xNPR"], {
 				label: "Goals",
+				socionics: "Strategic & Tactical",
 				desc: [
 					{
 						Danidin: [
@@ -2516,6 +2469,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(["SNPx","OCPx","ONFx","SCFx"], ["SNFx","SCPx","ONPx","OCFx"], {
 				label: "Communication",
+				socionics: "Declaring & Asking",
 				desc: [
 					{
 						Danidin: [
@@ -2569,6 +2523,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createDichotLabel(hierarchalKeyArr, atomisticKeyArr, {
 				label: "Values",
+				socionics: "Aristocratic & Democratic",
 				desc: [
 					{
 						Danidin: [
@@ -2585,7 +2540,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Commensal",
 				socionics: "Delta",
 				desc: [
-					"Ecosystem is implicitly reliant on one species benefiting from a host without affecting it.",
+					"Ecosystem is implicitly reliant on maintaining a respectful equilibrium with one's environment.",
 					"Good-faith relations enhance practical possibilities, leading to affirmation of inherent quality.",
 					"Grounded, high-minded & driven to potentiate the best in how things are.",
 					"Typically has problems with being too accepting or understanding.",
@@ -2892,7 +2847,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Parasitical",
 				socionics: "Beta",
 				desc: [
-					"Ecosystem is implicitly reliant on the strong possessing the weak and the weak feeding off the strong.",
+					"Ecosystem is implicitly reliant on the strong thriving at the expense of the weak.",
 					"Divided structure collapses into dramatic upheaval, leading to a radical, unyielding understanding.",
 					"Rowdy company prone to ideological conflict; \"everyone wants to rule the world\".",
 					"Typically has problems with being too passionate or tyrannical.",
@@ -4294,6 +4249,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// cognition
 			createCodeLabelArr(["SxFR","OxPR"], {
 				label: "Dialectical",
+				socionics: "Dialectical-Algorithmic",
 				desc: [
 					"Fixates on dynamic interplay between opposites, synthesizing their contradictions.",
 					"Shaped by contextual assumptions, fixates on their limitations.",
@@ -4329,6 +4285,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SxPR","OxFR"], {
 				label: "Darwinistic",
+				socionics: "Vortical-Synergetic",
 				desc: [			
 					"Most fluid in thought.",
 					"Thinking is tied inexorably to activity.",
@@ -4369,6 +4326,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SxPA","OxFA"], {
 				label: "Panoramic",
+				socionics: "Holographical-Panoramic",
 				desc: [
 					"Rapid aggregation of perspectives & interpretations of the same object.",
 					"Most abstract and penetrative, akin to x-ray vision or a hologram.",
@@ -4405,6 +4363,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SxFA","OxPA"], {
 				label: "Deterministic",
+				socionics: "Causal-Deterministic",
 				desc: [
 					"Most stable, deliberate and consistent.",
 					"Least susceptible to external influence.",
@@ -4437,6 +4396,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SxFR","OxPR"], ["SxPR","OxFR"], ["SxPA","OxFA"], ["SxFA","OxPA"], {
 				label: "Cognition",
+				socionics: "Cognition Styles",
 				desc: [
 					{
 						"Viktor Gulenko - Cognition Styles": [
@@ -4566,6 +4526,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // SF Socialites
 			createTetraLabel(researchingKeyArr, organizingKeyArr, humanitarianKeyArr, consumingKeyArr, {
 				label: "Occupation",
+				socionics: "Clubs",
 				desc: [
 					{
 						Lytov: [
@@ -4581,6 +4542,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xNxA", {
 				label: "Adopting",
+				socionics: "Flexible-maneuvering",
 				desc: [
 					"Seeks to make the most of external processes.",
 					"Adopts the result.",
@@ -4626,6 +4588,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCxR", {
 				label: "Observant",
+				socionics: "Balanced-stable",
 				desc: [
 					"Seeks to be seperate from external processes.",
 					"Minimises the result.",
@@ -4667,6 +4630,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNxR", {
 				label: "Proactive",
+				socionics: "Linear-assertive",
 				desc: [
 					"Seeks to promote external processes.",
 					"Promotes further results.",
@@ -4718,6 +4682,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCxA", {
 				label: "Symptomatic",
+				socionics: "Receptive-adaptive",
 				desc: [
 					"Seeks to represent external processes.",
 					"Emphasises the result.",
@@ -4779,6 +4744,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("xNPx", {
 				label: "Prestigious",
+				socionics: "Objective Materialists",
 				desc: [
 					"Prioritising a strong social position.",
 					"Prone to elitism & high self-regard.",
@@ -4804,6 +4770,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCFx", {
 				label: "Disregarding",
+				socionics: "Subjective Idealists",
 				desc: [
 					"Prioritising internal experience.",
 					"Prone to self-analysis & low moods.",
@@ -4830,6 +4797,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xCPx", {
 				label: "Restrained",
+				socionics: "Subjective Materialists",
 				desc: [
 					"Set in their ways.",
 					"Uninterested in unusual or creative situations.",
@@ -4856,6 +4824,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("xNFx", {
 				label: "Unusual",
+				socionics: "Objective Idealists",
 				desc: [
 					"Love of unusual or creative problems.", 
 					"Cultivate unique personalities & interests.",
@@ -4880,6 +4849,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["xCPx"], ["xCFx"], ["xNFx"], ["xNPx"], {
 				label: "Incentive",
+				socionics: "Stimulus Seeking",
 				desc: [
 					{
 						"Viktor Gulenko - Stimulus Seeking": [
@@ -4894,6 +4864,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabelArr(["SNxA","OCxA"], {
 				label: "Systemic",
+				socionics: "Systematics",
 				desc: [
 					"Viewing people as integral parts of wider social or behavioural systems, whether they like it or not.",
 					"Identifying & critiquing internal coherence & classification of \"truth\".",
@@ -4951,6 +4922,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCxR","ONxR"], {
 				label: "Algorithmic",
+				socionics: "Technologists",
 				desc: [
 					"Promoting more efficient thought & behaviour that overcomes socialised limitations.",
 					"Identifying & critiquing the reliability of sources, information or processes.",
@@ -5009,6 +4981,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCxR","SNxR"], {
 				label: "Synchronizing",
+				socionics: "Mummers",
 				desc: [
 					"Encouraging people to be more involved with each other, by deemphasising its practical cost.",
 					"Identifying & influencing emotional moods, getting people to \"open up\" to others.",
@@ -5065,6 +5038,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCxA","ONxA"], {
 				label: "Moralising",
+				socionics: "Psychologists",
 				desc: [
 					"Encouraging others to break with systemic rules.",
 					"Identifying & influencing normative relations between people.",
@@ -5119,6 +5093,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SNxA","OCxA"], ["SCxR","ONxR"], ["OCxR","SNxR"], ["SCxA","ONxA"], {
 				label: "Action",
+				socionics: "Practical Knowledge",
 				desc: [
 					{
 						"Mironov - Practical Knowledge": [],
@@ -5130,6 +5105,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// results
 			createCodeLabelArr(["OCPx","SCFx"], {
 				label: "Focusing",
+				socionics: "Information Accumulators",
 				desc: [
 					"Knowing the plan and keeping it on track.",
 					"Suffer from a lack of energy, need energising by others.",
@@ -5147,6 +5123,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			]}); // chart-the-course (keep it going) (Focusing)
 			createCodeLabelArr(["ONFx","SNPx"], {
 				label: "Involving",
+				socionics: "Energy Carriers",
 				desc: [
 					"Involving others and lighting a fire under things.",
 					"Saturated with energy, typically don't gather new information.",
@@ -5165,6 +5142,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // get-things-going (light a fire) (Involving)
 			createCodeLabelArr(["OCFx","SCPx"], {
 				label: "Clarifying",
+				socionics: "Information Generators",
 				desc: [
 					"Understanding what the best result will be.",
 					"Translating energy into information.",
@@ -5184,6 +5162,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // behind-the-scenes (best result) (Clarifying)
 			createCodeLabelArr(["ONPx","SNFx"], {
 				label: "Commanding",
+				socionics: "Energy Generators",
 				desc: [
 					"Achieving results through other people.",
 					"Introduce large amounts of energy into situations.",
@@ -5202,6 +5181,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // in-charge (get a result) (Succeeding)
 			createTetraLabel(["OCPx","SCFx"], ["ONFx","SNPx"], ["OCFx","SCPx"], ["ONPx","SNFx"], {
 				label: "Results",
+				socionics: "Rings of Benefit",
 				desc: [
 					{
 						"Viktor Gulenko - Rings of Benefit": [
@@ -5217,6 +5197,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// means
 			createCodeLabelArr(["OCFA","OCPA","SCFR","SCPR"], {
 				label: "Sowing",
+				socionics: "Cold-blooded",
 				desc: [
 					"Supportive tissue, sowing the land.",
 					"A passive anticipation of feelings.",
@@ -5240,6 +5221,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // 
 			createCodeLabelArr(["OCFR","OCPR","SCFA","SCPA"], {
 				label: "Neglected",
+				socionics: "Sincere",
 				desc: [
 					"Attitude of having been neglected by society.",
 					"A passive search for feelings.",
@@ -5260,6 +5242,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // attitude of having been neglected (Sincere)
 			createCodeLabelArr(["ONFA","ONPA","SNFR","SNPR"], {
 				label: "Spoiled",
+				socionics: "Passionate",
 				desc: [
 					"Attitude of being spoiled with choice by society.",
 					"An active search for feelings.",
@@ -5282,6 +5265,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // attitude of havng been spoiled for choice (Passionate)
 			createCodeLabelArr(["ONFR","ONPR","SNFA","SNPA"], {
 				label: "Harvesting",
+				socionics: "Business-like",
 				desc: [
 					"Feeding off the land.",
 					"An active expectation of feelings.",
@@ -5303,6 +5287,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // feeding off the land, providing for others (Business-like)
 			createTetraLabel(["OCFA","OCPA","SCFR","SCPR"], ["OCFR","OCPR","SCFA","SCPA"], ["ONFA","ONPA","SNFR","SNPR"], ["ONFR","ONPR","SNFA","SNPA"], {
 				label: "Means",
+				socionics: "Communication Style",
 				desc: [
 					{
 						"Viktor Gulenko - Communication Style": [],
@@ -5315,6 +5300,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// role
 			createCodeLabelArr(["SNPx","OCPx"], {
 				label: "Mining",
+				socionics: "Miners",
 				desc: [
 					"Focused only on what is neccessary.",
 					"Can be fixated on the absolute minimum requirement for cultural or physical survival.",
@@ -5330,6 +5316,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["ONFx","SCFx"], {
 				label: "Negotiating",
+				socionics: "Contractors",
 				desc: [
 					"Finds newly shared ground with others.",
 					"Adapts abstract concepts to real-life situations.",
@@ -5344,6 +5331,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCFx","SNFx"], {
 				label: "Creative",
+				socionics: "Inventors",
 				desc: [
 					"Creating & spreading new ways of thinking.",
 					"Ideas typically reflect internal representations rather than external reality.",
@@ -5358,6 +5346,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCPx","ONPx"], {
 				label: "Industrial",
+				socionics: "Manufacturers",
 				desc: [
 					"Focused on material, grounded reality.",
 					"Industrious and attentive to detail.",
@@ -5372,6 +5361,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SCFx","ONFx"], ["SNPx","OCPx"], ["SNFx","OCFx"], ["SCPx","ONPx"], {
 				label: "Role",
+				socionics: "Economic Role",
 				desc: [
 					{
 						"Danidin & Talanov - Economic Role": [],
@@ -5382,6 +5372,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createCodeLabel("OxPx", {
 				label: "Precise",
+				socionics: "Concrete Process",
 				desc: [
 					"Absorbed in small details.",
 					"Assimilates information in small, detailed crumbs.",
@@ -5395,12 +5386,13 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SxFx", {
 				label: "Synthetic",
+				socionics: "Ideational Process",
 				desc: [
 					"Big picture thinking.",
 					"Translates specific observations into overall theory.",
 					"Most esoteric, synthesising multiple schools of thought.",
 					{
-						"Viktor Gulenko - Ideational Processes": [
+						"Viktor Gulenko - Ideational Process": [
 							"“This group carries out translation of specific observations into overall theory. Generalists and synthesists. This group is inclined towards philosophical and religious conceptions. Often they have goals of synthesizing religion and science, rationalism and mysticism. Among their favorite topics are bioenergetics and extrasensory perception. This group works on the crossroads of scientism and humanitarianism. EIE and ILI are inclined to set unreal, impossible, idealized goals. ILE and EII gravitate more towards theories that have a chance of being implemented.”"
 						],
 						"Mironov - Transfiguration (?)": []
@@ -5409,6 +5401,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("OxFx", {
 				label: "Abstract",
+				socionics: "General Results",
 				desc: [
 					"Approximation of likely results.",
 					"Most adverse to small details, assimilating information in low-resolution blocks.",
@@ -5422,6 +5415,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabel("SxPx", {
 				label: "Concrete",
+				socionics: "Concrete Results",
 				desc: [
 					"Achieves concrete results from general plans.",
 					"Doesn't like waiting or thinking on problems.",
@@ -5435,6 +5429,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["OxFx"], ["OxPx"], ["SxFx"], ["SxPx"], {
 				label: "Projection",
+				socionics: "Project Groups",
 				desc: [
 					{
 						"Viktor Gulenko - Project Groups": [
@@ -5448,6 +5443,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// interaction
 			createCodeLabelArr(["xCFA","xCPR"], {
 				label: "Peaceful",
+				socionics: "Avoiding",
 				desc: [
 					"Active avoidance of conflict. Smoothing over disagreements.",
 					{
@@ -5461,6 +5457,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xNFR","xNPA"], {
 				label: "Antagonistic",
+				socionics: "Expansive",
 				desc: [
 					"Starting & engaging in conflicts. Throwing down the gauntlet. Finding an opponent to test. Aggressive communication.",
 					{
@@ -5500,6 +5497,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["xCFA","xCPR"], ["xNFR","xNPA"], ["xNFA","xNPR"], ["xCFR","xCPA"], {
 				label: "Interaction",
+				socionics: "Societal Interaction",
 				desc: [
 					{
 						"Danidin & Talanov - Societal Interaction": [],
@@ -5512,6 +5510,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// power
 			createCodeLabelArr(["xCPA","xNFR"], {
 				label: "Occupying",
+				socionics: "Controlling",
 				desc: [
 					"Fortress mentality - defending existing power.",
 					"Taking control of situations to reduce possibilities.",
@@ -5527,6 +5526,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCPR","xNFA"], {
 				label: "Unconcerned",
+				socionics: "Random",
 				desc: [
 					"AWOL mentality - leaving power behind.",
 					"Enjoying what life has to offer without a care in the world.",
@@ -5542,6 +5542,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCFR","xNPA"], {
 				label: "Apprehensive",
+				socionics: "Unpredictable",
 				desc: [
 					"Warfare mentality - accruing & centralising power.",
 					"Survival at any cost. Exploitation, secretiveness.",
@@ -5557,6 +5558,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["xCFA","xNPR"], {
 				label: "Unburdening",
+				socionics: "Predictable",
 				desc: [
 					"Peacetime mentality - deescalating need for more power.",
 					"Relinquishing oneself and others of the need to accrue power.",
@@ -5572,6 +5574,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["xCPA","xNFR"], ["xCPR","xNFA"], ["xCFR","xNPA"], ["xCFA","xNPR"], {
 				label: "Power",
+				socionics: "Planning Styles",
 				desc: [
 					{
 						"Danidin & Talanov - Planning Styles": [],
@@ -5587,6 +5590,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// expectations
 			createCodeLabelArr(["SCFR","OCPR","SNPR","ONFR"], {
 				label: "Willful",
+				socionics: "Natural",
 				desc: [
 					"Emphasises the importance of individual will in decision-making.",
 					"Simplifies thinking to reflect individual wants or desires.",
@@ -5604,6 +5608,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (Emphasises individual will, simplifies thinking to reflect individual wants or desires)
 			createCodeLabelArr(["SNFR","ONPR","SCPR","OCFR"], {
 				label: "Sacrificial",
+				socionics: "Idealizing",
 				desc: [
 					"Emphasises sacrificing individual will to a greater cause.",
 					"Creation of cults of personality or elite groups.",
@@ -5621,6 +5626,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (Emphasises sacrificing individual will to a greater cause)
 			createCodeLabelArr(["SNFA","ONPA","SCPA","OCFA"], {
 				label: "Unconventional",
+				socionics: "Chaotic",
 				desc: [
 					"Most aware of themselves as distinct from others and society.",
 					"Emphasises individual freedom and sublimation of thoughts & desires into unusual forms.",
@@ -5638,6 +5644,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (Emphasises differences between individuals)
 			createCodeLabelArr(["SCFA","OCPA","SNPA","ONFA"], {
 				label: "Policing",
+				socionics: "Reducing",
 				desc: [
 					"Stereotypical & reductive of social roles & people.",
 					"Polices expectations of adopted social roles, in themselves & others.",
@@ -5655,6 +5662,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (Emphasises social expectations, stereotypical & reductive)
 			createTetraLabel(["SCFR","OCPR","SNPR","ONFR"], ["SNFR","ONPR","SCPR","OCFR"], ["SNFA","ONPA","SCPA","OCFA"], ["SCFA","OCPA","SNPA","ONFA"], {
 				label: "Expectations",
+				socionics: "Role Behaviour",
 				desc: [
 					{
 						"Danidin & Talanov - Quest Diminutive Function Groups": [],
@@ -5667,6 +5675,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// luck
 			createCodeLabelArr(["SNFR","ONPR","SCPA","OCFA"], {
 				label: "Defensive",
+				socionics: "Avoiding Failures",
 				desc: [
 					"Overestimates bad luck.",
 					"Prepares for the worst outcomes.",
@@ -5684,6 +5693,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Complex Evil World (Overestimates Failure) (Expect the worst) (Protect)
 			createCodeLabelArr(["SCFA","OCPA","SNPR","ONFR"], {
 				label: "Straightforward",
+				socionics: "Realistic Plans",
 				desc: [
 					"Underestimates bad luck.",
 					"If you do what you need to, then there's no need to worry or try too hard.",
@@ -5702,6 +5712,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Simple Good World (Underestimates Failure) (Just do it) (Straightforward) (Gather)
 			createCodeLabelArr(["SNFA","ONPA","SCPR","OCFR"], {
 				label: "Leisurely",
+				socionics: "Iridescent Hopes",
 				desc: [
 					"Overestimates good luck.",
 					"The world is your oyster.",
@@ -5720,6 +5731,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Complex Good World (Overestimates Success) (Go find it) (Search)
 			createCodeLabelArr(["SCFR","OCPR","SNPA","ONFA"], {
 				label: "Grasping",
+				socionics: "Waiting",
 				desc: [
 					"Underestimates good luck.",
 					"Do not expect much from the world.",
@@ -5738,6 +5750,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // Simple Evil World (Underestimates Success) (No one gives it to you) (Seizure)
 			createTetraLabel(["SNFR","ONPR","SCPA","OCFA"], ["SCFA","OCPA","SNPR","ONFR"], ["SNFA","ONPA","SCPR","OCFR"], ["SCFR","OCPR","SNPA","ONFA"], {
 				label: "Luck",
+				socionics: "Club Displacement",
 				desc: [
 					{
 						"Varlawend and Gulenko - Club Displacement": [
@@ -5753,6 +5766,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// opportunities
 			createCodeLabelArr(["xCFA","xNFR"], {
 				label: "Abstinent",
+				socionics: "Dissociative",
 				desc: [
 					"Preserving the future.",
 					"Abstaining from present opportunities for the sake of future ones.",
@@ -5769,6 +5783,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // neglecting present moment for sake of future
 			createCodeLabelArr(["xCPR","xNPA"], {
 				label: "Opportunistic",
+				socionics: "Commutative",
 				desc: [
 					"Destruction of the future.",
 					"Neglecting possible opportunities for the sake of present ones.",
@@ -5785,6 +5800,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // opposite of novel
 			createCodeLabelArr(["xCFR","xNFA"], {
 				label: "Novel",
+				socionics: "Associative",
 				desc: [
 					"Destruction of the past.",
 					"Perceive an interconnected spider's web of images, ideas & associations.",
@@ -5802,6 +5818,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // opposite of stable
 			createCodeLabelArr(["xCPA","xNPR"], {
 				label: "Ordered",
+				socionics: "Distributive",
 				desc: [
 					"Preserving the past.",
 					"Reality is perceived & ordered through their past experience.",
@@ -5818,6 +5835,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["xCFA","xNFR"], ["xCPR","xNPA"], ["xCFR","xNFA"], ["xCPA","xNPR"], {
 				label: "Opportunities",
+				socionics: "Perceptual Groups",
 				desc: [
 					{
 						"Viktor Gulenko - Perceptual Groups": [
@@ -5832,6 +5850,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// spirit
 			createCodeLabelArr(["SNPA","ONFR","SCFR","OCPA"], {
 				label: "Ruthless",
+				socionics: "Control",
 				desc: [
 					"Having a coldly controlling or dismissive demeanor to others.",
 					"Looking for a partner that will stand their ground and dare to push back.",
@@ -5846,11 +5865,12 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); 
 			createCodeLabelArr(["SCFA","OCPR","SNPR","ONFA"], {
 				label: "Supportive",
+				socionics: "Support",
 				desc: [
 					"Being mindful of the needs or wants of others.",
 					"Looking for a partner they can protect, uplift & indulge maternally/paternally.",
 					{
-						"Danidin & Talanov": [
+						"Danidin & Talanov - Support": [
 							 "“Simplifying declaring ethics, concentrating on empathy. Responsible for caring for loved ones, friendliness, humanistic interests: helping those in need, caring for wildlife. Demand in the field of family life. Positively benevolent”"
 						],
 						"Danidin & Romanov - Supportive / Tolerant": [],
@@ -5860,6 +5880,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); 
 			createCodeLabelArr(["SNFA","ONPR","SCPR","OCFA"], {
 				label: "Veracious",
+				socionics: "Creation",
 				desc: [
 					"Speaking to or representing things truthfully or honestly.",
 					"Understanding the objective laws of the world.",
@@ -5876,6 +5897,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCPA","OCFR","SNFR","ONPA"], {
 				label: "Manipulative",
+				socionics: "Intrigue",
 				desc: [
 					"Applying underhanded leverage or influence onto things or people.",
 					"Pushing interests onto others.",
@@ -5892,6 +5914,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SNPA","ONFR","SCFR","OCPA"], ["SCFA","OCPR","SNPR","ONFA"], ["SNFA","ONPR","SCPR","OCFA"], ["SCPA","OCFR","SNFR","ONPA"], {
 				label: "Spirit",
+				socionics: "Spheres of Self-Realization",
 				desc: [
 					{
 						"Danidin & Talanov - Spheres of Self-Realization": [
@@ -5906,6 +5929,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// constraints
 			createCodeLabelArr(["SNFA","SCPR","SCFR","SNPA"], {
 				label: "Unstructured",
+				socionics: "Restructors",
 				desc: [
 					"Looking to change or alter structures to suit their agendas.",
 					"Low consideration of ethical norms.",
@@ -5920,6 +5944,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (low ethical consideration, anti-normative)
 			createCodeLabelArr(["OCFA","ONPR","ONFR","OCPA"], {
 				label: "Stringent",
+				socionics: "Constructors",
 				desc: [
 					"Looking to construct things (places, relationships, ideas etc.) from the ground up.",
 					"Stringent use of time.",
@@ -5934,6 +5959,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (stringent use of time)
 			createCodeLabelArr(["SCFA","SNPR","SNFR","SCPA"], {
 				label: "Normative",
+				socionics: "Guardians",
 				desc: [
 					"High consideration of ethical norms.",
 					{
@@ -5947,6 +5973,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (high ethical consideration, pro-normative)
 			createCodeLabelArr(["ONFA","OCPR","OCFR","ONPA"], {
 				label: "Adapatable",
+				socionics: "Diplomats",
 				desc: [
 					"Charming, artistic & unproductive.",
 					"Good at managing emotionally delicate situations.",
@@ -5962,6 +5989,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // (adapatable use of time)
 			createTetraLabel(["SNFA","SCPR","SCFR","SNPA"], ["OCFA","ONPR","ONFR","OCPA"], ["SCFA","SNPR","SNFR","SCPA"], ["ONFA","OCPR","OCFR","ONPA"], {
 				label: "Constraints",
+				socionics: "Argumentative Groups",
 				desc: [
 					{
 						"Viktor Gulenko - Argumentative Groups": [
@@ -5976,6 +6004,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// dynamic
 			createCodeLabelArr(["OCFR","OCPA","SCFA","SCPR"], {
 				label: "Conforming",
+				socionics: "Executive",
 				desc: [
 					"Accepting a position less authoritative than others.",
 					"Conforms to the constraints presented by society at large.",
@@ -5990,6 +6019,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // accepting a position less authoritative than others
 			createCodeLabelArr(["ONFA","ONPR","SNFR","SNPA"], {
 				label: "Subordinating",
+				socionics: "Commanders",
 				desc: [
 					"Taking a position more authoritative than others.",
 					"Guiding other people & limiting their initiative on behalf of others.",
@@ -6004,6 +6034,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // taking a position more authoritative than others
 			createCodeLabelArr(["OCFA","OCPR","SCFR","SCPA"], {
 				label: "Reactive",
+				socionics: "Self-Critical",
 				desc: [
 					"Acting in response to the demands of others.",
 					"Prone to doubting & restraining their own individual free will.",
@@ -6018,6 +6049,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // accepting the demands of others
 			createCodeLabelArr(["ONFR","ONPA","SNFA","SNPR"], {
 				label: "Demanding",
+				socionics: "Initiative",
 				desc: [
 					"Pushing demands onto others.",
 					"Shows individual initiative, bypassing social restrictions.",
@@ -6032,6 +6064,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); // pushing demands onto others
 			createTetraLabel(["OCFR","OCPA","SCFA","SCPR"], ["ONFA","ONPR","SNFR","SNPA"], ["OCFA","OCPR","SCFR","SCPA"], ["ONFR","ONPA","SNFA","SNPR"], {
 				label: "Dynamic",
+				socionics: "Mobilization Groups",
 				desc: [
 					{
 						"F. Schecter and L. Kobrin - Mobilization Groups": [
@@ -6048,6 +6081,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// Plans
 			createCodeLabelArr(["SCFA","SCFR","SNPR","SNPA"], {
 				label: "Trusting",
+				socionics: "Sympathy-Atonement",
 				desc: [
 					"Formulating a plan intentionally and following through with it.",
 					"Gets upset when others betray their trust, perceiving them as a liar or hypocrite.",
@@ -6066,6 +6100,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SNFA","SNFR","SCPR","SCPA"], {
 				label: "Assimilative",
+				socionics: "Assimilation-Validation",
 				desc: [
 					"Not having a plan and just going with it.",
 					"Gets upset when others don't follow social rules or expectations.",
@@ -6084,6 +6119,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["ONPR","ONPA","OCFA","OCFR"], {
 				label: "Compliant",
+				socionics: "Appreciation-Consensus",
 				desc: [
 					"Looking for a plan to fit into.",
 					"Gets upset when someone expects unreasonable things from them.",
@@ -6102,6 +6138,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["OCPR","OCPA","ONFA","ONFR"], {
 				label: "Adjudicating",
+				socionics: "Justice-Acquittal",
 				desc: [
 					"Reformulating or improving plans.",
 					"Gets upset when they're punished for something they perceive as not their fault.",
@@ -6120,6 +6157,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SCFA","SCFR","SNPR","SNPA"], ["SNFA","SNFR","SCPR","SCPA"], ["ONPR","ONPA","OCFA","OCFR"], ["OCPR","OCPA","ONFA","ONFR"], {
 				label: "Plans",
+				socionics: "Trigger Groups",
 				desc: [
 					{
 						"Socionics - Trigger Groups": [
@@ -6134,6 +6172,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// decisions
 			createCodeLabelArr(["SCPR","SNPA","ONFA","OCFR"], {
 				label: "Willing",
+				socionics: "Resistant to Stress",
 				desc: [
 					"Easily changes one's mind.",
 					"Easily resists stress.",
@@ -6149,6 +6188,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]});
 			createCodeLabelArr(["SCFA","SNFR","ONPR","OCPA"], {
 				label: "Unswayable",
+				socionics: "Vulnerable to Stress",
 				desc: [
 					"Refuses to change one's mind.",
 					"Externally stoic & monolithic.",
@@ -6165,6 +6205,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCPA","SNPR","ONFR","OCFA"], {
 				label: "Premature",
+				socionics: "Trained by Stress",
 				desc: [
 					"Easily comes to conclusions.",
 					"Mobilised and trained by stress.",
@@ -6181,6 +6222,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}); 
 			createCodeLabelArr(["SCFR","SNFA","ONPA","OCPR"], {
 				label: "Delaying",
+				socionics: "Frozen by Stress",
 				desc: [
 					"Refuses to come to absolute conclusions until neccessary.",
 					"Tendency to avoid the stress of making decisions, may instead prefer others do it.",
@@ -6197,6 +6239,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SCPR","SNPA","ONFA","OCFR"], ["SCFA","SNFR","ONPR","OCPA"], ["SCPA","SNPR","ONFR","OCFA"], ["SCFR","SNFA","ONPA","OCPR"], {
 				label: "Decisions",
+				socionics: "Stress Groups",
 				desc: [
 					{
 						"Viktor Gulenko - Stress Groups": [
@@ -6213,6 +6256,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			// actualisation
 			createCodeLabelArr(["SNxR","OCxA"], {
 				label: "Authoring",
+				socionics: "Civilizers",
 				desc: [
 					"Finding the right expression.",
 					"Mindset of spreading one's principles.",
@@ -6225,6 +6269,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCxA","ONxR"], {
 				label: "Sustaining",
+				socionics: "Children of Culture",
 				desc: [
 					"Making something that already exists more viable.",
 					"Mindset of social responsibility.",
@@ -6237,6 +6282,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SNxA","OCxR"], {
 				label: "Dramatising",
+				socionics: "Children of Nature",
 				desc: [
 					"Casting oneself or others as if actors in a stageplay.",
 					"Mindset of self-realization.",
@@ -6249,6 +6295,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createCodeLabelArr(["SCxR","ONxA"], {
 				label: "Imitating",
+				socionics: "Imitators",
 				desc: [
 					"Creating something from nothing.",
 					"Mindset of social success - imitating what is successful.",
@@ -6261,10 +6308,145 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			createTetraLabel(["SNxR","OCxA"], ["SCxA","ONxR"], ["SNxA","OCxR"], ["SCxR","ONxA"], {
 				label: "Actualisation",
+				socionics: "Historical Roles",
 				desc: [
 					{
 						"Danidin & Romanov - Historical Roles": [],
 						"Mironov - World Order": []
+					}
+				]
+			});
+			
+			// implementation
+			createCodeLabelArr(["SNFA","ONPR","SCFR","OCPA"], {
+				label: "Implementing",// "Persevering",
+				socionics: "Feminine to Masculine",
+				desc: [
+					"Enable mass implementation of generalised experience.",
+					{
+						"Viktor Gulenko - Feminine to Masculine": [
+							"“Main focus on this group is the junction of management and scientism, generalization of the practical experience in management. These types are inventors, rationalizers, creators of laws. They enable mass implementation of technologies. ILE and LSE make good inventors and innovators. ILI and LSI finalizers and exploitationists.”"
+						],
+						"Mironov - Program writers (?)": []
+					}
+				]
+			}); // let's keep it going
+			createCodeLabelArr(["SCFA","OCPR","SNFR","ONPA"], {
+				label: "Propagandizing", //"Initiating",
+				socionics: "Feminine",
+				desc: [
+					"Maintain what is established and traditionally accepted.",
+					"Mass ideology, propagandisation.",
+					//"Most explicitly feminine."
+					{
+						"Viktor Gulenko - Feminine": [
+							"“Work to maintain established social customs, or if they are programmed for something else, try to implement and stabilize new customs. Operate at the intersection of social and humanitarian spheres - mass ideology, advertising companies, show business. SEE and EIE are advertisers, propagandists, entertainers, show agents. EII and SEI prompt movement towards new stereotypes.”"
+						],
+						"Mironov - Mediators of a friendly atmosphere (?)": []
+					}
+				]
+			}); // let's start it
+			createCodeLabelArr(["SCPA","OCFR","SNPR","ONFA"], {
+				label: "Rescuing", //"Escaping",
+				socionics: "Masculine to Feminine",
+				desc: [
+					"Implement humanitarian ideas.",
+					"Undermine and destroy what is routine and established.",
+					//"Typically take on masculine roles."
+					{
+						"Viktor Gulenko - Masculine to Feminine": [
+							"“Their spheres of activity are humanitarian and social. They undermine and destroy that which is routine and established, may take on traditionally male responsibilities. They bring localized focused implementation of humanitarian ideas. From large groups they transfer to small teams. ESE and IEE are enthusiasts and inspirers, shaking the foundations of the humdrum of life. IEI and ESI serve as internal motivators, deeply penetrating into the psyche.”"
+						],
+						"Mironov - Reviewers (?)": []
+					}
+				]
+			}); // let's get out of here
+			createCodeLabelArr(["SNPA","ONFR","SCPR","OCFA"], {
+				label: "Brave", //"Finishing",
+				socionics: "Masculine",
+				desc: [
+					"Attracted to risky prospects and the promotion of promising ideas.",
+					"Act bravely without looking back.",
+					//"Most explicitly masculine."
+					{
+						"Viktor Gulenko - Masculine": [
+							"“Act bravely without looking back. Their field of activity lies at the junction of management and scientism. Localized introduction of promising ideas and developments into production. This results in the greatest disruption of homeostasis. SLE and LIE are the best promoters i.e. managers of risky projects. SLI and LII are effective in the development of technological support.”"
+						],
+						"Mironov - Travel companions (?)": []
+					}
+				]
+			}); // let's finish it
+			createTetraLabel(["SNFA","ONPR","SCFR","OCPA"], ["SCFA","OCPR","SNFR","ONPA"], ["SCPA","OCFR","SNPR","ONFA"], ["SNPA","ONFR","SCPR","OCFA"], {
+				label: "Implementation",
+				socionics: "Implementation Groups",
+				desc: [
+					{
+						"Viktor Gulenko - Implementation Groups": [
+							"“Jung's dichotomy Logic-Ethics describes, on the one hand, the rational side of actions, the systematic work to promote innovation, and, on the other hand, the feminine and masculine origins in human psychology. Implementing, introducing, forcing through is the male role, while developing the right conditions, assimilating, stabilizing in the society as a whole is the female role.”"
+						],
+						"Mironov -  Coalition formations": []
+					}
+				]
+			});
+			
+			// impression (first impressions)
+			createCodeLabelArr(["OxPR","SxFA"], {
+				label: "Familiarising",
+				socionics: "Right periphery",
+				desc: [
+					{
+						"Viktor Gulenko - Right periphery": [
+							"“Future society, informatization and humanization.”"
+						],
+						"Mironov - Relaxed (?)": []
+					}
+				]
+			}); // Pliable + Complicating + Enhancing (getting used to it)
+			createCodeLabelArr(["OxFA","SxPR"], {
+				label: "Enlightening",
+				socionics: "Left periphery",
+				desc: [
+					{
+						"Viktor Gulenko - Left periphery": [
+							 "“The deepest periphery pushed out of the socion. Gives a view from the outside, communicates with other socions. The principle of the fourth superfluous in tetratome - quadruple division of the system.”"
+						],
+						"Mironov - Twin-core (?)": []
+					}
+				]
+			}); // Particular + Simplifying + Enhancing (knowing better than it)
+			createCodeLabelArr(["OxFR","SxPA"], {
+				label: "Resisting",
+				socionics: "Left centre",
+				desc: [
+					{
+						"Viktor Gulenko - Left centre": [
+							"“Group reform, business development.”"
+						],
+						"Mironov - Strained (?)": []
+					}
+				]
+			}); // Pliable + Simplifying + Collapsing (bill the butcher)
+			createCodeLabelArr(["OxPA","SxFR"], {
+				label: "Absorbing",
+				socionics: "Right centre",
+				desc: [
+					{
+						"Viktor Gulenko - Right centre": [
+							"“Group debugging social systems. Stability and order.”"
+						],
+						"Mironov - Tireless (?)": []
+					}
+				]
+			}); // Particular + Complicating + Collapsing (kirby)
+			createTetraLabel(["OxPR","SxFA"], ["OxFA","SxPR"], ["OxFR","SxPA"], ["OxPA","SxFR"], {
+				label: "Impressions",
+				socionics: "Equifinal Groups",
+				desc: [
+					{
+						"Viktor Gulenko - Equifinal Groups": [
+							"“These groups are formed by the orthogonal intersection of two considered binary scales: Social progress = left / right x center / periphery”"
+						],
+						"Mironov - Effort Distribution": []
 					}
 				]
 			});
@@ -6281,7 +6463,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabelArr(["OCPA","ONFA","SCFR","SNPR"], {
-				label:  "Passionate",
+				label:  "Distracted",
 				desc: [
 					"Easily gets carried away with new interests.",
 					{
@@ -6360,73 +6542,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				desc: [
 					{
 						"Mironov - Family Groups / Your Circle": []
-					}
-				]
-			});
-			
-			// implementation
-			createCodeLabelArr(["SNFA","ONPR","SCFR","OCPA"], {
-				label: "Implementing",// "Persevering",
-				desc: [
-					"Enable mass implementation of generalised experience.",
-					{
-						"Viktor Gulenko - Feminine to Masculine": [
-							"“Main focus on this group is the junction of management and scientism, generalization of the practical experience in management. These types are inventors, rationalizers, creators of laws. They enable mass implementation of technologies. ILE and LSE make good inventors and innovators. ILI and LSI finalizers and exploitationists.”"
-						],
-						"Mironov - Program writers (?)": []
-					}
-				]
-			}); // let's keep it going
-			createCodeLabelArr(["SCFA","OCPR","SNFR","ONPA"], {
-				label: "Propagandizing", //"Initiating",
-				desc: [
-					"Maintain what is established and traditionally accepted.",
-					"Mass ideology, propagandisation.",
-					//"Most explicitly feminine."
-					{
-						"Viktor Gulenko - Feminine": [
-							"“Work to maintain established social customs, or if they are programmed for something else, try to implement and stabilize new customs. Operate at the intersection of social and humanitarian spheres - mass ideology, advertising companies, show business. SEE and EIE are advertisers, propagandists, entertainers, show agents. EII and SEI prompt movement towards new stereotypes.”"
-						],
-						"Mironov - Mediators of a friendly atmosphere (?)": []
-					}
-				]
-			}); // let's start it
-			createCodeLabelArr(["SCPA","OCFR","SNPR","ONFA"], {
-				label: "Rescuing", //"Escaping",
-				desc: [
-					"Implement humanitarian ideas.",
-					"Undermine and destroy what is routine and established.",
-					//"Typically take on masculine roles."
-					{
-						"Viktor Gulenko - Masculine to Feminine": [
-							"“Their spheres of activity are humanitarian and social. They undermine and destroy that which is routine and established, may take on traditionally male responsibilities. They bring localized focused implementation of humanitarian ideas. From large groups they transfer to small teams. ESE and IEE are enthusiasts and inspirers, shaking the foundations of the humdrum of life. IEI and ESI serve as internal motivators, deeply penetrating into the psyche.”"
-						],
-						"Mironov - Reviewers (?)": []
-					}
-				]
-			}); // let's get out of here
-			createCodeLabelArr(["SNPA","ONFR","SCPR","OCFA"], {
-				label: "Brave", //"Finishing",
-				desc: [
-					"Attracted to risky prospects and the promotion of promising ideas.",
-					"Act bravely without looking back.",
-					//"Most explicitly masculine."
-					{
-						"Viktor Gulenko - Masculine": [
-							"“Act bravely without looking back. Their field of activity lies at the junction of management and scientism. Localized introduction of promising ideas and developments into production. This results in the greatest disruption of homeostasis. SLE and LIE are the best promoters i.e. managers of risky projects. SLI and LII are effective in the development of technological support.”"
-						],
-						"Mironov - Travel companions (?)": []
-					}
-				]
-			}); // let's finish it
-			createTetraLabel(["SNFA","ONPR","SCFR","OCPA"], ["SCFA","OCPR","SNFR","ONPA"], ["SCPA","OCFR","SNPR","ONFA"], ["SNPA","ONFR","SCPR","OCFA"], {
-				label: "Implementation",
-				desc: [
-					{
-						"Viktor Gulenko - Implementation Groups": [
-							"“Jung's dichotomy Logic-Ethics describes, on the one hand, the rational side of actions, the systematic work to promote innovation, and, on the other hand, the feminine and masculine origins in human psychology. Implementing, introducing, forcing through is the male role, while developing the right conditions, assimilating, stabilizing in the society as a whole is the female role.”"
-						],
-						"Mironov -  Coalition formations": []
 					}
 				]
 			});
@@ -6587,7 +6702,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				desc: [
 					"Attitude is to keep to one's goals and not change course.",
 					{
-						"Mironov - Synchronization (?)": []
+						"Mironov - Planning (?)": []
 					}
 				]});
 			createCodeLabelArr(["SNFA","OCPA","SCPA","ONFA"], {
@@ -6604,7 +6719,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				desc: [
 					"Attitude is to be prepared for anything, because anything might happen.",
 					{
-						"Mironov - Planning (?)": []
+						"Mironov - Synchronization (?)": []
 					}
 				]});
 			createCodeLabelArr(["SNFR","OCPR","SCPR","ONFR"], {
@@ -6764,63 +6879,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			
-			// impression (first impressions)
-			createCodeLabelArr(["OxPR","SxFA"], {
-				label: "Familiarising",
-				desc: [
-					{
-						"Viktor Gulenko - Right periphery": [
-							"“Future society, informatization and humanization.”"
-						],
-						"Mironov - Relaxed (?)": []
-					}
-				]
-			}); // Pliable + Complicating + Enhancing (getting used to it)
-			createCodeLabelArr(["OxFA","SxPR"], {
-				label: "Enlightening",
-				desc: [
-					{
-						"Viktor Gulenko - Left periphery": [
-							 "“The deepest periphery pushed out of the socion. Gives a view from the outside, communicates with other socions. The principle of the fourth superfluous in tetratome - quadruple division of the system.”"
-						],
-						"Mironov - Twin-core (?)": []
-					}
-				]
-			}); // Particular + Simplifying + Enhancing (knowing better than it)
-			createCodeLabelArr(["OxFR","SxPA"], {
-				label: "Resisting",
-				desc: [
-					{
-						"Viktor Gulenko - Left centre": [
-							"“Group reform, business development.”"
-						],
-						"Mironov - Strained (?)": []
-					}
-				]
-			}); // Pliable + Simplifying + Collapsing (bill the butcher)
-			createCodeLabelArr(["OxPA","SxFR"], {
-				label: "Absorbing",
-				desc: [
-					{
-						"Viktor Gulenko - Right centre": [
-							"“Group debugging social systems. Stability and order.”"
-						],
-						"Mironov - Tireless (?)": []
-					}
-				]
-			}); // Particular + Complicating + Collapsing (kirby)
-			createTetraLabel(["OxPR","SxFA"], ["OxFA","SxPR"], ["OxFR","SxPA"], ["OxPA","SxFR"], {
-				label: "Impressions",
-				desc: [
-					{
-						"Viktor Gulenko - Equifinal Groups": [
-							"“These groups are formed by the orthogonal intersection of two considered binary scales: Social progress = left / right x center / periphery”"
-						],
-						"Mironov - Effort Distribution": []
-					}
-				]
-			});
-			
 			// fears 
 			createCodeLabelArr(["OCFR","ONPA","SCFA","SNPR"], {
 				label: "Counterphobic",
@@ -6958,7 +7016,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabel("xCFR", {
-				label: "Timing",
+				label: "Timely",
 				desc: [
 					"Compression of time. Bridging past, present and future. Intuition & insight. Sensing the significance of a given moment.",
 					"Introducing a crisis - pressing the importance of the moment to induce action within an ecosystem.",
@@ -7089,7 +7147,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Indoctrinative"
 			});
 			createPairDichotLabel(["OCPR","ONPR"],["SCFR","SNFR"], {
-				label: "Transformative"
+				label: "Suggestive"
 			});
 			
 			// ??
@@ -7681,7 +7739,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFA","SCFR"], {
 				label: "Disengaged",
 				desc: [
-					"Mentally disengaged from everyday life."
+					"Mentally disengaged from everyday life; does not ask for much."
 				]
 			}); // TiNe FiNi
 			createCodeLabelArr(["ONPR","SNPA"], {
@@ -7728,7 +7786,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["ONFA","SNFR"], {
 				label: "Advocative",//"Advocating",
 				desc: [
-					"Advocating on behalf of others."
+					"Advocating on behalf of others; social displacement."
 				]
 			});
 			
@@ -7938,7 +7996,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["ONFA","SCPA"], {label: "TeNe FiSe"}); // Upcycling/Retentive
 			
 			createPairDichotLabel(["OCPR","SNFR"], ["ONPR","SCFR"], {
-				label: "Dialectical ??"
+				label: "Transformative"
 			});
 			
 			createPairDichotLabel(["OCFR","SNPR"], ["ONFR","SCPR"], {
@@ -8117,51 +8175,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			createFunctionGroups();
 			createCodeLabels();
-			
-			const mutualLabel = codeLabels[groupCodes(mutualKeyArr)];
-			const competitiveLabel = codeLabels[groupCodes(competitiveKeyArr)];
-			const commensalLabel = codeLabels[groupCodes(commensalKeyArr)];
-			const parasiticalLabel = codeLabels[groupCodes(parasiticalKeyArr)];
-			
-			const researchingLabel = codeLabels[groupCodes(researchingKeyArr)];
-			const consumingLabel = codeLabels[groupCodes(consumingKeyArr)];
-			const humanitarianLabel = codeLabels[groupCodes(humanitarianKeyArr)];
-			const organizingLabel = codeLabels[groupCodes(organizingKeyArr)];
-	
-			for(let i = 0; i < egos.length; i++) {
-				let ego = egos[i];
-				let symbiosisPair = [null,null];
-				let clubLabel = null;
-				
-				if(i < 4) {
-					symbiosisPair[0] = mutualLabel;
-					symbiosisPair[1] = competitiveLabel;
-				} else {
-					symbiosisPair[0] = commensalLabel;
-					symbiosisPair[1] = parasiticalLabel;
-				}
-				
-				if(i < 2) {
-					clubLabel = researchingLabel;
-				} else if(i < 4) {
-					clubLabel = consumingLabel;
-				} else if(i < 6) {
-					clubLabel = humanitarianLabel;
-				} else {
-					clubLabel = organizingLabel;
-				}
-				
-				let pairKey = groupCodes([ego[0], ego[1]]);
-				let pairLabel = codeLabels[pairKey];
-				
-				let desc1 = "(" + pairLabel.nameHTML() + ", " + symbiosisPair[0].nameHTML() + " " + clubLabel.nameHTML() + ")";
-				let desc2 = "(" + pairLabel.nameHTML() + ", " + symbiosisPair[1].nameHTML() + " " + clubLabel.nameHTML() + ")";
-				
-				let src1 = {label: ego[2], desc: [desc1].concat(ego[3])};
-				let src2 = {label: ego[4], desc: [desc2].concat(ego[5])};
-				
-				egos[i].srcs = [src1, src2];
-			}
 			
 			console.log(codeLabels);
 			console.log(dichots);
@@ -8667,74 +8680,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				elem.classList.add("selected");
 			}
 			
-			function onClickEgoTitle(elem) {
-				let split = elem.id.split("-");
-				
-				let i = split[3];
-				let polarity = split[4];
-				let ego = egos[i];
-				let src = null;
-				
-				if(polarity == "0") {
-					src = ego.srcs[0];
-				} else {
-					src = ego.srcs[1];
-				}
-				
-				doPopup(elem, src);
-			}
-			
-			function onClickModelTitle(elem) {
-				let split = elem.id.split("-");
-				
-				let model = "";
-				
-				switch(split[1]) {
-					case "Ego":
-						model = models[0];
-						break;
-						
-					case "Parental":
-						model = models[1];
-						break;
-						
-					case "Childish":
-						model = models[2];
-						break;
-						
-					case "Shadow":
-						model = models[3];
-						break;
-				}
-				
-				doPopup(elem, model);
-			}
-			
-			function onClickPolarity(elem) {
-				let index = 0;
-				
-				switch(elem.innerHTML) {
-					case "++":
-						index = 0;
-						break;
-						
-					case "--":
-						index = 1;
-						break;
-				}
-				
-				let desc = polarities[index];
-				doPopup(elem, desc);
-			}
-			
-			function onClickModelAspect(elem) {
-				let split = elem.id.split("-");
-				let index = split[1];
-				
-				let desc = aspects[index];
-				doPopup(elem, desc);
-			}
-			
 			function onClickTypePairGroupTitle(elem) {
 				let desc = null;
 			
@@ -8778,66 +8723,46 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			for(let i = 0; i < types.length; i++) {
 				let t = types[i];
 				let name = t[0];
-				let polarity = t[1];
-				let egoIndex = t[2];
-				let parentalIndex = t[3];
-				let childishIndex = t[4];
-				let shadowIndex = t[5];
-				let ego2Index = t[6];
-				let parental2Index = t[7];
-				let childish2Index = t[8];
-				let shadow2Index = t[9];
+				let ego = t[1];
 				
 				html += "<div id='" + name + "-model' class='type-model-container'>";
 					//html += "<h2>" + name + " Model</h2>";
-					html += "<p>" + t[10] + "</p>";
+					//html += "<p>" + t[2] + "</p>";
 					/*
 					html += "<ul>";
-					for(let j = 0; j < t[11].length; j++) {
-						html += "<li>" + t[11][j] + "</li>";
+					for(let j = 0; j < t[3].length; j++) {
+						html += "<li>" + t[3][j] + "</li>";
 					}
 					html += "</ul>";*/
 					
-					let title = polarity == 0 ? 2 : 4;
-					let title2 = polarity == 0 ? 4 : 2;
-					let ego = egos[egoIndex];
-					let parental = egos[parentalIndex];
-					let childish = egos[childishIndex];
-					let shadow = egos[shadowIndex];
-					
 					let orderedAttitudes = [
-						ego[polarity],
-						parental[polarity],
-						childish[1-polarity],
-						shadow[1-polarity],
-						ego[1-polarity],
-						parental[1-polarity],
-						childish[polarity],
-						shadow[polarity],
+						ego,
+						constructiveCode(ego),
+						obligativeCode(ego),
+						unnaturalCode(ego),
+						abusedCode(ego),
+						repressedCode(ego),
+						indulgantCode(ego),
+						unconsciousCode(ego),
 					];
-					
-					function drawAspectGroup(v) {
-						let attitude1 = orderedAttitudes[v.indices[0]];
-						let attitude2 = orderedAttitudes[v.indices[1]];
-						let pairKey = groupCodes([attitude1, attitude2]);
-						let pair = codeLabels[pairKey];
-					
-						html += "<div class='small-group'>";
-							//html += "<div class='small-group-title title clickable'>Title</div>";
-							html += "<div class='small-pair-table'>";
-								html += "<div class='small-pair-group'>";
-									html += "<div class='small-pair title clickable'>" + v.attrs.join(" + ") + "</div>";
-									html += "<div class='small-pair subtitle clickable onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
-								html += "</div>";
-							html += "</div>";
-						html += "</div>";
-					}
 					
 					function drawEgo(v) {
 						let attitude1 = orderedAttitudes[v.indices[0]];
 						let attitude2 = orderedAttitudes[v.indices[1]];
 						let pairKey = groupCodes([attitude1, attitude2]);
 						let pair = codeLabels[pairKey];
+						let aspect1 = "??";
+						let aspect2 = "??";
+						
+						for(let i = 0; i < orderedAttitudes.length; i++) { 
+							if(orderedAttitudes[i] == attitude1) {
+								aspect1 = aspects[i].label;
+							}
+							
+							if(orderedAttitudes[i] == attitude2) {
+								aspect2 = aspects[i].label;
+							}
+						}
 
 						html += "<div class='ego'>";
 							html += "<div class='clickable model-title title'>" + v.attrs.join(" + ") + "</div>";
@@ -8845,11 +8770,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title'>Aspect</div>";
+								html += "<div class='clickable model-aspect title'>" + aspect1 + "</div>";
 								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title'>Aspect</div>";
+								html += "<div class='clickable model-aspect title'>" + aspect2 + "</div>";
 								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude2) + "'>" + getCodeLabel(attitude2).nameHTML() + "</div>";
 							html += "</div>";
 						html += "</div>";
@@ -8857,19 +8782,30 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					
 					function drawAspectTetra(key, value) {
 						let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
+						
+						let octa = null;
+						let sortedValue = [orderedAttitudes[value[0].indices[0]], orderedAttitudes[value[0].indices[1]]].toSorted();
+						
+						for (const [k, v] of Object.entries(octas)) {
+							let found = false;
+							for(let i = 0; i < v.groups.length; i++) {
+								let group = expandCodesArr(v.groups[i]).toSorted();
+								if(sortedValue[0] == group[0] && sortedValue[1] == group[1]) {
+									found = true;
+									break;
+								}
+							}
+							
+							if(found) {
+								octa = codeLabels[k];
+								break;
+							}
+						}
+						
+						console.assert(octa != null);
+						
+						html += "<div class='tetra-title title clickable onClickPopup' data-popupkey='" + octa.key + "'>" + octa.label + "</div>";
 						html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
-						/*
-						html += "<div class='small-group-cell'>";
-							html += "<div class='small-group-column'>";
-								drawAspectGroup(value[0]);
-								drawAspectGroup(value[1]);
-							html += "</div>";
-							html += "<div class='small-group-column'>";
-								drawAspectGroup(value[2]);
-								drawAspectGroup(value[3]);
-							html += "</div>";
-						html += "</div>";
-						*/
 						html += "<div class='type-model'>";
 							html += "<div class='ego-container'>";
 								drawEgo(value[0]);
@@ -8882,17 +8818,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						html += "</div>";
 					}
 					
-					function drawPairTable(pair) {
-						let attitude1 = orderedAttitudes[pair.indices[0]];
-						let attitude2 = orderedAttitudes[pair.indices[1]];
-						html += "<div class='type-pair-container'>";
-							html += "<div class='type-pair-title clickable title onClickTypePairGroupTitle'>" + pair.attrs.join(" + ") + "</div>";
-							let pair1Key = groupCodes([attitude1, attitude2]);
-							let pair1 = codeLabels[pair1Key];
-							html += "<div class='type-pair clickable subtitle onClickPopup' data-popupkey='" + pair1Key + "'>" + pair1.nameHTML() + "</div>";
-						html += "</div>";
-					}
-					
 					function drawDichotTable(dichot) {
 						let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
 						let groupKey = groupCodes(attitudes);
@@ -8901,11 +8826,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						html += "<div class='type-pair-group'>";
 							html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
 							html += "<div class='clickable subtitle onClickPopup' data-popupkey='" + groupKey + "'>" + group.nameHTML() + "</div>";
-							/*
-							for(let i = 0; i < dichot.pairs.length; i++) {
-								drawPairTable(dichot.pairs[i]);
-							}*/
-							
 						html += "</div>";
 					}
 					
@@ -8961,7 +8881,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 						drawAspectTetra(key, value);
 					}
 					
-					let dichotKey = groupCodes([ego[polarity], childish[1-polarity], parental[polarity], shadow[1-polarity], ego[1-polarity], childish[polarity], parental[1-polarity], shadow[polarity]]);
+					let dichotKey = groupCodes(orderedAttitudes);
 					let dichotLabel = codeLabels[dichotKey];
 					html += "<h2>" + name + " Aspect Dichotomies</h2>";
 					html += "<div class='type-dichot-title title clickable onClickPopup' data-popupkey='" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.nameHTML() + "</div>";
@@ -9212,22 +9132,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			addEvent("onClickType", function(a) {
 				onClickType(a.target);
-			});
-			
-			addEvent("onClickModelTitle", function(a) {
-				onClickModelTitle(a.target);
-			});
-			
-			addEvent("onClickEgoTitle", function(a) {
-				onClickEgoTitle(a.target);
-			});
-			
-			addEvent("onClickPolarity", function(a) {
-				onClickPolarity(a.target);
-			});
-			
-			addEvent("onClickModelAspect", function(a) {
-				onClickModelAspect(a.target);
 			});
 			
 			addEvent("onClickPopup", function(a) {
