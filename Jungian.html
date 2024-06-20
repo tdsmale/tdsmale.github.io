@@ -1028,7 +1028,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				case "SNPR": return "-Fe";//"FeSi";
 				case "SNFA": return "+Ne";//"NeTi";
 				case "SNFR": return "+Fe";//"FeNi";
-				default: return "xxx";
+				default: return "";
 			}
 		}
 		
@@ -1300,6 +1300,9 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			label.socion = codeArr.map((x) => originalToSocionicsCode(x));
 			label.mbti = codeArr.map((x) => originalToMbtiCode(x));
 			
+			if(label.signed == "") {
+				delete label.signed;
+			}
 			if(label.block == "") {
 				delete label.block;
 			}
@@ -1486,8 +1489,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("OCFA", {
 				label: "Sophistic", 
 				desc: [
-					"Emphasising imaginative & cooperative structural possibilities by playfully reinventing the wheel.",
-					"Litigating a supposedly collective understanding. Considering possibilities, no matter how preposterous, to help refine that understanding; argumentation & experimentation for the sake of it.",
+					"Emphasising imaginative & cooperative structural possibilities through playful argumentation & reinventing the wheel.",
+					"Litigating a supposedly collective understanding. Considering possibilities, no matter how preposterous, to help refine it.",
 					{
 						"Viktor Gulenko - -L": [
 							"Global structural logic. The tool they constantly use to understand the world is systems analysis. They are primarily interested in the universal laws that govern the world. Moreover, all traditions, conventions, and restrictions are discarded. Literally everything is subject to comparison, analysis and analogies. The main goal they pursue is a comprehensive unified picture of the world, breathtaking in its vastness and harmony. The idea of integrity, rationality and justice of all things permeates their worldview through and through."
@@ -1524,7 +1527,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SNPR", {
 				label: "Hospitable", 
 				desc: [
-					"Promoting a mutually satisfying & comfortable atmosphere between people.",
+					"Promoting a mutually satisfying & pleasant atmosphere between people.",
 					"Inviting new people (source of ideas, perspectives) to the table. Policing of emotional expression to minimise upset feelings.",
 					{
 						"Viktor Gulenko - -E": [
@@ -1543,8 +1546,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SNFA", {
 				label: "Tangential",
 				desc: [
-					"Roping oneself & others into silly, speculative or mutually foolish schemes, personas & behaviour.",
-					"Exploring novel ideas amongst others. Bringing up or pointing out new possibilities to the table. Drumming up excitement over them.",
+					"Roping oneself & others into silly, speculative or mutually foolish schemes, personas, structures & behaviour.",
+					"Exploring light-hearted ideas amongst others. Bringing up or pointing out new possibilities to the table. Drumming up excitement over them.",
 					{
 						"Viktor Gulenko - +I": [
 							"Promising ideas. Therefore, in the “air” quadra there is always talk about the future, the unknown, the possible. From the outside, these sociotypes may seem like incorrigible dreamers. And this is so: they strive to look further than anyone else - beyond the horizon, they put forward and discuss “crazy” theories with pleasure. Some of these theories, however, are destined for a long life. So long that they always outlive their creators."
@@ -1562,8 +1565,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("OCPA", {
 				label: "Dividing", 
 				desc: [
-					"Rationalizing & enforcing an order to things, implicitly defining what is strong or weak.",
-					"Exercising the laws of one's dominant culture. Building, policing & creating respect for cultural divisions. Militarisation of “natural” culture. Elimination of anything that threatens the current way of things. The wall upon which other things are built; maintaining a static understanding of reality that doesn’t move for anything.",
+					"Rationalizing & enforcing a static order to things, implicitly defining what is strong or weak.",
+					"Exercising the laws of one's dominant culture. Building, policing & creating respect for cultural divisions. Militarisation of “natural” culture. Elimination of anything that threatens the way of things. The wall upon which other things are built; maintaining a static understanding of reality that doesn’t move for anything.",
 					{
 						"Viktor Gulenko - +L": [
 							"Organizational logic, based on a developed sense of duty, citizenship, and loyalty to the chosen cause. Therefore, this is the most disciplined and organized quadra, able to quickly gather all their strength into a fist in the event of imminent danger or an extreme situation."
@@ -1582,7 +1585,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Radicalising",
 				desc: [
 					"Observing exploitative underpinnings; identifying what is inevitably victimised by a given order.",
-					"Idolation of one's existing culture. Inspiring radicalisation, reverence and sacrifice in the face of seemingly overwhelming forces. Masochism & martyrdom. Seeking affirmation from powerful, revolutionary forces.",
+					"Idolation of one's existing culture. Inspiring radicalisation, reverence and sacrifice under seemingly overwhelming forces. Masochism & martyrdom. Seeking affirmation from powerful, revolutionary forces.",
 					{
 						"Viktor Gulenko - -T": [
 							"A passionate desire to avoid danger. They are determined to prevent mistakes that have already been made once. Experience, experience, and sophistication are highly valued among them. They feel confident in extreme situations."
@@ -1620,7 +1623,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Subjugative",
 				desc: [
 					"Adopting possessive social personas; forcefully capturing space in people's hearts & minds.",
-					"Subjugating weaker cultures (ways of thinking or being). Seeking strength by eliminating weakness in oneself and others. Tolerance, even enjoyment, of inflicting terrible experiences; sadistic.",
+					"Subjugating weaker cultures (ways of thinking or being) to oneself. Seeking strength by eliminating weakness. Tolerance, even enjoyment, of inflicting terrible experiences; sadistic.",
 					{
 						"Viktor Gulenko - -F": [
 							"Minimization of weakness. Perseverance in the face of adversity and adversity. This is a quadra where willpower is an indispensable condition for effective activity. Perseverance, determination, endurance and inflexibility will always have the highest authority with them."
@@ -1639,7 +1642,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Retentive",
 				desc: [
 					"Emphasising retentive relations; minimising the loss of what is valued by emphasising its personal importance.",
-					"Defending one’s personal scope of interest. Forcefully retaining personally-valuable resources, including people. Defence from predators and would-be competitors. Protecting one’s static, personal little corner of the world; don’t come close or all bets are off.",
+					"Defending one’s personal scope of interest. Forcefully retaining personally-valuable market means. Defence from predators and would-be competitors. Protecting one’s static, personal little corner of the world; don’t come close or all bets are off.",
 					{
 						"Viktor Gulenko - -R": [
 							"This aspect means criticism of evil, the desire to get away from bad people and negative relationships, and to protect oneself from enemies and opponents. They want to minimize negative experiences, because all repressed problems, as is known from psychoanalysis, will have to be emotionally reacted in one way or another, paying for the cleansing of the subconscious physically."
@@ -1655,10 +1658,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createCodeLabel("SCFR", {
-				label: "Distancing",
+				label: "Delegating",
 				desc: [
+					"Tracking the trajectory of market means due to supposedly overwhelming forces. Delegation to one's \"competitive, market fate\" and that of others.",
 					"Observing & feeling an assured inequity & isolation between oneself and others; the inverse of \"no man's an island\".",
-					"Torpid indulgence of market means. Minimising involvement to better plot where and when they will fail due to supposedly overwhelming forces, either to help reduce its possibility, or to make the most of what is left behind.",
 					{
 						"Viktor Gulenko - +T": [
 							"Future intuition. Containing their inner seething and temper, these sociotypes prefer gradual progress into the future, although they sharply abandon outdated ideas, criticizing past mistakes and delusions. Approaching the nearest, real future step by step, they generally believe in linear development, i.e., in their deepest ideas, you just need to remove the hindering obstacles - remnants of the past - and unlimited growth opportunities will immediately open up ahead. This quadra is not afraid of chaos and upheaval: they know how to do things in conditions of spontaneity, risk, and confusion."
@@ -1695,7 +1698,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("ONPA", {
 				label: "Profligate",
 				desc: [
-					"Capturing, possessing & expending powerful resources.",
+					"Manipulation of market means. Capturing, possessing & expending powerful resources.",
 					"Expanding one's freedom of personal movement. Manipulation of others for personal gain; shameless objectification and selfish intentions. Every interaction is a competition that must be won. Hoarding success over others.",
 					{
 						"Viktor Gulenko - +F": [
@@ -1752,7 +1755,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("ONPR", {
 				label: "Stabilising",
 				desc: [
-					"Promoting pragmatic equilibrium; putting things to a satisfying & respectful use.",
+					"Promoting pragmatic equilibrium; putting things to a satisfying use. Deradicalising others into productive work (\"get off that cross, we could use the wood\").",
 					"Lifting habitat into a more livable state. Finding a satisfying, practical use in things by whipping them into shape. Transforming an ecosystem. Cultivating respect for underlying means.",
 					{
 						"Viktor Gulenko - +P": [
@@ -3063,7 +3066,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				label: "Mutual",
 				socionics: "Alpha",
 				desc: [
-					"Ecosystem is implictly reliant on mutual stategies for survival.",
+					"Ecosystem is implictly reliant on mutual strategies for survival.",
 					"Cooperative possibilities enhance emotional atmosphere, leading to a mutually-legislated understanding.",
 					"Welcoming company that doesn't take anything too seriously.",
 					"Typically has problems with being too impractical or childish.",
@@ -5163,7 +5166,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				socionics: "Energy Generators",
 				desc: [
 					"Achieving results through other people.",
-					"Introduce large amounts of energy into situations.",
+					"Introducing large amounts of energy into situations.",
 					"Good at energizing large groups.",
 					{
 						"Viktor Gulenko - Energy Generators/Culminators": [
@@ -8826,7 +8829,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title'>" + aspect1 + "</div>";
+								html += "<div class='clickable model-aspect title onClickAspect'>" + aspect1 + "</div>";
 								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
