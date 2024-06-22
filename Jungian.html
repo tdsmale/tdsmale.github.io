@@ -452,17 +452,8 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 		- permanent links (hash tags)
 		- clicking on span doesn't trigger popups
 		-->
-		<div id="header">
-			<span class='clickable onClickSwapTheme'>Theme</span>
-			<span class='clickable onClickSwapLabels'>Labels</span>
-		</div>
-		<h1>Types</h1>
-		<div id='intersect'>
-			<div class="main-body" id='types'>
-				<h1>You need JavaScript. No one likes it. But you need it.</h1>
-			</div>
-			<h1>Attitudes</h1>
-			<div class="main-body" id='attitudes'></div>
+		<div id='gendst'>
+			<h1>Generating...</h1>
 		</div>
 		<div id="logger"></div>
 		
@@ -656,6 +647,29 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			"F": "N",
 			"R": "i",
 			"A": "e"
+		};
+		
+		const whatTheHellLabel = {
+			label: "What is this?",
+			desc: [
+				"A mashup of various Jungian typology-related theories, mainly MBTI & Socionics.",
+				"Differs in that:",
+				[
+					"Functions / Information Elements have been relegated to their own small groups.",
+					"Types are now made up of 16 \"Aspects\", each of which is more-or-less equivlant to either:",
+					[
+						"a Socionics Ego Block (or two Jungian functions slapped together).",
+						"A Socionics Model G signed information element (e.g. F+/Se+)"
+					],
+					"Socionics-style dichotomies & tetrachotomies are accounted for, but now apply to individual aspects rather than whole types.",
+					"Both Model A & Model G are roughly equivelant to one of the \"blockings\".",
+					"Octachotomies are also formally introduced as pairs of aspects.",
+					"A lot has been relabelled or summarised at my own whim.",
+					"I am not a formal researcher! A lot of this is informed speculation, so don't take it as authoritative.",
+					"Clicking on a label will display more information, including quotes & sources.",
+					"There Is No Test. DYOR/RTFM."
+				]
+			]
 		};
 		
 		const polarities = [
@@ -1571,7 +1585,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createCodeLabel("OCPA", {
-				label: "Dividing", 
+				label: "Divisive", 
 				desc: [
 					"Rationalizing & enforcing a static order to things, implicitly defining what is strong or weak.",
 					"Exercising the laws of one's dominant culture. Building, policing & creating respect for cultural divisions. Militarisation of “natural” culture. Elimination of anything that threatens the way of things. The wall upon which other things are built; maintaining a static understanding of reality that doesn’t move for anything.",
@@ -1590,7 +1604,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createCodeLabel("OCFR", {
-				label: "Radicalising",
+				label: "Radical",
 				desc: [
 					"Observing exploitative underpinnings; identifying what is inevitably victimised by a given order.",
 					"Idolation of one's existing culture. Inspiring radicalisation, reverence and sacrifice under seemingly overwhelming forces. Masochism & martyrdom. Seeking affirmation from powerful, revolutionary forces.",
@@ -1666,7 +1680,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			});
 			
 			createCodeLabel("SCFR", {
-				label: "Delegating",
+				label: "Delegative",
 				desc: [
 					"Tracking the trajectory of market means due to supposedly overwhelming forces. Delegation to one's \"competitive, market fate\" and that of others.",
 					"Observing & feeling an assured inequity & isolation between oneself and others; the inverse of \"no man's an island\".",
@@ -8238,1004 +8252,1019 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				}
 			}
 		}
-		
-		try {
-			document.getElementById("types").innerHTML = "Generating...";
+
+		function createPopupContent(from) {
+			let html = "<div class='popup-container main-body'>";
+			html += "<div class='close-button clickable onClickClosePopup'><span>X</span></div>";
+			html += "<div class='popup-header'>";
 			
-			createFunctionGroups();
-			createCodeLabels();
+			let topRightTable = {keys:[], values:[]};
 			
-			console.log(codeLabels);
-			console.log(dichots);
-			console.log(tetras);
-			
-			for (const [tkey, t] of Object.entries(tetras)) {
-				// figure out tetra sources
-				// 1 + 2 / 3 + 4
-				let key1 = groupDichotCodes(t.groups[0].concat(t.groups[1]), t.groups[2].concat(t.groups[3]));
-				// 1 + 3 / 2 + 4
-				let key2 = groupDichotCodes(t.groups[0].concat(t.groups[2]), t.groups[1].concat(t.groups[3]));
-				// 1 + 4 / 2 + 3
-				let key3 = groupDichotCodes(t.groups[0].concat(t.groups[3]), t.groups[1].concat(t.groups[2]));
-				
-				console.assert(key1 != key2);
-				console.assert(key1 != key3);
-				console.assert(key2 != key3);
-				
-				let source1 = dichots[key1];
-				let source2 = dichots[key2];
-				let source3 = dichots[key3];
-				
-				console.assert(source1 != source2);
-				console.assert(source1 != source3);
-				console.assert(source2 != source3);
-				
-				codeLabels[tkey].sources = [codeLabels[key1].nameHTML(), codeLabels[key2].nameHTML(), codeLabels[key3].nameHTML()];
-				
-				// reverse engineer how codes were combined
-				function createGroups(source1, source2, source3) {
-					function createGroup(left, right) {
-						let codes = [];
-					
-						for(let j = 0; j < left.codes.length; j++) {
-							for(let k = 0; k < right.codes.length; k++) {
-								let leftCode = left.codes[j];
-								let rightCode = right.codes[k];
-								let result = combineCodes(leftCode, rightCode);
-								if(result[0]) {
-									codes.push([result[1], leftCode, rightCode]);
-								}
-							}
-						}
-						
-						codes = codes.toSorted();
-						let attitudes = expandCodesArr(codes.map((x) => x[0])).toSorted();
-						let extra = source3.left;
-						if(!source3.left.attitudes.includes(attitudes[0])) {
-							extra = source3.right;
-						}
-						
-						let group = {
-							codes: codes,
-							attitudes: attitudes,
-							key: groupCodes(attitudes),
-							sources: [left, right, extra]
-						};
-						
-						return group;
-					}
-					
-					let createdGroups = [];
-					
-					createdGroups.push(createGroup(source1.left, source2.left));
-					createdGroups.push(createGroup(source1.right, source2.right));
-					createdGroups.push(createGroup(source1.left, source2.right));
-					createdGroups.push(createGroup(source1.right, source2.left));
-					
-					console.assert(new Set(createdGroups.map((x) => x.codes.length)).size == 1);
-					console.assert(new Set(createdGroups.map((x) => expandCodesArr(x.codes.map((y) => y[0]))).flat()).size == 16);
-				
-					return createdGroups;
+			for (const [key, value] of Object.entries(from)) {
+				if(key == "key" || key == "label" || key == "names" || key == "desc" || key == "expandedCodes" || key == "expandedNames"
+					|| key == "tetrachotomies" || key == "dichotomies" || key == "octachotomies" || key == "parentDichot" || key == "parentTetra" || key == "attrs") {
+					continue;
 				}
 				
-				let working = [];
-				
-				// 1 + 2
-				working.push({left: source1, right: source2, result: createGroups(source1, source2, source3)});
-				// 1 + 3
-				working.push({left: source1, right: source3, result: createGroups(source1, source3, source2)});
-				// 2 + 3
-				working.push({left: source2, right: source3, result: createGroups(source2, source3, source1)});
-				
-				// give each small group the data it needs
-				let combinedWorking = {};
-				
-				for(let i = 0; i < working.length; i++) {
-					for(let j = 0; j < working[i].result.length; j++) {
-						let s = working[i].result[j];
-						let key = s.key;
-						if(key in combinedWorking) {
-							combinedWorking[key].push(s);
-						} else {
-							combinedWorking[key] = [s];
-						}
-					}
-				}
-				
-				for (const [k, v] of Object.entries(combinedWorking)) {
-					codeLabels[k].working = v;
-					codeLabels[k].sources = v[0].sources.map((x) => codeLabels[x.key].nameHTML()).toSorted();
-				}
-				
-				t.sources = [source1, source2, source3];
-				t.working = working;
-				t.groupSources = [
-					[source1.left, source2.left, source3.left],
-					[source1.right, source2.right, source3.left],
-					[source1.left, source2.right, source3.right],
-					[source1.right, source2.left, source3.right]
-				];
-				
-				function addToPairSources(g, l, r) {
-					let pairCode = groupCodes([l, r]);
-					let pairLabel = codeLabels[pairCode];
-					if("sources" in pairLabel) {
-						pairLabel.sources.push(g);
-					} else {
-						pairLabel.sources = [g];
-					}
+				if((!Array.isArray(value) || value.length == 1)) {
+					topRightTable.keys.push(key);
+					topRightTable.values.push(value);
 				}
 			}
 			
-			{
-				let s = new Set();
-				for (const [key, value] of Object.entries(codeLabels)) {
-					if(s.has(value.nameHTML())) {
-						console.log("Duplicate label " + value.nameHTML());
-					} else {
-						s.add(value.nameHTML());
-					}
-				}
+			html += "<div class='popup-header-left'>";
+			
+			if('label' in from) {
+				html += "<h2>" + getLabelNameHTML(from) + "</h2>";
 			}
 			
-			function createPopupContent(from) {
-				let html = "<div class='popup-container main-body'>";
-				html += "<div class='close-button clickable onClickClosePopup'><span>X</span></div>";
-				html += "<div class='popup-header'>";
-				
-				let topRightTable = {keys:[], values:[]};
-				
-				for (const [key, value] of Object.entries(from)) {
-					if(key == "key" || key == "label" || key == "names" || key == "desc" || key == "expandedCodes" || key == "expandedNames"
-						|| key == "tetrachotomies" || key == "dichotomies" || key == "octachotomies" || key == "parentDichot" || key == "parentTetra" || key == "attrs") {
-						continue;
+			html += "</div><div class='popup-header-right'>";
+			
+			if(topRightTable.keys.length > 0) {
+				html += "<table>";				
+					html += "<tr>";
+					for(let i = 0; i < topRightTable.keys.length; i++) {
+						html += "<th>" + topRightTable.keys[i] + "</th>";
 					}
-					
-					if((!Array.isArray(value) || value.length == 1)) {
-						topRightTable.keys.push(key);
-						topRightTable.values.push(value);
+					html += "</tr><tr>";
+					for(let i = 0; i < topRightTable.values.length; i++) {
+						html += "<td>" + topRightTable.values[i] + "</td>";
 					}
-				}
+					html += "</tr>";				
+				html += "</table>";
+			}
+			
+			html += "</div></div>";
+			
+			if("sources" in from) {
+				html += "<p class='properties'>(" + from.sources.join(" + ") + ")</p>";
+			}
+			
+			if('desc' in from) {
+				html += "<div class='description'>";
 				
-				html += "<div class='popup-header-left'>";
-				
-				if('label' in from) {
-					html += "<h2>" + getLabelNameHTML(from) + "</h2>";
-				}
-				
-				html += "</div><div class='popup-header-right'>";
-				
-				if(topRightTable.keys.length > 0) {
-					html += "<table>";				
-						html += "<tr>";
-						for(let i = 0; i < topRightTable.keys.length; i++) {
-							html += "<th>" + topRightTable.keys[i] + "</th>";
-						}
-						html += "</tr><tr>";
-						for(let i = 0; i < topRightTable.values.length; i++) {
-							html += "<td>" + topRightTable.values[i] + "</td>";
-						}
-						html += "</tr>";				
-					html += "</table>";
-				}
-				
-				html += "</div></div>";
-				
-				if("sources" in from) {
-					html += "<p class='properties'>(" + from.sources.join(" + ") + ")</p>";
-				}
-				
-				if('desc' in from) {
-					html += "<div class='description'>";
-					
-					function writeDesc(a) {
-						if(Array.isArray(a)) {
-							html += "<ul>";
-							for(let i = 0; i < a.length; i++) {
-								let p = a[i];
-								html += "<li>";
-								writeDesc(p);
-								html += "</li>";
-							}
-							html += "</ul>";
-						} else if(a instanceof Object) {
-							for (const [key, value] of Object.entries(a)) {
-								let onClick = "clickable onClickWorkingTitle";
-								if(value.length == 0) {
-									onClick = "";
-								}
-								html += "<div class='working-title " + onClick + "'>" + key + "</div>";
-								html += "<div class='working'>";
-									for(let i = 0; i < value.length; i++) {
-										writeDesc(value[i]);
-									}
-								html += "</div>";
-							}
-						} else {
-							html += "<p>";
-							html += a;
-							html += "</p>";
-						}
-					}
-					
-					for(let i = 0; i < from.desc.length; i++) {
-						writeDesc(from.desc[i]);
-					}
-					
-					html += "</div>";
-				}
-				
-				if(from.working != undefined) {
-					for(let i = 0; i < from.working.length; i++) {
-						html += "<div class='working-title clickable onClickWorkingTitle'>" + codeLabels[from.working[i].sources[0].key].nameHTML() + " + " + codeLabels[from.working[i].sources[1].key].nameHTML() + "</div>";
-						html += "<div class='working'>";
-							html += "<table>";
-							for(let j = 0; j < from.working[i].codes.length; j++) {
-							
-								let leftLabel = codeLabels[groupCode(from.working[i].codes[j][1])];
-								let rightLabel = codeLabels[groupCode(from.working[i].codes[j][2])];
-								let dstLabel = codeLabels[groupCode(from.working[i].codes[j][0])];
-								
-								html += "<tr>";
-									html += "<th>" + leftLabel.nameHTML() + " + " + rightLabel.nameHTML() + "</th>";
-									html += "<th>" + dstLabel.nameHTML() + "</th>";
-								html += "</tr>";
-								html += "<tr>";
-									html += "<td>" + from.working[i].codes[j][1] + " + " + from.working[i].codes[j][2] + "</td>";
-									html += "<td>" + from.working[i].codes[j][0] + "</td>";
-								html += "</tr>";
-								html += "<tr>";
-									html += "<td>" + leftLabel.funcs + " + " + rightLabel.funcs + "</td>";
-									html += "<td>" + dstLabel.funcs + "</td>";
-								html += "</tr>";
-								//html += "<tr>";
-									//html += "<td>" + leftLabel.binary + " + " + rightLabel.binary + "</td>";
-									//html += "<td>" + dstLabel.binary + "</td>";
-								//html += "</tr>";
-								//html += "<tr>";
-									//html += "<td>" + leftLabel.ternary + " + " + rightLabel.ternary + "</td>";
-									//html += "<td>" + dstLabel.ternary + "</td>";
-								//html += "</tr>";
-							}
-						html += "</table>";
-					html += "</div>";
-					}
-				} else if("expandedCodes" in from && from.expandedCodes.length == 2) {
-					let left = codeLabels[groupCode(from.expandedCodes[0])];
-					let right = codeLabels[groupCode(from.expandedCodes[1])];
-					
-					html += "<div class='working-title'>Attitudes</div>";
-					html += "<table class='working block'>";
-						html += "<tr>";
-							html += "<th>Name</th>";
-							html += "<th>" + left.nameHTML() + "</th>";
-							html += "<th>" + right.nameHTML() + "</th>";
-						html += "</tr><tr>";
-							html += "<th>Function</th>";
-							html += "<td>" + left.signed + "</td>";
-							html += "<td>" + right.signed + "</td>";;
-						html += "</tr><tr>";
-							html += "<th>Blocking</th>";
-							html += "<td>" + left.block + "</td>";
-							html += "<td>" + right.block + "</td>";;
-						html += "</tr><tr>";
-							html += "<th>Alternate Blocking</th>";
-							html += "<td>" + left.funcs + "</td>";
-							html += "<td>" + right.funcs + "</td>";;
-						html += "</tr><tr>";
-							html += "<th>Code</th>";
-							html += "<td>" + from.expandedCodes[0] + "</td>";
-							html += "<td>" + from.expandedCodes[1] + "</td>";
-						//html += "</tr><tr>";
-							//html += "<th>Ternary</th>";
-							//html += "<td>" + left.ternary + "</td>";
-							//html += "<td>" + right.ternary + "</td>";
-						html += "</tr>";
-					html += "</table>";
-				}
-				
-				if("dichotomies" in from) {
-					html += "<div class='working-title clickable onClickWorkingTitle'>Dichotomies</div>";
-					html += "<div class='working'>";
+				function writeDesc(a) {
+					if(Array.isArray(a)) {
 						html += "<ul>";
-							for(let i = 0; i < from.dichotomies.length; i++) {
-								let dichot = dichots[from.dichotomies[i]];
-								if(dichot == undefined) {
-									dichot = pairDichots[from.dichotomies[i]];
-								}
-								
-								let dichotLabel = codeLabels[from.dichotomies[i]];
-								let leftLabel = codeLabels[dichot.left.key];
-								let rightLabel = codeLabels[dichot.right.key];
-								let chosenLabel = null;
-								
-								if(dichot.left.attitudes.includes(from.codes[0])) {
-									chosenLabel = leftLabel;
-								} else if(dichot.right.attitudes.includes(from.codes[0])) {
-									chosenLabel = rightLabel;
-								}
-								
-								console.assert(chosenLabel != null);
-								
-								let desc = chosenLabel.desc;
-								html += "<li>" + dichotLabel.nameHTML() + ": " + chosenLabel.nameHTML();
-								if(desc != undefined) {
-									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
-								}
-								html += "</li>";
-							}
+						for(let i = 0; i < a.length; i++) {
+							let p = a[i];
+							html += "<li>";
+							writeDesc(p);
+							html += "</li>";
+						}
 						html += "</ul>";
-					html += "</div>";
+					} else if(a instanceof Object) {
+						for (const [key, value] of Object.entries(a)) {
+							let onClick = "clickable onClickWorkingTitle";
+							if(value.length == 0) {
+								onClick = "";
+							}
+							html += "<div class='working-title " + onClick + "'>" + key + "</div>";
+							html += "<div class='working'>";
+								for(let i = 0; i < value.length; i++) {
+									writeDesc(value[i]);
+								}
+							html += "</div>";
+						}
+					} else {
+						html += "<p>";
+						html += a;
+						html += "</p>";
+					}
 				}
 				
-				if("tetrachotomies" in from) {
-					html += "<div class='working-title clickable onClickWorkingTitle'>Tetrachotomies</div>";
-					html += "<div class='working'>";
-						html += "<ul>";
-							for(let i = 0; i < from.tetrachotomies.length; i++) {
-								let tetra = tetras[from.tetrachotomies[i]];
-								let expandedTetraName = null;
-								if(Array.isArray(tetra)) {
-									expandedTetraName = codeLabels[tetra[1]].nameHTML();
-									tetra = tetra[0];
-								}
-								let tetraLabel = codeLabels[from.tetrachotomies[i]];
-								let chosenLabel = null;
-								
-								for(let j = 0; j < tetra.expandedGroups.length; j++) {
-									if(tetra.expandedGroups[j].includes(from.codes[0])) {
-										chosenLabel = codeLabels[groupCodes(tetra.expandedGroups[j])];
-									}
-								}
-								
-								console.assert(chosenLabel != null);
-								
-								let desc = chosenLabel.desc;
-								html += "<li>" + tetraLabel.nameHTML() + ": " + chosenLabel.nameHTML();
-								if(expandedTetraName != null) {
-									html += " (" + expandedTetraName + ")";
-								}
-								
-								if(desc != undefined) {
-									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
-								}
-								html += "</li>";
-							}
-						html += "</ul>";
-					html += "</div>";
-				}
-				
-				if("octachotomies" in from) {
-					html += "<div class='working-title clickable onClickWorkingTitle'>Octachotomies</div>";
-					html += "<div class='working'>";
-						html += "<ul>";
-							for(let i = 0; i < from.octachotomies.length; i++) {
-								let octa = octas[from.octachotomies[i]];
-								
-								let octaLabel = codeLabels[from.octachotomies[i]];
-								let chosenLabel = null;
-								
-								for(let j = 0; j < octa.expandedGroups.length; j++) {
-									if(octa.expandedGroups[j].includes(from.codes[0])) {
-										chosenLabel = codeLabels[groupCodes(octa.expandedGroups[j])];
-									}
-								}
-								
-								let desc = chosenLabel.desc;
-								html += "<li>" + octaLabel.nameHTML() + ": " + chosenLabel.nameHTML();
-								if(desc != undefined) {
-									html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
-								}
-								html += "</li>";
-							}
-						html += "</ul>";
-					html += "</div>";
+				for(let i = 0; i < from.desc.length; i++) {
+					writeDesc(from.desc[i]);
 				}
 				
 				html += "</div>";
-				
-				return html;
 			}
 			
-			let dichotCells = null;
-			
-			function doPopup(elem, src) {
-				if(!elem._tippy) {
-					let content = createPopupContent(src);
-					let popup = tippy(elem, {
-						content: content, 
-						trigger: 'none', 
-						allowHTML: true, 
-						maxWidth: 200000, 
-						arrow: false, 
-						interactive: true, 
-						boundary: "viewport",
-						appendTo: document.body,
-						onMount: function(inst) {
-							collectLabels(inst.popper);
-						},
-						onShown: function() {
-							currentPopup = popup;
-							addEvent("onClickWorkingTitle", function(a) {
-								onClickWorkingTitle(a.target);
-							});
+			if(from.working != undefined) {
+				for(let i = 0; i < from.working.length; i++) {
+					html += "<div class='working-title clickable onClickWorkingTitle'>" + codeLabels[from.working[i].sources[0].key].nameHTML() + " + " + codeLabels[from.working[i].sources[1].key].nameHTML() + "</div>";
+					html += "<div class='working'>";
+						html += "<table>";
+						for(let j = 0; j < from.working[i].codes.length; j++) {
+						
+							let leftLabel = codeLabels[groupCode(from.working[i].codes[j][1])];
+							let rightLabel = codeLabels[groupCode(from.working[i].codes[j][2])];
+							let dstLabel = codeLabels[groupCode(from.working[i].codes[j][0])];
 							
-							addEvent("onClickClosePopup", function(a) {
-								onClickClosePopup(a.target);
-							});
-						},
-						onHide: function() {
-							currentPopup = null;
-							removeEvent("onClickWorkingTitle");
-							removeEvent("onClickClosePopup");
+							html += "<tr>";
+								html += "<th>" + leftLabel.nameHTML() + " + " + rightLabel.nameHTML() + "</th>";
+								html += "<th>" + dstLabel.nameHTML() + "</th>";
+							html += "</tr>";
+							html += "<tr>";
+								html += "<td>" + from.working[i].codes[j][1] + " + " + from.working[i].codes[j][2] + "</td>";
+								html += "<td>" + from.working[i].codes[j][0] + "</td>";
+							html += "</tr>";
+							html += "<tr>";
+								html += "<td>" + leftLabel.funcs + " + " + rightLabel.funcs + "</td>";
+								html += "<td>" + dstLabel.funcs + "</td>";
+							html += "</tr>";
+							//html += "<tr>";
+								//html += "<td>" + leftLabel.binary + " + " + rightLabel.binary + "</td>";
+								//html += "<td>" + dstLabel.binary + "</td>";
+							//html += "</tr>";
+							//html += "<tr>";
+								//html += "<td>" + leftLabel.ternary + " + " + rightLabel.ternary + "</td>";
+								//html += "<td>" + dstLabel.ternary + "</td>";
+							//html += "</tr>";
 						}
-					});
-						
-					popup.show();
-					return;
+					html += "</table>";
+				html += "</div>";
 				}
+			} else if("expandedCodes" in from && from.expandedCodes.length == 2) {
+				let left = codeLabels[groupCode(from.expandedCodes[0])];
+				let right = codeLabels[groupCode(from.expandedCodes[1])];
 				
-				elem._tippy.show();
+				html += "<div class='working-title'>Attitudes</div>";
+				html += "<table class='working block'>";
+					html += "<tr>";
+						html += "<th>Name</th>";
+						html += "<th>" + left.nameHTML() + "</th>";
+						html += "<th>" + right.nameHTML() + "</th>";
+					html += "</tr><tr>";
+						html += "<th>Function</th>";
+						html += "<td>" + left.signed + "</td>";
+						html += "<td>" + right.signed + "</td>";;
+					html += "</tr><tr>";
+						html += "<th>Blocking</th>";
+						html += "<td>" + left.block + "</td>";
+						html += "<td>" + right.block + "</td>";;
+					html += "</tr><tr>";
+						html += "<th>Alternate Blocking</th>";
+						html += "<td>" + left.funcs + "</td>";
+						html += "<td>" + right.funcs + "</td>";;
+					html += "</tr><tr>";
+						html += "<th>Code</th>";
+						html += "<td>" + from.expandedCodes[0] + "</td>";
+						html += "<td>" + from.expandedCodes[1] + "</td>";
+					//html += "</tr><tr>";
+						//html += "<th>Ternary</th>";
+						//html += "<td>" + left.ternary + "</td>";
+						//html += "<td>" + right.ternary + "</td>";
+					html += "</tr>";
+				html += "</table>";
 			}
 			
-			function onClickWorkingTitle(elem) {
-				let table = elem.nextSibling;
-				$(table).slideToggle(400);
-			}
-			
-			function onClickShowSmallGroups(elem) {
-				let table = elem.nextSibling;
-				if(table.style.display == "block") {
-					$(table).hide(0);
-					elem.innerHTML = "+ Expand Small Groups";
-				} else {
-					$(table).slideToggle(0);
-					elem.innerHTML = "- Hide Small Groups";
-				}
-			}
-			
-			function onClickClosePopup(elem) {
-				if(currentPopup) {
-					currentPopup.hide();
-				}
-			}
-			
-			function onClickType(elem) {
-				let a = document.getElementsByClassName("type-model-container");
-				for(let i = 0; i < a.length; i++) {
-					a[i].style.display = "none";
-				}
-				
-				a = document.getElementById("types-list").getElementsByTagName("li");
-				for(let i = 0; i < a.length; i++) {
-					if(a[i].classList.contains("selected")) {
-						let b = document.getElementById(a[i].id + "-model");
-						let c = b.getElementsByTagName("td");
-						
-						for(let j = 0; j < c.length; j++) {
-							c[j].classList.remove("selected");
-						}
-						
-						a[i].classList.remove("selected");
-					}
-				}
-				
-				let model = document.getElementById(elem.id + "-model");
-				
-				model.style.display = "block";
-				elem.classList.add("selected");
-			}
-			
-			function onClickAttitude(elem) {
-				if(dichotCells != null) {
-					for(let i = 0; i < dichotCells.length; i++) {
-						dichotCells[i].classList.remove("selected");
-					}
-					
-					dichotCells = null;
-				}
-				
-				let a = document.getElementById("attitudes").getElementsByTagName("li");
-				for(let i = 0; i < a.length; i++) {
-					a[i].classList.remove("selected");
-				}
-				
-				let label = codeLabels[elem.dataset.popupkey];
-				dichotCells = label.elements;
-				
-				for(let i = 0; i < dichotCells.length; i++) {
-					dichotCells[i].classList.add("selected");
-				}
-				elem.classList.add("selected");
-			}
-			
-			function onClickTypePairGroupTitle(elem) {
-				let desc = null;
-			
-				switch(elem.innerHTML) {
-					case "Public":
-						desc = polarities[0];
-						break;
-					case "Private":
-						desc = polarities[1];
-						break;
-					case "Bold":
-						desc = polarities[2];
-						break;
-					case "Cautious":
-						desc = polarities[3];
-						break;
-					case "Strong":
-						desc = polarities[4];
-						break;
-					case "Weak":
-						desc = polarities[5];
-						break;
-				}
-				
-				doPopup(elem, desc);
-			}
-			
-			function onClickPopup(elem) {
-				let label = codeLabels[elem.dataset.popupkey];
-				doPopup(elem, label);
-			}
-			
-			function onClickAspect(elem) {
-				let label = functions[Number(elem.dataset.aspectkey)];
-				doPopup(elem, label);
-			}
-			
-			let html = "";
-			html += "<ul id='types-list' class='horiz-list'>";
-			for(let i = 0; i < types.length; i++) {
-				let t = types[i];
-				html += "<li class='clickable onClickType' id='" + t[0] + "'>" + t[0] + "</li>";
-			}
-			html += "</ul>";
-			
-			for(let i = 0; i < types.length; i++) {
-				let t = types[i];
-				let name = t[0];
-				let ego = t[1];
-				
-				html += "<div id='" + name + "-model' class='type-model-container'>";
-					//html += "<h2>" + name + " Model</h2>";
-					//html += "<p>" + t[2] + "</p>";
-					/*
+			if("dichotomies" in from) {
+				html += "<div class='working-title clickable onClickWorkingTitle'>Dichotomies</div>";
+				html += "<div class='working'>";
 					html += "<ul>";
-					for(let j = 0; j < t[3].length; j++) {
-						html += "<li>" + t[3][j] + "</li>";
-					}
-					html += "</ul>";*/
-					
-					let orderedAttitudes = [
-						ego,
-						constructiveCode(ego),
-						obligativeCode(ego),
-						unnaturalCode(ego),
-						abusedCode(ego),
-						repressedCode(ego),
-						indulgantCode(ego),
-						unconsciousCode(ego),
-					];
-					
-					function drawEgo(attitude1, attitude2, title) {
-						let pairKey = groupCodes([attitude1, attitude2]);
-						let pair = codeLabels[pairKey];
-						let aspect1 = 0;
-						let aspect2 = 0;
-						
-						for(let i = 0; i < orderedAttitudes.length; i++) { 
-							if(orderedAttitudes[i] == attitude1) {
-								aspect1 = i;//functions[i].label;
+						for(let i = 0; i < from.dichotomies.length; i++) {
+							let dichot = dichots[from.dichotomies[i]];
+							if(dichot == undefined) {
+								dichot = pairDichots[from.dichotomies[i]];
 							}
 							
-							if(orderedAttitudes[i] == attitude2) {
-								aspect2 = i;//functions[i].label;
+							let dichotLabel = codeLabels[from.dichotomies[i]];
+							let leftLabel = codeLabels[dichot.left.key];
+							let rightLabel = codeLabels[dichot.right.key];
+							let chosenLabel = null;
+							
+							if(dichot.left.attitudes.includes(from.codes[0])) {
+								chosenLabel = leftLabel;
+							} else if(dichot.right.attitudes.includes(from.codes[0])) {
+								chosenLabel = rightLabel;
 							}
+							
+							console.assert(chosenLabel != null);
+							
+							let desc = chosenLabel.desc;
+							html += "<li>" + dichotLabel.nameHTML() + ": " + chosenLabel.nameHTML();
+							if(desc != undefined) {
+								html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+							}
+							html += "</li>";
 						}
-
-						html += "<div class='ego'>";
-							html += "<div class='clickable model-title title'>" + title + "</div>";
-							html += "<div class='ego-title-cell'>";
-								html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
-							html += "</div>";
-							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect1 + "'>" + functions[aspect1].label + "</div>";
-								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
-							html += "</div>";
-							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect2 + "'>" + functions[aspect2].label + "</div>";
-								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude2) + "'>" + getCodeLabel(attitude2).nameHTML() + "</div>";
-							html += "</div>";
-						html += "</div>";
-					}
-					
-					function drawEgoIndexed(v) {
-						let attitude1 = orderedAttitudes[v.indices[0]];
-						let attitude2 = orderedAttitudes[v.indices[1]];
-						let title = v.attrs.join(" + ");
-						drawEgo(attitude1, attitude2, title);
-					}
-					
-					function drawEgoIndexedOpposite(v) {
-						let attitude1 = orderedAttitudes[v.indices[0]];
-						let attitude2 = orderedAttitudes[v.indices[1]];
-						let title = "??";
-						
-						function what(a) {
-							let newCode = [];
-							if(a[0] == "O") newCode.push("S"); else newCode.push("O");
-							if(a[1] == "C") newCode.push("N"); else newCode.push("C");
-							if(a[2] == "F") newCode.push("P"); else newCode.push("F");
-							newCode.push(a[3]);
-							return newCode.join("");
-						}
-						
-						attitude1 = what(attitude1);
-						attitude2 = what(attitude2);
-						
-						drawEgo(attitude1, attitude2, title);
-					}
-					
-					function drawAspectTetra(key, value) {
-						let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
-						
-						let octa = null;
-						let sortedValue = [orderedAttitudes[value[0].indices[0]], orderedAttitudes[value[0].indices[1]]].toSorted();
-						
-						for (const [k, v] of Object.entries(octas)) {
-							let found = false;
-							for(let i = 0; i < v.groups.length; i++) {
-								let group = expandCodesArr(v.groups[i]).toSorted();
-								if(sortedValue[0] == group[0] && sortedValue[1] == group[1]) {
-									found = true;
-									break;
+					html += "</ul>";
+				html += "</div>";
+			}
+			
+			if("tetrachotomies" in from) {
+				html += "<div class='working-title clickable onClickWorkingTitle'>Tetrachotomies</div>";
+				html += "<div class='working'>";
+					html += "<ul>";
+						for(let i = 0; i < from.tetrachotomies.length; i++) {
+							let tetra = tetras[from.tetrachotomies[i]];
+							let expandedTetraName = null;
+							if(Array.isArray(tetra)) {
+								expandedTetraName = codeLabels[tetra[1]].nameHTML();
+								tetra = tetra[0];
+							}
+							let tetraLabel = codeLabels[from.tetrachotomies[i]];
+							let chosenLabel = null;
+							
+							for(let j = 0; j < tetra.expandedGroups.length; j++) {
+								if(tetra.expandedGroups[j].includes(from.codes[0])) {
+									chosenLabel = codeLabels[groupCodes(tetra.expandedGroups[j])];
 								}
 							}
 							
-							if(found) {
-								octa = codeLabels[k];
-								break;
+							console.assert(chosenLabel != null);
+							
+							let desc = chosenLabel.desc;
+							html += "<li>" + tetraLabel.nameHTML() + ": " + chosenLabel.nameHTML();
+							if(expandedTetraName != null) {
+								html += " (" + expandedTetraName + ")";
+							}
+							
+							if(desc != undefined) {
+								html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+							}
+							html += "</li>";
+						}
+					html += "</ul>";
+				html += "</div>";
+			}
+			
+			if("octachotomies" in from) {
+				html += "<div class='working-title clickable onClickWorkingTitle'>Octachotomies</div>";
+				html += "<div class='working'>";
+					html += "<ul>";
+						for(let i = 0; i < from.octachotomies.length; i++) {
+							let octa = octas[from.octachotomies[i]];
+							
+							let octaLabel = codeLabels[from.octachotomies[i]];
+							let chosenLabel = null;
+							
+							for(let j = 0; j < octa.expandedGroups.length; j++) {
+								if(octa.expandedGroups[j].includes(from.codes[0])) {
+									chosenLabel = codeLabels[groupCodes(octa.expandedGroups[j])];
+								}
+							}
+							
+							let desc = chosenLabel.desc;
+							html += "<li>" + octaLabel.nameHTML() + ": " + chosenLabel.nameHTML();
+							if(desc != undefined) {
+								html += ". "  + desc.filter((x) => typeof x == "string").join(" ");
+							}
+							html += "</li>";
+						}
+					html += "</ul>";
+				html += "</div>";
+			}
+			
+			html += "</div>";
+			
+			return html;
+		}
+		
+		function doPopup(elem, src) {
+			if(!elem._tippy) {
+				let content = createPopupContent(src);
+				let popup = tippy(elem, {
+					content: content, 
+					trigger: 'none', 
+					allowHTML: true, 
+					maxWidth: 200000, 
+					arrow: false, 
+					interactive: true, 
+					boundary: "viewport",
+					appendTo: document.body,
+					onMount: function(inst) {
+						collectLabels(inst.popper);
+					},
+					onShown: function() {
+						currentPopup = popup;
+						addEvent("onClickWorkingTitle", function(a) {
+							onClickWorkingTitle(a.target);
+						});
+						
+						addEvent("onClickClosePopup", function(a) {
+							onClickClosePopup(a.target);
+						});
+					},
+					onHide: function() {
+						currentPopup = null;
+						removeEvent("onClickWorkingTitle");
+						removeEvent("onClickClosePopup");
+					}
+				});
+					
+				popup.show();
+				return;
+			}
+			
+			elem._tippy.show();
+		}
+		
+		function onClickWorkingTitle(elem) {
+			let table = elem.nextSibling;
+			$(table).slideToggle(400);
+		}
+		
+		function onClickShowSmallGroups(elem) {
+			let table = elem.nextSibling;
+			if(table.style.display == "block") {
+				$(table).hide(0);
+				elem.innerHTML = "+ Expand Small Groups";
+			} else {
+				$(table).slideToggle(0);
+				elem.innerHTML = "- Hide Small Groups";
+			}
+		}
+		
+		function onClickClosePopup(elem) {
+			if(currentPopup) {
+				currentPopup.hide();
+			}
+		}
+		
+		function onClickType(elem) {
+			let a = document.getElementsByClassName("type-model-container");
+			for(let i = 0; i < a.length; i++) {
+				a[i].style.display = "none";
+			}
+			
+			a = document.getElementById("types-list").getElementsByTagName("li");
+			for(let i = 0; i < a.length; i++) {
+				if(a[i].classList.contains("selected")) {
+					let b = document.getElementById(a[i].id + "-model");
+					let c = b.getElementsByTagName("td");
+					
+					for(let j = 0; j < c.length; j++) {
+						c[j].classList.remove("selected");
+					}
+					
+					a[i].classList.remove("selected");
+				}
+			}
+			
+			let model = document.getElementById(elem.id + "-model");
+			
+			model.style.display = "block";
+			elem.classList.add("selected");
+		}
+		
+		let dichotCells = null;
+		
+		function onClickAttitude(elem) {
+			if(dichotCells != null) {
+				for(let i = 0; i < dichotCells.length; i++) {
+					dichotCells[i].classList.remove("selected");
+				}
+				
+				dichotCells = null;
+			}
+			
+			let a = document.getElementById("attitudes").getElementsByTagName("li");
+			for(let i = 0; i < a.length; i++) {
+				a[i].classList.remove("selected");
+			}
+			
+			let label = codeLabels[elem.dataset.popupkey];
+			dichotCells = label.elements;
+			
+			for(let i = 0; i < dichotCells.length; i++) {
+				dichotCells[i].classList.add("selected");
+			}
+			elem.classList.add("selected");
+		}
+		
+		function onClickTypePairGroupTitle(elem) {
+			let desc = null;
+		
+			switch(elem.innerHTML) {
+				case "Public":
+					desc = polarities[0];
+					break;
+				case "Private":
+					desc = polarities[1];
+					break;
+				case "Bold":
+					desc = polarities[2];
+					break;
+				case "Cautious":
+					desc = polarities[3];
+					break;
+				case "Strong":
+					desc = polarities[4];
+					break;
+				case "Weak":
+					desc = polarities[5];
+					break;
+			}
+			
+			doPopup(elem, desc);
+		}
+	
+		function onClickWhatTheHell(elem) {
+			doPopup(elem, whatTheHellLabel);
+		}
+		
+		function onClickPopup(elem) {
+			let label = codeLabels[elem.dataset.popupkey];
+			doPopup(elem, label);
+		}
+		
+		function onClickAspect(elem) {
+			let label = functions[Number(elem.dataset.aspectkey)];
+			doPopup(elem, label);
+		}
+		
+		try {
+			let html = "<div id='header'>";
+				html += "<span class='clickable onClickSwapTheme'>Theme</span>";
+				html += "<span class='clickable onClickSwapLabels'>Labels</span>";
+				html += "<span class='clickable onClickWhatTheHell'>What Is This?</span>";
+			html += "</div>";
+			html += "<h1>Types</h1>";
+			html += "<div id='intersect'>"
+				html += "<div class='main-body' id='types'>";
+				
+					createFunctionGroups();
+					createCodeLabels();
+					
+					console.log(codeLabels);
+					console.log(dichots);
+					console.log(tetras);
+					
+					for (const [tkey, t] of Object.entries(tetras)) {
+						// figure out tetra sources
+						// 1 + 2 / 3 + 4
+						let key1 = groupDichotCodes(t.groups[0].concat(t.groups[1]), t.groups[2].concat(t.groups[3]));
+						// 1 + 3 / 2 + 4
+						let key2 = groupDichotCodes(t.groups[0].concat(t.groups[2]), t.groups[1].concat(t.groups[3]));
+						// 1 + 4 / 2 + 3
+						let key3 = groupDichotCodes(t.groups[0].concat(t.groups[3]), t.groups[1].concat(t.groups[2]));
+						
+						console.assert(key1 != key2);
+						console.assert(key1 != key3);
+						console.assert(key2 != key3);
+						
+						let source1 = dichots[key1];
+						let source2 = dichots[key2];
+						let source3 = dichots[key3];
+						
+						console.assert(source1 != source2);
+						console.assert(source1 != source3);
+						console.assert(source2 != source3);
+						
+						codeLabels[tkey].sources = [codeLabels[key1].nameHTML(), codeLabels[key2].nameHTML(), codeLabels[key3].nameHTML()];
+						
+						// reverse engineer how codes were combined
+						function createGroups(source1, source2, source3) {
+							function createGroup(left, right) {
+								let codes = [];
+							
+								for(let j = 0; j < left.codes.length; j++) {
+									for(let k = 0; k < right.codes.length; k++) {
+										let leftCode = left.codes[j];
+										let rightCode = right.codes[k];
+										let result = combineCodes(leftCode, rightCode);
+										if(result[0]) {
+											codes.push([result[1], leftCode, rightCode]);
+										}
+									}
+								}
+								
+								codes = codes.toSorted();
+								let attitudes = expandCodesArr(codes.map((x) => x[0])).toSorted();
+								let extra = source3.left;
+								if(!source3.left.attitudes.includes(attitudes[0])) {
+									extra = source3.right;
+								}
+								
+								let group = {
+									codes: codes,
+									attitudes: attitudes,
+									key: groupCodes(attitudes),
+									sources: [left, right, extra]
+								};
+								
+								return group;
+							}
+							
+							let createdGroups = [];
+							
+							createdGroups.push(createGroup(source1.left, source2.left));
+							createdGroups.push(createGroup(source1.right, source2.right));
+							createdGroups.push(createGroup(source1.left, source2.right));
+							createdGroups.push(createGroup(source1.right, source2.left));
+							
+							console.assert(new Set(createdGroups.map((x) => x.codes.length)).size == 1);
+							console.assert(new Set(createdGroups.map((x) => expandCodesArr(x.codes.map((y) => y[0]))).flat()).size == 16);
+						
+							return createdGroups;
+						}
+						
+						let working = [];
+						
+						// 1 + 2
+						working.push({left: source1, right: source2, result: createGroups(source1, source2, source3)});
+						// 1 + 3
+						working.push({left: source1, right: source3, result: createGroups(source1, source3, source2)});
+						// 2 + 3
+						working.push({left: source2, right: source3, result: createGroups(source2, source3, source1)});
+						
+						// give each small group the data it needs
+						let combinedWorking = {};
+						
+						for(let i = 0; i < working.length; i++) {
+							for(let j = 0; j < working[i].result.length; j++) {
+								let s = working[i].result[j];
+								let key = s.key;
+								if(key in combinedWorking) {
+									combinedWorking[key].push(s);
+								} else {
+									combinedWorking[key] = [s];
+								}
 							}
 						}
 						
-						console.assert(octa != null);
+						for (const [k, v] of Object.entries(combinedWorking)) {
+							codeLabels[k].working = v;
+							codeLabels[k].sources = v[0].sources.map((x) => codeLabels[x.key].nameHTML()).toSorted();
+						}
 						
-						html += "<div class='tetra-title title clickable onClickPopup' data-popupkey='" + octa.key + "'>" + octa.label + "</div>";
-						html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
-						html += "<div class='type-model'>";
-							html += "<div class='ego-container'>";
-								drawEgoIndexed(value[0]);
-								drawEgoIndexed(value[1]);
+						t.sources = [source1, source2, source3];
+						t.working = working;
+						t.groupSources = [
+							[source1.left, source2.left, source3.left],
+							[source1.right, source2.right, source3.left],
+							[source1.left, source2.right, source3.right],
+							[source1.right, source2.left, source3.right]
+						];
+						
+						function addToPairSources(g, l, r) {
+							let pairCode = groupCodes([l, r]);
+							let pairLabel = codeLabels[pairCode];
+							if("sources" in pairLabel) {
+								pairLabel.sources.push(g);
+							} else {
+								pairLabel.sources = [g];
+							}
+						}
+					}
+					
+					{
+						let s = new Set();
+						for (const [key, value] of Object.entries(codeLabels)) {
+							if(s.has(value.nameHTML())) {
+								console.log("Duplicate label " + value.nameHTML());
+							} else {
+								s.add(value.nameHTML());
+							}
+						}
+					}
+					
+					html += "<ul id='types-list' class='horiz-list'>";
+					for(let i = 0; i < types.length; i++) {
+						let t = types[i];
+						html += "<li class='clickable onClickType' id='" + t[0] + "'>" + t[0] + "</li>";
+					}
+					html += "</ul>";
+					
+					for(let i = 0; i < types.length; i++) {
+						let t = types[i];
+						let name = t[0];
+						let ego = t[1];
+						
+						html += "<div id='" + name + "-model' class='type-model-container'>";
+							//html += "<h2>" + name + " Model</h2>";
+							//html += "<p>" + t[2] + "</p>";
+							/*
+							html += "<ul>";
+							for(let j = 0; j < t[3].length; j++) {
+								html += "<li>" + t[3][j] + "</li>";
+							}
+							html += "</ul>";*/
+							
+							let orderedAttitudes = [
+								ego,
+								constructiveCode(ego),
+								obligativeCode(ego),
+								unnaturalCode(ego),
+								abusedCode(ego),
+								repressedCode(ego),
+								indulgantCode(ego),
+								unconsciousCode(ego),
+							];
+							
+							function drawEgo(attitude1, attitude2, title) {
+								let pairKey = groupCodes([attitude1, attitude2]);
+								let pair = codeLabels[pairKey];
+								let aspect1 = 0;
+								let aspect2 = 0;
+								
+								for(let i = 0; i < orderedAttitudes.length; i++) { 
+									if(orderedAttitudes[i] == attitude1) {
+										aspect1 = i;//functions[i].label;
+									}
+									
+									if(orderedAttitudes[i] == attitude2) {
+										aspect2 = i;//functions[i].label;
+									}
+								}
+
+								html += "<div class='ego'>";
+									html += "<div class='clickable model-title title'>" + title + "</div>";
+									html += "<div class='ego-title-cell'>";
+										html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
+									html += "</div>";
+									html += "<div class='function'>";
+										html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect1 + "'>" + functions[aspect1].label + "</div>";
+										html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
+									html += "</div>";
+									html += "<div class='function'>";
+										html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect2 + "'>" + functions[aspect2].label + "</div>";
+										html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude2) + "'>" + getCodeLabel(attitude2).nameHTML() + "</div>";
+									html += "</div>";
+								html += "</div>";
+							}
+							
+							function drawEgoIndexed(v) {
+								let attitude1 = orderedAttitudes[v.indices[0]];
+								let attitude2 = orderedAttitudes[v.indices[1]];
+								let title = v.attrs.join(" + ");
+								drawEgo(attitude1, attitude2, title);
+							}
+							
+							function drawEgoIndexedOpposite(v) {
+								let attitude1 = orderedAttitudes[v.indices[0]];
+								let attitude2 = orderedAttitudes[v.indices[1]];
+								let title = "??";
+								
+								function what(a) {
+									let newCode = [];
+									if(a[0] == "O") newCode.push("S"); else newCode.push("O");
+									if(a[1] == "C") newCode.push("N"); else newCode.push("C");
+									if(a[2] == "F") newCode.push("P"); else newCode.push("F");
+									newCode.push(a[3]);
+									return newCode.join("");
+								}
+								
+								attitude1 = what(attitude1);
+								attitude2 = what(attitude2);
+								
+								drawEgo(attitude1, attitude2, title);
+							}
+							
+							function drawAspectTetra(key, value) {
+								let tetraTitle = key.split(" ").map((x) => aspectDichots[Number(x)].name).join(" + ");
+								
+								let octa = null;
+								let sortedValue = [orderedAttitudes[value[0].indices[0]], orderedAttitudes[value[0].indices[1]]].toSorted();
+								
+								for (const [k, v] of Object.entries(octas)) {
+									let found = false;
+									for(let i = 0; i < v.groups.length; i++) {
+										let group = expandCodesArr(v.groups[i]).toSorted();
+										if(sortedValue[0] == group[0] && sortedValue[1] == group[1]) {
+											found = true;
+											break;
+										}
+									}
+									
+									if(found) {
+										octa = codeLabels[k];
+										break;
+									}
+								}
+								
+								console.assert(octa != null);
+								
+								html += "<div class='tetra-title title clickable onClickPopup' data-popupkey='" + octa.key + "'>" + octa.label + "</div>";
+								html += "<div class='tetra-title subtitle clickable'>" + tetraTitle + "</div>";
+								html += "<div class='type-model'>";
+									html += "<div class='ego-container'>";
+										drawEgoIndexed(value[0]);
+										drawEgoIndexed(value[1]);
+									html += "</div>";
+									html += "<div class='ego-container'>";
+										drawEgoIndexed(value[2]);
+										drawEgoIndexed(value[3]);
+									html += "</div>";
+									html += "<div class='ego-container'>";
+										drawEgoIndexedOpposite(value[0]);
+										drawEgoIndexedOpposite(value[1]);
+									html += "</div>";
+									html += "<div class='ego-container'>";
+										drawEgoIndexedOpposite(value[2]);
+										drawEgoIndexedOpposite(value[3]);
+									html += "</div>";
+								html += "</div>";
+							}
+							
+							function drawDichotTable(dichot) {
+								let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+								let groupKey = groupCodes(attitudes);
+								let group = codeLabels[groupKey];
+								
+								html += "<div class='type-pair-group'>";
+									html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
+									html += "<div class='clickable subtitle onClickPopup' data-popupkey='" + groupKey + "'>" + group.nameHTML() + "</div>";
+								html += "</div>";
+							}
+							
+							function drawAspectDichot(dichots) {
+								let dichot = dichots.dichots;
+								let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
+								
+								let groupKey = groupCodes(attitudes);
+								let group = codeLabels[groupKey];
+								html += "<div class='type-pair-groups-outer'>";
+									html += "<div class='type-dichot-title title clickable'>" + dichots.name + "</div>";
+									html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + group.parentTetra.key + "'>" + group.parentTetra.nameHTML() + "</div>";
+									html += "<div class='type-pair-groups'>";
+										drawDichotTable(dichot[0]);
+										drawDichotTable(dichot[1]);
+									html += "</div>";
+									html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
+									html += "<div class='dichotomy-small-groups'>";
+										for (const [key, value] of Object.entries(aspectTetras)) {
+											if(value[0].attrs.some((x) => x == dichot[0].name || x == dichot[1].name)) {
+												let newvalue = [null, null, null, null];
+												
+												// reorder
+												for(let i = 0; i < value.length; i++) {
+													if(value[i].attrs.some((x) => x == dichot[0].name)) {
+														if(newvalue[0] == null) {
+															newvalue[0] = value[i];
+														} else {
+															console.assert(newvalue[1] == null);
+															newvalue[1] = value[i];
+														}
+													} else {
+														console.assert(value[i].attrs.some((x) => x == dichot[1].name));
+														if(newvalue[2] == null) {
+															newvalue[2] = value[i];
+														} else {
+															console.assert(newvalue[3] == null);
+															newvalue[3] = value[i];
+														}
+													}
+												}
+												
+												console.assert(!newvalue.some((x) => x == null));
+												drawAspectTetra(key, newvalue);
+											}
+										}
+									html += "</div>";
+								html += "</div>";
+							}
+							
+							html += "<h2>" + name + " Blockings</h2>";
+							for (const [key, value] of Object.entries(aspectTetras)) {
+								drawAspectTetra(key, value);
+							}
+							
+							let dichotKey = groupCodes(orderedAttitudes);
+							let dichotLabel = codeLabels[dichotKey];
+							html += "<h2>" + name + " Aspect Dichotomies</h2>";
+							html += "<div class='type-dichot-title title clickable onClickPopup' data-popupkey='" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.nameHTML() + "</div>";
+							html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + dichotKey + "'>" + dichotLabel.nameHTML() + "</div>";
+							html += "<div class='type-pair-groups-container'>";
+								for(let i = 0; i < aspectDichots.length; i++) {
+									drawAspectDichot(aspectDichots[i]);
+								}
 							html += "</div>";
-							html += "<div class='ego-container'>";
-								drawEgoIndexed(value[2]);
-								drawEgoIndexed(value[3]);
+							
+						html += "</div>";
+					}
+			
+				html += "</div>";
+				html += "<h1>Attitudes</h1>";
+				html += "<div class=\"main-body\" id='attitudes'>";
+			
+					html += "<ul class='horiz-list' id='attitudes'>";
+					for(let i = 0; i < fullCodes.length; i++) {
+						let key = groupCode(fullCodes[i]);
+						let label = codeLabels[key];
+						html += "<li class='clickable onClickAttitude' data-popupkey='" + key + "'>" + label.nameHTML() + "</li>";
+					}
+					html += "</ul>";
+						
+					function writePair(pairCodes) {
+						let expandedCodes = expandCodesArr(pairCodes);
+						let pairLabel = getCodeLabelArr(pairCodes);
+						let pairLabelName = pairLabel.nameHTML();
+						
+						html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " onClickPopup' data-popupkey='" + pairLabel.key + "'>";
+							
+							if(detailedTables) {
+								html += "<b>" + pairLabelName + "</b><br />";
+								html += expandedCodes.toSorted().join(" ") + "<br />";
+								html += expandedCodes.toSorted().map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+								html += expandedCodes.toSorted().map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
+							} else {
+								html += pairLabelName + "<br />";
+							}
+						html += "</div>";
+					}
+					
+					function writePairs(pair1, pair2) {
+						let key = groupDichotCodes(pair1, pair2);
+						let label = getCodeLabelOr(key, "??");
+						
+						if(label == "??" && showMissingLabels) {
+							label = "[\"" + pair1.join("\",\"") + "\"],[\"" + pair2.join("\",\"") + "\"]";
+						}
+						
+						if(label != "??") {
+							html += "<div class='small-pair-group-title subtitle2 clickable onClickPopup' data-popupkey='" + key + "'>" + label + "</div>";
+						}
+						html += "<div class='small-pair-group'>";
+							writePair(pair1);
+							writePair(pair2);
+						html += "</div>";
+					}
+					
+					function writeSmallGroup(tetraLabel, group) {
+						html += "<div class='small-group'>";
+							let smallGroupCodes = expandCodesArr(group.codes.map((x => x[0])));
+							let smallGroupKey = groupCodes(smallGroupCodes);
+							let smallGroupLabel = codeLabels[smallGroupKey];
+							let smallGroupName = smallGroupLabel.nameHTML();
+							
+							html += "<div class='small-group-title title clickable onClickPopup " + smallGroupCodes.join(" ") + "' data-popupkey='" + smallGroupKey + "'>";
+								
+								if(detailedTables) {
+									html += "<b>" + smallGroupName + "</b><br />";
+								} else {
+									html += smallGroupName + "<br />";
+								}
+								
+								if(detailedTables) {
+									html += group.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ") + "<br />";
+									html += group.codes.map((x) => x[1] + " + " + x[2] + " = " + x[0]).join("<br />") + "<br />";
+									
+									html += group.codes.map((x) => originalToFunctionCode(x[0])).join(" ") + "<br />";
+									html += group.attitudes.join(" ") + "<br />";
+									html += group.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+									html += group.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
+								}
 							html += "</div>";
-							html += "<div class='ego-container'>";
-								drawEgoIndexedOpposite(value[0]);
-								drawEgoIndexedOpposite(value[1]);
-							html += "</div>";
-							html += "<div class='ego-container'>";
-								drawEgoIndexedOpposite(value[2]);
-								drawEgoIndexedOpposite(value[3]);
+								
+							html += "<div class='small-pair-table'>";
+								writePairs([smallGroupCodes[0], smallGroupCodes[1]], [smallGroupCodes[2], smallGroupCodes[3]]);
+								writePairs([smallGroupCodes[0], smallGroupCodes[2]], [smallGroupCodes[1], smallGroupCodes[3]]);
+								writePairs([smallGroupCodes[0], smallGroupCodes[3]], [smallGroupCodes[1], smallGroupCodes[2]]);
 							html += "</div>";
 						html += "</div>";
 					}
 					
-					function drawDichotTable(dichot) {
-						let attitudes = Array.from(new Set(dichot.pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
-						let groupKey = groupCodes(attitudes);
-						let group = codeLabels[groupKey];
-						
-						html += "<div class='type-pair-group'>";
-							html += "<div class='clickable title onClickTypePairGroupTitle'>" + dichot.name + "</div>";
-							html += "<div class='clickable subtitle onClickPopup' data-popupkey='" + groupKey + "'>" + group.nameHTML() + "</div>";
-						html += "</div>";
-					}
+					html += "<h2>Dichotomies</h2>";
 					
-					function drawAspectDichot(dichots) {
-						let dichot = dichots.dichots;
-						let attitudes = Array.from(new Set(dichot[0].pairs.flatMap((x) => x.indices.map((y) => orderedAttitudes[y]))));
-						
-						let groupKey = groupCodes(attitudes);
-						let group = codeLabels[groupKey];
-						html += "<div class='type-pair-groups-outer'>";
-							html += "<div class='type-dichot-title title clickable'>" + dichots.name + "</div>";
-							html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + group.parentTetra.key + "'>" + group.parentTetra.nameHTML() + "</div>";
-							html += "<div class='type-pair-groups'>";
-								drawDichotTable(dichot[0]);
-								drawDichotTable(dichot[1]);
+					for (const [dkey, d] of Object.entries(dichots)) {
+						let dichotLabel = codeLabels[dkey];
+						let dichotLeftLabel = codeLabels[d.left.key];
+						let dichotRightLabel = codeLabels[d.right.key];
+						let dichotLeftName = dichotLeftLabel.nameHTML();
+						let dichotRightName = dichotRightLabel.nameHTML();
+						let dichotName = dichotLabel.nameHTML();
+			
+						html += "<div class='dichotomy-table'>";
+							html += "<div class='dichotomy-title subtitle clickable onClickPopup' data-popupkey='" + dkey + "'>" + dichotName + "</div>";
+							html += "<div class='dichotomy-split'>";
+								html += "<div class='dichotomy title clickable " + d.left.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.left.key + "'>";
+									html += dichotLeftName + "<br />";
+									if(detailedTables) {
+										html += dichotLeftLabel.codes.join(" ") + "<br />";
+										html += dichotLeftLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+										html += d.left.attitudes.join(" ") + "<br />";
+										html += d.left.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+										html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
+									}
+								html += "</div>";
+								html += "<div class='dichotomy title clickable " + d.right.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.right.key + "'>";
+									html += dichotRightName + "<br />";
+									if(detailedTables) {
+										html += dichotRightLabel.codes.join(" ") + "<br />";
+										html += dichotRightLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+										html += d.right.attitudes.join(" ") + "<br />";
+										html += d.right.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
+										html += d.right.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
+									}
+								html += "</div>";
 							html += "</div>";
 							html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
 							html += "<div class='dichotomy-small-groups'>";
-								for (const [key, value] of Object.entries(aspectTetras)) {
-									if(value[0].attrs.some((x) => x == dichot[0].name || x == dichot[1].name)) {
-										let newvalue = [null, null, null, null];
-										
-										// reorder
-										for(let i = 0; i < value.length; i++) {
-											if(value[i].attrs.some((x) => x == dichot[0].name)) {
-												if(newvalue[0] == null) {
-													newvalue[0] = value[i];
+						
+							for (const [tkey, t] of Object.entries(tetras)) {
+								if(t.sources.some((x) => x == d)) {
+									let tetraLabel = codeLabels[tkey];
+									
+									html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
+										html += tetraLabel.nameHTML();
+										if(detailedTables) {
+											html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
+										}
+									html += "</div>";
+									
+									let newSources = t.sources.filter((x) => x != d);
+									let createdGroups = [null, null, null, null];
+									
+									for(let i = 0; i < t.working.length; i++) {
+										if(newSources.includes(t.working[i].left) && newSources.includes(t.working[i].right)) {
+											
+											// reorder...
+											for(var j = 0; j < t.working[i].result.length; j++) {
+												if(d.left.attitudes.includes(t.working[i].result[j].attitudes[0])) {
+													if(createdGroups[0] == null) {
+														createdGroups[0] = t.working[i].result[j];
+													} else if(createdGroups[1] == null) {
+														createdGroups[1] = t.working[i].result[j];
+													} else {
+														console.assert(false);
+													}
+												} else if(d.right.attitudes.includes(t.working[i].result[j].attitudes[0])) {
+													if(createdGroups[2] == null) {
+														createdGroups[2] = t.working[i].result[j];
+													} else if(createdGroups[3] == null) {
+														createdGroups[3] = t.working[i].result[j];
+													} else {
+														console.assert(false);
+													}
 												} else {
-													console.assert(newvalue[1] == null);
-													newvalue[1] = value[i];
-												}
-											} else {
-												console.assert(value[i].attrs.some((x) => x == dichot[1].name));
-												if(newvalue[2] == null) {
-													newvalue[2] = value[i];
-												} else {
-													console.assert(newvalue[3] == null);
-													newvalue[3] = value[i];
+													console.assert(false);
 												}
 											}
+											
+											break;
 										}
-										
-										console.assert(!newvalue.some((x) => x == null));
-										drawAspectTetra(key, newvalue);
 									}
+									
+									console.assert(!createdGroups.some((x) => x == null));
+									
+									html += "<div class='small-group-cell'>";
+										html += "<div class='small-group-column'>";
+											writeSmallGroup(tetraLabel, createdGroups[0]);
+											writeSmallGroup(tetraLabel, createdGroups[1]);
+										html += "</div>";
+										html += "<div class='small-group-column'>";
+											writeSmallGroup(tetraLabel, createdGroups[2]);
+											writeSmallGroup(tetraLabel, createdGroups[3]);
+										html += "</div>";
+									html += "</div>";
 								}
+							}
 							html += "</div>";
 						html += "</div>";
 					}
 					
-					html += "<h2>" + name + " Blockings</h2>";
-					for (const [key, value] of Object.entries(aspectTetras)) {
-						drawAspectTetra(key, value);
-					}
+					html += "<h2>Tetrachotomies (Small Groups)</h2>";
 					
-					let dichotKey = groupCodes(orderedAttitudes);
-					let dichotLabel = codeLabels[dichotKey];
-					html += "<h2>" + name + " Aspect Dichotomies</h2>";
-					html += "<div class='type-dichot-title title clickable onClickPopup' data-popupkey='" + dichotLabel.parentDichot.key + "'>" + dichotLabel.parentDichot.nameHTML() + "</div>";
-					html += "<div class='type-dichot-title subtitle clickable onClickPopup' data-popupkey='" + dichotKey + "'>" + dichotLabel.nameHTML() + "</div>";
-					html += "<div class='type-pair-groups-container'>";
-						for(let i = 0; i < aspectDichots.length; i++) {
-							drawAspectDichot(aspectDichots[i]);
-						}
-					html += "</div>";
-					
-				html += "</div>";
-			}
-		
-			document.getElementById("types").innerHTML = html;
-			
-			html = "<ul class='horiz-list' id='attitudes'>";
-			for(let i = 0; i < fullCodes.length; i++) {
-				let key = groupCode(fullCodes[i]);
-				let label = codeLabels[key];
-				html += "<li class='clickable onClickAttitude' data-popupkey='" + key + "'>" + label.nameHTML() + "</li>";
-			}
-			html += "</ul>";
-				
-			function writePair(pairCodes) {
-				let expandedCodes = expandCodesArr(pairCodes);
-				let pairLabel = getCodeLabelArr(pairCodes);
-				let pairLabelName = pairLabel.nameHTML();
-				
-				html += "<div class='small-pair subtitle clickable " + expandCodesArr(pairCodes).join(" ") + " onClickPopup' data-popupkey='" + pairLabel.key + "'>";
-					
-					if(detailedTables) {
-						html += "<b>" + pairLabelName + "</b><br />";
-						html += expandedCodes.toSorted().join(" ") + "<br />";
-						html += expandedCodes.toSorted().map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-						html += expandedCodes.toSorted().map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
-					} else {
-						html += pairLabelName + "<br />";
-					}
-				html += "</div>";
-			}
-			
-			function writePairs(pair1, pair2) {
-				let key = groupDichotCodes(pair1, pair2);
-				let label = getCodeLabelOr(key, "??");
-				
-				if(label == "??" && showMissingLabels) {
-					label = "[\"" + pair1.join("\",\"") + "\"],[\"" + pair2.join("\",\"") + "\"]";
-				}
-				
-				if(label != "??") {
-					html += "<div class='small-pair-group-title subtitle2 clickable onClickPopup' data-popupkey='" + key + "'>" + label + "</div>";
-				}
-				html += "<div class='small-pair-group'>";
-					writePair(pair1);
-					writePair(pair2);
-				html += "</div>";
-			}
-			
-			function writeSmallGroup(tetraLabel, group) {
-				html += "<div class='small-group'>";
-					let smallGroupCodes = expandCodesArr(group.codes.map((x => x[0])));
-					let smallGroupKey = groupCodes(smallGroupCodes);
-					let smallGroupLabel = codeLabels[smallGroupKey];
-					let smallGroupName = smallGroupLabel.nameHTML();
-					
-					html += "<div class='small-group-title title clickable onClickPopup " + smallGroupCodes.join(" ") + "' data-popupkey='" + smallGroupKey + "'>";
-						
-						if(detailedTables) {
-							html += "<b>" + smallGroupName + "</b><br />";
-						} else {
-							html += smallGroupName + "<br />";
-						}
-						
-						if(detailedTables) {
-							html += group.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ") + "<br />";
-							html += group.codes.map((x) => x[1] + " + " + x[2] + " = " + x[0]).join("<br />") + "<br />";
-							
-							html += group.codes.map((x) => originalToFunctionCode(x[0])).join(" ") + "<br />";
-							html += group.attitudes.join(" ") + "<br />";
-							html += group.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-							html += group.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
-						}
-					html += "</div>";
-						
-					html += "<div class='small-pair-table'>";
-						writePairs([smallGroupCodes[0], smallGroupCodes[1]], [smallGroupCodes[2], smallGroupCodes[3]]);
-						writePairs([smallGroupCodes[0], smallGroupCodes[2]], [smallGroupCodes[1], smallGroupCodes[3]]);
-						writePairs([smallGroupCodes[0], smallGroupCodes[3]], [smallGroupCodes[1], smallGroupCodes[2]]);
-					html += "</div>";
-				html += "</div>";
-			}
-			
-			html += "<h2>Dichotomies</h2>";
-			
-			for (const [dkey, d] of Object.entries(dichots)) {
-				let dichotLabel = codeLabels[dkey];
-				let dichotLeftLabel = codeLabels[d.left.key];
-				let dichotRightLabel = codeLabels[d.right.key];
-				let dichotLeftName = dichotLeftLabel.nameHTML();
-				let dichotRightName = dichotRightLabel.nameHTML();
-				let dichotName = dichotLabel.nameHTML();
-	
-				html += "<div class='dichotomy-table'>";
-					html += "<div class='dichotomy-title subtitle clickable onClickPopup' data-popupkey='" + dkey + "'>" + dichotName + "</div>";
-					html += "<div class='dichotomy-split'>";
-						html += "<div class='dichotomy title clickable " + d.left.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.left.key + "'>";
-							html += dichotLeftName + "<br />";
-							if(detailedTables) {
-								html += dichotLeftLabel.codes.join(" ") + "<br />";
-								html += dichotLeftLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-								html += d.left.attitudes.join(" ") + "<br />";
-								html += d.left.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-								html += d.left.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
-							}
-						html += "</div>";
-						html += "<div class='dichotomy title clickable " + d.right.attitudes.join(" ") + " onClickPopup' data-popupkey='" + d.right.key + "'>";
-							html += dichotRightName + "<br />";
-							if(detailedTables) {
-								html += dichotRightLabel.codes.join(" ") + "<br />";
-								html += dichotRightLabel.codes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-								html += d.right.attitudes.join(" ") + "<br />";
-								html += d.right.attitudes.map((x) => originalToFunctionCode(x)).join(" ") + "<br />";
-								html += d.right.attitudes.map((x) => originalToSocionicsCode(x)).join(" ") + "<br />";
-							}
-						html += "</div>";
-					html += "</div>";
-					html += "<div class='dichotomy-small-groups-title clickable subtitle onClickShowSmallGroups'>+ Expand Small Groups</div>";
-					html += "<div class='dichotomy-small-groups'>";
-				
 					for (const [tkey, t] of Object.entries(tetras)) {
-						if(t.sources.some((x) => x == d)) {
-							let tetraLabel = codeLabels[tkey];
-							
-							html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
-								html += tetraLabel.nameHTML();
-								if(detailedTables) {
-									html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
-								}
-							html += "</div>";
-							
-							let newSources = t.sources.filter((x) => x != d);
-							let createdGroups = [null, null, null, null];
-							
-							for(let i = 0; i < t.working.length; i++) {
-								if(newSources.includes(t.working[i].left) && newSources.includes(t.working[i].right)) {
-									
-									// reorder...
-									for(var j = 0; j < t.working[i].result.length; j++) {
-										if(d.left.attitudes.includes(t.working[i].result[j].attitudes[0])) {
-											if(createdGroups[0] == null) {
-												createdGroups[0] = t.working[i].result[j];
-											} else if(createdGroups[1] == null) {
-												createdGroups[1] = t.working[i].result[j];
-											} else {
-												console.assert(false);
-											}
-										} else if(d.right.attitudes.includes(t.working[i].result[j].attitudes[0])) {
-											if(createdGroups[2] == null) {
-												createdGroups[2] = t.working[i].result[j];
-											} else if(createdGroups[3] == null) {
-												createdGroups[3] = t.working[i].result[j];
-											} else {
-												console.assert(false);
-											}
-										} else {
-											console.assert(false);
-										}
-									}
-									
-									break;
-								}
+						let tetraLabel = codeLabels[tkey];
+						html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
+							html += tetraLabel.nameHTML();
+							if(detailedTables) {
+								html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
 							}
-							
-							console.assert(!createdGroups.some((x) => x == null));
-							
-							html += "<div class='small-group-cell'>";
-								html += "<div class='small-group-column'>";
-									writeSmallGroup(tetraLabel, createdGroups[0]);
-									writeSmallGroup(tetraLabel, createdGroups[1]);
+						html += "</div>";
+						
+						html += "<div class='small-group-cell'>";
+							html += "<div class='small-group-column'>";
+								writeSmallGroup(tetraLabel, t.working[0].result[0]);
+								writeSmallGroup(tetraLabel, t.working[0].result[1]);
+							html += "</div>";
+							html += "<div class='small-group-column'>";
+								writeSmallGroup(tetraLabel, t.working[0].result[2]);
+								writeSmallGroup(tetraLabel, t.working[0].result[3]);
+							html += "</div>";
+						html += "</div>";
+					}
+					
+					html += "<h2>Octachotomies</h2>";
+					
+					for (const [pkey, p] of Object.entries(octas)) {
+						let pairLabel = codeLabels[pkey];
+						html += "<div class='octa-title title clickable onClickPopup' data-popupkey='" + pkey + "'>";
+							html += pairLabel.nameHTML();
+						html += "</div>";
+						
+						html += "<div class='small-group-cell'>";
+							html += "<div class='small-pair-table2'>";
+								html += "<div class='small-pair-group'>";
+									writePair(p.groups[0]);
+									writePair(p.groups[1]);
 								html += "</div>";
-								html += "<div class='small-group-column'>";
-									writeSmallGroup(tetraLabel, createdGroups[2]);
-									writeSmallGroup(tetraLabel, createdGroups[3]);
+								html += "<div class='small-pair-group'>";
+									writePair(p.groups[2]);
+									writePair(p.groups[3]);
 								html += "</div>";
 							html += "</div>";
-						}
+							html += "<div class='small-pair-table2'>";
+								html += "<div class='small-pair-group'>";
+									writePair(p.groups[4]);
+									writePair(p.groups[5]);
+								html += "</div>";
+								html += "<div class='small-pair-group'>";
+									writePair(p.groups[6]);
+									writePair(p.groups[7]);
+								html += "</div>";
+							html += "</div>";
+						html += "</div>";
 					}
-					html += "</div>";
-				html += "</div>";
-			}
-			
-			html += "<h2>Tetrachotomies (Small Groups)</h2>";
-			
-			for (const [tkey, t] of Object.entries(tetras)) {
-				let tetraLabel = codeLabels[tkey];
-				html += "<div class='tetra-title subtitle clickable onClickPopup' data-popupkey='" + tkey + "'>";
-					html += tetraLabel.nameHTML();
-					if(detailedTables) {
-						html += "<br />" + t.sources.map((x) => codeLabels[x.key].nameHTML()).join(" + ");
-					}
-				html += "</div>";
 				
-				html += "<div class='small-group-cell'>";
-					html += "<div class='small-group-column'>";
-						writeSmallGroup(tetraLabel, t.working[0].result[0]);
-						writeSmallGroup(tetraLabel, t.working[0].result[1]);
-					html += "</div>";
-					html += "<div class='small-group-column'>";
-						writeSmallGroup(tetraLabel, t.working[0].result[2]);
-						writeSmallGroup(tetraLabel, t.working[0].result[3]);
-					html += "</div>";
 				html += "</div>";
-			}
-			
-			html += "<h2>Octachotomies</h2>";
-			
-			for (const [pkey, p] of Object.entries(octas)) {
-				let pairLabel = codeLabels[pkey];
-				html += "<div class='octa-title title clickable onClickPopup' data-popupkey='" + pkey + "'>";
-					html += pairLabel.nameHTML();
-				html += "</div>";
-				
-				html += "<div class='small-group-cell'>";
-					html += "<div class='small-pair-table2'>";
-						html += "<div class='small-pair-group'>";
-							writePair(p.groups[0]);
-							writePair(p.groups[1]);
-						html += "</div>";
-						html += "<div class='small-pair-group'>";
-							writePair(p.groups[2]);
-							writePair(p.groups[3]);
-						html += "</div>";
-					html += "</div>";
-					html += "<div class='small-pair-table2'>";
-						html += "<div class='small-pair-group'>";
-							writePair(p.groups[4]);
-							writePair(p.groups[5]);
-						html += "</div>";
-						html += "<div class='small-pair-group'>";
-							writePair(p.groups[6]);
-							writePair(p.groups[7]);
-						html += "</div>";
-					html += "</div>";
-				html += "</div>";
-			}
-	
-			document.getElementById("attitudes").innerHTML = html;
+			html += "</div>";
+
+			document.getElementById("gendst").innerHTML = html;
 			
 			addEvent("onClickType", function(a) {
 				onClickType(a.target);
@@ -9271,6 +9300,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			addEvent("onClickSwapLabels", function(a) {
 				swapLabels();
+			});
+			
+			addEvent("onClickWhatTheHell", function(a) {
+				onClickWhatTheHell(a.target);
 			});
 
 			for(let i = 0; i < fullCodes.length; i++) {
