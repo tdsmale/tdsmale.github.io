@@ -477,6 +477,34 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			}
 		}
 		
+		function getLabelName(label) {
+			if("socionics" in this) {
+				return label.socionics;
+			}
+			
+			return label.label;
+		}
+		
+		function getLabelNameHTML(label) {
+			if("socionics" in label) {
+				return "<span class='default-label'>" + label.label + "</span><span class='socionics-label'>" + label.socionics + "</span>";
+			}
+			
+			return label.label;
+		}
+		
+		const CodeLabelPrototype = {
+			label: "",
+		
+			name() {
+				return getLabelName(this);
+			},
+
+			nameHTML() {
+				return getLabelNameHTML(this);
+			}
+		};
+		
 		function logErr(msg) {
 			document.getElementById("logger").innerHTML	+= msg + "<br />";
 		}
@@ -685,11 +713,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			{
 				label: "Obligative",
 				socionics: "Role",
-				desc: ["Attitude felt as comfortable, but as a means to an end."]
+				desc: ["Attitude felt more as a temporary means to an end."]
 			},
 			{
 				label: "Painful",
-				socionics: "Mobilizing",
+				socionics: "Suggestive",
 				desc: ["Attitude felt as most foreign, painful or unnatural to engage in."]
 			},
 			{
@@ -704,7 +732,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			},
 			{
 				label: "Indulgant",
-				socionics: "Suggestive",
+				socionics: "Mobilizing",
 				desc: ["Attitude felt as too easy to over-indulge."]
 			},
 			{
@@ -871,7 +899,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				],
 			],
 			[
-				"Prodigal", 
+				"Machiavel", 
 				"ONPA",
 				"A pragmatic & shameless machievellian, peacocking their influence & wealth over others. A seemingly foolish & playful creature who treats every interaction as a competition, and they always need to win.",
 				[
@@ -1266,26 +1294,6 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			return newCode.join("");
 		}
 		
-		const CodeLabelPrototype = {
-			label: "",
-		
-			name() {
-				if("socionics" in this) {
-					return this.socionics;
-				}
-				
-				return this.label;
-			},
-
-			nameHTML() {
-				if("socionics" in this) {
-					return "<span class='default-label'>" + this.label + "</span><span class='socionics-label'>" + this.socionics + "</span>";
-				}
-				
-				return this.label;
-			}
-		};
-		
 		let missingSocionicsLabels = new Set();
 		
 		function createCodeLabelWithKey(key, codeArr, label) {
@@ -1546,7 +1554,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabel("SNFA", {
 				label: "Tangential",
 				desc: [
-					"Roping oneself & others into silly, speculative or mutually foolish schemes, personas, structures & behaviour.",
+					"Roping oneself & others into silly, speculative or mutually \"foolish\" schemes.",
 					"Exploring light-hearted ideas amongst others. Bringing up or pointing out new possibilities to the table. Drumming up excitement over them.",
 					{
 						"Viktor Gulenko - +I": [
@@ -2887,7 +2895,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabelArr(parasiticalKeyArr, {
-				label: "Parasitical",
+				label: "Parasitic",
 				socionics: "Beta",
 				desc: [
 					"Ecosystem is implicitly reliant on the strong thriving at the expense of the weak.",
@@ -3936,7 +3944,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				]
 			});
 			createCodeLabel("xxPR", {
-				label: "Contented",
+				label: "Appreciative",
 				socionics: "Introverted Sensing",
 				desc: [
 					"Enhancing the senses by lessening discomfort.",
@@ -6566,7 +6574,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["OCFR","OCPA","ONFA","ONPR"], {
 				label: "Sectarian",
 				desc: [
-					"Ordering or segregating society into a workable hierarchy of social orders.",
+					"Ordering or segregating society into a workable hierarchy of existing social orders.",
 					{
 						"Mironov - Our people (?)": []
 					}
@@ -6575,7 +6583,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			createCodeLabelArr(["SCFA","SCPR","SNFR","SNPA"], {
 				label: "Aristocratic",
 				desc: [
-					"Keeping to the social orders one is expected to be a part of.",
+					"Forming or joining social orders one feels to be most part of.",
 					{
 						"Mironov - Brothers (?)": []
 					}
@@ -8392,7 +8400,7 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				html += "<div class='popup-header-left'>";
 				
 				if('label' in from) {
-					html += "<h2>" + from.nameHTML() + "</h2>";
+					html += "<h2>" + getLabelNameHTML(from) + "</h2>";
 				}
 				
 				html += "</div><div class='popup-header-right'>";
@@ -8773,6 +8781,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 				doPopup(elem, label);
 			}
 			
+			function onClickAspect(elem) {
+				let label = functions[Number(elem.dataset.aspectkey)];
+				doPopup(elem, label);
+			}
+			
 			let html = "";
 			html += "<ul id='types-list' class='horiz-list'>";
 			for(let i = 0; i < types.length; i++) {
@@ -8810,16 +8823,16 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 					function drawEgo(attitude1, attitude2, title) {
 						let pairKey = groupCodes([attitude1, attitude2]);
 						let pair = codeLabels[pairKey];
-						let aspect1 = "??";
-						let aspect2 = "??";
+						let aspect1 = 0;
+						let aspect2 = 0;
 						
 						for(let i = 0; i < orderedAttitudes.length; i++) { 
 							if(orderedAttitudes[i] == attitude1) {
-								aspect1 = functions[i].label;
+								aspect1 = i;//functions[i].label;
 							}
 							
 							if(orderedAttitudes[i] == attitude2) {
-								aspect2 = functions[i].label;
+								aspect2 = i;//functions[i].label;
 							}
 						}
 
@@ -8829,11 +8842,11 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 								html += "<div class='clickable  ego-title subtitle onClickPopup' data-popupkey='" + pairKey + "'>" + pair.nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title onClickAspect'>" + aspect1 + "</div>";
+								html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect1 + "'>" + functions[aspect1].label + "</div>";
 								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude1) + "'>" + getCodeLabel(attitude1).nameHTML() + "</div>";
 							html += "</div>";
 							html += "<div class='function'>";
-								html += "<div class='clickable model-aspect title'>" + aspect2 + "</div>";
+								html += "<div class='clickable model-aspect title onClickAspect' data-aspectkey='" + aspect2 + "'>" + functions[aspect2].label + "</div>";
 								html += "<div class='clickable attitude-title subtitle onClickPopup' data-popupkey='" + groupCode(attitude2) + "'>" + getCodeLabel(attitude2).nameHTML() + "</div>";
 							html += "</div>";
 						html += "</div>";
@@ -9230,6 +9243,10 @@ https://www.youtube.com/watch?v=wWr2w5C_b7Q
 			
 			addEvent("onClickPopup", function(a) {
 				onClickPopup(a.target);
+			});
+			
+			addEvent("onClickAspect", function(a) {
+				onClickAspect(a.target);
 			});
 			
 			addEvent("onClickWorkingTitle", function(a) {
